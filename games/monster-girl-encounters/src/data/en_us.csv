@@ -1,0 +1,927 @@
+1x,1x,UI – Resolution
+2x,2x,UI – Resolution
+3x,3x,UI – Resolution
+4x,4x,UI – Resolution
+Key,Text,Notes
+alchemical_orb_description,<color=enterencounter>Ao entrar em encontro:</color> Ganhe <var=amount>% (ou pelo menos 1 de ouro) de juros sobre o seu ouro.,
+alchemical_orb_name,Orbe Alquímico,
+amulet_of_avarice_description,<color=ondestroy>Ao destruir <var=remaining> (<var=amount>) itens:</color> Ganhe 1 linha de inventário até o máximo de 10.,
+amulet_of_avarice_name,Amuleto da Avareza,
+audio_label,[ Áudio ],UI – Settings
+bag_of_toys_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.
+
+<color=enterbattle>Ao iniciar batalha:</color> Aumenta a exaustão causada em +<var=increase>.",
+bag_of_toys_name,Saco de Brinquedos,
+basket_description,"<color=onpump>A cada ciclo:</color> Se estiver na última linha, causa +<var=exhaustion> de exaustão.",
+basket_name,Cesta de Piquenique,
+battle_loss,"Após quase ser drenado até a morte, você consegue escapar. No caminho de volta ao túnel principal, você encontra algumas moedas!",
+binding_ropes_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.
+
+<color=enterbattle>Ao iniciar batalha de elite:</color> Aumenta a exaustão causada em +<var=increase>.",
+binding_ropes_name,Cordas de Amarração,
+black_card_description,"<color=always>Sempre:</color> Reduz o custo de rolar novamente na loja em <var=reduce>%. Aumenta a sorte em +<var=luckIncrease>.
+
+<color=entershop>Ao entrar na loja:</color> O primeiro item comprado é gratuito.",
+black_card_name,Cartão Black,
+blessed_herbs_description,"<color=onpump>A cada ciclo:</color> Se você tiver pelo menos <var=amount> espaços vazios no inventário, multiplica a exaustão causada por x<var=modifier>.",
+blessed_herbs_name,Ervas Abençoadas,
+bloodgem_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.
+
+<color=enterbattle>Ao iniciar batalha:</color> Consome o item acima deste para aumentar a exaustão causada em +<var=increase>.",
+bloodgem_name,Gema de Sangue,
+bone_description,"Com sorte, não pertenceu a um humano.",
+bone_name,Osso,
+bottomless_bag_of_toys_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.
+
+<color=enterbattle>Ao iniciar batalha:</color> Aumenta a exaustão causada em +<var=increase>.
+
+<color=entershop>Ao entrar na loja:</color> Redefine os ganhos de exaustão.",
+bottomless_bag_of_toys_name,Saco Sem Fundo de Brinquedos,
+boulder_description,<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.,
+boulder_name,Pedregulho,
+breeding_progress,"Cruzamento em
+Andamento",Lose Battle Text
+broken_doll_description,Apenas uma boneca abandonada com cabelos prateados e olhos vermelhos.,
+broken_doll_name,Boneca Quebrada,
+buff_slime_description,"<color=enterbattle>Ao iniciar batalha:</color> Copia um buff aleatório pelo restante da batalha. O buff será ativado quando este item for ativado.
+
+<color=always>Copiando Atualmente:</color> <var=current>.",
+buff_slime_name,Slime Bombado,
+build_clear_button,Clear All,UI
+build_crafter_title,Build Crafter,UI
+build_gold_label,Gold:,UI
+build_start_button,Start Journey,UI
+canteen_description,<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.,
+canteen_name,Cantil,
+chaotic_orb_description,<color=enterbattle>Ao iniciar batalha:</color> Destrói um item aleatório para multiplicar a exaustão de todos os outros itens por x<var=modifier>.,
+chaotic_orb_name,Orbe Caótico,
+chromatic_aberration,Aberração Cromática,UI – Settings
+close_button,Fechar,UI
+collection_button,Coleção,UI
+combines_with,Combina:,Item Combinations
+compass_description,<color=always>Sempre:</color> Modifica a exaustão causada por itens na mesma coluna em +<var=modifier>.,
+compass_name,Bússola,
+confirm_button,Confirmar,UI
+confirm_resolution,Manter as configurações de resolução?,UI - Settings
+continue_run,Continue,UI
+contract_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão, aumentando em +<var=increase> por valor em ouro de todos os itens no seu inventário.",
+contract_name,Contrato,
+copy_seed,Copy,UI
+coupon_description,<color=always>Sempre:</color> Reduz os preços da loja em <var=amount>%.,
+coupon_name,Cupom,
+credits_body,"Monster Girl Encounters is an original game created by Reine Soft.\nThis fan mod adds QoL improvements, translations, and endless mode.",UI
+credits_continue,Continue,UI
+credits_title,Credits,UI
+crt_strength,Intensidade do CRT,UI – Settings
+cursed_charm_description,"<color=onpump>A cada ciclo:</color> Causa +<var=amount> de exaustão.
+
+<color=always>Sempre:</color> Reduz a sorte em -<var=decrease>.",
+cursed_charm_name,Amuleto Amaldiçoado,
+custom_seed,inserir seed,UI – Intro
+cycle_perk_bag,+1 Backpack Row,UI
+cycle_perk_bag_desc,Permanently adds 4 item slots.,UI
+cycle_perk_gold,Cycle Gold,UI
+cycle_perk_gold_desc,"Immediately grants 1,000 gold.",UI
+cycle_perk_life,+1 Max Life,UI
+cycle_perk_life_desc,Increases max lives and restores 1 life.,UI
+cycle_perk_luck,+5 Luck,UI
+cycle_perk_luck_desc,Increases shop rare item chances.,UI
+cycle_reward_title,Cycle Completed Reward,UI
+cyclops_battle_1,"Ahhn～! Você é o primeiro humano com quem já estive, mas acho que você é o meu par perfeito!",
+cyclops_battle_2,Eu tô amando isso taaanto～ Você também tá se sentindo bem?,
+cyclops_battle_3,Haah～,
+cyclops_battle_4,"Consigo sentir o seu tronco pulsando mais forte! Você deve estar quase lá, né?",
+cyclops_battle_5,"Vamos, não se segure. Me dê <color=accent>tudo</color> o que você tem～",
+cyclops_description,"Gigantes de um olho só dotadas de força titânica e apetite insaciável. Embora pareçam intimidadoras, muitas vezes são desajeitadas e tratam parceiros humanos como bichinhos de pelúcia que adoram apertar e sugar até o esgotamento.",
+cyclops_intro_1,》O chão estremece a cada passo pesado que ecoa pela caverna.,
+cyclops_intro_10,"Essas calças parecem um pouco mais apertadas do que antes... Se não se importar, que tal <color=accent>tirar a roupa</color> e vir um pouquinho mais perto～",
+cyclops_intro_2,"》Uma figura colossal de um olho só surge em seu caminho, carregando uma clava imensa.",
+cyclops_intro_3,》A giganta abaixa o olhar curioso e avista você minúsculo no chão.,
+cyclops_intro_4,Oohh? O que temos aqui? Um humano tão pequenininho e fofo!,
+cyclops_intro_5,Você é tão minúsculo! Parece um brinquedinho!,
+cyclops_intro_6,Mas olha só para o meio das suas pernas... isso não é nada pequeno～,
+cyclops_intro_7,Deixa a grandona aqui cuidar bem de você!,
+cyclops_intro_8,"Você deve ter nojo do meu olho, né? Os humanos sempre saem correndo apavorados quando veem alguém como eu.",
+cyclops_intro_9,Por que você não tá correndo? S-será que você não se importa? Isso me deixa tão feliz...,
+cyclops_loss_1,"Uau, você me <color=accent>encheu</color> taaanto～",
+cyclops_loss_2,"Você ainda aguenta continuar, né? Eu quero fazer você se sentir <color=accent>ainda melhor</color>...",
+cyclops_loss_3,"》Sem esperar pela sua resposta, ela continua quicando para cima e para baixo em puro frenesi.",
+cyclops_loss_4,Você deve ser a minha <color=accent>alma gêmea</color>. A gente é tão compatível～,
+cyclops_loss_5,"Ah, tá tentando se segurar por minha causa? Não esquenta com isso, goze o quanto quiser!",
+cyclops_loss_6,Viu só? Não foi uma <color=accent>delícia</color>?,
+cyclops_loss_7,Espero que não esteja exausto ainda. Quero te dar o meu amor <color=accent>a noite inteirinha</color>...,
+cyclops_name,Ciclope,
+cyclops_win_1,"E aí, como foi? Você se sentiu tão bem quanto eu esperava～?",
+cyclops_win_2,"Mesmo com esse meu olho esquisito, você é tão carinhoso comigo...",
+cyclops_win_3,"Talvez a gente tenha nascido para ser almas gême-? Hah, deixa pra lá. Imagino que queira explorar mais antes de sossegar com alguém.",
+cyclops_win_4,"Você sempre será bem-vindo aqui, pequenino. Boa sorte na sua jornada～",
+cyclops_win_5,"Se você quiser, claro. Quem sabe, quando não estiver ocupado, a gente possa se <color=accent>conhecer</color> um pouquinho melhor.",
+cyclops_win_6,Espero ver você de novo～,
+dandelion_bouquet_description,"<color=onpump>A cada ciclo:</color> Se este item for o único em sua linha, causa +<var=exhaustion> de exaustão.",
+dandelion_bouquet_name,Buquê de Dente-de-Leão,
+dated_certificate_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.
+
+<color=entershop>Ao entrar na loja:</color> Reduz o multiplicador em -<var=decrease>.",
+dated_certificate_name,Certificado Antigo,
+determination_description,"<color=always>Duração:</color> <var=remaining> batalhas.
+
+<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.",
+determination_name,Determinação,
+disableGoalVisuals,Desativar Visuais Laterais,
+disable_dialogue_sound,Desativar Sons de Diálogo,
+doll_description,"<color=losebattle>Ao perder batalha:</color> Evita a perda de uma vida, destruindo este item no processo.",
+doll_name,Boneca,
+drag_to_sell,Arraste Aqui para Vender,UI – Shop
+ectoplasmic_slime_description,"<color=entershop>Ao sair da loja:</color> Ativa-se, fazendo seu inventário sempre parecer cheio.
+
+<color=onpump>A cada ciclo:</color> Quando ativo, reativa todos os itens antes deste.",
+ectoplasmic_slime_name,Slime Ectoplasmático,
+effect_volume,Volume dos Efeitos,UI – Settings
+encounters_button,Monster Girl Gallery,UI – Collection
+ending_1,Mais uma garota-monstro conquistada.,
+ending_2,Talvez você finalmente encontre algum tempo para descansar...,
+ending_3,Mas parece que as outras já alcançaram você.,
+ending_4,Só mais algumas rodadas...,
+endless_classic_desc,Start fresh with 10 gold and 1 starter item. See how far you can survive.,UI
+endless_classic_name,Endless Journey,UI
+endless_mode,Infinito,Game Modes
+endless_mode_button,Endless Mode,UI
+endless_mode_description,"Jogue infinitamente, com um chefe no nível 10. Perca no andar 11+ para vencer.",Game Modes
+endless_sandbox_desc,"Freely assemble your build with live backpack expansion, configure gold, and test wild synergies.",UI
+endless_sandbox_name,Build Crafter,UI
+enter_custom_seed,Seed Personalizada:,UI – Intro
+epp_description,Exaustão por ciclo (EPP) - Exaustão causada aos monstros a cada ciclo por meio do seu inventário.,Inventory
+fairies_battle_1_1,<color=557687>A água fresca aumenta a sensibilidade da sua pele...</color>,Sylph
+fairies_battle_1_2,<color=A36262>E o calor das minhas chamas faz você arder por dentro!</color>,Salamander
+fairies_battle_1_3,<color=807138>O vento suave sopra contra a sua glande a cada movimento...</color>,Sylph
+fairies_battle_1_4,<color=63782D>E eu aperto com a força da própria terra!</color>,Gnome
+fairies_battle_1_5,<color=557687>Você está aguentando muito bem...</color>,Undine
+fairies_battle_1_6,<color=A36262>Mas o seu fôlego não vai durar muito contra nós quatro!</color>,Salamander
+fairies_battle_1_7,"<color=807138>Isso, bata seus quadris com mais força!</color>",Sylph
+fairies_battle_2_1,<color=557687>Mal consigo passar meus braços ao redor dessa coisa gigante...</color>,Undine
+fairies_battle_2_10,<color=557687>2...</color>,Undine
+fairies_battle_2_11,<color=63782D>1!</color>,Undine
+fairies_battle_2_2,<color=63782D>E ele tá empurrando a ponta contra mim com tanta força～</color>,Gnome
+fairies_battle_2_3,"<color=557687>Você deve estar ainda mais sensível do que antes. A cada movimento meu, você treme como se fosse explodir em cima de nós de novo.</color>",Undine
+fairies_battle_2_4,"<color=63782D>Você acabou de gozar antes, então segure um pouco mais...</color>",Gnome
+fairies_battle_2_5,"<color=807138>Mmmn... É, você vai ter que se esforçar mais para nos satisfazer～</color>",Sylph
+fairies_battle_2_6,<color=A36262>Haah... não pare ainda...</color>,Salamander
+fairies_battle_2_7,"<color=557687>Segure, segure firme～</color>",Undine
+fairies_battle_2_8,<color=63782D>Ainda não～</color>,Gnome
+fairies_battle_2_9,<color=807138>3...</color>,Undine
+fairies_battle_2_9a,<color=A36262>4...</color>,
+fairies_description,"As quatro governantes espirituais da caverna: Sylph, Salamander, Undine e Gnome. Juntas, elas testam todo aventureiro que alcança as profundezas do seu domínio. Aqueles que não suportarem o teste elemental combinado se tornam brinquedos eternos do seu harém.",
+fairies_intro_1,》Você chega a um santuário deslumbrante iluminado por cristais gigantescos de quatro cores elementais.,
+fairies_intro_10,"<color=807138>Você pode ser impressionante com essa coisa enorme e pulsante... e esse vigor sem fim, mas...</color>",Sylph
+fairies_intro_11,<color=557687>Mnn... ele é bem impressionante mesmo.</color>,Undine
+fairies_intro_12,"<color=807138>Vamos equilibrar as coisas, e aí sim veremos quão forte você realmente é～</color>",Sylph
+fairies_intro_13,》Ela acena a mão flutuando bem perto do seu peito. Você sente uma pontada aguda.,
+fairies_intro_14,<color=807138>Com certeza você não precisará de vidas extras ou ajuda para sobreviver a pequenas fadas como nós.</color>,Sylph
+fairies_intro_15,"》Seus corações de vida foram reduzidos a um, e não podem mais ser recuperados durante este confronto!",
+fairies_intro_16,"<color=557687>Ahn- tão duro! Você tá ficando animada demais, Sylph...</color>",Undine
+fairies_intro_17,"<color=807138>Vamos ensinar a este humano que tipo de prazer nós, as fadas, somos capazes de proporcionar～</color>",Sylph
+fairies_intro_2,》Quatro presenças familiares flutuam em círculo diante de você.,
+fairies_intro_3,<color=63782D>Olha só quem chegou até aqui!</color>,Salamander
+fairies_intro_4,<color=557687>Você realmente conseguiu sobreviver a todos os perigos...</color>,Gnome
+fairies_intro_5,"<color=807138>Nós estamos impressionadas, humano.</color>",Salamander
+fairies_intro_6,<color=A36262>Mas agora vem o teste final～ Você terá que nos satisfazer a todas de uma vez!</color>,Gnome
+fairies_intro_7,<color=63782D>Vamos ver se você realmente merece o título de conquistador das garotas-monstro!</color>,Salamander
+fairies_intro_8,<color=63782D>Mas ele é só um humano comum... N-não tem como ele passar por nós quatro...</color>,Gnome
+fairies_intro_9,<color=807138>Não comecem a brincadeira sem mim!</color>,Sylph
+fairies_loss_1_1,"<color=63782D>Ahhh, já perdeu o controle?!</color>",Gnome
+fairies_loss_1_10,<color=63782D>D-de novo?!</color>,Gnome
+fairies_loss_1_11,<color=A36262>Ele não tem mais salvação a essa altura...</color>,Salamander
+fairies_loss_1_12,"<color=557687>Prepare-se, vamos colocar esse pauzinho inútil para trabalhar muito mais.</color>",Undine
+fairies_loss_1_13,<color=807138>Vamos descobrir se ele realmente tem a quantidade infinita de vigor que esperávamos!</color>,Sylph
+fairies_loss_1_2,<color=557687>Esperávamos muito mais de você...</color>,Undine
+fairies_loss_1_3,"<color=807138>Tanto alvoroço, e você não aguentou nem uma rodada sequer...</color>",Sylph
+fairies_loss_1_4,<color=A36262>Acho que vamos ter que forçá-lo a nos dar o que queremos～</color>,Salamander
+fairies_loss_1_5,"<color=63782D>Você já está tremendo tanto, esse seu pauzinho masoquista vai espirrar mais jatos de porra na gente?</color>",Gnome
+fairies_loss_1_6,<color=557687>Ele deve adorar ser provocado...</color>,Undine
+fairies_loss_1_7,<color=807138>Talvez tenhamos pegado pesado demais com ele.</color>,Sylph
+fairies_loss_1_8,<color=A36262>Ou talvez devêssemos castigá-lo muito mais～</color>,Salamander
+fairies_loss_1_9,<color=63782D>Humano inútil～</color>,Gnome
+fairies_loss_2_1,<color=63782D>Mais...</color>,Gnome
+fairies_loss_2_10,<color=807138>Uau!</color>,Sylph
+fairies_loss_2_11,<color=557687>Você é nosso agora.</color>,Undine
+fairies_loss_2_12,<color=63782D>Vamos continuar sem parar～</color>,Gnome
+fairies_loss_2_2,》As fadas olham para você com fome nos olhos.,
+fairies_loss_2_3,<color=557687>Você soltou tanto...</color>,Undine
+fairies_loss_2_4,"<color=807138>Você quer continuar, não é?</color>",Sylph
+fairies_loss_2_5,<color=A36262>Podemos testar essa sua resistência até o limite extremo～</color>,Salamander
+fairies_loss_2_6,<color=807138>Como você conseguiu soltar ainda mais do que antes?</color>,Sylph
+fairies_loss_2_7,<color=63782D>Incrível～</color>,Gnome
+fairies_loss_2_8,<color=A36262>Deve ser maravilhoso soltar todo esse leite espesso repetidas vezes com o corpo tão sensível～</color>,Salamander
+fairies_loss_2_9,"<color=557687>Nós não vamos parar, humano.</color>",Undine
+fairies_name,Fadas Elementais,
+fairies_win_1_1,<color=A36262>Inacreditável... você jorrou tanta essência em nós...</color>,Salamander
+fairies_win_1_10,<color=A36262>Viu só? Vale a pena não esconder seus desejos. Agora este humano pode te mostrar todo o prazer que você estava perdendo～</color>,Salamander
+fairies_win_1_11,<color=63782D>Tenho certeza de que eu aguento tudinho...</color>,Gnome
+fairies_win_1_12,<color=557687>Esse pau incansável nem sequer amoleceu depois de gozar tanto...</color>,Undine
+fairies_win_1_13,<color=807138>Isso só significa que teremos que continuar! Vamos ordenhar jato após jato dele até que ele finalmente fique satisfeito～!</color>,Sylph
+fairies_win_1_2,<color=557687>Estamos todas encharcadas com a sua semente...</color>,Sylph
+fairies_win_1_3,<color=807138>Você realmente possui um vigor lendário.</color>,
+fairies_win_1_4,<color=63782D>Mas a gente ainda quer mais! Não pense que acabou tão fácil!</color>,Sylph
+fairies_win_1_5,<color=A36262>Vamos para a segunda rodada～!</color>,Salamander
+fairies_win_1_6,"<color=807138>Gnome e Undine parecem estar no limite também, vamos trocar de posição!</color>",Sylph
+fairies_win_1_7,"》As fadas deslizam ao redor do seu membro hipersensível, garantindo que você sinta cada pequeno movimento.",
+fairies_win_1_8,"<color=557687>Eu estava tão perto de gozar com o seu dedo, mas você teve que esguichar em cima da gente antes que eu terminasse...</color>",Undine
+fairies_win_1_9,"<color=63782D>E-eu passei o dia inteiro me masturbando só de pensar nisso, é bom você não me decepcionar!</color>",Gnome
+fairies_win_2_1,"<color=63782D>De novo, tanto leite～</color>",Gnome
+fairies_win_2_10,<color=63782D>A-ahnn～ Você tá esfregando tanto em mim com esse pauzão...</color>,Gnome
+fairies_win_2_11,<color=807138>Vai cobrir a gente com jatos de porra grossa de novo～?</color>,Sylph
+fairies_win_2_12,<color=A36262>Incrível...</color>,Salamander
+fairies_win_2_13,<color=557687>Essa libido sem fim dele é irresistível～</color>,Undine
+fairies_win_2_14,<color=63782D>Você quer continuar?</color>,Gnome
+fairies_win_2_15,"<color=807138>Hehe, vamos nos divertir muito daqui pra frente～</color>",Sylph
+fairies_win_2_2,<color=557687>Ele realmente tem uma resistência infinita...</color>,Undine
+fairies_win_2_3,<color=A36262>Você cobriu a gente com ainda mais sêmen da segunda vez～ Você é incansável mesmo.</color>,Salamander
+fairies_win_2_4,"<color=807138>Você vai ficar bem ocupado a partir de agora, humano～</color>",Sylph
+fairies_win_2_5,<color=63782D>Vamos brincar um pouco mais com ele primeiro!</color>,Gnome
+fairies_win_2_6,"<color=A36262>Você conseguiu conquistar todas as outras garotas-monstro, e agora adicionou a gente ao seu harém～</color>",Salamander
+fairies_win_2_7,<color=807138>Aposto que manter todas nós satisfeitas não vai ser problema nenhum～</color>,Sylph
+fairies_win_2_8,<color=63782D>Ele é uma verdadeira besta...</color>,Gnome
+fairies_win_2_9,<color=557687>E nós teremos que deixá-lo plenamente satisfeito como recompensa～</color>,Undine
+film_grain,Granulação de Filme,UI – Settings
+fullscreen,Tela Cheia,UI – Resolution
+game_over,Talvez na próxima...,UI – Ending
+game_win,Obrigado por jogar!,
+gameplay_label,[ Jogabilidade ],UI – Settings
+gardening_gloves_description,<color=enterbattle>Ao iniciar batalha:</color> Você encontra uma pedra e a adiciona ao seu inventário.,
+gardening_gloves_name,Luvas de Jardinagem,
+gem_of_consumption_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.
+
+<color=enterbattle>Ao iniciar batalha:</color> Se o item abaixo deste for de raridade incomum ou superior, consome o item para aumentar o multiplicador em +<var=increase>.",
+gem_of_consumption_name,Gema do Consumo,
+gnome_1,》Você chega a um beco sem saída coberto de areia. Um orbe brilhante flutua sobre uma plataforma no centro da sala.,
+gnome_10,"Eu vou-<pause=0.3> quer dizer, minhas irmãs estarão ansiosas pelo restante da sua jornada...",
+gnome_11,》A fada desaparece no solo com uma expressão visivelmente embaraçada.,
+gnome_2,"》Conforme se aproxima do orbe, você ouve uma voz repreensiva.",
+gnome_3,C-como você conseguiu encontrar o meu esconderijo?!,
+gnome_4,》Uma fada da terra aparece subitamente diante de você!,
+gnome_5,"Esse orbe é precioso, tome muito cuidado perto dele!",
+gnome_6,Minhas irmãs estão muito <color=accent>interessadas</color> no seu progresso por estas cavernas.,
+gnome_7,"Eu não gostaria de ver você fracassar,<pause=0.3> não que eu me importe muito com você nem nada disso! Só não quero ver minhas irmãs desapontadas.",
+gnome_8,Vou lhe dar a minha bênção de sorte.,
+gnome_9,"Seja muito grato por isso, eu não ajudo qualquer um que passa por aqui!",
+gnome_description,<color=onpump>A cada ciclo:</color> <var=amount>% de chance de reativar todos os itens. A chance é afetada pela sorte.,
+gnome_name,Bênção do Gnomo,
+goal_double,Em Dobro!,
+goal_triple,Em Triplo!,
+goblin_battle_1,Entra tudo! O meu útero de goblin cabe tudinho!,
+goblin_battle_2,"Aiii, você é tão grosso! Quase me rasga toda!",
+goblin_battle_3,"Bate mais fundo, humano! Isso, assim mesmo!",
+goblin_battle_4,Continua me bombeando com esse seu <color=accent>pau enorme</color>!,
+goblin_battle_5,Gaaah! Eu vou engravidar hoje com certeza!,
+goblin_battle_6,"E-eu vou gozar! N-não, eu não posso, ahhn～, perder! Se eu gozar eu perco～! Tô gozando! Tô gozando! <color=accent>Goozaaando～</color>!",
+goblin_description,"Pequenas, travessas e insanamente taradas. As goblins vivem em bandos e estão sempre à caça de aventureiros para capturar e drenar. São brincalhonas, atrevidas e adoram humilhar parceiros mais fracos.",
+goblin_intro_1,》Risadinhas estridentes ecoam pelos túneis estreitos.,
+goblin_intro_10,"Nossos corpinhos pequenos são <color=accent>tão～ práticos</color>, você não acha?",
+goblin_intro_11,Você pode carregar a gente no colo enquanto nos <color=accent>engravida</color> o quanto quiser～,
+goblin_intro_12,"Você por acaso não seria um daqueles caras tarados por <color=accent>goblins</color>, seria?",
+goblin_intro_13,Mas já vou avisando: nós goblins somos notoriamente difíceis de <color=accent>satisfa-</color>,
+goblin_intro_14,<pause=0.5>O quê?! É-é um pouco<pause=0.3> <color=accent>maior</color><pause=0.3> do que eu esperava...,
+goblin_intro_15,Hã? V-você nem tá <color=accent>completamente duro</color> ainda?! Hum...,
+goblin_intro_16,"A-aposto que é só para impressionar, né? Haah... Não tem <color=accent>como</color> você-",
+goblin_intro_2,"》Uma garota goblin salta do teto, pousando diretamente na sua frente com um sorriso malicioso!",
+goblin_intro_3,Ehehehe! Olha só quem caiu na nossa armadilha!,
+goblin_intro_4,Um aventureiro com um pauzão enorme bem na minha frente!,
+goblin_intro_5,As outras garotas vão morrer de inveja quando virem o que eu capturei!,
+goblin_intro_6,"Agora você é todinho meu, humano gostoso!",
+goblin_intro_7,"Olha só para você, todo duro e babando～",
+goblin_intro_8,Goblins adoram machos humanos fortes e bem-dotados como você!,
+goblin_intro_9,Deite-se agora mesmo e me engravide logo!,
+goblin_loss_1,"Gahaha! Já secou, humano frangote?!",
+goblin_loss_10,"Vou ter que continuar <color=accent>treinando</color> esse <color=accent>pauzinho mole</color> até ele aprender! Nada de dormir esta noite, humano～",
+goblin_loss_2,"Você fala grosso, mas não aguenta nem dez minutinhos com uma goblin!",
+goblin_loss_3,Vou chamar minhas irmãs para se revezarem em cima de você!,
+goblin_loss_4,Vamos ordenhar esse pauzinho até você desmaiar de exaustão!,
+goblin_loss_5,"Grita de prazer para mim, seu escravo de goblin!",
+goblin_loss_6,Uwaah! Tão grosso e quente... tá escorrendo por toda parte!,
+goblin_loss_7,Vou te manter amarrado na minha caverna como meu brinquedo reprodutor pessoal!,
+goblin_loss_8,"Você vai ter que gozar dentro de mim todos os dias, entendeu?!",
+goblin_loss_9,Fraquinho～ Fraquinho～,
+goblin_name,Goblin,
+goblin_win_1,Haah～ Haah～ É tanto leitinho...,
+goblin_win_2,Está <color=accent>escorrendo</color> para fora da minha barriguinha...,
+goblin_win_3,V-você venceu...,
+goblin_win_4,"》A goblin continua pendurada no seu membro, tremendo em puro êxtase.",
+goblin_win_5,》Você a coloca descansando no chão e aproveita para prosseguir pelo túnel.,
+golden_bracelet_description,<color=ondestroy>Ao destruir item:</color> Ganhe <var=amount> de ouro.,
+golden_bracelet_name,Bracelete Dourado,
+golden_elixir_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>, aumentando em +<var=increase> por ouro que você possui.",
+golden_elixir_name,Elixir Dourado,
+golden_idol_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão, aumentando em +<var=increase> por ouro que você possui.",
+golden_idol_name,Ídolo Dourado,
+golden_scroll_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>, aumentando em +<var=increase> por valor em ouro de todos os itens no seu inventário.",
+golden_scroll_name,Pergaminho Dourado,
+golden_slime_description,<color=sell>Ao vender item:</color> <var=chance>% de chance de duplicar um item aleatório no seu inventário.,
+golden_slime_name,Slime Dourado,
+graphics_label,[ Gráficos ],UI – Settings
+gravel_description,Você mal consegue segurar nas mãos.,
+gravel_name,Cascalho,
+ground_horn_description,"<color=always>Sempre:</color> Multiplica a exaustão causada por itens na diagonal deste por x<var=modifier>.
+
+<color=enterbattle>Ao iniciar batalha:</color> Aumenta o multiplicador em +<var=increase>.",
+ground_horn_name,Chifre Moído,
+growing_strength_description,"<color=always>Duração Restante:</color> <var=duration>.
+
+<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.
+
+<color=enterbattle>Ao iniciar batalha:</color> Aumenta o multiplicador em +<var=increase>.
+
+<color=losebattle>Ao sair da batalha:</color> Reduz a duração em 1.",
+growing_strength_name,Força Crescente,
+half_slime_description,<color=onpump>A cada ciclo:</color> Reativa o efeito 'A cada ciclo' do item à esquerda deste.,
+half_slime_name,Meio Slime,
+handful_of_seeds_description,"<color=enterbattle>Ao iniciar batalha:</color> Se a primeira linha do seu inventário estiver vazia, cria itens comuns temporários para preencher os espaços.",
+handful_of_seeds_name,Punhado de Sementes,
+hotspring_1,"》Você encontra uma grande terma subterrânea, com piscinas separadas de várias cores.",
+hotspring_10,Talvez a gente deva continuar lá dentro da banheira.,
+hotspring_11,》Em qual banho termal você deseja entrar?,
+hotspring_2,》A maioria das piscinas parece ocupada por monstros. Você decide se afastar discretamente...,
+hotspring_3,》Mas algumas garotas com chifres notam você rapidamente!,
+hotspring_4,"Qual é o problema, humano? Tem tanto medo de oni assim?",
+hotspring_5,"Deveria se juntar a nós, a festa mal começou!",
+hotspring_6,Venha cá provar a água quentinha!,
+hotspring_7,"E aí, como tá? Gostando de ser lavado por duas garotas lindas?",
+hotspring_8,"Ele parece estar adorando demais, olha como essa coisa dura tá pressionando contra mim.",
+hotspring_9,"Você tem costas bem largas para um humano, quase do tamanho de um oni!",
+hotspring_choice_1,Entrar na água,
+hotspring_choice_2,Recusar educadamente,
+hotspring_iron_1,》Você entra na terma ferruginosa com as duas garotas.,
+hotspring_iron_10,》Você sente o vigor retornar com força total ao seu corpo.,
+hotspring_iron_2,》A água é mais quente do que qualquer terma em que você já esteve na vida.,
+hotspring_iron_3,"》As duas garotas continuam mimando e acariciando você, mas o calor extremo é insuportável.",
+hotspring_iron_4,》Você decide sair da água após alguns minutos.,
+hotspring_iron_5,"》Antes de você partir, uma das garotas chama a sua atenção.",
+hotspring_iron_6,"Meio fraquinho, mas acho que humanos são assim mesmo...",
+hotspring_iron_7,"Tome isto aqui, quem sabe assim você aguenta um pouco mais na próxima vez～",
+hotspring_iron_8,》Ela lhe entrega a taça de bebida alcoólica da qual estava bebendo momentos atrás.,
+hotspring_iron_9,"》Incapaz de guardar a taça, você dá um longo gole e a devolve antes de deixar as termas.",
+hotspring_sulfur_1,》Você entra na terma de enxofre junto com a garota oni.,
+hotspring_sulfur_2,"》A água tem um forte cheiro mineral, mas seus músculos relaxam quase que instantaneamente.",
+hotspring_sulfur_3,"》A temperatura da água sobe rápido demais, e você decide sair após alguns minutos.",
+hotspring_sulfur_4,"Aaah, já acabou? É, acho que você é só um humano mesmo...",
+hotspring_sulfur_5,Venha nos visitar de novo em breve!,
+hotspring_sulfur_6,"》Apesar do banho curto, você sente que suas forças foram plenamente revigoradas.",
+hungry_slime_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>, aumentando em +<var=increase> por valor em ouro deste item.
+
+<color=enterbattle>Ao iniciar batalha:</color> Destrói os itens à esquerda e à direita deste, adicionando os valores em ouro deles a este item.",
+hungry_slime_name,Slime Faminto,
+imps_battle_1,<color=846897>Ele tá indo tão rápido!</color>,imp4
+imps_battle_10,"<color=557687>Vai, enche ela com quanta essência conseguir disparar～!</color>",imp2
+imps_battle_11,<color=63782D>Ahh! Ahhnn～! Ahh～!</color>,imp3
+imps_battle_2,"<color=557687>Nossa, ela ficou lelé da cuca depois que você<pause=0.3> enfiou esse troço nela...</color>",imp2
+imps_battle_3,<color=63782D>Ahnn ahnn aa～</color>,imp3
+imps_battle_4,<color=557687>Deve ser bom demais～</color>,imp2
+imps_battle_5,<color=AB5555>Mmm mmm～</color>,imp1
+imps_battle_6,<color=557687>Será que ele tem energia suficiente pra todas nós?</color>,imp2
+imps_battle_7,<color=63782D>Mnngg aahhnn ah～</color>,imp3
+imps_battle_8,<color=846897>Não sei se a gente vai aguentar...</color>,imp4
+imps_battle_9,<color=846897>Ele tá acelerando agora!</color>,imp4
+imps_description,"Demônios pequenos e curiosos que adoram pregar peças nos outros. Frequentemente encontrados em pequenos bandos, passam a maior parte do tempo procurando diversão e entretenimento.",
+imps_intro_1,》Você encontra uma área tranquila na caverna. Parece um bom lugar para descansar.,
+imps_intro_10,"<color=AB5555>Ei humano, por que essa sua coisa é tão grande?</color>",imp1
+imps_intro_11,<color=63782D>Talvez todos os humanos sejam assim.</color>,imp3
+imps_intro_12,》Você está cercado por um grupo de imps admirando fascinadas o seu membro ereto.,
+imps_intro_13,"<color=557687>Ouvi dizer que se você esfregar bastante, sai um monte de essência...</color>",imp2
+imps_intro_14,<color=63782D>Já tá até vazando um pouquinho～</color>,imp3
+imps_intro_15,<color=846897>Você pode dar um<pause=0.3> montão da sua essência pra gente～?</color>,imp4
+imps_intro_16,<color=AB5555>Por favooor～</color>,imp1
+imps_intro_17,<color=63782D>Eu quero ir primeiro!</color>,imp3
+imps_intro_18,"<color=557687>Eu que vi ele primeiro, devia ser eu!</color>",imp2
+imps_intro_19,<color=AB5555>Mas você só viu ele dormindo no cantinho...</color>,imp1
+imps_intro_2,》Você fecha os olhos por um momento...,
+imps_intro_20,"<color=846897>Ei, não vale!</color>",imp4
+imps_intro_3,<color=AB5555>O que é isso... é<pause=0.3> gigante!</color>,imp1
+imps_intro_4,<color=557687>Não tenho certeza se vai caber...</color>,imp2
+imps_intro_5,"<color=63782D>Fica<pause=0.3> tremendo sozinho, que nojinho gostoso～</color>",imp3
+imps_intro_6,<color=846897>Olha! Ele tá acordando!</color>,imp4
+imps_intro_7,》Você sente algo macio e pesado repousando sobre o seu corpo. Você começa a abrir os olhos...,
+imps_intro_8,<color=846897>Bom dia～</color>,imp4
+imps_intro_9,<color=557687>Tremeu de novo!</color>,imp2
+imps_loss_1,<color=63782D>Você me encheu até a boca～</color>,imp3
+imps_loss_10,<color=557687>Ninguém desiste até que todas estejam satisfeitas～</color>,imp2
+imps_loss_2,<color=AB5555>Agora é a minha vez!</color>,imp1
+imps_loss_3,<color=846897>Eu vou ajudar～</color>,imp4
+imps_loss_4,"<color=557687>Tenho certeza de que ele tem para todas nós, o pau dele continua duro feito pedra!</color>",imp2
+imps_loss_5,"<color=AB5555>Slurrrp, slurp, sluuurp～</color>",imp1
+imps_loss_6,<color=63782D>Acho que ele tá quase...</color>,imp3
+imps_loss_7,<color=AB5555>Eba!</color>,imp1
+imps_loss_8,<color=557687>Não desperdiça! Lambe até a última gotinha～</color>,imp2
+imps_loss_9,<color=846897>Faz comigo com esse seu<pause=0.3> pauzão<pause=0.3> agora～</color>,imp4
+imps_name,Imps,
+imps_win_1,<color=AB5555>Não para de escorrer～</color>,imp1
+imps_win_2,<color=63782D>Haah haah～</color>,imp3
+imps_win_3,"<color=557687>Você soltou tanto, deve ter sido<pause=0.3> incrível～</color>",imp2
+imps_win_4,<color=846897>Humanos dão até um pouco de medo...</color>,imp4
+imps_win_5,<color=AB5555>Você com certeza soltou o bastante pra todas nós!</color>,imp1
+imps_win_6,<color=557687>Com certeza foi porque eu torci muito por ele!</color>,imp2
+imps_win_7,<color=846897>Obrigada pelo lanchinho～</color>,imp4
+intro_1,Garotas-monstro...,
+intro_10,"Você decide atravessá-la, adentrando o reino dos monstros...",
+intro_2,"Devido ao desejo insaciável delas pela força vital humana, sempre lhe disseram para ficar longe. Ninguém jamais retornou vivo após entrar no lar delas.",
+intro_3,"Apesar disso, seu desejo por respostas supera os riscos. Com certeza você consegue sobreviver a algumas garotas-monstro vorazes.",
+intro_4,"E como tantos outros aventureiros antes de você, você adentra a caverna em busca de segredos.",
+intro_5,"Ao encontrar um rio subterrâneo bloqueando seu caminho, você decide dar meia-volta e continuar explorando.",
+intro_6,Mas você perde o equilíbrio em uma rocha e...,
+intro_7,Você escorrega.,
+intro_8,"E por pura sorte, ou talvez guiado por algo invisível, você é levado em segurança para as profundezas da caverna.",
+intro_9,"Uma enorme passagem surge diante de você, diferente de tudo o que já viu antes.",
+item_selection,Escolha <var=count> Itens,UI – Intro
+jester_hat_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>, aumentando em +<var=increase> para cada item único no seu inventário.",
+jester_hat_name,Chapéu de Bobo da Corte,
+king_crown_description,"<color=always>Sempre:</color> Todos os itens, exceto este, são considerados lixo.",
+king_crown_name,Coroa do Rei,
+language,Language:,UI
+language_english,English,UI
+language_portuguese,Portuguese,UI
+lantern_description,<color=always>Sempre:</color> Modifica a exaustão causada por itens adjacentes em +<var=modifier>.,
+lantern_name,Lanterna,
+leftovers_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.
+
+<color=onpump>A cada ciclo:</color> <var=chance>% de chance de ser destruído.",
+leftovers_name,Sobras,
+lifegem_description,<color=ondestroy>Ao destruir <var=remaining> (<var=amount>) itens:</color> Restaura uma vida até o máximo de 3.,
+lifegem_name,Gema da Vida,
+lorem_long,"Lorem ipsum dolor sit amet, consectetur adidiscing elit. Donec “accumsan” <color=ff0000>ipsum</color> sapien, vitae eleifend sem luctus eget. <pause=1>Duis vulputate dui est.",Testing
+lorem_medium,Lorem ipsum dolor sit amet,Testing
+lorem_short,Lorem,Testing
+luck,Sorte,
+lucky_clover_description,"<color=always>Sempre:</color> Aumenta a sorte em +<var=amount>, aumentando em +<var=increase> para cada espaço vazio no inventário.",
+lucky_clover_name,Trevo da Sorte,
+lusty_elixir_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>. Aumenta o multiplicador em +<var=increase>.
+
+<color=enterbattle>Ao iniciar batalha:</color> Redefine os multiplicadores.",
+lusty_elixir_name,Elixir da Luxúria,
+magic_box_description,"<color=onpump>A cada ciclo:</color> Se estiver adjacente a um item de lixo, consome esse item e causa <var=amount>% da exaustão total necessária da batalha.",
+magic_box_name,Caixa Mágica,
+mandragora_battle_1,Sinta o calor das minhas pétalas se apertando ao seu redor!,
+mandragora_battle_2,O meu néctar vai te deixar completamente viciado!,
+mandragora_battle_3,"Você não consegue resistir, não é? Apenas se entregue!",
+mandragora_battle_4,Isso! Despeje todo o seu adubo dentro de mim!,
+mandragora_battle_5,》A velocidade das mãos dela aumenta aos poucos. Você sente ondas de calor pulsando por todo o seu corpo.,
+mandragora_battle_6,Goze...,
+mandragora_description,Monstros do tipo planta que crescem enterradas em solo enriquecido com energia demoníaca. Conhecidas pelo pólen altamente afrodisíaco e pelo grito atordoante quando arrancadas da terra. Usam seus corpos floridos e úmidos para extrair néctar humano e fertilizar suas sementes.,
+mandragora_intro_1,》Você encontra um jardim subterrâneo repleto de flores exóticas e cogumelos luminosos.,
+mandragora_intro_10,Venha cá e fertilize as minhas raízes!,
+mandragora_intro_2,"》No centro do canteiro, uma pequena criatura com folhas na cabeça parece enterrada até a cintura.",
+mandragora_intro_3,》Você segura a criatura pelas folhas e a puxa para fora da terra!,
+mandragora_intro_4,"Kyyyaaaahhh! Solte-me, seu humano atrevido!",
+mandragora_intro_5,》Ela emite um grito estridente que reverbera por toda a caverna!,
+mandragora_intro_6,》O pólen que ela libera no ar tem um aroma incrivelmente doce e inebriante.,
+mandragora_intro_7,Você teve a audácia de me arrancar do meu solo fértil?!,
+mandragora_intro_8,Agora você vai pagar! O meu pólen vai fazer você arder de desejo até me implorar por alívio!,
+mandragora_intro_9,》Seu corpo aquece subitamente e você é dominado por uma ereção irresistível.,
+mandragora_loss_1,"Fufufu, já murchou tão rápido?",
+mandragora_loss_10,"》Conforme você goza de novo, a maciez e o calor da flor dela parecem envolver o seu corpo inteiro.",
+mandragora_loss_11,》Talvez você possa ficar assim só mais um pouquinho...,
+mandragora_loss_2,Humanos são tão frágeis... mas seu sêmen é um adubo maravilhoso!,
+mandragora_loss_3,Vou prender você nas minhas vinhas para sempre.,
+mandragora_loss_4,"Continue jorrando para mim, não pare nunca!",
+mandragora_loss_5,》Ela continua massageando o bulbo macio enquanto olha para você com um misto de gula e deleite.,
+mandragora_loss_6,Seu corpo agora pertence ao meu jardim～,
+mandragora_loss_7,》Você sente uma quantidade desumana de semente sendo espremida de você enquanto o bulbo macio e aveludado dela absorve cada jato que você libera.,
+mandragora_loss_8,Mais...,
+mandragora_loss_9,》O néctar doce que o alimenta continua a deixá-lo à beira de outro orgasmo.,
+mandragora_name,Mandrágora,
+mandragora_win_1,Ahhh... é demais... minhas folhas estão murchando de tanto prazer...,
+mandragora_win_2,Você me regou com tanta força vital que estou completamente saciada...,
+mandragora_win_3,Nunca pensei que um humano pudesse fazer uma mandrágora florescer desse jeito...,
+mandragora_win_4,Pode levar algumas das minhas sementes com você...,
+map_battle,Monstro,Map Tooltip
+map_boss,Monstro Chefe,Map Tooltip
+map_default,Entrada,Map Tooltip
+map_description,<color=always>Sempre:</color> Modifica a exaustão causada por itens na mesma linha em +<var=modifier>.,
+map_elite,Monstro de Elite,Map Tooltip
+map_name,Mapa Antigo,
+map_randomEncounter,Encontro Aleatório,Map Tooltip
+map_shop,Loja,Map Tooltip
+map_unknown,???,
+mini_slime_description,"<color=enterbattle>Ao iniciar batalha:</color> Copia um item aleatório pelo restante da batalha.
+
+<color=always>Copiando Atualmente:</color> <var=current>.",
+mini_slime_name,Mini Slime,
+mode_selection,Selecionar Modo de Jogo,UI – Intro
+multitool_description,<color=always>Sempre:</color> Modifica a exaustão causada por todos os itens em +<var=modifier>.,
+multitool_name,Canivete Multiuso,
+music_volume,Volume da Música,UI – Settings
+new_run,New Run,UI
+new_run_description,Start fresh. The saved run is cleared when a new one begins.,UI
+no_item,Nenhum,
+oni_killer_description,<color=onpump>A cada ciclo:</color> <var=chance>% de chance de reativar o item acima deste e todos os itens intermediários.,
+oni_killer_name,Matador de Oni,
+onikuma_battle_1,Você é bem mais resistente do que parece!,
+onikuma_battle_2,Vamos ver quanto tempo você aguenta os meus apertos!,
+onikuma_battle_3,"Isso, continua! Não para agora!",
+onikuma_battle_4,Seu pau é tão duro... me preenche tão bem!,
+onikuma_battle_5,Gaaah! Eu vou te espremer até não sobrar uma gota!,
+onikuma_battle_6,V-<pause=0.3>você tá indo mais rápido ainda?!<pause=0.5> Ooouuuggnn!,
+onikuma_battle_7,M-<pause=0.3>Mais rápido! Me faça a sua <color=accent>cadela de procriação</color>～!,
+onikuma_battle_8,E-<pause=0.3>eu vou gozar!,
+onikuma_description,"Monstros meio urso que habitam florestas e cavernas. Possuem uma força descomunal e um apetite voraz tanto por comida quanto pela essência de humanos machos. Apesar do temperamento selvagem, costumam ser brincalhonas e afetuosas após saciarem seus desejos.",
+onikuma_intro_1,》Você chega a uma área arborizada repleta de arbustos de frutas silvestres.,
+onikuma_intro_10,》A garota-urso salta na sua direção com um sorriso travesso!,
+onikuma_intro_11,"Por favor, não leve os outros ursos! E-<pause=0.3>eu fico no lugar deles. P-<pause=0.3>por favor, <color=accent>me use</color> o quanto quiser.",
+onikuma_intro_12,Prometa que vai ser gentil comigo...,
+onikuma_intro_2,"》Olhando ao redor, avista uma garota cantarolando enquanto procura frutas em um dos arbustos.",
+onikuma_intro_3,"》Conforme você se aproxima, a garota se vira e percebe sua presença.",
+onikuma_intro_4,Oh! Um humano! Fazia tanto tempo que eu não via um!,
+onikuma_intro_5,O que você está fazendo por aqui? Não sabe que é perigoso andar por essas cavernas sozinho?,
+onikuma_intro_6,Sorte sua ter me encontrado primeiro! Eu sou bem boazinha～,
+onikuma_intro_7,"Mas sabe... já que você está aqui, não quer me fazer um favorzinho?",
+onikuma_intro_8,Eu ando com tanta fome... e a força vital de um humano seria um lanchinho perfeito!,
+onikuma_intro_9,Prometo que vou ser gentil com você～,
+onikuma_loss_1,Já acabou? Mas eu mal comecei a me aquecer!,
+onikuma_loss_2,"Olha só para você, todo mole e sem fôlego...",
+onikuma_loss_3,Não vou deixar você ir embora tão fácil. Ainda tem muito de onde veio isso!,
+onikuma_loss_4,Vou continuar cavalgando em você até tirar até a última gota de leite!,
+onikuma_loss_5,"Isso mesmo, goze de novo para mim!",
+onikuma_loss_6,Você é meu brinquedinho agora～,
+onikuma_loss_7,<pause=1.5>Uma quantidade tão <color=accent>enorme</color><pause=0.3> mesmo depois de ter gozado tantas vezes...,
+onikuma_loss_8,Talvez eu deva te apresentar para as minhas <color=accent>irmãs</color> agora. Você pode <color=accent>procriar</color> com todas nós até o seu coração se fartar～ Vamos mantê-lo <color=accent>plenamente satisfeito</color><pause=0.3> de agora em diante...,
+onikuma_name,Onikuma,
+onikuma_win_1,Ufa... hah... você é inacreditável...,
+onikuma_win_2,Me deixou completamente sem forças... minhas pernas estão até tremendo...,
+onikuma_win_3,Você me encheu tanto que mal consigo me mexer.,
+onikuma_win_4,Pode passar... você ganhou de mim de verdade...,
+overall_volume,Volume Geral,UI – Settings
+paintbrush_description,<color=always>Sempre:</color> Aumenta o valor de todos os itens de lixo em +<var=amount>.,
+paintbrush_name,Pincel,
+paper_description,<color=onpump>A cada ciclo:</color> Aumenta o valor deste item em +<var=amount>.,
+paper_name,Papel,
+pink_slime_battle_1,Você prefere <color=accent>peitos</color>?,
+pink_slime_battle_2,Que tal...<pause=1> uma <color=accent>bundinha</color>?,
+pink_slime_battle_3,Eu posso mudar de forma para <color=accent>qualquer coisa</color> que desejar～,
+pink_slime_battle_4,Mas você é tão...<pause=0.3> ahnn～<pause=0.3> grande! Seu pau quase consegue tocar meu <color=accent>núcleo</color>.,
+pink_slime_battle_5,Mas será que seu <color=accent>vigor</color> aguenta esse seu<pause=0.3> <color=accent>tamanho enorme～</color><pause=1> Vamos descobrir!,
+pink_slime_choice_1,Beber,
+pink_slime_choice_2,Ir embora,
+pink_slime_description,"Comumente encontradas em águas paradas. As slimes são procuradas por seu corpo gelatinoso, valorizado por alguns por seus efeitos afrodisíacos extremamente potentes. Os núcleos das slimes são muito sensíveis, e dizem que tocar em um proporciona a elas uma quantidade avassaladora de prazer.",
+pink_slime_intro_1,"<pause=1.0>》Você se aproxima de uma nascente isolada. Esta poça parece estar desconectada da água ao redor, mas parece limpa.<pause=1> Gostaria de beber um pouco?",
+pink_slime_intro_10,Quem sabe eu não possa te ajudar...,
+pink_slime_intro_11,》A slime sai da poça e salta em cima de você!,
+pink_slime_intro_2,》Você pega um pouco de água com as mãos e toma um gole...,
+pink_slime_intro_2b,E-<pause=0.5>espere!,
+pink_slime_intro_3,"》É surpreendentemente refrescante! A água é fresca e límpida, com um sabor suave e adocicado.",
+pink_slime_intro_3b,》Uma slime emerge da água!,
+pink_slime_intro_4,Ahhn～!,
+pink_slime_intro_4b,Por que foi embora sem provar um gole da minha <color=accent>deliciosa<pause=0.3> gosma</color>?<pause=0.3> Você estava <color=accent>olhando</color> para mim com uma cara tão sedenta...,
+pink_slime_intro_5,》Uma slime emerge da água!,
+pink_slime_intro_5b,"Faz tanto tempo que não vejo um humano, e preciso tanto <color=accent>reabastecer</color> meu núcleo, então...",
+pink_slime_intro_6,"Ora, é um humano! A maioria dos monstros que vivem aqui reconhece uma slime de longe, mas parece que você não é tão atento assim...",
+pink_slime_intro_6b,Talvez você possa me ajudar～,
+pink_slime_intro_7,Gostou de me <color=accent>beber</color>? Gostou de ter uma partezinha minha <color=accent>dentro</color> de você?,
+pink_slime_intro_7b,》A slime sai da poça e salta em cima de você!,
+pink_slime_intro_8,"》De repente, você sente sua pele formigar. Ela parece significativamente mais sensível do que antes.",
+pink_slime_intro_9,"O meu corpo tem um forte efeito <color=accent>afrodisíaco</color> em humanos, sabe? Me pergunto se você já está <color=accent>sentindo</color> todo esse poder～",
+pink_slime_loss_1,Eeeh... você já está <color=accent>exausto</color>?,
+pink_slime_loss_2,Parece que esse seu pau<pause=0.3> <color=accent>inutilmente enorme</color><pause=0.3> é puro tamanho e nada de fôlego!,
+pink_slime_loss_3,"Ah, acha que vamos parar por aqui? Eu ainda não estou <color=accent>satisfeita</color>～",
+pink_slime_loss_4,"<pause=1.5>O quê?<pause=0.5> Já está <color=accent>gozando</color> de novo? Vai, apenas se renda e solte<pause=0.3> <color=accent>tudo</color>～",
+pink_slime_loss_5,Esse pauzinho<pause=0.3> precisa <color=accent>desesperadamente</color><pause=0.3> de um treino～ Ele praticamente está <color=accent>implorando</color> por isso.,
+pink_slime_loss_6,"Eu diria para não se segurar, mas sei que você nem conseguiria mesmo se quisesse～",
+pink_slime_loss_7,"Continue me <color=accent>enchendo</color> com essa sua<pause=0.3> <color=accent>essência patética</color>,<pause=1> eu não vou parar tão cedo～",
+pink_slime_name,Slime Rosa,
+pink_slime_win_1,"Hah, hah...<pause=1> Incrível, você me <color=accent>encheu</color> com taaanta～<pause=0.3> essência sua. Você até<pause=0.3> <color=accent>cobriu</color><pause=0.3> meu núcleo...",
+pink_slime_win_2,Você devia estar tão <pause=0.3><color=accent>acumulado～</color><pause=0.3> Aposto que conseguiria satisfazer uma slime como eu<color=accent><pause=0.3> a noite<pause=0.3> inteira</color>.,
+pink_slime_win_3,"Eu queria poder continuar, mas estou completamente <color=accent>exausta</color>...",
+pink_slime_win_4,Me avise se um dia precisar que eu <color=accent>drene</color> essa sua<pause=0.3> <color=accent>essência deliciosa</color><pause=0.3> de novo.,
+play_sound_bg,Som em Segundo Plano,UI – Settings
+polymorphic_elixir_description,<color=onpump>A cada ciclo:</color> Causa aleatoriamente de -<var=min> a +<var=max> de exaustão.,
+polymorphic_elixir_name,Elixir Polimórfico,
+polymorphic_gem_description,<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada aleatoriamente por x<var=min> a x<var=max>.,
+polymorphic_gem_name,Gema Polimórfica,
+potted_clover_description,<color=winbattle>Ao vencer batalha:</color> Ganhe <var=amount> de ouro por espaço vazio no inventário.,
+potted_clover_name,Trevo Envasado,
+queen_slime_description,"<color=enterbattle>Ao iniciar batalha:</color> Se tiver espaço, cria uma cópia permanente do primeiro item no seu inventário.",
+queen_slime_name,Rainha Slime,
+quit_button,Sair,UI
+rarity_common,Comum,
+rarity_legendary,Lendário,
+rarity_rare,Raro,
+rarity_uncommon,Incomum,
+replay_battle,Rever Batalha,UI – Bestiary
+replay_intro,Rever Introdução,UI – Bestiary
+replay_loss,Rever Derrota,UI – Bestiary
+replay_win,Rever Vitória,UI – Bestiary
+resolution,Resolução,UI – Settings
+resume_button,Continuar,UI
+return_button,Voltar,UI
+return_to_title,Voltar ao Título,UI
+revert_button,Reverter,UI - Settings
+ring_of_charming_description,<color=enterbattle>Ao iniciar batalha:</color> Aumenta o valor de todos os seus itens em +<var=increase>.,
+ring_of_charming_name,Anel do Encanto,
+rock_description,<color=always>Sempre:</color> É apenas uma pedra.,
+rock_name,Pedra,
+run_choice_title,Saved Run,UI
+run_floor_label,Floor,UI
+run_mods_missing,Requires these mods active:,UI
+sack_of_junk_description,"<color=sell>Ao vender item:</color> Se o item não for lixo, ganhe um lixo aleatório para substituí-lo.
+
+<color=onpump>A cada ciclo:</color> <var=amount>% de chance de substituir um lixo aleatório no inventário por um item útil. A chance é afetada pela sorte.",
+sack_of_junk_name,Saco de Tralhas,
+salamander_1,》Você descobre uma caverna de lava ativa enquanto procura um lugar para descansar.,
+salamander_10,"Sempre que sentir que está exausto demais para continuar, apenas pense em mim～",
+salamander_11,Eu lhe darei a <color=accent>energia</color> necessária para enfrentar qualquer garota que encontrar.,
+salamander_12,Quem sabe a gente não se encontra de novo...,
+salamander_13,"》Conforme ela se dissipa, você é acolhido por uma sensação intensa de calor e coragem.",
+salamander_2,"》Uma estátua antiga e lascada de algum animal está diante de você. Enquanto examina a estátua, uma voz ressoa.",
+salamander_3,Estou impressionada que tenha conseguido encontrar este lugar.,
+salamander_4,》Uma fada de fogo surge flutuando em meio às brasas!,
+salamander_5,"Olá, humano～ Eu e minhas irmãs estamos observando você desde que cruzou o portal para o nosso mundo.",
+salamander_6,"Você parece muito <color=accent>habilidoso</color> para um humano comum. Eles geralmente não duram muito aqui, mas você é diferente.",
+salamander_7,"Depois de ver do que você é capaz, com certeza despertou meu interesse.",
+salamander_8,Eu adoraria ver você ter sucesso na sua jornada pelas cavernas.,
+salamander_9,Vou lhe conceder algo útil para ajudar...,
+salamander_description,"<color=onpump>A cada ciclo:</color> Se ativa, multiplica a exaustão causada por x<var=modifier>. Batalhas restantes: <var=remaining>.
+
+<color=losebattle>Ao perder batalha:</color> Ativa-se por <var=amount> batalhas.",
+salamander_name,Bênção da Salamandra,
+sandwich_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.
+
+<color=always>Sempre:</color> Modifica a exaustão causada por itens na mesma linha deste em <var=modifier>.",
+sandwich_name,Sanduíche,
+seed_label,Seed,UI
+seed_label_value,Seed: <var=seed>,UI
+sell_confirm_no,No,UI
+sell_confirm_title,Sell {item} for {price} G?,UI
+sell_confirm_yes,Yes,UI
+settings_button,Configurações,UI
+settings_label,Configurações,UI – Settings
+shadowed_backpack_description,"<color=always>Sempre:</color> Aumenta o tamanho do seu inventário para o máximo permitido.
+
+<color=entershop>Ao entrar na loja:</color> Reduz o custo dos itens em <var=reduction>%.
+
+<color=entershop>Ao sair da loja:</color> Encolhe o seu inventário de volta ao tamanho normal e remove esta bênção.",
+shadowed_backpack_name,Segunda Sombra,
+shop_1_plenty,Temos bastante em estoque.,Dialogue – Spider Girl 1
+shop_1_rare,Esse é bem raro!,Dialogue – Spider Girl 1
+shop_1_thank,Obrigada pela compra.,Dialogue – Spider Girl 1
+shop_1_very_rare,Não vejo muitos desses por aí!,Dialogue – Spider Girl 1
+shop_1_welcome,Bem-vindo～,Dialogue – Spider Girl 1
+shop_1_welcome_back,Bem-vindo de volta～,Dialogue – Spider Girl 1
+shop_1_wow,"Nossa, você comprou tanta coisa～",Dialogue – Spider Girl 1
+silver_tiara_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.
+
+<color=enterbattle>Ao iniciar batalha:</color> Consome o item à direita deste para aumentar o multiplicador em +<var=increase>.",
+silver_tiara_name,Tiara de Prata,
+skip_already_seen,Pular Diálogos Já Vistos,UI – Settings
+sleepy_slime_description,<color=onpump>A cada ciclo:</color> <var=amount>% de chance de reativar todos os itens antes deste.,
+sleepy_slime_name,Slime Preguiçoso,
+slime_essence_description,<color=enterbattle>Ao iniciar batalha:</color> Aumenta a exaustão causada por todos os itens em +<var=increase>.,
+slime_essence_name,Essência de Slime,
+socials_tooltip,Siga para acompanhar o desenvolvimento e as atualizações mais recentes!,UI
+spacious_bag_description,<color=always>Sempre:</color> Ganhe 1 linha de inventário até o máximo de 10.,
+spacious_bag_name,Bolsa Espaçosa,
+sparkling_crown_description,"<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>, aumentando em +<var=increase> por item de qualidade rara ou superior no seu inventário.",
+sparkling_crown_name,Coroa Brilhante,
+sphinx_battle1_1,"Eu apenas ordenei que se ajoelhasse, não que ficasse duro feito uma rocha.",
+sphinx_battle1_2,Não está <color=accent>aproveitando</color> isso um pouco demais?,
+sphinx_battle1_3,Esse seu pau<pause=0.3><color=accent> patético</color><pause=0.3> parece que vai perder a qualquer segundo～,
+sphinx_battle1_4,"Uau, você ficou ainda mais<pause=0.3><color=accent> duro</color>～",
+sphinx_battle1_5,"Você consegue aguentar, não é? Não iria querer gozar tão rápido só com o meu pé, <color=accent>não é mesmo</color>?",
+sphinx_battle1_6,Esse pauzinho<pause=0.3><color=accent> fraco</color><pause=0.3> parece prestes a explodir a qualquer instante～ Aposto que sucumbiria instantaneamente à minha <color=accent>ordem</color>...,
+sphinx_battle1_7,<color=accent>Goze.</color>,
+sphinx_battle2_1,Que humano pervertido. Por que logo nas minhas axilas?,
+sphinx_battle2_2,Você está me montando como uma <color=accent>besta irracional</color>～,
+sphinx_battle2_3,"Se mantiver esse ritmo, vai gozar ainda mais rápido do que da última vez, sabia?",
+sphinx_battle2_4,Admito que um ejaculo-rápido patético como você é até divertido.,
+sphinx_battle2_5,"Vamos, segure um pouco mais～",
+sphinx_battle2_6,Ainda não...,
+sphinx_description,"Uma criatura mítica orgulhosa e poderosa, metade leão e metade humana. Suas ordens imperativas convencem facilmente os outros a obedecerem às suas vontades. Movida por um forte desejo de dominar, é conhecida por manter humanos como escravos sexuais caso eles a satisfaçam.",
+sphinx_intro_1,》Você adentra um templo antigo e avista uma mulher sentada em um trono imponente.,
+sphinx_intro_2,》Ela parece notar a sua aproximação.,
+sphinx_intro_3,"Hum, um humano? E um bem desprovido de modos, pelo visto.",
+sphinx_intro_4,"Você está diante de uma poderosa esfinge, humano. Demonstre um pouco de <color=accent>cortesia</color>, e talvez eu lhe perdoe.",
+sphinx_intro_5,"》As <color=accent>palavras</color> dela paralisam o seu corpo. Incapaz de se mover ou responder, você continua encarando-a.",
+sphinx_intro_6,Ignorando o meu pedido? Humanos como você precisam aprender boas maneiras.,
+sphinx_intro_7,<color=accent>Ajoelhe-se.</color>,
+sphinx_intro_8,"<pause=0.5>》A ordem imperiosa da voz dela parece assumir o controle do seu corpo, forçando-o imediatamente de joelhos.",
+sphinx_intro_9,》Ela se aproxima lentamente de você...,
+sphinx_loss1_1,"Você gozou tanto, e ainda continua tão duro. Ora...",
+sphinx_loss1_10,Parece que ganhei um novo <color=accent>escravo</color> para me manter entretida. Vamos continuar～,
+sphinx_loss1_2,Parece que a minha <color=accent>ordem</color> foi poderosa demais. Você se submeteu completamente a mim.,
+sphinx_loss1_3,Você é tão <color=accent>patético</color> que chega a ser divertido.,
+sphinx_loss1_4,Esse pau enorme talvez seja a única coisa útil em você...,
+sphinx_loss1_5,Quantas vezes mais será que você consegue <color=accent>gozar</color>～?,
+sphinx_loss1_6,"Hum, se conseguir continuar gozando sem parar, talvez eu tenha alguma utilidade para você afinal. Você será meu <color=accent>escravo</color>, para sempre～",
+sphinx_loss1_7,"Olha só, você gozou de novo!",
+sphinx_loss1_8,"Resta algum pingo de vergonha em você, humano? Ou devo chamá-lo de <color=accent>meu escravo</color>?",
+sphinx_loss1_9,E o seu pau continua cheio de energia...,
+sphinx_loss2_1,Você jorrou tanto na sua segunda vez. Talvez até mais do que antes...,
+sphinx_loss2_10,Um humano patético como você só tem um propósito neste mundo.,
+sphinx_loss2_11,Manter-me entretida com o seu vigor infinito e esse pauzão enorme～,
+sphinx_loss2_12,"Tenho certeza de que vai adorar ser o meu <color=accent>escravo</color>, para todo o sempre.",
+sphinx_loss2_2,"Oh, parece que você realmente se tornou uma <color=accent>besta irracional</color>...",
+sphinx_loss2_3,Acho que as minhas <color=accent>ordens</color> foram fortes demais para você afinal de contas～,
+sphinx_loss2_4,Estou surpresa que ainda esteja tão ereto depois de tudo isso. Gostou tanto assim das minhas axilas?,
+sphinx_loss2_5,"Talvez você consiga me manter entretida, afinal.",
+sphinx_loss2_6,<color=accent>Continue bombeando.</color>,
+sphinx_loss2_7,"Se conseguir aguentar tempo suficiente para <color=accent>me satisfazer</color>, talvez eu permita que se torne meu escravo. O que acha disso?",
+sphinx_loss2_8,"Ah, espere, você nem consegue mais pensar direito, não é? Apenas se entregue ao prazer da minha presença.",
+sphinx_loss2_9,Belo escravo... continue gozando para mim.,
+sphinx_name,Esfinge,
+sphinx_win1_1,"Uau, você me cobriu todinha. E parece que ainda mantém a sua consciência intacta...",
+sphinx_win1_2,O seu pau gigante queria tanto assim <color=accent>engravidar</color> os meus pés?,
+sphinx_win1_3,Como é que você ainda continua com tanta energia～?,
+sphinx_win1_4,Você parece ter um pouco de força de vontade sobrando. Me pergunto se aguentaria mais uma rodada.,
+sphinx_win1_5,Não é sempre que a mente de um humano resiste às minhas ordens. Certamente você não perderá o controle após mais algumas.,
+sphinx_win1_6,<color=accent>Continue.</color>,
+sphinx_win2_1,"Hah, hah... você cobriu todo o meu corpo com a sua essência quente...",
+sphinx_win2_2,Meus pelos estão todos encharcados...,
+sphinx_win2_3,"Admito a derrota, humano. Você provou ter uma resistência digna de respeito.",
+sphinx_win2_4,Pode passar pelo meu templo. Mas lembre-se de quem manda por aqui...,
+sphinx_win2_5,Permito que retorne se desejar me entreter novamente.,
+sphinx_win2_6,Talvez eu até permita que se torne meu <color=accent>escravo</color>～,
+spider_charm_description,<color=reroll>Ao rolar novamente:</color> Aumenta permanentemente a sorte em <var=amount>.,
+spider_charm_name,Amuleto de Aranha,
+spirit_girl_1,》Você encontra um antigo albergue abandonado. Você decide entrar e passar a noite para descansar.,
+spirit_girl_10,》Sua visão escurece e você desmaia de exaustão.,
+spirit_girl_11,"》É manhã, mas por algum motivo você não se sente nada descansado.",
+spirit_girl_12,"》Sem conseguir se lembrar com clareza do que houve na noite anterior, você se prepara para partir.",
+spirit_girl_13,》Você nota algo viscoso grudado nos lençóis da sua cama.,
+spirit_girl_2,》Lá dentro você encontra uma cama empoeirada que já viu dias bem melhores.,
+spirit_girl_3,》Você decide dormir aqui...,
+spirit_girl_4,》Você acorda assustado: algo gelado e etéreo começa a cobrir o seu corpo.,
+spirit_girl_5,》Uma fantasma translúcida está sentada sobre você com as suas calças já abaixadas. Você não consegue se mexer de jeito nenhum!,
+spirit_girl_6,》Ela lentamente o monta. Você sente uma pressão gelada e deliciosa envolvendo seu membro enquanto ela se move.,
+spirit_girl_7,"》Ela continua sorrindo para você sem pronunciar uma única palavra. Seus músculos não respondem ao seu comando, e você perde o controle...",
+spirit_girl_8,"》Incapaz de segurar mais, você dispara jatos violentos de esperma no ar, atravessando diretamente o corpo transparente dela.",
+spirit_girl_9,"》Aparentemente saciada, o espectro se dissipa suavemente no ar...",
+spirit_girl_a_1,》Você recolhe a substância viscosa e a guarda com cuidado na sua mochila.,
+spirit_girl_a_2,"》Você tenta recolher a substância, mas não tem espaço suficiente no inventário para guardá-la.",
+spirit_girl_b_1,》Você tem a estranha sensação de que algo invisível continua seguindo seus passos...,
+spirit_girl_choice_1,Recolher o líquido,
+spirit_girl_choice_2,Ignorar,
+standard_mode,Padrão,Game Modes
+standard_mode_description,Jogue por 10 andares para vencer. Chefe em breve (tm)!,Game Modes
+start_button,Iniciar,UI
+stat_elite_battles,Batalhas de elite iniciadas,
+stat_fairies,Fadas visitadas,
+stat_gold_gained,Ouro obtido,
+stat_gold_spent,Ouro gasto em lojas,
+stat_legendary,Itens lendários obtidos,
+stat_maximum_pump,Exaustão máxima por ciclo,
+stat_new_battles,Novas batalhas descobertas,
+stat_new_items,Novos itens descobertos,
+stat_normal_battles,Batalhas normais iniciadas,
+stat_random_encounters,Encontros aleatórios iniciados,
+stat_shops,Lojas visitadas,
+stat_total_exhaustion,Exaustão total causada,
+stone_crown_description,"<color=onpump>A cada ciclo:</color> Se todos os itens no seu inventário forem de qualidade comum, multiplica a exaustão causada por x<var=modifier>.",
+stone_crown_name,Coroa de Pedra,
+story_mode_button,Story Mode,UI
+succubus_battle1_1,"》No instante em que você segura os chifres dela, ela começa a sugar com uma intensidade que você nunca experimentou na vida.",
+succubus_battle1_2,"Slurp, slurp, slurp～",
+succubus_battle1_3,"Mnf, slurp, mn～",
+succubus_battle1_4,》Você não vai aguentar muito tempo. Ela está sugando a sua alma para fora!,
+succubus_battle1_5,"Sluuuurp, Mnngh, sluurp～",
+succubus_battle1_6,"》Você não resiste e acelera o ritmo, cedendo ao prazer avassalador. Essa súcubo maldita... como ela pode ser tão perfeita nisso?!",
+succubus_battle1_7,"Sluurp, slurp, Slurrrp～",
+succubus_battle2_1,Ahhn～ Você é tão violento～,
+succubus_battle2_2,Minhas provocações te deixaram excitado a esse ponto?,
+succubus_battle2_3,"Mnn, isso é maravilhoso!",
+succubus_battle2_4,"Continua assim, não para～",
+succubus_battle2_5,"Vamos, garanhão, ponha esse pau para trabalhar.",
+succubus_battle2_6,Segure o quanto puder～,
+succubus_battle2_7,"E me encha com muito, muito do seu <color=accent>sêmen delicioso</color>!",
+succubus_description,"Apesar da aparência irresistível e fofa, estes demônios drenam até a morte qualquer humano que não tenha uma resistência lendária. Sua mera presença transforma homens em bestas lascivas que só pensam em descarregar jato após jato de sêmen até o esgotamento total.",
+succubus_intro_1,"》Você encontra uma câmara escura, iluminada apenas por velas e um círculo mágico brilhante no chão.",
+succubus_intro_2,"》Ao pisar na sala, uma criatura voluptuosa se materializa bem diante de você!",
+succubus_intro_3,Quem ousa me invocar...?,
+succubus_intro_4,Hum? Um humano? Você deve ser muito confiante para invocar uma súcubo.,
+succubus_intro_5,"Com medinho, grandalhão～? Você ainda nem tocou em mim, embora pareça desesperado para começar.",
+succubus_intro_6,Esse seu pau está tão duro desde o instante em que apareci. É tão patético ver você hesitar em me tomar...,
+succubus_intro_7,"Vamos, seja homem e faça de mim a sua vadia～",
+succubus_lose1_1,"》Apesar de você ter acabado de gozar, ela não para de acariciar seu membro nem por um segundo.",
+succubus_lose1_2,Você soltou uma quantidade absurda de<color=accent><pause=0.3> sêmen quente e<pause=0.3> cremoso</color>～,
+succubus_lose1_3,E você continua <color=accent>tão～ duro</color>...,
+succubus_lose1_4,"Quem sabe você consiga me saciar depois de mais algumas rodadas, grandalhão～",
+succubus_lose1_5,》Ela continua sugando o seu pau com todas as forças.,
+succubus_lose1_6,"Vamos, tente segurar～ Me dê o <color=accent>sêmen mais saboroso</color> que essas suas bolas puderem fabricar～",
+succubus_lose1_7,"Eeeh, não conseguiu segurar nada...",
+succubus_lose1_8,Vou ter que te <color=accent>castigar</color> até que você aprenda a ter autocontrole.,
+succubus_lose1_9,Agora faça essas bolas trabalharem e bata outra <color=accent>porção bem grossa</color> para eu beber～,
+succubus_lose2_1,"Não pare agora, essa foi só a segunda rodada. Tenho certeza de que aguenta mais, não é?",
+succubus_lose2_2,Você soltou ainda mais da segunda vez! Aposto que consegue me dar<color=accent><pause=0.3> muito<pause=0.3> mais</color>～,
+succubus_lose2_3,"Vai em frente, goze. Goze!",
+succubus_lose2_4,Haha! Mais～ mais～,
+succubus_lose2_5,Dispare jatos gigantescos até ficar completamente seco!,
+succubus_lose2_6,"Acha que já terminou? A noite mal começou, grandalhão, então produza mais desse<color=accent><pause=0.3> sêmen<pause=0.3> espesso</color>～",
+succubus_name,Súcubo,
+succubus_win1_1,"Você hesitou tanto para começar, mas me deu uma<color=accent><pause=0.3> carga incrivelmente<pause=0.3> espessa</color>...",
+succubus_win1_2,Não me diga que já está cansado?,
+succubus_win1_3,Tenho certeza de que esse seu<color=accent><pause=0.3> pau gigante<pause=0.3></color> consegue continuar.,
+succubus_win1_4,"Você não vai<color=accent> perder</color> tão fácil para uma súcubozinha qualquer, vai～?",
+succubus_win1_5,"Anda logo, mostre do que você é capaz de verdade!",
+succubus_win2_1,Aaah...,
+succubus_win2_2,Você me deu outra <color=accent>carga monstruosa</color>～,
+succubus_win2_3,"Você devia estar muito acumulado, ou será que você é tão <color=accent>insaciável</color> quanto eu～?",
+succubus_win2_4,Nada mal para um mero mortal.,
+succubus_win2_5,"Obrigada pelo banquete, grandalhão. Espero não ter drenado toda a sua energia～",
+swirling_orb_description,<color=enterbattle>Ao iniciar batalha:</color> Multiplica permanentemente a exaustão de todos os itens aleatoriamente entre x<var=min> e x<var=max>.,
+swirling_orb_name,Orbe Espiral,
+sylph_1,"》Você encontra um pequeno poço coberto de vegetação. Olhando para o fundo, você vê algo brilhando lá embaixo.",
+sylph_2,"Estou observando você há algum tempo, desde que você atravessou os portões. Não é todo dia que um humano encontra este lugar.",
+sylph_3,Você tem muito <color=accent>potencial</color>. Eu não gostaria de ver você desperdiçá-lo.,
+sylph_4,"Hmm, já sei. Vou lhe dar algo para ajudá-lo a sobreviver a todas aquelas garotas <color=accent>vorazes</color> que você encontra pelo caminho.",
+sylph_5,"Espero poder ver você de novo, em breve...",
+sylph_6,"》Conforme ela desaparece, você se sente envolvido por um calor dourado e revigorante.",
+sylph_choice_1,Jogar uma moeda,
+sylph_choice_2,Ir embora,
+sylph_description,<color=onpump>A cada ciclo:</color> <var=amount>% de chance de ganhar 1 de ouro. A chance é afetada pela sorte.,
+sylph_empty_1,"》Você vasculha os bolsos, mas não encontra nada.",
+sylph_empty_2,》Parece que você está sem moedas...,
+sylph_empty_3,"》Quando você começa a se afastar, uma voz suave chama por você.",
+sylph_empty_4,Não tem nenhum ouro para oferecer? Suponho que o que vale é a intenção...,
+sylph_empty_5,》Uma fada aparece diante de você!,
+sylph_name,Bênção da Sylph,
+sylph_reach_1,"》Você estende a mão dentro d'água, procurando pelo objeto brilhante.",
+sylph_reach_2,》...,
+sylph_reach_3,"》Finalmente, você agarra algo sólido.",
+sylph_reach_4,"》Ao tentar retirá-lo da água, ele se desfaz entre os seus dedos...",
+sylph_reach_5,"》Quando você começa a se afastar, uma voz chama por você.",
+sylph_reach_6,Tentando roubar do meu poço? Fiquei um pouco decepcionada...,
+sylph_reach_7,》Uma fada aparece diante de você!,
+sylph_toss_1,》Você tira uma moeda do bolso e a atira no poço.,
+sylph_toss_2,"》A moeda parece desaparecer na água. De repente, uma voz suave chama por você.",
+sylph_toss_3,Tão generoso! Fico muito contente com a sua oferenda.,
+sylph_toss_4,》Uma fada surge diante de você!,
+take_button,Pegar,UI – Battle
+thorns_description,"<color=onpump>A cada ciclo:</color> Se estiver em uma batalha de elite ou chefe, multiplica a exaustão causada por x<var=modifier>.",
+thorns_name,Espinhos,
+tiles_button,Itens,UI – Collection
+tired_description,"<color=always>Duração:</color> <var=remaining> batalhas.
+
+<color=enterbattle>Ao iniciar batalha:</color> Ganhe <var=amount> de ouro.
+
+<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.",
+tired_name,Cansado,
+toolbox_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão, aumentando em +<var=increase> para cada item de lixo no seu inventário.",
+toolbox_name,Caixa de Ferramentas,
+treasure_1,》Você encontra um baú de aparência antiga.,
+treasure_2,》Você decide abri-lo...,
+treasure_3,》Você obteve algo interessante!,
+treasure_4,"》Você vê algo lá dentro, mas não tem espaço para guardar...",
+treasure_5,》Não há nada lá dentro...,
+turbo_speed,Speed,UI
+type_blessing,Bênção,Buff Subtype
+type_buff,Bênção,Item Type
+type_curse,Maldição,Buff Subtype
+type_food,Comida,Tile Subtype
+type_junk,Lixo,Tile Subtype
+type_power,Poder,Buff Subtype
+type_relic,Relíquia,Tile Subtype
+type_tile,Item,Item Type
+type_tool,Ferramenta,Tile Subtype
+type_toy,Brinquedo,Tile Subtype
+undine_1,"》Escondida nas profundezas de uma passagem da caverna, você encontra uma fonte termal.",
+undine_10,Deixa para lá.,
+undine_2,》Parece um ótimo lugar para descansar.,
+undine_3,》Você abre os olhos e vê uma fada aquática flutuando suavemente perto de você.,
+undine_4,Minhas irmãs têm acompanhado a sua jornada por essas cavernas.,
+undine_5,Elas parecem muito impressionadas com as suas <color=accent>habilidades</color>...,
+undine_6,...,
+undine_7,Vou lhe conceder algo para ajudá-lo a relaxar.,
+undine_8,Você conseguirá manter o foco mesmo durante os encontros mais <color=accent>intensos</color> com as garotas que encontrar.,
+undine_9,Hum...,
+undine_bathe_1,》Você retira seus pertences e os coloca por perto.,
+undine_bathe_2,》Você entra na fonte. A água fresca limpa toda a exaustão do seu corpo.,
+undine_bathe_3,》Você fecha os olhos por um instante...,
+undine_bathe_4,Vejo que está aproveitando a minha fonte.,
+undine_bathe_5,"》A fada se dissipa na água, e você decide sair da fonte.",
+undine_bathe_6,》Você se sente profundamente relaxado e revigorado.,
+undine_choice_1,Bolsão d'água (Banhar-se),
+undine_choice_2,Apenas descansar,
+undine_description,<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.,
+undine_name,Bênção da Ondina,
+undine_rest_1,"》Você coloca sua mochila no chão, usando-a como travesseiro enquanto fecha os olhos por um momento.",
+undine_rest_2,Vejo que está aproveitando a tranquilidade daqui.,
+undine_rest_3,"》A fada se desfaz em névoa, e você decide levantar-se do descanso.",
+undine_rest_4,》Você se sente profundamente relaxado e revigorado.,
+unknown_battle,Desconhecido (Batalha),UI – Bestiary
+unknown_boss,Desconhecido (Chefe),UI – Bestiary
+unknown_elite,Desconhecido (Elite),UI – Bestiary
+v_sync,V-Sync,UI – Settings
+vampiric_necklace_description,<color=enterbattle>Ao iniciar batalha:</color> Consome todos os itens adjacentes ao redor deste para aumentar a exaustão causada por todos os itens em +<var=increase> por item consumido.,
+vampiric_necklace_name,Colar Vampírico,
+vampiric_slime_description,"<color=onpump>A cada ciclo:</color> Se estiver abaixo de 100% da exaustão necessária na batalha, consome um item aleatório e causa <var=amount>% da exaustão total necessária da batalha.",
+vampiric_slime_name,Slime Vampírico,
+vibrating_egg_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão. Aumenta a exaustão causada em +<var=increase>.
+
+<color=enterbattle>Ao iniciar batalha:</color> Redefine os ganhos de exaustão.",
+vibrating_egg_name,Ovo Vibratório,
+web_covered_rope_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.
+
+<color=reroll>Ao rolar novamente:</color> Aumenta a exaustão causada em +<var=increase>.",
+web_covered_rope_name,Corda Coberta de Teia,
+well_rested_description,"<color=always>Duração:</color> <var=remaining> batalhas.
+
+<color=onpump>A cada ciclo:</color> Multiplica a exaustão causada por x<var=modifier>.",
+well_rested_name,Bem Descansado,
+wildflowers_description,"<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão, aumentando em +<var=increase> para cada espaço vazio no inventário.",
+wildflowers_name,Flores Silvestres,
+wrench_description,"<color=enterbattle>Ao iniciar batalha:</color> Combina itens de lixo adjacentes a este em um item aleatório de qualquer raridade. Quanto mais lixo usado, maior a chance de raridades mais altas.",
+wrench_name,Chave Inglesa,

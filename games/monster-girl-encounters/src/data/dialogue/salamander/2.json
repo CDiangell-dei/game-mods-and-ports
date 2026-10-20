@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "salamander_5",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "salamander_6",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "salamander_7",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "salamander_8",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "salamander_9",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "salamander_10",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "salamander_11",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "salamander_12",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 9
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "key": "salamander_13",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

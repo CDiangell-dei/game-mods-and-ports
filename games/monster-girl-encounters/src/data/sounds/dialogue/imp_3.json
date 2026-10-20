@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/dialogue/imp_3.wav",
+    "volume": 0.75,
+    "pitch": 1.0,
+    "variance": 0.1,
+    "loop": false
+}

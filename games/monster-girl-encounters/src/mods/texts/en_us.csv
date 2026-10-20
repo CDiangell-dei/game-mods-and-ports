@@ -1,0 +1,7 @@
+Key,Text,Notes
+mods_button,Mods,Mods - Menu
+mods_title,Mods,Mods - Screen
+mods_empty,No mods installed.,Mods - Screen
+mods_note,Changes take effect the next time you start a game.,Mods - Screen
+mods_locked_prefix,Locked:,Mods - Screen
+mods_soon_note,In development. Cannot be turned on yet.,Mods - Screen

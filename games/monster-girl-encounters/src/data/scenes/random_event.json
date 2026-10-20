@@ -1,0 +1,34 @@
+{
+    "name": "randomEvent",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "sprite",
+            "size": {
+                "x": 32,
+                "y": 32
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        }
+    ]
+}

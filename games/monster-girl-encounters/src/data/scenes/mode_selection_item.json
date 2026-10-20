@@ -1,0 +1,165 @@
+{
+    "name": "encounter",
+    "size": {
+        "x": 100,
+        "y": 276
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "default",
+            "size": {
+                "x": 100,
+                "y": 276
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "414162"
+                }
+            ]
+        },
+        {
+            "name": "mouseover",
+            "size": {
+                "x": 100,
+                "y": 276
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 100,
+                        "y": 276
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "838397"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mouseDown",
+            "size": {
+                "x": 100,
+                "y": 276
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 100,
+                        "y": 276
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "88354a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 98,
+                "y": 274
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "12131c"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "title",
+            "position": {
+                "x": 1,
+                "y": 0
+            },
+            "size": {
+                "x": 98,
+                "y": 30
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 20,
+                    "color": "6d6d87",
+                    "wrap": true
+                }
+            ]
+        },
+        {
+            "name": "icon",
+            "position": {
+                "x": 14,
+                "y": 35
+            },
+            "size": {
+                "x": 72,
+                "y": 72
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator"
+                }
+            ]
+        },
+        {
+            "name": "description",
+            "position": {
+                "x": 6,
+                "y": 120
+            },
+            "size": {
+                "x": 88,
+                "y": 155
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "verticalAlignment": "top",
+                    "color": "6d6d87",
+                    "wrap": true
+                }
+            ]
+        }
+    ]
+}

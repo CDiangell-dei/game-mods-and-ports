@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "battle_loss",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

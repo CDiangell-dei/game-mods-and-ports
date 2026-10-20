@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_battle_2_8",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": -1
+    }
+]

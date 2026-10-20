@@ -1,0 +1,16 @@
+{
+    "name": "logo",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "animator"
+        },
+        {
+            "type": "image",
+            "sprite": "data/sprites/black.png"
+        }
+    ]
+}

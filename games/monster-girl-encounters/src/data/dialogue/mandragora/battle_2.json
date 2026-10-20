@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "mandragora_battle_2",
+        "sound": "data/sounds/dialogue/mandragora.json",
+        "next": -1
+    }
+]

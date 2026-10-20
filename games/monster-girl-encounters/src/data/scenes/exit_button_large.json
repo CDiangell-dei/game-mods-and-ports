@@ -1,0 +1,73 @@
+{
+    "name": "closeButton",
+    "size": {
+        "x": 38,
+        "y": 38
+    },
+    "children": [
+        {
+            "name": "outline",
+            "size": {
+                "x": 38,
+                "y": 38
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "shape",
+                    "size": {
+                        "x": 38,
+                        "y": 38
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/ui/exit_button_large.png"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "color",
+                            "size": {
+                                "x": 38,
+                                "y": 38
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "838397"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 36,
+                "y": 36
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/exit_button_large.png"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        }
+    ]
+}

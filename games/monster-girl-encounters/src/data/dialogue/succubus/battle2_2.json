@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "succubus_battle2_2",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": -1
+    }
+]

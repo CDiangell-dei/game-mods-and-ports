@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "succubus_lose2_1",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "succubus_lose2_2",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "succubus_lose2_3",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "events": [
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 2.0,
+                    "dialogue": "data/dialogue/succubus/loss2_2.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 0.4,
+                    "script": "data/scripts/general/set_battle_sprite.lua",
+                    "variable": "data/animations/succubus/loss2_2/data.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/cum_outside.lua"
+            }
+        ],
+        "next": -1
+    }
+]

@@ -1,0 +1,174 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/mandragora/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 10,
+                                "y": 45
+                            },
+                            "max": {
+                                "x": 10,
+                                "y": 45 
+                            }
+                        },
+                        "color": {
+                            "r": 0.7020,
+                            "g": 0.4314,
+                            "b": 0.4510,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/mandragora/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 341,
+                                "y": 192
+                            },
+                            "max": {
+                                "x": 341,
+                                "y": 192
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/mandragora/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 130,
+                                "y": 136
+                            },
+                            "max": {
+                                "x": 130,
+                                "y": 136
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/mandragora/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 115,
+                                "y": 45
+                            },
+                            "max": {
+                                "x": 115,
+                                "y": 45
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/mandragora/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 158,
+                                "y": 116
+                            },
+                            "max": {
+                                "x": 158,
+                                "y": 116
+                            }
+                        },
+                        "color": {
+                            "r": 0.8196,
+                            "g": 0.5608,
+                            "b": 0.5804,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/mandragora/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 6,
+                                "y": 153
+                            },
+                            "max": {
+                                "x": 6,
+                                "y": 153
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

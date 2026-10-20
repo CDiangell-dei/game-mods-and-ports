@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/general/pop_up.wav",
+    "volume": 0.5,
+    "pitch": 1.0,
+    "variance": 0,
+    "loop": false
+}

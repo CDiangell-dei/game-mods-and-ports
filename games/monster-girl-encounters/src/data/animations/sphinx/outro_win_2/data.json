@@ -1,0 +1,224 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/sphinx/outro_win_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 275,
+                                "y": 92
+                            },
+                            "max": {
+                                "x": 275,
+                                "y": 92
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 245,
+                                "y": 341
+                            },
+                            "max": {
+                                "x": 245,
+                                "y": 341
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/sphinx/outro_win_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 283,
+                                "y": 169
+                            },
+                            "max": {
+                                "x": 283,
+                                "y": 169
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/sphinx/outro_win_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 314,
+                                "y": 351
+                            },
+                            "max": {
+                                "x": 314,
+                                "y": 351
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/sphinx/outro_win_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 54,
+                                "y": 184
+                            },
+                            "max": {
+                                "x": 54,
+                                "y": 184
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/sphinx/outro_win_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 335,
+                                "y": 156
+                            },
+                            "max": {
+                                "x": 335,
+                                "y": 156
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/sphinx/outro_win_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 155,
+                                "y": 169
+                            },
+                            "max": {
+                                "x": 155,
+                                "y": 169
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/sphinx/outro_win_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 310,
+                                "y": 235
+                            },
+                            "max": {
+                                "x": 310,
+                                "y": 235
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

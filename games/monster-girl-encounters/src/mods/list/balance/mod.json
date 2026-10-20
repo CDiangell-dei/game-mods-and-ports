@@ -1,0 +1,7 @@
+{
+    "version": "1.0",
+    "order": 80,
+    "unlock": {
+        "collection": true
+    }
+}

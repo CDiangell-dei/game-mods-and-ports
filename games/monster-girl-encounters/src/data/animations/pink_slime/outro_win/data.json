@@ -1,0 +1,218 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/pink_slime/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 211,
+                                "y": 312
+                            },
+                            "max": {
+                                "x": 211,
+                                "y": 312 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9765,
+                            "g": 0.8078,
+                            "b": 0.8471,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/pink_slime/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 66,
+                                "y": 109
+                            },
+                            "max": {
+                                "x": 66,
+                                "y": 109
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/pink_slime/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 364,
+                                "y": 46
+                            },
+                            "max": {
+                                "x": 364,
+                                "y": 46
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 345,
+                                "y": 191
+                            },
+                            "max": {
+                                "x": 345,
+                                "y": 191
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/pink_slime/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 142,
+                                "y": 32
+                            },
+                            "max": {
+                                "x": 142,
+                                "y": 32
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 118,
+                                "y": 121
+                            },
+                            "max": {
+                                "x": 118,
+                                "y": 121
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/pink_slime/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 185,
+                                "y": 14
+                            },
+                            "max": {
+                                "x": 185,
+                                "y": 14
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/pink_slime/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 346,
+                                "y": 72
+                            },
+                            "max": {
+                                "x": 346,
+                                "y": 72
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

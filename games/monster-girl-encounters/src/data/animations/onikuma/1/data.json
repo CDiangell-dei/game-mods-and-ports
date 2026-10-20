@@ -1,0 +1,225 @@
+{
+    "frameRate": 24,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/onikuma/1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 120,
+                                "y": 255
+                            },
+                            "max": {
+                                "x": 120,
+                                "y": 255
+                            }
+                        },
+                        "color": {
+                            "r": 0.9294,
+                            "g": 0.6484,
+                            "b": 0.6367,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/onikuma/1/0002.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 191,
+                                "y": 307
+                            },
+                            "max": {
+                                "x": 191,
+                                "y": 307
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/onikuma/1/0003.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 20,
+                                "y": 163
+                            },
+                            "max": {
+                                "x": 20,
+                                "y": 163
+                            }
+                        },
+                        "color": {
+                            "r": 0.9294,
+                            "g": 0.6484,
+                            "b": 0.6367,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "sound": "data/sounds/sex/medium_plap.json"
+                }
+            ]
+        },
+        {
+            "frame": 10,
+            "sprite": "data/animations/onikuma/1/0004.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 215,
+                                "y": 219
+                            },
+                            "max": {
+                                "x": 215,
+                                "y": 219
+                            }
+                        },
+                        "color": {
+                            "r": 0.9294,
+                            "g": 0.6484,
+                            "b": 0.6367,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 3,
+                                "y": 17
+                            },
+                            "max": {
+                                "x": 3,
+                                "y": 17
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 13,
+            "sprite": "data/animations/onikuma/1/0005.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 99,
+                                "y": 3
+                            },
+                            "max": {
+                                "x": 99,
+                                "y": 3
+                            }
+                        },
+                        "color": {
+                            "r": 0.9294,
+                            "g": 0.6484,
+                            "b": 0.6367,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 38,
+                                "y": 205
+                            },
+                            "max": {
+                                "x": 38,
+                                "y": 205
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 17,
+            "sprite": "data/animations/onikuma/1/0006.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 167,
+                                "y": 98
+                            },
+                            "max": {
+                                "x": 167,
+                                "y": 98
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 19,
+            "sprite": "data/animations/onikuma/1/0006.png"
+        }
+    ]
+}

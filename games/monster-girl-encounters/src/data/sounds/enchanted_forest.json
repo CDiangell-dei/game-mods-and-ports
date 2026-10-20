@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/enchanted_forest.ogg",
+    "volume": 0.5,
+    "pitch": 1.0,
+    "variance": 0.0,
+    "loop": true
+}

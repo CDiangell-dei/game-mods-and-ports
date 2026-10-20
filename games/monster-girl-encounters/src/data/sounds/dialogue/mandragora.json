@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/dialogue/mandragora.wav",
+    "volume": 0.6,
+    "pitch": 1.0,
+    "variance": 0.05,
+    "loop": false
+}

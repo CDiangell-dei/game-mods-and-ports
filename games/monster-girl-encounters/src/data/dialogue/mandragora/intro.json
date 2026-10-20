@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "mandragora_intro_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_battle_sprite.lua",
+                "variable": "data/sprites/dither/0.png"
+            }
+        ],
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "mandragora_intro_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "mandragora_intro_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "mandragora_intro_4",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "mandragora_intro_5",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_battle_sprite.lua",
+                "variable": "data/sprites/encounters/mandragora_sprite.png"
+            },
+            {
+                "sound": "data/sounds/general/plant_rustle.json"
+            }
+        ],
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "mandragora_intro_6",
+        "sound": "data/sounds/dialogue/mandragora.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "mandragora_intro_7",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/lust_effect.lua"
+            }
+        ],
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "mandragora_intro_8",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "sound": "data/sounds/general/step.json"
+            }
+        ],
+        "next": 9
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "key": "mandragora_intro_9",
+        "sound": "data/sounds/dialogue/mandragora.json",
+        "events": [
+            {
+                "sound": "data/sounds/general/step.json"
+            }
+        ],
+        "next": 10
+    },
+    {
+        "id": 10,
+        "type": "text",
+        "key": "mandragora_intro_10",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "sound": "data/sounds/general/plant_rustle.json"
+            }
+        ],
+        "next": -1
+    }
+]

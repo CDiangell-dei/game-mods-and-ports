@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_battle_2_9a",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": -1
+    }
+]

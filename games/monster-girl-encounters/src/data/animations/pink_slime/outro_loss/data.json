@@ -1,0 +1,218 @@
+{
+    "frameRate": 2,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/pink_slime/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 99,
+                                "y": 103
+                            },
+                            "max": {
+                                "x": 99,
+                                "y": 103
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/pink_slime/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 64,
+                                "y": 166
+                            },
+                            "max": {
+                                "x": 64,
+                                "y": 166
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/pink_slime/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 279,
+                                "y": 39
+                            },
+                            "max": {
+                                "x": 279,
+                                "y": 39
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 315,
+                                "y": 170
+                            },
+                            "max": {
+                                "x": 315,
+                                "y": 170
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/pink_slime/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 313,
+                                "y": 96
+                            },
+                            "max": {
+                                "x": 313,
+                                "y": 96
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/pink_slime/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 298,
+                                "y": 145
+                            },
+                            "max": {
+                                "x": 298,
+                                "y": 145
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 71,
+                                "y": 77
+                            },
+                            "max": {
+                                "x": 71,
+                                "y": 77
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/pink_slime/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 263,
+                                "y": 1
+                            },
+                            "max": {
+                                "x": 263,
+                                "y": 1
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

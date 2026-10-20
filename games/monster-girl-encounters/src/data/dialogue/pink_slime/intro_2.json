@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "pink_slime_intro_6",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "pink_slime_intro_7",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "events": [
+            {
+                "script": "data/scripts/general/lust_effect.lua"
+            }
+        ],
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "pink_slime_intro_8",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "pink_slime_intro_9",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "pink_slime_intro_10",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "pink_slime_intro_11",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

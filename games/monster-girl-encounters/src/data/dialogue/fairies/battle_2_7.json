@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_battle_2_7",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": -1
+    }
+]

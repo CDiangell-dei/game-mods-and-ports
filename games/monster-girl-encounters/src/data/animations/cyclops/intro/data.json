@@ -1,0 +1,174 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/cyclops/intro/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 49,
+                                "y": 33
+                            },
+                            "max": {
+                                "x": 49,
+                                "y": 33
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/cyclops/intro/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 305,
+                                "y": 280
+                            },
+                            "max": {
+                                "x": 305,
+                                "y": 280
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/cyclops/intro/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 102,
+                                "y": 236
+                            },
+                            "max": {
+                                "x": 102,
+                                "y": 236
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/cyclops/intro/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 265,
+                                "y": 105
+                            },
+                            "max": {
+                                "x": 265,
+                                "y": 105
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/cyclops/intro/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 14,
+                                "y": 163
+                            },
+                            "max": {
+                                "x": 14,
+                                "y": 163
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/cyclops/intro/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 257,
+                                "y": 198
+                            },
+                            "max": {
+                                "x": 257,
+                                "y": 198
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

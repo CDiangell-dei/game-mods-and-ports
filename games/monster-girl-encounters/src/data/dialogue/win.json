@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "ending_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "ending_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "ending_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "ending_4",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

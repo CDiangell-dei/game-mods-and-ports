@@ -1,0 +1,259 @@
+{
+    "name": "menu",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "backdrop",
+            "position": {
+                "x": -142,
+                "y": 0
+            },
+            "size": {
+                "x": 960,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "00000099"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "background",
+            "position": {
+                "x": 201,
+                "y": 146
+            },
+            "size": {
+                "x": 274,
+                "y": 248
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/menu.png"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "position": {
+                "x": 249,
+                "y": 180
+            },
+            "size": {
+                "x": 177,
+                "y": 180
+            },
+            "components": [
+                {
+                    "type": "verticalLayoutGroup",
+                    "expand": true
+                }
+            ],
+            "children": [
+                {
+                    "name": "resumeButton",
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "label",
+                            "children": [
+                            {
+                                "name": "shadow",
+                                "components": [
+                                    {
+                                        "type": "text",
+                                        "text": "resume_button"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "text",
+                                "components": [
+                                    {
+                                        "type": "text",
+                                        "text": "resume_button"
+                                    }
+                                ]
+                            }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "collectionButton",
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "label",
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "collection_button"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "collection_button"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "settingsButton",
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "label",
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "settings_button"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "settings_button"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "returnToTitleButton",
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "label",
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "return_to_title"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "return_to_title"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "seedPanel",
+            "position": {
+                "x": 237,
+                "y": 402
+            },
+            "size": {
+                "x": 200,
+                "y": 72
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/menu.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "seedLabel",
+                    "position": {
+                        "x": 10,
+                        "y": 10
+                    },
+                    "size": {
+                        "x": 180,
+                        "y": 18
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "center",
+                            "color": "6d6d87"
+                        }
+                    ]
+                },
+                {
+                    "name": "copySeedButton",
+                    "position": {
+                        "x": 12,
+                        "y": 30
+                    },
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "label",
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "copy_seed"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "copy_seed"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

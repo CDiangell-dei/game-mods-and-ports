@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "shop_1_very_rare",
+        "sound": "data/sounds/dialogue/spider_1.json",
+        "next": -1
+    }
+]

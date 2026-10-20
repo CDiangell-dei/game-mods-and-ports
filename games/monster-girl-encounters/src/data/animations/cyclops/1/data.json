@@ -1,0 +1,171 @@
+{
+    "frameRate": 6,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/cyclops/1/0001.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/hard_plap_wet_quiet.json"
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 69,
+                                "y": 286
+                            },
+                            "max": {
+                                "x": 69,
+                                "y": 286
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 298,
+                                "y": 19
+                            },
+                            "max": {
+                                "x": 298,
+                                "y": 19
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/cyclops/1/0002.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 80,
+                                "y": 80
+                            },
+                            "max": {
+                                "x": 80,
+                                "y": 80
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/cyclops/1/0003.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 360,
+                                "y": 79
+                            },
+                            "max": {
+                                "x": 360,
+                                "y": 79
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/cyclops/1/0004.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 21,
+                                "y": 25
+                            },
+                            "max": {
+                                "x": 21,
+                                "y": 25
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/cyclops/1/0005.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 306,
+                                "y": 276
+                            },
+                            "max": {
+                                "x": 306,
+                                "y": 276
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

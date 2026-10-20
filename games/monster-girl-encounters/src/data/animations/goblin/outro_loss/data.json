@@ -1,0 +1,150 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/goblin/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 100,
+                                "y": 60
+                            },
+                            "max": {
+                                "x": 100,
+                                "y": 60
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/goblin/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 35,
+                                "y": 114
+                            },
+                            "max": {
+                                "x": 35,
+                                "y": 114
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/goblin/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 298,
+                                "y": 134
+                            },
+                            "max": {
+                                "x": 298,
+                                "y": 134
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/goblin/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 279,
+                                "y": 209
+                            },
+                            "max": {
+                                "x": 279,
+                                "y": 209
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/goblin/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 99,
+                                "y": 226
+                            },
+                            "max": {
+                                "x": 99,
+                                "y": 226
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/goblin/outro_loss/0001.png"
+        }
+    ]
+}

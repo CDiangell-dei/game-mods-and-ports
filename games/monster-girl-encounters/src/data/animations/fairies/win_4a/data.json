@@ -1,0 +1,150 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/fairies/win_4a/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 0,
+                                "y": 16
+                            },
+                            "max": {
+                                "x": 0,
+                                "y": 16 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/fairies/win_4a/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 172,
+                                "y": 126
+                            },
+                            "max": {
+                                "x": 172,
+                                "y": 126 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/fairies/win_4a/0001.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/fairies/win_4a/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 150,
+                                "y": 287
+                            },
+                            "max": {
+                                "x": 150,
+                                "y": 287 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/fairies/win_4a/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 26,
+                                "y": 11
+                            },
+                            "max": {
+                                "x": 26,
+                                "y": 11 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/fairies/win_4a/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 270,
+                                "y": 95
+                            },
+                            "max": {
+                                "x": 270,
+                                "y": 95 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

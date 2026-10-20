@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "cyclops_intro_4",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "cyclops_intro_5",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "cyclops_intro_6",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "cyclops_intro_7",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "cyclops_intro_8",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "cyclops_intro_9",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "cyclops_intro_10",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "prepareBattle1"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

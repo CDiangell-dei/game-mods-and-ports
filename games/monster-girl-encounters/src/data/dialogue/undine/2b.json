@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "undine_rest_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_dialogue_sprite.lua",
+                "variable": "data/animations/undine/data.json"
+            }
+        ],
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "undine_rest_2",
+        "sound": "data/sounds/dialogue/undine.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_in.lua"
+            }
+        ],
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "undine_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "undine_4",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "undine_5",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "undine_6",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "undine_7",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "undine_8",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 9
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "key": "undine_9",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 10
+    },
+    {
+        "id": 10,
+        "type": "text",
+        "key": "undine_10",
+        "sound": "data/sounds/dialogue/undine.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_dialogue_sprite.lua",
+                "variable": "data/sprites/dither/0.png"
+            }
+        ],
+        "next": 11
+    },
+    {
+        "id": 11,
+        "type": "text",
+        "key": "undine_rest_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 12
+    },
+    {
+        "id": 12,
+        "type": "text",
+        "key": "undine_rest_4",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

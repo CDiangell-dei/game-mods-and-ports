@@ -1,0 +1,8 @@
+{
+    "version": "1.0",
+    "order": 65,
+    "unlock": {
+        "progress": "unlock_no_limit",
+        "value": 1
+    }
+}

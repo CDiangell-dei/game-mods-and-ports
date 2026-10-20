@@ -1,0 +1,75 @@
+{
+    "name": "heart",
+    "size": {
+        "x": 24,
+        "y": 24
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/100.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "sprite",
+            "size": {
+                "x": 24,
+                "y": 24
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator",
+                    "initialAnimation": "data/animations/heart/data.json"
+                }
+            ]
+        },
+        {
+            "name": "cover",
+            "size": {
+                "x": 24,
+                "y": 24
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "shape",
+                    "size": {
+                        "x": 24,
+                        "y": 24
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/ui/heart.png"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "color",
+                            "size": {
+                                "x": 24,
+                                "y": 24
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

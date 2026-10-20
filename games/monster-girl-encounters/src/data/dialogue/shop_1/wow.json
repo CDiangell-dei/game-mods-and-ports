@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "shop_1_wow",
+        "sound": "data/sounds/dialogue/spider_1.json",
+        "next": -1
+    }
+]

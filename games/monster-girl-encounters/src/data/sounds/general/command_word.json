@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/general/command_word.wav",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "variance": 0,
+    "loop": false
+}

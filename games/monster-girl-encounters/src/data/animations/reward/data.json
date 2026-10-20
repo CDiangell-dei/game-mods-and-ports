@@ -1,0 +1,30 @@
+{
+    "frameRate": 6,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/reward/0001.png"
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/reward/0002.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/reward/0003.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/reward/0004.png"
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/reward/0005.png"
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/reward/0006.png"
+        }
+    ]
+}

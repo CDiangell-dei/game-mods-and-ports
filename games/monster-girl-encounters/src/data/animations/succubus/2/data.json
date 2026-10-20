@@ -1,0 +1,105 @@
+{
+    "frameRate": 24,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/succubus/2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 9,
+                                "y": 132
+                            },
+                            "max": {
+                                "x": 9,
+                                "y": 132 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/succubus/2/0002.png"
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/succubus/2/0003.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/hard_plap.json"
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 120,
+                                "y": 7
+                            },
+                            "max": {
+                                "x": 120,
+                                "y": 7 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/succubus/2/0004.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 274,
+                                "y": 175
+                            },
+                            "max": {
+                                "x": 274,
+                                "y": 175
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 10,
+            "sprite": "data/animations/succubus/2/0005.png"
+        },
+        {
+            "frame": 11,
+            "sprite": "data/animations/succubus/2/0005.png"
+        }
+    ]
+}

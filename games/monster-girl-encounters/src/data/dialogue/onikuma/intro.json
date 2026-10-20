@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "onikuma_intro_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "onikuma_intro_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_battle_sprite.lua",
+                "variable": "data/sprites/encounters/onikuma_1.png"
+            }
+        ],
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "onikuma_intro_3",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "onikuma_intro_4",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_battle_sprite.lua",
+                "variable": "data/sprites/encounters/onikuma_2a.png"
+            },
+            {
+                "sound": "data/sounds/general/gasp.json"
+            }
+        ],
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "onikuma_intro_5",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "events": [
+            {
+                "script": "data/scripts/general/set_battle_sprite.lua",
+                "variable": "data/sprites/encounters/onikuma_2b.png"
+            }
+        ],
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "onikuma_intro_6",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "onikuma_intro_7",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "onikuma_intro_8",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/set_battle_sprite.lua",
+                "variable": "data/sprites/encounters/onikuma_2c.png"
+            }
+        ],
+        "next": 9
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "key": "onikuma_intro_9",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 10
+    },
+    {
+        "id": 10,
+        "type": "text",
+        "key": "onikuma_intro_10",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "events": [
+            {
+                "script": "data/scripts/general/set_battle_sprite.lua",
+                "variable": "data/sprites/encounters/onikuma_2d.png"
+            }
+        ],
+        "next": 11
+    },
+    {
+        "id": 11,
+        "type": "text",
+        "key": "onikuma_intro_11",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 12
+    },
+    {
+        "id": 12,
+        "type": "text",
+        "key": "onikuma_intro_12",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": -1
+    }
+]

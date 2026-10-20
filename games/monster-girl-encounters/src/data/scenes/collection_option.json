@@ -1,0 +1,224 @@
+{
+    "name": "choice",
+    "children": [
+        {
+            "name": "outline",
+            "size": {
+                "x": 177,
+                "y": 34
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "shape",
+                    "size": {
+                        "x": 177,
+                        "y": 34
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/ui/button_active.png"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "color",
+                            "size": {
+                                "x": 177,
+                                "y": 34
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "838397"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 175,
+                "y": 32
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/button_active.png"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "text",
+            "position": {
+                "x": 15,
+                "y": 0
+            },
+            "size": {
+                "x": 145,
+                "y": 30
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 145,
+                        "y": 30
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "555571"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 145,
+                        "y": 30
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "414162"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "choice/arrow",
+            "position": {
+                "x": 6,
+                "y": 1
+            },
+            "size": {
+                "x": 165,
+                "y": 30
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "left",
+                    "size": {
+                        "x": 165,
+                        "y": 30
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 165,
+                                "y": 30
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "left",
+                                    "color": "555571",
+                                    "text": ">"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 165,
+                                "y": 30
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "left",
+                                    "color": "414162",
+                                    "text": ">"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "right",
+                    "size": {
+                        "x": 165,
+                        "y": 30
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 165,
+                                "y": 30
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "right",
+                                    "color": "555571",
+                                    "text": "<"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 165,
+                                "y": 30
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "right",
+                                    "color": "414162",
+                                    "text": "<"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

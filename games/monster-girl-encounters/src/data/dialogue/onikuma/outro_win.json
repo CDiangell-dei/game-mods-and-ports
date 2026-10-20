@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "onikuma_win_1",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "onikuma_win_2",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "onikuma_win_3",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "onikuma_win_4",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": -1
+    }
+]

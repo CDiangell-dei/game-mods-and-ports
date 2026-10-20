@@ -1,0 +1,17 @@
+{
+    "name": "flash",
+    "size": {
+        "x": 38,
+        "y": 38
+    },
+    "components": [
+        {
+            "type": "image",
+            "color": "6d6d87"
+        },
+        {
+            "type": "animator",
+            "initialAnimation": "data/animations/tile_flash/data.json"
+        }
+    ]
+}

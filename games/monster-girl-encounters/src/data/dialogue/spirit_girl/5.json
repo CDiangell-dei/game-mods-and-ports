@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "spirit_girl_11",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "spirit_girl_12",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "spirit_girl_13",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "choice",
+        "choices": [
+            {
+                "key": "spirit_girl_choice_1",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_encounter_choice.lua",
+                        "variable": 1
+                    }
+                ],
+                "next": -1
+            },
+            {
+                "key": "spirit_girl_choice_2",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_encounter_choice.lua",
+                        "variable": 2
+                    }
+                ],
+                "next": -1
+            }
+        ]
+    }
+]

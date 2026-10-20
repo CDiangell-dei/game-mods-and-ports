@@ -1,0 +1,183 @@
+{
+    "name": "cutscene",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "image",
+            "sprite": "data/sprites/ui/intro_cutscene.png"
+        }
+    ],
+    "children": [
+        {
+            "name": "sprite1",
+            "position": {
+                "x": 209,
+                "y": 80
+            },
+            "size": {
+                "x": 256,
+                "y": 256
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "imageType": "tiled"
+                },
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/dither/0.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 256,
+                        "y": 256
+                    },
+                    "components": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "animator"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sprite2",
+            "position": {
+                "x": 210,
+                "y": 80
+            },
+            "size": {
+                "x": 256,
+                "y": 256
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "imageType": "tiled"
+                },
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/dither/0.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 256,
+                        "y": 256
+                    },
+                    "components": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "animator"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dialogueBox",
+            "size": {
+                "x": 675,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "text",
+                    "position": {
+                        "x": 142,
+                        "y": 394
+                    },
+                    "size": {
+                        "x": 390,
+                        "y": 100
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "horizontalAlignment": "center",
+                            "verticalAlignment": "top",
+                            "color": "6d6d87",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "name": "progress",
+                    "position": {
+                        "x": 325,
+                        "y": 500
+                    },
+                    "size": {
+                        "x": 24,
+                        "y": 24
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "00000000"
+                        },
+                        {
+                            "type": "animator",
+                            "initialAnimation": "data/animations/text_indicator/data.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "choices",
+                    "position": {
+                        "x": 205,
+                        "y": 55
+                    },
+                    "pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "size": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        },
+                        {
+                            "type": "gridLayoutGroup",
+                            "spacing": {
+                                "x": 10,
+                                "y": 10
+                            },
+                            "cellSize": {
+                                "x": 190,
+                                "y": 32
+                            },
+                            "constraint": "fixedRowCount",
+                            "constraintCount": 2,
+                            "controlObjectSize": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

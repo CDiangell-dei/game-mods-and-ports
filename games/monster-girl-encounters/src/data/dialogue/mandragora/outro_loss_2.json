@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "mandragora_loss_7",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "mandragora_loss_8",
+        "sound": "data/sounds/dialogue/mandragora.json",
+        "events": [
+            {
+                "script": "data/scripts/general/cum_inside.lua"
+            }
+        ],
+        "next": -1
+    }
+]

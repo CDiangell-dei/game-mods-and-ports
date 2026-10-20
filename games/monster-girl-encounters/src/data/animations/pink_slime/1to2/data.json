@@ -1,0 +1,35 @@
+{
+    "frameRate": 24,
+    "loop": false,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/pink_slime/1to2/0001.png"
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/pink_slime/1to2/0002.png"
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/pink_slime/1to2/0002.png",
+            "events": [
+                {
+                    "sound": "data/sounds/encounters/slime_transform.json"
+                }
+            ]
+        },
+        {
+            "frame": 9,
+            "sprite": "data/animations/pink_slime/1to2/0003.png"
+        },
+        {
+            "frame": 13,
+            "sprite": "data/animations/pink_slime/1to2/0004.png"
+        },
+        {
+            "frame": 16,
+            "sprite": "data/animations/pink_slime/1to2/0004.png"
+        }
+    ]
+}

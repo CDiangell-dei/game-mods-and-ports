@@ -1,0 +1,259 @@
+{
+    "frameRate": 24,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/fairies/1c/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 285,
+                                "y": 100
+                            },
+                            "max": {
+                                "x": 285,
+                                "y": 100 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/fairies/1c/0002.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/fairies/1c/0003.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/fairies/1c/0004.png"
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/fairies/1c/0005.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 279,
+                                "y": 296
+                            },
+                            "max": {
+                                "x": 279,
+                                "y": 296 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/fairies/1c/0006.png"
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/fairies/1c/0007.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/rub_up.json"
+                }
+            ]
+        },
+        {
+            "frame": 8,
+            "sprite": "data/animations/fairies/1c/0008.png"
+        },
+        {
+            "frame": 9,
+            "sprite": "data/animations/fairies/1c/0009.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 2,
+                                "y": 283
+                            },
+                            "max": {
+                                "x": 2,
+                                "y": 283
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 10,
+            "sprite": "data/animations/fairies/1c/0010.png"
+        },
+        {
+            "frame": 11,
+            "sprite": "data/animations/fairies/1c/0011.png"
+        },
+        {
+            "frame": 12,
+            "sprite": "data/animations/fairies/1c/0012.png"
+        },
+        {
+            "frame": 13,
+            "sprite": "data/animations/fairies/1c/0013.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 328,
+                                "y": 27
+                            },
+                            "max": {
+                                "x": 328,
+                                "y": 27 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 14,
+            "sprite": "data/animations/fairies/1c/0014.png"
+        },
+        {
+            "frame": 15,
+            "sprite": "data/animations/fairies/1c/0015.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/rub2_up.json"
+                }
+            ]
+        },
+        {
+            "frame": 16,
+            "sprite": "data/animations/fairies/1c/0016.png"
+        },
+        {
+            "frame": 17,
+            "sprite": "data/animations/fairies/1c/0017.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 261,
+                                "y": 233
+                            },
+                            "max": {
+                                "x": 261,
+                                "y": 233
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 18,
+            "sprite": "data/animations/fairies/1c/0018.png"
+        },
+        {
+            "frame": 19,
+            "sprite": "data/animations/fairies/1c/0019.png"
+        },
+        {
+            "frame": 20,
+            "sprite": "data/animations/fairies/1c/0020.png"
+        },
+        {
+            "frame": 21,
+            "sprite": "data/animations/fairies/1c/0021.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 71,
+                                "y": 106
+                            },
+                            "max": {
+                                "x": 71,
+                                "y": 106 
+                            }
+                        },
+                        "color": {
+                            "r": 0.9333,
+                            "g": 0.5664,
+                            "b": 0.6000,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "sound": "data/sounds/sex/rub_down.json"
+                }
+            ]
+        },
+        {
+            "frame": 22,
+            "sprite": "data/animations/fairies/1c/0022.png"
+        },
+        {
+            "frame": 23,
+            "sprite": "data/animations/fairies/1c/0023.png"
+        },
+        {
+            "frame": 24,
+            "sprite": "data/animations/fairies/1c/0024.png"
+        }
+    ]
+}

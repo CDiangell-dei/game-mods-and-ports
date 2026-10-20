@@ -1,0 +1,61 @@
+{
+    "name": "turboSpeed",
+    "position": {
+        "x": 236,
+        "y": 6
+    },
+    "size": {
+        "x": 90,
+        "y": 24
+    },
+    "components": [
+        {
+            "type": "image",
+            "color": "c8c8e1"
+        }
+    ],
+    "children": [
+        {
+            "name": "button",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 88,
+                "y": 22
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "101018"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "position": {
+                        "x": 0,
+                        "y": 3
+                    },
+                    "size": {
+                        "x": 88,
+                        "y": 16
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "center",
+                            "color": "e6e6f5",
+                            "text": "1x"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

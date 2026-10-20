@@ -1,0 +1,350 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/cyclops/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 98,
+                                "y": 88
+                            },
+                            "max": {
+                                "x": 98,
+                                "y": 88
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 299,
+                                "y": 261
+                            },
+                            "max": {
+                                "x": 299,
+                                "y": 261
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/cyclops/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 296,
+                                "y": 45
+                            },
+                            "max": {
+                                "x": 296,
+                                "y": 45
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 144,
+                                "y": 367
+                            },
+                            "max": {
+                                "x": 144,
+                                "y": 367
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 195,
+                                "y": 111
+                            },
+                            "max": {
+                                "x": 195,
+                                "y": 111
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/cyclops/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 14,
+                                "y": 25
+                            },
+                            "max": {
+                                "x": 14,
+                                "y": 25
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 360,
+                                "y": 69
+                            },
+                            "max": {
+                                "x": 360,
+                                "y": 69
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/cyclops/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 232,
+                                "y": 365
+                            },
+                            "max": {
+                                "x": 232,
+                                "y": 365
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 26,
+                                "y": 84
+                            },
+                            "max": {
+                                "x": 26,
+                                "y": 84
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/cyclops/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 361,
+                                "y": 5
+                            },
+                            "max": {
+                                "x": 361,
+                                "y": 5
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 70,
+                                "y": 254
+                            },
+                            "max": {
+                                "x": 70,
+                                "y": 254
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/cyclops/outro_loss/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 314,
+                                "y": 90
+                            },
+                            "max": {
+                                "x": 314,
+                                "y": 90
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 76,
+                                "y": 25
+                            },
+                            "max": {
+                                "x": 76,
+                                "y": 25
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 145,
+                                "y": 323
+                            },
+                            "max": {
+                                "x": 145,
+                                "y": 323
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

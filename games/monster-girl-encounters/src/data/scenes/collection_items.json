@@ -1,0 +1,97 @@
+{
+    "name": "items",
+    "position": {
+        "x": 15,
+        "y": 51
+    },
+    "size": {
+        "x": 655,
+        "y": 484
+    },
+    "components": [
+        {
+            "type": "scrollView"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "viewport",
+            "size": {
+                "x": 655,
+                "y": 484
+            },
+            "components": [
+                {
+                    "type": "mask"
+                }
+            ],
+            "children": [
+                {
+                    "name": "content",
+                    "size": {
+                        "x": 656,
+                        "y": 0
+                    },
+                    "components": [
+                        {
+                            "type": "gridLayoutGroup",
+                            "spacing": {
+                                "x": 7,
+                                "y": 7
+                            },
+                            "cellSize": {
+                                "x": 74,
+                                "y": 74
+                            },
+                            "controlVerticalSize": true,
+                            "constraint": "fixedColumnCount",
+                            "constraintCount": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "scrollbar",
+            "position": {
+                "x": 653,
+                "y": 0
+            },
+            "size": {
+                "x": 2,
+                "y": 484
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "242538"
+                },
+                {
+                    "type": "scrollbar"
+                }
+            ],
+            "children": [
+                {
+                    "name": "handle",
+                    "size": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "pivot": {
+                        "x": 0,
+                        "y": 0.5
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "414162"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

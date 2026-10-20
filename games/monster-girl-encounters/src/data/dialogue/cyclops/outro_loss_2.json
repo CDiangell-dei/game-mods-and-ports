@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "cyclops_loss_6",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "cyclops_loss_7",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "callBattleComplete"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

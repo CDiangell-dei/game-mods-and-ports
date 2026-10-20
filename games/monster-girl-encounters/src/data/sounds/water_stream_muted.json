@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/water_stream.ogg",
+    "volume": 0.25,
+    "pitch": 0.9,
+    "variance": 0.0,
+    "loop": true
+}

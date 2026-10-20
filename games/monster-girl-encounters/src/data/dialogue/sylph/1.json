@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sylph_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "choice",
+        "choices": [
+            {
+                "key": "sylph_choice_1",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_encounter_choice.lua",
+                        "variable": 1
+                    }
+                ],
+                "next": -1
+            },
+            {
+                "key": "sylph_choice_2",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_encounter_choice.lua",
+                        "variable": 0
+                    }
+                ],
+                "next": -1
+            }
+        ]
+    }
+]

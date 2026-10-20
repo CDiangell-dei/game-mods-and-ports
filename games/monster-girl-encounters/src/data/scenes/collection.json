@@ -1,0 +1,118 @@
+{
+    "name": "collection",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "background",
+            "size": {
+                "x": 675,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/collection.png"
+                }
+            ]
+        },
+        {
+            "name": "closeButton",
+            "prefab": "data/scenes/exit_button_large.json",
+            "position": {
+                "x": 15,
+                "y": 5
+            }
+        },
+        {
+            "name": "tilesButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 296,
+                "y": 5
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "tiles_button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "tiles_button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "encountersButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 483,
+                "y": 5
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "encounters_button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "encounters_button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

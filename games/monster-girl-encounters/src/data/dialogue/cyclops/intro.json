@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "cyclops_intro_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "cyclops_intro_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "cyclops_intro_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_to_black.lua"
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 1.0,
+                    "script": "data/scripts/general/set_battle_bg.lua",
+                    "variable": "data/animations/cyclops/intro/data.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 1.5,
+                    "script": "data/scripts/general/pan_battle_bg.lua",
+                    "variable": {
+                        "duration": 10,
+                        "start": {
+                            "x": 0,
+                            "y": -415
+                        },
+                        "goal": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "size": {
+                            "x": 410,
+                            "y": 825
+                        }
+                    }
+                }
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 1.5,
+                    "script": "data/scripts/general/fade_in.lua"
+                }
+            },
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 1.5,
+                    "dialogue": "data/dialogue/cyclops/intro_2.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 1.0,
+                    "script": "data/scripts/general/play_music.lua",
+                    "variable": "data/sounds/shower.json"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

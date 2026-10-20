@@ -1,0 +1,238 @@
+{
+    "name": "encounter",
+    "size": {
+        "x": 235,
+        "y": 38
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "outline",
+            "size": {
+                "x": 235,
+                "y": 38
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "shape",
+                    "size": {
+                        "x": 235,
+                        "y": 38
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/ui/button_active.png"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "color",
+                            "size": {
+                                "x": 235,
+                                "y": 38
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "838397"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 233,
+                "y": 36
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/button_active.png"
+                },
+                {
+                    "type": "button",
+                    "blockType": "passthrough"
+                }
+            ]
+        },
+        {
+            "name": "arrow",
+            "position": {
+                "x": 15,
+                "y": 1
+            },
+            "size": {
+                "x": 233,
+                "y": 36
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "component": [
+                {
+                    "name": "left",
+                    "size": {
+                        "x": 233,
+                        "y": 36
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 233,
+                                "y": 36
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "left",
+                                    "color": "555571",
+                                    "text": ">"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 233,
+                                "y": 36
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "left",
+                                    "color": "414162",
+                                    "text": ">"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "right",
+                    "size": {
+                        "x": 233,
+                        "y": 36
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 233,
+                                "y": 36
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "right",
+                                    "color": "555571",
+                                    "text": "<"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 233,
+                                "y": 36
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "horizontalAlignment": "right",
+                                    "color": "414162",
+                                    "text": "<"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "text",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 233,
+                "y": 36
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 233,
+                        "y": 36
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "555571",
+                            "text": "unknown_encounter"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 233,
+                        "y": 36
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "414162",
+                            "text": "unknown_encounter"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

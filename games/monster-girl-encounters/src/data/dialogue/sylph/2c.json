@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sylph_reach_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "sylph_reach_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "sylph_reach_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "sylph_reach_4",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "sylph_reach_5",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "sylph_reach_6",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "sylph_reach_7",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

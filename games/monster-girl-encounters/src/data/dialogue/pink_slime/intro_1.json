@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "pink_slime_intro_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "choice",
+        "choices": [
+            {
+                "key": "pink_slime_choice_1",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_choice.lua",
+                        "variable": 1
+                    }
+                ],
+                "next": 3
+            },
+            {
+                "key": "pink_slime_choice_2",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_choice.lua",
+                        "variable": 2
+                    }
+                ],
+                "next": 50
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "pink_slime_intro_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "pink_slime_intro_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "pink_slime_intro_4",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "pink_slime_intro_5",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    },
+    {
+        "id": 50,
+        "type": "text",
+        "key": "pink_slime_intro_2b",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 51
+    },
+    {
+        "id": 51,
+        "type": "text",
+        "key": "pink_slime_intro_3b",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

@@ -1,0 +1,485 @@
+{
+    "name": "resolution",
+    "size": {
+        "x": 303,
+        "y": 45
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "label",
+            "position": {
+                "x": 10,
+                "y": 0
+            },
+            "size": {
+                "x": 182,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 182,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538",
+                            "text": "resolution"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 182,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "555571",
+                            "text": "resolution"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "label1",
+            "position": {
+                "x": 228,
+                "y": 0
+            },
+            "size": {
+                "x": 50,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538",
+                            "text": "1x"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "text": "1x",
+                            "color": "555571"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "toggle1",
+            "position": {
+                "x": 214,
+                "y": 3
+            },
+            "size": {
+                "x": 9,
+                "y": 9
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/toggle_inactive.png"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "checkmark",
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_active.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "label2",
+            "position": {
+                "x": 272,
+                "y": 0
+            },
+            "size": {
+                "x": 50,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538",
+                            "text": "2x"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "text": "2x",
+                            "color": "555571"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "toggle2",
+            "position": {
+                "x": 258,
+                "y": 3
+            },
+            "size": {
+                "x": 9,
+                "y": 9
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/toggle_inactive.png"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "checkmark",
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_active.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "label3",
+            "position": {
+                "x": 228,
+                "y": 15
+            },
+            "size": {
+                "x": 50,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538",
+                            "text": "3x"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "text": "3x",
+                            "color": "555571"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "toggle3",
+            "position": {
+                "x": 214,
+                "y": 18
+            },
+            "size": {
+                "x": 9,
+                "y": 9
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/toggle_inactive.png"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "checkmark",
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_active.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "label4",
+            "position": {
+                "x": 272,
+                "y": 15
+            },
+            "size": {
+                "x": 50,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538",
+                            "text": "4x"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 50,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "text": "4x",
+                            "color": "555571"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "toggle4",
+            "position": {
+                "x": 258,
+                "y": 18
+            },
+            "size": {
+                "x": 9,
+                "y": 9
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/toggle_inactive.png"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "checkmark",
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_active.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "labelFull",
+            "position": {
+                "x": 228,
+                "y": 30
+            },
+            "size": {
+                "x": 75,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 75,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538",
+                            "text": "fullscreen"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 75,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "text": "fullscreen",
+                            "color": "555571"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "toggleFull",
+            "position": {
+                "x": 214,
+                "y": 33
+            },
+            "size": {
+                "x": 9,
+                "y": 9
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/toggle_inactive.png"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "checkmark",
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_active.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

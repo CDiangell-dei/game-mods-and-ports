@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sphinx_intro_9",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "prepareBattle1"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

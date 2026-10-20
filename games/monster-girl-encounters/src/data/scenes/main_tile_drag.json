@@ -1,0 +1,15 @@
+{
+    "name": "drag",
+    "size": {
+        "x": 36,
+        "y": 36
+    },
+    "components": [
+        {
+            "type": "image"
+        },
+        {
+            "type": "animator"
+        }
+    ]
+}

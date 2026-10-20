@@ -1,0 +1,126 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/succubus/loss1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 27,
+                                "y": 148
+                            },
+                            "max": {
+                                "x": 27,
+                                "y": 148 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/succubus/loss1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 152,
+                                "y": 176
+                            },
+                            "max": {
+                                "x": 152,
+                                "y": 176
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/succubus/loss1/0001.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/succubus/loss1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 302,
+                                "y": 134
+                            },
+                            "max": {
+                                "x": 302,
+                                "y": 134 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/succubus/loss1/0001.png"
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/succubus/loss1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 64,
+                                "y": 307
+                            },
+                            "max": {
+                                "x": 64,
+                                "y": 307
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

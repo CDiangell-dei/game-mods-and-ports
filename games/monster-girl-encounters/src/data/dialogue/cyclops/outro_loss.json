@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "cyclops_loss_1",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "cyclops_loss_2",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "losePumping1"
+                }
+            }
+        ],
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "cyclops_loss_3",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "cyclops_loss_4",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "cyclops_loss_5",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "events": [
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 2.0,
+                    "dialogue": "data/dialogue/cyclops/outro_loss_2.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/cum_inside.lua"
+            }
+        ],
+        "next": -1
+    }
+]

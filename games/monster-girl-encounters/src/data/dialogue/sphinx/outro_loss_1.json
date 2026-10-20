@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sphinx_loss1_1",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "sphinx_loss1_2",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "losePumping1"
+                }
+            }
+        ],
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "sphinx_loss1_3",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "sphinx_loss1_4",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "sphinx_loss1_5",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "sphinx_loss1_6",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "events": [
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 2.0,
+                    "dialogue": "data/dialogue/sphinx/outro_loss_1b.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/cum_outside.lua"
+            }
+        ],
+        "next": -1
+    }
+]

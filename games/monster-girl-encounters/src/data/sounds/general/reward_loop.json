@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/general/reward_loop.wav",
+    "volume": 0.7,
+    "pitch": 1.0,
+    "variance": 0,
+    "loop": true
+}

@@ -1,0 +1,3 @@
+Key,Text,Notes
+mod_sell_confirm_name,Confirmar Venda de Item,Mod Info
+mod_sell_confirm_description,"Pede confirmacao antes de vender um item na loja, evitando vendas acidentais. Sempre ativo na versao mobile e opcional no PC.",Mod Info

@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_win_2_6",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "fairies_win_2_7",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "fairies_win_2_8",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "fairies_win_2_9",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "fairies_win_2_10",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "fairies_win_2_11",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "events": [
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 2.0,
+                    "dialogue": "data/dialogue/fairies/win_2_3.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/cum_outside.lua"
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 0.4,
+                    "script": "data/scripts/general/set_battle_sprite.lua",
+                    "variable": "data/animations/fairies/win_4b/data.json"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

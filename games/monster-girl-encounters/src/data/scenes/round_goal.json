@@ -1,0 +1,117 @@
+{
+    "name": "goal_effect",
+    "position": {
+        "x": -142,
+        "y": 0
+    },
+    "size": {
+        "x": 960,
+        "y": 540
+    },
+    "children": [
+        {
+            "name": "left",
+            "size": {
+                "x": 142,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/side_left.png"
+                },
+                {
+                    "type": "particleSource"
+                }
+            ]
+        },
+        {
+            "name": "right",
+            "position": {
+                "x": 817,
+                "y": 0
+            },
+            "size": {
+                "x": 143,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/side_right.png"
+                },
+                {
+                    "type": "particleSource"
+                }
+            ]
+        },
+        {
+            "name": "leftText",
+            "size": {
+                "x": 142,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 142,
+                        "y": 540
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "horizontalAlignment": "center",
+                            "verticalAlignment": "middle",
+                            "color": "ffffff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "rightText",
+            "position": {
+                "x": 817,
+                "y": 0
+            },
+            "size": {
+                "x": 143,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 143,
+                        "y": 540
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "horizontalAlignment": "center",
+                            "verticalAlignment": "middle",
+                            "color": "ffffff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

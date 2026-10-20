@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "goblin_battle_2",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": -1
+    }
+]

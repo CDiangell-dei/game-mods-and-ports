@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "goblin_loss_1",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "goblin_loss_2",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "goblin_loss_3",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "goblin_loss_4",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "goblin_loss_5",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "events": [
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 2.0,
+                    "dialogue": "data/dialogue/goblin/outro_loss_2.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 0.4,
+                    "script": "data/scripts/general/set_battle_sprite.lua",
+                    "variable": "data/animations/goblin/outro_loss_2/data.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/cum_outside.lua"
+            }
+        ],
+        "next": -1
+    }
+]

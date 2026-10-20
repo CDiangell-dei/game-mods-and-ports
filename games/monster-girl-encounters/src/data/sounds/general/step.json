@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/general/step.wav",
+    "volume": 0.15,
+    "pitch": 1.0,
+    "variance": 0.1,
+    "loop": false
+}

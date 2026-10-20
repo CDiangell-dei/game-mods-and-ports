@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sphinx_win1_1",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "sphinx_win1_2",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "sphinx_win1_3",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "sphinx_win1_4",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "sphinx_win1_5",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "events": [
+            {
+                "sound": "data/sounds/general/command_word.json"
+            }
+        ],
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "sphinx_win1_6",
+        "sound": "none",
+        "next": -1
+    }
+]

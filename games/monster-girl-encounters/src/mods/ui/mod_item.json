@@ -1,0 +1,216 @@
+{
+    "name": "item",
+    "size": {
+        "x": 636,
+        "y": 108
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "outline",
+            "size": {
+                "x": 636,
+                "y": 108
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "414162"
+                }
+            ]
+        },
+        {
+            "name": "panel",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 634,
+                "y": 106
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "242538"
+                }
+            ]
+        },
+        {
+            "name": "iconFrame",
+            "position": {
+                "x": 8,
+                "y": 8
+            },
+            "size": {
+                "x": 92,
+                "y": 92
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "838397"
+                }
+            ]
+        },
+        {
+            "name": "icon",
+            "position": {
+                "x": 9,
+                "y": 9
+            },
+            "size": {
+                "x": 90,
+                "y": 90
+            },
+            "components": [
+                {
+                    "type": "image"
+                }
+            ]
+        },
+        {
+            "name": "title",
+            "position": {
+                "x": 108,
+                "y": 11
+            },
+            "size": {
+                "x": 485,
+                "y": 22
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 485,
+                        "y": 22
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "0f0f1a"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 485,
+                        "y": 22
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "c8c8dc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "divider",
+            "position": {
+                "x": 116,
+                "y": 40
+            },
+            "size": {
+                "x": 469,
+                "y": 1
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "414162"
+                }
+            ]
+        },
+        {
+            "name": "description",
+            "position": {
+                "x": 116,
+                "y": 48
+            },
+            "size": {
+                "x": 469,
+                "y": 40
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "a0a0b8",
+                    "horizontalAlignment": "left",
+                    "verticalAlignment": "top",
+                    "wrap": true
+                }
+            ]
+        },
+        {
+            "name": "toggle",
+            "position": {
+                "x": 601,
+                "y": 40
+            },
+            "size": {
+                "x": 27,
+                "y": 27
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "mods/ui/check_off.png"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "checkmark",
+                    "size": {
+                        "x": 27,
+                        "y": 27
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "mods/ui/check_on.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lockNote",
+            "position": {
+                "x": 116,
+                "y": 90
+            },
+            "size": {
+                "x": 469,
+                "y": 14
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "d2b46e",
+                    "horizontalAlignment": "left"
+                }
+            ]
+        }
+    ]
+}

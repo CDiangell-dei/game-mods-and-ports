@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/shower.ogg",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "variance": 0.0,
+    "loop": true
+}

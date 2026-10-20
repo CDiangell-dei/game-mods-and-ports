@@ -1,0 +1,3 @@
+Key,Text,Notes
+mod_sell_confirm_name,Confirm Item Sale,Mod Info
+mod_sell_confirm_description,"Asks for confirmation before selling an item in the shop, preventing accidental sales. Always on in the mobile version and optional on PC.",Mod Info

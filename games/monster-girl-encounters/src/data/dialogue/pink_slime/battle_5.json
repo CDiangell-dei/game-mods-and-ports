@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "pink_slime_battle_5",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": -1
+    }
+]

@@ -1,0 +1,169 @@
+{
+    "name": "language",
+    "size": {
+        "x": 303,
+        "y": 30
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "title",
+            "position": {
+                "x": 10,
+                "y": 0
+            },
+            "size": {
+                "x": 182,
+                "y": 15
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "6d6d87",
+                    "text": "language"
+                }
+            ]
+        },
+        {
+            "name": "english",
+            "position": {
+                "x": 10,
+                "y": 15
+            },
+            "size": {
+                "x": 130,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "label",
+                    "position": {
+                        "x": 14,
+                        "y": 0
+                    },
+                    "size": {
+                        "x": 110,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "color": "6d6d87",
+                            "text": "language_english"
+                        }
+                    ]
+                },
+                {
+                    "name": "toggle",
+                    "position": {
+                        "x": 0,
+                        "y": 3
+                    },
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_inactive.png"
+                        },
+                        {
+                            "type": "button"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "checkmark",
+                            "size": {
+                                "x": 9,
+                                "y": 9
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/toggle_active.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "portuguese",
+            "position": {
+                "x": 160,
+                "y": 15
+            },
+            "size": {
+                "x": 130,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "label",
+                    "position": {
+                        "x": 14,
+                        "y": 0
+                    },
+                    "size": {
+                        "x": 110,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "color": "6d6d87",
+                            "text": "language_portuguese"
+                        }
+                    ]
+                },
+                {
+                    "name": "toggle",
+                    "position": {
+                        "x": 0,
+                        "y": 3
+                    },
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_inactive.png"
+                        },
+                        {
+                            "type": "button"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "checkmark",
+                            "size": {
+                                "x": 9,
+                                "y": 9
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/toggle_active.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

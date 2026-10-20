@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "succubus_win1_1",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "succubus_win1_2",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "succubus_win1_3",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "succubus_win1_4",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "succubus_win1_5",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": -1
+    }
+]

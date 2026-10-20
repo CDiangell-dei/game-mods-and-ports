@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "succubus_intro_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "succubus_intro_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_battle_sprite.lua",
+                "variable": "data/sprites/encounters/succubus_intro.png"
+            }
+        ],
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "succubus_intro_3",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "succubus_intro_4",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "succubus_intro_5",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "succubus_intro_6",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "succubus_intro_7",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": -1
+    }
+]

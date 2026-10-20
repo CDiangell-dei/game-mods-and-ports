@@ -1,0 +1,17 @@
+# Logs & temporários
+*.log
+*.tmp
+*.bak
+*.orig
+__pycache__/
+*.pyc
+
+# Builds compilados grandes (gerados sob demanda ou via Releases)
+*.apk
+*.exe
+*.love
+*.zip
+
+# Saves locais não intencionais
+local_saves/
+debug_run.log

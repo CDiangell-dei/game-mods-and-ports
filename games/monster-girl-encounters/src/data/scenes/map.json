@@ -1,0 +1,373 @@
+{
+    "name": "map",
+    "position": {
+        "x": 91,
+        "y": 0
+    },
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/100.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "container",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "mask"
+                }
+            ],
+            "children": [
+                {
+                    "name": "current",
+                    "position": {
+                        "x": 128,
+                        "y": 187
+                    },
+                    "size": {
+                        "x": 48,
+                        "y": 48
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "sprite",
+                            "size": {
+                                "x": 48,
+                                "y": 48
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "left",
+                    "position": {
+                        "x": 220,
+                        "y": 110
+                    },
+                    "size": {
+                        "x": 50,
+                        "y": 50
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "outline",
+                            "size": {
+                                "x": 50,
+                                "y": 50
+                            },
+                            "components": [
+                                {
+                                    "type": "mask",
+                                    "sprite": "data/sprites/dither/0.png",
+                                    "imageType": "tiled"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "name": "shape",
+                                    "size": {
+                                        "x": 50,
+                                        "y": 50
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "mask"
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "color",
+                                            "size": {
+                                                "x": 50,
+                                                "y": 50
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "image",
+                                                    "color": "DBC1A9"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "button",
+                            "position": {
+                                "x": 1,
+                                "y": 1
+                            },
+                            "size": {
+                                "x": 48,
+                                "y": 48
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leftLeft",
+                    "position": {
+                        "x": 310,
+                        "y": 68
+                    },
+                    "size": {
+                        "x": 48,
+                        "y": 48
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "sprite",
+                            "size": {
+                                "x": 48,
+                                "y": 48
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leftRight",
+                    "position": {
+                        "x": 310,
+                        "y": 152
+                    },
+                    "size": {
+                        "x": 48,
+                        "y": 48
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "sprite",
+                            "size": {
+                                "x": 48,
+                                "y": 48
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "right",
+                    "position": {
+                        "x": 220,
+                        "y": 265
+                    },
+                    "size": {
+                        "x": 50,
+                        "y": 50
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "outline",
+                            "size": {
+                                "x": 50,
+                                "y": 50
+                            },
+                            "components": [
+                                {
+                                    "type": "mask",
+                                    "sprite": "data/sprites/dither/0.png",
+                                    "imageType": "tiled"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "name": "shape",
+                                    "size": {
+                                        "x": 50,
+                                        "y": 50
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "mask"
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "color",
+                                            "size": {
+                                                "x": 50,
+                                                "y": 50
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "image",
+                                                    "color": "DBC1A9"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "button",
+                            "position": {
+                                "x": 1,
+                                "y": 1
+                            },
+                            "size": {
+                                "x": 48,
+                                "y": 48
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rightLeft",
+                    "position": {
+                        "x": 310,
+                        "y": 223
+                    },
+                    "size": {
+                        "x": 48,
+                        "y": 48
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "sprite",
+                            "size": {
+                                "x": 48,
+                                "y": 48
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rightRight",
+                    "position": {
+                        "x": 310,
+                        "y": 307
+                    },
+                    "size": {
+                        "x": 48,
+                        "y": 48
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "sprite",
+                            "size": {
+                                "x": 48,
+                                "y": 48
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

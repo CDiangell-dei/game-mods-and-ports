@@ -1,0 +1,73 @@
+{
+    "name": "closeButton",
+    "size": {
+        "x": 26,
+        "y": 26
+    },
+    "children": [
+        {
+            "name": "outline",
+            "size": {
+                "x": 26,
+                "y": 26
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "shape",
+                    "size": {
+                        "x": 26,
+                        "y": 26
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/ui/exit_button.png"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "color",
+                            "size": {
+                                "x": 26,
+                                "y": 26
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "838397"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 24,
+                "y": 24
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/exit_button.png"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        }
+    ]
+}

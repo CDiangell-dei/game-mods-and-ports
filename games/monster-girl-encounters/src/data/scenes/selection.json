@@ -1,0 +1,13 @@
+{
+    "name": "selection",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "image",
+            "sprite": "data/sprites/ui/intro.png"
+        }
+    ]
+}

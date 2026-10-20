@@ -1,0 +1,833 @@
+{
+    "name": "title",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "image",
+            "sprite": "data/sprites/ui/title.png"
+        }
+    ],
+    "children": [
+        {
+            "name": "logo",
+            "position": {
+                "x": 194,
+                "y": 43
+            },
+            "size": {
+                "x": 300,
+                "y": 140
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 300,
+                        "y": 140
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/title_logo.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "position": {
+                "x": 250,
+                "y": 205
+            },
+            "size": {
+                "x": 177,
+                "y": 355
+            },
+            "components": [
+                {
+                    "type": "verticalLayoutGroup",
+                    "spacing": 10
+                }
+            ],
+            "children": [
+                {
+                    "name": "story",
+                    "size": {
+                        "x": 177,
+                        "y": 53
+                    },
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "outline",
+                            "size": {
+                                "x": 177,
+                                "y": 53
+                            },
+                            "children": [
+                                {
+                                    "name": "shape",
+                                    "size": {
+                                        "x": 177,
+                                        "y": 53
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "color",
+                                            "size": {
+                                                "x": 177,
+                                                "y": 53
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "button",
+                            "size": {
+                                "x": 175,
+                                "y": 51
+                            }
+                        },
+                        {
+                            "name": "arrow",
+                            "size": {
+                                "x": 165,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "left",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "right",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "label",
+                            "size": {
+                                "x": 175,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "story_mode_button"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "story_mode_button"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "endless",
+                    "size": {
+                        "x": 177,
+                        "y": 53
+                    },
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "outline",
+                            "size": {
+                                "x": 177,
+                                "y": 53
+                            },
+                            "children": [
+                                {
+                                    "name": "shape",
+                                    "size": {
+                                        "x": 177,
+                                        "y": 53
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "color",
+                                            "size": {
+                                                "x": 177,
+                                                "y": 53
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "button",
+                            "size": {
+                                "x": 175,
+                                "y": 51
+                            }
+                        },
+                        {
+                            "name": "arrow",
+                            "size": {
+                                "x": 165,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "left",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "right",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "label",
+                            "size": {
+                                "x": 175,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "endless_mode_button"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "endless_mode_button"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "collection",
+                    "size": {
+                        "x": 177,
+                        "y": 53
+                    },
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "outline",
+                            "size": {
+                                "x": 177,
+                                "y": 53
+                            },
+                            "children": [
+                                {
+                                    "name": "shape",
+                                    "size": {
+                                        "x": 177,
+                                        "y": 53
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "color",
+                                            "size": {
+                                                "x": 177,
+                                                "y": 53
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "button",
+                            "size": {
+                                "x": 175,
+                                "y": 51
+                            }
+                        },
+                        {
+                            "name": "arrow",
+                            "size": {
+                                "x": 165,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "left",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "right",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "label",
+                            "size": {
+                                "x": 175,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "collection_button"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "collection_button"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "settings",
+                    "size": {
+                        "x": 177,
+                        "y": 53
+                    },
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "outline",
+                            "size": {
+                                "x": 177,
+                                "y": 53
+                            },
+                            "children": [
+                                {
+                                    "name": "shape",
+                                    "size": {
+                                        "x": 177,
+                                        "y": 53
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "color",
+                                            "size": {
+                                                "x": 177,
+                                                "y": 53
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "button",
+                            "size": {
+                                "x": 175,
+                                "y": 51
+                            }
+                        },
+                        {
+                            "name": "arrow",
+                            "size": {
+                                "x": 165,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "left",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "right",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "label",
+                            "size": {
+                                "x": 175,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "settings_button"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "settings_button"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "quit",
+                    "size": {
+                        "x": 177,
+                        "y": 53
+                    },
+                    "prefab": "data/scenes/button.json",
+                    "children": [
+                        {
+                            "name": "outline",
+                            "size": {
+                                "x": 177,
+                                "y": 53
+                            },
+                            "children": [
+                                {
+                                    "name": "shape",
+                                    "size": {
+                                        "x": 177,
+                                        "y": 53
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "color",
+                                            "size": {
+                                                "x": 177,
+                                                "y": 53
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "button",
+                            "size": {
+                                "x": 175,
+                                "y": 51
+                            }
+                        },
+                        {
+                            "name": "arrow",
+                            "size": {
+                                "x": 165,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "left",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "right",
+                                    "size": {
+                                        "x": 165,
+                                        "y": 49
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "shadow",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        },
+                                        {
+                                            "name": "text",
+                                            "size": {
+                                                "x": 165,
+                                                "y": 49
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "label",
+                            "size": {
+                                "x": 175,
+                                "y": 49
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "quit_button"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 175,
+                                        "y": 49
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "quit_button"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "modsButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 478,
+                "y": 424
+            },
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "mods_button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "mods_button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "socialButton",
+            "position": {
+                "x": 338,
+                "y": 503
+            },
+            "size": {
+                "x": 36,
+                "y": 36
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 36,
+                        "y": 36
+                    },
+                    "components": [
+                        {
+                            "type": "button"
+                        },
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/twitter.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sylph",
+            "position": {
+                "x": 308,
+                "y": 230
+            },
+            "size": {
+                "x": 61,
+                "y": 15
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 61,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/title_sylph.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

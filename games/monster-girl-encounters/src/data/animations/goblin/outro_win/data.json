@@ -1,0 +1,174 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/goblin/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 43,
+                                "y": 181
+                            },
+                            "max": {
+                                "x": 43,
+                                "y": 181
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/goblin/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 333,
+                                "y": 129
+                            },
+                            "max": {
+                                "x": 333,
+                                "y": 129
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/goblin/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 178,
+                                "y": 274
+                            },
+                            "max": {
+                                "x": 178,
+                                "y": 274
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/goblin/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 31,
+                                "y": 234
+                            },
+                            "max": {
+                                "x": 31,
+                                "y": 234
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/goblin/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 162,
+                                "y": 121
+                            },
+                            "max": {
+                                "x": 162,
+                                "y": 121
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/goblin/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 313,
+                                "y": 283
+                            },
+                            "max": {
+                                "x": 313,
+                                "y": 283
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

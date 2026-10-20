@@ -1,0 +1,386 @@
+{
+    "name": "shop",
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "children": [
+        {
+            "name": "background",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                }
+            ]
+        },
+        {
+            "name": "rerollVisual",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                }
+            ]
+        },
+        {
+            "name": "rerollButton",
+            "size": {
+                "x": 128,
+                "y": 289
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "00000000"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "sprite",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                }
+            ]
+        },
+        {
+            "name": "rerollPrice",
+            "position": {
+                "x": 22,
+                "y": 0
+            },
+            "size": {
+                "x": 78,
+                "y": 22
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": -1,
+                        "y": 1
+                    },
+                    "size": {
+                        "x": 78,
+                        "y": 22
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "verticalAlignment": "bottom",
+                            "color": "856256"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 78,
+                        "y": 22
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "verticalAlignment": "bottom",
+                            "color": "E1C0AC"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "percentagesBackground",
+            "position": {
+                "x": 3,
+                "y": 268
+            },
+            "size": {
+                "x": 58,
+                "y": 123
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "6D6D87"
+                }
+            ]
+        },
+        {
+            "name": "percentages",
+            "position": {
+                "x": 4,
+                "y": 269
+            },
+            "size": {
+                "x": 56,
+                "y": 121
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "343450"
+                }
+            ],
+            "children": [
+                {
+                    "name": "luck",
+                    "position": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "luck"
+                        }
+                    ]
+                },
+                {
+                    "name": "luckAmount",
+                    "position": {
+                        "x": 1,
+                        "y": 12
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "0"
+                        }
+                    ]
+                },
+                {
+                    "name": "common",
+                    "position": {
+                        "x": 1,
+                        "y": 24
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "rarity_common"
+                        }
+                    ]
+                },
+                {
+                    "name": "commonChance",
+                    "position": {
+                        "x": 1,
+                        "y": 36
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "100%"
+                        }
+                    ]
+                },
+                {
+                    "name": "uncommon",
+                    "position": {
+                        "x": 1,
+                        "y": 48
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "rarity_uncommon"
+                        }
+                    ]
+                },
+                {
+                    "name": "uncommonChance",
+                    "position": {
+                        "x": 1,
+                        "y": 60
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "100%"
+                        }
+                    ]
+                },
+                {
+                    "name": "rare",
+                    "position": {
+                        "x": 1,
+                        "y": 72
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "rarity_rare"
+                        }
+                    ]
+                },
+                {
+                    "name": "rareChance",
+                    "position": {
+                        "x": 1,
+                        "y": 84
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "100%"
+                        }
+                    ]
+                },
+                {
+                    "name": "legendary",
+                    "position": {
+                        "x": 1,
+                        "y": 96
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "rarity_legendary"
+                        }
+                    ]
+                },
+                {
+                    "name": "legendaryChance",
+                    "position": {
+                        "x": 1,
+                        "y": 108
+                    },
+                    "size": {
+                        "x": 70,
+                        "y": 12
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "E1C0AC",
+                            "text": "100%"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "items",
+            "position": {
+                "x": 230,
+                "y": 298
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0
+            },
+            "size": {
+                "x": 0,
+                "y": 100
+            },
+            "components": [
+                {
+                    "type": "horizontalLayoutGroup",
+                    "controlObjectSize": true,
+                    "spacing": 50
+                }
+            ]
+        },
+        {
+            "name": "exitButton",
+            "position": {
+                "x": 325,
+                "y": 55
+            },
+            "size": {
+                "x": 86,
+                "y": 66
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/encounters/shop_exit.png"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        }
+    ]
+}

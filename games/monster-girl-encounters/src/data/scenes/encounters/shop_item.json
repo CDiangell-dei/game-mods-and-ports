@@ -1,0 +1,298 @@
+{
+    "name": "item",
+    "size": {
+        "x": 66,
+        "y": 95
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "outline",
+            "position": {
+                "x": 0,
+                "y": 29
+            },
+            "size": {
+                "x": 66,
+                "y": 66
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 76,
+                        "y": 76
+                    },
+                    "components": [
+                        {
+                            "type": "image"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "icon",
+            "position": {
+                "x": 1,
+                "y": 30
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "size": {
+                "x": 66,
+                "y": 23
+            },
+            "children": [
+                {
+                    "name": "outline",
+                    "size": {
+                        "x": 66,
+                        "y": 23
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "shape",
+                            "size": {
+                                "x": 66,
+                                "y": 23
+                            },
+                            "components": [
+                                {
+                                    "type": "mask",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "name": "color",
+                                    "size": {
+                                        "x": 66,
+                                        "y": 23
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "image",
+                                            "color": "838397"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "button",
+                    "position": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "size": {
+                        "x": 64,
+                        "y": 21
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/button_active.png"
+                        },
+                        {
+                            "type": "button"
+                        }
+                    ]
+                },
+                {
+                    "name": "arrow",
+                    "position": {
+                        "x": 2,
+                        "y": 1
+                    },
+                    "size": {
+                        "x": 61,
+                        "y": 21
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "left",
+                            "size": {
+                                "x": 61,
+                                "y": 21
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": -1
+                                    },
+                                    "size": {
+                                        "x": 61,
+                                        "y": 21
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 12,
+                                            "horizontalAlignment": "left",
+                                            "color": "555571",
+                                            "text": ">"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 61,
+                                        "y": 21
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 12,
+                                            "horizontalAlignment": "left",
+                                            "color": "414162",
+                                            "text": ">"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "right",
+                            "size": {
+                                "x": 61,
+                                "y": 21
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": -1
+                                    },
+                                    "size": {
+                                        "x": 61,
+                                        "y": 21
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 12,
+                                            "horizontalAlignment": "right",
+                                            "color": "555571",
+                                            "text": "<"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 61,
+                                        "y": 21
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 12,
+                                            "horizontalAlignment": "right",
+                                            "color": "414162",
+                                            "text": "<"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "label",
+                    "position": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "size": {
+                        "x": 64,
+                        "y": 21
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 64,
+                                "y": 21
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 12,
+                                    "color": "555571"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 64,
+                                "y": 21
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 12,
+                                    "color": "414162"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "frameRate": 8,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/goblin/1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 50,
+                                "y": 165
+                            },
+                            "max": {
+                                "x": 50,
+                                "y": 165
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/goblin/1/0002.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 170,
+                                "y": 93
+                            },
+                            "max": {
+                                "x": 170,
+                                "y": 93
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/goblin/1/0003.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 18,
+                                "y": 26
+                            },
+                            "max": {
+                                "x": 18,
+                                "y": 26
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/goblin/1/0004.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 44,
+                                "y": 229
+                            },
+                            "max": {
+                                "x": 44,
+                                "y": 229
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/goblin/1/0005.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/hard_plap.json"
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 232,
+                                "y": 80
+                            },
+                            "max": {
+                                "x": 232,
+                                "y": 80
+                            }
+                        },
+                        "color": {
+                            "r": 0.671,
+                            "g": 0.416,
+                            "b": 0.412,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 327,
+                                "y": 223
+                            },
+                            "max": {
+                                "x": 327,
+                                "y": 223
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

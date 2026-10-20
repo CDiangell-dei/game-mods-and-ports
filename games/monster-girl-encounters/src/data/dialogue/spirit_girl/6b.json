@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "spirit_girl_a_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "spirit_girl_b_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

@@ -1,0 +1,22 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/salamander/0001.png"
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/salamander/0002.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/salamander/0003.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/salamander/0002.png"
+        }
+    ]
+}

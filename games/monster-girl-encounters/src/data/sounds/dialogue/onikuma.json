@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/dialogue/onikuma.wav",
+    "volume": 0.5,
+    "pitch": 1.0,
+    "variance": 0.05,
+    "loop": false
+}

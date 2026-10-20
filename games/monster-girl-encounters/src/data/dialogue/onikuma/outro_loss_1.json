@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "onikuma_loss_1",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "onikuma_loss_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/encounters/set_choice.lua"
+            }
+        ],
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "onikuma_loss_3",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "onikuma_loss_4",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "onikuma_loss_5",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "onikuma_loss_6",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "events": [
+            {
+                "script": "data/scripts/general/cum_inside.lua"
+            }
+        ],
+        "next": -1
+    }
+]

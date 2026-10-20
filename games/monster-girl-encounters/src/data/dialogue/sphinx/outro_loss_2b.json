@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sphinx_loss2_9",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "sphinx_loss2_10",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "sphinx_loss2_11",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "sphinx_loss2_12",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "callBattleComplete"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "version": "1.0",
+    "order": 40,
+    "platforms": [
+        "Windows",
+        "OS X",
+        "Linux"
+    ]
+}

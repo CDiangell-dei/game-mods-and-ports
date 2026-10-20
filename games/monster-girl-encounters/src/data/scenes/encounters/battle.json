@@ -1,0 +1,86 @@
+{
+    "name": "battle",
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "children": [
+        {
+            "name": "background",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator"
+                }
+            ]
+        },
+        {
+            "name": "sprite1",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 410,
+                        "y": 410
+                    },
+                    "components": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "animator"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sprite2",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 410,
+                        "y": 410
+                    },
+                    "components": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "animator"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

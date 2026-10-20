@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "imps_win_1",
+        "sound": "data/sounds/dialogue/imp_1.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "imps_win_2",
+        "sound": "data/sounds/dialogue/imp_3.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "imps_win_3",
+        "sound": "data/sounds/dialogue/imp_2.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "imps_win_4",
+        "sound": "data/sounds/dialogue/imp_4.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "imps_win_5",
+        "sound": "data/sounds/dialogue/imp_1.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "imps_win_6",
+        "sound": "data/sounds/dialogue/imp_2.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "imps_win_7",
+        "sound": "data/sounds/dialogue/imp_4.json",
+        "next": -1
+    }
+]

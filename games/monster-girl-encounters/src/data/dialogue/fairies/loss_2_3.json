@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_loss_2_10",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "fairies_loss_2_11",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "fairies_loss_2_12",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "callBattleComplete"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

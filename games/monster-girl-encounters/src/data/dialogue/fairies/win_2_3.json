@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_win_2_12",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "fairies_win_2_13",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "fairies_win_2_14",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "fairies_win_2_15",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "completeWin"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

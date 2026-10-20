@@ -1,0 +1,198 @@
+{
+    "name": "settings",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "blocker",
+            "position": {
+                "x": -142,
+                "y": 0
+            },
+            "size": {
+                "x": 960,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "00000099"
+                }
+            ]
+        },
+        {
+            "name": "background",
+            "position": {
+                "x": 151,
+                "y": 142
+            },
+            "size": {
+                "x": 373,
+                "y": 256
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/wide_menu.png"
+                }
+            ],
+            "children": [
+                {
+                    "position": {
+                        "x": 38,
+                        "y": 15
+                    },
+                    "prefab": "data/scenes/exit_button.json"
+                },
+                {
+                    "name": "title",
+                    "position": {
+                        "x": 0,
+                        "y": 15
+                    },
+                    "size": {
+                        "x": 373,
+                        "y": 22
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "242538",
+                            "text": "settings_label"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "text",
+                            "position": {
+                                "x": 0,
+                                "y": 1
+                            },
+                            "size": {
+                                "x": 373,
+                                "y": 22
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "color": "6d6d87",
+                                    "text": "settings_label"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "scroll",
+                    "position": {
+                        "x": 31,
+                        "y": 45
+                    },
+                    "size": {
+                        "x": 305,
+                        "y": 177
+                    },
+                    "components": [
+                        {
+                            "type": "button"
+                        },
+                        {
+                            "type": "scrollView"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "viewport",
+                            "size": {
+                                "x": 303,
+                                "y": 177
+                            },
+                            "components": [
+                                {
+                                    "type": "mask"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "name": "content",
+                                    "position": {
+                                        "x": 151,
+                                        "y": 0
+                                    },
+                                    "size": {
+                                        "x": 303,
+                                        "y": 0
+                                    },
+                                    "pivot": {
+                                        "x": 0.5,
+                                        "y": 0
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "verticalLayoutGroup",
+                                            "spacing": 3,
+                                            "controlObjectSize": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "scrollbar",
+                            "position": {
+                                "x": 304,
+                                "y": 0
+                            },
+                            "size": {
+                                "x": 1,
+                                "y": 177
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "242538"
+                                },
+                                {
+                                    "type": "scrollbar"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "name": "handle",
+                                    "size": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "pivot": {
+                                        "x": 0,
+                                        "y": 0.5
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "image",
+                                            "color": "414162"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

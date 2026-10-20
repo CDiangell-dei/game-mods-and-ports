@@ -1,0 +1,8 @@
+{
+    "version": "1.0",
+    "order": 50,
+    "unlock": {
+        "progress": "unlock_hack_mode",
+        "value": 1
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "fader",
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "sprite",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator",
+                    "initialAnimation": "data/animations/transition/idle/data.json"
+                }
+            ]
+        }
+    ]
+}

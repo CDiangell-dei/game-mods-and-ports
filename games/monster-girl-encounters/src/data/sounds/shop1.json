@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/shop1.ogg",
+    "volume": 0.3,
+    "pitch": 1.0,
+    "variance": 0.0,
+    "loop": true
+}

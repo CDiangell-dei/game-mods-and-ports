@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "pink_slime_loss_1",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "pink_slime_loss_2",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "pink_slime_loss_3",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "events": [
+            {
+                "script": "data/scripts/general/cum_outside.lua"
+            }
+        ],
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "pink_slime_loss_4",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "pink_slime_loss_5",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "pink_slime_loss_6",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "pink_slime_loss_7",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": -1
+    }
+]

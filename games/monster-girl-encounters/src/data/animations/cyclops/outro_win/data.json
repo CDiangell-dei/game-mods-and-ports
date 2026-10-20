@@ -1,0 +1,306 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/cyclops/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 9,
+                                "y": 12
+                            },
+                            "max": {
+                                "x": 9,
+                                "y": 12 
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 300,
+                                "y": 47
+                            },
+                            "max": {
+                                "x": 300,
+                                "y": 47 
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/cyclops/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 242,
+                                "y": 149
+                            },
+                            "max": {
+                                "x": 242,
+                                "y": 149
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 213,
+                                "y": 333
+                            },
+                            "max": {
+                                "x": 213,
+                                "y": 333
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/cyclops/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 352,
+                                "y": 85
+                            },
+                            "max": {
+                                "x": 352,
+                                "y": 85
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 1,
+                                "y": 213
+                            },
+                            "max": {
+                                "x": 1,
+                                "y": 213 
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/cyclops/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 241,
+                                "y": 19
+                            },
+                            "max": {
+                                "x": 241,
+                                "y": 19
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 107,
+                                "y": 192
+                            },
+                            "max": {
+                                "x": 107,
+                                "y": 192
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/cyclops/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 1,
+                                "y": 82
+                            },
+                            "max": {
+                                "x": 1,
+                                "y": 82
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 346,
+                                "y": 20
+                            },
+                            "max": {
+                                "x": 346,
+                                "y": 20
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/cyclops/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 259,
+                                "y": 88
+                            },
+                            "max": {
+                                "x": 259,
+                                "y": 88
+                            }
+                        },
+                        "color": {
+                            "r": 0.8,
+                            "g": 0.502,
+                            "b": 0.502,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 258,
+                                "y": 174
+                            },
+                            "max": {
+                                "x": 258,
+                                "y": 174
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "pink_slime_intro_4b",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "pink_slime_intro_5b",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "pink_slime_intro_6b",
+        "sound": "data/sounds/dialogue/pink_slime.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "pink_slime_intro_7b",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

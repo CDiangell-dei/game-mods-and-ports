@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "gnome_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "gnome_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "gnome_3",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_dialogue_sprite.lua",
+                "variable": "data/animations/gnome/data.json"
+            }
+        ],
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "gnome_4",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "gnome_5",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "gnome_6",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "gnome_7",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "gnome_8",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 9
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "key": "gnome_9",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 10
+    },
+    {
+        "id": 10,
+        "type": "text",
+        "key": "gnome_10",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_dialogue_sprite.lua",
+                "variable": "data/sprites/dither/0.png"
+            }
+        ],
+        "next": 11
+    },
+    {
+        "id": 11,
+        "type": "text",
+        "key": "gnome_11",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/general/splash_small.wav",
+    "volume": 0.9,
+    "pitch": 1.0,
+    "variance": 0,
+    "loop": false
+}

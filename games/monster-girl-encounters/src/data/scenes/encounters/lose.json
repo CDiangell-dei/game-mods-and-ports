@@ -1,0 +1,79 @@
+{
+    "name": "lose",
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "background",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator",
+                    "initialAnimation": "data/animations/lose/data.json"
+                }
+            ]
+        },
+        {
+            "name": "label",
+            "position": {
+                "x": 0,
+                "y": 25
+            },
+            "size": {
+                "x": 410,
+                "y": 50
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 410,
+                        "y": 50
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 30,
+                            "color": "242538",
+                            "text": "breeding_progress"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 410,
+                        "y": 50
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 30,
+                            "color": "6d6d87",
+                            "text": "breeding_progress"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

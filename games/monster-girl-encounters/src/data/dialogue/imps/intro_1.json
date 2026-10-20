@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "imps_intro_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "imps_intro_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/fade_to_black.lua"
+            },
+            {
+                "script": "data/scripts/general/timed_script.lua",
+                "variable": {
+                    "wait": 1.0,
+                    "script": "data/scripts/general/set_battle_sprite.lua",
+                    "variable": "data/sprites/encounters/imps_intro_2.png"
+                }
+            },
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 1.5,
+                    "dialogue": "data/dialogue/imps/intro_2.json"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

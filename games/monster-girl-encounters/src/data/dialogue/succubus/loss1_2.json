@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "succubus_lose1_7",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "succubus_lose1_8",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "succubus_lose1_9",
+        "sound": "data/sounds/dialogue/succubus.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "callBattleComplete"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

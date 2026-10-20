@@ -1,0 +1,185 @@
+{
+    "name": "endScreen",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "image",
+            "sprite": "data/sprites/ui/intro.png"
+        }
+    ],
+    "children": [
+        {
+            "name": "title",
+            "position": {
+                "x": 0,
+                "y": 50
+            },
+            "size": {
+                "x": 675,
+                "y": 75
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 675,
+                        "y": 75
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 40,
+                            "color": "6d6d87",
+                            "text": "game_over"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "stats",
+            "position": {
+                "x": 213,
+                "y": 226
+            },
+            "size": {
+                "x": 250,
+                "y": 185
+            },
+            "components": [
+                {
+                    "type": "scrollView"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "viewport",
+                    "size": {
+                        "x": 245,
+                        "y": 185
+                    },
+                    "components": [
+                        {
+                            "type": "mask"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "content",
+                            "position": {
+                                "x": 122,
+                                "y": 0
+                            },
+                            "pivot": {
+                                "x": 0.5,
+                                "y": 0
+                            },
+                            "size": {
+                                "x": 245,
+                                "y": 0
+                            },
+                            "components": [
+                                {
+                                    "type": "verticalLayoutGroup",
+                                    "spacing": 5,
+                                    "controlObjectSize": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "scrollbar",
+                    "position": {
+                        "x": 249,
+                        "y": 0
+                    },
+                    "size": {
+                        "x": 1,
+                        "y": 185
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "2a2a41"
+                        },
+                        {
+                            "type": "scrollbar"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "handle",
+                            "size": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "pivot": {
+                                "x": 0,
+                                "y": 0.5
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "414162"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "confirmButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 250,
+                "y": 418
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "return_button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "return_button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

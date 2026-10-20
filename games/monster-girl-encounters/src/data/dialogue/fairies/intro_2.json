@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_intro_14",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "fairies_intro_15",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "fairies_intro_16",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "fairies_intro_17",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "prepareBattle1"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

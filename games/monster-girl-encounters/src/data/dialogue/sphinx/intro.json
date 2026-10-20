@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sphinx_intro_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "sphinx_intro_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "sphinx_intro_3",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "sphinx_intro_4",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "sphinx_intro_5",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "sphinx_intro_6",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "events": [
+            {
+                "sound": "data/sounds/general/command_word.json"
+            },
+            {
+                "script": "data/scripts/general/set_battle_sprite.lua",
+                "variable": "data/animations/sphinx/intro/data.json"
+            },
+            {
+                "script": "data/scripts/general/lust_effect.lua"
+            }
+        ],
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "sphinx_intro_7",
+        "sound": "none",
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "sphinx_intro_8",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "events": [
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 2.0,
+                    "dialogue": "data/dialogue/sphinx/intro_2.json"
+                }
+            },
+            {
+                "sound": "data/sounds/general/barefoot_walk.json"
+            }
+        ],
+        "next": -1
+    }
+]

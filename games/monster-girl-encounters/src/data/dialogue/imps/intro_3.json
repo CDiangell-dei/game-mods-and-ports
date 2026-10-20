@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "imps_intro_8",
+        "sound": "data/sounds/dialogue/imp_4.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "imps_intro_9",
+        "sound": "data/sounds/dialogue/imp_2.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "imps_intro_10",
+        "sound": "data/sounds/dialogue/imp_1.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "imps_intro_11",
+        "sound": "data/sounds/dialogue/imp_3.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "imps_intro_12",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "imps_intro_13",
+        "sound": "data/sounds/dialogue/imp_2.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "imps_intro_14",
+        "sound": "data/sounds/dialogue/imp_3.json",
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "imps_intro_15",
+        "sound": "data/sounds/dialogue/imp_4.json",
+        "next": 9
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "key": "imps_intro_16",
+        "sound": "data/sounds/dialogue/imp_1.json",
+        "events": [
+            {
+                "sound": "data/sounds/general/start_battle.json"
+            },
+            {
+                "script": "data/scripts/general/fade_to_black.lua"
+            },
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 1.5,
+                    "dialogue": "data/dialogue/imps/intro_4.json"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

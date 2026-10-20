@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sphinx_battle1_1",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": -1
+    }
+]

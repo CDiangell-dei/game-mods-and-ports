@@ -1,0 +1,174 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/succubus/loss2_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 0,
+                                "y": 63
+                            },
+                            "max": {
+                                "x": 0,
+                                "y": 63 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/succubus/loss2_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 296,
+                                "y": 29
+                            },
+                            "max": {
+                                "x": 296,
+                                "y": 29 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/succubus/loss2_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 248,
+                                "y": 135
+                            },
+                            "max": {
+                                "x": 248,
+                                "y": 135
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/succubus/loss2_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 165,
+                                "y": 0
+                            },
+                            "max": {
+                                "x": 165,
+                                "y": 0 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/succubus/loss2_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 29,
+                                "y": 0
+                            },
+                            "max": {
+                                "x": 29,
+                                "y": 0 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/succubus/loss2_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 365,
+                                "y": 234
+                            },
+                            "max": {
+                                "x": 365,
+                                "y": 234 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

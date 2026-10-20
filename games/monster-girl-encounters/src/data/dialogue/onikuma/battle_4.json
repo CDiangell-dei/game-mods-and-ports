@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "onikuma_battle_5",
+        "sound": "data/sounds/dialogue/onikuma.json",
+        "next": -1
+    }
+]

@@ -1,0 +1,95 @@
+{
+    "name": "autoBattle",
+    "position": {
+        "x": 331,
+        "y": 6
+    },
+    "size": {
+        "x": 164,
+        "y": 24
+    },
+    "components": [
+        {
+            "type": "image",
+            "color": "c8c8e1"
+        }
+    ],
+    "children": [
+        {
+            "name": "toggle",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 162,
+                "y": 22
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "101018"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "position": {
+                        "x": 8,
+                        "y": 4
+                    },
+                    "size": {
+                        "x": 120,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "right",
+                            "color": "e6e6f5",
+                            "text": "auto_battle"
+                        }
+                    ]
+                },
+                {
+                    "name": "box",
+                    "position": {
+                        "x": 138,
+                        "y": 2
+                    },
+                    "size": {
+                        "x": 18,
+                        "y": 18
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "mods/ui/check_off.png"
+                        }
+                    ]
+                },
+                {
+                    "name": "checkmark",
+                    "position": {
+                        "x": 138,
+                        "y": 2
+                    },
+                    "size": {
+                        "x": 18,
+                        "y": 18
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "mods/ui/check_on.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

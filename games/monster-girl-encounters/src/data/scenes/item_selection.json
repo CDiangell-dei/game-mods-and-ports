@@ -1,0 +1,150 @@
+{
+    "name": "itemSelection",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "children": [
+        {
+            "name": "title",
+            "size": {
+                "x": 675,
+                "y": 75
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 675,
+                        "y": 75
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 40,
+                            "text": "item_selection",
+                            "color": "6d6d87"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "items",
+            "position": {
+                "x": 338,
+                "y": 247
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "components": [
+                {
+                    "type": "gridLayoutGroup",
+                    "spacing": {
+                        "x": 7,
+                        "y": 7
+                    },
+                    "cellSize": {
+                        "x": 80,
+                        "y": 80
+                    },
+                    "constraint": "fixedColumnCount",
+                    "constraintCount": 3,
+                    "controlHorizontalSize": true,
+                    "controlVerticalSize": true
+                }
+            ]
+        },
+        {
+            "name": "returnButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 126,
+                "y": 418
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "return_button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "return_button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "confirmButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 360,
+                "y": 418
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "confirm_button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "confirm_button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

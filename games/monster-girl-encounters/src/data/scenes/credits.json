@@ -1,0 +1,163 @@
+{
+    "name": "credits",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/100.png",
+            "imageType": "tiled"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "blocker",
+            "position": {
+                "x": -142,
+                "y": 0
+            },
+            "size": {
+                "x": 960,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "000000e6"
+                }
+            ]
+        },
+        {
+            "name": "background",
+            "position": {
+                "x": 98,
+                "y": 80
+            },
+            "size": {
+                "x": 480,
+                "y": 380
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "343450"
+                }
+            ],
+            "children": [
+                {
+                    "name": "title",
+                    "position": {
+                        "x": 0,
+                        "y": 22
+                    },
+                    "size": {
+                        "x": 480,
+                        "y": 26
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 480,
+                                "y": 26
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "color": "242538",
+                                    "text": "credits_title"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 480,
+                                "y": 26
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "color": "d6d6ec",
+                                    "text": "credits_title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "body",
+                    "position": {
+                        "x": 32,
+                        "y": 62
+                    },
+                    "size": {
+                        "x": 416,
+                        "y": 240
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 13,
+                            "color": "b3b3cc",
+                            "text": "credits_body",
+                            "wrap": true,
+                            "horizontalAlignment": "left",
+                            "verticalAlignment": "top"
+                        }
+                    ]
+                },
+                {
+                    "name": "continueButton",
+                    "prefab": "data/scenes/button.json",
+                    "position": {
+                        "x": 152,
+                        "y": 320
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/100.png"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "label",
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "credits_continue"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "credits_continue"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

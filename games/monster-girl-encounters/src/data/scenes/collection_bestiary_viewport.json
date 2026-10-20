@@ -1,0 +1,74 @@
+{
+    "name": "overlay",
+    "position": {
+        "x": 255,
+        "y": 0
+    },
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "viewport",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator",
+                    "ignoreTimescale": true
+                }
+            ]
+        },
+        {
+            "name": "sprite",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator",
+                    "ignoreTimescale": true
+                }
+            ]
+        },
+        {
+            "name": "phases",
+            "position": {
+                "x": 408,
+                "y": 2
+            },
+            "pivot": {
+                "x": 1,
+                "y": 0
+            },
+            "size": {
+                "x": 408,
+                "y": 24
+            },
+            "components": [
+                {
+                    "type": "horizontalLayoutGroup",
+                    "spacing": 5,
+                    "controlObjectSize": true
+                }
+            ]
+        }
+    ]
+}

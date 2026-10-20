@@ -1,0 +1,144 @@
+{
+    "name": "sellConfirmation",
+    "position": {
+        "x": 53,
+        "y": 113
+    },
+    "size": {
+        "x": 303,
+        "y": 184
+    },
+    "components": [
+        {
+            "type": "image",
+            "color": "343450"
+        }
+    ],
+    "children": [
+        {
+            "name": "title",
+            "position": {
+                "x": 0,
+                "y": 22
+            },
+            "size": {
+                "x": 303,
+                "y": 40
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 303,
+                        "y": 40
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "242538",
+                            "text": "sell_confirm_title"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 303,
+                        "y": 40
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "6d6d87",
+                            "text": "sell_confirm_title"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "yesButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 63,
+                "y": 78
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "sell_confirm_yes"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "sell_confirm_yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "noButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 63,
+                "y": 132
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "sell_confirm_no"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "sell_confirm_no"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

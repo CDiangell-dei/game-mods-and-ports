@@ -1,0 +1,240 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/mandragora/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 42,
+                                "y": 67
+                            },
+                            "max": {
+                                "x": 42,
+                                "y": 67 
+                            }
+                        },
+                        "color": {
+                            "r": 0.8196,
+                            "g": 0.5608,
+                            "b": 0.5804,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 139,
+                                "y": 187
+                            },
+                            "max": {
+                                "x": 139,
+                                "y": 187
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/mandragora/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 230,
+                                "y": 223
+                            },
+                            "max": {
+                                "x": 230,
+                                "y": 223
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/mandragora/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 128,
+                                "y": 58
+                            },
+                            "max": {
+                                "x": 128,
+                                "y": 58
+                            }
+                        },
+                        "color": {
+                            "r": 0.8196,
+                            "g": 0.5608,
+                            "b": 0.5804,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 30,
+                                "y": 158
+                            },
+                            "max": {
+                                "x": 30,
+                                "y": 158
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/mandragora/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 11,
+                                "y": 63
+                            },
+                            "max": {
+                                "x": 11,
+                                "y": 63
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/mandragora/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 329,
+                                "y": 209
+                            },
+                            "max": {
+                                "x": 329,
+                                "y": 209
+                            }
+                        },
+                        "color": {
+                            "r": 0.8196,
+                            "g": 0.5608,
+                            "b": 0.5804,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 107,
+                                "y": 89
+                            },
+                            "max": {
+                                "x": 107,
+                                "y": 89
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/mandragora/outro_win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 179,
+                                "y": 154
+                            },
+                            "max": {
+                                "x": 179,
+                                "y": 154
+                            }
+                        },
+                        "color": {
+                            "r": 0.8196,
+                            "g": 0.5608,
+                            "b": 0.5804,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

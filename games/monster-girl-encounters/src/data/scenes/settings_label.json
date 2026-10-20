@@ -1,0 +1,48 @@
+{
+    "name": "label",
+    "size": {
+        "x": 303,
+        "y": 15
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "shadow",
+            "position": {
+                "x": 0,
+                "y": -1
+            },
+            "size": {
+                "x": 303,
+                "y": 15
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "242538"
+                }
+            ]
+        },
+        {
+            "name": "text",
+            "size": {
+                "x": 303,
+                "y": 15
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "6d6d87"
+                }
+            ]
+        }
+    ]
+}

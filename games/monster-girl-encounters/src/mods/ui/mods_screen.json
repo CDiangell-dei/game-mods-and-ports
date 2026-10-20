@@ -1,0 +1,214 @@
+{
+    "name": "mods",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "background",
+            "size": {
+                "x": 675,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/collection.png"
+                }
+            ]
+        },
+        {
+            "name": "closeButton",
+            "prefab": "data/scenes/exit_button_large.json",
+            "position": {
+                "x": 15,
+                "y": 5
+            }
+        },
+        {
+            "name": "title",
+            "position": {
+                "x": 0,
+                "y": 13
+            },
+            "size": {
+                "x": 675,
+                "y": 22
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 20,
+                    "color": "242538",
+                    "text": "mods_title"
+                }
+            ],
+            "children": [
+                {
+                    "name": "text",
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "size": {
+                        "x": 675,
+                        "y": 22
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 20,
+                            "color": "a9a9c1",
+                            "text": "mods_title"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "items",
+            "position": {
+                "x": 15,
+                "y": 51
+            },
+            "size": {
+                "x": 655,
+                "y": 456
+            },
+            "components": [
+                {
+                    "type": "scrollView"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "viewport",
+                    "size": {
+                        "x": 655,
+                        "y": 456
+                    },
+                    "components": [
+                        {
+                            "type": "mask"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "content",
+                            "position": {
+                                "x": 318,
+                                "y": 0
+                            },
+                            "size": {
+                                "x": 636,
+                                "y": 0
+                            },
+                            "pivot": {
+                                "x": 0.5,
+                                "y": 0
+                            },
+                            "components": [
+                                {
+                                    "type": "verticalLayoutGroup",
+                                    "spacing": 8,
+                                    "controlObjectSize": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "scrollbar",
+                    "position": {
+                        "x": 653,
+                        "y": 0
+                    },
+                    "size": {
+                        "x": 2,
+                        "y": 456
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "242538"
+                        },
+                        {
+                            "type": "scrollbar"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "handle",
+                            "size": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "pivot": {
+                                "x": 0,
+                                "y": 0.5
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "414162"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "empty",
+            "position": {
+                "x": 0,
+                "y": 250
+            },
+            "size": {
+                "x": 675,
+                "y": 15
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "8c8ca1",
+                    "text": "mods_empty"
+                }
+            ]
+        },
+        {
+            "name": "note",
+            "position": {
+                "x": 0,
+                "y": 516
+            },
+            "size": {
+                "x": 675,
+                "y": 15
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "8c8ca1",
+                    "text": "mods_note"
+                }
+            ]
+        }
+    ]
+}

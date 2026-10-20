@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "fairies_win_1_7",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "fairies_win_1_8",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "fairies_win_1_9",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "fairies_win_1_10",
+        "sound": "data/sounds/dialogue/salamander.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "fairies_win_1_11",
+        "sound": "data/sounds/dialogue/gnome.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "fairies_win_1_12",
+        "sound": "data/sounds/dialogue/undine.json",
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "fairies_win_1_13",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "preparePhase2"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

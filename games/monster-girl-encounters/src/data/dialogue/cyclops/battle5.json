@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "cyclops_battle_5",
+        "sound": "data/sounds/dialogue/cyclops.json",
+        "next": -1
+    }
+]

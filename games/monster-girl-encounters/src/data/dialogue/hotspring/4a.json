@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "hotspring_sulfur_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "hotspring_sulfur_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "hotspring_sulfur_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "hotspring_sulfur_4",
+        "sound": "data/sounds/dialogue/oni_1.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "hotspring_sulfur_5",
+        "sound": "data/sounds/dialogue/oni_2.json",
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "hotspring_sulfur_6",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

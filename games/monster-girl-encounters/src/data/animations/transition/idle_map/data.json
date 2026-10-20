@@ -1,0 +1,18 @@
+{
+    "frameRate": 6,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/transition/idle_map/0001.png"
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/transition/idle_map/0002.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/transition/idle_map/0003.png"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/ending.ogg",
+    "volume": 0.4,
+    "pitch": 1.0,
+    "variance": 0.0,
+    "loop": false
+}

@@ -1,0 +1,10 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/onikuma/outro_win/0001.png"
+        }
+    ]
+}

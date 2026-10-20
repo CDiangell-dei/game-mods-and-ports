@@ -1,0 +1,8 @@
+{
+    "version": "1.0",
+    "order": 60,
+    "unlock": {
+        "progress": "unlock_rich_mode",
+        "value": 1
+    }
+}

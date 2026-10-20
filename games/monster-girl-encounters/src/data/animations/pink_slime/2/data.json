@@ -1,0 +1,133 @@
+{
+    "frameRate": 24,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/pink_slime/2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 343,
+                                "y": 178
+                            },
+                            "max": {
+                                "x": 343,
+                                "y": 178
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/pink_slime/2/0002.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 43,
+                                "y": 143
+                            },
+                            "max": {
+                                "x": 43,
+                                "y": 143
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 10,
+            "sprite": "data/animations/pink_slime/2/0003.png"
+        },
+        {
+            "frame": 13,
+            "sprite": "data/animations/pink_slime/2/0004.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 357,
+                                "y": 62
+                            },
+                            "max": {
+                                "x": 357,
+                                "y": 62
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "sound": "data/sounds/sex/hard_plap_wet.json"
+                }
+            ]
+        },
+        {
+            "frame": 17,
+            "sprite": "data/animations/pink_slime/2/0005.png"
+        },
+        {
+            "frame": 21,
+            "sprite": "data/animations/pink_slime/2/0006.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 167,
+                                "y": 47
+                            },
+                            "max": {
+                                "x": 167,
+                                "y": 47
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 23,
+            "sprite": "data/animations/pink_slime/2/0006.png"
+        }
+    ]
+}

@@ -1,0 +1,535 @@
+﻿Key,Text,Notes
+intro_1,Garotas monstros...,Dialogue - Portuguese
+intro_2,"Por causa do desejo irresistivel delas pela forca vital humana, voce sempre foi avisado para ficar longe. Ninguem voltou vivo depois de entrar na casa delas.",Dialogue - Portuguese
+intro_3,"Apesar disso, seu desejo de saber mais supera os riscos. Certamente voce consegue sobreviver a fome de algumas garotas monstros.",Dialogue - Portuguese
+intro_4,"E, como muitos outros aventureiros, voce entra na caverna em busca de segredos.",Dialogue - Portuguese
+intro_5,"Ao chegar a um rio subterraneo bloqueando seu caminho, voce decide voltar e continuar procurando.",Dialogue - Portuguese
+intro_6,Mas voce perde o equilibrio em uma pedra e...,Dialogue - Portuguese
+intro_7,Voce escorrega.,Dialogue - Portuguese
+intro_8,"E por pura sorte, ou talvez por um guia invisivel, voce e levado para um local seguro nas profundezas da caverna.",Dialogue - Portuguese
+intro_9,"Uma grande porta se ergue diante de voce, diferente de tudo que ja tinha visto antes.",Dialogue - Portuguese
+intro_10,"Voce decide atravessar, entrando no reino dos monstros...",Dialogue - Portuguese
+battle_loss,"Depois de quase ter todo o seu semen drenado, voce consegue escapar. No caminho de volta para o tunel principal, voce encontra algumas moedas!",Dialogue - Portuguese
+shop_1_welcome_back,Bem-vindo de volta!,Dialogue - Portuguese
+shop_1_welcome,Bem-vindo a loja!,Dialogue - Portuguese
+shop_1_thank,Obrigado por comprar!,Dialogue - Portuguese
+shop_1_wow,"Uau, que achado!",Dialogue - Portuguese
+shop_1_plenty,Parece que voce encontrou bastante coisa boa!,Dialogue - Portuguese
+shop_1_rare,Que item raro!,Dialogue - Portuguese
+shop_1_very_rare,Uau! Isso e extremamente raro!,Dialogue - Portuguese
+pink_slime_intro_1,<pause=1.0>》Voce se aproxima de uma fonte isolada. Essa piscina parece estar separada das aguas ao redor.<pause=1.0> Voce gostaria de beber?,Dialogue - Portuguese
+pink_slime_intro_2,》Voce pega um pouco de agua com as maos e da um gole...,Dialogue - Portuguese
+pink_slime_intro_3,"》e surpreendentemente refrescante! A agua e fresca e limpida, com um sabor levemente adocicado.",Dialogue - Portuguese
+pink_slime_intro_4,Ahhn～!,Dialogue - Portuguese
+pink_slime_intro_5,》Uma slime emerge da agua!,Dialogue - Portuguese
+pink_slime_intro_6,"Ah, e um humano! A maioria dos monstros que vivem aqui reconhece um slime quando ve um, mas parece que voce nao e tao perspicaz...",Dialogue - Portuguese
+pink_slime_intro_7,Voce gostou de <color=accent>me beber</color>? Gostou de ter uma parte de mim <color=accent>dentro</color> de voce?,Dialogue - Portuguese
+pink_slime_intro_8,"》De repente, voce percebe que sua pele esta formigando. Ela parece significativamente mais sensivel do que antes.",Dialogue - Portuguese
+pink_slime_intro_9,"Meus fluidos tem um forte efeito <color=accent>afrodisiaco</color> nos humanos, sabia? Sera que voce ja esta <color=accent>sentindo</color> o efeito deles～",Dialogue - Portuguese
+pink_slime_intro_10,Talvez eu possa ajudar voce...,Dialogue - Portuguese
+pink_slime_intro_11,》A slime sai da poca e pula em cima de voce!,Dialogue - Portuguese
+pink_slime_intro_2b,E-<pause=0.5>espere!,Dialogue - Portuguese
+pink_slime_intro_3b,》Uma slime emerge da agua!,Dialogue - Portuguese
+pink_slime_intro_4b,Por que voce foi embora sem provar um pouco da minha <color=accent>slime<pause=0.3> deliciosa</color>?<pause=0.3> Voce tambem estava <color=accent>me encarando</color> com uma expressao tao sedenta...,Dialogue - Portuguese
+pink_slime_intro_5b,"Faz muito tempo que nao vejo um humano, e preciso <color=accent>repor</color> meu nucleo, entao...",Dialogue - Portuguese
+pink_slime_intro_6b,Talvez voce possa me ajudar～,Dialogue - Portuguese
+pink_slime_intro_7b,》A slime sai da poca e pula em cima de voce!,Dialogue - Portuguese
+pink_slime_battle_1,Voce prefere meus <color=accent>seios</color>?,Dialogue - Portuguese
+pink_slime_battle_2,Que tal...<pause=1> a minha <color=accent>boceta</color>?,Dialogue - Portuguese
+pink_slime_battle_3,Posso mudar minha forma para <color=accent>qualquer coisa</color> que voce desejar～,Dialogue - Portuguese
+pink_slime_battle_4,"Voce e bastante<pause=0.3> ahnn～<pause=0.3> grande, hein. Seu pau quase consegue tocar meu <color=accent>nucleo</color>.",Dialogue - Portuguese
+pink_slime_battle_5,Mas sera que sua <color=accent>resistencia</color> acompanha seu<pause=0.3> <color=accent>tamanho<pause=0.3> enorme～</color><pause=1> Vamos descobrir!,Dialogue - Portuguese
+pink_slime_win_1,"Hah, hah...<pause=1> Incrivel, voce me <color=accent>encheu</color> com taaan<pause=0.3>ta～ dessa essencia sua. Voce ate<pause=0.3> <color=accent>cobriu</color><pause=0.3> meu nucleo inteiro com ela...",Dialogue - Portuguese
+pink_slime_win_2,Voce devia estar tao<pause=0.3> <color=accent>reprimido～</color><pause=0.3> Aposto que poderia satisfazer uma slime como eu<color=accent><pause=0.3> a<pause=0.3> noite<pause=0.3> toda</color>.,Dialogue - Portuguese
+pink_slime_win_3,"Eu queria continuar, mas estou completamente <color=accent>exausta</color>...",Dialogue - Portuguese
+pink_slime_win_4,Avise-me se algum dia precisar que eu <color=accent>tome</color> aquela sua<pause=0.3> <color=accent>essencia<pause=0.3> deliciosa</color><pause=0.3> novamente.,Dialogue - Portuguese
+pink_slime_loss_1,Eeeh... voce ja esta <color=accent>exausto</color>?,Dialogue - Portuguese
+pink_slime_loss_2,Parece que seu<pause=0.3> <color=accent>pau<pause=0.3> enorme e inutil</color><pause=0.3> so tem tamanho e mais nada!,Dialogue - Portuguese
+pink_slime_loss_3,"Oh, voce acha que vamos parar? Ainda nao estou <color=accent>satisfeita</color>～",Dialogue - Portuguese
+pink_slime_loss_4,"<pause=1.5>O que-?<pause=0.5> Ja esta <color=accent>gozando</color> de novo? Va em frente, simplesmente se entregue e atire <pause=0.3> <color=accent>tudo<pause=0.3> em mim</color>～",Dialogue - Portuguese
+pink_slime_loss_5,Esse pau<pause=0.3> <color=accent>desesperadamente</color><pause=0.3> precisa de treinamento～ Ele praticamente esta <color=accent>implorando</color> por isso.,Dialogue - Portuguese
+pink_slime_loss_6,"Eu diria para voce nao se conter, mas sei que nem conseguiria mesmo se quisesse～",Dialogue - Portuguese
+pink_slime_loss_7,"Continue me <color=accent>enchendo</color> com sua<pause=0.3> <color=accent>essencia<pause=0.3> patetica</color>,<pause=1> nao vou parar tao cedo～",Dialogue - Portuguese
+onikuma_intro_1,》Voce chega a uma area de floresta repleta de arbustos de frutas vermelhas.,Dialogue - Portuguese
+onikuma_intro_2,"》Olhando ao redor, voce ve uma garota cantarolando enquanto procura algo em um dos arbustos.",Dialogue - Portuguese
+onikuma_intro_3,》* Mmm-mm<pause=0.5> mm-<pause=0.3>hmmm hmm<pause=0.5> mmm *,Dialogue - Portuguese
+onikuma_intro_4,》Ela percebe voce e se vira rapidamente.,Dialogue - Portuguese
+onikuma_intro_5,Um h-humano? Como voce chegou aqui?,Dialogue - Portuguese
+onikuma_intro_6,"Eu...<pause=0.3>Ouvi falar dos humanos pelos outros ursos. Eles pegam o que querem sem pedir. Nossa comida, nossos abrigos ou ate mesmo nossos...<pause=0.5> <color=accent>corpos</color>...",Dialogue - Portuguese
+onikuma_intro_7,"E verdade que...",Dialogue - Portuguese
+onikuma_intro_8,Ela lanca um olhar para a sua calca enquanto murmura algo para si mesma. Voce nao consegue se controlar a medida que o sangue comeca a fluir para a sua virilha.,Dialogue - Portuguese
+onikuma_intro_9,Grande... grosso...,Dialogue - Portuguese
+onikuma_intro_10,"...",Dialogue - Portuguese
+onikuma_intro_11,"Por favor, nao fique com as outras ursas! E-<pause=0.3>eu vou ficar com voce no lugar delas. P-<pause=0.3>por favor, <color=accent>use-me</color> o quanto quiser.",Dialogue - Portuguese
+onikuma_intro_12,Me prometa que vai ser gentil...,Dialogue - Portuguese
+onikuma_battle_1,"V-<pause=0.3>voce pode ir um pouco mais rapido, acho que estou pronta...",Dialogue - Portuguese
+onikuma_battle_2,Ooouhhnnn～ V-<pause=0.3>Voce esta entrando tao <color=accent>fundo</color> dentro de mim!,Dialogue - Portuguese
+onikuma_battle_3,Eu conseguia sentir seus<pause=0.3> <color=accent>feromonios<pause=0.3> potentes</color><pause=0.3> desde o comeco.,Dialogue - Portuguese
+onikuma_battle_4,T-<pause=0.3>tenho certeza de que qualquer garota que sentisse esses feromonios rapidamente se tornaria uma das suas<pause=0.3> <color=accent>escravas sexuais</color>.,Dialogue - Portuguese
+onikuma_battle_5,"Como alguma de nos poderia resistir...<pause=0.5> nos, ursas, fomos <color=accent>feitas para ser fecundadas</color> por humanos como voce～!",Dialogue - Portuguese
+onikuma_battle_6,V-<pause=0.3>voce esta indo ainda mais rapido?<pause=0.5> Ooouuuggnn!,Dialogue - Portuguese
+onikuma_battle_7,M-<pause=0.3>Mais rapido! Faca de mim sua<pause=0.3> <color=accent>vadia<pause=0.3> reprodutora</color>～!,Dialogue - Portuguese
+onikuma_battle_8,"G-<pause=0.3>Gozando!",Dialogue - Portuguese
+onikuma_win_1,Haaah... haa...,Dialogue - Portuguese
+onikuma_win_2,Voce soltou tanta<pause=0.3> <color=accent>porra<pause=0.3> grossa</color><pause=0.3> por todo lado～ Voce me cobriu por dentro e por fora...,Dialogue - Portuguese
+onikuma_win_3,Voce<pause=0.3> <color=accent>me arruinou</color><pause=0.3> para qualquer outra pessoa depois de ter sido tao intenso... sua <color=accent>fera</color>～,Dialogue - Portuguese
+onikuma_win_4,e melhor voce <color=accent>assumir a responsabilidade</color>...,Dialogue - Portuguese
+onikuma_loss_1,M-<pause=0.3>mais...,Dialogue - Portuguese
+onikuma_loss_2,》Ela comeca a se mover por conta propria.,Dialogue - Portuguese
+onikuma_loss_3,"Aposto que voce ainda consegue continuar, nao e? Nao precisa se conter,<pause=0.3> <color=accent>me<pause=0.3> enche </color><pause=0.3> com mais do seu gozo～",Dialogue - Portuguese
+onikuma_loss_4,Vou ser a melhor<pause=0.3> <color=accent>escrava sexual</color><pause=0.3> que eu puder...,Dialogue - Portuguese
+onikuma_loss_5,"Os humanos foram feitos para ser<pause=0.3> <color=accent>adorados</color><pause=0.3> por nos, ursas...",Dialogue - Portuguese
+onikuma_loss_6,Me de mais desses<pause=0.3> <color=accent>jatos<pause=0.3> grossos e<pause=0.3> viris</color> de gozo. Solte <color=accent>toda sua porra em mim</color>～,Dialogue - Portuguese
+onikuma_loss_7,<pause=1.5>Uma<pause=0.3> <color=accent>quantidade<pause=0.3> enorme</color><pause=0.3> mesmo depois de voce ja ter gozado tantas vezes...,Dialogue - Portuguese
+onikuma_loss_8,Talvez eu deva apresenta-lo as minhas <color=accent>irmas</color> depois. Voce pode <color=accent>fecundar</color> todas nos a sua<pause=0.3> <color=accent>vontade</color>～. Teremos que mante-lo<pause=0.3> <color=accent>devidamente<pause=0.3> satisfeito</color><pause=0.3> daqui em diante...,Dialogue - Portuguese
+mandragora_intro_1,"》Atravessando a caverna, voce encontra uma area coberta por trepadeiras crescidas demais.",Dialogue - Portuguese
+mandragora_intro_2,》Voce nao consegue avancar mais por causa do grande emaranhado.,Dialogue - Portuguese
+mandragora_intro_3,"》As trepadeiras parecem estar floridas, com flores com um aroma doce pingando um liquido desconhecido.",Dialogue - Portuguese
+mandragora_intro_4,"》Quanto mais tempo voce fica aqui, mais forte o aroma se torna.",Dialogue - Portuguese
+mandragora_intro_5,"》De repente, as trepadeiras comecam a se mover!",Dialogue - Portuguese
+mandragora_intro_6,...,Dialogue - Portuguese
+mandragora_intro_7,"》Uma planta em forma de garota emerge das trepadeiras. Ela encara voce imovel, com os bracos estendidos em sua direcao.",Dialogue - Portuguese
+mandragora_intro_8,》Um aroma doce e intoxicante toma conta de voce. Voce nao consegue se conter e comeca a se aproximar da garota.,Dialogue - Portuguese
+mandragora_intro_9,Venha...,Dialogue - Portuguese
+mandragora_intro_10,"》Quando voce chega perto dela, ela lentamente o envolve com os bracos e o cobre de trepadeiras...",Dialogue - Portuguese
+mandragora_battle_1,》Ela envolve seu penis em um bulbo de flor que escorre fluidos quentes e viscosos.,Dialogue - Portuguese
+mandragora_battle_2,Preciso... de nectar...,Dialogue - Portuguese
+mandragora_battle_3,》O estame dentro do bulbo floral massageia suavemente sua ponta enquanto ela aperta cada vez mais o bulbo ao seu redor.,Dialogue - Portuguese
+mandragora_battle_4,Delicioso...,Dialogue - Portuguese
+mandragora_battle_5,》A velocidade de sua mao aumenta lentamente. Voce sente uma sensacao de calor pulsando por todo o corpo.,Dialogue - Portuguese
+mandragora_battle_6,Gozo...,Dialogue - Portuguese
+mandragora_win_1,"》Depois de encher o ovulo de seu bulbo, ela recolhe o semen restante com as maos.",Dialogue - Portuguese
+mandragora_win_2,"》Ela bebe o semen enquanto olha para voce, aparentemente satisfeita com a quantidade.",Dialogue - Portuguese
+mandragora_win_3,Cheia...,Dialogue - Portuguese
+mandragora_win_4,"》As trepadeiras lentamente se desenrolam de voce, e ela desaparece mais uma vez no emaranhado de trepadeiras.",Dialogue - Portuguese
+mandragora_loss_1,》Voce encheu completamente o ovulo de seu bulbo com semen. Voce acha que finalmente acabou...,Dialogue - Portuguese
+mandragora_loss_2,"》As trepadeiras se apertam levemente ao seu redor. Ela aproxima outro bulbo da sua cabeca, deixando cair um liquido de sabor doce em sua boca.",Dialogue - Portuguese
+mandragora_loss_3,"》Apesar de ter gozado ha pouco, voce se sente completamente revitalizado.",Dialogue - Portuguese
+mandragora_loss_4,De... mais...,Dialogue - Portuguese
+mandragora_loss_5,》Ela continua bombeando o bulbo macio enquanto olha para voce com desapontamento.,Dialogue - Portuguese
+mandragora_loss_6,"》Para cima e para baixo, para cima e para baixo, para cima e para baixo.",Dialogue - Portuguese
+mandragora_loss_7,》Voce sente uma quantidade desumana de semen sendo espremida de voce enquanto seu bulbo macio e aveludado absorve cada gota que sai de voce.,Dialogue - Portuguese
+mandragora_loss_8,Mais...,Dialogue - Portuguese
+mandragora_loss_9,》O doce nectar que alimenta voce continua levando-o para perto de outro orgasmo.,Dialogue - Portuguese
+mandragora_loss_10,"》Enquanto voce goza novamente, a maciez e o calor de sua flor parecem envolver todo o seu corpo.",Dialogue - Portuguese
+mandragora_loss_11,》Talvez voce possa ficar assim por mais um tempo...,Dialogue - Portuguese
+sylph_1,"》Voce encontra um pequeno poco coberto de ervas daninhas. Ao olhar para dentro, ve algo brilhando no fundo.",Dialogue - Portuguese
+sylph_reach_1,"》Voce coloca a mao dentro, procurando pelo objeto brilhante.",Dialogue - Portuguese
+sylph_reach_2,》Seus dedos quase alcancam o objeto.,Dialogue - Portuguese
+sylph_reach_3,》Voce consegue tocar nele.,Dialogue - Portuguese
+sylph_reach_4,"》Quando tenta retira-lo da agua, ele se dissolve entre seus dedos...",Dialogue - Portuguese
+sylph_reach_5,"》Quando voce comeca a se afastar, uma voz chama por voce.",Dialogue - Portuguese
+sylph_reach_6,Tentando roubar do meu poco? Estou um pouco decepcionada...,Dialogue - Portuguese
+sylph_reach_7,》Talvez seja melhor deixar o objeto onde esta.,Dialogue - Portuguese
+sylph_toss_1,》Voce tira uma moeda do bolso e a joga no poco.,Dialogue - Portuguese
+sylph_toss_2,"》A moeda parece desaparecer na agua. De repente, uma voz chama por voce.",Dialogue - Portuguese
+sylph_toss_3,Que generoso! Estou satisfeita com sua oferenda.,Dialogue - Portuguese
+sylph_toss_4,》Uma luz dourada surge no fundo do poco.,Dialogue - Portuguese
+sylph_empty_1,"》Voce procura em seus bolsos, mas nao encontra nada.",Dialogue - Portuguese
+sylph_empty_2,》Voce nao tem nada que possa oferecer.,Dialogue - Portuguese
+sylph_empty_3,"》Quando comeca a se afastar, uma voz chama por voce.",Dialogue - Portuguese
+sylph_empty_4,Voce nao tem ouro para oferecer? Acho que a intencao e o que conta...,Dialogue - Portuguese
+sylph_empty_5,》A voz parece desaparecer.,Dialogue - Portuguese
+sylph_2,"Estou observando voce ha algum tempo, desde que passou pelo portao. Nao e comum alguem chegar tao longe.",Dialogue - Portuguese
+sylph_3,Voce tem muito <pause=0.3><color=accent>potencial</color>. Eu nao gostaria de ver voce desperdica-lo.,Dialogue - Portuguese
+sylph_4,"Hmm, ja sei. Vou lhe dar algo util para ajudar voce a sobreviver a todos esses <pause=0.3><color=accent>perigos</color>.",Dialogue - Portuguese
+sylph_5,》Uma luz dourada surge do poco.,Dialogue - Portuguese
+sylph_6,"》Enquanto ela desaparece, voce sente uma sensacao de calor dourado envolvendo seu corpo.",Dialogue - Portuguese
+salamander_1,》Voce descobre uma caverna de lava ativa enquanto procura um lugar para descansar.,Dialogue - Portuguese
+salamander_2,"》Uma estatua antiga e lascada de algum animal esta diante de voce. Enquanto examina a estatua, uma voz surge.",Dialogue - Portuguese
+salamander_3,Estou impressionada que voce conseguiu encontrar este lugar.,Dialogue - Portuguese
+salamander_4,》A voz parece vir de algum lugar proximo.,Dialogue - Portuguese
+salamander_5,"Ola, humano~ Eu e minhas irmas estamos observando voce desde que passou pelo portao para o nosso mundo.",Dialogue - Portuguese
+salamander_6,Voce parece muito <color=accent>habilidoso</color> para um humano. A maioria nao dura muito depois de chegar aqui.,Dialogue - Portuguese
+salamander_7,"Depois de ver o que voce consegue fazer, voce definitivamente despertou meu interesse.",Dialogue - Portuguese
+salamander_8,Eu adoraria ver voce ter sucesso em sua jornada pelas cavernas.,Dialogue - Portuguese
+salamander_9,Vou lhe dar algo util para ajudar...,Dialogue - Portuguese
+salamander_10,"Sempre que sentir que esta exausto demais para continuar, pense em mim~",Dialogue - Portuguese
+salamander_11,Vou lhe dar a <pause=0.3><color=accent>energia</color><pause=0.3> de que precisa para enfrentar qualquer grande desafio.,Dialogue - Portuguese
+salamander_12,》Uma chama quente surge diante de voce.,Dialogue - Portuguese
+salamander_13,"》Enquanto ela desaparece, voce e envolvido por uma sensacao de calor e encorajamento.",Dialogue - Portuguese
+undine_1,"》Escondida nas profundezas de uma das passagens da caverna, voce encontra uma fonte.",Dialogue - Portuguese
+undine_2,》A agua parece cristalina e tranquila.,Dialogue - Portuguese
+undine_bathe_1,》Voce remove seus pertences e os coloca por perto.,Dialogue - Portuguese
+undine_bathe_2,》Voce entra na fonte. A agua fresca elimina todo o cansaco do seu corpo.,Dialogue - Portuguese
+undine_bathe_3,》A agua esta agradavelmente quente.,Dialogue - Portuguese
+undine_bathe_4,》Voce sente todos os musculos do corpo relaxarem.,Dialogue - Portuguese
+undine_rest_1,》Voce coloca sua mochila no chao e a usa como travesseiro enquanto fecha os olhos por um momento.,Dialogue - Portuguese
+undine_rest_2,Vejo que voce esta aproveitando o ambiente por aqui.,Dialogue - Portuguese
+undine_3,》Voce abre os olhos e encontra uma fada flutuando perto de voce.,Dialogue - Portuguese
+undine_4,Minhas irmas estao acompanhando sua jornada pelas cavernas.,Dialogue - Portuguese
+undine_5,Elas parecem impressionadas com suas <pause=0.3><color=accent>habilidades</color>...,Dialogue - Portuguese
+undine_6,》A fada sorri e se aproxima.,Dialogue - Portuguese
+undine_7,Vou lhe dar algo para ajudar voce a relaxar.,Dialogue - Portuguese
+undine_8,Voce conseguira manter o foco ate mesmo durante os encontros mais <color=accent>intensos</color> com as garotas.,Dialogue - Portuguese
+undine_9,Um...,Dialogue - Portuguese
+undine_bathe_5,"》A fada desaparece, e voce decide sair da fonte.",Dialogue - Portuguese
+undine_bathe_6,》Voce se sente completamente relaxado e revigorado.,Dialogue - Portuguese
+undine_rest_3,"》A fada desaparece, e voce decide se levantar apos o descanso.",Dialogue - Portuguese
+undine_rest_4,》Voce se sente completamente relaxado e revigorado.,Dialogue - Portuguese
+gnome_1,》Voce chega a um beco sem saida coberto de areia. Um orbe brilhante flutua sobre uma plataforma no centro da sala.,Dialogue - Portuguese
+gnome_2,"》Ao se aproximar do orbe, voce ouve uma voz chamar.",Dialogue - Portuguese
+gnome_3,C-como voce conseguiu encontrar o meu quarto?,Dialogue - Portuguese
+gnome_4,》Uma fada aparece de repente diante de voce!,Dialogue - Portuguese
+gnome_5,Aquele orbe e precioso; tenha cuidado perto dele!,Dialogue - Portuguese
+gnome_6,Minhas irmas estao muito <color=accent>interessadas</color> no seu progresso por estas cavernas.,Dialogue - Portuguese
+gnome_7,Eu nao gostaria de ver voce fracassar —<pause=0.3> nao que eu me importe muito ou algo assim! Eu so nao quero ver minhas irmas decepcionadas.,Dialogue - Portuguese
+gnome_8,Vou lhe dar minha bencao para dar sorte.,Dialogue - Portuguese
+gnome_9,Seja grato por isso; nao ajudo qualquer um que passa por aqui.,Dialogue - Portuguese
+gnome_10,"Eu... <pause=0.3> Quer dizer, minhas irmas ficarao ansiosas para acompanhar o restante da sua jornada...",Dialogue - Portuguese
+gnome_11,》A fada desaparece com uma expressao levemente desconcertada.,Dialogue - Portuguese
+sphinx_intro_1,》Voce entra em um templo e encontra uma garota sentada em um trono.,Dialogue - Portuguese
+sphinx_intro_2,》Ela parece perceber que voce esta se aproximando.,Dialogue - Portuguese
+sphinx_intro_3,"Hmm, um humano? E parece que lhe faltam boas maneiras.",Dialogue - Portuguese
+sphinx_intro_4,"Voce esta diante de uma poderosa esfinge, humano. Demonstre um pouco de <color=accent>cortesia</color>, e talvez eu o perdoe.",Dialogue - Portuguese
+sphinx_intro_5,"》As <color=accent>palavras</color> dela o paralisam. Incapaz de se mover ou responder, voce continua encarando-a.",Dialogue - Portuguese
+sphinx_intro_6,Ignorando meu pedido? Humanos como voce precisam aprender algumas maneiras.,Dialogue - Portuguese
+sphinx_intro_7,<color=accent>Ajoelhe-se.</color>,Dialogue - Portuguese
+sphinx_intro_8,"<pause=0.5>》As <color=accent>palavras</color> de comando dela parecem assumir o controle de voce, fazendo-o cair de joelhos instantaneamente.",Dialogue - Portuguese
+sphinx_intro_9,》Ela se aproxima lentamente de voce...,Dialogue - Portuguese
+sphinx_battle1_1,"Eu apenas ordenei que voce se ajoelhasse, nao que ficasse duro como uma pedra.",Dialogue - Portuguese
+sphinx_battle1_2,Voce nao esta <color=accent>gostando</color> disso ate demais?,Dialogue - Portuguese
+sphinx_battle1_3,Seu<pause=0.3><color=accent> pau patetico</color><pause=0.3> parece que vai gozar a qualquer momento～,Dialogue - Portuguese
+sphinx_battle1_4,"Uwah, voce ficou ainda<pause=0.3><color=accent> mais duro</color>～",Dialogue - Portuguese
+sphinx_battle1_5,"Voce consegue segurar, nao consegue? Nao vai querer gozar tao rapido so por causa do meu pe, <color=accent>vai</color>?",Dialogue - Portuguese
+sphinx_battle1_6,Esse<pause=0.3><color=accent> pau fraco</color><pause=0.3> parece que vai explodir a qualquer momento～ Aposto que voce perderia instantaneamente para meu <color=accent>comando</color>...,Dialogue - Portuguese
+sphinx_battle1_7,<color=accent>Goze.</color>,Dialogue - Portuguese
+sphinx_loss1_1,Voce gozou tanto e ainda esta tao duro. Oh-,Dialogue - Portuguese
+sphinx_loss1_2,Parece que meu <color=accent>comando</color> foi poderoso demais. Voce se submeteu completamente a mim.,Dialogue - Portuguese
+sphinx_loss1_3,"Voce e tao <color=accent>patetico</color>, chega a ser divertido.",Dialogue - Portuguese
+sphinx_loss1_4,Esse pau enorme talvez seja a unica coisa boa em voce...,Dialogue - Portuguese
+sphinx_loss1_5,Quantas vezes mais voce consegue <color=accent>gozar</color>～,Dialogue - Portuguese
+sphinx_loss1_6,"Hmm, se voce continuar gozando, talvez eu possa encontrar uma utilidade para voce afinal. Voce pode ser meu <color=accent>escravo</color>, para sempre～",Dialogue - Portuguese
+sphinx_loss1_7,Voce gozou de novo!,Dialogue - Portuguese
+sphinx_loss1_8,"Voce nao tem um pingo de vergonha, humano? Ou devo chama-lo de <color=accent>meu escravo</color>?",Dialogue - Portuguese
+sphinx_loss1_9,Seu pau ainda esta tao cheio de energia...,Dialogue - Portuguese
+sphinx_loss1_10,Parece que tenho um novo <color=accent>escravo</color> capaz de me entreter. Vamos continuar～,Dialogue - Portuguese
+sphinx_win1_1,"Uau, voce me cobriu completamente. Parece que voce ainda esta consciente tambem...",Dialogue - Portuguese
+sphinx_win1_2,Seu pau gigante queria <color=accent>gozar</color> tanto assim com os meus pes?,Dialogue - Portuguese
+sphinx_win1_3,Como seu pau ainda pode estar tao cheio de energia～?,Dialogue - Portuguese
+sphinx_win1_4,Parece que voce ainda tem um pouco de forca de vontade. Sera que conseguiria durar outra rodada?,Dialogue - Portuguese
+sphinx_win1_5,Nao e comum a mente de um humano sobreviver aos meus comandos. Certamente voce nao perdera o controle depois de mais algumas.,Dialogue - Portuguese
+sphinx_win1_6,<color=accent>Continue.</color>,Dialogue - Portuguese
+sphinx_battle2_1,Que humano pervertido. Por que minhas axilas?,Dialogue - Portuguese
+sphinx_battle2_2,Voce esta se esfregando em mim como uma <color=accent>fera sem mente</color>～,Dialogue - Portuguese
+sphinx_battle2_3,"Se continuar nesse ritmo, pode gozar ainda mais rapido que da ultima vez, sabia...",Dialogue - Portuguese
+sphinx_battle2_4,"Admito, alguem patetico e rapido como voce e um pouco divertido.",Dialogue - Portuguese
+sphinx_battle2_5,"Vamos, segure so mais um pouco～",Dialogue - Portuguese
+sphinx_battle2_6,Ainda nao...,Dialogue - Portuguese
+sphinx_loss2_1,Voce soltou tanto na segunda vez. Talvez tenha liberado ainda mais do que antes-,Dialogue - Portuguese
+sphinx_loss2_2,"Oh, parece que voce realmente se tornou uma <color=accent>fera sem mente</color>...",Dialogue - Portuguese
+sphinx_loss2_3,Acho que meus <color=accent>comandos</color> foram fortes demais para voce afinal～,Dialogue - Portuguese
+sphinx_loss2_4,Estou surpresa que voce ainda esteja totalmente ereto depois de tudo isso. Voce gostou tanto das minhas axilas assim?,Dialogue - Portuguese
+sphinx_loss2_5,Talvez voce possa me entreter afinal.,Dialogue - Portuguese
+sphinx_loss2_6,<color=accent>Continue bombeando.</color>,Dialogue - Portuguese
+sphinx_loss2_7,"Se conseguir continuar por tempo suficiente para <color=accent>me satisfazer</color>, talvez eu permita que se torne meu escravo. O que acha disso?",Dialogue - Portuguese
+sphinx_loss2_8,"Ah, espere, voce nao pensa mais!",Dialogue - Portuguese
+sphinx_loss2_9,Pelo menos voce ainda consegue liberar uma quantidade tao enorme de gozo.,Dialogue - Portuguese
+sphinx_loss2_10,Um humano patetico como voce so tem uma utilidade.,Dialogue - Portuguese
+sphinx_loss2_11,Continuar me entretendo com sua resistencia infinita e seu pau enorme～,Dialogue - Portuguese
+sphinx_loss2_12,"Tenho certeza de que voce vai gostar de ser meu <color=accent>escravo</color>, para sempre.",Dialogue - Portuguese
+sphinx_win2_1,Voce soltou tanto na segunda vez. Talvez tenha liberado ainda mais do que antes～,Dialogue - Portuguese
+sphinx_win2_2,E voce ainda esta com a mente intacta.,Dialogue - Portuguese
+sphinx_win2_3,"Para um<pause=0.3><color=accent> pervertido<pause=0.3> patetico</color><pause=0.3> como voce, estou ligeiramente impressionada.",Dialogue - Portuguese
+sphinx_win2_4,Voce conseguiu me entreter por enquanto.,Dialogue - Portuguese
+sphinx_win2_5,Permito que volte se quiser me entreter novamente.,Dialogue - Portuguese
+sphinx_win2_6,Talvez eu ate permita que voce se torne meu <color=accent>escravo</color>～,Dialogue - Portuguese
+cyclops_intro_1,》Voce encontra uma escada escondida em um recanto da caverna.,Dialogue - Portuguese
+cyclops_intro_2,"》Voce consegue ouvir o som de agua correndo la embaixo, mas nao consegue enxergar nada no fundo.",Dialogue - Portuguese
+cyclops_intro_3,》Voce decide descer...,Dialogue - Portuguese
+cyclops_intro_4,"》Assim que voce finalmente chega ao fundo, descobre a fonte da agua.",Dialogue - Portuguese
+cyclops_intro_5,"》Ao olhar para cima, voce ve uma garota ciclope ocupada se banhando.",Dialogue - Portuguese
+cyclops_intro_6,"》a medida que voce se aproxima, ela percebe a sua presenca!",Dialogue - Portuguese
+cyclops_intro_7,Q-quem esta ai? Um humano?!,Dialogue - Portuguese
+cyclops_intro_8,"Voce deve sentir nojo do meu olho, nao e? Os humanos sempre fogem quando veem alguem como eu.",Dialogue - Portuguese
+cyclops_intro_9,Por que voce nao esta correndo? V-Voce nao sente nojo? Isso me deixa feliz...,Dialogue - Portuguese
+cyclops_intro_10,"Essa calca parece um pouco mais apertada do que antes... Se nao se importar, que tal voce <color=accent>tirar a roupa</color> e chegar um pouco mais perto~",Dialogue - Portuguese
+cyclops_battle_1,"Ahhn...! Voce e o primeiro humano com quem ja fiquei, mas acho que voce pode ser o meu par perfeito.",Dialogue - Portuguese
+cyclops_battle_2,Eu adoro tanto isso! Voce tambem esta se sentindo bem?,Dialogue - Portuguese
+cyclops_battle_3,Haah～,Dialogue - Portuguese
+cyclops_battle_4,"Consigo sentir seu pau pulsando com mais forca! Voce deve estar perto agora, ne?",Dialogue - Portuguese
+cyclops_battle_5,"Vamos la, nao se segura. Me de <color=accent>tudo</color> o que voce tem",Dialogue - Portuguese
+cyclops_loss_1,"Uau, voce me <color=accent>preencheu</color> taaaanto.",Dialogue - Portuguese
+cyclops_loss_2,"Voce ainda consegue continuar, ne? Quero fazer voce se sentir <color=accent>muito melhor</color>...",Dialogue - Portuguese
+cyclops_loss_3,"》Sem esperar pela sua resposta, ela continua saltitando em voce freneticamente.",Dialogue - Portuguese
+cyclops_loss_4,Voce pode acabar sendo a minha <color=accent>alma gemea</color>. Somos tao compativeis~,Dialogue - Portuguese
+cyclops_loss_5,"Ah, voce esta tentando se segurar por mim? Nao se preocupe com isso, goze o quanto quiser!",Dialogue - Portuguese
+cyclops_loss_6,Viu? Nao esta <color=accent>muito melhor agora</color>?,Dialogue - Portuguese
+cyclops_loss_7,Espero que voce ainda nao esteja exausto. Quero te mostrar o meu amor<pause=0.3><color=accent> a noite<pause=0.3> toda</color>...,Dialogue - Portuguese
+cyclops_win_1,Como foi? Voce se sentiu tao bem quanto eu espero?,Dialogue - Portuguese
+cyclops_win_2,"Apesar do meu olho, voce continua sendo tao gentil comigo...",Dialogue - Portuguese
+cyclops_win_3,"Talvez fossemos feitos para ser almas gemeas...? Ah, deixa pra la. Tenho certeza de que voce quer explorar mais antes de sossegar.",Dialogue - Portuguese
+cyclops_win_4,<color=accent>A menos que</color>...,Dialogue - Portuguese
+cyclops_win_5,"Se voce quiser, e claro. Talvez, quando voce nao estiver ocupado, a gente possa <color=accent>se conhecer</color> um pouco melhor.",Dialogue - Portuguese
+cyclops_win_6,Espero poder te ver de novo~,Dialogue - Portuguese
+goblin_intro_1,》Voce encontra uma porta em uma das passagens sinuosas.,Dialogue - Portuguese
+goblin_intro_2,"》Parece uma pousada, e as luzes ainda estao acesas.",Dialogue - Portuguese
+goblin_intro_3,》Voce esta se sentindo um pouco exausto da viagem. Talvez consiga encontrar uma cama la dentro.,Dialogue - Portuguese
+goblin_intro_4,》Voce abre a porta...,Dialogue - Portuguese
+goblin_intro_5,"Bem-vindo a... ah, um humano?",Dialogue - Portuguese
+goblin_intro_6,e raro um humano vir aqui para descansar!,Dialogue - Portuguese
+goblin_intro_7,"Vai custar 3 pecas de ouro pela noite, mas...",Dialogue - Portuguese
+goblin_intro_8,Talvez eu possa reduzir a tarifa da estalagem se voce me proporcionar bons momentos.,Dialogue - Portuguese
+goblin_intro_9,Ouvi dizer que alguns humanos<pause=0.3> simplesmente<pause=0.3> <color=accent>amam</color><pause=0.3> goblins.,Dialogue - Portuguese
+goblin_intro_10,"Nossos corpos pequenos sao <color=accent>taaao convenientes</color>, nao acha?",Dialogue - Portuguese
+goblin_intro_11,Voce pode simplesmente nos carregar por ai enquanto nos <color=accent>fode</color> a vontade~,Dialogue - Portuguese
+goblin_intro_12,"Voce nao seria um daqueles <color=accent>amantes de goblins</color>, seria?",Dialogue - Portuguese
+goblin_intro_13,"Mas fica o aviso: nos, goblins, somos notoriamente dificeis de <color=accent>satisfazer</color>",Dialogue - Portuguese
+goblin_intro_14,O que...<pause=0.5> Isso... e um pouco<pause=0.3> <color=accent>maior</color><pause=0.3> do que eu esperava...,Dialogue - Portuguese
+goblin_intro_15,Ha? V-voce nem esta <color=accent>totalmente duro</color> ainda?! Hum...,Dialogue - Portuguese
+goblin_intro_16,"I-isto deve ser mentira, ne, haha... <color=accent>Nao tem como</color> voce ser tao...",Dialogue - Portuguese
+goblin_battle_1,A～n... Haa Haa...,Dialogue - Portuguese
+goblin_battle_2,Ahh... Seu pau e tao <color=accent>grosso</color>,Dialogue - Portuguese
+goblin_battle_3,Mais rapido... mais rapido...,Dialogue - Portuguese
+goblin_battle_4,Continue me fudendo com o seu <color=accent>pau enorme</color>!,Dialogue - Portuguese
+goblin_battle_5,"Semen... Semen... Rapido! Me preenche <color=accent>com a sua porra</color>, ahn...!",Dialogue - Portuguese
+goblin_battle_6,"V-vou gozar! N-nao, eu nao posso... ahhn... perder. Se eu gozar, eu perco...! Estou quase! Vou gozar! <color=accent>Eu to gozando...</color>",Dialogue - Portuguese
+goblin_loss_1,"Foi por pouco, mas acho que voce perdeu~",Dialogue - Portuguese
+goblin_loss_2,Voce ainda esta <color=accent>tao...</color> duro. Seu <color=accent>pau gigante</color> esta implorando por mais.,Dialogue - Portuguese
+goblin_loss_3,O que voce acha dos meus peitos? Eles nao sao <color=accent>macios~</color>?,Dialogue - Portuguese
+goblin_loss_4,E se eu aplicasse um pouco mais de pressao...,Dialogue - Portuguese
+goblin_loss_5,Aperta~ Aperta~,Dialogue - Portuguese
+goblin_loss_6,Voce esta gozando tanto. Uwaa... voce simplesmente nao para de <color=accent>jorrar</color>...,Dialogue - Portuguese
+goblin_loss_7,Voce certamente tem um folego <color=accent>incrivel</color>. Pena que voce ter gozado tao rapido～,Dialogue - Portuguese
+goblin_loss_8,"Com um pouco de treino, voce poderia ter me derrotado <color=accent>facilmente</color>.",Dialogue - Portuguese
+goblin_loss_9,Fraco~ Fraco~,Dialogue - Portuguese
+goblin_loss_10,"Vou ter que continuar <color=accent>treinando</color> esse <color=accent>pau fraco</color> ate ele aprender! Nada de descanso hoje a noite, humano~",Dialogue - Portuguese
+goblin_win_1,Haah～ Haah～ Tanto,Dialogue - Portuguese
+goblin_win_2,Esta <color=accent>transbordando</color> para fora~,Dialogue - Portuguese
+goblin_win_3,V-Voce ganhou...,Dialogue - Portuguese
+goblin_win_4,"》A garota goblin continua pendurada no seu pau, tremendo de prazer.",Dialogue - Portuguese
+goblin_win_5,》Voce decide deixa-la descansar e vai para um quarto dormir durante a noite.,Dialogue - Portuguese
+succubus_intro_1,"》Voce encontra uma sala escura, iluminada apenas por velas e por um sigilo brilhante no chao.",Dialogue - Portuguese
+succubus_intro_2,"》Ao entrar na sala, uma criatura parece se materializar diante de voce!",Dialogue - Portuguese
+succubus_intro_3,Quem me invocou...?,Dialogue - Portuguese
+succubus_intro_4,Hmm? Um humano? Voce deve ter muita confianca para invocar uma sucubo.,Dialogue - Portuguese
+succubus_intro_5,"Esta com medo, garotao～? Voce ainda nem encostou em mim, embora esteja louco para comecar.",Dialogue - Portuguese
+succubus_intro_6,Seu pau esta o mais duro possivel desde que apareci. E patetico que voce ainda nao tenha me tomado...,Dialogue - Portuguese
+succubus_intro_7,"Vamos, seja homem e faca de mim sua～",Dialogue - Portuguese
+succubus_battle1_1,"》No instante em que voce segura os chifres dela, ela comeca a sugar com forca de um jeito que voce ja sentiu antes.",Dialogue - Portuguese
+succubus_battle1_2,"Slurp, slurp, slurp～",Dialogue - Portuguese
+succubus_battle1_3,"Mnf, slurp, mn～",Dialogue - Portuguese
+succubus_battle1_4,》Voce nao consegue continuar assim. Ela esta sugando voce inteiro!,Dialogue - Portuguese
+succubus_battle1_5,"Sluuuurp, Mnngh, sluurp～",Dialogue - Portuguese
+succubus_battle1_6,"》Voce nao consegue evitar acelerar e se entregar ao prazer. Essa maldita sucubo, como ela e tao boa nisso?",Dialogue - Portuguese
+succubus_battle1_7,"Sluurp, slurp, Slurrrp～",Dialogue - Portuguese
+succubus_win1_1,"Voce hesitou no comeco, mas com certeza me deu uma<color=accent><pause=0.3> carga<pause=0.3> realmente<pause=0.3> grossa</color>...",Dialogue - Portuguese
+succubus_win1_2,Nao me diga que ja esta cansado?,Dialogue - Portuguese
+succubus_win1_3,Tenho certeza de que seu<color=accent><pause=0.3> pau<pause=0.3> enorme<pause=0.3></color> consegue continuar.,Dialogue - Portuguese
+succubus_win1_4,"Voce nao vai<color=accent> perder</color> tao facilmente para uma simples sucubo, vai～?",Dialogue - Portuguese
+succubus_win1_5,Ande logo e mostre do que e capaz!,Dialogue - Portuguese
+succubus_lose1_1,"》Apesar de ter gozado ha pouco, ela nao para de dar prazer ao seu pau nem por um instante.",Dialogue - Portuguese
+succubus_lose1_2,Voce realmente soltou uma tonelada de<color=accent><pause=0.3> gozo<pause=0.3> grosso e<pause=0.3> selvagem</color>～,Dialogue - Portuguese
+succubus_lose1_3,Voce ainda esta <color=accent>taaao～ duro</color> tambem...,Dialogue - Portuguese
+succubus_lose1_4,"Talvez voce consiga me satisfazer depois de mais algumas rodadas, garotao～",Dialogue - Portuguese
+succubus_lose1_5,》Ela continua chupando seu pau com toda a forca.,Dialogue - Portuguese
+succubus_lose1_6,"Vamos, segure～ Me de o <color=accent>semen mais gostoso</color> que conseguir produzir～",Dialogue - Portuguese
+succubus_lose1_7,"Eeh, voce nao conseguiu segurar nada...",Dialogue - Portuguese
+succubus_lose1_8,Vou ter que <color=accent>punir</color> voce ate aprender a se controlar.,Dialogue - Portuguese
+succubus_lose1_9,Agora faca essas bolas trabalharem e produza outra <color=accent>carga grossa</color> para eu beber～,Dialogue - Portuguese
+succubus_battle2_1,Ahhn～ Voce e tao intenso～,Dialogue - Portuguese
+succubus_battle2_2,Minhas provocacoes deixaram voce tao excitado assim?,Dialogue - Portuguese
+succubus_battle2_3,"Mnn, isso e incrivel!",Dialogue - Portuguese
+succubus_battle2_4,"Continue, continue～",Dialogue - Portuguese
+succubus_battle2_5,"Vamos, garanhao, coloque esse pau para trabalhar.",Dialogue - Portuguese
+succubus_battle2_6,Segure o maximo que puder～,Dialogue - Portuguese
+succubus_battle2_7,"E me encha com muito, muito do seu <color=accent>semen delicioso</color>!",Dialogue - Portuguese
+succubus_win2_1,Aaah...,Dialogue - Portuguese
+succubus_win2_2,Voce me deu outra <color=accent>carga enorme</color>～,Dialogue - Portuguese
+succubus_win2_3,"Voce devia estar realmente reprimido, ou talvez seja tao <color=accent>insaciavel</color> quanto eu～?",Dialogue - Portuguese
+succubus_win2_4,Nada mal para um humano.,Dialogue - Portuguese
+succubus_win2_5,"Obrigada pela refeicao, garotao. Espero nao ter drenado energia demais de voce～",Dialogue - Portuguese
+succubus_lose2_1,"Ainda nao pare, aquela foi apenas a segunda rodada. Tenho certeza de que voce consegue continuar, nao e?",Dialogue - Portuguese
+succubus_lose2_2,"Voce soltou ainda mais na segunda vez, aposto que poderia me dar<color=accent><pause=0.3> taaanto<pause=0.3> mais<pause=0.3></color>～",Dialogue - Portuguese
+succubus_lose2_3,"Vamos, goze. Goze!",Dialogue - Portuguese
+succubus_lose2_4,Haha! Mais～ mais～,Dialogue - Portuguese
+succubus_lose2_5,Dispare suas enormes cargas ate ficar completamente seco!,Dialogue - Portuguese
+succubus_lose2_6,"Acha que ja acabou? A noite ainda e jovem, garotao, entao produza mais daquele<color=accent><pause=0.3> semen<pause=0.3> grosso</color>～",Dialogue - Portuguese
+imps_intro_1,》Voce encontra uma area tranquila na caverna. Parece um bom lugar para descansar.,Dialogue - Portuguese
+imps_intro_2,》Voce fecha seus olhos...,Dialogue - Portuguese
+imps_intro_3,<color=AB5555>O que e isso... e<pause=0.3> enorme!</color>,Dialogue - Portuguese
+imps_intro_4,<color=557687>Nao sei se vai caber...</color>,Dialogue - Portuguese
+imps_intro_5,"<color=63782D>Ele fica<pause=0.3> se contraindo, que nojento～</color>",Dialogue - Portuguese
+imps_intro_6,<color=846897>Oh! Ele esta acordando!</color>,Dialogue - Portuguese
+imps_intro_7,》Voce sente algo macio e pesado deitado sobre seu corpo. Voce comeca a abrir os olhos...,Dialogue - Portuguese
+imps_intro_8,<color=846897>Bom dia～</color>,Dialogue - Portuguese
+imps_intro_9,<color=557687>Ele se contraiu de novo!</color>,Dialogue - Portuguese
+imps_intro_10,"<color=AB5555>Ei, humano, por que seu negocio e tao grande?</color>",Dialogue - Portuguese
+imps_intro_11,<color=63782D>Talvez todos os humanos sejam assim.</color>,Dialogue - Portuguese
+imps_intro_12,》Voce esta cercado por um grupo de diabinhas encantadas com seu pau.,Dialogue - Portuguese
+imps_intro_13,"<color=557687>Ouvi dizer que, se esfregarmos o bastante, ele libera uma porcao de essencia...</color>",Dialogue - Portuguese
+imps_intro_14,<color=63782D>Ja esta vazando um pouco～</color>,Dialogue - Portuguese
+imps_intro_15,<color=846897>Voce pode nos dar um<pause=0.3> monte da sua essencia～?</color>,Dialogue - Portuguese
+imps_intro_16,<color=AB5555>Por favooor～</color>,Dialogue - Portuguese
+imps_intro_17,<color=63782D>Eu queria ser a primeira!</color>,Dialogue - Portuguese
+imps_intro_18,"<color=557687>Eu o encontrei primeiro, deveria ser eu.</color>",Dialogue - Portuguese
+imps_intro_19,<color=AB5555>Mas voce so viu ele dormindo no canto...</color>,Dialogue - Portuguese
+imps_intro_20,"<color=846897>Ei, isso nao vale!</color>",Dialogue - Portuguese
+imps_battle_1,<color=846897>Ele esta indo tao rapido!</color>,Dialogue - Portuguese
+imps_battle_2,"<color=557687>Nossa, ela ficou totalmente fora de si depois que voce<pause=0.3> enfiou aquilo nela...</color>",Dialogue - Portuguese
+imps_battle_3,<color=63782D>Ahnn ahnn aa～</color>,Dialogue - Portuguese
+imps_battle_4,<color=557687>Deve ser muito bom~</color>,Dialogue - Portuguese
+imps_battle_5,<color=AB5555>Mmm mmm～</color>,Dialogue - Portuguese
+imps_battle_6,<color=557687>Sera que ele tem resistencia suficiente para todas nos?</color>,Dialogue - Portuguese
+imps_battle_7,<color=63782D>Mnngg aahhnn ah～</color>,Dialogue - Portuguese
+imps_battle_8,<color=846897>Nao sei se conseguiriamos aguentar...</color>,Dialogue - Portuguese
+imps_battle_9,<color=846897>Ele esta indo mais rapido agora!</color>,Dialogue - Portuguese
+imps_battle_10,"<color=557687>Vamos la, encha-a com o maximo de essencia que voce conseguir disparar~! </color>",Dialogue - Portuguese
+imps_battle_11,<color=63782D>Ahh! Ahhnn～! Ahh～!</color>,Dialogue - Portuguese
+imps_win_1,<color=AB5555>Nao para de sair～</color>,Dialogue - Portuguese
+imps_win_2,<color=63782D>Haaah haah～</color>,Dialogue - Portuguese
+imps_win_3,"<color=557687>Voce soltou tanto, deve ter sido<pause=0.3> incrivel～</color>",Dialogue - Portuguese
+imps_win_4,<color=846897>Humanos sao meio assustadores...</color>,Dialogue - Portuguese
+imps_win_5,<color=AB5555>Voce definitivamente soltou o suficiente para todas nos!</color>,Dialogue - Portuguese
+imps_win_6,<color=557687>Deve ser porque eu o estimulei tanto.</color>,Dialogue - Portuguese
+imps_win_7,<color=846897>Obrigada pela refeicao～</color>,Dialogue - Portuguese
+imps_loss_1,<color=63782D>Voce me encheu completamente～</color>,Dialogue - Portuguese
+imps_loss_2,<color=AB5555>Agora e minha vez!</color>,Dialogue - Portuguese
+imps_loss_3,<color=846897>Eu vou ajudar～</color>,Dialogue - Portuguese
+imps_loss_4,"<color=557687>Tenho certeza de que ele tem o suficiente para todas nos, o pau dele ainda esta mais duro que nunca!</color>",Dialogue - Portuguese
+imps_loss_5,"<color=AB5555>Slurrrp, slurp, sluuurp～</color>",Dialogue - Portuguese
+imps_loss_6,<color=63782D>Acho que ele esta quase la...</color>,Dialogue - Portuguese
+imps_loss_7,<color=AB5555>Oba!</color>,Dialogue - Portuguese
+imps_loss_8,<color=557687>Nao desperdice! Certifique-se de lamber cada gota～</color>,Dialogue - Portuguese
+imps_loss_9,<color=846897>Faca comigo com esse<pause=0.3> pau<pause=0.3> enorme<pause=0.3> depois～</color>,Dialogue - Portuguese
+imps_loss_10,<color=557687>Nao vamos parar ate todas nos estarmos satisfeitas～</color>,Dialogue - Portuguese
+treasure_1,》Voce encontra um bau escondido entre as rochas.,Dialogue - Portuguese
+treasure_2,》Voce abre o bau...,Dialogue - Portuguese
+treasure_3,》Parece ser um item valioso.,Dialogue - Portuguese
+treasure_4,"》Voce ve algo dentro, mas nao encontra espaco para guarda-lo...",Dialogue - Portuguese
+treasure_5,》Voce deixa o tesouro onde esta.,Dialogue - Portuguese
+hotspring_1,"》Voce encontra uma grande fonte termal, com piscinas separadas de varias cores.",Dialogue - Portuguese
+hotspring_2,》A maioria das piscinas parece estar ocupada por monstros. Voce decide sair de fininho...,Dialogue - Portuguese
+hotspring_3,》Mas algumas garotas com chifres logo percebem voce!,Dialogue - Portuguese
+hotspring_4,"Qual e o problema, humano? Voce tem tanto medo assim de onis?",Dialogue - Portuguese
+hotspring_5,Voce deveria se juntar a nos; estamos so comecando!,Dialogue - Portuguese
+hotspring_6,Ou voce quer se lavar primeiro? Deixe a gente ajudar~,Dialogue - Portuguese
+hotspring_7,Como e? Esta gostando de ser limpo por duas garotas lindas?,Dialogue - Portuguese
+hotspring_8,"Ele parece estar gostando muito disso, pela forca que pau dele esta rossando contra mim.",Dialogue - Portuguese
+hotspring_9,"Voce tem costas bem largas para um humano, quase no nivel de um oni!",Dialogue - Portuguese
+hotspring_10,Talvez devessemos continuar no banho.,Dialogue - Portuguese
+hotspring_11,》Em qual banho voce vai entrar?,Dialogue - Portuguese
+hotspring_sulfur_1,》Voce entra no banho de enxofre com as duas garotas.,Dialogue - Portuguese
+hotspring_sulfur_2,"》Eles continuam a mima-lo, mas a temperatura e excessiva para um humano.",Dialogue - Portuguese
+hotspring_sulfur_3,》Voce decide sair depois de alguns minutos.,Dialogue - Portuguese
+hotspring_sulfur_4,"Ah, ja terminou? Acho que voce e so um humano afinal de contas...",Dialogue - Portuguese
+hotspring_sulfur_5,Volte a visitar em breve!,Dialogue - Portuguese
+hotspring_sulfur_6,"》Apesar do banho rapido, voce sente que suas forcas foram renovadas.",Dialogue - Portuguese
+hotspring_iron_1,》Voce entra na banheira de ferro com as duas garotas.,Dialogue - Portuguese
+hotspring_iron_2,》e mais quente do que qualquer fonte termal em que voce ja tenha entrado.,Dialogue - Portuguese
+hotspring_iron_3,"》As duas garotas continuam a te mimar, mas a temperatura esta alta demais.",Dialogue - Portuguese
+hotspring_iron_4,》Voce decide sair depois de alguns minutos.,Dialogue - Portuguese
+hotspring_iron_5,"》Antes de voce sair, uma das garotas o detem.",Dialogue - Portuguese
+hotspring_iron_6,"Bem fraco, mas acho que voce e so humano, afinal de contas...",Dialogue - Portuguese
+hotspring_iron_7,"Pegue isto, e talvez voce consiga aguentar um pouco mais da proxima vez~",Dialogue - Portuguese
+hotspring_iron_8,》Ela lhe entrega o copo com bebida alcoolica do qual estava bebendo antes.,Dialogue - Portuguese
+hotspring_iron_9,"》Sem ter onde guardar o copo, voce toma um gole e o deixa para tras ao sair da fonte termal.",Dialogue - Portuguese
+hotspring_iron_10,》Voce sente suas forcas sendo restauradas.,Dialogue - Portuguese
+spirit_girl_1,》Voce encontra uma hospedaria abandonada. Decide entrar e descansar durante a noite.,Dialogue - Portuguese
+spirit_girl_2,"》La dentro, voce encontra uma cama que ja viu dias melhores.",Dialogue - Portuguese
+spirit_girl_3,》Voce se deita e fecha os olhos para descansar.,Dialogue - Portuguese
+spirit_girl_4,"》Voce acorda, e algo frio comeca a cobrir seu corpo.",Dialogue - Portuguese
+spirit_girl_5,"》Um fantasma esta sentado sobre voce, com suas calcas ja abaixadas. Voce nao consegue se mover!",Dialogue - Portuguese
+spirit_girl_6,》Ela lentamente monta em voce. Voce sente uma leve pressao envolvendo voce enquanto ela comeca a se mover.,Dialogue - Portuguese
+spirit_girl_7,》Ela continua sorrindo para voce sem falar. Voce nao consegue controlar seus musculos e comeca a perder o controle.,Dialogue - Portuguese
+spirit_girl_8,"》Sem conseguir segurar por mais tempo, voce lanca jatos de gozo no ar, atravessando diretamente seu corpo transparente.",Dialogue - Portuguese
+spirit_girl_9,"》Aparentemente satisfeita, ela desaparece...",Dialogue - Portuguese
+spirit_girl_10,"》Voce lentamente apaga.",Dialogue - Portuguese
+spirit_girl_11,"》e manha, mas, por algum motivo, voce nao se sente muito descansado.",Dialogue - Portuguese
+spirit_girl_12,"》Sem conseguir se lembrar do que aconteceu na noite anterior, voce se prepara para partir.",Dialogue - Portuguese
+spirit_girl_13,》Voce ve algo grudado na sua cama.,Dialogue - Portuguese
+spirit_girl_a_1,》Voce pega a substancia viscosa e a coloca na mochila.,Dialogue - Portuguese
+spirit_girl_a_2,"》Voce quer pegar a substancia viscosa, mas nao encontra espaco para guarda-la.",Dialogue - Portuguese
+spirit_girl_b_1,》Voce sente como se algo estivesse seguindo voce...,Dialogue - Portuguese
+fairies_intro_1,"》As cavernas se abrem para uma grande floresta, repleta de arvores e folhagens desconhecidas.",Dialogue - Portuguese
+fairies_intro_2,"》Apos alguns instantes olhando ao redor, algumas fadas surgem diante de voce.",Dialogue - Portuguese
+fairies_intro_3,<color=A36262>e o humano! Voce finalmente chegou aqui～</color>,Dialogue - Portuguese
+fairies_intro_4,"<color=63782D>Ah, nao me toca ai! E-ele esta olhando...</color>",Dialogue - Portuguese
+fairies_intro_5,<color=A36262>Estavamos taaao excitadas para que voce vinhesse nos encontrar aqui. A Gnome ficou pensando nisso o dia todo!</color>,Dialogue - Portuguese
+fairies_intro_6,"<color=63782D>O-o que... nao diga isso! Ahnn, voce esta esfregando demais~</color>",Dialogue - Portuguese
+fairies_intro_7,<color=A36262>Vimos voce conquistar todas aquelas outras garotas. Quanta vitalidade para um humano!</color>,Dialogue - Portuguese
+fairies_intro_8,<color=63782D>Mas ele e so um humano. N-nao tem como ele passar por nos... </color>,Dialogue - Portuguese
+fairies_intro_9,<color=807138>Nao comecem sem a gente!</color>,Dialogue - Portuguese
+fairies_intro_10,"<color=807138>Voce pode ate impressionar com essa coisa enorme e pulsante... E com seu vigor infinito, mas...</color>",Dialogue - Portuguese
+fairies_intro_11,<color=557687>Hmm... Ele e bem impressionante.</color>,Dialogue - Portuguese
+fairies_intro_12,<color=807138>Vamos equilibrar as coisas; ai poderemos ver o quao forte voce realmente e~</color>,Dialogue - Portuguese
+fairies_intro_13,》Ela acena com a mao enquanto voa perto do seu peito. Voce consegue sentir uma pontada.,Dialogue - Portuguese
+fairies_intro_14,"<color=807138>Certamente voce nao precisara recomecar, nem precisara de ajuda para sobreviver a algumas fadinhas como nos.</color>",Dialogue - Portuguese
+fairies_intro_15,》Seu HP foi reduzido a um e nao pode mais ser restaurado!,Dialogue - Portuguese
+fairies_intro_16,"<color=557687>Ah... com muita forca. Voce esta se empolgando demais, Sylph...</color>",Dialogue - Portuguese
+fairies_intro_17,"<color=807138>Vamos ensinar a este humano de que tipo de prazeres nos, fadas, somos capazes~</color>",Dialogue - Portuguese
+fairies_battle_1_1,<color=807138>Sentindo-se mais sensivel...? Aquela magia que usei mais cedo teve alguns efeitos colaterais.</color>,Dialogue - Portuguese
+fairies_battle_1_2,<color=A36262>Cada pequena esfregada e lambida no seu pau magnifico deve estar sendo amplificada pelo menos tres vezes agora～</color>,Dialogue - Portuguese
+fairies_battle_1_3,"<color=807138>Hehe, talvez tenha sido forte demais para voce! Voce esta pulsando com tanta forca que e dificil nao cair disso aqui.</color>",Dialogue - Portuguese
+fairies_battle_1_4,<color=63782D>Mnn...</color>,Dialogue - Portuguese
+fairies_battle_1_5,<color=557687>Ahhhn～ Mais rapido...</color>,Dialogue - Portuguese
+fairies_battle_1_6,<color=A36262>Aguente firme so mais um pouco～</color>,Dialogue - Portuguese
+fairies_battle_1_7,<color=807138>nos de uma grande carga~</color>,Dialogue - Portuguese
+fairies_win_1_1,"<color=A36262>Foi bom? Voce liberou tanto, mesmo depois de ter sido ordenhado por todos aqueles outros monstros antes de nos.</color>",Dialogue - Portuguese
+fairies_win_1_2,<color=807138>Viu? Eu sabia que ele era a escolha perfeita.</color>,Dialogue - Portuguese
+fairies_win_1_3,"》Mesmo enquanto conversam, elas nao param de esfregar seus corpinhos no seu pau.",Dialogue - Portuguese
+fairies_win_1_4,"<color=807138>Voce ainda consegue continuar, certo?</color>",Dialogue - Portuguese
+fairies_win_1_5,<color=A36262>Ainda temos bastante folego. Podemos usa-lo para drenar todo esse seu semen acumulado~</color>,Dialogue - Portuguese
+fairies_win_1_6,<color=807138>Gnome e Undine tambem parecem estar no limite; vamos trocar de posicao.</color>,Dialogue - Portuguese
+fairies_win_1_7,"》As fadas deslizam ao redor do seu pau sensivel, garantindo que voce sinta cada pequeno movimento.",Dialogue - Portuguese
+fairies_win_1_8,"<color=557687>Eu estava tao com seus dedos, mas voce teve que gozar em cima da gente antes de eu terminar...</color>",Dialogue - Portuguese
+fairies_win_1_9,<color=63782D>E-Eu passei o dia todo me masturbando pensando nisso; e bom voce nao me decepcionar!</color>,Dialogue - Portuguese
+fairies_win_1_10,"<color=A36262>Viu so? Vale a pena nao esconder o que voce sente. Agora, este humano pode te mostrar o prazer de que voce estava querendo～</color>",Dialogue - Portuguese
+fairies_win_1_11,<color=63782D>Tenho certeza de que aguento...</color>,Dialogue - Portuguese
+fairies_win_1_12,"<color=557687>Esse pau incansavel nao diminuiu nem um pouco depois de gozar, no entanto...</color>",Dialogue - Portuguese
+fairies_win_1_13,<color=807138>Isso so significa que teremos que continuar. Vamos extrair gota apos gota de porra ate que ele finalmente fique satisfeito~! </color>,Dialogue - Portuguese
+fairies_loss_1_1,"<color=63782D>Eita, ja?</color>",Dialogue - Portuguese
+fairies_loss_1_2,<color=557687>Estou decepcionado com voce; eu esperava muito mais...</color>,Dialogue - Portuguese
+fairies_loss_1_3,"<color=807138>Toda aquela preparacao, e voce nao conseguiu nem sobreviver a um round...</color>",Dialogue - Portuguese
+fairies_loss_1_4,<color=A36262>Acho que vamos ter que forcar voce a nos dar o que queremos~</color>,Dialogue - Portuguese
+fairies_loss_1_5,<color=63782D>Voce ja esta se contorcendo tanto... sera que o seu pau masoquista vai nos inundar com mais jorros de porra?</color>,Dialogue - Portuguese
+fairies_loss_1_6,<color=557687>Ele deve gostar mesmo de ser insultado...</color>,Dialogue - Portuguese
+fairies_loss_1_7,<color=807138>Talvez tenhamos pegado um pouco pesado demais com ele.</color>,Dialogue - Portuguese
+fairies_loss_1_8,<color=A36262>Ou talvez devessemos puni-lo muito mais～</color>,Dialogue - Portuguese
+fairies_loss_1_9,<color=63782D>Humano inutil～</color>,Dialogue - Portuguese
+fairies_loss_1_10,<color=63782D>D-de novo?!</color>,Dialogue - Portuguese
+fairies_loss_1_11,<color=A36262>Nao tem como te ajudar desta forma...</color>,Dialogue - Portuguese
+fairies_loss_1_12,"<color=557687>Prepare-se, vamos colocar esse pau inutil para trabalhar muito mais.</color>",Dialogue - Portuguese
+fairies_loss_1_13,<color=807138>Vamos descobrir se ele realmente tem a quantidade infinita de vigor que esperavamos!</color>,Dialogue - Portuguese
+fairies_battle_2_1,<color=557687>Mal consigo abracar essa coisa gigante...</color>,Dialogue - Portuguese
+fairies_battle_2_2,<color=63782D>E ele esta pressionando a ponta contra mim com tanta forca~</color>,Dialogue - Portuguese
+fairies_battle_2_3,"<color=557687>Voce deve estar se sentindo ainda mais sensivel do que antes. A cada pequeno movimento que faco, voce tem um sobressalto, como se estivesse prestes a gozar em cima de nos de novo.</color>",Dialogue - Portuguese
+fairies_battle_2_4,"<color=63782D>Esta cedo demais para gozar denovo, entao aguente um pouco mais...</color>",Dialogue - Portuguese
+fairies_battle_2_5,"<color=807138>Hmm... e, voce vai precisar se esforcar mais para nos satisfazer~</color>",Dialogue - Portuguese
+fairies_battle_2_6,<color=A36262>Ah... nao pare ainda...</color>,Dialogue - Portuguese
+fairies_battle_2_7,"<color=557687>Aguente, aguente~</color>",Dialogue - Portuguese
+fairies_battle_2_8,<color=63782D>Ainda nao～</color>,Dialogue - Portuguese
+fairies_battle_2_9a,<color=A36262>4...</color>,Dialogue - Portuguese
+fairies_battle_2_9,<color=807138>3...</color>,Dialogue - Portuguese
+fairies_battle_2_10,<color=557687>2...</color>,Dialogue - Portuguese
+fairies_battle_2_11,<color=63782D>1!</color>,Dialogue - Portuguese
+fairies_win_2_1,"<color=63782D>Mais uma vez, tanto~</color>",Dialogue - Portuguese
+fairies_win_2_2,<color=557687>Ele realmente tem um vigor infinito...</color>,Dialogue - Portuguese
+fairies_win_2_3,<color=A36262>Voce nos cobriu ainda mais na segunda vez~ Voce e realmente incansavel.</color>,Dialogue - Portuguese
+fairies_win_2_4,"<color=807138>Voce vai ficar ocupado de agora em diante, humano~</color>",Dialogue - Portuguese
+fairies_win_2_5,<color=63782D>Vamos brincar um pouco mais com ele primeiro!</color>,Dialogue - Portuguese
+fairies_win_2_6,<color=A36262>Voce conseguiu conquistar todas aquelas outras garotas-monstro e agora nos adicionou ao seu harem～</color>,Dialogue - Portuguese
+fairies_win_2_7,<color=807138>Aposto que manter todas nos satisfeitas nao seria problema nenhum～</color>,Dialogue - Portuguese
+fairies_win_2_8,<color=63782D>Ele e uma fera...</color>,Dialogue - Portuguese
+fairies_win_2_9,<color=557687>E teremos que mante-lo sempre satisfeito como pagamento~</color>,Dialogue - Portuguese
+fairies_win_2_10,<color=63782D>A-ahnn... Voce esta esfregando tanto em mim com esse pau gigante...</color>,Dialogue - Portuguese
+fairies_win_2_11,<color=807138>Voce vai nos cobrir de novo com a sua porra grossa～?</color>,Dialogue - Portuguese
+fairies_win_2_12,<color=A36262>Incrivel...</color>,Dialogue - Portuguese
+fairies_win_2_13,<color=557687>e dificil resistir a libido insaciavel dele～</color>,Dialogue - Portuguese
+fairies_win_2_14,<color=63782D>Voce quer continuar?</color>,Dialogue - Portuguese
+fairies_win_2_15,"<color=807138>Hehe, vamos nos divertir muito daqui para frente～</color>",Dialogue - Portuguese
+fairies_loss_2_1,<color=63782D>Mais...</color>,Dialogue - Portuguese
+fairies_loss_2_3,<color=557687>Voce deixou sair tanto...</color>,Dialogue - Portuguese
+fairies_loss_2_4,"<color=807138>Voce quer continuar, certo?</color>",Dialogue - Portuguese
+fairies_loss_2_5,<color=A36262>Podemos testar essa resistencia infinita dele ate o limite~</color>,Dialogue - Portuguese
+fairies_loss_2_6,<color=807138>Como voce deixou sair ainda mais do que antes?</color>,Dialogue - Portuguese
+fairies_loss_2_7,<color=63782D>Incrivel</color>,Dialogue - Portuguese
+fairies_loss_2_8,"<color=A36262>Deve ser incrivel liberar todo aquele esperma grosso, repetidas vezes, com essa sua sensibilidade agucada~</color>",Dialogue - Portuguese
+fairies_loss_2_9,"<color=557687>Nao vamos parar, humano.</color>",Dialogue - Portuguese
+fairies_loss_2_10,<color=807138>Uau!</color>,Dialogue - Portuguese
+fairies_loss_2_11,<color=557687>Voce e nosso agora.</color>,Dialogue - Portuguese
+fairies_loss_2_12,<color=63782D>Vamos em frente～</color>,Dialogue - Portuguese
+ending_1,Mais uma garota-monstro conquistada.,Dialogue - Portuguese
+ending_2,Talvez voce finalmente consiga encontrar um tempo para descansar...,Dialogue - Portuguese
+ending_3,Mas parece que os outros ja alcancaram voce.,Dialogue - Portuguese
+ending_4,So mais algumas rodadas...,Dialogue - Portuguese

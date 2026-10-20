@@ -1,0 +1,201 @@
+{
+    "name": "rewards",
+    "position": {
+        "x": 91,
+        "y": 0
+    },
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "backdrop",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "00000099"
+                }
+            ]
+        },
+        {
+            "name": "background",
+            "position": {
+                "x": 68,
+                "y": 81
+            },
+            "size": {
+                "x": 274,
+                "y": 248
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/menu.png"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "earnings",
+            "position": {
+                "x": 68,
+                "y": 110
+            },
+            "size": {
+                "x": 274,
+                "y": 50
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 274,
+                        "y": 50
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 40,
+                            "color": "242538"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 274,
+                        "y": 50
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 40,
+                            "color": "6d6d87"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sprite",
+            "position": {
+                "x": 157,
+                "y": 156
+            },
+            "size": {
+                "x": 96,
+                "y": 96
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator",
+                    "initialAnimation": "data/animations/reward/data.json"
+                }
+            ]
+        },
+        {
+            "name": "itemSprite",
+            "position": {
+                "x": 157,
+                "y": 156
+            },
+            "size": {
+                "x": 96,
+                "y": 96
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "sprite",
+                    "size": {
+                        "x": 96,
+                        "y": 96
+                    },
+                    "components": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "animator"
+                        },
+                        {
+                            "type": "button",
+                            "blockType": "passthrough"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "takeButton",
+            "prefab": "data/scenes/button.json",
+            "position": {
+                "x": 116,
+                "y": 257
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/100.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "button",
+                    "blockType": "passthrough"
+                },
+                {
+                    "name": "label",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "take_button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "text": "take_button"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

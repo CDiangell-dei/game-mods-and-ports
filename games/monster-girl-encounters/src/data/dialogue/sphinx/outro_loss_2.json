@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sphinx_loss2_1",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "sphinx_loss2_2",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "sphinx_loss2_3",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "sphinx_loss2_4",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "sphinx_loss2_5",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "events": [
+            {
+                "sound": "data/sounds/general/command_word.json"
+            }
+        ],
+        "next": 6
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "key": "sphinx_loss2_6",
+        "sound": "none",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "losePumping2"
+                }
+            }
+        ],
+        "next": 7
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "key": "sphinx_loss2_7",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "next": 8
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "key": "sphinx_loss2_8",
+        "sound": "data/sounds/dialogue/sphinx.json",
+        "events": [
+            {
+                "script": "data/scripts/general/timed_dialogue.lua",
+                "variable": {
+                    "wait": 2.0,
+                    "dialogue": "data/dialogue/sphinx/outro_loss_2b.json"
+                }
+            },
+            {
+                "script": "data/scripts/general/cum_outside.lua"
+            }
+        ],
+        "next": -1
+    }
+]

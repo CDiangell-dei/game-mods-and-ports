@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/dialogue/sphinx.wav",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "variance": 0.03,
+    "loop": false
+}

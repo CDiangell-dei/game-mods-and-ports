@@ -1,0 +1,160 @@
+{
+    "frameRate": 18,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/sphinx/1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 93,
+                                "y": 314
+                            },
+                            "max": {
+                                "x": 93,
+                                "y": 314
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/sphinx/1/0002.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 251,
+                                "y": 307
+                            },
+                            "max": {
+                                "x": 251,
+                                "y": 307
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 9,
+            "sprite": "data/animations/sphinx/1/0003.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/rub2_down.json"
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 316,
+                                "y": 265
+                            },
+                            "max": {
+                                "x": 316,
+                                "y": 265
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 13,
+            "sprite": "data/animations/sphinx/1/0004.png"
+        },
+        {
+            "frame": 17,
+            "sprite": "data/animations/sphinx/1/0005.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/rub2_up.json"
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 103,
+                                "y": 67
+                            },
+                            "max": {
+                                "x": 103,
+                                "y": 67
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 21,
+            "sprite": "data/animations/sphinx/1/0006.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 253,
+                                "y": 68
+                            },
+                            "max": {
+                                "x": 253,
+                                "y": 68
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 24,
+            "sprite": "data/animations/sphinx/1/0006.png"
+        }
+    ]
+}

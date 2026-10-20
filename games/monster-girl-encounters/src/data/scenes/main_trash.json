@@ -1,0 +1,69 @@
+{
+    "name": "trash",
+    "size": {
+        "x": 410,
+        "y": 410
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "view",
+            "size": {
+                "x": 410,
+                "y": 410
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "000000cc"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "text",
+            "position": {
+                "x": 0,
+                "y": 140
+            },
+            "size": {
+                "x": 410,
+                "y": 50 
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 40,
+                    "text": "drag_to_sell",
+                    "color": "6d6d87"
+                }
+            ]
+        },
+        {
+            "name": "price",
+            "position": {
+                "x": 0,
+                "y": 220
+            },
+            "size": {
+                "x": 410,
+                "y": 50 
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 40,
+                    "color": "6d6d87"
+                }
+            ]
+        }
+    ]
+}

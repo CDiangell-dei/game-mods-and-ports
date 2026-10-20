@@ -1,0 +1,150 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/succubus/win1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 10,
+                                "y": 208
+                            },
+                            "max": {
+                                "x": 10,
+                                "y": 208 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/succubus/win1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 105,
+                                "y": 38
+                            },
+                            "max": {
+                                "x": 105,
+                                "y": 38
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/succubus/win1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 365,
+                                "y": 104
+                            },
+                            "max": {
+                                "x": 365,
+                                "y": 104 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/succubus/win1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 184,
+                                "y": 239
+                            },
+                            "max": {
+                                "x": 184,
+                                "y": 239
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/succubus/win1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 52,
+                                "y": 3
+                            },
+                            "max": {
+                                "x": 52,
+                                "y": 3 
+                            }
+                        },
+                        "color": {
+                            "r": 0.6431,
+                            "g": 0.2902,
+                            "b": 0.3529,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/succubus/win1/0001.png"
+        }
+    ]
+}

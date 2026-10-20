@@ -1,0 +1,240 @@
+{
+    "frameRate": 24,
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/pink_slime/1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 312,
+                                "y": 137
+                            },
+                            "max": {
+                                "x": 332,
+                                "y": 157
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/pink_slime/1/0001.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/rub_up.json"
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/pink_slime/1/0002.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 298,
+                                "y": 198
+                            },
+                            "max": {
+                                "x": 298,
+                                "y": 218
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 9,
+            "sprite": "data/animations/pink_slime/1/0003.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 72,
+                                "y": 82
+                            },
+                            "max": {
+                                "x": 82,
+                                "y": 92
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 43,
+                                "y": 203
+                            },
+                            "max": {
+                                "x": 68,
+                                "y": 213
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 13,
+            "sprite": "data/animations/pink_slime/1/0004.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 302,
+                                "y": 107
+                            },
+                            "max": {
+                                "x": 302,
+                                "y": 107
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 73,
+                                "y": 148
+                            },
+                            "max": {
+                                "x": 73,
+                                "y": 148
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 17,
+            "sprite": "data/animations/pink_slime/1/0005.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 82,
+                                "y": 187
+                            },
+                            "max": {
+                                "x": 82,
+                                "y": 187
+                            }
+                        },
+                        "color": {
+                            "r": 0.9843,
+                            "g": 0.6353,
+                            "b": 0.7098,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 18,
+            "sprite": "data/animations/pink_slime/1/0005.png",
+            "events": [
+                {
+                    "sound": "data/sounds/sex/rub_down.json"
+                }
+            ]
+        },
+        {
+            "frame": 21,
+            "sprite": "data/animations/pink_slime/1/0006.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 293,
+                                "y": 188
+                            },
+                            "max": {
+                                "x": 293,
+                                "y": 188
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 23,
+            "sprite": "data/animations/pink_slime/1/0006.png"
+        }
+    ]
+}

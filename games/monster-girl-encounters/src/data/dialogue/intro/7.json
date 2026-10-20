@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "intro_7",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

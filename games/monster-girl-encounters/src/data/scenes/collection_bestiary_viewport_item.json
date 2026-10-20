@@ -1,0 +1,109 @@
+{
+    "name": "phase",
+    "size": {
+        "x": 24,
+        "y": 24
+    },
+    "children": [
+        {
+            "name": "mouseover",
+            "position": {
+                "x": -1,
+                "y": -1
+            },
+            "size": {
+                "x": 26,
+                "y": 26
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 26,
+                        "y": 26
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "838397"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mouseDown",
+            "position": {
+                "x": -1,
+                "y": -1
+            },
+            "size": {
+                "x": 26,
+                "y": 26
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 26,
+                        "y": 26
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "bebed7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "size": {
+                "x": 24,
+                "y": 24
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "6d6d87"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        },
+        {
+            "name": "label",
+            "position": {
+                "x": 1,
+                "y": -1
+            },
+            "size": {
+                "x": 24,
+                "y": 24
+            },
+            "components": [
+                {
+                    "type": "text",
+                    "size": 12,
+                    "color": "414162"
+                }
+            ]
+        }
+    ]
+}

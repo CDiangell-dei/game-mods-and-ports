@@ -1,0 +1,111 @@
+{
+    "frameRate": 6,
+    "loop": false,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/transition/enter_map/0007.png",
+            "events": [
+                {
+                    "sound": "data/sounds/general/close_map.json"
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/transition/enter_map/0006.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/transition/enter_map/0005.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/transition/enter_map/0004.png"
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/transition/enter_map/0003.png"
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/transition/enter_map/0002.png"
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/transition/enter_map/0001.png"
+        },
+        {
+            "frame": 8,
+            "sprite": "data/animations/transition/idle/0001.png"
+        },
+        {
+            "frame": 9,
+            "sprite": "data/animations/transition/idle/0002.png",
+            "events": [
+                {
+                    "sound": "data/sounds/general/step.json"
+                }
+            ]
+        },
+        {
+            "frame": 10,
+            "sprite": "data/animations/transition/idle/0003.png"
+        },
+        {
+            "frame": 11,
+            "sprite": "data/animations/transition/idle/0004.png"
+        },
+
+        {
+            "frame": 12,
+            "sprite": "data/animations/transition/exit_map/0001.png"
+        },
+        {
+            "frame": 13,
+            "sprite": "data/animations/transition/exit_map/0002.png",
+            "events": [
+                {
+                    "sound": "data/sounds/general/step.json"
+                }
+            ]
+        },
+        {
+            "frame": 14,
+            "sprite": "data/animations/transition/exit_map/0003.png"
+        },
+        {
+            "frame": 15,
+            "sprite": "data/animations/transition/exit_map/0004.png"
+        },
+        {
+            "frame": 16,
+            "sprite": "data/animations/transition/exit_map/0005.png"
+        },
+        {
+            "frame": 17,
+            "sprite": "data/animations/transition/exit_map/0006.png",
+            "events": [
+                {
+                    "sound": "data/sounds/general/step.json"
+                }
+            ]
+        },
+        {
+            "frame": 18,
+            "sprite": "data/animations/transition/exit_map/0007.png"
+        },
+        {
+            "frame": 19,
+            "sprite": "data/animations/transition/exit_map/0008.png"
+        },
+        {
+            "frame": 20,
+            "sprite": "data/animations/transition/exit_map/0009.png"
+        },
+        {
+            "frame": 21,
+            "sprite": "data/animations/transition/exit_map/0010.png"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "frameRate": 6,
+    "loop": false,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/effects/steam_3/0000.png"
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/effects/steam_3/0001.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/effects/steam_3/0002.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/effects/steam_3/0003.png"
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/imps/win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 9,
+                                "y": 15
+                            },
+                            "max": {
+                                "x": 9,
+                                "y": 15
+                            }
+                        },
+                        "color": {
+                            "r": 0.698,
+                            "g": 0.380,
+                            "b": 0.518,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/imps/win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 234,
+                                "y": 237
+                            },
+                            "max": {
+                                "x": 234,
+                                "y": 237
+                            }
+                        },
+                        "color": {
+                            "r": 0.698,
+                            "g": 0.380,
+                            "b": 0.518,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/imps/win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 88,
+                                "y": 270
+                            },
+                            "max": {
+                                "x": 88,
+                                "y": 270
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/imps/win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 333,
+                                "y": 60
+                            },
+                            "max": {
+                                "x": 333,
+                                "y": 60
+                            }
+                        },
+                        "color": {
+                            "r": 0.698,
+                            "g": 0.380,
+                            "b": 0.518,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/imps/win/0001.png"
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/imps/win/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 143,
+                                "y": 106
+                            },
+                            "max": {
+                                "x": 143,
+                                "y": 106
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

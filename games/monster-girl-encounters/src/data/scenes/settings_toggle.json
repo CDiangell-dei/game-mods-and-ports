@@ -1,0 +1,97 @@
+{
+    "name": "toggle",
+    "size": {
+        "x": 303,
+        "y": 15
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "label",
+            "position": {
+                "x": 10,
+                "y": 0
+            },
+            "size": {
+                "x": 182,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 182,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 182,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "toggle",
+            "position": {
+                "x": 214,
+                "y": 3
+            },
+            "size": {
+                "x": 9,
+                "y": 9
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "sprite": "data/sprites/ui/toggle_inactive.png"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "checkmark",
+                    "size": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/toggle_active.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "frameRate": 6,
+    "loop": false,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/transition/enter_map/0001.png"
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/transition/enter_map/0002.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/transition/enter_map/0003.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/transition/enter_map/0004.png"
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/transition/enter_map/0005.png"
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/transition/enter_map/0006.png",
+            "events": [
+                {
+                    "sound": "data/sounds/general/open_map.json"
+                }
+            ]
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/transition/enter_map/0007.png"
+        }
+    ]
+}

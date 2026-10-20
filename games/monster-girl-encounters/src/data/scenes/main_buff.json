@@ -1,0 +1,76 @@
+{
+    "name": "buff",
+    "children": [
+        {
+            "name": "mask",
+            "position": {
+                "x": 0,
+                "y": -2
+            },
+            "size": {
+                "x": 26,
+                "y": 26
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "outline",
+                    "size": {
+                        "x": 26,
+                        "y": 26
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "color",
+                            "size": {
+                                "x": 26,
+                                "y": 26
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "6d6d87"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "sprite",
+                    "position": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "size": {
+                        "x": 24,
+                        "y": 24
+                    },
+                    "components": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "animator"
+                        },
+                        {
+                            "type": "button"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

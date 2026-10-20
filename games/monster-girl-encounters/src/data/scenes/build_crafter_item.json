@@ -1,0 +1,75 @@
+{
+    "name": "buildItem",
+    "size": {
+        "x": 44,
+        "y": 44
+    },
+    "components": [
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "bg",
+            "size": {
+                "x": 44,
+                "y": 44
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "252538"
+                }
+            ]
+        },
+        {
+            "name": "outline",
+            "size": {
+                "x": 44,
+                "y": 44
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 44,
+                        "y": 44
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "838397"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sprite",
+            "position": {
+                "x": 4,
+                "y": 4
+            },
+            "size": {
+                "x": 36,
+                "y": 36
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "button",
+                    "blockType": "passthrough"
+                }
+            ]
+        }
+    ]
+}

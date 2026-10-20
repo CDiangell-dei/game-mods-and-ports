@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "sylph_empty_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "sylph_empty_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "sylph_empty_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "sylph_empty_4",
+        "sound": "data/sounds/dialogue/sylph.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "sylph_empty_5",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": -1
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "goblin_loss_6",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "goblin_loss_7",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "goblin_loss_8",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "goblin_loss_9",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "goblin_loss_10",
+        "sound": "data/sounds/dialogue/goblin.json",
+        "events": [
+            {
+                "script": "data/scripts/general/call_encounter.lua",
+                "variable": {
+                    "name": "callBattleComplete"
+                }
+            }
+        ],
+        "next": -1
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "undine_1",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "undine_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "choice",
+        "choices": [
+            {
+                "key": "undine_choice_1",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_encounter_choice.lua",
+                        "variable": 1
+                    }
+                ],
+                "next": -1
+            },
+            {
+                "key": "undine_choice_2",
+                "events": [
+                    {
+                        "script": "data/scripts/encounters/set_encounter_choice.lua",
+                        "variable": 2
+                    }
+                ],
+                "next": -1
+            }
+        ]
+    }
+]

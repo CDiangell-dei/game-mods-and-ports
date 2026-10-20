@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/general/gasp.wav",
+    "volume": 0.20,
+    "pitch": 1.0,
+    "variance": 0,
+    "loop": false
+}

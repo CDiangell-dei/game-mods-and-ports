@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/encounters/drink_water.wav",
+    "volume": 0.8,
+    "pitch": 1.0,
+    "variance": 0,
+    "loop": false
+}

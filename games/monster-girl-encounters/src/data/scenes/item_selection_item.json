@@ -1,0 +1,113 @@
+{
+    "name": "item",
+    "size": {
+        "x": 80,
+        "y": 80
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "mouseover",
+            "size": {
+                "x": 80,
+                "y": 80
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 80,
+                        "y": 80
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "6d6d87"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mouseDown",
+            "size": {
+                "x": 80,
+                "y": 80
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 80,
+                        "y": 80
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "88354a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "background",
+            "position": {
+                "x": 2,
+                "y": 2
+            },
+            "size": {
+                "x": 76,
+                "y": 76
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "12131c"
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "position": {
+                "x": 4,
+                "y": 4
+            },
+            "size": {
+                "x": 72,
+                "y": 72
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator"
+                },
+                {
+                    "type": "button"
+                }
+            ]
+        }
+    ]
+}

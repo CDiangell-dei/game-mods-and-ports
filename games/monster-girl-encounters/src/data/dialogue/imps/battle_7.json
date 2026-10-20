@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "imps_battle_7",
+        "sound": "data/sounds/dialogue/imp_3.json",
+        "next": -1
+    }
+]

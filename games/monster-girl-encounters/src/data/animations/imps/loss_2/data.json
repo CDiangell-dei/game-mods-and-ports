@@ -1,0 +1,174 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/imps/loss_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 301,
+                                "y": 118
+                            },
+                            "max": {
+                                "x": 301,
+                                "y": 118
+                            }
+                        },
+                        "color": {
+                            "r": 0.698,
+                            "g": 0.380,
+                            "b": 0.518,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/imps/loss_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 90,
+                                "y": 30
+                            },
+                            "max": {
+                                "x": 90,
+                                "y": 30
+                            }
+                        },
+                        "color": {
+                            "r": 0.698,
+                            "g": 0.380,
+                            "b": 0.518,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/imps/loss_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 115,
+                                "y": 234
+                            },
+                            "max": {
+                                "x": 115,
+                                "y": 234
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/imps/loss_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 321,
+                                "y": 74
+                            },
+                            "max": {
+                                "x": 321,
+                                "y": 74
+                            }
+                        },
+                        "color": {
+                            "r": 0.698,
+                            "g": 0.380,
+                            "b": 0.518,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/imps/loss_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 0,
+                                "y": 175
+                            },
+                            "max": {
+                                "x": 0,
+                                "y": 175
+                            }
+                        },
+                        "color": {
+                            "r": 0.698,
+                            "g": 0.380,
+                            "b": 0.518,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/imps/loss_2/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 210,
+                                "y": 116
+                            },
+                            "max": {
+                                "x": 210,
+                                "y": 116
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

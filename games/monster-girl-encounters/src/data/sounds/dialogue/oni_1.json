@@ -1,0 +1,7 @@
+{
+    "clip": "data/sounds/dialogue/oni_1.wav",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "variance": 0.05,
+    "loop": false
+}

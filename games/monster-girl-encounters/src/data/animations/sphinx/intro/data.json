@@ -1,0 +1,54 @@
+{
+    "frameRate": 12,
+    "loop": false,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/sphinx/intro/0001.png"
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/sphinx/intro/0002.png"
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/sphinx/intro/0003.png"
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/sphinx/intro/0004.png"
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/sphinx/intro/0005.png"
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/sphinx/intro/0006.png"
+        },
+        {
+            "frame": 7,
+            "sprite": "data/animations/sphinx/intro/0007.png"
+        },
+        {
+            "frame": 8,
+            "sprite": "data/animations/sphinx/intro/0008.png"
+        },
+        {
+            "frame": 9,
+            "sprite": "data/animations/sphinx/intro/0009.png"
+        },
+        {
+            "frame": 10,
+            "sprite": "data/animations/sphinx/intro/0010.png"
+        },
+        {
+            "frame": 11,
+            "sprite": "data/animations/sphinx/intro/0011.png"
+        },
+        {
+            "frame": 12,
+            "sprite": "data/animations/sphinx/intro/0012.png"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "item",
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "outline",
+            "size": {
+                "x": 74,
+                "y": 74
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "color",
+                    "size": {
+                        "x": 74,
+                        "y": 74
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "838397"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sprite",
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "size": {
+                "x": 72,
+                "y": 72
+            },
+            "components": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "animator",
+                    "ignoreTimescale": true
+                },
+                {
+                    "type": "button",
+                    "blockType": "passthrough"
+                }
+            ]
+        }
+    ]
+}

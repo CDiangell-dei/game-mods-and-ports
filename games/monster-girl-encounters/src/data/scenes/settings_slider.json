@@ -1,0 +1,147 @@
+{
+    "name": "slider",
+    "size": {
+        "x": 303,
+        "y": 15
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/0.png",
+            "imageType": "tiled"
+        }
+    ],
+    "children": [
+        {
+            "name": "label",
+            "position": {
+                "x": 10,
+                "y": 0
+            },
+            "size": {
+                "x": 182,
+                "y": 15
+            },
+            "children": [
+                {
+                    "name": "shadow",
+                    "position": {
+                        "x": 0,
+                        "y": -1
+                    },
+                    "size": {
+                        "x": 182,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left",
+                            "color": "242538"
+                        }
+                    ]
+                },
+                {
+                    "name": "text",
+                    "size": {
+                        "x": 182,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 12,
+                            "horizontalAlignment": "left"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "slider",
+            "position": {
+                "x": 214,
+                "y": 2
+            },
+            "size": {
+                "x": 79,
+                "y": 9
+            },
+            "components": [
+                {
+                    "type": "slider",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "wholeNumbers": true
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "background",
+                    "size": {
+                        "x": 79,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/slider_background_inactive.png"
+                        }
+                    ]
+                },
+                {
+                    "name": "fill",
+                    "size": {
+                        "x": 0,
+                        "y": 9
+                    },
+                    "components": [
+                        {
+                            "type": "mask"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "sprite",
+                            "size": {
+                                "x": 79,
+                                "y": 9
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/slider_background_active.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "handle",
+                    "position": {
+                        "x": 0,
+                        "y": -2
+                    },
+                    "pivot": {
+                        "x": 0.5,
+                        "y": 0
+                    },
+                    "size": {
+                        "x": 6,
+                        "y": 15
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/slider_handle.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "frameRate": 2, 
+    "loop": true,
+    "frames": [
+        {
+            "frame": 1,
+            "sprite": "data/animations/sphinx/outro_loss_1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 103,
+                                "y": 103
+                            },
+                            "max": {
+                                "x": 103,
+                                "y": 103 
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 2,
+            "sprite": "data/animations/sphinx/outro_loss_1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 256,
+                                "y": 306
+                            },
+                            "max": {
+                                "x": 256,
+                                "y": 306
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 3,
+            "sprite": "data/animations/sphinx/outro_loss_1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 256,
+                                "y": 46
+                            },
+                            "max": {
+                                "x": 256,
+                                "y": 46 
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 4,
+            "sprite": "data/animations/sphinx/outro_loss_1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "steam",
+                        "range": {
+                            "min": {
+                                "x": 167,
+                                "y": 220
+                            },
+                            "max": {
+                                "x": 167,
+                                "y": 220
+                            }
+                        },
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.05
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 5,
+            "sprite": "data/animations/sphinx/outro_loss_1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 77,
+                                "y": 26
+                            },
+                            "max": {
+                                "x": 77,
+                                "y": 26 
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 6,
+            "sprite": "data/animations/sphinx/outro_loss_1/0001.png",
+            "events": [
+                {
+                    "script": "data/scripts/general/spawn_effect.lua",
+                    "variable": {
+                        "key": "heart",
+                        "range": {
+                            "min": {
+                                "x": 274,
+                                "y": 257
+                            },
+                            "max": {
+                                "x": 274,
+                                "y": 257
+                            }
+                        },
+                        "color": {
+                            "r": 0.3804,
+                            "g": 0.1608,
+                            "b": 0.2196,
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

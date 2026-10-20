@@ -1,0 +1,330 @@
+{
+    "name": "bestiary",
+    "position": {
+        "x": 5,
+        "y": 51
+    },
+    "size": {
+        "x": 665,
+        "y": 484
+    },
+    "children": [
+        {
+            "name": "items",
+            "size": {
+                "x": 245,
+                "y": 484
+            },
+            "components": [
+                {
+                    "type": "scrollView"
+                },
+                {
+                    "type": "button"
+                }
+            ],
+            "children": [
+                {
+                    "name": "viewport",
+                    "position": {
+                        "x": 10,
+                        "y": 0
+                    },
+                    "size": {
+                        "x": 235,
+                        "y": 484
+                    },
+                    "components": [
+                        {
+                            "type": "mask"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "content",
+                            "size": {
+                                "x": 235,
+                                "y": 0
+                            },
+                            "components": [
+                                {
+                                    "type": "verticalLayoutGroup",
+                                    "spacing": 5,
+                                    "controlObjectSize": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "scrollbar",
+                    "size": {
+                        "x": 2,
+                        "y": 484
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "color": "242538"
+                        },
+                        {
+                            "type": "scrollbar"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "handle",
+                            "size": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "pivot": {
+                                "x": 0,
+                                "y": 0.5
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "414162"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dataView",
+            "position": {
+                "x": 255,
+                "y": 0
+            },
+            "size": {
+                "x": 410,
+                "y": 484
+            },
+            "components": [
+                {
+                    "type": "mask",
+                    "sprite": "data/sprites/dither/0.png",
+                    "imageType": "tiled"
+                }
+            ],
+            "children": [
+                {
+                    "name": "background",
+                    "size": {
+                        "x": 410,
+                        "y": 410
+                    },
+                    "components": [
+                        {
+                            "type": "image",
+                            "sprite": "data/sprites/ui/collection_viewport.png"
+                        }
+                    ]
+                },
+                {
+                    "name": "title",
+                    "size": {
+                        "x": 410,
+                        "y": 50
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 410,
+                                "y": 50
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "color": "242538",
+                                    "wrap": true,
+                                    "forceColor": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 410,
+                                "y": 50
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 20,
+                                    "color": "6d6d87",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "icon",
+                    "position": {
+                        "x": 77,
+                        "y": 50
+                    },
+                    "size": {
+                        "x": 258,
+                        "y": 257
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "background",
+                            "size": {
+                                "x": 258,
+                                "y": 257
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "color": "242538"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "sprite",
+                            "position": {
+                                "x": 1,
+                                "y": 1
+                            },
+                            "size": {
+                                "x": 256,
+                                "y": 256
+                            },
+                            "components": [
+                                {
+                                    "type": "image"
+                                },
+                                {
+                                    "type": "animator",
+                                    "ignoreTimescale": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "description",
+                    "position": {
+                        "x": 45,
+                        "y": 330
+                    },
+                    "size": {
+                        "x": 320,
+                        "y": 80
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": -1
+                            },
+                            "size": {
+                                "x": 320,
+                                "y": 80
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 12,
+                                    "horizontalAlignment": "center",
+                                    "verticalAlignment": "top",
+                                    "color": "242538",
+                                    "wrap": true,
+                                    "forceColor": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 320,
+                                "y": 80
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 12,
+                                    "horizontalAlignment": "center",
+                                    "verticalAlignment": "top",
+                                    "color": "6d6d87",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                    {
+                    "name": "buttons",
+                    "position": {
+                        "x": 205,
+                        "y": 449
+                    },
+                    "pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "size": {
+                        "x": 365,
+                        "y": 74
+                    },
+                    "components": [
+                        {
+                            "type": "mask",
+                            "sprite": "data/sprites/dither/0.png",
+                            "imageType": "tiled"
+                        },
+                        {
+                            "type": "gridLayoutGroup",
+                            "spacing": {
+                                "x": 10,
+                                "y": 3
+                            },
+                            "cellSize": {
+                                "x": 177,
+                                "y": 34
+                            },
+                            "constraint": "fixedColumnCount",
+                            "constraintCount": 2,
+                            "controlHorizontalSize": true,
+                            "controlVerticalSize": true
+                        }
+                    ]
+                }
+            ]       
+        }
+    ]
+}

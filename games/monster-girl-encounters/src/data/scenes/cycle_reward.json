@@ -1,0 +1,117 @@
+{
+    "name": "cycleReward",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/100.png",
+            "imageType": "tiled"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "blocker",
+            "size": {
+                "x": 675,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "000000d0"
+                }
+            ]
+        },
+        {
+            "name": "panel",
+            "position": {
+                "x": 88,
+                "y": 70
+            },
+            "size": {
+                "x": 500,
+                "y": 400
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "222233"
+                }
+            ],
+            "children": [
+                {
+                    "name": "title",
+                    "position": {
+                        "x": 0,
+                        "y": 20
+                    },
+                    "size": {
+                        "x": 500,
+                        "y": 26
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": 1
+                            },
+                            "size": {
+                                "x": 500,
+                                "y": 26
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 18,
+                                    "color": "101018",
+                                    "horizontalAlignment": "center",
+                                    "text": "cycle_reward_title"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 500,
+                                "y": 26
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 18,
+                                    "color": "e6e6f5",
+                                    "horizontalAlignment": "center",
+                                    "text": "cycle_reward_title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "options",
+                    "position": {
+                        "x": 30,
+                        "y": 65
+                    },
+                    "size": {
+                        "x": 440,
+                        "y": 310
+                    },
+                    "components": [
+                        {
+                            "type": "verticalLayoutGroup",
+                            "spacing": 12
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

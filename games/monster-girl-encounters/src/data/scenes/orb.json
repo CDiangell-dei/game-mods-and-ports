@@ -1,0 +1,13 @@
+{
+    "name": "orb",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "components": [
+        {
+            "type": "image",
+            "sprite": "data/sprites/sparkle.png"
+        }
+    ]
+}

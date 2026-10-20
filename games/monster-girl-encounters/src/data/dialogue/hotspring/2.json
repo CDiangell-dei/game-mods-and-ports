@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "type": "text",
+        "key": "hotspring_2",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 2
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "key": "hotspring_3",
+        "sound": "data/sounds/dialogue/narrator.json",
+        "next": 3
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "key": "hotspring_4",
+        "sound": "data/sounds/dialogue/oni_1.json",
+        "next": 4
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "key": "hotspring_5",
+        "sound": "data/sounds/dialogue/oni_2.json",
+        "next": 5
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "key": "hotspring_6",
+        "sound": "data/sounds/dialogue/oni_1.json",
+        "next": -1
+    }
+]

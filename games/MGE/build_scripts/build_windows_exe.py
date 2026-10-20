@@ -2,12 +2,12 @@ import zipfile, os, shutil
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MGE_DIR = os.path.abspath(os.path.join(BASE_DIR, '..'))
-src_dir = os.path.join(MGE_DIR, 'src')
+src_dir = os.path.join(MGE_DIR, 'extracted')
 if not os.path.exists(src_dir):
-    src_dir = r'C:\Jogos\MGE\extracted'
+    src_dir = os.path.join(MGE_DIR, 'src')
 
-output_love = r'C:\Jogos\MGE\game.love'
-output_exe = r'C:\Jogos\MGE\MGE.exe'
+output_love = os.path.join(MGE_DIR, 'game.love')
+output_exe = os.path.join(MGE_DIR, 'MGE.exe')
 
 # Read the 41984 byte stub from MGE.exe
 with open(output_exe, 'rb') as f:

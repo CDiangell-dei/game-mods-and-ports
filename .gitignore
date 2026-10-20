@@ -6,12 +6,13 @@
 __pycache__/
 *.pyc
 
-# Builds compilados grandes (gerados sob demanda ou via Releases)
-*.apk
-*.exe
-*.love
+# Arquivos de backup redundantes
 *.zip
-
-# Saves locais não intencionais
-local_saves/
+MGE_test.exe
+MGE.exe.bak
+MGE.exe.orig
+game.zip
+game_repacked.zip
+unaligned.apk
 debug_run.log
+local_saves/

@@ -5,12 +5,13 @@ import shutil
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MGE_DIR = os.path.abspath(os.path.join(BASE_DIR, '..'))
+android_dir = os.path.join(MGE_DIR, 'android')
 
-base_apk = r'C:\Jogos\MGE\android\love-11.5-android-embed.apk'
-game_love = r'C:\Jogos\MGE\game.love'
-unaligned_apk = r'C:\Jogos\MGE\android\unaligned.apk'
-aligned_apk = r'C:\Jogos\MGE\android\Monster_Girl_Encounters_PTBR.apk'
-keystore = os.path.join(BASE_DIR, 'mge_release.keystore')
+base_apk = os.path.join(android_dir, 'love-11.5-android-embed.apk')
+game_love = os.path.join(MGE_DIR, 'game.love')
+unaligned_apk = os.path.join(android_dir, 'unaligned.apk')
+aligned_apk = os.path.join(android_dir, 'Monster_Girl_Encounters_PTBR.apk')
+keystore = os.path.join(android_dir, 'mge_release.keystore')
 
 java_home = r'C:\Users\cield\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\java-runtime-epsilon\windows-x64\java-runtime-epsilon'
 zipalign_bin = r'C:\Users\cield\AppData\Local\Android\Sdk\build-tools\34.0.0\zipalign.exe'

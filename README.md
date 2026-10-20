@@ -4,15 +4,24 @@ Repositório privado para versionamento de código-fonte modificado, traduções
 
 ---
 
+## 🕹️ Jogos Catalogados
+
+| Jogo | Pasta | Links Oficiais & Mods | Status do Port / Mod |
+| :--- | :--- | :--- | :--- |
+| **Monster Girl Encounters** | [`games/MGE/`](games/MGE/) | • [Página Oficial (Reinesoft)](https://reinesoft.itch.io/monster-girl-encounters)<br>• [MGE Mod (ks-k-dev)](https://maybeks-k-dev.itch.io/mge-mod-by-ks-k-dev) | • Tradução PT-BR Completa<br>• APK Android (v1+v2+v3 assinado)<br>• Galeria 100% Desbloqueada<br>• Modo Sem Fim & Criador Sandbox |
+
+---
+
 ## 📂 Estrutura do Repositório
 
 ```text
 game-mods-and-ports/
 ├── games/
-│   └── monster-girl-encounters/          # Monster Girl Encounters Deluxe (PT-BR)
+│   └── MGE/                              # Monster Girl Encounters Deluxe (PT-BR)
+│       ├── README.md                     # Documentação específica, links e comandos
 │       ├── src/                          # Código-fonte modificado completo (Lua, sprites, dados)
-│       ├── build_scripts/                # Scripts para compilar Windows (.exe) e Android (.apk assinado)
-│       ├── docs/                         # Planejamento, documentação de features e engenharia reversa
+│       ├── build_scripts/                # Scripts para compilar Windows (.exe) e Android (.apk)
+│       ├── docs/                         # Planejamento detalhado de expansão
 │       └── saves/                        # Backups versionados de progresso e configurações
 └── tools/
     └── save_sync.py                      # Utilitário para backup/restauração de saves (PC <-> Celular)
@@ -20,60 +29,33 @@ game-mods-and-ports/
 
 ---
 
-## 🚀 Como Lidar com Atualizações dos Jogos Originais
+## 📲 Downloads Rápidos (Releases)
 
-Quando um jogo receber uma nova atualização (ex: nova versão do desenvolvedor oficial):
-
-1. **Baixar a nova versão original do jogo.**
-2. **Comparar as alterações com o `src/`:**
-   ```bash
-   # Comparar o código original novo com as modificações deste repositório
-   git diff
-   ```
-3. **Mesclar as novidades:**
-   - Adicionar os novos assets/mecânicas do desenvolvedor.
-   - Preservar os módulos de tradução (`pt_br.csv`) e as modificações personalizadas (novos modos, hacks, sandbox).
-4. **Recompilar:**
-   - Execute os scripts em `build_scripts/` para gerar os novos executáveis de PC e APK do Android.
-5. **Commitar no Git:**
-   - Registre a nova versão no histórico (`git commit -m "Atualizado para versão X.Y com mods mantidos"`).
+Para baixar os arquivos prontos diretamente no celular ou no computador:
+* 👉 **[Página de Releases do Repositório](https://github.com/CDiangell-dei/game-mods-and-ports/releases)**
+  * **Android APK:** [`Monster_Girl_Encounters_PTBR.apk`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v1.0.0-mge-deluxe/Monster_Girl_Encounters_PTBR.apk)
+  * **Windows ZIP:** [`MGE_Deluxe_Windows_PTBR.zip`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v1.0.0-mge-deluxe/MGE_Deluxe_Windows_PTBR.zip)
 
 ---
 
-## 📲 Sincronização de Saves (PC $\leftrightarrow$ Celular)
+## 🔄 Sincronização de Saves (PC $\leftrightarrow$ Celular)
 
-Para manter o seu progresso entre o computador e o smartphone:
-
-### No Computador (via script)
-- **Fazer backup do progresso atual para o Git:**
+### No Computador
+- **Fazer backup do save do PC para o Git:**
   ```bash
   python tools/save_sync.py --backup
-  git add games/monster-girl-encounters/saves/
+  git add games/MGE/saves/
   git commit -m "Update save progress"
   git push
   ```
-- **Restaurar um save baixado do repositório para o PC:**
+- **Restaurar save baixado do repositório para o jogo no PC:**
   ```bash
   python tools/save_sync.py --restore
   ```
 
 ### No Celular (Android)
-- O LÖVE salva os arquivos em:
+- Caminho padrão do save no armazenamento do aparelho:
   ```text
   /sdcard/Android/data/org.love2d.android/files/save/monster_girl_encounters/game.sav
   ```
-- Basta copiar o arquivo `game.sav` de/para essa pasta usando qualquer gerenciador de arquivos no celular ou via USB.
-
----
-
-## 📦 Como Compilar
-
-### Monster Girl Encounters (MGE Deluxe)
-- **Windows Executável:**
-  ```bash
-  python games/monster-girl-encounters/build_scripts/build_windows_exe.py
-  ```
-- **Android APK (v1, v2 e v3 assinados e zipaligned):**
-  ```bash
-  python games/monster-girl-encounters/build_scripts/build_signed_apk.py
-  ```
+- Basta copiar o arquivo `game.sav` de/para essa pasta usando qualquer gerenciador de arquivos ou cabo USB.

@@ -5,7 +5,7 @@ import sys
 
 APPDATA_PATH = os.path.expandvars(r'%APPDATA%\monster_girl_encounters')
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-MGE_SAVES_DIR = os.path.join(REPO_ROOT, 'games', 'monster-girl-encounters', 'saves')
+MGE_SAVES_DIR = os.path.join(REPO_ROOT, 'games', 'MGE', 'saves')
 
 os.makedirs(MGE_SAVES_DIR, exist_ok=True)
 
@@ -60,7 +60,6 @@ def main():
     elif args.export:
         export_for_mobile()
     else:
-        # Default: backup
         backup_pc_save()
 
 if __name__ == '__main__':

@@ -47,128 +47,29 @@
         {
             "name": "buttons",
             "position": {
-                "x": 250,
-                "y": 205
+                "x": 249,
+                "y": 210
             },
             "size": {
                 "x": 177,
-                "y": 355
+                "y": 263
             },
             "components": [
                 {
                     "type": "verticalLayoutGroup",
-                    "spacing": 10
+                    "spacing": 7
                 }
             ],
             "children": [
                 {
                     "name": "story",
-                    "size": {
-                        "x": 177,
-                        "y": 53
-                    },
                     "prefab": "data/scenes/button.json",
                     "children": [
                         {
-                            "name": "outline",
-                            "size": {
-                                "x": 177,
-                                "y": 53
-                            },
-                            "children": [
-                                {
-                                    "name": "shape",
-                                    "size": {
-                                        "x": 177,
-                                        "y": 53
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "color",
-                                            "size": {
-                                                "x": 177,
-                                                "y": 53
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "button",
-                            "size": {
-                                "x": 175,
-                                "y": 51
-                            }
-                        },
-                        {
-                            "name": "arrow",
-                            "size": {
-                                "x": 165,
-                                "y": 49
-                            },
-                            "children": [
-                                {
-                                    "name": "left",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "name": "right",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "name": "label",
-                            "size": {
-                                "x": 175,
-                                "y": 49
-                            },
                             "children": [
                                 {
                                     "name": "shadow",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -178,10 +79,6 @@
                                 },
                                 {
                                     "name": "text",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -195,112 +92,13 @@
                 },
                 {
                     "name": "endless",
-                    "size": {
-                        "x": 177,
-                        "y": 53
-                    },
                     "prefab": "data/scenes/button.json",
                     "children": [
                         {
-                            "name": "outline",
-                            "size": {
-                                "x": 177,
-                                "y": 53
-                            },
-                            "children": [
-                                {
-                                    "name": "shape",
-                                    "size": {
-                                        "x": 177,
-                                        "y": 53
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "color",
-                                            "size": {
-                                                "x": 177,
-                                                "y": 53
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "button",
-                            "size": {
-                                "x": 175,
-                                "y": 51
-                            }
-                        },
-                        {
-                            "name": "arrow",
-                            "size": {
-                                "x": 165,
-                                "y": 49
-                            },
-                            "children": [
-                                {
-                                    "name": "left",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "name": "right",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "name": "label",
-                            "size": {
-                                "x": 175,
-                                "y": 49
-                            },
                             "children": [
                                 {
                                     "name": "shadow",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -310,10 +108,6 @@
                                 },
                                 {
                                     "name": "text",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -327,112 +121,13 @@
                 },
                 {
                     "name": "collection",
-                    "size": {
-                        "x": 177,
-                        "y": 53
-                    },
                     "prefab": "data/scenes/button.json",
                     "children": [
                         {
-                            "name": "outline",
-                            "size": {
-                                "x": 177,
-                                "y": 53
-                            },
-                            "children": [
-                                {
-                                    "name": "shape",
-                                    "size": {
-                                        "x": 177,
-                                        "y": 53
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "color",
-                                            "size": {
-                                                "x": 177,
-                                                "y": 53
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "button",
-                            "size": {
-                                "x": 175,
-                                "y": 51
-                            }
-                        },
-                        {
-                            "name": "arrow",
-                            "size": {
-                                "x": 165,
-                                "y": 49
-                            },
-                            "children": [
-                                {
-                                    "name": "left",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "name": "right",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "name": "label",
-                            "size": {
-                                "x": 175,
-                                "y": 49
-                            },
                             "children": [
                                 {
                                     "name": "shadow",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -442,10 +137,6 @@
                                 },
                                 {
                                     "name": "text",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -459,112 +150,13 @@
                 },
                 {
                     "name": "settings",
-                    "size": {
-                        "x": 177,
-                        "y": 53
-                    },
                     "prefab": "data/scenes/button.json",
                     "children": [
                         {
-                            "name": "outline",
-                            "size": {
-                                "x": 177,
-                                "y": 53
-                            },
-                            "children": [
-                                {
-                                    "name": "shape",
-                                    "size": {
-                                        "x": 177,
-                                        "y": 53
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "color",
-                                            "size": {
-                                                "x": 177,
-                                                "y": 53
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "button",
-                            "size": {
-                                "x": 175,
-                                "y": 51
-                            }
-                        },
-                        {
-                            "name": "arrow",
-                            "size": {
-                                "x": 165,
-                                "y": 49
-                            },
-                            "children": [
-                                {
-                                    "name": "left",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "name": "right",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "name": "label",
-                            "size": {
-                                "x": 175,
-                                "y": 49
-                            },
                             "children": [
                                 {
                                     "name": "shadow",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -574,10 +166,6 @@
                                 },
                                 {
                                     "name": "text",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -590,113 +178,43 @@
                     ]
                 },
                 {
-                    "name": "quit",
-                    "size": {
-                        "x": 177,
-                        "y": 53
-                    },
+                    "name": "mods",
                     "prefab": "data/scenes/button.json",
                     "children": [
                         {
-                            "name": "outline",
-                            "size": {
-                                "x": 177,
-                                "y": 53
-                            },
+                            "name": "label",
                             "children": [
                                 {
-                                    "name": "shape",
-                                    "size": {
-                                        "x": 177,
-                                        "y": 53
-                                    },
-                                    "children": [
+                                    "name": "shadow",
+                                    "components": [
                                         {
-                                            "name": "color",
-                                            "size": {
-                                                "x": 177,
-                                                "y": 53
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "button",
-                            "size": {
-                                "x": 175,
-                                "y": 51
-                            }
-                        },
-                        {
-                            "name": "arrow",
-                            "size": {
-                                "x": 165,
-                                "y": 49
-                            },
-                            "children": [
-                                {
-                                    "name": "left",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
+                                            "type": "text",
+                                            "text": "mods_button"
                                         }
                                     ]
                                 },
                                 {
-                                    "name": "right",
-                                    "size": {
-                                        "x": 165,
-                                        "y": 49
-                                    },
-                                    "children": [
+                                    "name": "text",
+                                    "components": [
                                         {
-                                            "name": "shadow",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
-                                        },
-                                        {
-                                            "name": "text",
-                                            "size": {
-                                                "x": 165,
-                                                "y": 49
-                                            }
+                                            "type": "text",
+                                            "text": "mods_button"
                                         }
                                     ]
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "quit",
+                    "prefab": "data/scenes/button.json",
+                    "children": [
                         {
                             "name": "label",
-                            "size": {
-                                "x": 175,
-                                "y": 49
-                            },
                             "children": [
                                 {
                                     "name": "shadow",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
@@ -706,49 +224,12 @@
                                 },
                                 {
                                     "name": "text",
-                                    "size": {
-                                        "x": 175,
-                                        "y": 49
-                                    },
                                     "components": [
                                         {
                                             "type": "text",
                                             "text": "quit_button"
                                         }
                                     ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "modsButton",
-            "prefab": "data/scenes/button.json",
-            "position": {
-                "x": 478,
-                "y": 424
-            },
-            "children": [
-                {
-                    "name": "label",
-                    "children": [
-                        {
-                            "name": "shadow",
-                            "components": [
-                                {
-                                    "type": "text",
-                                    "text": "mods_button"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "text",
-                            "components": [
-                                {
-                                    "type": "text",
-                                    "text": "mods_button"
                                 }
                             ]
                         }
@@ -760,7 +241,7 @@
             "name": "socialButton",
             "position": {
                 "x": 338,
-                "y": 503
+                "y": 508
             },
             "size": {
                 "x": 36,
@@ -799,8 +280,8 @@
         {
             "name": "sylph",
             "position": {
-                "x": 308,
-                "y": 230
+                "x": 307,
+                "y": 196
             },
             "size": {
                 "x": 61,

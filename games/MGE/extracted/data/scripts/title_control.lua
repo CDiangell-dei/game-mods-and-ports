@@ -41,13 +41,14 @@ local function _staggerUI(object)
     local settings = object.find('buttons/settings').getComponent('mask')
     level = _stagger(stagger, settings, level)
 
+    local mods = object.find('buttons/mods').getComponent('mask')
+    level = _stagger(stagger, mods, level)
+
     if love.system.getOS() ~= 'Web' then
         local quit = object.find('buttons/quit').getComponent('mask')
         level = _stagger(stagger, quit, level)
     end
-    -- MOD: botao Mods (canto inferior direito, alinhado com o Sair)
-    local mods = object.find('modsButton').getComponent('mask')
-    level = _stagger(stagger, mods, level)
+    
     local social = object.find('socialButton').getComponent('mask')
     level = _stagger(stagger, social, level)
     local sylph = object.find('sylph').getComponent('mask')
@@ -79,11 +80,11 @@ function titleControl.init(enterGame)
     local settingsButtonScript = engine.sandbox.dofile('data/scripts/ui/default_text_button.lua')
     settingsButtonScript.init(object.find('buttons/settings'))
 
-    -- MOD: botao Mods
-    local modsButton = object.find('modsButton/button').getComponent('button')
+    -- MOD: botao Mods perfeitamente integrado à lista principal
+    local modsButton = object.find('buttons/mods/button').getComponent('button')
     modsButton.onClick.subscribe(_openMods)
     local modsButtonScript = engine.sandbox.dofile('data/scripts/ui/default_text_button.lua')
-    modsButtonScript.init(object.find('modsButton'))
+    modsButtonScript.init(object.find('buttons/mods'))
 
     if love.system.getOS() == 'Web' then
         local quitButton = object.find('buttons/quit')

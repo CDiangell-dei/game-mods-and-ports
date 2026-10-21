@@ -69,11 +69,10 @@ local function _initializeSandbox(initialFade)
 
     --data loading
     engine.translator.addTranslation('en_us', 'data/en_us.csv')
+    engine.translator.addTranslation('en_us', 'data/pt_br_dialogue.csv')
     engine.translator.addTranslation('pt_br', 'data/pt_br.csv')
     engine.translator.addTranslation('pt_br', 'data/pt_br_dialogue.csv')
-    if engine.settings.getSetting('language') > 0.5 then
-        engine.translator.setLanguage('pt_br')
-    end
+    engine.translator.setLanguage('pt_br')
     engine.sandbox.dofile('data/scripts/add_tiles.lua')
     engine.sandbox.dofile('data/scripts/add_buffs.lua')
     engine.sandbox.dofile('data/scripts/add_encounters.lua')

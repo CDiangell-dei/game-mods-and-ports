@@ -60,8 +60,8 @@ function cycleReward.init(onComplete)
         local btnObj = game.object.instantiate('data/scenes/mode_selection_item.json', optionsParent)
         btnObj.name = 'perk_' .. tostring(i)
         
-        btnObj.find('title').getComponent('text').setText(perk.title)
-        btnObj.find('description').getComponent('text').setText(perk.desc)
+        btnObj.find('title').getComponent('text').setText(game.text.getText(perk.title))
+        btnObj.find('description').getComponent('text').setText(game.text.getText(perk.desc))
         game.object.setVisual(btnObj.find('icon'), 'data/sprites/icons/fairies.png')
 
         local highlightBtn = dofile('data/scripts/ui/default_highlight_button.lua')

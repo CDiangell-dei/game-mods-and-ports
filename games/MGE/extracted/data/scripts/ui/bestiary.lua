@@ -52,8 +52,9 @@ local function _spawnButton(name, label, callback)
     local parent = _object.find('dataView/buttons')
     local button = game.object.instantiate('data/scenes/collection_option.json', parent)
     button.name = name
-    button.find('text/text').getComponent('text').setText(label)
-    button.find('text/shadow').getComponent('text').setText(label)
+    local localizedLabel = game.text.getText(label) or label
+    button.find('text/text').getComponent('text').setText(localizedLabel)
+    button.find('text/shadow').getComponent('text').setText(localizedLabel)
 
     local textButton = dofile('data/scripts/ui/default_text_button.lua')
     textButton.init(button)
@@ -185,8 +186,9 @@ local function _populateDisplay(entry)
     local ditherer = dofile('data/scripts/ui/staggered_dither.lua')
     local title = _object.find('dataView/title')
     ditherer.queueDitherIn(title.getComponent('mask'), 0)
-    title.find('text').getComponent('text').setText(entry.name)
-    title.find('shadow').getComponent('text').setText(entry.name)
+    local localizedName = game.text.getText(entry.name) or entry.name
+    title.find('text').getComponent('text').setText(localizedName)
+    title.find('shadow').getComponent('text').setText(localizedName)
 
     local icon = _object.find('dataView/icon')
     ditherer.queueDitherIn(icon.getComponent('mask'), 1)
@@ -194,8 +196,9 @@ local function _populateDisplay(entry)
 
     local description = _object.find('dataView/description')
     ditherer.queueDitherIn(description.getComponent('mask'), 2)
-    description.find('text').getComponent('text').setText(entry.description)
-    description.find('shadow').getComponent('text').setText(entry.description)
+    local localizedDesc = game.text.getText(entry.description) or entry.description
+    description.find('text').getComponent('text').setText(localizedDesc)
+    description.find('shadow').getComponent('text').setText(localizedDesc)
     _selectedEntry = entry
     _spawnVisualButtons()
     local buttons = _object.find('dataView/buttons')
@@ -204,8 +207,9 @@ local function _populateDisplay(entry)
 end
 
 local function _setEntryLabel(entry, label)
-    entry.find('text/text').getComponent('text').setText(label)
-    entry.find('text/shadow').getComponent('text').setText(label)
+    local localized = game.text.getText(label) or label
+    entry.find('text/text').getComponent('text').setText(localized)
+    entry.find('text/shadow').getComponent('text').setText(localized)
 end
 
 local function _spawnEntry(entry, ditherer)

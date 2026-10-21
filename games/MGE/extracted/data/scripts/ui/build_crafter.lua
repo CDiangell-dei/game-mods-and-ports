@@ -89,6 +89,18 @@ function buildCrafter.init(onStartRun)
         _setupItemButton(itemObj, itemData)
     end
 
+    local function _updateGoldDisplay()
+        if _object == nil or game.control == nil then
+            return
+        end
+        local currentGold = game.control.getGold()
+        local prefix = game.text.getText('build_gold_label') or 'Ouro:'
+        local labelComp = _object.find('goldBar/label').getComponent('text')
+        if labelComp ~= nil then
+            labelComp.setText(prefix .. ' ' .. tostring(currentGold) .. ' G')
+        end
+    end
+
     -- Gold buttons
     local function setupGoldBtn(name, amount)
         local btnObj = _object.find('goldBar/' .. name)
@@ -96,6 +108,7 @@ function buildCrafter.init(onStartRun)
         btnScript.init(btnObj)
         btnObj.find('button').getComponent('button').onClick.subscribe(function()
             _setStartingGold(amount)
+            _updateGoldDisplay()
             game.audio.playSound('data/sounds/general/gold.json')
         end)
     end
@@ -103,6 +116,7 @@ function buildCrafter.init(onStartRun)
     setupGoldBtn('gold1k', 1000)
     setupGoldBtn('gold50k', 50000)
     setupGoldBtn('goldMax', 999999)
+    _updateGoldDisplay()
 
     -- Clear button
     local clearBtn = _object.find('bottomBar/clearButton')

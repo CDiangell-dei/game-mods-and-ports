@@ -1,5 +1,9 @@
 {
     "name": "buildCrafter",
+    "position": {
+        "x": 91,
+        "y": 0
+    },
     "size": {
         "x": 418,
         "y": 540
@@ -18,11 +22,11 @@
             "name": "header",
             "position": {
                 "x": 10,
-                "y": 10
+                "y": 8
             },
             "size": {
                 "x": 398,
-                "y": 28
+                "y": 26
             },
             "children": [
                 {
@@ -33,7 +37,7 @@
                     },
                     "size": {
                         "x": 398,
-                        "y": 28
+                        "y": 26
                     },
                     "components": [
                         {
@@ -48,7 +52,7 @@
                     "name": "title",
                     "size": {
                         "x": 398,
-                        "y": 28
+                        "y": 26
                     },
                     "components": [
                         {
@@ -65,11 +69,11 @@
             "name": "itemsScroll",
             "position": {
                 "x": 10,
-                "y": 45
+                "y": 38
             },
             "size": {
                 "x": 398,
-                "y": 380
+                "y": 382
             },
             "components": [
                 {
@@ -84,7 +88,7 @@
                     "name": "viewport",
                     "size": {
                         "x": 398,
-                        "y": 380
+                        "y": 382
                     },
                     "components": [
                         {
@@ -125,7 +129,7 @@
                     },
                     "size": {
                         "x": 4,
-                        "y": 380
+                        "y": 382
                     },
                     "components": [
                         {
@@ -162,11 +166,11 @@
             "name": "goldBar",
             "position": {
                 "x": 10,
-                "y": 435
+                "y": 426
             },
             "size": {
                 "x": 398,
-                "y": 32
+                "y": 34
             },
             "children": [
                 {
@@ -176,13 +180,13 @@
                         "y": 6
                     },
                     "size": {
-                        "x": 60,
-                        "y": 20
+                        "x": 90,
+                        "y": 22
                     },
                     "components": [
                         {
                             "type": "text",
-                            "size": 13,
+                            "size": 12,
                             "color": "d0d0e6",
                             "text": "build_gold_label"
                         }
@@ -190,25 +194,65 @@
                 },
                 {
                     "name": "gold10",
-                    "prefab": "data/scenes/button.json",
                     "position": {
-                        "x": 65,
+                        "x": 92,
                         "y": 0
                     },
                     "size": {
-                        "x": 65,
-                        "y": 30
+                        "x": 70,
+                        "y": 32
                     },
                     "children": [
                         {
+                            "name": "button",
+                            "size": {
+                                "x": 70,
+                                "y": 32
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
                             "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 6
+                            },
+                            "size": {
+                                "x": 70,
+                                "y": 20
+                            },
                             "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "10 G",
+                                            "color": "242538",
+                                            "size": 13
+                                        }
+                                    ]
+                                },
                                 {
                                     "name": "text",
                                     "components": [
                                         {
                                             "type": "text",
-                                            "text": "10 G"
+                                            "text": "10 G",
+                                            "color": "e6e6f5",
+                                            "size": 13
                                         }
                                     ]
                                 }
@@ -218,25 +262,65 @@
                 },
                 {
                     "name": "gold1k",
-                    "prefab": "data/scenes/button.json",
                     "position": {
-                        "x": 135,
+                        "x": 166,
                         "y": 0
                     },
                     "size": {
-                        "x": 75,
-                        "y": 30
+                        "x": 72,
+                        "y": 32
                     },
                     "children": [
                         {
+                            "name": "button",
+                            "size": {
+                                "x": 72,
+                                "y": 32
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
                             "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 6
+                            },
+                            "size": {
+                                "x": 72,
+                                "y": 20
+                            },
                             "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "1.000 G",
+                                            "color": "242538",
+                                            "size": 13
+                                        }
+                                    ]
+                                },
                                 {
                                     "name": "text",
                                     "components": [
                                         {
                                             "type": "text",
-                                            "text": "1.000 G"
+                                            "text": "1.000 G",
+                                            "color": "e6e6f5",
+                                            "size": 13
                                         }
                                     ]
                                 }
@@ -246,25 +330,65 @@
                 },
                 {
                     "name": "gold50k",
-                    "prefab": "data/scenes/button.json",
                     "position": {
-                        "x": 215,
+                        "x": 242,
                         "y": 0
                     },
                     "size": {
-                        "x": 85,
-                        "y": 30
+                        "x": 74,
+                        "y": 32
                     },
                     "children": [
                         {
+                            "name": "button",
+                            "size": {
+                                "x": 74,
+                                "y": 32
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
                             "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 6
+                            },
+                            "size": {
+                                "x": 74,
+                                "y": 20
+                            },
                             "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "50.000 G",
+                                            "color": "242538",
+                                            "size": 13
+                                        }
+                                    ]
+                                },
                                 {
                                     "name": "text",
                                     "components": [
                                         {
                                             "type": "text",
-                                            "text": "50.000 G"
+                                            "text": "50.000 G",
+                                            "color": "e6e6f5",
+                                            "size": 13
                                         }
                                     ]
                                 }
@@ -274,25 +398,65 @@
                 },
                 {
                     "name": "goldMax",
-                    "prefab": "data/scenes/button.json",
                     "position": {
-                        "x": 305,
+                        "x": 320,
                         "y": 0
                     },
                     "size": {
-                        "x": 90,
-                        "y": 30
+                        "x": 78,
+                        "y": 32
                     },
                     "children": [
                         {
+                            "name": "button",
+                            "size": {
+                                "x": 78,
+                                "y": 32
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
                             "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 6
+                            },
+                            "size": {
+                                "x": 78,
+                                "y": 20
+                            },
                             "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "999.999 G",
+                                            "color": "242538",
+                                            "size": 13
+                                        }
+                                    ]
+                                },
                                 {
                                     "name": "text",
                                     "components": [
                                         {
                                             "type": "text",
-                                            "text": "999.999 G"
+                                            "text": "999.999 G",
+                                            "color": "e6e6f5",
+                                            "size": 13
                                         }
                                     ]
                                 }
@@ -306,34 +470,74 @@
             "name": "bottomBar",
             "position": {
                 "x": 10,
-                "y": 480
+                "y": 468
             },
             "size": {
                 "x": 398,
-                "y": 46
+                "y": 56
             },
             "children": [
                 {
                     "name": "clearButton",
-                    "prefab": "data/scenes/button.json",
                     "position": {
                         "x": 0,
-                        "y": 0
+                        "y": 4
                     },
                     "size": {
                         "x": 120,
-                        "y": 44
+                        "y": 46
                     },
                     "children": [
                         {
+                            "name": "button",
+                            "size": {
+                                "x": 120,
+                                "y": 46
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
                             "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 11
+                            },
+                            "size": {
+                                "x": 120,
+                                "y": 24
+                            },
                             "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "build_clear_button",
+                                            "color": "242538",
+                                            "size": 14
+                                        }
+                                    ]
+                                },
                                 {
                                     "name": "text",
                                     "components": [
                                         {
                                             "type": "text",
-                                            "text": "build_clear_button"
+                                            "text": "build_clear_button",
+                                            "color": "e6e6f5",
+                                            "size": 14
                                         }
                                     ]
                                 }
@@ -343,25 +547,65 @@
                 },
                 {
                     "name": "startButton",
-                    "prefab": "data/scenes/button.json",
                     "position": {
-                        "x": 140,
-                        "y": 0
+                        "x": 130,
+                        "y": 4
                     },
                     "size": {
-                        "x": 258,
-                        "y": 44
+                        "x": 268,
+                        "y": 46
                     },
                     "children": [
                         {
+                            "name": "button",
+                            "size": {
+                                "x": 268,
+                                "y": 46
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
                             "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 11
+                            },
+                            "size": {
+                                "x": 268,
+                                "y": 24
+                            },
                             "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "build_start_button",
+                                            "color": "242538",
+                                            "size": 18
+                                        }
+                                    ]
+                                },
                                 {
                                     "name": "text",
                                     "components": [
                                         {
                                             "type": "text",
-                                            "text": "build_start_button"
+                                            "text": "build_start_button",
+                                            "color": "e6e6f5",
+                                            "size": 18
                                         }
                                     ]
                                 }
@@ -371,9 +615,5 @@
                 }
             ]
         }
-    ],
-    "position": {
-        "x": 91,
-        "y": 0
-    }
+    ]
 }

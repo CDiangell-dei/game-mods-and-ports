@@ -1,40 +1,36 @@
-import zipfile, os, shutil
+import os
+import zipfile
+import shutil
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MGE_DIR = os.path.abspath(os.path.join(BASE_DIR, '..'))
-src_dir = os.path.join(MGE_DIR, 'extracted')
-if not os.path.exists(src_dir):
-    src_dir = os.path.join(MGE_DIR, 'src')
+extracted_dir = 'C:/Jogos/MGE/extracted'
+game_love_path = 'C:/Jogos/MGE/game.love'
+launcher_path = 'C:/Jogos/MGE/love_launcher.exe'
+mge_exe_path = 'C:/Jogos/MGE/MGE.exe'
+android_love_path = 'C:/Jogos/MGE/android/game.love'
 
-output_love = os.path.join(MGE_DIR, 'game.love')
-output_exe = os.path.join(MGE_DIR, 'MGE.exe')
-
-# Read the 41984 byte stub from MGE.exe
-with open(output_exe, 'rb') as f:
-    stub = f.read(41984)
-
-# Build game.love
-with zipfile.ZipFile(output_love, 'w', zipfile.ZIP_DEFLATED) as z:
-    for root, dirs, files in os.walk(src_dir):
+print("1. Creating game.love from extracted/...")
+with zipfile.ZipFile(game_love_path, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
+    for root, dirs, files in os.walk(extracted_dir):
         for f in files:
-            if f.endswith('.orig') or f.endswith('.bak'):
-                continue
             full_path = os.path.join(root, f)
-            rel_path = os.path.relpath(full_path, src_dir).replace('\\', '/')
+            rel_path = os.path.relpath(full_path, extracted_dir).replace('\\', '/')
             z.write(full_path, rel_path)
 
-print(f"Created {output_love}: {os.path.getsize(output_love)} bytes")
+print(f"   game.love created: {os.path.getsize(game_love_path)} bytes")
 
-# Fuse stub + game.love -> MGE.exe
-with open(output_love, 'rb') as f:
-    love_data = f.read()
+print("2. Fusing love_launcher.exe + game.love -> MGE.exe...")
+with open(launcher_path, 'rb') as f_stub:
+    stub = f_stub.read()
 
-# Backup current MGE.exe
-if os.path.exists(output_exe):
-    shutil.copy2(output_exe, output_exe + '.bak')
+with open(game_love_path, 'rb') as f_love:
+    love_data = f_love.read()
 
-with open(output_exe, 'wb') as f:
-    f.write(stub)
-    f.write(love_data)
+with open(mge_exe_path, 'wb') as f_out:
+    f_out.write(stub)
+    f_out.write(love_data)
 
-print(f"Fused into {output_exe}: {os.path.getsize(output_exe)} bytes")
+print(f"   MGE.exe created: {os.path.getsize(mge_exe_path)} bytes")
+
+print("3. Updating android/game.love...")
+shutil.copy2(game_love_path, android_love_path)
+print("   Updated android/game.love successfully!")

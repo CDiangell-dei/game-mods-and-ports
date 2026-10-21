@@ -47,10 +47,10 @@ buff_slime_description,"<color=enterbattle>Ao iniciar batalha:</color> Copia um 
 
 <color=always>Copiando Atualmente:</color> <var=current>.",
 buff_slime_name,Slime Bombado,
-build_clear_button,Esvaziar,UI
+build_clear_button,Esvaziar Mochila,UI
 build_crafter_title,Criador de Builds,UI
 build_gold_label,Ouro:,UI
-build_start_button,Iniciar Jornada,UI
+build_start_button,Começar Aventura ▶,UI
 canteen_description,<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.,
 canteen_name,Cantil,
 chaotic_orb_description,<color=enterbattle>Ao iniciar batalha:</color> Destrói um item aleatório para multiplicar a exaustão de todos os outros itens por x<var=modifier>.,

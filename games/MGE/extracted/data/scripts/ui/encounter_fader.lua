@@ -69,7 +69,11 @@ function encounterFader.prepareEncounterSelection(onComplete)
         local animation = game.data.loadAnimation('data/animations/transition/enter_map/data.json')
         animator.play(animation)
     end
-    animator.onCompletion.subscribe(enter)
+    if animator.isPlaying() then
+        animator.onCompletion.subscribe(enter)
+    else
+        enter()
+    end
 end
 
 function encounterFader.transitionToEncounter(onComplete)

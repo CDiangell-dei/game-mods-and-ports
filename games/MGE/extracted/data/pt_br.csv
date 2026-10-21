@@ -46,11 +46,11 @@ broken_doll_name,Boneca Quebrada,
 buff_slime_description,"<color=enterbattle>Ao iniciar batalha:</color> Copia um buff aleatório pelo restante da batalha. O buff será ativado quando este item for ativado.
 
 <color=always>Copiando Atualmente:</color> <var=current>.",
-buff_slime_name,Slime Bombado,
-build_clear_button,Esvaziar,UI
+buff_slime_name,Slime Fortalecido,
+build_clear_button,Esvaziar Mochila,UI
 build_crafter_title,Criador de Builds,UI
 build_gold_label,Ouro:,UI
-build_start_button,Iniciar Jornada,UI
+build_start_button,Começar Aventura ▶,UI
 canteen_description,<color=onpump>A cada ciclo:</color> Causa +<var=exhaustion> de exaustão.,
 canteen_name,Cantil,
 chaotic_orb_description,<color=enterbattle>Ao iniciar batalha:</color> Destrói um item aleatório para multiplicar a exaustão de todos os outros itens por x<var=modifier>.,
@@ -480,7 +480,7 @@ mandragora_loss_11,》Talvez voce possa ficar assim por mais um tempo...,
 mandragora_loss_2,"》As trepadeiras se apertam levemente ao seu redor. Ela aproxima outro bulbo da sua cabeca, deixando cair um liquido de sabor doce em sua boca.",
 mandragora_loss_3,"》Apesar de ter gozado ha pouco, voce se sente completamente revitalizado.",
 mandragora_loss_4,De... mais...,
-mandragora_loss_5,》Ela continua bombeando o bulbo macio enquanto olha para voce com desapontamento.,
+mandragora_loss_5,》Ela continua apertando o bulbo macio enquanto olha para você com desapontamento.,
 mandragora_loss_6,"》Para cima e para baixo, para cima e para baixo, para cima e para baixo.",
 mandragora_loss_7,》Voce sente uma quantidade desumana de semen sendo espremida de voce enquanto seu bulbo macio e aveludado absorve cada gota que sai de voce.,
 mandragora_loss_8,Mais...,
@@ -718,7 +718,7 @@ sphinx_loss2_2,"Oh, parece que voce realmente se tornou uma <color=accent>fera s
 sphinx_loss2_3,Acho que meus <color=accent>comandos</color> foram fortes demais para voce afinal～,
 sphinx_loss2_4,Estou surpresa que voce ainda esteja totalmente ereto depois de tudo isso. Voce gostou tanto das minhas axilas assim?,
 sphinx_loss2_5,Talvez voce possa me entreter afinal.,
-sphinx_loss2_6,<color=accent>Continue bombeando.</color>,
+sphinx_loss2_6,<color=accent>Continue com os ciclos.</color>,
 sphinx_loss2_7,"Se conseguir continuar por tempo suficiente para <color=accent>me satisfazer</color>, talvez eu permita que se torne meu escravo. O que acha disso?",
 sphinx_loss2_8,"Ah, espere, voce nao pensa mais!",
 sphinx_loss2_9,Pelo menos voce ainda consegue liberar uma quantidade tao enorme de gozo.,
@@ -941,7 +941,7 @@ mod_endless_mode_name,Modo Infinito,Localization
 mod_endless_mode_description,"Adiciona o modo de jogo Infinito: os andares não acabam, um chefe retorna a cada ciclo e os inimigos ficam cada vez mais fortes. Aparece na tela de seleção de modo.",Localization
 mod_endless_mode_unlock,Vença o Modo História uma vez.,Localization
 mod_hack_mode_name,Modo Trapaça,Localization
-mod_hack_mode_description,Dá EPP infinito em todas as batalhas: o primeiro bombeamento já enche a barra inteira e vence a luta. Feito para testar builds e avançar rápido.,Localization
+mod_hack_mode_description,Dá EPP infinito em todas as batalhas: o primeiro ciclo já enche a barra inteira e vence a luta. Feito para testar builds e avançar rápido.,Localization
 mod_hack_mode_unlock,Alcance EPP infinito em 3 batalhas numa mesma partida,Localization
 mod_new_collection_name,Nova Coleção,Localization
 mod_new_collection_description,"Adiciona novos itens ao jogo, ampliando suas builds e as Coleções. Em breve.",Localization

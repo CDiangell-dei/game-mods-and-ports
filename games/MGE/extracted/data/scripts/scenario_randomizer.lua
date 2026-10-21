@@ -202,7 +202,84 @@ function scenarioRandomizer.getRandomEncounter(floorCount, type)
     else
         return _getRandomShop(floorCount)
     end
+end
+
+local function _getTableForType(encounterType)
+    if encounterType == 'battle' then
+        return _data.battleEncounters, _usedBattles
+    elseif encounterType == 'elite' then
+        return _data.eliteEncounters, _usedEliteBattles
+    elseif encounterType == 'boss' then
+        return _data.bossEncounters, _usedBossBattles
+    elseif encounterType == 'shop' then
+        return _data.shopEncounters, _usedShops
+    elseif encounterType == 'randomEncounter' then
+        return _data.randomEncounters, _usedRandomEncounters
+    end
+    return nil, nil
+end
+
+function scenarioRandomizer.markEncounterUsed(encounterType, key)
+    if key == nil then
+        return
+    end
+    local _, usedTable = _getTableForType(encounterType)
+    if usedTable ~= nil then
+        usedTable[key] = 1
+    end
+end
+
+function scenarioRandomizer.peekEncounter(floorCount, encounterType, excludeKey)
+    local data, usedTable = _getTableForType(encounterType)
+    if data == nil then
+        return nil
     end
 
+    local candidates = {}
+    for k, v in pairs(data) do
+        if k ~= excludeKey and _cannotRoll(k, v, usedTable, floorCount) == false then
+            table.insert(candidates, { key = k, encounter = v, weight = v.weight or 1.0 })
+        end
+    end
+
+    if #candidates == 0 then
+        for k, v in pairs(data) do
+            if _cannotRoll(k, v, usedTable, floorCount) == false then
+                table.insert(candidates, { key = k, encounter = v, weight = v.weight or 1.0 })
+            end
+        end
+    end
+
+    if #candidates == 0 then
+        for k, v in pairs(data) do
+            if v.isUnique ~= true then
+                table.insert(candidates, { key = k, encounter = v, weight = v.weight or 1.0 })
+            end
+        end
+    end
+
+    if #candidates == 0 then
+        for k, v in pairs(data) do
+            table.insert(candidates, { key = k, encounter = v, weight = 1.0 })
+        end
+    end
+
+    if #candidates == 0 then
+        return nil
+    end
+
+    local totalWeight = 0
+    for _, c in ipairs(candidates) do
+        totalWeight = totalWeight + c.weight
+    end
+    local roll = math.random() * totalWeight
+    for _, c in ipairs(candidates) do
+        roll = roll - c.weight
+        if roll <= 0 then
+            return c.encounter
+        end
+    end
+    return candidates[#candidates].encounter
+end
 
 return scenarioRandomizer

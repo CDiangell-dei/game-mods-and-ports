@@ -157,11 +157,11 @@ local function _completeEndGame()
     _enterEndScene()
 end
 
-function control.init()
+function control.init(onIntroComplete)
     -- MOD: mods can change the floor limit (endless_mode returns math.huge)
     control.maxFloors = _mods.filter('maxFloors', 13)
     _selector.init(control.fixedEncounters)
-    control.ui.instantiate(control.completeEncounter)
+    control.ui.instantiate(onIntroComplete or control.completeEncounter)
     game.events.subscribe('update', _update)
     game.scene.fadeIn(0.5, nil)
 end

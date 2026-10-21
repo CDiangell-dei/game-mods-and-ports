@@ -959,3 +959,9 @@ mod_skip_battle_unlock,Vença o Modo História uma vez.,Localization
 mod_turbo_speed_name,Modo Turbo,Localization
 mod_turbo_speed_description,"Adiciona um botão de controle de velocidade (1x, 2x, 4x) no topo da tela para acelerar batalhas e animações.",Localization
 auto_battle,Pular Batalhas,Localization
+
+
+
+shop_spider_name,Loja da Aranha,UI
+mod_enemy_preview_name,Previsão de Inimigos,Localization
+mod_enemy_preview_description,Exibe no mapa o ícone e o nome de cada monstro ou evento que espera por você nas próximas bifurcações.,Localization

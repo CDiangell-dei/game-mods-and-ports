@@ -62,7 +62,7 @@ end
 
 function buildCrafter.init(onStartRun)
     local root = game.object.getRoot()
-    local parent = root.find('main/viewport') or root.find('main') or root
+    local parent = root.find('main') or root
     _object = game.object.instantiate('data/scenes/build_crafter.json', parent)
 
     local data = require('data/scripts/data.lua')

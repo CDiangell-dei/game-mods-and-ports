@@ -59,21 +59,27 @@ function selector.enterGame()
         if modeInfo.startGame ~= nil then
             modeInfo.startGame()
         end
-        game.control.init()
-        require('data/scripts/stat_tracker.lua')
-        for _, v in pairs(_selectedItems) do
-            game.control.tiles.setFirstOpenSlot(v)
-        end
-        _mods.call('onRunStarted', game.control)
-
         if modeInfo.isSandbox then
-            -- Open Build Crafter in viewport!
+            -- Pass a dummy callback so the intro fader doesn't launch completeEncounter/map!
+            game.control.init(function() end)
+            require('data/scripts/stat_tracker.lua')
+            for _, v in pairs(_selectedItems) do
+                game.control.tiles.setFirstOpenSlot(v)
+            end
+            _mods.call('onRunStarted', game.control)
+
+            -- Open Build Crafter cleanly in main
             local crafter = dofile('data/scripts/ui/build_crafter.lua')
             crafter.init(function()
                 game.control.completeEncounter()
             end)
         else
-            game.control.completeEncounter()
+            game.control.init(game.control.completeEncounter)
+            require('data/scripts/stat_tracker.lua')
+            for _, v in pairs(_selectedItems) do
+                game.control.tiles.setFirstOpenSlot(v)
+            end
+            _mods.call('onRunStarted', game.control)
         end
 
         if _onComplete then

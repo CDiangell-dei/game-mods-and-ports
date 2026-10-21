@@ -959,3 +959,6 @@ mod_skip_battle_unlock,Vença o Modo História uma vez.,Localization
 mod_turbo_speed_name,Modo Turbo,Localization
 mod_turbo_speed_description,"Adiciona um botão de controle de velocidade (1x, 2x, 4x) no topo da tela para acelerar batalhas e animações.",Localization
 auto_battle,Pular Batalhas,Localization
+shop_spider_name,Spider Shop,UI
+mod_enemy_preview_name,Enemy Preview,Localization
+mod_enemy_preview_description,Displays on the map the icon and name of each monster or event awaiting at upcoming forks.,Localization

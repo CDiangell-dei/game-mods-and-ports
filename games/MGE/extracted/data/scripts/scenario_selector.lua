@@ -130,6 +130,8 @@ local function _addBranch(node)
     local fixed = _getEncounter(_fixedEncounters[nextFloor] or _fixedEncounters[cycleFloor])
     if fixed ~= nil then
         _setFixedBranch(fixed, node)
+        node.left.encounter = fixed
+        node.right.encounter = fixed
         return
     end
     if nextFloor > game.control.maxFloors then
@@ -137,6 +139,9 @@ local function _addBranch(node)
         node.right.type = 'unknown'
     else
         _encounterSets[cycleFloor](node)
+        node.left.encounter = _randomizer.peekEncounter(nextFloor, node.left.type)
+        local exclude = node.left.encounter and node.left.encounter.key or nil
+        node.right.encounter = _randomizer.peekEncounter(nextFloor, node.right.type, exclude)
     end
 end
 
@@ -165,6 +170,9 @@ function scenarioSelector.selectBranch(isLeft)
     _addBranch(_encounterTree.right)
     if _encounterTree.fixed then
         return _encounterTree.fixed
+    elseif _encounterTree.encounter then
+        _randomizer.markEncounterUsed(_encounterTree.type, _encounterTree.encounter.key)
+        return _encounterTree.encounter
     else
         return _randomizer.getRandomEncounter(_encounterTree.floor, _encounterTree.type)
     end
@@ -179,10 +187,15 @@ local function _serializeNode(node)
     if node.fixed ~= nil then
         fixedKey = node.fixed.key
     end
+    local encounterKey = nil
+    if node.encounter ~= nil then
+        encounterKey = node.encounter.key
+    end
     return {
         floor = node.floor,
         type = node.type,
         fixed = fixedKey,
+        encounterKey = encounterKey,
         left = _serializeNode(node.left),
         right = _serializeNode(node.right),
     }
@@ -192,10 +205,13 @@ local function _deserializeNode(data)
     if data == nil then
         return nil
     end
+    local fixed = _getEncounter(data.fixed)
+    local encounter = _getEncounter(data.encounterKey) or fixed
     return {
         floor = data.floor,
         type = data.type,
-        fixed = _getEncounter(data.fixed),
+        fixed = fixed,
+        encounter = encounter,
         left = _deserializeNode(data.left),
         right = _deserializeNode(data.right),
     }

@@ -1,6 +1,8 @@
 local _data = require('data/scripts/data.lua')
 
 _data.addShop('shop_1', {
+    name = 'shop_spider_name',
+    icon = 'data/sprites/ui/map_shop.png',
     script = 'data/scripts/encounters/shops/spider_shop.lua',
     weight = 1.0,
 })
@@ -433,36 +435,50 @@ _data.addBoss('boss_fairies', {
 })
 
 _data.addRandomEncounter('random_sylph', {
+    name = 'sylph_name',
+    icon = 'data/sprites/icons/fairies.png',
     script = 'data/scripts/encounters/random/sylph.lua',
     weight = 1.0,
 })
 
 _data.addRandomEncounter('random_salamander', {
+    name = 'salamander_name',
+    icon = 'data/sprites/ui/map_random.png',
     script = 'data/scripts/encounters/random/salamander.lua',
     weight = 1.0,
 })
 
 _data.addRandomEncounter('random_undine', {
+    name = 'undine_name',
+    icon = 'data/sprites/ui/map_random.png',
     script = 'data/scripts/encounters/random/undine.lua',
     weight = 1.0,
 })
 
 _data.addRandomEncounter('random_gnome', {
+    name = 'gnome_name',
+    icon = 'data/sprites/ui/map_random.png',
     script = 'data/scripts/encounters/random/gnome.lua',
     weight = 1.0,
 })
 
 _data.addRandomEncounter('random_treasure', {
+    name = 'treasure_name',
+    icon = 'data/sprites/ui/map_random.png',
     script = 'data/scripts/encounters/random/treasure.lua',
     weight = 1.0,
 })
 
 _data.addRandomEncounter('random_hotspring', {
+    name = 'hotspring_name',
+    icon = 'data/sprites/ui/map_random.png',
     script = 'data/scripts/encounters/random/hotspring.lua',
     weight = 1.0,
 })
 
 _data.addRandomEncounter('random_spirit', {
+    name = 'spirit_name',
+    icon = 'data/sprites/ui/map_random.png',
     script = 'data/scripts/encounters/random/spirit.lua',
     weight = 1.0,
 })

@@ -8,6 +8,9 @@
         {
             "type": "image",
             "color": "1c1c2be6"
+        },
+        {
+            "type": "button"
         }
     ],
     "children": [
@@ -368,5 +371,9 @@
                 }
             ]
         }
-    ]
+    ],
+    "position": {
+        "x": 91,
+        "y": 0
+    }
 }

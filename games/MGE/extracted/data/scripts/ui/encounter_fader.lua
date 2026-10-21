@@ -38,7 +38,9 @@ function encounterFader.init(parent, ignoreTimescale, onComplete)
         animator.onCompletion.unsubscribe(loadDefault)
         local animation = game.data.loadAnimation('data/animations/transition/idle/data.json')
         animator.play(animation)
-        onComplete()
+        if onComplete ~= nil then
+            onComplete()
+        end
     end
     animator.onCompletion.subscribe(loadDefault)
 end

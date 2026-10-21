@@ -966,3 +966,5 @@ endless_prompt_title,Story Victory!,UI
 endless_prompt_desc,"You defeated the Fairies and completed Story Mode! Would you like to continue your run in Endless Mode from Floor 14?",UI
 endless_prompt_continue,Continue Endless ▶,UI
 endless_prompt_finish,See Ending,UI
+cycle_reward_subtitle,Choose a blessing to empower your journey in the next cycle:,UI
+cycle_reward_choose,Choose,UI

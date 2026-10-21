@@ -969,3 +969,5 @@ endless_prompt_title,Vitória da História!,UI
 endless_prompt_desc,"Você derrotou as Fadas e concluiu o Modo História! Deseja continuar sua jornada no Modo Sem Fim a partir do Andar 14?",UI
 endless_prompt_continue,Continuar Sem Fim ▶,UI
 endless_prompt_finish,Ver Final,UI
+cycle_reward_subtitle,Escolha uma bênção para fortalecer sua jornada no próximo ciclo:,UI
+cycle_reward_choose,Escolher,UI

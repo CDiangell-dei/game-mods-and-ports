@@ -135,16 +135,7 @@ function battle.complete(profit)
             game.control.gainGold(profit)
             game.control.trigger('onWinBattle')
             
-            local isEndless = game.data.getSetting('gameMode') > 0.5
-            local isBoss = (game.control.encounterData ~= nil and game.control.encounterData.key == 'boss_fairies')
-            if isEndless and isBoss then
-                local reward = dofile('data/scripts/ui/cycle_reward.lua')
-                reward.init(function()
-                    game.control.completeEncounter()
-                end)
-            else
-                game.control.completeEncounter()
-            end
+            game.control.completeEncounter()
         end
         local itemRoller = dofile('data/scripts/encounters/elite_reward_roller.lua')
         local item = itemRoller.getRandomItem(battle.isElite)

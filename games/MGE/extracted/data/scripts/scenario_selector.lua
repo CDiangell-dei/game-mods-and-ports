@@ -240,8 +240,10 @@ function scenarioSelector.forceEncounter(key)
     end
     _encounterTree.left.type = fixed.type
     _encounterTree.left.fixed = fixed
+    _encounterTree.left.encounter = fixed
     _encounterTree.right.type = fixed.type
     _encounterTree.right.fixed = fixed
+    _encounterTree.right.encounter = fixed
 end
 
 return scenarioSelector

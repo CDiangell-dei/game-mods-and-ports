@@ -63,8 +63,20 @@ end
 local function _setIcon(object, type, encounter)
     local isPreview = _mods.filter('isEnemyPreviewActive', false)
     local visual = _icons[type] or _icons.default
-    if isPreview and encounter ~= nil and encounter.icon ~= nil then
-        visual = encounter.icon
+    if isPreview and encounter ~= nil then
+        if encounter.icon ~= nil and encounter.icon ~= '' then
+            visual = encounter.icon
+        elseif encounter.key ~= nil then
+            local data = require('data/scripts/data.lua')
+            local full = data.battleEncounters[encounter.key]
+                or data.eliteEncounters[encounter.key]
+                or data.bossEncounters[encounter.key]
+                or data.shopEncounters[encounter.key]
+                or data.randomEncounters[encounter.key]
+            if full ~= nil and full.icon ~= nil and full.icon ~= '' then
+                visual = full.icon
+            end
+        end
     end
     game.object.setVisual(object, visual)
 

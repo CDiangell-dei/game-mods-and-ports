@@ -178,6 +178,20 @@ function scenarioSelector.selectBranch(isLeft)
     end
 end
 
+-- MOD: when continuing into Endless Mode from Story Floor 13, re-roll branches
+function scenarioSelector.ensureEndlessTree()
+    if _encounterTree == nil then
+        return
+    end
+    _addBranch(_encounterTree)
+    if _encounterTree.left ~= nil then
+        _addBranch(_encounterTree.left)
+    end
+    if _encounterTree.right ~= nil then
+        _addBranch(_encounterTree.right)
+    end
+end
+
 -- MOD (save/continue): the tree is saved as plain data (fixed encounters by key)
 local function _serializeNode(node)
     if node == nil then

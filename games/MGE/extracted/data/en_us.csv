@@ -962,3 +962,7 @@ auto_battle,Pular Batalhas,Localization
 shop_spider_name,Spider Shop,UI
 mod_enemy_preview_name,Enemy Preview,Localization
 mod_enemy_preview_description,Displays on the map the icon and name of each monster or event awaiting at upcoming forks.,Localization
+endless_prompt_title,Story Victory!,UI
+endless_prompt_desc,"You defeated the Fairies and completed Story Mode! Would you like to continue your run in Endless Mode from Floor 14?",UI
+endless_prompt_continue,Continue Endless ▶,UI
+endless_prompt_finish,See Ending,UI

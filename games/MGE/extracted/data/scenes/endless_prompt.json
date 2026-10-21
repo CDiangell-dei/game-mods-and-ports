@@ -1,0 +1,277 @@
+{
+    "name": "endlessPrompt",
+    "size": {
+        "x": 675,
+        "y": 540
+    },
+    "components": [
+        {
+            "type": "mask",
+            "sprite": "data/sprites/dither/100.png",
+            "imageType": "tiled"
+        },
+        {
+            "type": "button"
+        }
+    ],
+    "children": [
+        {
+            "name": "blocker",
+            "size": {
+                "x": 675,
+                "y": 540
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "000000d8"
+                }
+            ]
+        },
+        {
+            "name": "panel",
+            "position": {
+                "x": 97,
+                "y": 120
+            },
+            "size": {
+                "x": 480,
+                "y": 300
+            },
+            "components": [
+                {
+                    "type": "image",
+                    "color": "1c1c2bf4"
+                }
+            ],
+            "children": [
+                {
+                    "name": "header",
+                    "position": {
+                        "x": 0,
+                        "y": 24
+                    },
+                    "size": {
+                        "x": 480,
+                        "y": 32
+                    },
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "position": {
+                                "x": 0,
+                                "y": 2
+                            },
+                            "size": {
+                                "x": 480,
+                                "y": 32
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 22,
+                                    "color": "101018",
+                                    "horizontalAlignment": "center",
+                                    "verticalAlignment": "middle",
+                                    "text": "endless_prompt_title"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "size": {
+                                "x": 480,
+                                "y": 32
+                            },
+                            "components": [
+                                {
+                                    "type": "text",
+                                    "size": 22,
+                                    "color": "ffd700",
+                                    "horizontalAlignment": "center",
+                                    "verticalAlignment": "middle",
+                                    "text": "endless_prompt_title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "description",
+                    "position": {
+                        "x": 25,
+                        "y": 72
+                    },
+                    "size": {
+                        "x": 430,
+                        "y": 110
+                    },
+                    "components": [
+                        {
+                            "type": "text",
+                            "size": 15,
+                            "color": "d4d4e8",
+                            "horizontalAlignment": "center",
+                            "verticalAlignment": "middle",
+                            "wrapText": true,
+                            "wrapAmount": 430,
+                            "text": "endless_prompt_desc"
+                        }
+                    ]
+                },
+                {
+                    "name": "endlessButton",
+                    "position": {
+                        "x": 30,
+                        "y": 208
+                    },
+                    "size": {
+                        "x": 250,
+                        "y": 54
+                    },
+                    "children": [
+                        {
+                            "name": "button",
+                            "size": {
+                                "x": 250,
+                                "y": 54
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 15
+                            },
+                            "size": {
+                                "x": 250,
+                                "y": 24
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 16,
+                                            "color": "101018",
+                                            "horizontalAlignment": "center",
+                                            "verticalAlignment": "middle",
+                                            "text": "endless_prompt_continue"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 250,
+                                        "y": 24
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 16,
+                                            "color": "aaffaa",
+                                            "horizontalAlignment": "center",
+                                            "verticalAlignment": "middle",
+                                            "text": "endless_prompt_continue"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "finishButton",
+                    "position": {
+                        "x": 300,
+                        "y": 208
+                    },
+                    "size": {
+                        "x": 150,
+                        "y": 54
+                    },
+                    "children": [
+                        {
+                            "name": "button",
+                            "size": {
+                                "x": 150,
+                                "y": 54
+                            },
+                            "components": [
+                                {
+                                    "type": "image",
+                                    "sprite": "data/sprites/ui/button_active.png"
+                                },
+                                {
+                                    "type": "button"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "label",
+                            "position": {
+                                "x": 0,
+                                "y": 15
+                            },
+                            "size": {
+                                "x": 150,
+                                "y": 24
+                            },
+                            "children": [
+                                {
+                                    "name": "shadow",
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 16,
+                                            "color": "101018",
+                                            "horizontalAlignment": "center",
+                                            "verticalAlignment": "middle",
+                                            "text": "endless_prompt_finish"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "text",
+                                    "size": {
+                                        "x": 150,
+                                        "y": 24
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "size": 16,
+                                            "color": "e6e6f5",
+                                            "horizontalAlignment": "center",
+                                            "verticalAlignment": "middle",
+                                            "text": "endless_prompt_finish"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

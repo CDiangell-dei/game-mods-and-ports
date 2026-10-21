@@ -97,17 +97,18 @@
                 {
                     "name": "options",
                     "position": {
-                        "x": 30,
-                        "y": 65
+                        "x": 80,
+                        "y": 70
                     },
                     "size": {
-                        "x": 440,
-                        "y": 310
+                        "x": 340,
+                        "y": 280
                     },
                     "components": [
                         {
-                            "type": "verticalLayoutGroup",
-                            "spacing": 12
+                            "type": "horizontalLayoutGroup",
+                            "spacing": 20,
+                            "controlObjectSize": true
                         }
                     ]
                 }

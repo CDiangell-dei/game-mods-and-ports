@@ -965,3 +965,7 @@ auto_battle,Pular Batalhas,Localization
 shop_spider_name,Loja da Aranha,UI
 mod_enemy_preview_name,Previsão de Inimigos,Localization
 mod_enemy_preview_description,Exibe no mapa o ícone e o nome de cada monstro ou evento que espera por você nas próximas bifurcações.,Localization
+endless_prompt_title,Vitória da História!,UI
+endless_prompt_desc,"Você derrotou as Fadas e concluiu o Modo História! Deseja continuar sua jornada no Modo Sem Fim a partir do Andar 14?",UI
+endless_prompt_continue,Continuar Sem Fim ▶,UI
+endless_prompt_finish,Ver Final,UI

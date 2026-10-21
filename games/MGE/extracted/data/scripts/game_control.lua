@@ -228,9 +228,62 @@ function control.completeEncounter()
     _encounterCount = _encounterCount + 1
     control.ui.setLevel(_encounterCount)
     if _encounterCount > control.maxFloors then
+        local isStoryMode = game.data.getSetting('gameMode') < 0.5
+        if isStoryMode and _encounterCount == 14 and wasBattle then
+            local prompt = dofile('data/scripts/ui/endless_prompt.lua')
+            prompt.init(
+                function()
+                    game.data.setProgress('standard_complete', 1)
+                    game.data.setSetting('gameMode', 1)
+                    control.maxFloors = math.huge
+                    _selector.ensureEndlessTree()
+                    local cycleReward = dofile('data/scripts/ui/cycle_reward.lua')
+                    cycleReward.init(function()
+                        local combining = false
+                        _awaitingSelection = true
+                        if wasBattle then
+                            combining = control.tiles.combinePending(_checkpoint)
+                        end
+                        if _forcedEncounter ~= nil and _forcedEncounter ~= '' then
+                            _selector.forceEncounter(_forcedEncounter)
+                            _forcedEncounter = nil
+                        end
+                        control.ui.prepareEncounter(_selector.getEncounterTree())
+                        if not combining then
+                            _checkpoint()
+                        end
+                    end)
+                end,
+                function()
+                    _enterEndScene()
+                end
+            )
+            return
+        end
         _enterEndScene()
         return
     end
+
+    if wasBattle and (_encounterCount - 1) % 13 == 0 and _encounterCount > 1 then
+        local cycleReward = dofile('data/scripts/ui/cycle_reward.lua')
+        cycleReward.init(function()
+            local combining = false
+            _awaitingSelection = true
+            if wasBattle then
+                combining = control.tiles.combinePending(_checkpoint)
+            end
+            if _forcedEncounter ~= nil and _forcedEncounter ~= '' then
+                _selector.forceEncounter(_forcedEncounter)
+                _forcedEncounter = nil
+            end
+            control.ui.prepareEncounter(_selector.getEncounterTree())
+            if not combining then
+                _checkpoint()
+            end
+        end)
+        return
+    end
+
     local combining = false
     if wasBattle then
         combining = control.tiles.combinePending(_checkpoint)

@@ -59,7 +59,13 @@ function cycleReward.init(onComplete)
         local perk = _allPerks[indices[i]]
         local btnObj = game.object.instantiate('data/scenes/mode_selection_item.json', optionsParent)
         btnObj.name = 'perk_' .. tostring(i)
-        
+
+        -- Guarantee 100% opacity (mode_selection_item defaults to 0% dither mask)
+        local maskComp = btnObj.getComponent('mask')
+        if maskComp ~= nil then
+            maskComp.setSprite(game.data.loadSprite('data/sprites/dither/100.png'))
+        end
+
         btnObj.find('title').getComponent('text').setText(game.text.getText(perk.title))
         btnObj.find('description').getComponent('text').setText(game.text.getText(perk.desc))
         game.object.setVisual(btnObj.find('icon'), 'data/sprites/icons/fairies.png')

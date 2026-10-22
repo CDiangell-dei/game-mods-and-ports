@@ -38,9 +38,9 @@ Versão aprimorada com tradução integral para Português do Brasil (PT-BR), po
 
 * **Gerar Executável Windows:**
   ```bash
-  python games/MGE/build_scripts/build_windows_exe.py
+  python games/nsfw/MGE/build_scripts/build_windows_exe.py
   ```
 * **Gerar APK Android:**
   ```bash
-  python games/MGE/build_scripts/build_signed_apk.py
+  python games/nsfw/MGE/build_scripts/build_signed_apk.py
   ```

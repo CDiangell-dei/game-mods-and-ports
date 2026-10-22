@@ -4,12 +4,21 @@ Repositório privado para versionamento de código-fonte modificado, traduções
 
 ---
 
-## 🕹️ Jogos Catalogados
+## 🕹️ Categorias de Jogos Catalogados
+
+### 🌟 Jogos Gerais & Convencionais (`games/geral/`)
 
 | Jogo | Pasta | Links Oficiais & Mods | Status do Port / Mod |
 | :--- | :--- | :--- | :--- |
-| **Monster Girl Encounters** | [`games/MGE/`](games/MGE/) | • [Página Oficial (Reinesoft)](https://reinesoft.itch.io/monster-girl-encounters)<br>• [MGE Mod (ks-k-dev)](https://maybeks-k-dev.itch.io/mge-mod-by-ks-k-dev) | • Tradução PT-BR Completa<br>• APK Android (v1+v2+v3 assinado)<br>• Galeria 100% Desbloqueada<br>• Modo Sem Fim & Criador Sandbox |
-| **Shadow of the Colossus** | [`games/Shadow-of-the-Colossus/`](games/Shadow-of-the-Colossus/) | • PS2Recomp Nativo x86-64<br>• Edição SCUS-974.72 PT-BR | • 60 FPS Nativos & Ultra-Widescreen<br>• GPU Dedicada Auto (NVIDIA/AMD)<br>• WASD nos Menus & Mira com Mouse<br>• Troca com Roda do Mouse<br>• Quick Save / Quick Load (F5/F9) |
+| **Shadow of the Colossus** | [`games/geral/Shadow-of-the-Colossus/`](games/geral/Shadow-of-the-Colossus/) | • PS2Recomp Nativo x86-64<br>• Edição SCUS-974.72 PT-BR | • 60 FPS Nativos & Ultra-Widescreen<br>• GPU Dedicada Auto (NVIDIA/AMD)<br>• WASD nos Menus & Mira com Mouse<br>• Troca com Roda do Mouse<br>• Quick Save / Quick Load (F5/F9) |
+
+---
+
+### 🔞 Jogos Adultos & +18 (`games/nsfw/`)
+
+| Jogo | Pasta | Links Oficiais & Mods | Status do Port / Mod |
+| :--- | :--- | :--- | :--- |
+| **Monster Girl Encounters** | [`games/nsfw/MGE/`](games/nsfw/MGE/) | • [Página Oficial (Reinesoft)](https://reinesoft.itch.io/monster-girl-encounters)<br>• [MGE Mod (ks-k-dev)](https://maybeks-k-dev.itch.io/mge-mod-by-ks-k-dev) | • Tradução PT-BR Completa<br>• APK Android (v1+v2+v3 assinado)<br>• Galeria 100% Desbloqueada<br>• Modo Sem Fim & Criador Sandbox |
 
 ---
 
@@ -18,21 +27,25 @@ Repositório privado para versionamento de código-fonte modificado, traduções
 ```text
 game-mods-and-ports/
 ├── games/
-│   ├── MGE/                              # Monster Girl Encounters Deluxe (PT-BR)
-│   │   ├── README.md                     # Documentação específica, links e comandos
-│   │   ├── src/                          # Código-fonte modificado completo (Lua, sprites, dados)
-│   │   ├── build_scripts/                # Scripts para compilar Windows (.exe) e Android (.apk)
-│   │   ├── docs/                         # Planejamento detalhado de expansão
-│   │   └── saves/                        # Backups versionados de progresso e configurações
-│   └── Shadow-of-the-Colossus/           # Shadow of the Colossus Port Nativo PC (PT-BR)
-│       ├── GUIA_DO_JOGO_E_CONTROLES.txt  # Guia oficial de comandos e dicas rápidas
-│       ├── README.md                     # Documentação técnica e controles completos
-│       ├── launchers/                    # Scripts silenciosos (.vbs), Play.bat e sotc.ini
-│       ├── patches/                      # Perfis e mapa de símbolos para SCUS-974.72
-│       ├── src/                          # C++ modificado (GPU dedicada, mira mouse, menus)
-│       └── build_scripts/                # Script de compilação automatizada x64
+│   ├── geral/                                    # Jogos Convencionais / Livres
+│   │   └── Shadow-of-the-Colossus/               # Shadow of the Colossus Port Nativo PC (PT-BR)
+│   │       ├── GUIA_DO_JOGO_E_CONTROLES.txt      # Guia oficial de comandos e dicas rápidas
+│   │       ├── README.md                         # Documentação técnica e controles completos
+│   │       ├── launchers/                        # Scripts silenciosos (.vbs), Play.bat e sotc.ini
+│   │       ├── patches/                          # Perfis e mapa de símbolos para SCUS-974.72
+│   │       ├── src/                              # C++ modificado (GPU dedicada, mira mouse, menus)
+│   │       └── build_scripts/                    # Script de compilação automatizada x64
+│   │
+│   └── nsfw/                                     # Jogos Adultos (+18)
+│       └── MGE/                                  # Monster Girl Encounters Deluxe (PT-BR)
+│           ├── README.md                         # Documentação específica, links e comandos
+│           ├── src/                              # Código-fonte modificado completo (Lua, sprites, dados)
+│           ├── build_scripts/                    # Scripts para compilar Windows (.exe) e Android (.apk)
+│           ├── docs/                             # Planejamento detalhado de expansão
+│           └── saves/                            # Backups versionados de progresso e configurações
+│
 └── tools/
-    └── save_sync.py                      # Utilitário para backup/restauração de saves (PC <-> Celular)
+    └── save_sync.py                              # Utilitário para backup/restauração de saves (PC <-> Celular)
 ```
 
 ---
@@ -52,7 +65,7 @@ Para baixar os arquivos prontos diretamente no celular ou no computador:
 - **Fazer backup do save do PC para o Git:**
   ```bash
   python tools/save_sync.py --backup
-  git add games/MGE/saves/
+  git add games/nsfw/MGE/saves/
   git commit -m "Update save progress"
   git push
   ```

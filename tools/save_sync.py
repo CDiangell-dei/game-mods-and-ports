@@ -5,7 +5,7 @@ import sys
 
 APPDATA_PATH = os.path.expandvars(r'%APPDATA%\monster_girl_encounters')
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-MGE_SAVES_DIR = os.path.join(REPO_ROOT, 'games', 'MGE', 'saves')
+MGE_SAVES_DIR = os.path.join(REPO_ROOT, 'games', 'nsfw', 'MGE', 'saves')
 
 os.makedirs(MGE_SAVES_DIR, exist_ok=True)
 

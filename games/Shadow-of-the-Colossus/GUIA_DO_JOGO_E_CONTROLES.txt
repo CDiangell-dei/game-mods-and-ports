@@ -1,0 +1,77 @@
+================================================================================
+          SHADOW OF THE COLOSSUS - PORT NATIVO PC (PT-BR)
+                  GUIA OFICIAL DE COMANDOS E DICAS
+================================================================================
+Versao: SCUS-97472 (Edicao Legendada em Portugues do Brasil)
+Renderizacao: OpenGL 4.6 Nativo x86-64 | 60 FPS | Suporte Ultra-Widescreen
+
+--------------------------------------------------------------------------------
+1. COMO INICIAR O JOGO
+--------------------------------------------------------------------------------
+- "Jogar_Shadow_of_the_Colossus_PTBR (Sem Janela CMD).vbs":
+  -> Abre o jogo DIRETO em modo janela/tela cheia, sem abrir o terminal preto (CMD).
+- "Jogar_Shadow_of_the_Colossus_PTBR.bat" (ou "Play.bat"):
+  -> Abre com a janela de informacoes e controles visivel para diagnostico.
+
+--------------------------------------------------------------------------------
+2. COMO SALVAR E CARREGAR SEU PROGRESSO (SISTEMA DE SAVE NATIVO)
+--------------------------------------------------------------------------------
+O port conta com salvamento em tempo real (Save State) muito mais rapido e confiavel
+que o memory card tradicional:
+
+  [ F5 ] -> SALVAR JOGO IMEDIATO (Quick Save)
+            Salva tudo no mesmo instante: sua posicao, vida, itens, cavalo Agro
+            e o estado exato de cada Colosso. Pode ser usado a qualquer momento!
+
+  [ F9 ] -> CARREGAR JOGO IMEDIATO (Quick Load)
+            Restaura o jogo instantaneamente de onde voce salvou com F5.
+
+* Os arquivos de save ficam armazenados com seguranca na pasta "states/".
+
+--------------------------------------------------------------------------------
+3. TABELA COMPLETA DE CONTROLES NO TECLADO E MOUSE
+--------------------------------------------------------------------------------
+[ MOVIMENTACAO E MUNDO 3D ]
+  - W, A, S, D             : Movimentacao do Wander (Andar, Correr, Nadar)
+  - Mouse                  : Camera livre em 360 graus
+  - Barra de Espaco        : Pular / Montar em Agro / Subir degraus
+  - Shift Esquerdo         : Agachar / Segurar firme no pelo dos Colossos ao escalar
+
+[ COMBATE E ITENS ]
+  - Rolar Rodinha do Mouse : TROCA RAPIDA DE ARMAS (Espada <-> Arco <-> Desarmado)
+  - Botao Esquerdo Mouse   : Atacar com a Espada / Disparar Flecha com o Arco
+  - Botao Direito Mouse    : Focar Luz do Sol na Espada / Agarrar / Chamar Agro
+  - Movimento do Mouse     : MIRA com a Luz da Espada e MIRA do Arco automaticamente
+  - Tecla Q                : Travar / Focar a camera no Colosso proximo
+
+[ NAVEGACAO EM MENUS E DIALOGOS ]
+  - W, A, S, D             : Navegar em todas as opcoes de menus (Cima, Baixo, Esq, Dir)
+  - Setas do Teclado       : Navegacao alternativa tradicional nos menus
+  - Tecla F ou ENTER       : Confirmar / Avancar texto / Interagir
+  - Tecla ENTER            : Menu de Pausa / Opcoes
+  - Tecla TAB              : Abrir o Mapa
+
+[ RECURSOS DE TELA DO PC ]
+  - F11                    : Alternar entre Modo Janela e Tela Cheia (Borderless)
+  - F3                     : Exibir ou Ocultar medidor de FPS e desempenho na tela
+
+--------------------------------------------------------------------------------
+4. DICAS PARA A JORNADA
+--------------------------------------------------------------------------------
+1. Encontrar o Colosso:
+   Fique em um local ensolarado e segure o BOTAO DIREITO DO MOUSE (ou circulo).
+   Mova o mouse para apontar a lamina. Quando os raios de luz convergirem em
+   um ponto unico brilhante, essa e a direcao exata do proximo Colosso!
+
+2. Escalar e a Barra de Forca (Grip):
+   Ao pular no pelo de um Colosso ou beirada de pedra, MANTENHA O SHIFT ESQUERDO
+   pressionado para segurar firme. Fique de olho no circulo rosa no canto inferior
+   direito: ele mostra a sua energia de pegada. Se a barra esvaziar, Wander caira.
+   Procure plataformas planas nas costas do Colosso para soltar o Shift e recuperar
+   o folego!
+
+3. Troca de Armas Tatica:
+   Basta girar a rodinha do mouse para alternar num instante entre a espada e o arco.
+   O arco e essencial para chamar a atencao de colossos voadores ou atingir
+   pontos fracos a distancia (como patas e olhos).
+================================================================================

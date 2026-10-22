@@ -16,3 +16,10 @@ game_repacked.zip
 unaligned.apk
 debug_run.log
 local_saves/
+
+# Shadow of the Colossus binaries & ISOs grandes (>100MB)
+*.iso
+*.bin
+games/**/build/
+games/**/sotc.exe
+

@@ -1,0 +1,40 @@
+{
+  "serial": "SCUS-97472",
+  "title": "Shadow of the Colossus (BR)",
+  "region": "NTSC-U",
+  "version": "1.00",
+  "disc": {
+    "md5": "00000000000000000000000000000000",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "size": 2693955584
+  },
+  "boot_elf": {
+    "path": "SCUS_974.72",
+    "sha256": "d16ad76ba8cdf87695d94b1316d51c1f248959ec0749814c31bb7a2d55d9a2e1"
+  },
+  "modules": [
+    {
+      "name": "KERNEL",
+      "path": "KERNEL.XFF",
+      "sha256": "cbc58929d8d48fa3968df25a2e80a6a730d4cd61107c15363d6e435c9681e604",
+      "base": "0x001AA7C0",
+      "bss": "0x001F4800"
+    },
+    {
+      "name": "MANAGER",
+      "path": "MANAGER.XFF",
+      "sha256": "0545ecfb199c78229f02df7a1a4304101e86f8bd8f823047787969a087caa6e9",
+      "base": "0x01170CC0",
+      "bss": "0x0130EAC0"
+    },
+    {
+      "name": "GAMECORE",
+      "path": "GAMECORE.XFF",
+      "sha256": "48ec03d95b9ad2051f504f5a139ea67de392e9ebc5297e1f6f6f8dd7257c9f9a",
+      "base": "0x01333540",
+      "bss": "0x012D9780"
+    }
+  ],
+  "undefined_import_stub": "0x00101AA0",
+  "provenance": "SCUS-97472 NTSC profile with PT-BR translation; exact module bases verified against in-game loader logs"
+}

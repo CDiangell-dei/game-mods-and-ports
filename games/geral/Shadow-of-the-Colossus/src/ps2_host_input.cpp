@@ -511,6 +511,7 @@ namespace ps2_host_input
         static int g_wheelRightQueue = 0;
         static int g_wheelLeftQueue = 0;
         static int g_wheelStep = 0;
+        static auto g_lastWheelTime = std::chrono::steady_clock::now();
 
         PadInputState readPort(uint32_t port)
         {
@@ -547,16 +548,17 @@ namespace ps2_host_input
             }
             if (keyboard)
             {
-                // In menus and selection screens, allow W and S to navigate Up and Down
-                if (IsKeyDown(KEY_W))
-                    state.buttons |= PadButton::Up;
-                if (IsKeyDown(KEY_S))
-                    state.buttons |= PadButton::Down;
-
-                // When cursor is unlocked (menus, title screen, boot dialog, pause menu):
-                // allow A and D to navigate Left and Right options as well
+                // In menus and selection screens ONLY (when cursor is unlocked):
+                // allow W, S, A, D to navigate menu options (Up, Down, Left, Right).
+                // During active 3D gameplay (g_mouseLocked == true), WASD MUST ONLY control
+                // analog stick movement (leftX, leftY) and NEVER press D-Pad buttons,
+                // because in SotC D-Pad buttons equip/unequip/switch weapons!
                 if (!g_mouseLocked)
                 {
+                    if (IsKeyDown(KEY_W))
+                        state.buttons |= PadButton::Up;
+                    if (IsKeyDown(KEY_S))
+                        state.buttons |= PadButton::Down;
                     if (IsKeyDown(KEY_A))
                         state.buttons |= PadButton::Left;
                     if (IsKeyDown(KEY_D))
@@ -571,7 +573,7 @@ namespace ps2_host_input
                     if (g_wheelStep >= 6)
                     {
                         g_wheelStep = 0;
-                        --g_wheelRightQueue;
+                        g_wheelRightQueue = 0;
                     }
                 }
                 else if (g_wheelLeftQueue > 0)
@@ -582,7 +584,7 @@ namespace ps2_host_input
                     if (g_wheelStep >= 6)
                     {
                         g_wheelStep = 0;
-                        --g_wheelLeftQueue;
+                        g_wheelLeftQueue = 0;
                     }
                 }
                 else
@@ -635,17 +637,25 @@ namespace ps2_host_input
     void sample()
     {
         const float wheel = GetMouseWheelMove();
-        if (wheel > 0.1f)
+        const auto now = std::chrono::steady_clock::now();
+        // Prevent weapon swapping if holding attack/aim button (LMB/RMB) or during cooldown:
+        const bool isHoldingAction = IsMouseButtonDown(MOUSE_BUTTON_LEFT) || IsMouseButtonDown(MOUSE_BUTTON_RIGHT);
+        if (!isHoldingAction && std::chrono::duration_cast<std::chrono::milliseconds>(now - g_lastWheelTime).count() >= 250)
         {
-            const int notches = std::max(1, static_cast<int>(std::ceil(wheel)));
-            g_wheelRightQueue = std::min(g_wheelRightQueue + notches, 3);
-            g_wheelLeftQueue = 0;
-        }
-        else if (wheel < -0.1f)
-        {
-            const int notches = std::max(1, static_cast<int>(std::ceil(-wheel)));
-            g_wheelLeftQueue = std::min(g_wheelLeftQueue + notches, 3);
-            g_wheelRightQueue = 0;
+            if (wheel >= 0.5f)
+            {
+                g_wheelRightQueue = 1;
+                g_wheelLeftQueue = 0;
+                g_wheelStep = 0;
+                g_lastWheelTime = now;
+            }
+            else if (wheel <= -0.5f)
+            {
+                g_wheelLeftQueue = 1;
+                g_wheelRightQueue = 0;
+                g_wheelStep = 0;
+                g_lastWheelTime = now;
+            }
         }
 
         sampleMouse();

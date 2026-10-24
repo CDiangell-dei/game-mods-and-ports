@@ -19,6 +19,7 @@ Repositório privado para versionamento de código-fonte modificado, traduções
 | Jogo | Pasta | Links Oficiais & Mods | Status do Port / Mod |
 | :--- | :--- | :--- | :--- |
 | **Monster Girl Encounters** | [`games/nsfw/MGE/`](games/nsfw/MGE/) | • [Página Oficial (Reinesoft)](https://reinesoft.itch.io/monster-girl-encounters)<br>• [MGE Mod (ks-k-dev)](https://maybeks-k-dev.itch.io/mge-mod-by-ks-k-dev) | • Tradução PT-BR Completa<br>• APK Android (v1+v2+v3 assinado)<br>• Galeria 100% Desbloqueada<br>• Modo Sem Fim & Criador Sandbox |
+| **Adulttale** | [`games/nsfw/Adulttale/`](games/nsfw/Adulttale/) | • [Página Oficial (Itch.io)](https://adulttale.itch.io/adulttale) | • Tradução PT-BR Completa (1.045 chaves)<br>• Script de Auto-Merge para Novas Versões<br>• Backup de Saves (`%LOCALAPPDATA%\Adulttale`) |
 
 ---
 
@@ -37,12 +38,18 @@ game-mods-and-ports/
 │   │       └── build_scripts/                    # Script de compilação automatizada x64
 │   │
 │   └── nsfw/                                     # Jogos Adultos (+18)
-│       └── MGE/                                  # Monster Girl Encounters Deluxe (PT-BR)
-│           ├── README.md                         # Documentação específica, links e comandos
-│           ├── src/                              # Código-fonte modificado completo (Lua, sprites, dados)
-│           ├── build_scripts/                    # Scripts para compilar Windows (.exe) e Android (.apk)
-│           ├── docs/                             # Planejamento detalhado de expansão
-│           └── saves/                            # Backups versionados de progresso e configurações
+│       ├── MGE/                                  # Monster Girl Encounters Deluxe (PT-BR)
+│       │   ├── README.md                         # Documentação específica, links e comandos
+│       │   ├── src/                              # Código-fonte modificado completo (Lua, sprites, dados)
+│       │   ├── build_scripts/                    # Scripts para compilar Windows (.exe) e Android (.apk)
+│       │   ├── docs/                             # Planejamento detalhado de expansão
+│       │   └── saves/                            # Backups versionados de progresso e configurações
+│       │
+│       └── Adulttale/                            # Adulttale (Tradução Completa PT-BR)
+│           ├── README.md                         # Links oficiais e instruções de atualização
+│           ├── lang/                             # Arquivos JSON de localização (pt.json, esp.json, eng.json) e fontes
+│           ├── scripts/                          # Script de merge/aplicação automática para novas versões
+│           └── saves/                            # Backups versionados de saves e configurações
 │
 └── tools/
     └── save_sync.py                              # Utilitário para backup/restauração de saves (PC <-> Celular)

@@ -1,0 +1,5556 @@
+{
+  "Scenes/battle_scenes/undertale/chara_fight.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 1324200330,
+      "en": "Oh-!",
+      "es": "Oh-!"
+    },
+    {
+      "bucket": 6,
+      "hash": 1324200331,
+      "en": "While I didn’t expect you to be this needy",
+      "es": "Aunque no esperaba que estuvieras tan desesperado"
+    },
+    {
+      "bucket": 12,
+      "hash": 1324200328,
+      "en": "A fight’s no fun if it’s one sided now is it?",
+      "es": "Una pelea no es divertida si es unilateral, ¿verdad?"
+    },
+    {
+      "bucket": 12,
+      "hash": 620331253,
+      "en": "Pantyhose",
+      "es": "Pantimedias"
+    },
+    {
+      "bucket": 22,
+      "hash": 1324200329,
+      "en": "Let’s see how long you’ll last~",
+      "es": "Veamos cuánto duras~"
+    },
+    {
+      "bucket": 28,
+      "hash": -1448306825,
+      "en": "Bra",
+      "es": "Sostén"
+    },
+    {
+      "bucket": 34,
+      "hash": 195147211,
+      "en": "Alright partner, show me what your LOVE can do.",
+      "es": "Muy bien, compañero, muéstrame de qué es capaz tu AMOR."
+    },
+    {
+      "bucket": 34,
+      "hash": -1838259802,
+      "en": "An.. interesting thought has come to mind.",
+      "es": "Se me acaba de ocurrir una idea.. interesante."
+    },
+    {
+      "bucket": 44,
+      "hash": -1838259801,
+      "en": "I wonder how long you’d hold out",
+      "es": "Me pregunto cuánto aguantarías"
+    },
+    {
+      "bucket": 50,
+      "hash": -1838259804,
+      "en": "Having your head crushed between my thighs?",
+      "es": "con la cabeza aplastada entre mis muslos?"
+    },
+    {
+      "bucket": 56,
+      "hash": -1838259803,
+      "en": "Oh?",
+      "es": "¿Oh?"
+    },
+    {
+      "bucket": 62,
+      "hash": -1838259806,
+      "en": "I think someone likes that idea~",
+      "es": "Creo que a alguien le gusta esa idea~"
+    },
+    {
+      "bucket": 68,
+      "hash": 850752058,
+      "en": "* Clean dodge.\n* Your next ACT will be a little stronger.",
+      "es": "* Esquiva limpia.\n* Tu siguiente ACT sera un poco mas fuerte."
+    },
+    {
+      "bucket": 74,
+      "hash": 339379474,
+      "en": "Apron",
+      "es": "Delantal"
+    },
+    {
+      "bucket": 80,
+      "hash": 585775617,
+      "en": "Top Glitch",
+      "es": "Glitch superior"
+    },
+    {
+      "bucket": 86,
+      "hash": 1208965806,
+      "en": "Considering you’re drooling like an animal, I’ll take that as a yes.",
+      "es": "Teniendo en cuenta que babeas como un animal, lo tomaré como un sí."
+    },
+    {
+      "bucket": 92,
+      "hash": 1208965807,
+      "en": "Like what you see?",
+      "es": "¿Te gusta lo que ves?"
+    },
+    {
+      "bucket": 98,
+      "hash": 1208965804,
+      "en": "It’d be a shame for you to die after everything~",
+      "es": "Sería una pena que murieras después de todo esto~"
+    },
+    {
+      "bucket": 104,
+      "hash": 1208965805,
+      "en": "Continue impressing me.",
+      "es": "Sigue impresionándome."
+    },
+    {
+      "bucket": 110,
+      "hash": -1495094233,
+      "en": "Top",
+      "es": "Top"
+    },
+    {
+      "bucket": 116,
+      "hash": 1750942285,
+      "en": "Bottom Glitch",
+      "es": "Glitch inferior"
+    },
+    {
+      "bucket": 122,
+      "hash": 1954121779,
+      "en": "* Mercy",
+      "es": "* Piedad"
+    },
+    {
+      "bucket": 128,
+      "hash": 1647970897,
+      "en": "* Flee",
+      "es": "* Huir"
+    },
+    {
+      "bucket": 128,
+      "hash": 810309722,
+      "en": "Shirt",
+      "es": "Camisa"
+    },
+    {
+      "bucket": 138,
+      "hash": -311823497,
+      "en": "Cape",
+      "es": "Capa"
+    },
+    {
+      "bucket": 144,
+      "hash": -196690154,
+      "en": "Cutting close, aren’t you?",
+      "es": "Cortas muy cerca, ¿eh?"
+    },
+    {
+      "bucket": 150,
+      "hash": -196690153,
+      "en": "You would have paid severely if you cut me, you know.",
+      "es": "Habrías pagado caro si me hubieras cortado, ¿sabes?"
+    },
+    {
+      "bucket": 156,
+      "hash": -196690156,
+      "en": "I suppose I can reward your bravery.",
+      "es": "Supongo que puedo recompensar tu valentía."
+    },
+    {
+      "bucket": 156,
+      "hash": 304761924,
+      "en": "Grab Boobs",
+      "es": "Agarrarle las bubis"
+    },
+    {
+      "bucket": 166,
+      "hash": -196690155,
+      "en": "After all, you’ll either earn me or die trying, right partner~?",
+      "es": "Después de todo, o me ganas o mueres intentándolo, ¿verdad, compañero~?"
+    },
+    {
+      "bucket": 172,
+      "hash": 1349807430,
+      "en": "Panties",
+      "es": "Bragas"
+    },
+    {
+      "bucket": 178,
+      "hash": 1885846880,
+      "en": "* Do I have to do everything myself?",
+      "es": "* ¿Tengo que hacerlo todo yo misma?"
+    },
+    {
+      "bucket": 184,
+      "hash": -1884181516,
+      "en": "You won!\n* You earned {exp} EXP and {gold} Gold.",
+      "es": "Has ganado!\n* Recibiste {exp} EXP and {gold} Gold."
+    },
+    {
+      "bucket": 190,
+      "hash": 11078124,
+      "en": "Sex",
+      "es": "Sexo"
+    },
+    {
+      "bucket": 196,
+      "hash": -1031332006,
+      "en": "… Wait, what?",
+      "es": "… Espera, ¿qué?"
+    },
+    {
+      "bucket": 202,
+      "hash": -1031332005,
+      "en": "I thought you were trying to undress me.",
+      "es": "Creí que intentabas desnudarme."
+    },
+    {
+      "bucket": 208,
+      "hash": -1031332008,
+      "en": "You just were trying to kill me again.",
+      "es": "Acabas de intentar matarme otra vez."
+    },
+    {
+      "bucket": 214,
+      "hash": -1031332007,
+      "en": "What a shame..",
+      "es": "Qué pena.."
+    },
+    {
+      "bucket": 220,
+      "hash": -1031332002,
+      "en": "Perhaps I can still make the best of this..",
+      "es": "Quizá aún pueda sacar algo bueno de esto.."
+    },
+    {
+      "bucket": 226,
+      "hash": -1230469770,
+      "en": "* Where do you think you're going?",
+      "es": "* A donde crees que vas?"
+    },
+    {
+      "bucket": 226,
+      "hash": -1031332001,
+      "en": "..while teaching you some manners",
+      "es": "..mientras te enseño algunos modales"
+    },
+    {
+      "bucket": 236,
+      "hash": -337868969,
+      "en": "Shorts",
+      "es": "Shorts"
+    },
+    {
+      "bucket": 242,
+      "hash": -1230469772,
+      "en": "* You try to flee...",
+      "es": "* Intentas huir"
+    },
+    {
+      "bucket": 248,
+      "hash": -1230469771,
+      "en": "* ...",
+      "es": "* …"
+    },
+    {
+      "bucket": 254,
+      "hash": 1519999193,
+      "en": "* Chara is wide open.\n* Your next ACT will be much stronger.",
+      "es": "* Chara esta vulnerable.\n* Tu siguiente ACT sera mucho mas fuerte."
+    },
+    {
+      "bucket": 260,
+      "hash": -456823268,
+      "en": "Pants",
+      "es": "Pantalón"
+    },
+    {
+      "bucket": 266,
+      "hash": -2067039933,
+      "en": "Sweater",
+      "es": "Sudadera"
+    },
+    {
+      "bucket": 272,
+      "hash": 2084988354,
+      "en": "* You are far beyond that, aren't you?",
+      "es": "* Ya es muy tarde para ese tipo de cosas"
+    },
+    {
+      "bucket": 272,
+      "hash": 627003734,
+      "en": "Grab Ass",
+      "es": "Agarrarle las nalgas"
+    }
+  ],
+  "Scenes/battle_scenes/undertale/chara_flirt.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 1552688467,
+      "en": "If everything were to reset back to nothing again, what would you do?",
+      "es": "Si todo volviera a reiniciarse a la nada, ¿qué harías?"
+    },
+    {
+      "bucket": 0,
+      "hash": -1093788132,
+      "en": "I can’t help but watch the way your body moves",
+      "es": "No puedo evitar mirar cómo se mueve tu cuerpo"
+    },
+    {
+      "bucket": 10,
+      "hash": 1552688464,
+      "en": "You keep impressing me with your knife-play, you know.",
+      "es": "Sigues impresionándome con tu manejo de la navaja, ¿sabes?"
+    },
+    {
+      "bucket": 10,
+      "hash": -1093788131,
+      "en": "I do have another weapon if you catch my drift.",
+      "es": "Tengo otra arma, si sabes a qué me refiero."
+    },
+    {
+      "bucket": 20,
+      "hash": 1552688465,
+      "en": "I noticed you like to watch me more than my knife.",
+      "es": "Noté que te gusta mirarme más que a mi navaja."
+    },
+    {
+      "bucket": 20,
+      "hash": 1477021130,
+      "en": "Smart choice, but I know you just wanna stare at my chest too~",
+      "es": "Buena elección, pero sé que también quieres mirarme el pecho~"
+    },
+    {
+      "bucket": 30,
+      "hash": -1532531374,
+      "en": "* Amazing answer!\n* The next ACT will be stronger.",
+      "es": "* Respuesta increible!\n* El siguiente ACT sera mas fuerte."
+    },
+    {
+      "bucket": 30,
+      "hash": 1477021131,
+      "en": "I suppose that’s true. I do have more to teach you if you’re interested~",
+      "es": "Supongo que es cierto. Tengo más que enseñarte si te interesa~"
+    },
+    {
+      "bucket": 40,
+      "hash": 1477021128,
+      "en": "A respectable choice, but how much is left to do?",
+      "es": "Una elección respetable, pero ¿cuánto queda por hacer?"
+    },
+    {
+      "bucket": 46,
+      "hash": -1685530732,
+      "en": "...Hah. Say that again when you survive.",
+      "es": "...Ja. Repite eso cuando sobrevivas."
+    },
+    {
+      "bucket": 52,
+      "hash": -2140394184,
+      "en": "Careful. I might start believing you.",
+      "es": "Cuidado. Podria empezar a creerte."
+    },
+    {
+      "bucket": 52,
+      "hash": 1013238547,
+      "en": "Flirt",
+      "es": "Seducir"
+    },
+    {
+      "bucket": 52,
+      "hash": -1556474770,
+      "en": "I would go back and do whatever I haven’t done before",
+      "es": "Volvería y haría todo lo que no hice antes"
+    },
+    {
+      "bucket": 52,
+      "hash": -1831214914,
+      "en": "How about I fix that problem for you and cut them out?",
+      "es": "¿Qué tal si arreglo ese problema y te los saco?"
+    },
+    {
+      "bucket": 70,
+      "hash": -1831214913,
+      "en": "..I’m going to pretend I didn’t hear that.",
+      "es": "..Voy a fingir que no oí eso."
+    },
+    {
+      "bucket": 76,
+      "hash": -1831214916,
+      "en": "I hope you aren’t just here to waste my time..",
+      "es": "Espero que no estés aquí solo para hacerme perder el tiempo.."
+    },
+    {
+      "bucket": 76,
+      "hash": -1556474772,
+      "en": "It’s not quite the knife I need to watch out for.",
+      "es": "No es exactamente la navaja lo que debo vigilar."
+    },
+    {
+      "bucket": 86,
+      "hash": -1556474771,
+      "en": "I did learn from the best, after all.",
+      "es": "Aprendí de la mejor, después de todo."
+    },
+    {
+      "bucket": 92,
+      "hash": -494996221,
+      "en": "Uh... nice knife?",
+      "es": "Eh... bonita navaja?"
+    },
+    {
+      "bucket": 98,
+      "hash": -695885482,
+      "en": "Am I hypnotizing you with my body? How adorable~",
+      "es": "¿Te estoy hipnotizando con mi cuerpo? Qué adorable~"
+    },
+    {
+      "bucket": 104,
+      "hash": -695885481,
+      "en": "Oh~? I suppose I’ll just have to reach in and find it myself then.",
+      "es": "¿Oh~? Supongo que tendré que meter la mano y encontrarla yo misma."
+    },
+    {
+      "bucket": 110,
+      "hash": -695885484,
+      "en": "I underestimated your dedication. I’m flattered~",
+      "es": "Subestimé tu dedicación. Me halagas~"
+    },
+    {
+      "bucket": 116,
+      "hash": 275582754,
+      "en": "I’d probably just give up, killing again and again is boring.",
+      "es": "Probablemente me rendiría; matar una y otra vez es aburrido."
+    },
+    {
+      "bucket": 122,
+      "hash": 275582752,
+      "en": "Yeah, the glint of it hurts my eyes.",
+      "es": "Sí, su brillo me lastima los ojos."
+    },
+    {
+      "bucket": 128,
+      "hash": 275582753,
+      "en": "Eh, I’m more into feet than knifeplay.",
+      "es": "Eh, me van más los pies que jugar con navajas."
+    },
+    {
+      "bucket": 134,
+      "hash": -1342172526,
+      "en": "How cute of you",
+      "es": "Ahhh, que lindo"
+    },
+    {
+      "bucket": 134,
+      "hash": 1339770517,
+      "en": "You're hard to look away from.",
+      "es": "Es dificil dejar de mirarte."
+    },
+    {
+      "bucket": 144,
+      "hash": -1342172525,
+      "en": "It almost makes me forget I’m trying to kill you.",
+      "es": "Casi me haces olvidar que nos estamos matando a navajazos"
+    },
+    {
+      "bucket": 150,
+      "hash": 1666212746,
+      "en": "* Good answer.\n* Repeating Flirt made it less effective.",
+      "es": "* Buena respuesta.\n* Repetir Seducir lo hizo menos efectivo."
+    },
+    {
+      "bucket": 156,
+      "hash": 1884753392,
+      "en": "* Chara is off-balance.\n* Your next ACT will be stronger.",
+      "es": "* Chara perdio el ritmo.\n* Tu siguiente ACT sera mas fuerte."
+    },
+    {
+      "bucket": 162,
+      "hash": 940419502,
+      "en": "* Bad answer.\n* Chara barely reacts.",
+      "es": "* Mala respuesta.\n* Chara apenas reacciona."
+    },
+    {
+      "bucket": 168,
+      "hash": 182883607,
+      "en": "If this is LOVE, I want to earn yours.",
+      "es": "Si esto es AMOR, quiero ganarme el tuyo."
+    },
+    {
+      "bucket": 174,
+      "hash": -1133798984,
+      "en": "That was your line?",
+      "es": "Esa era tu frase?"
+    },
+    {
+      "bucket": 180,
+      "hash": -1047923326,
+      "en": "* Good answer.\n* Chara's Lust rose.",
+      "es": "* Buena respuesta.\n* La Lujuria de Chara subio."
+    },
+    {
+      "bucket": 180,
+      "hash": -813775796,
+      "en": "* Chara is expecting a better trick this time.",
+      "es": "* Chara espera un truco mejor esta vez."
+    },
+    {
+      "bucket": 190,
+      "hash": -1093788130,
+      "en": "I’d erase countless worlds just to find you again.",
+      "es": "Borraría incontables mundos solo para encontrarte de nuevo."
+    }
+  ],
+  "Scenes/intro/chara_intro/chara_intro_translation.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 1610945761,
+      "en": "* To destroy it all.",
+      "es": "* Destruirlo todo"
+    },
+    {
+      "bucket": 6,
+      "hash": 268429568,
+      "en": "* I'll show you something new.",
+      "es": "* Voy a enseñarte algo nuevo."
+    },
+    {
+      "bucket": 12,
+      "hash": 268429569,
+      "en": "* Are you ready?",
+      "es": "* Estás listo?"
+    },
+    {
+      "bucket": 18,
+      "hash": 268429582,
+      "en": "* But.",
+      "es": "* Pero…"
+    },
+    {
+      "bucket": 24,
+      "hash": 1610945770,
+      "en": "* All your stats.",
+      "es": "* Todas tus estadísticas"
+    },
+    {
+      "bucket": 24,
+      "hash": 268429583,
+      "en": "* I'll entertain the theory I've been making thanks to this.",
+      "es": "* Consideraré la teoría que he estado elaborando gracias a esto."
+    },
+    {
+      "bucket": 34,
+      "hash": 1610945771,
+      "en": "* But you already know that.",
+      "es": "* Pero ya sabes eso."
+    },
+    {
+      "bucket": 34,
+      "hash": 268429580,
+      "en": "* What is it that you really want, partner?",
+      "es": "* Que es lo que quieres en realidad, compañero?"
+    },
+    {
+      "bucket": 44,
+      "hash": 1610945768,
+      "en": "* I am CHARA.",
+      "es": "* Soy Chara"
+    },
+    {
+      "bucket": 44,
+      "hash": 268429581,
+      "en": "* Your logic seems flawed from my perspective.",
+      "es": "* Desde mi punto de vista, tu lógica parece incoherente"
+    },
+    {
+      "bucket": 54,
+      "hash": 1610945769,
+      "en": "* Greetings.",
+      "es": "* Saludos."
+    },
+    {
+      "bucket": 54,
+      "hash": 268429578,
+      "en": "* You made that clear a thousand times ago.",
+      "es": "* Ya lo has dejado claro en las miles de veces antes."
+    },
+    {
+      "bucket": 64,
+      "hash": 1610945774,
+      "en": "* You still decide it's better to recreate it all.",
+      "es": "* Sigues pensando que es mejor recrearlo todo"
+    },
+    {
+      "bucket": 64,
+      "hash": 268429579,
+      "en": "* ...",
+      "es": "* …"
+    },
+    {
+      "bucket": 74,
+      "hash": 1610945775,
+      "en": "* Yet.",
+      "es": "* Y aun así"
+    },
+    {
+      "bucket": 74,
+      "hash": 268429576,
+      "en": "* At first I assumed it was because of your sick sentimentality.",
+      "es": "* Primero pensaba que era por tu enfermizo sentimentalismo"
+    },
+    {
+      "bucket": 84,
+      "hash": 1610945772,
+      "en": "* All parts of me.",
+      "es": "* Todas y cada parte de mi"
+    },
+    {
+      "bucket": 84,
+      "hash": 268429577,
+      "en": "* That wasn't the case.",
+      "es": "* Pero no es el caso"
+    },
+    {
+      "bucket": 94,
+      "hash": 1610945773,
+      "en": "* All your actions.",
+      "es": "* Todas tus acciones"
+    },
+    {
+      "bucket": 100,
+      "hash": -1354918402,
+      "en": "* Hmm... So that's how it will be…",
+      "es": "* Hmmm… entonces así son las cosas…"
+    },
+    {
+      "bucket": 106,
+      "hash": -1354918401,
+      "en": "* No...?",
+      "es": "* No...?"
+    },
+    {
+      "bucket": 112,
+      "hash": -1354918404,
+      "en": "* It's such a shame...",
+      "es": "* Es una pena."
+    },
+    {
+      "bucket": 118,
+      "hash": -1354918403,
+      "en": "* I misunderstood your actions.",
+      "es": "* Creo que confundí el objetivo de tus acciones."
+    },
+    {
+      "bucket": 124,
+      "hash": -1354918406,
+      "en": "* Let us send this world back into the abyss.",
+      "es": "* Enviemos este mundo de vuelta al abismo."
+    },
+    {
+      "bucket": 130,
+      "hash": -1354918405,
+      "en": "* Well then...",
+      "es": "* Entonces…"
+    },
+    {
+      "bucket": 136,
+      "hash": 113120658,
+      "en": "Yes",
+      "es": "Sí"
+    },
+    {
+      "bucket": 142,
+      "hash": -1878843096,
+      "en": "No",
+      "es": "No"
+    },
+    {
+      "bucket": 148,
+      "hash": -1558587382,
+      "en": "* Let's enjoy ourselves on this new experiment.",
+      "es": "* Vamos a disfrutar juntos de este nuevo experimento."
+    },
+    {
+      "bucket": 154,
+      "hash": -1558587381,
+      "en": "* It's settled then, partner.",
+      "es": "* Entonces esta decidido, compañero."
+    },
+    {
+      "bucket": 160,
+      "hash": 1610945760,
+      "en": "* To meet me again in the end.",
+      "es": "* Para volver a verme al final"
+    }
+  ],
+  "Scenes/intro/flowey_intro/flowey_dialog.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -102539959,
+      "en": "I promise I won't get in your way!",
+      "es": "Te prometo que no seré un estorbo."
+    },
+    {
+      "bucket": 6,
+      "hash": -102539954,
+      "en": "See? I never betrayed you!",
+      "es": "Lo ves? Nunca te traicioné!"
+    },
+    {
+      "bucket": 12,
+      "hash": -102539953,
+      "en": "It was all a trick! See?",
+      "es": "Era todo un truco, entiendes?"
+    },
+    {
+      "bucket": 18,
+      "hash": -102539956,
+      "en": ". . .",
+      "es": ". . ."
+    },
+    {
+      "bucket": 24,
+      "hash": -102539955,
+      "en": "I was waiting to k-kill him for YOU!",
+      "es": "Estaba esperando para matarlo POR TI?"
+    },
+    {
+      "bucket": 30,
+      "hash": -102539958,
+      "en": "After...",
+      "es": "Después…"
+    },
+    {
+      "bucket": 36,
+      "hash": -102539957,
+      "en": "After all, it's me! Your best friend!",
+      "es": "Después de todo, soy tu mejor amigo."
+    },
+    {
+      "bucket": 36,
+      "hash": -102539962,
+      "en": "[shake]I can help... I can... I can…[/shake]",
+      "es": "[shake]Puedo ayudarte... puedo… lo sé…[/shake]"
+    },
+    {
+      "bucket": 46,
+      "hash": -102539960,
+      "en": "I'm helpful! I can be useful to you!",
+      "es": "Soy bueno, puedo serte muy útil."
+    },
+    {
+      "bucket": 46,
+      "hash": -102539961,
+      "en": "[shake]Please don't kill me…[/shake]",
+      "es": "[shake]Por favor… No me hagas daño…[/shake]"
+    }
+  ],
+  "Scenes/intro/mysterious_item/mysterious_item_translation.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 1486913906,
+      "en": "You think we are special anywhere else?",
+      "es": "You think we are special anywhere else?"
+    },
+    {
+      "bucket": 6,
+      "hash": 1486913907,
+      "en": ". . .",
+      "es": ". . ."
+    },
+    {
+      "bucket": 12,
+      "hash": 1486913904,
+      "en": "Although our relationship is weird. I don't quite get why you do what you do.",
+      "es": "Although our relationship is weird. I don't quite get why you do what you do."
+    },
+    {
+      "bucket": 18,
+      "hash": 1486913905,
+      "en": "Probably, right? It almost feels like it's meant to be.",
+      "es": "Probably, right? It almost feels like it's meant to be."
+    },
+    {
+      "bucket": 24,
+      "hash": 1486913910,
+      "en": "It's weird. And it doesn't make any sense either.",
+      "es": "It's weird. And it doesn't make any sense either."
+    },
+    {
+      "bucket": 30,
+      "hash": 1486913911,
+      "en": "I don't mind it, as you may have noticed but…",
+      "es": "I don't mind it, as you may have noticed but…"
+    },
+    {
+      "bucket": 36,
+      "hash": 1486913908,
+      "en": "Feel free to join, okay?",
+      "es": "Feel free to join, okay?"
+    },
+    {
+      "bucket": 42,
+      "hash": 1486913909,
+      "en": "Well, I'm off for now. I don't think there are any other beds here so... unless you are fine sleeping on the bean bag...",
+      "es": "Well, I'm off for now. I don't think there are any other beds here so... unless you are fine sleeping on the bean bag..."
+    },
+    {
+      "bucket": 48,
+      "hash": 1503691494,
+      "en": "Oh, yeah. That's fair I guess. Not all can go through that.",
+      "es": "Oh, yeah. That's fair I guess. Not all can go through that."
+    },
+    {
+      "bucket": 54,
+      "hash": 1503691495,
+      "en": "On the bright side, some people have it way worse, so cheer up!",
+      "es": "On the bright side, some people have it way worse, so cheer up!"
+    },
+    {
+      "bucket": 60,
+      "hash": 1503691492,
+      "en": "Wait, I'm sorry, that sounded bad...",
+      "es": "Wait, I'm sorry, that sounded bad..."
+    },
+    {
+      "bucket": 66,
+      "hash": 1503691493,
+      "en": "Oh c'mon, don't act like you aren't offended!",
+      "es": "Oh c'mon, don't act like you aren't offended!"
+    },
+    {
+      "bucket": 72,
+      "hash": 1503691490,
+      "en": "I know you are, I'm sorry.",
+      "es": "I know you are, I'm sorry."
+    },
+    {
+      "bucket": 78,
+      "hash": 1503691491,
+      "en": "I'm trying my best okay? You asked me to sit with you either way, so suck it up!",
+      "es": "I'm trying my best okay? You asked me to sit with you either way, so suck it up!"
+    },
+    {
+      "bucket": 84,
+      "hash": 1503691488,
+      "en": "It does make me wonder, are there any worlds out there?",
+      "es": "It does make me wonder, are there any worlds out there?"
+    },
+    {
+      "bucket": 90,
+      "hash": 1503691489,
+      "en": "Phahaha, c'mon! I don't mean that!",
+      "es": "Phahaha, c'mon! I don't mean that!"
+    },
+    {
+      "bucket": 96,
+      "hash": 1503691502,
+      "en": "I meant something like... universes. Are there any more?",
+      "es": "I meant something like... universes. Are there any more?"
+    },
+    {
+      "bucket": 102,
+      "hash": 1503691503,
+      "en": "Or are we the one and only one there is?",
+      "es": "Or are we the one and only one there is?"
+    },
+    {
+      "bucket": 108,
+      "hash": -279441518,
+      "en": "If you think about it, beyond this I have nothing",
+      "es": "If you think about it, beyond this I have nothing"
+    },
+    {
+      "bucket": 114,
+      "hash": -279441517,
+      "en": "It's all so suffocating. ",
+      "es": "It's all so suffocating. "
+    },
+    {
+      "bucket": 120,
+      "hash": -279441520,
+      "en": "Really, I don't know what to say.",
+      "es": "Really, I don't know what to say."
+    },
+    {
+      "bucket": 126,
+      "hash": -279441519,
+      "en": "Eternal dark swallowed by... something.",
+      "es": "Eternal dark swallowed by... something."
+    },
+    {
+      "bucket": 132,
+      "hash": -279441514,
+      "en": "I don't blame them, I suppose. ",
+      "es": "I don't blame them, I suppose. "
+    },
+    {
+      "bucket": 138,
+      "hash": -279441513,
+      "en": "Some people try to find meaning, hidden within the details.",
+      "es": "Some people try to find meaning, hidden within the details."
+    },
+    {
+      "bucket": 144,
+      "hash": -279441516,
+      "en": "C'mon, I could never hate you.",
+      "es": "C'mon, I could never hate you."
+    },
+    {
+      "bucket": 150,
+      "hash": -279441515,
+      "en": "Not you especially, silly!",
+      "es": "Not you especially, silly!"
+    },
+    {
+      "bucket": 156,
+      "hash": -279441510,
+      "en": "What's up?",
+      "es": "What's up?"
+    },
+    {
+      "bucket": 162,
+      "hash": -279441509,
+      "en": ". . .",
+      "es": ". . ."
+    }
+  ],
+  "Scenes/menu_scenes/shop/traductions/nebby_shop_dialogue.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -1880286244,
+      "en": "Oh, sorry for not introducing myself…",
+      "es": "Oh, disculpa por no presentarme…"
+    },
+    {
+      "bucket": 0,
+      "hash": -347345569,
+      "en": "Even looking at it gives me shivers...",
+      "es": "Inclsuo solo con observarla me da escalofríos"
+    },
+    {
+      "bucket": 10,
+      "hash": -1880286243,
+      "en": "I’m Nebby, nice to meet you!",
+      "es": "Soy Nebby, ¡encantada de conocerte!"
+    },
+    {
+      "bucket": 10,
+      "hash": -528143398,
+      "en": "Backshot",
+      "es": "Por detrás"
+    },
+    {
+      "bucket": 20,
+      "hash": 1528372845,
+      "en": "Looking for a new perspective? I dunno if you can handle it~",
+      "es": "¿Buscas un cambio de perspectiva? Dudo que puedas manejarlo~"
+    },
+    {
+      "bucket": 26,
+      "hash": 552723444,
+      "en": "Back",
+      "es": "Volver"
+    },
+    {
+      "bucket": 26,
+      "hash": 1591033885,
+      "en": "It’s certainly quite eye-catching. You've already got someone in mind to give it to, don’t you? ",
+      "es": "Es bastante llamativo sin duda, ya tienes en mente a quien dárselo ¿no?"
+    },
+    {
+      "bucket": 36,
+      "hash": 233595493,
+      "en": "Sell",
+      "es": "Vender"
+    },
+    {
+      "bucket": 42,
+      "hash": 1452246634,
+      "en": "I don’t really remember what I crashed in…",
+      "es": "La verdad es que no recuerdo en qué me estrellé…"
+    },
+    {
+      "bucket": 42,
+      "hash": -500405557,
+      "en": "Talk",
+      "es": "Hablar"
+    },
+    {
+      "bucket": 52,
+      "hash": 1452246635,
+      "en": "Or how long it’s been in all honesty, either.",
+      "es": "Ni cuánto tiempo ha pasado."
+    },
+    {
+      "bucket": 58,
+      "hash": 1452246632,
+      "en": "But I don’t really see any danger, so I think I can hang around for a bit!",
+      "es": "Pero no veo ningún peligro, así que creo que puedo quedarme un rato."
+    },
+    {
+      "bucket": 64,
+      "hash": 1452246633,
+      "en": "Besides, I think we would really…",
+      "es": "Además, creo que podriamos..."
+    },
+    {
+      "bucket": 70,
+      "hash": 1452246638,
+      "en": "«enjoy», our company together~",
+      "es": "«disfrutar» mucho el pasar un tiempo juntos…"
+    },
+    {
+      "bucket": 76,
+      "hash": 1452246639,
+      "en": "(all for a price of course)",
+      "es": "(todo por un precio, claro)"
+    },
+    {
+      "bucket": 82,
+      "hash": -297442131,
+      "en": "You..~!",
+      "es": "Tú..~!"
+    },
+    {
+      "bucket": 88,
+      "hash": -301099321,
+      "en": "I don't have much on me as is, so I can't give you any money...",
+      "es": "No tengo mucho dinero arriba, así que no puedo darte nada a cambio."
+    },
+    {
+      "bucket": 94,
+      "hash": 1259891775,
+      "en": "It's dirty...",
+      "es": "Está sucio..."
+    },
+    {
+      "bucket": 94,
+      "hash": -184659388,
+      "en": "Just be careful how much you use this, m'kay?",
+      "es": "Solo ten cuidado cuanto tomas de esto, ¿de acuerdo?"
+    },
+    {
+      "bucket": 104,
+      "hash": -184659387,
+      "en": "I know what you are~",
+      "es": "Se lo que quieres~"
+    },
+    {
+      "bucket": 110,
+      "hash": -851666894,
+      "en": "Great job~!",
+      "es": "¡Buen trabajo~!"
+    },
+    {
+      "bucket": 116,
+      "hash": -851666893,
+      "en": "I feel like you deserve a more... sufficient reward.",
+      "es": "Siento que mereces una recompensa más... satisfactoria."
+    },
+    {
+      "bucket": 122,
+      "hash": 1169833756,
+      "en": "Hi~",
+      "es": "Holi~"
+    },
+    {
+      "bucket": 122,
+      "hash": -851666896,
+      "en": "Don't you think~?",
+      "es": "¿No crees~?"
+    },
+    {
+      "bucket": 132,
+      "hash": 1198211340,
+      "en": "Costumes",
+      "es": "Apariencias"
+    },
+    {
+      "bucket": 138,
+      "hash": -943777183,
+      "en": "Nice and sweet~",
+      "es": "Dulce y delicioso~"
+    },
+    {
+      "bucket": 144,
+      "hash": 2105135450,
+      "en": "A bummer, I know.",
+      "es": "Una lástima, lo sé."
+    },
+    {
+      "bucket": 150,
+      "hash": 2105135451,
+      "en": "Ah - sorry for getting all gloomy on you, hun.",
+      "es": "Ah… perdón por ponerme tan seria contigo,  cariño."
+    },
+    {
+      "bucket": 156,
+      "hash": 2105135448,
+      "en": "Go on, enjoy yourself, m'kay~?",
+      "es": "Anda, sigue divirtiéndote, ¿vale~?"
+    },
+    {
+      "bucket": 162,
+      "hash": 2128199178,
+      "en": "Pretty neat, huh?",
+      "es": "Bastante genial, ¿verdad?"
+    },
+    {
+      "bucket": 162,
+      "hash": 2105135454,
+      "en": "Not sure if it's a side effect of travelling or entering this world specifically.",
+      "es": "No sé si es un efecto secundario de viajar o de entrar a este mundo en específico."
+    },
+    {
+      "bucket": 172,
+      "hash": 2128199179,
+      "en": "So, to avoid getting bored, I decided to rummage through the things that were left and set up this shop!",
+      "es": "Así que, para no aburrirme, decidí rebuscar entre las cosas que quedaron y ¡monté esta tienda!"
+    },
+    {
+      "bucket": 172,
+      "hash": 2105135455,
+      "en": "I'd show you my «ship», but… there's not much left to show, really.",
+      "es": "Te mostraría mi «nave», pero… no queda mucho que mostrar, la verdad."
+    },
+    {
+      "bucket": 182,
+      "hash": 2105135452,
+      "en": "It's all busted up, and with this whole forgetting thing, I don't even know how to fix it.",
+      "es": "Está toda destrozada, y con este asunto de olvidar las cosas, ni siquiera sé cómo repararla."
+    },
+    {
+      "bucket": 182,
+      "hash": 972310896,
+      "en": "So sorry about that...",
+      "es": "Lo siento mucho por eso..."
+    },
+    {
+      "bucket": 192,
+      "hash": 2105135453,
+      "en": "Or what it's even supposed to look like…",
+      "es": "Ni cómo se supone que debería verse…"
+    },
+    {
+      "bucket": 198,
+      "hash": 2128199182,
+      "en": "There was a huge crash and… hmm…",
+      "es": "Hubo un gran estruendo y… mmm…"
+    },
+    {
+      "bucket": 198,
+      "hash": 1448712491,
+      "en": "So I hope my tits will do, hun~",
+      "es": "Así que espero que mis tetas te sirvan, cariño~"
+    },
+    {
+      "bucket": 208,
+      "hash": 2128199183,
+      "en": "Oh... Well that’s pretty simple, actually-!",
+      "es": "Oh… Bueno, en realidad es bastante simple…"
+    },
+    {
+      "bucket": 208,
+      "hash": -1787162148,
+      "en": "I'm afraid you don't have enough money...",
+      "es": "Me temo que no tienes suficiente dinero..."
+    },
+    {
+      "bucket": 208,
+      "hash": 1448712488,
+      "en": "You don't have enough of my Cats.",
+      "es": "No tienes suficientes de mis Gatos."
+    },
+    {
+      "bucket": 222,
+      "hash": 2128199180,
+      "en": "After I woke up, there were loads of debris and junk around.",
+      "es": "Cuando desperté, había un montón de escombros y chatarra por todas partes."
+    },
+    {
+      "bucket": 222,
+      "hash": -422630181,
+      "en": "Buy",
+      "es": "Comprar"
+    },
+    {
+      "bucket": 222,
+      "hash": 1448712489,
+      "en": "I would give you a better reward, but...",
+      "es": "Te daría una mejor recompensa, pero..."
+    },
+    {
+      "bucket": 236,
+      "hash": 2128199181,
+      "en": "Ah, and a bunch of noise! And then everything was quiet for a while.",
+      "es": "¡Ah, y un montón de ruido! Y luego todo quedó en silencio por un rato."
+    },
+    {
+      "bucket": 242,
+      "hash": -1717687539,
+      "en": "Backshots?... Do you want to shoot me in the back or something?",
+      "es": "Backshots?.... Acaso quieres dispararme por la espalda o algo así"
+    },
+    {
+      "bucket": 248,
+      "hash": 1804775690,
+      "en": "Such an interesting shape...",
+      "es": "Una figura insteresante..."
+    },
+    {
+      "bucket": 254,
+      "hash": -1641156286,
+      "en": "What is this place?",
+      "es": "¿Qué es este lugar?"
+    },
+    {
+      "bucket": 254,
+      "hash": -1706141599,
+      "en": "Theories",
+      "es": "Teorías"
+    },
+    {
+      "bucket": 254,
+      "hash": 713582498,
+      "en": "Reminds me of home... Such a shame.",
+      "es": "Me recuerda a casa... Qué lástima."
+    },
+    {
+      "bucket": 268,
+      "hash": -516751749,
+      "en": "But I think that’s about it…",
+      "es": "Pero creo que eso es todo…"
+    },
+    {
+      "bucket": 268,
+      "hash": -112861167,
+      "en": "It's pretty cold. Sure you can handle it?",
+      "es": "Es muy fría. ¿Seguro que podrás soportarla?"
+    },
+    {
+      "bucket": 268,
+      "hash": -554157098,
+      "en": "Have fun! I’m sure you won’t be disappointed",
+      "es": "¡Diviértete! Estoy segura de que no te decepcionarás"
+    },
+    {
+      "bucket": 282,
+      "hash": -1188565360,
+      "en": "Try not to lick all the gel off first~",
+      "es": "Intenta no lamer todo el gel primero~"
+    },
+    {
+      "bucket": 282,
+      "hash": -516751752,
+      "en": "Well, I’m what you humans would call a «humanization» of a nebula.",
+      "es": "Bueno, soy lo que ustedes, los humanos, llamarían una «humanización» de una nebulosa."
+    },
+    {
+      "bucket": 282,
+      "hash": 104925274,
+      "en": "Found this key in a room next door.",
+      "es": "Encontré esta llave en la habitación de al lado."
+    },
+    {
+      "bucket": 296,
+      "hash": -1188565359,
+      "en": "It should cushion one nasty hit.",
+      "es": "Deberia amortiguar un golpe feo."
+    },
+    {
+      "bucket": 296,
+      "hash": -516751751,
+      "en": "More about myself..?",
+      "es": "¿Quieres saber más sobre mí…?"
+    },
+    {
+      "bucket": 306,
+      "hash": 1981718531,
+      "en": "Thank you for you collaboration, hehe~",
+      "es": "Gracias por tu colaboración, jeje~"
+    },
+    {
+      "bucket": 312,
+      "hash": 753602604,
+      "en": "Okay, that's really lewd... Although it does look interesting...",
+      "es": "Vale, eso es muy lascivo... Aunque parece interesante..."
+    },
+    {
+      "bucket": 318,
+      "hash": 2014886197,
+      "en": "Oops... Couldn't help myself~",
+      "es": "Ups... No pude evitarlo~"
+    },
+    {
+      "bucket": 324,
+      "hash": -272997403,
+      "en": "Costume",
+      "es": "Apariencia"
+    },
+    {
+      "bucket": 330,
+      "hash": -1268884148,
+      "en": "A weird energy is emitting from this costume.",
+      "es": "Una energía extraña emana de este disfraz."
+    },
+    {
+      "bucket": 336,
+      "hash": -1227944656,
+      "en": "I'm not sure if you'll have the worst...",
+      "es": "No estoy segura de si tendrás el peor..."
+    },
+    {
+      "bucket": 336,
+      "hash": 621286779,
+      "en": "Especially doing it~",
+      "es": "Especialmente hacerlo~"
+    },
+    {
+      "bucket": 346,
+      "hash": -1227944655,
+      "en": "Or best time of your life with this one~",
+      "es": "O el mejor momento de tu vida con este~"
+    },
+    {
+      "bucket": 346,
+      "hash": 621286776,
+      "en": "I don't blame you, I like it too!...",
+      "es": "No te juzgo, ¡a mí también me gusta!..."
+    },
+    {
+      "bucket": 346,
+      "hash": -1801786389,
+      "en": "Scene",
+      "es": "Escena"
+    },
+    {
+      "bucket": 360,
+      "hash": 621286777,
+      "en": "You really like that kind of thing, don't you?",
+      "es": "Realmente te gustan este tipo de cosas, ¿verdad?"
+    },
+    {
+      "bucket": 366,
+      "hash": -1766700954,
+      "en": "I didn't expect you to want something like that.",
+      "es": "No me esperaba que quisieras algo así."
+    },
+    {
+      "bucket": 372,
+      "hash": -1766700953,
+      "en": "And while I don't know you... I'm not against having a good time~",
+      "es": "Y si bien no te conozco... no estoy en contra de pasar un buen rato~"
+    },
+    {
+      "bucket": 378,
+      "hash": -1766700956,
+      "en": "Just promise it'll stay between us, okay?",
+      "es": "Solo promete que quedará entre nosotros, vale?"
+    },
+    {
+      "bucket": 384,
+      "hash": -1951515161,
+      "en": "Items",
+      "es": "Objetos"
+    },
+    {
+      "bucket": 390,
+      "hash": 1280279569,
+      "en": "Exit",
+      "es": "Salir"
+    },
+    {
+      "bucket": 396,
+      "hash": -1184168558,
+      "en": "Honestly? I can't remember much of it.",
+      "es": "¿Honestamente? No recuerdo mucho de eso."
+    },
+    {
+      "bucket": 396,
+      "hash": -997728644,
+      "en": "Claimed",
+      "es": "Reclamado"
+    },
+    {
+      "bucket": 406,
+      "hash": -1184168557,
+      "en": "I just drift from place to place, picking up neat little things… I think?",
+      "es": "Solo voy vagando de un lugar a otro, recogiendo cositas interesantes… ¿creo?"
+    },
+    {
+      "bucket": 412,
+      "hash": -1184168546,
+      "en": "You did get one thing right - I'm not from around here.",
+      "es": "En algo sí acertaste: no soy de por aquí."
+    },
+    {
+      "bucket": 418,
+      "hash": -1184168545,
+      "en": "…Though I guess I can't really blame you.",
+      "es": "…Aunque supongo que no puedo culparte."
+    },
+    {
+      "bucket": 424,
+      "hash": -1184168548,
+      "en": "I'm not from this world at all.",
+      "es": "No soy de este mundo en absoluto."
+    },
+    {
+      "bucket": 430,
+      "hash": 72208998,
+      "en": "It’s my little shop!",
+      "es": "¡Es mi pequeña tienda!"
+    },
+    {
+      "bucket": 430,
+      "hash": -1184168547,
+      "en": "And no, not «far away» far.",
+      "es": "Y no, no me refiero a «de muy lejos»."
+    },
+    {
+      "bucket": 440,
+      "hash": 72208999,
+      "en": "I have a couple of things that might interest you~",
+      "es": "Tengo un par de cosas que podrían interesarte~"
+    },
+    {
+      "bucket": 440,
+      "hash": -1184168550,
+      "en": "What are you on about, silly~?",
+      "es": "¿De qué estás hablando, tontito~?"
+    },
+    {
+      "bucket": 450,
+      "hash": -1184168549,
+      "en": "Theories?",
+      "es": "¿Teorías?"
+    },
+    {
+      "bucket": 450,
+      "hash": 1380957958,
+      "en": "Y'know that violence is not very nice, yeah?",
+      "es": "Sabes que la violencia no es nada agradable, ¿verdad?"
+    },
+    {
+      "bucket": 460,
+      "hash": -1184168552,
+      "en": "Pfft… You're talking nonsense, you know that?",
+      "es": "Pff… Estás diciendo puras tonterías, ¿lo sabías?"
+    },
+    {
+      "bucket": 460,
+      "hash": 1380957959,
+      "en": "...",
+      "es": "..."
+    },
+    {
+      "bucket": 470,
+      "hash": -1184168551,
+      "en": ". . .",
+      "es": ". . ."
+    },
+    {
+      "bucket": 470,
+      "hash": 1380957956,
+      "en": "In intercourse however...~",
+      "es": "Sin embargo, en la cama...~"
+    },
+    {
+      "bucket": 480,
+      "hash": -997983558,
+      "en": "Forget you ever saw that.",
+      "es": "Olvida que viste eso."
+    },
+    {
+      "bucket": 486,
+      "hash": 1390164464,
+      "en": "I doubt it can be used as a sword though.",
+      "es": "Pero dudo que pueda usarse como espada."
+    },
+    {
+      "bucket": 492,
+      "hash": 1390164465,
+      "en": "Found this in a trashcan out in the back.",
+      "es": "Lo encontré en el cesto de basura detras."
+    },
+    {
+      "bucket": 498,
+      "hash": 2088740618,
+      "en": "I might have more in store later…",
+      "es": "Puede que tenga más de estos para más adelante…"
+    },
+    {
+      "bucket": 504,
+      "hash": 2088740619,
+      "en": "I'm sure you can find somewhere to play it in!",
+      "es": "¡Estoy segura de que puedes encontrar un lugar para verlo!"
+    },
+    {
+      "bucket": 510,
+      "hash": 1493700283,
+      "en": "Wanna last longer~? ",
+      "es": "¿Quieres durar más?"
+    },
+    {
+      "bucket": 516,
+      "hash": 386150254,
+      "en": "It was already half eaten so... sorry!",
+      "es": "Ya estaba media comida, así que... ¡lo siento!"
+    },
+    {
+      "bucket": 522,
+      "hash": 386150255,
+      "en": "Found this on the island you came from.",
+      "es": "Encontré esto en la isla de donde vienes."
+    },
+    {
+      "bucket": 528,
+      "hash": -1940166899,
+      "en": "Accept",
+      "es": "Aceptar"
+    },
+    {
+      "bucket": 534,
+      "hash": -775986501,
+      "en": "Buy in Shop",
+      "es": "Comprar en la tienda"
+    },
+    {
+      "bucket": 540,
+      "hash": -622763390,
+      "en": "Scenes",
+      "es": "Escenas"
+    },
+    {
+      "bucket": 546,
+      "hash": -1499803970,
+      "en": "Welcome to my shop~",
+      "es": "Bienvenido a mi tienda~"
+    },
+    {
+      "bucket": 552,
+      "hash": 684204951,
+      "en": "Hi there!",
+      "es": "Hola~"
+    },
+    {
+      "bucket": 552,
+      "hash": 1818464959,
+      "en": "Outfits",
+      "es": "Atuendos"
+    },
+    {
+      "bucket": 562,
+      "hash": 583365580,
+      "en": "Who are you?",
+      "es": "¿Quién eres?"
+    },
+    {
+      "bucket": 568,
+      "hash": -280019105,
+      "en": "Slippery but useful~",
+      "es": "Resbaladizo pero util~"
+    },
+    {
+      "bucket": 574,
+      "hash": 339227181,
+      "en": "How did you get here?",
+      "es": "¿Cómo llegaste aquí?"
+    },
+    {
+      "bucket": 580,
+      "hash": -1011439786,
+      "en": "Bloody, but who am I to judge?",
+      "es": "Sangrienta, pero ¿quién soy yo para juzgarla?"
+    },
+    {
+      "bucket": 586,
+      "hash": 1209026213,
+      "en": "Found this before arriving here.",
+      "es": "Encontré esto antes de llegar aquí."
+    },
+    {
+      "bucket": 592,
+      "hash": 1513857970,
+      "en": "Not really sure what it opens… but you can have it.",
+      "es": "No estoy muy segura de qué abre… pero puedes quedártela."
+    },
+    {
+      "bucket": 598,
+      "hash": 1513857971,
+      "en": "Let me know what it opens!",
+      "es": "¡Avísame qué abre!"
+    },
+    {
+      "bucket": 604,
+      "hash": -347345570,
+      "en": "You sure you want it?",
+      "es": "¿Seguro que la quieres?"
+    },
+    {
+      "bucket": 604,
+      "hash": -1061600904,
+      "en": "Next Reward",
+      "es": "Sig. Premio"
+    }
+  ],
+  "Scenes/overworld/overworld_translations.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 1387576895,
+      "en": "It’s a golden flower",
+      "es": "Es una flor dorada"
+    },
+    {
+      "bucket": 6,
+      "hash": 1200857906,
+      "en": "You try to look even more, there’s nothing but darkness",
+      "es": "Intentas ver más, pero solo hay oscuridad "
+    },
+    {
+      "bucket": 12,
+      "hash": 1200857907,
+      "en": "The penumbra of a scarlet corridor, surrounded by yellow flowers",
+      "es": "La penumbra de un pasillo escarlata, rodeado de flores amarillas"
+    },
+    {
+      "bucket": 18,
+      "hash": -3515173,
+      "en": "Fight",
+      "es": "Pelear"
+    },
+    {
+      "bucket": 18,
+      "hash": 1200857910,
+      "en": "There's a small fissure in the door",
+      "es": "Hay una ligera grieta en la puerta"
+    },
+    {
+      "bucket": 28,
+      "hash": 1200857911,
+      "en": "It’s locked",
+      "es": "Está cerrada con llave"
+    },
+    {
+      "bucket": 34,
+      "hash": 1200857908,
+      "en": "Beyond the darkness, you manage to recognize something",
+      "es": "Más allá de la oscuridad, logras reconocer algo"
+    },
+    {
+      "bucket": 40,
+      "hash": 1200857909,
+      "en": "You look through it",
+      "es": "Miras a través de ella"
+    },
+    {
+      "bucket": 46,
+      "hash": 1166861352,
+      "en": "You heard the bells in the last corridor, there’s a girl wearing a green sweater, Chara?",
+      "es": "Escuchas las campanas del último corredor, hay una chica de suéter verde, ¿Chara? "
+    },
+    {
+      "bucket": 46,
+      "hash": 730686443,
+      "en": "Wasn't it better to touch the flower next to it?",
+      "es": "¿No era mejor tocar las flores de al lado?"
+    },
+    {
+      "bucket": 56,
+      "hash": 1166861353,
+      "en": "You try to look even more, there’s nothing but darkness",
+      "es": "Intentas ver más, pero solo hay oscuridad "
+    },
+    {
+      "bucket": 56,
+      "hash": 730686440,
+      "en": "You got pricked ",
+      "es": "Te pinchas"
+    },
+    {
+      "bucket": 66,
+      "hash": 1166861358,
+      "en": "You look through it",
+      "es": "Miras a través de ella "
+    },
+    {
+      "bucket": 66,
+      "hash": 730686441,
+      "en": "You touch the cactus",
+      "es": "Tocas el cactus"
+    },
+    {
+      "bucket": 76,
+      "hash": 1166861359,
+      "en": "Beyond the darkness, you manage to recognize something",
+      "es": "Más allá de la oscuridad, logras reconocer algo "
+    },
+    {
+      "bucket": 82,
+      "hash": 1166861356,
+      "en": "It’s locked",
+      "es": "Está cerrada con llave"
+    },
+    {
+      "bucket": 88,
+      "hash": 1166861357,
+      "en": "There's a small fissure in the door",
+      "es": "Hay una ligera grieta en la puerta "
+    },
+    {
+      "bucket": 94,
+      "hash": 694962722,
+      "en": "It’s locked",
+      "es": "Está cerrada con llave "
+    },
+    {
+      "bucket": 100,
+      "hash": 694962723,
+      "en": "There's a small fissure in the door",
+      "es": "Hay una ligera grieta en la puerta"
+    },
+    {
+      "bucket": 106,
+      "hash": 713299716,
+      "en": "That was an interesting experiment.",
+      "es": "Ese fue un experimento ciertamente interesante."
+    },
+    {
+      "bucket": 106,
+      "hash": 694962720,
+      "en": "You look through it",
+      "es": "Miras a través de ella"
+    },
+    {
+      "bucket": 116,
+      "hash": 713299717,
+      "en": "If you want something more, just tell me.",
+      "es": "Si quieres algo más solo dime."
+    },
+    {
+      "bucket": 116,
+      "hash": 694962721,
+      "en": "Beyond the darkness, you manage to recognize something",
+      "es": "Más allá de la oscuridad, logras reconocer algo"
+    },
+    {
+      "bucket": 126,
+      "hash": 694962726,
+      "en": "It’s you",
+      "es": "Eres tu"
+    },
+    {
+      "bucket": 132,
+      "hash": 694962727,
+      "en": "You look… like a pretty anime girl",
+      "es": "Eres… una linda chica anime"
+    },
+    {
+      "bucket": 138,
+      "hash": 694962724,
+      "en": "You try to open the door again, just in case. It didn’t work ",
+      "es": "Vuelves a intentar abrir la puerta. No funciona"
+    },
+    {
+      "bucket": 144,
+      "hash": 1562959400,
+      "en": "You need to find the key to open it.",
+      "es": "Necesitas encontrar la llave para abrirlo"
+    },
+    {
+      "bucket": 150,
+      "hash": -1741578578,
+      "en": "Next",
+      "es": "Siguiente"
+    },
+    {
+      "bucket": 150,
+      "hash": 1562959401,
+      "en": "It’s locked.",
+      "es": "No se abre"
+    },
+    {
+      "bucket": 160,
+      "hash": 136749346,
+      "en": "It seems to be just the right temperature. Perfect for a good time alone",
+      "es": "Parece estar en una temperatura perfecta, ideal para darse un baño"
+    },
+    {
+      "bucket": 166,
+      "hash": 136749347,
+      "en": "You take a moment to look at the ‘lake’ around you",
+      "es": "Miras por un momento el “lago” a tu alrededor"
+    },
+    {
+      "bucket": 172,
+      "hash": 1354480828,
+      "en": "It’s a lamp ",
+      "es": "Es una lámpara"
+    },
+    {
+      "bucket": 178,
+      "hash": 1354480829,
+      "en": "It’s just gathering dust ",
+      "es": "Simplemente está acumulando polvo"
+    },
+    {
+      "bucket": 184,
+      "hash": 1398520295,
+      "en": "Maybe, this restart could wait a bit more.",
+      "es": "Tal vez este reinicio pueda esperar un poco más."
+    },
+    {
+      "bucket": 184,
+      "hash": 1071835308,
+      "en": "The existence of a TV here implies that a monster made it or it was transported from far away",
+      "es": "La existencia de un televisor aquí implica que la tuvo que hacer un monstruo o transportarla desde muy lejos."
+    },
+    {
+      "bucket": 194,
+      "hash": 1398520292,
+      "en": "I am glad i offered you this proposal.",
+      "es": "Menos mal que te hice esa proposición."
+    },
+    {
+      "bucket": 194,
+      "hash": 1071835309,
+      "en": "Maybe you shouldn’t think too much about that",
+      "es": "Tal vez no deberías pensar mucho al respecto."
+    },
+    {
+      "bucket": 204,
+      "hash": 2127123309,
+      "en": "Sex",
+      "es": "Sexo"
+    },
+    {
+      "bucket": 204,
+      "hash": 1398520293,
+      "en": "After so much time, i thought all would be the same.",
+      "es": "Después de tanto tiempo, pensé que todo seguiría igual."
+    },
+    {
+      "bucket": 214,
+      "hash": -181635508,
+      "en": "I will be here if you need me.",
+      "es": "Estaré aquí por si me necesitas."
+    },
+    {
+      "bucket": 220,
+      "hash": 191487090,
+      "en": "Beyond the darkness, you manage to recognize something",
+      "es": "Más allá de la oscuridad, logras reconocer algo"
+    },
+    {
+      "bucket": 226,
+      "hash": 191487091,
+      "en": "You look through it",
+      "es": "Miras a través de ella"
+    },
+    {
+      "bucket": 226,
+      "hash": 348764062,
+      "en": "The next door is locked as well",
+      "es": "La próxima puerta también está cerrada"
+    },
+    {
+      "bucket": 236,
+      "hash": 191487088,
+      "en": "There's a small fissure in the door",
+      "es": "Hay una ligera grieta en la puerta "
+    },
+    {
+      "bucket": 236,
+      "hash": 348764063,
+      "en": "It’s locked",
+      "es": "Está cerrado"
+    },
+    {
+      "bucket": 246,
+      "hash": 191487089,
+      "en": "It’s locked ",
+      "es": "Está cerrada con llave "
+    },
+    {
+      "bucket": 252,
+      "hash": 191487095,
+      "en": "You've definitely stopped trying to see more",
+      "es": "Definitivamente dejaste de intentar ver más"
+    },
+    {
+      "bucket": 258,
+      "hash": -1261074430,
+      "en": "You cannot help but feel like there is some story behind it's shape.",
+      "es": "No puedes dejar de sentir de hay una historia detrás de su forma"
+    },
+    {
+      "bucket": 258,
+      "hash": 191487092,
+      "en": "You look… like an ugly ass yellow baby",
+      "es": "Pareces un bebé feo y enano"
+    },
+    {
+      "bucket": 258,
+      "hash": 173438175,
+      "en": "There’s nothing inside",
+      "es": "No hay nada dentro"
+    },
+    {
+      "bucket": 272,
+      "hash": -1261074429,
+      "en": "Looking at this bookcase hurts your eyes.",
+      "es": "Mirar a la estantería hace que te duelan los ojos"
+    },
+    {
+      "bucket": 272,
+      "hash": 992388925,
+      "en": "You've found one Nebby Cat!",
+      "es": "Has encontrado una Nebby Cat!"
+    },
+    {
+      "bucket": 272,
+      "hash": 191487093,
+      "en": "It’s you",
+      "es": "Eres tu"
+    },
+    {
+      "bucket": 286,
+      "hash": -1261074431,
+      "en": "Maybe, it wasn't even loved by it's creator.",
+      "es": "Tal vez ni si quiera recibió amor de su creador."
+    },
+    {
+      "bucket": 292,
+      "hash": -1846855218,
+      "en": "Despite everything… it’s locked",
+      "es": "A pesar de todo… está cerrado "
+    },
+    {
+      "bucket": 298,
+      "hash": -758290278,
+      "en": "like that?",
+      "es": "Por qué es así?"
+    },
+    {
+      "bucket": 304,
+      "hash": -758290280,
+      "en": "Looking at this bookcase makes you feel uneasy...",
+      "es": "Mirar esta estantería te hace sentir extraño"
+    },
+    {
+      "bucket": 310,
+      "hash": -758290279,
+      "en": "Why is it...",
+      "es": "Por qué…"
+    },
+    {
+      "bucket": 316,
+      "hash": -191198862,
+      "en": "Looking at the bright light fills you with LOVE.",
+      "es": "Mirar a la luz te llena con AMOR."
+    },
+    {
+      "bucket": 322,
+      "hash": -191198861,
+      "en": "...and DETERMINATION.",
+      "es": "… y DETERMINACIÓN"
+    },
+    {
+      "bucket": 328,
+      "hash": -672148585,
+      "en": "It smell like flowers",
+      "es": "Huele a flores"
+    },
+    {
+      "bucket": 334,
+      "hash": -911410486,
+      "en": "Prev",
+      "es": "Anterior"
+    },
+    {
+      "bucket": 340,
+      "hash": 1105831862,
+      "en": "Being on an floating piece of land in the middle of the abyss does not help.",
+      "es": "Estar en un trozo de tierra flotante en el medio del abismo no ayuda."
+    },
+    {
+      "bucket": 340,
+      "hash": 679308946,
+      "en": "You can use it in the bed, at your own risk.",
+      "es": "Puedes usarlo en la cama bajo tu propio riesgo"
+    },
+    {
+      "bucket": 350,
+      "hash": -1753121662,
+      "en": "This is your favorite game route after all",
+      "es": "Esta es tu ruta favorita del juego, después de todo."
+    },
+    {
+      "bucket": 350,
+      "hash": 1105831863,
+      "en": "It does not turn on.",
+      "es": "No se enciende"
+    },
+    {
+      "bucket": 350,
+      "hash": 679308947,
+      "en": "You got the dildo!",
+      "es": "Obtuviste el dildo!"
+    },
+    {
+      "bucket": 364,
+      "hash": -1753121661,
+      "en": "You really like fighting, don't you?",
+      "es": "De verdad te gusta pelear, verdad?"
+    },
+    {
+      "bucket": 364,
+      "hash": -1343379458,
+      "en": "It’s locked",
+      "es": "Está cerrado"
+    },
+    {
+      "bucket": 374,
+      "hash": -1753121664,
+      "en": "Any way, let’s do this.",
+      "es": "Como sea, vamos al lio."
+    },
+    {
+      "bucket": 374,
+      "hash": -1343379457,
+      "en": "Surprise!",
+      "es": "¡Sorpresa!"
+    },
+    {
+      "bucket": 384,
+      "hash": -1753121663,
+      "en": "Or maybe you liked this new way to fight?",
+      "es": "O es que acaso te gusta esta nueva forma de pelear?"
+    },
+    {
+      "bucket": 384,
+      "hash": 1518140912,
+      "en": "“LIFE BENEATH, ETERNAL SLUMBER” \n”WILL WAKE, AND SHAKE THE WORLD ASSUNDER”",
+      "es": "“LA VIDA BAJO TIERRA, EN ETERNO SOPOR” \n”DESPERTARÁ Y HARÁ EL MUNDO AÑICOS CON SU TEMBLOR”"
+    },
+    {
+      "bucket": 394,
+      "hash": 1896811012,
+      "en": "Looks like moss",
+      "es": "Parece musgo"
+    },
+    {
+      "bucket": 400,
+      "hash": 1896811013,
+      "en": "There's nothing to do here",
+      "es": "No tienes nada que hacer aquí"
+    },
+    {
+      "bucket": 400,
+      "hash": -840595340,
+      "en": "It’s locked",
+      "es": "Está cerrado"
+    },
+    {
+      "bucket": 410,
+      "hash": -945392078,
+      "en": "Do you know how to read? ",
+      "es": "¿Si sabes leer?"
+    },
+    {
+      "bucket": 416,
+      "hash": -945392077,
+      "en": "…",
+      "es": "…"
+    },
+    {
+      "bucket": 422,
+      "hash": 1307859115,
+      "en": "But remember, love tastes better after war",
+      "es": "Pero recuerda, el amor sabe mejor después de la guerra"
+    },
+    {
+      "bucket": 422,
+      "hash": 1449935674,
+      "en": "Save",
+      "es": "Guardar"
+    },
+    {
+      "bucket": 432,
+      "hash": 1307859112,
+      "en": "Lets have sex right here, right now.",
+      "es": "Tengamos sexo aquí y ahora."
+    },
+    {
+      "bucket": 438,
+      "hash": 1307859113,
+      "en": "Hehe, i enjoy seeing you are so needy for me.",
+      "es": "jeje. Me encanta ver cuanto me necesitas."
+    },
+    {
+      "bucket": 444,
+      "hash": -442608056,
+      "en": "It’s locked",
+      "es": "Está cerrado"
+    },
+    {
+      "bucket": 450,
+      "hash": -442608055,
+      "en": "The previous door is locked as well",
+      "es": "La puerta anterior también está cerrada"
+    },
+    {
+      "bucket": 456,
+      "hash": -1764550062,
+      "en": "Looking at this bookcase makes you sad.",
+      "es": "Mirar a la estantería te hace sentir triste."
+    },
+    {
+      "bucket": 462,
+      "hash": 256623564,
+      "en": "Here is where you got the dildo",
+      "es": "Aquí obtuviste el dildo"
+    },
+    {
+      "bucket": 468,
+      "hash": 256623565,
+      "en": "Nothing else inside is interesting.",
+      "es": "No hay mas nada interesante adentro"
+    },
+    {
+      "bucket": 468,
+      "hash": -547197018,
+      "en": "Insert Cassetes",
+      "es": "Insertar Cassetes"
+    },
+    {
+      "bucket": 468,
+      "hash": -672442807,
+      "en": "What a mess… ",
+      "es": "Qué desastre…"
+    },
+    {
+      "bucket": 482,
+      "hash": 2134112666,
+      "en": "Press Up and Down arrows to adjust animation speed.",
+      "es": "Presiona las flechas arriba y abajo para ajustar la velocidad"
+    },
+    {
+      "bucket": 488,
+      "hash": 2134112667,
+      "en": "Press Left and Right arrows to switch position.",
+      "es": "Presiona las flechas izquierda y derecha para cambiar de posición"
+    },
+    {
+      "bucket": 494,
+      "hash": 2134112665,
+      "en": "When the bar is full, press Z to climax. You can then either play the animation again by pressing Z, or exit with X.",
+      "es": "Cuando la barra esté llena, presiona Z para terminar. Puedes presionar Z de nuevo para repetir o X para salir."
+    },
+    {
+      "bucket": 500,
+      "hash": -318751566,
+      "en": "Invite her, and who knows what could happen~",
+      "es": "Invitarla aquí, y tal vez llegar un poco más lejos~"
+    },
+    {
+      "bucket": 506,
+      "hash": 1477812114,
+      "en": "Inspect",
+      "es": "Inspeccionar"
+    },
+    {
+      "bucket": 506,
+      "hash": -318751565,
+      "en": "Suddenly, an idea comes across your mind. Perhaps if you had a bikini, you could give it to someone",
+      "es": "Un pensamiento cruza por tu mente, quizás al tener un bikini podrías dárselo a alguien"
+    },
+    {
+      "bucket": 516,
+      "hash": -1631046014,
+      "en": "An ancient symbol is etched into the wall.",
+      "es": "Hay un antiguo símbolo grabado en la pared."
+    },
+    {
+      "bucket": 522,
+      "hash": -318751567,
+      "en": "If only there were somewhere to buy a bikini…",
+      "es": "Si tan solo hubiera donde conseguir un bikini…"
+    },
+    {
+      "bucket": 522,
+      "hash": -1631046013,
+      "en": "It appears to be centries old.",
+      "es": "Parece tener siglos de antigüedad."
+    },
+    {
+      "bucket": 532,
+      "hash": -1631046016,
+      "en": "For some reason, the text which was written beneath it, is now covered by a new one, no older than a day.",
+      "es": "Por alguna razón, el texto que había debajo está ahora cubierto por otro, escrito hace no más de un día."
+    },
+    {
+      "bucket": 538,
+      "hash": 883349364,
+      "en": "Finish",
+      "es": "Terminar"
+    },
+    {
+      "bucket": 544,
+      "hash": -1295883884,
+      "en": "…",
+      "es": "…"
+    },
+    {
+      "bucket": 550,
+      "hash": -1295883883,
+      "en": "Do you know how to read?",
+      "es": "¿Si sabes leer?"
+    },
+    {
+      "bucket": 556,
+      "hash": -978476799,
+      "en": "Talk",
+      "es": "Hablar"
+    },
+    {
+      "bucket": 562,
+      "hash": -239920292,
+      "en": "Nothing",
+      "es": "Nada"
+    },
+    {
+      "bucket": 568,
+      "hash": 401471968,
+      "en": "It didn’t smell like flowers",
+      "es": "Ya no huele a flores"
+    },
+    {
+      "bucket": 574,
+      "hash": 1360220941,
+      "en": "We had to fill the room with something",
+      "es": "Había que rellenar la habitación con algo"
+    },
+    {
+      "bucket": 580,
+      "hash": -1361437583,
+      "en": "Exit",
+      "es": "Salir"
+    }
+  ],
+  "Scenes/overworld/rooms/man_room/man_translations.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -2025666506,
+      "en": "Both are interchangeable.",
+      "es": "Una cosa equivale a la otra."
+    },
+    {
+      "bucket": 0,
+      "hash": -360153819,
+      "en": "“Say hi to an old friend for me.””",
+      "es": "«Saluda a un viejo amigo de mi parte»."
+    },
+    {
+      "bucket": 10,
+      "hash": -2025666505,
+      "en": "Does it not bother you? ",
+      "es": "¿Eso no te inquieta?"
+    },
+    {
+      "bucket": 16,
+      "hash": -2025666508,
+      "en": "Why are you here? ",
+      "es": "¿Por qué estás aquí?"
+    },
+    {
+      "bucket": 22,
+      "hash": -2025666507,
+      "en": "You don't know, or remember. ",
+      "es": "No lo sabes, o no lo recuerdas."
+    },
+    {
+      "bucket": 28,
+      "hash": 1035794418,
+      "en": "(What was it again?) ",
+      "es": "(¿Qué era aquello?)"
+    },
+    {
+      "bucket": 34,
+      "hash": 804454790,
+      "en": "(It is a tree.)",
+      "es": "(Es un árbol.)"
+    },
+    {
+      "bucket": 34,
+      "hash": 1035794419,
+      "en": "(When you opened your eyes, the shape was gone.) ",
+      "es": "(Cuando abriste los ojos, la forma había desaparecido.)"
+    },
+    {
+      "bucket": 44,
+      "hash": 1035794417,
+      "en": "(It was hard to recall.) ",
+      "es": "(Era difícil recordarlo.)"
+    },
+    {
+      "bucket": 50,
+      "hash": 1035794422,
+      "en": "(There was a symbol carved into it.) ",
+      "es": "(Había un símbolo tallado en él.)"
+    },
+    {
+      "bucket": 56,
+      "hash": 1035794423,
+      "en": "(Well, it is a tree.) ",
+      "es": "(Bueno, es un árbol.)"
+    },
+    {
+      "bucket": 62,
+      "hash": 1035794420,
+      "en": "(You could almost feel a familiar shape form in your hand.) ",
+      "es": "(Casi pudiste sentir una forma familiar materializándose en tu mano.)"
+    },
+    {
+      "bucket": 68,
+      "hash": 1035794421,
+      "en": "(As you reached out to take it...) ",
+      "es": "(Al extender la mano para tomarlo...)"
+    },
+    {
+      "bucket": 68,
+      "hash": -1010731008,
+      "en": "(It's branches are falling apart.) ",
+      "es": "(Sus ramas se están deshaciendo.)"
+    },
+    {
+      "bucket": 78,
+      "hash": -1010731007,
+      "en": "(Another tree.) ",
+      "es": "(Otro árbol.)"
+    },
+    {
+      "bucket": 84,
+      "hash": 1642552553,
+      "en": "Walk",
+      "es": "Caminar"
+    },
+    {
+      "bucket": 90,
+      "hash": -2129423544,
+      "en": "(You received an Egg.) ",
+      "es": "(Recibiste un Huevo.)"
+    },
+    {
+      "bucket": 96,
+      "hash": -149435115,
+      "en": "Not",
+      "es": "No caminar"
+    },
+    {
+      "bucket": 96,
+      "hash": -2129423543,
+      "en": "(Before you ask, he leans to you.) ",
+      "es": "(Antes de que puedas preguntar, se inclina hacia ti.)"
+    },
+    {
+      "bucket": 106,
+      "hash": 599202793,
+      "en": "(Well, he went away.)",
+      "es": "(Bueno, se fue.)"
+    },
+    {
+      "bucket": 112,
+      "hash": 1280792476,
+      "en": "(Perhaps he was thinking about the hole left in your palm...)",
+      "es": "(Quizá pensaba en el agujero que había quedado en tu palma...)"
+    },
+    {
+      "bucket": 118,
+      "hash": 1280792477,
+      "en": "(And how he might patch it.)",
+      "es": "(Y en cómo podría taparlo.)"
+    },
+    {
+      "bucket": 124,
+      "hash": 1280792470,
+      "en": "(You received an...)",
+      "es": "(Recibiste un...)"
+    },
+    {
+      "bucket": 124,
+      "hash": -2084248264,
+      "en": "(A tree.) ",
+      "es": "(Un árbol.)"
+    },
+    {
+      "bucket": 134,
+      "hash": 1280792471,
+      "en": "(Strange.)",
+      "es": "(Qué extraño.)"
+    },
+    {
+      "bucket": 140,
+      "hash": 1280792468,
+      "en": "(Well, there is a man here.)",
+      "es": "(Bueno, aquí hay un hombre.)"
+    },
+    {
+      "bucket": 146,
+      "hash": 1280792469,
+      "en": "(He offered you something.)",
+      "es": "(Te ofreció algo.)"
+    },
+    {
+      "bucket": 146,
+      "hash": -1313463997,
+      "en": "(But why would you?)",
+      "es": "(Pero ¿por qué lo harías?)"
+    },
+    {
+      "bucket": 146,
+      "hash": -1011172260,
+      "en": "(In the distance, you see a tree.) ",
+      "es": "(A lo lejos, ves un árbol.)"
+    },
+    {
+      "bucket": 160,
+      "hash": 1280792466,
+      "en": "(He looked concerned,)",
+      "es": "(Parecía inquieto,)"
+    },
+    {
+      "bucket": 160,
+      "hash": -1011172259,
+      "en": "(How bizarre. What is it doing here?) ",
+      "es": "(Qué raro. ¿Qué hace aquí?)"
+    },
+    {
+      "bucket": 170,
+      "hash": 1280792467,
+      "en": "(Almost worried.)",
+      "es": "(Casi preocupado.)"
+    },
+    {
+      "bucket": 176,
+      "hash": 1280792464,
+      "en": "(The egg-shaped object the man offered you...)",
+      "es": "(El objeto con forma de huevo que te ofreció el hombre...)"
+    },
+    {
+      "bucket": 182,
+      "hash": 1280792465,
+      "en": "(Fell right through your hand.)",
+      "es": "(Atravesó tu mano y cayó.)"
+    },
+    {
+      "bucket": 188,
+      "hash": -1031872578,
+      "en": "(The man pointed into the distance.)",
+      "es": "(El hombre señaló a lo lejos.)"
+    },
+    {
+      "bucket": 194,
+      "hash": -1031872577,
+      "en": "(He gestured for you to squint and look.)",
+      "es": "(Te indicó con un gesto que entrecerraras los ojos y miraras.)"
+    },
+    {
+      "bucket": 194,
+      "hash": -2084792718,
+      "en": "(It's shape is growing stale.) ",
+      "es": "(Su forma empieza a resultar repetitiva.)"
+    },
+    {
+      "bucket": 204,
+      "hash": -1031872580,
+      "en": "(It looked quite like this tree,)",
+      "es": "(Se parecía mucho a este árbol,)"
+    },
+    {
+      "bucket": 204,
+      "hash": -2084792717,
+      "en": "(Another tree.) ",
+      "es": "(Otro árbol.)"
+    },
+    {
+      "bucket": 214,
+      "hash": -1031872579,
+      "en": "(As you looked, there was another tree.)",
+      "es": "(Al mirar, viste otro árbol.)"
+    },
+    {
+      "bucket": 220,
+      "hash": -1031872582,
+      "en": "(You turned to ask the man,)",
+      "es": "(Te volviste para preguntarle al hombre,)"
+    },
+    {
+      "bucket": 220,
+      "hash": -2084792719,
+      "en": "(Is there really nothing original you can do anymore?)",
+      "es": "(¿De verdad ya no se te ocurre nada original?)"
+    },
+    {
+      "bucket": 230,
+      "hash": -1031872581,
+      "en": "(But not exactly.)",
+      "es": "(Pero no del todo.)"
+    },
+    {
+      "bucket": 236,
+      "hash": -1031872583,
+      "en": "(If he was behind that tree as well.)",
+      "es": "(Si también estaba detrás de aquel árbol.)"
+    },
+    {
+      "bucket": 242,
+      "hash": -2030438542,
+      "en": "(It is difficult to walk on something you cannot remember.)",
+      "es": "(Es difícil caminar sobre algo que no puedes recordar.)"
+    },
+    {
+      "bucket": 248,
+      "hash": -2030438544,
+      "en": "(Well, there is a bridge here.)",
+      "es": "(Bueno, aquí hay un puente.)"
+    },
+    {
+      "bucket": 254,
+      "hash": -2030438543,
+      "en": "(You do not remember how it looks.)",
+      "es": "(No recuerdas qué aspecto tiene.)"
+    },
+    {
+      "bucket": 260,
+      "hash": -1010878038,
+      "en": "(Another tree.) ",
+      "es": "(Otro árbol.)"
+    },
+    {
+      "bucket": 266,
+      "hash": -1010878037,
+      "en": "(It's leaves are falling.) ",
+      "es": "(Sus hojas están cayendo.)"
+    },
+    {
+      "bucket": 272,
+      "hash": 1330940643,
+      "en": "(It did not guide you, however.) ",
+      "es": "(Sin embargo, no te guio.)"
+    },
+    {
+      "bucket": 278,
+      "hash": 1330940640,
+      "en": "(Something took hold of your shoulder.) ",
+      "es": "(Algo te agarró del hombro.)"
+    },
+    {
+      "bucket": 278,
+      "hash": 1153592898,
+      "en": "(Before you, stands a tree.) ",
+      "es": "(Ante ti hay un árbol.)"
+    },
+    {
+      "bucket": 288,
+      "hash": 1330940641,
+      "en": "(As if by a guiding hand...) ",
+      "es": "(Como una mano que te guiara...)"
+    },
+    {
+      "bucket": 288,
+      "hash": 1153592899,
+      "en": "(Behind said tree, stands a man.)",
+      "es": "(Detrás de ese árbol hay un hombre.)"
+    },
+    {
+      "bucket": 298,
+      "hash": 1153592896,
+      "en": "(Flaming, in black and white.) ",
+      "es": "(Ardiendo en blanco y negro.)"
+    },
+    {
+      "bucket": 304,
+      "hash": 1153592897,
+      "en": "(Fuzzing, in pink and yellow.) ",
+      "es": "(Cubierto de interferencias rosas y amarillas.)"
+    },
+    {
+      "bucket": 310,
+      "hash": 1153592902,
+      "en": "(Flickering, in green and purple.) ",
+      "es": "(Parpadeando en verde y morado.)"
+    },
+    {
+      "bucket": 316,
+      "hash": 1153592903,
+      "en": "(Is it truly over?) ",
+      "es": "(¿De verdad se ha acabado?)"
+    },
+    {
+      "bucket": 322,
+      "hash": 1153592900,
+      "en": "(You ask the man, and in response,) ",
+      "es": "(Se lo preguntas al hombre y, en respuesta,)"
+    },
+    {
+      "bucket": 328,
+      "hash": 1153592901,
+      "en": "(He nods his head, and asks for more.) ",
+      "es": "(Él asiente y pide más.)"
+    },
+    {
+      "bucket": 334,
+      "hash": -2025666510,
+      "en": "(The scenery before you is truly a sight to remember.) ",
+      "es": "(El paisaje ante ti es realmente digno de recordar.)"
+    },
+    {
+      "bucket": 334,
+      "hash": 1153592906,
+      "en": "(You ask the man what's on his mind.) ",
+      "es": "(Le preguntas al hombre en qué está pensando.)"
+    },
+    {
+      "bucket": 344,
+      "hash": -2025666509,
+      "en": "(If not for it, would you remember, you were here in the first place?) ",
+      "es": "(De no ser por él, ¿recordarías siquiera haber estado aquí?)"
+    },
+    {
+      "bucket": 344,
+      "hash": 1153592907,
+      "en": "(He turns and says: \"A friend of mine\") ",
+      "es": "(Se vuelve y dice: «En un amigo mío».)"
+    },
+    {
+      "bucket": 344,
+      "hash": -360153818,
+      "en": "“The BLOSSOM-ing trees are wonderful, aren’t they?”",
+      "es": "«Los árboles en FLOR (BLOSSOM) son maravillosos, ¿verdad?»"
+    },
+    {
+      "bucket": 358,
+      "hash": -2025666512,
+      "en": "Who would remember you, if all is gone? ",
+      "es": "¿Quién te recordaría si todo desapareciera?"
+    },
+    {
+      "bucket": 358,
+      "hash": -360153817,
+      "en": "The note says:",
+      "es": "La nota dice:"
+    },
+    {
+      "bucket": 368,
+      "hash": -2025666511,
+      "en": "Who would you be, if not for your primary traits? ",
+      "es": "¿Quién serías sin los rasgos que te definen?"
+    }
+  ],
+  "Scenes/visual novel/water_room/water_room_translations.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -1545750282,
+      "en": "It’s just a bit chilly, but I’m really enjoying being with you.",
+      "es": "Solo es un poco de frío, pero realmente disfruto estar contigo"
+    },
+    {
+      "bucket": 6,
+      "hash": -1545750281,
+      "en": "It’s nothing. I’m fine.",
+      "es": "No es nada, estoy bien"
+    },
+    {
+      "bucket": 12,
+      "hash": 633054243,
+      "en": "Anyways, since you went out of your way to bring me here, I suppose you must have something in mind.",
+      "es": "En fin, ya que fuistes a buscarme con tanto entusiasmo, supongo que debes tener algo en mente"
+    },
+    {
+      "bucket": 12,
+      "hash": -1545750283,
+      "en": "You’re right. Can we go out?",
+      "es": "Tienes razón, ¿podemos salir?"
+    },
+    {
+      "bucket": 12,
+      "hash": 1415719299,
+      "en": "I knew it. You look so ridiculous, it’s hard not to keep looking at you.",
+      "es": "Lo sabía, te ves tan ridículo, que es difícil no dejar de mirarte."
+    },
+    {
+      "bucket": 12,
+      "hash": -121912942,
+      "en": "I didn’t believe you would invite me to swim.",
+      "es": "No pensé que me invitarias a nadar"
+    },
+    {
+      "bucket": 30,
+      "hash": 633054240,
+      "en": "Besides, I don’t understand why you are excited about this place. I’m quite surprised it’s still intact…",
+      "es": "Aunque no entiendo la emoción de traerme a este lugar, me sorprende que esté intacto…"
+    },
+    {
+      "bucket": 30,
+      "hash": -121912941,
+      "en": "To be honest, I just wanted to look at you in a bikini.",
+      "es": "En realidad, solo quería verte usando ese bikini."
+    },
+    {
+      "bucket": 40,
+      "hash": 633054241,
+      "en": "Well, it seems someone has been busy exploring the place.",
+      "es": "Vaya, parece que has estado ocupado explorando."
+    },
+    {
+      "bucket": 46,
+      "hash": 1570933812,
+      "en": "Right. What a way to waste my time. If you really want to know my opinion, this place is good, I guess.",
+      "es": "Bueno, vaya forma de hacer perder el tiempo. Si quieres saber mi opinión, pues esta bien, supongo."
+    },
+    {
+      "bucket": 52,
+      "hash": 590611566,
+      "en": "I just wanted to show you this place.",
+      "es": "En realidad solo quería mostrarte el lugar"
+    },
+    {
+      "bucket": 52,
+      "hash": -548664439,
+      "en": "All the way to the inevitable end. Just relax a little and come with me~",
+      "es": "Hasta el inevitable final, así que déjate llevar y entra conmigo de una vez~"
+    },
+    {
+      "bucket": 62,
+      "hash": -548664434,
+      "en": "One that you and I are a part of…",
+      "es": "Uno en el que participamos tu y yo…"
+    },
+    {
+      "bucket": 62,
+      "hash": -598997194,
+      "en": "I don't mind if you want to play a little, hehe~",
+      "es": "No me importa si gustas tocar un poco, jeje~"
+    },
+    {
+      "bucket": 72,
+      "hash": 590611564,
+      "en": "I’d like you to try on this bikini",
+      "es": "Me gustaría que te probaras este bikini"
+    },
+    {
+      "bucket": 72,
+      "hash": -548664433,
+      "en": "You know everything is just an experiment, don’t you?",
+      "es": "Sabes muy bien que todo esto es un experimento ¿no?"
+    },
+    {
+      "bucket": 82,
+      "hash": 590611565,
+      "en": "I was just wondering if you could try this…",
+      "es": "Simplemente me preguntaba si podrías probarte esto…"
+    },
+    {
+      "bucket": 82,
+      "hash": -548664436,
+      "en": "Huh, I can see you’re surprised by what I said. It can't be helped.",
+      "es": "Huh, por lo que veo te sorprende lo que dije, que remedio…"
+    },
+    {
+      "bucket": 82,
+      "hash": -598997196,
+      "en": "Well, if you really want to, take a good look as much as you like",
+      "es": "Bueno, si tanto lo deseas, mira todo lo que gustes"
+    },
+    {
+      "bucket": 96,
+      "hash": -548664435,
+      "en": "...",
+      "es": "..."
+    },
+    {
+      "bucket": 96,
+      "hash": -598997195,
+      "en": "Enjoy the view, partner",
+      "es": "Disfruta la vista, compañero"
+    },
+    {
+      "bucket": 106,
+      "hash": 1333236932,
+      "en": "Are you trying to impress me? Interesting. I wonder why~",
+      "es": "¿Intentas impresionarme? Interesante, me pregunto porque~"
+    },
+    {
+      "bucket": 106,
+      "hash": -384579788,
+      "en": "Alright, alright… I guess it was entertaining. But it’s time to go.",
+      "es": "Muy bien muy bien, supongo que fue… entretenido. Tiempo de irse"
+    },
+    {
+      "bucket": 116,
+      "hash": -183682612,
+      "en": "Chara takes a refreshing bath before returning the bikini and leaving.",
+      "es": "Chara se da un refrescante baño, antes de devolverte el bikini e irse"
+    },
+    {
+      "bucket": 122,
+      "hash": -803335282,
+      "en": "Wait, you don't have a swimsuit? Or are you planning to swim naked?",
+      "es": "¿Y tu no tienes traje de baño? ¿Oh, es que piensas nadar desnudo?"
+    },
+    {
+      "bucket": 128,
+      "hash": -803335281,
+      "en": "Oh, sorry for criticizing your tastes, this definitely suits me",
+      "es": "Vaya, para ser que critiqué tus gustos, definitivamente esto me luce"
+    },
+    {
+      "bucket": 134,
+      "hash": -803335284,
+      "en": "...",
+      "es": "…"
+    },
+    {
+      "bucket": 140,
+      "hash": -803335283,
+      "en": "You've got some nerve, although I wouldn't mind. This is also part of the experiment after all",
+      "es": "Que atrevido, aunque no me molestaría, esto también es parte del experimento después de todo"
+    },
+    {
+      "bucket": 146,
+      "hash": -1071082557,
+      "en": "I knew you had something up, that embarrassed look on your face is pitiful. Fine, let me fulfil your wish~",
+      "es": "Sabia que tenias algo entremanos, tu carita de verguenza es patética, bien. Cumplire tu deseo~"
+    },
+    {
+      "bucket": 152,
+      "hash": -803335285,
+      "en": "Ok. We can swim for a while.",
+      "es": "Bueno, supongo que podemos nadar un poco"
+    },
+    {
+      "bucket": 158,
+      "hash": -114951700,
+      "en": "Chara left…",
+      "es": "Chara se retiró"
+    },
+    {
+      "bucket": 164,
+      "hash": -279819718,
+      "en": "What about you? Do you want to swim for a bit? I already told you I don't mind if you're naked",
+      "es": "Y tú, ¿Te gustaría nadar un rato? Ya dije que no me importa que estés desnudo"
+    },
+    {
+      "bucket": 170,
+      "hash": -279819717,
+      "en": "Oh. The water really feels good, just the right temperature.",
+      "es": "Oh. De verdad que el agua es agradable, la temperatura adecuada"
+    },
+    {
+      "bucket": 176,
+      "hash": -279819720,
+      "en": "Let's go, partner. Don’t leave me hanging.",
+      "es": "Vamos compañero, no me dejes aquí con las ganas"
+    },
+    {
+      "bucket": 182,
+      "hash": -279819719,
+      "en": "* Chara holds out her hand",
+      "es": "* Chara extiende su mano"
+    },
+    {
+      "bucket": 188,
+      "hash": -2035264086,
+      "en": "You’re even trembling with excitement.",
+      "es": "Estás temblando de la emoción"
+    },
+    {
+      "bucket": 194,
+      "hash": -259431890,
+      "en": "You get straight to the point, don’t you? Alright, if you’re so insistent~",
+      "es": "Eres bastante directo ¿No? Bueno si tanto insistes~"
+    },
+    {
+      "bucket": 194,
+      "hash": -2035264085,
+      "en": "Or you just didn’t expect it to be so cold. Pathetic~",
+      "es": "Oh simplemente no esperabas que estuviera tan fría, que patetico~"
+    },
+    {
+      "bucket": 204,
+      "hash": 551316596,
+      "en": "You head over to Chara to invite her…",
+      "es": "Fuiste a donde Chara para invitarla…"
+    },
+    {
+      "bucket": 204,
+      "hash": -2035264088,
+      "en": "Wow, this is refreshing. The last time I was here was long ago.",
+      "es": "Vaya, si que es refrescante, la última vez que estuve aquí fue hace mucho tiempo"
+    },
+    {
+      "bucket": 214,
+      "hash": -2035264087,
+      "en": "I suppose you’re enjoying the experience as well.",
+      "es": "Supongo que tú también disfrutas la experiencia"
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/butcher/dialogue/butcher_fight.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 397528499,
+      "en": "I guess, I'm not the only one who's hungry.",
+      "es": "Creo que no soy la única con hambre por acá"
+    },
+    {
+      "bucket": 6,
+      "hash": 397528496,
+      "en": "Who am I to deny your desires?",
+      "es": "¿Quién soy yo para negarte el deseo?"
+    },
+    {
+      "bucket": 12,
+      "hash": 397528497,
+      "en": "Come on, let's continue with the feast~",
+      "es": "Vamos, continuemos con el banquete~"
+    },
+    {
+      "bucket": 18,
+      "hash": 208581854,
+      "en": "* I don't want to forgive you~",
+      "es": "* No quiero perdonarte~"
+    },
+    {
+      "bucket": 18,
+      "hash": -1329399722,
+      "en": "* Clean dodge \n* Your next ACT will be a little stronger.",
+      "es": "* Esquiva limpia \n*Tu siguiente ACT sera un poco mas fuerte."
+    },
+    {
+      "bucket": 28,
+      "hash": -352343840,
+      "en": "Grab Boobs",
+      "es": "Agarrarle las bobis"
+    },
+    {
+      "bucket": 34,
+      "hash": 910007551,
+      "en": "* Mercy",
+      "es": "* Piedad"
+    },
+    {
+      "bucket": 40,
+      "hash": 1273337440,
+      "en": "* You won! \n* You earned {exp} EXP and {gold} Gold.",
+      "es": "* Has ganado! \n* Recibiste {exp} EXP y {gold} Oro."
+    },
+    {
+      "bucket": 46,
+      "hash": 310376887,
+      "en": "Alright, partner, let the slaughter begin~",
+      "es": "Muy bien, compañero, que comience la matanza~"
+    },
+    {
+      "bucket": 52,
+      "hash": 869226650,
+      "en": "* But I just want to tear your skin with my teeth. You're boring!",
+      "es": "* Pero si solo quiero arrancarte la piel a mordiscos. ¡Que aburrido!"
+    },
+    {
+      "bucket": 58,
+      "hash": 1339350101,
+      "en": "* Flee",
+      "es": "* Huir"
+    },
+    {
+      "bucket": 64,
+      "hash": 869226648,
+      "en": "* Eh? You try to flee?",
+      "es": "* ¿Eh? ¿Intentas escapar?"
+    },
+    {
+      "bucket": 64,
+      "hash": 2140125174,
+      "en": "...",
+      "es": "..."
+    },
+    {
+      "bucket": 74,
+      "hash": 869226649,
+      "en": "* ...",
+      "es": "* ..."
+    },
+    {
+      "bucket": 74,
+      "hash": 2140125175,
+      "en": "Uh? What do you think you're doing?",
+      "es": "¿Uh? ¿Que crees que haces?"
+    },
+    {
+      "bucket": 84,
+      "hash": 2140125172,
+      "en": "Guess you're a little confused, partner.",
+      "es": "Supongo que debes estar confundido, compañero."
+    },
+    {
+      "bucket": 84,
+      "hash": 813579707,
+      "en": "Bra",
+      "es": "Sostén"
+    },
+    {
+      "bucket": 84,
+      "hash": 771945312,
+      "en": "Pants",
+      "es": "Pantalón"
+    },
+    {
+      "bucket": 84,
+      "hash": -793757915,
+      "en": "* Chara is wide open. \n* Your next ACT will be much stronger.",
+      "es": "* Chara esta vulnerable \n*Tu siguiente ACT sera mucho mas fuerte."
+    },
+    {
+      "bucket": 102,
+      "hash": 2140125173,
+      "en": "Oh, was that just another poor attempt to kill me?",
+      "es": "¿Oh solo fue otro triste intento de matarte?"
+    },
+    {
+      "bucket": 108,
+      "hash": 2140125170,
+      "en": "Disappointing...",
+      "es": "Que decepcionante..."
+    },
+    {
+      "bucket": 114,
+      "hash": 2140125171,
+      "en": "In that case, I'll have to teach you some manners~",
+      "es": "En ese caso debo enseñarte algunos modales~"
+    },
+    {
+      "bucket": 120,
+      "hash": -1489857790,
+      "en": "Panties",
+      "es": "Bragas"
+    },
+    {
+      "bucket": 126,
+      "hash": -995786863,
+      "en": "And am I the hungry one?",
+      "es": "¿Y yo soy la hambrienta~?"
+    },
+    {
+      "bucket": 126,
+      "hash": -662179402,
+      "en": "Apron",
+      "es": "Delantal"
+    },
+    {
+      "bucket": 136,
+      "hash": 197575358,
+      "en": "I have to admit, the apron may have been unnecessary",
+      "es": "Debo admitir, quizá el delantal era un poco innecesario."
+    },
+    {
+      "bucket": 136,
+      "hash": -995786858,
+      "en": "Looks like the idea already has you drooling like a fool.",
+      "es": "Veo que la idea ya te puso a babear como tonto"
+    },
+    {
+      "bucket": 136,
+      "hash": 1315179538,
+      "en": "The desire to taste the meat, savor its sweet flavor",
+      "es": "El deseo de probar la carne, de sentir el dulce sabor."
+    },
+    {
+      "bucket": 150,
+      "hash": 197575359,
+      "en": "Uh~",
+      "es": "Uh~"
+    },
+    {
+      "bucket": 150,
+      "hash": -995786857,
+      "en": "...to savor my thighs with your mouth.",
+      "es": "...De saborear mis muslos con tu boca"
+    },
+    {
+      "bucket": 150,
+      "hash": 1315179539,
+      "en": "It's irresistible, isn't it?",
+      "es": "Es irresistible, ¿no?"
+    },
+    {
+      "bucket": 150,
+      "hash": -110953224,
+      "en": "Sex",
+      "es": "Sexo"
+    },
+    {
+      "bucket": 168,
+      "hash": 197575356,
+      "en": "...and savor every drop while it's still fresh~",
+      "es": "...y saborear cada gota mientras este fresca~"
+    },
+    {
+      "bucket": 168,
+      "hash": -995786860,
+      "en": "I wonder how much longer you could resist the urge...",
+      "es": "Me preguntaba cuanto más podrias resistir el deseo..."
+    },
+    {
+      "bucket": 168,
+      "hash": 1315179536,
+      "en": "...Seems you want it too~",
+      "es": "...Y veo que tú también lo deseas~"
+    },
+    {
+      "bucket": 182,
+      "hash": 197575357,
+      "en": "After all, the fun is in feeling the blood on your skin...",
+      "es": "Después de todo, la diversión esta en sentir la sangre en la piel..."
+    },
+    {
+      "bucket": 182,
+      "hash": -995786859,
+      "en": "How curious.",
+      "es": "Que curioso."
+    },
+    {
+      "bucket": 182,
+      "hash": 1315179537,
+      "en": "The idea of eating you makes me crazy...",
+      "es": "Me vuelve loca la idea de comerte entero..."
+    },
+    {
+      "bucket": 196,
+      "hash": 397528498,
+      "en": "Wow.",
+      "es": "Wow."
+    },
+    {
+      "bucket": 196,
+      "hash": 1512179266,
+      "en": "Grab Ass",
+      "es": "Agarrarle las nalgas"
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/butcher/dialogue/butcher_flirt.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -1330662428,
+      "en": "So many options, grab a plate, have a taste.",
+      "es": "Tengo tantas opciones, toma un plato y prueba un poco."
+    },
+    {
+      "bucket": 6,
+      "hash": -691768025,
+      "en": "I wonder which part of you would have the most intense flavor~",
+      "es": "Me pregunto qué parte de ti tendría un sabor más intenso~"
+    },
+    {
+      "bucket": 12,
+      "hash": -691768028,
+      "en": "I'm so hungry that I could devour you. Could you let me have a little bite?",
+      "es": "Tengo tanta hambre que podria deborarte, ¿Me dejas dar un pequeño mordisco?"
+    },
+    {
+      "bucket": 18,
+      "hash": -691768027,
+      "en": "Come on, partner. Just a little more; I'm still not satisfied~",
+      "es": "Vamos compañero, solo un poco más, aun estoy insastifecha~"
+    },
+    {
+      "bucket": 24,
+      "hash": 1715209658,
+      "en": "You tell me where you'd like to start.",
+      "es": "Tu dime por donde te gustaria empezar."
+    },
+    {
+      "bucket": 24,
+      "hash": 1379838514,
+      "en": "You should be grateful that I won't waste a good meal.",
+      "es": "Deberias agradecer que no desperdiciare una buena comida."
+    },
+    {
+      "bucket": 34,
+      "hash": 1379838515,
+      "en": "I'm gonna slit your throat and eat 'ill I get sick.",
+      "es": "Voy a cortar tu garganta y comerla hasta quedar enferma."
+    },
+    {
+      "bucket": 40,
+      "hash": 1379838512,
+      "en": "I will take it, but I'm highly offended by it.",
+      "es": "Voy a comerlo, pero me ofende muchisimo..."
+    },
+    {
+      "bucket": 40,
+      "hash": 1715209656,
+      "en": "Sure, but just a little, no more.",
+      "es": "Claro, pero solo un poco y ya"
+    },
+    {
+      "bucket": 50,
+      "hash": 1715209657,
+      "en": "Fine, but just a little bite.",
+      "es": "Muy bien, solo uno pequeñito."
+    },
+    {
+      "bucket": 56,
+      "hash": -590436154,
+      "en": "Don't you prefer chocolate instead?",
+      "es": "¿Y si mejor te doy chocolate?"
+    },
+    {
+      "bucket": 62,
+      "hash": -911382358,
+      "en": "I know something big and thick that you could try",
+      "es": "Yo conozco algo grande y grueso que puedes probar."
+    },
+    {
+      "bucket": 62,
+      "hash": -590436156,
+      "en": "I think that's enough...",
+      "es": "Creo que ya fue suficiente..."
+    },
+    {
+      "bucket": 72,
+      "hash": -590436155,
+      "en": "I'm not comfortable with this...",
+      "es": "No me siento comodo con esto..."
+    },
+    {
+      "bucket": 78,
+      "hash": -911382360,
+      "en": "And who said we're done~?",
+      "es": "¿Y quien dijo que hemos acabado~?"
+    },
+    {
+      "bucket": 78,
+      "hash": -1872249654,
+      "en": "That's the spirit! Let's continue until we are satisfied.",
+      "es": "Asi se habla, vamos a seguir hasta quedar sastifechos"
+    },
+    {
+      "bucket": 88,
+      "hash": -911382359,
+      "en": "I know where you could start~",
+      "es": "Se por donde podrias empezar~"
+    },
+    {
+      "bucket": 88,
+      "hash": -1872249653,
+      "en": "Oh. But of course, It'll be a pleasure~",
+      "es": "Oh~ Por su puesto, sera todo un placer."
+    },
+    {
+      "bucket": 98,
+      "hash": -1872249656,
+      "en": "Oh, you don't mind if I take my time, right~?",
+      "es": "Oh~ No te importa que me tome mi tiempo, ¿cierto?"
+    },
+    {
+      "bucket": 98,
+      "hash": -1330662426,
+      "en": "I don't promise anything~",
+      "es": "No prometo nada~"
+    },
+    {
+      "bucket": 108,
+      "hash": -1330662425,
+      "en": "But my desire, it's bottomless~",
+      "es": "Pero mi deseo no tiene fondo~"
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/pale/dialogue/PaleChara_fight (2).en.translation": [
+    {
+      "bucket": 0,
+      "hash": 335038499,
+      "en": "* Her stern gaze turns to you. /nImmediately, an overwhelming sense of dread fills you.",
+      "es": "* Su mirada severa se vuelve hacia ti. /nAl instante, te invade un terror abrumador."
+    },
+    {
+      "bucket": 6,
+      "hash": 335038496,
+      "en": "* It doesn’t last long as her expression shifts back to a smile.",
+      "es": "* No dura mucho: su expresión vuelve a convertirse en una sonrisa."
+    },
+    {
+      "bucket": 12,
+      "hash": 335038497,
+      "en": "..Brave. I like that. Though a shame you would push your luck like this.",
+      "es": "...Qué valor. Eso me gusta. Aunque es una pena que tientes así a la suerte."
+    },
+    {
+      "bucket": 18,
+      "hash": 335038502,
+      "en": "Don’t worry, I’m not upset. You are going to do something for me in return, however.",
+      "es": "No te preocupes, no estoy enfadada. Pero tendrás que hacer algo por mí a cambio."
+    },
+    {
+      "bucket": 24,
+      "hash": 335038503,
+      "en": "I hope you like it rough~",
+      "es": "Espero que te guste que te traten con rudeza~"
+    },
+    {
+      "bucket": 30,
+      "hash": 355989914,
+      "en": "I know what you’re thinking. You wanna hold me tight and bury yourself as deep as you can inside me.",
+      "es": "Sé lo que estás pensando. Quieres abrazarme fuerte y hundirte en mí tan hondo como puedas."
+    },
+    {
+      "bucket": 36,
+      "hash": 355989915,
+      "en": "It may just be a coincidence, but we’re sharing rather similar thoughts~",
+      "es": "Puede que sea una simple coincidencia, pero estamos pensando en cosas muy parecidas~"
+    },
+    {
+      "bucket": 42,
+      "hash": 355989912,
+      "en": "* Your knife entangles briefly in the visible distortion, only for it to sever and dissipate with effort.",
+      "es": "* Tu cuchillo se enreda por un instante en la distorsión visible, pero con esfuerzo logras cortarla y hacer que se disipe."
+    },
+    {
+      "bucket": 48,
+      "hash": 355989913,
+      "en": "* With her lower region exposed, you can see the glisten of a sticky fluid permeate from her pale folds.",
+      "es": "* Ahora que su entrepierna está al descubierto, ves el brillo de un líquido pegajoso que rezuma entre sus pálidos pliegues."
+    },
+    {
+      "bucket": 54,
+      "hash": 1081685454,
+      "en": "* As your knife cleaves through her tattered shirt, her smile grows for a moment. /nWith a twist of her hand, two visible anomalies cover her breasts.",
+      "es": "* Tu cuchillo rasga su camisa raída y, por un instante, su sonrisa se ensancha. /nCon un giro de la mano, dos anomalías visibles cubren sus pechos."
+    },
+    {
+      "bucket": 54,
+      "hash": 585696582,
+      "en": "* Part of you doesn’t want to know, but seeing the way she licked her lips clean has you more than excited, and she knows it too.",
+      "es": "* Una parte de ti no quiere saberlo, pero verla lamerse los labios te excita muchísimo, y ella también lo sabe."
+    },
+    {
+      "bucket": 64,
+      "hash": 1081685455,
+      "en": "It’s not nice to stare at a girl’s assets, you know~",
+      "es": "No está bien quedarse mirando los encantos de una chica, ¿sabes?~"
+    },
+    {
+      "bucket": 64,
+      "hash": 585696583,
+      "en": "* She teasingly curls her finger, beckoning you along. /nWho are you to deny her supple reward?",
+      "es": "* Dobla el dedo con picardía, invitándote a acercarte. /n¿Quién eres tú para rechazar tan suave recompensa?"
+    },
+    {
+      "bucket": 74,
+      "hash": -1172953591,
+      "en": "Shh.. It’s rude to disturb someone who’s resting.",
+      "es": "Shh... Es de mala educación molestar a alguien que está descansando."
+    },
+    {
+      "bucket": 74,
+      "hash": 1081685452,
+      "en": "I’m only joking, of course. You can stare as much as you like.",
+      "es": "Claro que solo estoy bromeando. Puedes mirar todo lo que quieras."
+    },
+    {
+      "bucket": 74,
+      "hash": 585696580,
+      "en": "* While the odd blots of what seem to be data collections are easy to tear through, it takes a swift twirl of your blade and a second swing to clear the collective on her other tit.",
+      "es": "* Aunque resulta fácil cortar esas extrañas manchas que parecen cúmulos de datos, necesitas girar la hoja con agilidad y dar un segundo tajo para despejar la otra teta."
+    },
+    {
+      "bucket": 88,
+      "hash": 1081685453,
+      "en": "Keep playing with me and I might let you have all you want and more~",
+      "es": "Sigue jugando conmigo y quizá te deje tener todo lo que quieras y más~"
+    },
+    {
+      "bucket": 88,
+      "hash": 585696581,
+      "en": "* Your display seems to leave rather pleased, her mouth drooling an unknown substance. /nYou can’t quite tell if its blood or something else entirely.",
+      "es": "* Tu destreza parece dejarla bastante complacida; una sustancia desconocida le gotea de la boca. /nNo logras distinguir si es sangre o algo completamente distinto."
+    },
+    {
+      "bucket": 98,
+      "hash": -1321516018,
+      "en": "* She’s smiling, waiting.",
+      "es": "* Ella sonríe y espera."
+    },
+    {
+      "bucket": 104,
+      "hash": -1321516020,
+      "en": "* You try to flee..",
+      "es": "* Intentas huir..."
+    },
+    {
+      "bucket": 110,
+      "hash": -1321516019,
+      "en": "* The path behind you seems to stretch into darkness forever.",
+      "es": "* El camino a tus espaldas parece adentrarse en la oscuridad sin fin."
+    },
+    {
+      "bucket": 116,
+      "hash": -1306289506,
+      "en": "* As you slice through the worn fabric of her shorts, you catch a glimpse of her body. /nIt’s distracting enough that you nearly cut her thigh by accident.",
+      "es": "* Al cortar la tela desgastada de sus shorts, alcanzas a ver su cuerpo. /nTe distraes tanto que casi le cortas el muslo por accidente."
+    },
+    {
+      "bucket": 122,
+      "hash": -1306289505,
+      "en": "* She’s quick to notice, effortlessly parrying your knife away with just one clawed finger. /nIt takes effort just to keep it from flying out of your hands.",
+      "es": "* Ella lo nota enseguida y desvía tu cuchillo sin esfuerzo con un solo dedo provisto de garra. /nTe cuesta evitar que salga volando de tus manos."
+    },
+    {
+      "bucket": 128,
+      "hash": -1306289508,
+      "en": "* You hear her fingers snap while you regain your balance, a visual anomaly now covering her pussy. /nYou can hear her quiet giggling for a moment.",
+      "es": "* Mientras recuperas el equilibrio, la oyes chasquear los dedos. Ahora una anomalía visual cubre su coño. /nPor un momento, oyes su risita suave."
+    },
+    {
+      "bucket": 134,
+      "hash": -1306289507,
+      "en": "Don’t get distracted now. Wouldn’t want to waste your efforts, would you?",
+      "es": "No te distraigas ahora. No querrás echar a perder tus esfuerzos, ¿verdad?"
+    },
+    {
+      "bucket": 140,
+      "hash": -1306289510,
+      "en": "There will be plenty for you to indulge in after you satisfy me~",
+      "es": "Tendrás mucho de lo que disfrutar cuando me hayas satisfecho~"
+    },
+    {
+      "bucket": 146,
+      "hash": 1220033946,
+      "en": "* She winks at you playfully. /nLooks like there’s not much of a choice here.",
+      "es": "* Te guiña un ojo con picardía. /nParece que aquí no tienes muchas opciones."
+    },
+    {
+      "bucket": 152,
+      "hash": 335038498,
+      "en": "* Her smile drops to a frown, her hollow eyes glancing to a cut left by your knife.",
+      "es": "* Su sonrisa desaparece y frunce el ceño; sus ojos vacíos se posan en el corte que dejó tu cuchillo."
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/pale/dialogue/PaleChara_flirt.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -645608407,
+      "en": "Well, I see no harm in delaying the inevitable for a while~",
+      "es": "Bueno, no veo nada de malo en posponer lo inevitable un poco más~"
+    },
+    {
+      "bucket": 6,
+      "hash": -438871050,
+      "en": "It’s wonderful, and sharing it with you makes it even better.",
+      "es": "Es maravilloso, y compartirlo contigo lo hace aún mejor."
+    },
+    {
+      "bucket": 6,
+      "hash": 1096311237,
+      "en": "* You see her eye twitch for a moment. Maybe you SHOULD stay quiet..",
+      "es": "* Ves que le tiembla un ojo por un instante. Quizá SÍ deberías quedarte callado..."
+    },
+    {
+      "bucket": 16,
+      "hash": -1492775210,
+      "en": "It has its flaws, but imperfections are beautiful in their own way.",
+      "es": "Tiene sus defectos, pero las imperfecciones son hermosas a su manera."
+    },
+    {
+      "bucket": 16,
+      "hash": -438871052,
+      "en": "Of course! I just wanted to be respectful of your establishment.",
+      "es": "¡Claro! Solo quería mostrar respeto por tu establecimiento."
+    },
+    {
+      "bucket": 26,
+      "hash": -438871051,
+      "en": "This story won’t end until you get your happy ending. ",
+      "es": "No voy a terminar la historia. No hasta que tú tengas primero tu final feliz."
+    },
+    {
+      "bucket": 32,
+      "hash": -1492775212,
+      "en": "Your parlor is beautiful, but you’re prettier. ",
+      "es": "¡No me atrevería a romper tus reglas! Tu salón es precioso, pero nada podría compararse contigo."
+    },
+    {
+      "bucket": 38,
+      "hash": -830237238,
+      "en": "I got stuck in the maze for like two hours.",
+      "es": "Me quedé atascado en el laberinto como dos horas."
+    },
+    {
+      "bucket": 38,
+      "hash": -1492775211,
+      "en": "I’d stay longer, but there’s something that still needs to be done.",
+      "es": "Quiero pasar más tiempo contigo, pero todavía queda algo por hacer."
+    },
+    {
+      "bucket": 48,
+      "hash": 1045978380,
+      "en": "* The disappointment in her expression is.. almost immeasurable.",
+      "es": "* La decepción en su rostro es... casi inconmensurable."
+    },
+    {
+      "bucket": 48,
+      "hash": -830237240,
+      "en": "I didn’t see the sign, but I wasn’t in a big hurry anyways.",
+      "es": "No vi el cartel, pero de todas formas tampoco tenía mucha prisa."
+    },
+    {
+      "bucket": 58,
+      "hash": 1801317832,
+      "en": "I know what your original intentions were, but what do you intend to do after we have our fun?",
+      "es": "Sé cuáles eran tus intenciones al principio, pero ¿qué piensas hacer después de que nos divirtamos?"
+    },
+    {
+      "bucket": 58,
+      "hash": -830237239,
+      "en": "Eh, quit the game and forget this in two weeks.",
+      "es": "Eh, probablemente cierre el juego y en dos semanas olvide que estuve aquí."
+    },
+    {
+      "bucket": 68,
+      "hash": 1851650689,
+      "en": "This world was made just for you, you know. I hope you’ve enjoyed every moment here.",
+      "es": "Este mundo se creó solo para ti, ¿sabes? Espero que hayas disfrutado cada instante aquí."
+    },
+    {
+      "bucket": 68,
+      "hash": -645483123,
+      "en": "* She’s left stunned in surprise. After a moment, her shocked expression melts into a gentle smile.",
+      "es": "* Se queda atónita. Al cabo de un momento, su expresión de asombro se transforma en una sonrisa tierna."
+    },
+    {
+      "bucket": 78,
+      "hash": -662260710,
+      "en": "You’re sweet, you know that? You should glance around a few layers down, I’ll have something there for you~",
+      "es": "Eres un encanto, ¿lo sabías? Deberías echar un vistazo unos cuantos niveles más abajo; tendré algo allí para ti~"
+    },
+    {
+      "bucket": 84,
+      "hash": -662385994,
+      "en": "I appreciate the flattery, but it feels a little insincere, don’t you think?",
+      "es": "Agradezco los halagos, pero suenan un poco falsos, ¿no te parece?"
+    },
+    {
+      "bucket": 90,
+      "hash": 1818095547,
+      "en": "Back in my parlor, I noticed you were keen on actually following what my sign said.",
+      "es": "En mi salón, noté que te esforzabas por hacer caso a lo que decía mi cartel."
+    },
+    {
+      "bucket": 96,
+      "hash": 1079533650,
+      "en": "Well, at least you didn’t cause any trouble. Hope you liked my pranks, by the way.",
+      "es": "Bueno, al menos no causaste problemas. Por cierto, espero que te hayan gustado mis bromas."
+    },
+    {
+      "bucket": 102,
+      "hash": -695815884,
+      "en": "We can share it whenever and for as long as you like, no matter the circumstances that bring you back to me.",
+      "es": "Podemos compartirlo cuando quieras y durante todo el tiempo que desees, sin importar qué te traiga de vuelta a mí."
+    },
+    {
+      "bucket": 108,
+      "hash": 21677489,
+      "en": "You’re really sweet. Say, I did find an interesting book. Thought it was yours, so I left you a little something~",
+      "es": "Eres un encanto. Por cierto, encontré un libro interesante. Pensé que era tuyo, así que te dejé un detallito~"
+    },
+    {
+      "bucket": 114,
+      "hash": -695941296,
+      "en": "That’s a lovely of putting it. If there’s anything I can do to make it better, don’t be afraid to tell me.",
+      "es": "Qué bonita forma de decirlo. Si hay algo que pueda hacer para mejorarlo, no temas decírmelo."
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/solver/dialogue/solver_fight.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 885137719,
+      "en": "...You're interested in me.",
+      "es": "...tienes interés por mí."
+    },
+    {
+      "bucket": 6,
+      "hash": 885137716,
+      "en": "Tell me, what you think?",
+      "es": "Dime, ¿qué te parece?"
+    },
+    {
+      "bucket": 6,
+      "hash": 904467920,
+      "en": "We can have a little fun until your pathetic demise…",
+      "es": "Podemos divertirnos un poco hasta tu patetico final..."
+    },
+    {
+      "bucket": 16,
+      "hash": 885137717,
+      "en": "You can look all you want...",
+      "es": "Puedes mirar todo lo que quieras..."
+    },
+    {
+      "bucket": 16,
+      "hash": 904467921,
+      "en": "...So enjoy, soon you will no longer feel anything :)",
+      "es": "...Así que disfruta, pronto no sentirás nada :)"
+    },
+    {
+      "bucket": 26,
+      "hash": 904467926,
+      "en": "I suppose it was the most rational thing for you.",
+      "es": "Supongo que era lo más racional para ti."
+    },
+    {
+      "bucket": 32,
+      "hash": 904467927,
+      "en": "Still, not the most intelligent.",
+      "es": "Aun así, no lo más inteligente"
+    },
+    {
+      "bucket": 38,
+      "hash": 873657775,
+      "en": "* Flee",
+      "es": "* Huir"
+    },
+    {
+      "bucket": 38,
+      "hash": 904467924,
+      "en": "… lick",
+      "es": "...lamida"
+    },
+    {
+      "bucket": 48,
+      "hash": 904467925,
+      "en": "I must admit, this is disappointing.",
+      "es": "Debo admitir que esto es decepcionante."
+    },
+    {
+      "bucket": 54,
+      "hash": -657531734,
+      "en": "All your effort, just for flesh.",
+      "es": "Todo tu esfuerzo, solo por carne."
+    },
+    {
+      "bucket": 60,
+      "hash": -657531733,
+      "en": "Giggle. Finally, something we can agree on.",
+      "es": "Risita. Finalmente, algo en lo que estamos de acuerdo."
+    },
+    {
+      "bucket": 66,
+      "hash": -657531736,
+      "en": "Shocked.",
+      "es": "Impactada."
+    },
+    {
+      "bucket": 72,
+      "hash": -657531735,
+      "en": "You really are a naughty boy, aren’t you?",
+      "es": "En serio que eres travieso, ¿no es así?"
+    },
+    {
+      "bucket": 78,
+      "hash": 1742689245,
+      "en": "Cape",
+      "es": "Capa"
+    },
+    {
+      "bucket": 78,
+      "hash": 396932011,
+      "en": "* Chara is wide open. \n* Your next ACT will be much stronger.",
+      "es": "* Chara esta vulnerable \n*Tu siguiente ACT sera mucho mas fuerte."
+    },
+    {
+      "bucket": 88,
+      "hash": 1405266311,
+      "en": "Pantyhose",
+      "es": "Pantis"
+    },
+    {
+      "bucket": 94,
+      "hash": 1363339438,
+      "en": "* Giggle. You try to flee?",
+      "es": "* Risita. ¿Intentas huir?"
+    },
+    {
+      "bucket": 100,
+      "hash": 1363339439,
+      "en": "* ...",
+      "es": "* ..."
+    },
+    {
+      "bucket": 106,
+      "hash": 1363339436,
+      "en": "* It's been fun. But also, that's sarcasm.",
+      "es": "* Fue divertido. Tambien, fue sarcasmo."
+    },
+    {
+      "bucket": 112,
+      "hash": 674956684,
+      "en": "Grab Ass",
+      "es": "Agarrarle las nalgas"
+    },
+    {
+      "bucket": 118,
+      "hash": -399047903,
+      "en": "Alright. Easier to assimilate than explain.",
+      "es": "Muy bien, es más fácil asimilar que explicar."
+    },
+    {
+      "bucket": 124,
+      "hash": -46145730,
+      "en": "Giggle.",
+      "es": "Risita."
+    },
+    {
+      "bucket": 124,
+      "hash": -1490608530,
+      "en": "* You won! \n* You earned {exp} EXP and {gold} Gold.",
+      "es": "* Has ganado! \n* Recibiste {exp} EXP y {gold} Oro."
+    },
+    {
+      "bucket": 134,
+      "hash": -46145729,
+      "en": "It's funny to see you excited for my body.",
+      "es": "Es divertido verte emocionado por mi cuerpo."
+    },
+    {
+      "bucket": 140,
+      "hash": -46145732,
+      "en": "Maybe I should allow you to get closer",
+      "es": "Quizá deba permitirte acercarte un poco más."
+    },
+    {
+      "bucket": 146,
+      "hash": 910708666,
+      "en": "Besides, I want to see how far you can go.",
+      "es": "Sin embargo, me gustaria ver hasta donde llegas."
+    },
+    {
+      "bucket": 146,
+      "hash": -46145731,
+      "en": "Stabbing will be much simpler, don't you think~?",
+      "es": "Apuñalar será mucho más sencillo, ¿no te parece~?"
+    },
+    {
+      "bucket": 156,
+      "hash": 910708667,
+      "en": "It could turn out to be something interesting~",
+      "es": "Podría resultar en algo, interesante~"
+    },
+    {
+      "bucket": 156,
+      "hash": -182301124,
+      "en": "* Clean dodge \n* Your next ACT will be a little stronger.",
+      "es": "* Esquiva limpia \n*Tu siguiente ACT sera un poco mas fuerte."
+    },
+    {
+      "bucket": 166,
+      "hash": 910708664,
+      "en": "Surprised.",
+      "es": "Sorprendida."
+    },
+    {
+      "bucket": 172,
+      "hash": 910708665,
+      "en": "Your behavior is unusual.",
+      "es": "Tu comportamiento es muy inusual."
+    },
+    {
+      "bucket": 178,
+      "hash": -1818007767,
+      "en": "* Mercy",
+      "es": "* Piedad"
+    },
+    {
+      "bucket": 184,
+      "hash": -950369738,
+      "en": "Grab Boobs",
+      "es": "Agarrarle las bubis"
+    },
+    {
+      "bucket": 184,
+      "hash": -948831025,
+      "en": "Tights",
+      "es": "Medias"
+    },
+    {
+      "bucket": 194,
+      "hash": -1539826340,
+      "en": "* Bad job, partner",
+      "es": "* Ya no, compañero"
+    },
+    {
+      "bucket": 194,
+      "hash": 1536319437,
+      "en": "Bra",
+      "es": "Sostén"
+    },
+    {
+      "bucket": 204,
+      "hash": 885137714,
+      "en": "...while you wait to be assimilated~",
+      "es": "...mientras esperas ser asimilado~"
+    },
+    {
+      "bucket": 210,
+      "hash": -223183502,
+      "en": "Sex",
+      "es": "Sexo"
+    },
+    {
+      "bucket": 216,
+      "hash": 885137718,
+      "en": "Curious, I guess by your expression…",
+      "es": "Curioso, supongo que por tu expresión…"
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/solver/dialogue/solver_flirt.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -1874225182,
+      "en": "I don't see how you could be relevant. Do you?",
+      "es": "No veo cómo podrías ser relevante. ¿Y tú?"
+    },
+    {
+      "bucket": 6,
+      "hash": -1874225181,
+      "en": "Your eyes don't lie; do you finally understand the horror before you?",
+      "es": "Tus ojos no mienten, ¿por fin comprendes el horror que tienes ante ti?"
+    },
+    {
+      "bucket": 12,
+      "hash": -1874225183,
+      "en": "I must admit you're a little irritating.",
+      "es": "Debo admitir que eres un poco irritante."
+    },
+    {
+      "bucket": 12,
+      "hash": -1443456938,
+      "en": "Annoyed expression.",
+      "es": "Expresion de molestia."
+    },
+    {
+      "bucket": 12,
+      "hash": 34581990,
+      "en": "You are nothing but a monster.",
+      "es": "Entiendo que solo eres un mounstro."
+    },
+    {
+      "bucket": 26,
+      "hash": 66893894,
+      "en": "You're right, there's still more to see inside you~",
+      "es": "Tienes razón, aún falta ver qué hay en tu interior~"
+    },
+    {
+      "bucket": 26,
+      "hash": 34581991,
+      "en": "I can show you other worlds to consume.",
+      "es": "Puedo llevarte a otros mundos para consumir."
+    },
+    {
+      "bucket": 36,
+      "hash": 34581988,
+      "en": "Thank you... I guess.",
+      "es": "Gracias... supongo."
+    },
+    {
+      "bucket": 36,
+      "hash": -1443456940,
+      "en": "Totally, unnecesary.",
+      "es": "Totalmente, innecesario."
+    },
+    {
+      "bucket": 46,
+      "hash": -1443456939,
+      "en": "Cute: false. Gross: true",
+      "es": "Ternura: Falso . Asqueroso: Verdad"
+    },
+    {
+      "bucket": 46,
+      "hash": 66893892,
+      "en": "I admire your intelligence. Perhaps I won't discard you~",
+      "es": "Admiro tu inteligencia, quizás no seas descartado~"
+    },
+    {
+      "bucket": 56,
+      "hash": 66893893,
+      "en": "Obedience is quite satisfying, approved.",
+      "es": "La obediencia es muy sastifactoria."
+    },
+    {
+      "bucket": 62,
+      "hash": -172010358,
+      "en": "You're welcome! :)",
+      "es": "¡De nada! :)"
+    },
+    {
+      "bucket": 68,
+      "hash": -172010360,
+      "en": "I’m flattered~ Keep thinking that way.",
+      "es": "Me halagas~ Manten ese pensamiento."
+    },
+    {
+      "bucket": 74,
+      "hash": -172010359,
+      "en": "You're trying to delay your end, adorable.",
+      "es": "Buscas retrasar tu final, adorable ."
+    },
+    {
+      "bucket": 74,
+      "hash": -151066958,
+      "en": "Horror? Perhaps someone I could love~",
+      "es": "¿Horror? Mas bien, alguien a quien podria amar~"
+    },
+    {
+      "bucket": 84,
+      "hash": -151066957,
+      "en": "I can be you chair.",
+      "es": "Puedo ser tu silla."
+    },
+    {
+      "bucket": 84,
+      "hash": -454232558,
+      "en": "Yes, I understand. You are the solver, the salvation.",
+      "es": "Si, comprendo que eres la solucion, la salvacion."
+    },
+    {
+      "bucket": 94,
+      "hash": -151066960,
+      "en": "And you're a little vain.",
+      "es": "Y tú eres un poco presumida."
+    },
+    {
+      "bucket": 94,
+      "hash": -454232557,
+      "en": "I can serve as a tool for you.",
+      "es": "Puedo servirte como una herramienta."
+    },
+    {
+      "bucket": 104,
+      "hash": -454232560,
+      "en": "Wait until you get to know me better; you will change your mind~",
+      "es": "Espera a conocerme mejor, cambiaras de opinion~"
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/zukafu/dialogue/zukafu_collab_fight.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 1880485602,
+      "en": "Push me to my limits and wait for your reward~",
+      "es": "Llevame al límite y espera tu recompensa~"
+    },
+    {
+      "bucket": 6,
+      "hash": 1880485603,
+      "en": "Go on. I want to see you try",
+      "es": "Vamos, me gustaría verte intentarlo"
+    },
+    {
+      "bucket": 6,
+      "hash": -1884181516,
+      "en": "* You won! \n* You earned {exp} EXP and {gold} Gold.",
+      "es": "* Has ganado! \n* Recibiste {exp} EXP y {gold} Oro."
+    },
+    {
+      "bucket": 16,
+      "hash": 1880485600,
+      "en": "So what? Are you going to rip my bra too?",
+      "es": "¿Y qué? ¿No quieres romper mi sostén también?"
+    },
+    {
+      "bucket": 16,
+      "hash": -196264877,
+      "en": "* Mercy",
+      "es": "* Piedad"
+    },
+    {
+      "bucket": 16,
+      "hash": -137302037,
+      "en": "Don't be a pussy, keep fighting",
+      "es": "No seas marica, regresa a pelear"
+    },
+    {
+      "bucket": 16,
+      "hash": 2019170504,
+      "en": "* Chara is wide open. \n* Your next ACT will be much stronger.",
+      "es": "* Chara esta vulnerable \n*Tu siguiente ACT sera mucho mas fuerte."
+    },
+    {
+      "bucket": 34,
+      "hash": 1880485601,
+      "en": "You've torn my sweater...",
+      "es": "Rompiste mi suéter..."
+    },
+    {
+      "bucket": 34,
+      "hash": 107906026,
+      "en": "Clothes are nothing but a hindrance",
+      "es": "La ropa no es más que una molestia"
+    },
+    {
+      "bucket": 34,
+      "hash": -1024597563,
+      "en": "Bra",
+      "es": "Sostén"
+    },
+    {
+      "bucket": 48,
+      "hash": 107906027,
+      "en": "Phew, thanks idiot",
+      "es": "Fiu, gracias idiota"
+    },
+    {
+      "bucket": 54,
+      "hash": -1771243274,
+      "en": "Lick it, squeeze even. Are you really going to leave me waiting for more~?",
+      "es": "Lamelas, apriétalas ¿Me dejarás esperando por más~?"
+    },
+    {
+      "bucket": 54,
+      "hash": 107906024,
+      "en": "You won't even feel when I put my ass in your face!",
+      "es": "¡Siquiera sentirás cuando ponga mi culo en tu cara!"
+    },
+    {
+      "bucket": 64,
+      "hash": -1771243273,
+      "en": "Enjoying the view? Don't be a bitch now and start touching them",
+      "es": "¿Disfrutando de la vista? No seas una perrita y ven a tocarme ahora"
+    },
+    {
+      "bucket": 64,
+      "hash": 107906025,
+      "en": "Now I can move as I please, poor you",
+      "es": "Ahora puedo moverme con más libertad, pobre de ti"
+    },
+    {
+      "bucket": 74,
+      "hash": -1771243276,
+      "en": "I should give you a head start for you effort",
+      "es": "Debería darte una estrellita por tu esfuerzo"
+    },
+    {
+      "bucket": 80,
+      "hash": -1771243275,
+      "en": "So, you've got the guts",
+      "es": "Si que tienes agallas cabrón"
+    },
+    {
+      "bucket": 86,
+      "hash": -1774140731,
+      "en": "Sweater",
+      "es": "Suéter"
+    },
+    {
+      "bucket": 92,
+      "hash": -5382159,
+      "en": "* Flee",
+      "es": "* Huir"
+    },
+    {
+      "bucket": 98,
+      "hash": 547979233,
+      "en": "* Clean dodge \n* Your next ACT will be a little stronger.",
+      "es": "* Esquiva limpia \n*Tu siguiente ACT sera un poco mas fuerte."
+    },
+    {
+      "bucket": 104,
+      "hash": 1039496166,
+      "en": "... sigh",
+      "es": "... sigh"
+    },
+    {
+      "bucket": 110,
+      "hash": 1039496167,
+      "en": "ARE YOU FUC—",
+      "es": "ESTA DE PU-"
+    },
+    {
+      "bucket": 110,
+      "hash": 768517497,
+      "en": "Shorts",
+      "es": "Shorts"
+    },
+    {
+      "bucket": 120,
+      "hash": 1039496165,
+      "en": "Yeah yeah whatever, go run with mama",
+      "es": "Si si como sea, ve a correr con tu mami"
+    },
+    {
+      "bucket": 120,
+      "hash": -2053801438,
+      "en": "So, stay still. I'll merely return the favor",
+      "es": "Quédate quieto, simplemente devolveré el favor"
+    },
+    {
+      "bucket": 130,
+      "hash": -2053801437,
+      "en": "Don't cry if you got hurt, I won't be gentle~",
+      "es": "No llores si te lastimo, no pienso ser gentil~"
+    },
+    {
+      "bucket": 136,
+      "hash": -2053801434,
+      "en": "Finally, the climax",
+      "es": "Finalmente, llegamos al climax"
+    },
+    {
+      "bucket": 142,
+      "hash": -2053801433,
+      "en": "The moment when we kill each other, now for real",
+      "es": "El momento donde nos matamos mutuamente, de verdad"
+    },
+    {
+      "bucket": 142,
+      "hash": -1457654488,
+      "en": "Panty",
+      "es": "Pantie"
+    },
+    {
+      "bucket": 152,
+      "hash": -2053801436,
+      "en": "I must admit, that show you did, it was great",
+      "es": "Debo admitir, todo ese show, estuvo genial"
+    },
+    {
+      "bucket": 158,
+      "hash": -2053801435,
+      "en": "But it isn't fair that I am the only naked here",
+      "es": "Pero no es justo que sea la única que esté desnuda acá"
+    },
+    {
+      "bucket": 164,
+      "hash": -1086061344,
+      "en": "A fight? Good, let's enjoy this~",
+      "es": "¿Una pelea? Va, disfrutemos esto"
+    },
+    {
+      "bucket": 164,
+      "hash": 941310146,
+      "en": "But use your big and tight dick next time",
+      "es": "Pero deberías usar esa gorda verga tuya para la próxima"
+    },
+    {
+      "bucket": 174,
+      "hash": 941310147,
+      "en": "Who knows, maybe you'll hit the jackpot~",
+      "es": "¿Quién sabe? Tal vez des en el blanco~"
+    },
+    {
+      "bucket": 180,
+      "hash": 941310144,
+      "en": "Oh, I see what you're aiming for",
+      "es": "Puedo ver a donde estás apuntando"
+    },
+    {
+      "bucket": 186,
+      "hash": 941310145,
+      "en": "I must sincerely admire your aim",
+      "es": "Debo decir que tu puntería es admirable"
+    }
+  ],
+  "battle_characters/Chara/costumes/battle/zukafu/dialogue/zukafu_collab_flirt.en.translation": [
+    {
+      "bucket": 0,
+      "hash": 153606510,
+      "en": "I've got you driving crazy to try all of this, haven't I?",
+      "es": "Ya te traigo loca por mí, ¿verdad?"
+    },
+    {
+      "bucket": 6,
+      "hash": 153606511,
+      "en": "Girl, you're the bottom here, brace yourself!",
+      "es": "Chica, la única pasiva aquí eres tú, ¡Más vale que estés preparada!"
+    },
+    {
+      "bucket": 12,
+      "hash": -2059516693,
+      "en": "If you want it, ask for it~",
+      "es": "Si lo quieres, solo pídelo~"
+    },
+    {
+      "bucket": 18,
+      "hash": 153606509,
+      "en": "How long are you going to keep those legs closed?",
+      "es": "¿Cuánto tiempo mantendrás esas piernas cerradas?"
+    },
+    {
+      "bucket": 18,
+      "hash": 221085427,
+      "en": "Touché, in that case. I’m all yours~",
+      "es": "Touché, en ese caso, soy toda tuya~"
+    },
+    {
+      "bucket": 18,
+      "hash": -2059516696,
+      "en": "I'd like the idea, but i'm saving the best for the grand finale",
+      "es": "Me gusta la idea, pero me lo guardo para el gran final"
+    },
+    {
+      "bucket": 32,
+      "hash": 221085424,
+      "en": "Can you blame me? The best part of you is all attached to you, idiot~",
+      "es": "¿Puedes culparme? Lo mejor de ti lo traes ahí pegado, idiota~"
+    },
+    {
+      "bucket": 32,
+      "hash": -145570290,
+      "en": "That goofy face of yours is hilarious, surely a bottom attitude",
+      "es": "Esa tonta cara tuya es divertida, digna de una actitud pasiva"
+    },
+    {
+      "bucket": 32,
+      "hash": -2059516695,
+      "en": "Was I that obvious? Dang...",
+      "es": "¿Fui tan obvio? Mierda…"
+    },
+    {
+      "bucket": 46,
+      "hash": -145570289,
+      "en": "Cut the talk, let's get right into the action, shall we?",
+      "es": "Cortemos la charla, deberíamos ir directo a la acción ¿No crees?"
+    },
+    {
+      "bucket": 46,
+      "hash": 221085425,
+      "en": "Oh~You think you're qualified to be on top? Pathetic, you should earn it first~",
+      "es": "¿Te crees apto para estar arriba? Patético, eso primero se gana~"
+    },
+    {
+      "bucket": 56,
+      "hash": -145570292,
+      "en": "I wonder how long you're gonna make me wait for you~",
+      "es": "Me pregunto cuanto tiempo me tendrás esperando~"
+    },
+    {
+      "bucket": 62,
+      "hash": 577486686,
+      "en": "Sounds good, if you weren't stupid enough to not see the fight button",
+      "es": "Suena bien, si no fueras tan estúpido para no ver el botón de pelea"
+    },
+    {
+      "bucket": 68,
+      "hash": 577486687,
+      "en": "I'm definitely slicing off that tongue of yours, idiot",
+      "es": "Definitivamente debo cortar esa lengua que traes, idiota"
+    },
+    {
+      "bucket": 74,
+      "hash": 577486685,
+      "en": "And since when are you so annoying?",
+      "es": "¿Y desde cuándo eres tan molesto?"
+    },
+    {
+      "bucket": 80,
+      "hash": -1335825026,
+      "en": "Then let's keep fighting!",
+      "es": "¡Entonces sigamos luchando!"
+    },
+    {
+      "bucket": 86,
+      "hash": -1335825025,
+      "en": "Oh right, I'm sure that's the experience talking",
+      "es": "De seguro no es la experiencia hablando"
+    },
+    {
+      "bucket": 92,
+      "hash": 556656271,
+      "en": "I'd rather cut those ugly shorts you're wearing",
+      "es": "Prefiero quitarte esos feos shorts que traes"
+    },
+    {
+      "bucket": 98,
+      "hash": -1335825027,
+      "en": "Long enough to watch you beg for it",
+      "es": "Lo suficiente para verte rogar por ello"
+    },
+    {
+      "bucket": 98,
+      "hash": 556656268,
+      "en": "How sweet, you actually think you'll get to the end in one piece",
+      "es": "Adorable, realmente piensas que llegaras al final intacto"
+    },
+    {
+      "bucket": 108,
+      "hash": 556656269,
+      "en": "But of course, you're already dying to have me on top of you~",
+      "es": "Por supuesto, si ya te veo muerto de ganas esperando que este arriba de ti~"
+    }
+  ],
+  "battle_characters/Chara/costumes/costumes_translation.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -1339323590,
+      "en": "Version of the song with Lyrics, closer to source material.",
+      "es": "Versión de la canción con letra, más fiel a la fuente original."
+    },
+    {
+      "bucket": 6,
+      "hash": 2095033742,
+      "en": "Version of the song, closer to Undertale's style.",
+      "es": "Versión de la canción más cercana al estilo de Undertale."
+    }
+  ],
+  "resources/items_translation.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -1994200077,
+      "en": "You ate the Gelly Fish. The goo is stuck to your tongue. \nYou recovered 20HP. You can now block 1 hit!",
+      "es": "Te comiste el gel protector. El gel se te quedó pegado en la lengua. \nHas Recuperado 20HP. ¡Ahora puedes bloquear un golpe!"
+    },
+    {
+      "bucket": 6,
+      "hash": 1247082694,
+      "en": "Backshot",
+      "es": "Por detrás"
+    },
+    {
+      "bucket": 12,
+      "hash": -1629130069,
+      "en": "Why? \nWhy do you have to reach to this point?",
+      "es": "¿Por qué? ¿Por qué tienes que llegar a este punto?"
+    },
+    {
+      "bucket": 18,
+      "hash": -1390512412,
+      "en": "An item that's just out of reach.",
+      "es": "Un objeto que está justo afuera de tu alcance."
+    },
+    {
+      "bucket": 24,
+      "hash": -1820770728,
+      "en": "A ghostly outfit. You feel a little scared when you're near it.",
+      "es": "Un atuendo fantasmal. Te sientes un poco incómodo estando a su alrededor."
+    },
+    {
+      "bucket": 30,
+      "hash": -747282222,
+      "en": "Egg",
+      "es": "Huevo"
+    },
+    {
+      "bucket": 36,
+      "hash": -458537744,
+      "en": "Butcher Chara",
+      "es": "Chara carnicera"
+    },
+    {
+      "bucket": 42,
+      "hash": -885658804,
+      "en": "Not for the faint of heart, she wants to dominate you! (In collaboration with Zukafu)",
+      "es": "¡No apto para sensibles, ella busca dominarte! (En colaboración con Zukafu)"
+    },
+    {
+      "bucket": 48,
+      "hash": -858885421,
+      "en": "Gelly Fish",
+      "es": "Pez Gelatina"
+    },
+    {
+      "bucket": 54,
+      "hash": -1393253133,
+      "en": "Legendary Hero",
+      "es": "Héroe Legendario"
+    },
+    {
+      "bucket": 60,
+      "hash": 871400043,
+      "en": "Dildo",
+      "es": "Dildo"
+    },
+    {
+      "bucket": 66,
+      "hash": -2055339162,
+      "en": "You ate the Star Cookie. Too much sugar… \nYou recovered 60HP.",
+      "es": "Te comiste la Galleta Estrella. Demasiada azúcar… \nHas recuperado 60HP."
+    },
+    {
+      "bucket": 66,
+      "hash": -644949083,
+      "en": "Can open the drawer in the Chara’s bedroom",
+      "es": "Puede abrir el gavetero en la habitación de Chara"
+    },
+    {
+      "bucket": 76,
+      "hash": -119012139,
+      "en": "Clothes reminiscent of a butcher's outfit... you get a sudden craving for some meat.",
+      "es": "Ropas que te recuerdan al atuendo de un carnicero... de pronto te entran unas ganas irresistibles de comer carne."
+    },
+    {
+      "bucket": 82,
+      "hash": 2077598287,
+      "en": "Clothing from some piece of machinery. The Murder kind.",
+      "es": "Ropa de algún tipo de maquinaria. De la clase asesina."
+    },
+    {
+      "bucket": 88,
+      "hash": 1948595661,
+      "en": "It’s a mysterious",
+      "es": "Es un misterio"
+    },
+    {
+      "bucket": 88,
+      "hash": 593823775,
+      "en": "Backshot scene... No further explanation needed.",
+      "es": "Escena de Backshot... No es necesario explicar más"
+    },
+    {
+      "bucket": 98,
+      "hash": 1635744465,
+      "en": "Tape #1: Moth",
+      "es": "Cinta #1: Moth"
+    },
+    {
+      "bucket": 104,
+      "hash": 135994933,
+      "en": "Heals 40HP",
+      "es": "Cura 40HP"
+    },
+    {
+      "bucket": 110,
+      "hash": 666517114,
+      "en": "Heals 60HP",
+      "es": "Cura 60HP"
+    },
+    {
+      "bucket": 116,
+      "hash": 553420566,
+      "en": "Solver Chara",
+      "es": "Chara Solver"
+    },
+    {
+      "bucket": 122,
+      "hash": -1660258751,
+      "en": "Arms a second round for your next scene",
+      "es": "Activa una segunda ronda para tu próxima escena"
+    },
+    {
+      "bucket": 128,
+      "hash": -67201771,
+      "en": "A star-shaped cookie.",
+      "es": "Una galleta con forma de estrella."
+    },
+    {
+      "bucket": 134,
+      "hash": -1400112363,
+      "en": "Heals 20HP. Blocks one hit",
+      "es": "Cura 20HP. Bloquea un golpe"
+    },
+    {
+      "bucket": 140,
+      "hash": 766706903,
+      "en": "Pale Chara",
+      "es": "Chara pálida"
+    },
+    {
+      "bucket": 146,
+      "hash": 1168769400,
+      "en": "Blowjob scene for Chara, relax and let her do the work",
+      "es": "Escena de mamada de Chara, relájate y deja que ella haga su trabajo."
+    },
+    {
+      "bucket": 152,
+      "hash": -456922221,
+      "en": "You ate the Legendary Hero. A bit too tough for your taste. \nYou recovered 40HP. 5 AT up for 2 Turns!",
+      "es": "Te comiste al Héroe Legendario. Un poco duro para tu gusto. \n¡Has recuperado 40 HP. AT aumentó 5 puntos durante 2 Turnos!"
+    },
+    {
+      "bucket": 158,
+      "hash": -2064780256,
+      "en": "Drawer Key",
+      "es": "Llave del Gavetero"
+    },
+    {
+      "bucket": 158,
+      "hash": 1469591598,
+      "en": "A tape labeled #1: Moth. Play it on the TV.",
+      "es": "Una cinta con la etiqueta #1: Moth. Ponla en la televisión."
+    },
+    {
+      "bucket": 168,
+      "hash": 255878167,
+      "en": "Note",
+      "es": "Nota"
+    },
+    {
+      "bucket": 174,
+      "hash": -2066140388,
+      "en": "A sandwich in a shape of a sword. Or a knife..?",
+      "es": "Un sándwich con forma de espada. ¿O un cuchillo...?"
+    },
+    {
+      "bucket": 180,
+      "hash": 1220916455,
+      "en": "Heals 35HP",
+      "es": "Cura 35HP"
+    },
+    {
+      "bucket": 186,
+      "hash": 1712782199,
+      "en": "Sideview Blowjob",
+      "es": "Mamada de vista lateral"
+    },
+    {
+      "bucket": 192,
+      "hash": -192217476,
+      "en": "Coats the eater in protective gel. The next hit is absorbed and does not count for No Hit.",
+      "es": "Cubre al usuario con gel protector. El siguiente golpe se absorbe y no cuenta para No Hit."
+    },
+    {
+      "bucket": 198,
+      "hash": -518053134,
+      "en": "Chara's favorite food... maybe you shouldn't eat it in front of her.",
+      "es": "La comida favorita de Chara... Quizás no deberías comerla en frente de ella."
+    },
+    {
+      "bucket": 204,
+      "hash": 1181562223,
+      "en": "Strange Pill",
+      "es": "Píldora Extraña"
+    },
+    {
+      "bucket": 210,
+      "hash": -1972142403,
+      "en": "Tape #2: Thenia",
+      "es": "Cinta #2: Thenia"
+    },
+    {
+      "bucket": 216,
+      "hash": -1964512090,
+      "en": "A bikini that can be adjusted to suit your taste, not the best for fighting, but it might serve some other purpose. ",
+      "es": "Un bikini ajustable al gusto, no muy práctico para pelear, sin embargo puede tener algún otro propósito."
+    },
+    {
+      "bucket": 222,
+      "hash": 299923161,
+      "en": "You ate the Chocolate. Feels wrong… \nYou recovered 35 HP.",
+      "es": "Te comiste el chocolate. Te sientes mal… \nHas recuperado 35HP."
+    },
+    {
+      "bucket": 228,
+      "hash": 212118157,
+      "en": "Chocolate",
+      "es": "Chocolate"
+    },
+    {
+      "bucket": 234,
+      "hash": -30935358,
+      "en": "A tape labeled #2: Thenia. Play it on the TV.",
+      "es": "Una cinta con la etiqueta #2: Thenia. Ponla en la televisión."
+    },
+    {
+      "bucket": 234,
+      "hash": 468649219,
+      "en": "Zukafu Chara",
+      "es": "Chara Zukafu"
+    },
+    {
+      "bucket": 244,
+      "hash": 1714654768,
+      "en": "Star Cookie",
+      "es": "Galleta Estrella"
+    },
+    {
+      "bucket": 244,
+      "hash": -798656992,
+      "en": "A strange pill with a weird white splash drawn on it.",
+      "es": "Una píldora extraña con una extraña mancha blanca dibujada en ella."
+    },
+    {
+      "bucket": 244,
+      "hash": 2132710991,
+      "en": "You swallowed the Strange Pill. Wow... um... was it always so hot in this room..? \nYou can now access 2nd Round of Sex Scenes!",
+      "es": "Te tragaste la Píldora Extraña. Guau… eh... ¿siempre hizo tanto calor en esta habitación...? ¡Ahora puedes acceder a la segunda ronda de escenas de sexo!"
+    },
+    {
+      "bucket": 258,
+      "hash": -224042965,
+      "en": "Mysterious Item",
+      "es": "Objeto misterioso"
+    },
+    {
+      "bucket": 264,
+      "hash": 1268594617,
+      "en": "Flattering bikini",
+      "es": "Bikini favorecedor"
+    },
+    {
+      "bucket": 270,
+      "hash": -1701378012,
+      "en": "An object capable of bringing heaven or hell to the user.",
+      "es": "Un objeto capaz de hacer sentir el cielo o el infierno a quien lo usa"
+    }
+  ],
+  "reutilizable_ui/menus_ui_translations.en.translation": [
+    {
+      "bucket": 0,
+      "hash": -2125785159,
+      "en": "Swipe the board down to exit.",
+      "es": "Desliza el panel hacia abajo para salir"
+    },
+    {
+      "bucket": 6,
+      "hash": -1916664402,
+      "en": "Enables / Disables voice lines for Main Characters.",
+      "es": "Activa / Desactiva las líneas de voz de los personajes principales."
+    },
+    {
+      "bucket": 6,
+      "hash": -2071663302,
+      "en": "Riding Dildo",
+      "es": "Cabalgando dildo"
+    },
+    {
+      "bucket": 16,
+      "hash": -180953687,
+      "en": "Scale",
+      "es": "Escala"
+    },
+    {
+      "bucket": 22,
+      "hash": 355690659,
+      "en": "Solver Lift",
+      "es": "Elevación de Solver"
+    },
+    {
+      "bucket": 22,
+      "hash": -1496475796,
+      "en": "Costumes",
+      "es": "Disfraces"
+    },
+    {
+      "bucket": 32,
+      "hash": -817234399,
+      "en": "Butcher",
+      "es": "Carnicera"
+    },
+    {
+      "bucket": 38,
+      "hash": 1854864142,
+      "en": "Song",
+      "es": "Canción"
+    },
+    {
+      "bucket": 44,
+      "hash": 1733304290,
+      "en": "Scenes",
+      "es": "Escenas"
+    },
+    {
+      "bucket": 50,
+      "hash": -1052216965,
+      "en": "Give the bikini to Chara",
+      "es": "Entrega el bikini a Chara"
+    },
+    {
+      "bucket": 56,
+      "hash": 1654061817,
+      "en": "Finger",
+      "es": "Dedo"
+    },
+    {
+      "bucket": 62,
+      "hash": -1893098543,
+      "en": "EXIT",
+      "es": "SALIR"
+    },
+    {
+      "bucket": 68,
+      "hash": -304749988,
+      "en": "Return to Gallery",
+      "es": "Volver a la galería"
+    },
+    {
+      "bucket": 74,
+      "hash": 1170901998,
+      "en": "Time",
+      "es": "Tiempo"
+    },
+    {
+      "bucket": 74,
+      "hash": -1562257527,
+      "en": "Login successful.",
+      "es": "Inicio de sesión correcto."
+    },
+    {
+      "bucket": 84,
+      "hash": 892115570,
+      "en": "Dodge every attack",
+      "es": "Esquiva cada ataque"
+    },
+    {
+      "bucket": 90,
+      "hash": -1497413538,
+      "en": "Jerking Off",
+      "es": "Masturbación"
+    },
+    {
+      "bucket": 96,
+      "hash": -1578295899,
+      "en": "These are the best controls if you want to play more like in undertale. Use in-screen controls to move your character, Z to confirm/interact and X to cancel/run.",
+      "es": "Estos son los mejores controles si quieres jugar como en undertale. Usa botones en pantalla para jugar. Un joystick para moverte, Z para interactuar/confirmar y X para correr/cancelar"
+    },
+    {
+      "bucket": 96,
+      "hash": 2143432026,
+      "en": "Have sex with Butcher Chara",
+      "es": "Ten sexo con Chara carnicera"
+    },
+    {
+      "bucket": 96,
+      "hash": 1206169692,
+      "en": "ITEM",
+      "es": "OBJ."
+    },
+    {
+      "bucket": 110,
+      "hash": -1865429209,
+      "en": "Controls",
+      "es": "Controles"
+    },
+    {
+      "bucket": 110,
+      "hash": 1261495313,
+      "en": "Display",
+      "es": "Pantalla"
+    },
+    {
+      "bucket": 110,
+      "hash": -2036324606,
+      "en": "Press on Moth to increase speed. They retain some speed if you stop.",
+      "es": "Presiona a Moth para aumentar la velocidad. Mantiene algo de velocidad si te detienes."
+    },
+    {
+      "bucket": 124,
+      "hash": 1836953797,
+      "en": "Shop",
+      "es": "Tienda"
+    },
+    {
+      "bucket": 130,
+      "hash": 1572587122,
+      "en": "Hold X to skip",
+      "es": "Mantén X para saltar"
+    },
+    {
+      "bucket": 136,
+      "hash": 1465112853,
+      "en": "Continue?",
+      "es": "¿Continuar?"
+    },
+    {
+      "bucket": 136,
+      "hash": 170656285,
+      "en": "ARMOR: The Locket",
+      "es": "ARMADURA: El medallón"
+    },
+    {
+      "bucket": 146,
+      "hash": -159251002,
+      "en": "ARMOR",
+      "es": "ARMADURA"
+    },
+    {
+      "bucket": 152,
+      "hash": 732559685,
+      "en": "Audio",
+      "es": "Audio"
+    },
+    {
+      "bucket": 152,
+      "hash": -865886173,
+      "en": "LV 20",
+      "es": "NV 20"
+    },
+    {
+      "bucket": 162,
+      "hash": -180657065,
+      "en": "Close the game?",
+      "es": "¿Cerrar el juego?"
+    },
+    {
+      "bucket": 168,
+      "hash": -1741578578,
+      "en": "NEXT",
+      "es": "SIGT"
+    },
+    {
+      "bucket": 174,
+      "hash": 2143861777,
+      "en": "WEAPON",
+      "es": "ARMA"
+    },
+    {
+      "bucket": 180,
+      "hash": 1032408687,
+      "en": "CAME",
+      "es": "CORRIDAS"
+    },
+    {
+      "bucket": 186,
+      "hash": 1778574643,
+      "en": "DF",
+      "es": "DF"
+    },
+    {
+      "bucket": 186,
+      "hash": 1311144071,
+      "en": "CAME:",
+      "es": "CORRIDAS:"
+    },
+    {
+      "bucket": 196,
+      "hash": 1986193026,
+      "en": "Choose a Save Slot",
+      "es": "Elije un espacio de guardado"
+    },
+    {
+      "bucket": 196,
+      "hash": -766323706,
+      "en": "HP 99/99",
+      "es": "HP 99/99"
+    },
+    {
+      "bucket": 206,
+      "hash": 16777684,
+      "en": "G",
+      "es": "G"
+    },
+    {
+      "bucket": 212,
+      "hash": -1797285441,
+      "en": "Volume",
+      "es": "Volumen"
+    },
+    {
+      "bucket": 218,
+      "hash": 881942185,
+      "en": "Full Nelson",
+      "es": "Full Nelson"
+    },
+    {
+      "bucket": 218,
+      "hash": -1606926860,
+      "en": "Applied",
+      "es": "Aplicado"
+    },
+    {
+      "bucket": 228,
+      "hash": 1769432435,
+      "en": "Butcher Blowjob",
+      "es": "Mamada (Butcher)"
+    },
+    {
+      "bucket": 228,
+      "hash": 1858928850,
+      "en": "Use the TV in Chara’s room",
+      "es": "Usa la televisión en la habitación de Chara"
+    },
+    {
+      "bucket": 238,
+      "hash": -462516663,
+      "en": "Female Moans",
+      "es": "Gemidos femeninos"
+    },
+    {
+      "bucket": 244,
+      "hash": -836533955,
+      "en": "Overworld",
+      "es": "Mundo exterior"
+    },
+    {
+      "bucket": 250,
+      "hash": -1611149178,
+      "en": "Keep fighting Chara",
+      "es": "Sigue luchando"
+    },
+    {
+      "bucket": 256,
+      "hash": 6643830,
+      "en": "USE",
+      "es": "USAR"
+    },
+    {
+      "bucket": 262,
+      "hash": 208762569,
+      "en": "These are the best controls if you want to play more like in undertale. Use your keyboard arrows to move your character, Z to confirm/interact and X to cancel/run.",
+      "es": "Estos son los mejores controles si quieres jugar como en Undertale. Usa las flechas para mover el personaje, Z para interactuar/confirmar y X para correr/cancelar"
+    },
+    {
+      "bucket": 262,
+      "hash": -121761365,
+      "en": "When the bar fills up press the \"CUM\" button.",
+      "es": "Cuando la barra se llene, presiona el botón \"CUM\"."
+    },
+    {
+      "bucket": 272,
+      "hash": 1586628740,
+      "en": "The Locket ",
+      "es": "El medallón"
+    },
+    {
+      "bucket": 278,
+      "hash": -261237261,
+      "en": "You were not granted authorization to play the game. Make sure you logged in the browser correctly. You may not be one of the allowed players, in that case join our patron or wait for the public release.",
+      "es": "No obtuviste permiso para jugar el juego, asegurate de haberte conectado bien en la página de Patreon en el navegador. Sinó es posible que no estés entre los jugadores permitidos, únete a un Nivel mayor en el Patreon o espera a la fecha de publicación."
+    },
+    {
+      "bucket": 284,
+      "hash": -1728466022,
+      "en": "Music",
+      "es": "Música"
+    },
+    {
+      "bucket": 284,
+      "hash": 1626845250,
+      "en": "Nebby Fingering",
+      "es": "Nebby se Masturba"
+    },
+    {
+      "bucket": 284,
+      "hash": 35695690,
+      "en": "Start New Game in this Slot?",
+      "es": "Crear una nueva partida en este espacio?"
+    },
+    {
+      "bucket": 298,
+      "hash": 1441739770,
+      "en": "Return to Main Menu",
+      "es": "Volver al menú principal"
+    },
+    {
+      "bucket": 298,
+      "hash": -264341161,
+      "en": "Disable",
+      "es": "Desactivar"
+    },
+    {
+      "bucket": 308,
+      "hash": 903759305,
+      "en": "Couldnot connect to Patreon, review your internet connection and try again.",
+      "es": "No se pudo conectar a Patreon. Revisa tu conexión a internet e inténtalo de nuevo."
+    },
+    {
+      "bucket": 314,
+      "hash": -995378222,
+      "en": "Extra Voices",
+      "es": "Voces extra"
+    },
+    {
+      "bucket": 320,
+      "hash": -1354207141,
+      "en": "GOLD",
+      "es": "ORO"
+    },
+    {
+      "bucket": 326,
+      "hash": 868784388,
+      "en": "These are the best controls if you want to play with only one hand. Use your finger to move a marker that the character will follow.",
+      "es": "Estos son los mejores controles si quieres jugar con una sola mano. Usa un dedo para mover un marcador que el personaje intentara seguir."
+    },
+    {
+      "bucket": 332,
+      "hash": -1949169204,
+      "en": "Thighjob",
+      "es": "Muslos"
+    },
+    {
+      "bucket": 338,
+      "hash": 1492252491,
+      "en": "This will unlock the second round for this scene.",
+      "es": "Esto desbloqueará la segunda ronda para esta escena."
+    },
+    {
+      "bucket": 344,
+      "hash": -937778256,
+      "en": "Cowgirl",
+      "es": "Vaquera"
+    },
+    {
+      "bucket": 350,
+      "hash": -1120761935,
+      "en": "Press on Frisk to increase speed. They retain some speed if you stop.",
+      "es": "Presiona a Frisk para aumentar la velocidad. Mantienen algo de velocidad si te detienes."
+    },
+    {
+      "bucket": 356,
+      "hash": -1030723080,
+      "en": "Reverse Riding",
+      "es": "Cabalgata inversa"
+    },
+    {
+      "bucket": 362,
+      "hash": 1239518659,
+      "en": "Apply Controls",
+      "es": "Aplicar controles"
+    },
+    {
+      "bucket": 362,
+      "hash": -486497559,
+      "en": "Proceed",
+      "es": "Proceder"
+    },
+    {
+      "bucket": 362,
+      "hash": 1242095483,
+      "en": "GOLD:",
+      "es": "ORO:"
+    },
+    {
+      "bucket": 376,
+      "hash": -416425815,
+      "en": "Voice Language",
+      "es": "Idioma de voz"
+    },
+    {
+      "bucket": 376,
+      "hash": 490301839,
+      "en": "Came",
+      "es": "Corridas"
+    },
+    {
+      "bucket": 386,
+      "hash": -1286218710,
+      "en": "SFX",
+      "es": "Efectos"
+    },
+    {
+      "bucket": 386,
+      "hash": -328169795,
+      "en": "These are the best controls if you want to play with only one hand. Use your mouse to move a marker that the character will follow.",
+      "es": "Estos son los mejores controles si quieres jugar con una sola mano. Usa el ratón para mover un marcador que el personaje intentara seguir."
+    },
+    {
+      "bucket": 386,
+      "hash": -1323869130,
+      "en": "Catch someone being naughty",
+      "es": "Pillar a alguien haciendo travesuras"
+    },
+    {
+      "bucket": 400,
+      "hash": 449942057,
+      "en": "Titfuck",
+      "es": "Rusa"
+    },
+    {
+      "bucket": 400,
+      "hash": 408908126,
+      "en": "Press on Nebby to increase speed. She retains some speed if you stop.",
+      "es": "Presiona a Nebby para aumentar la velocidad. Ella mantiene algo de velocidad si te detienes."
+    },
+    {
+      "bucket": 410,
+      "hash": 1279339043,
+      "en": "The clothes are unnecessary",
+      "es": "La ropa sobra"
+    },
+    {
+      "bucket": 416,
+      "hash": -22626401,
+      "en": "No Hit",
+      "es": "Un solo golpe"
+    },
+    {
+      "bucket": 422,
+      "hash": 1368608043,
+      "en": "What would you like to do?",
+      "es": "¿Qué quieres hacer?"
+    },
+    {
+      "bucket": 428,
+      "hash": -1035807221,
+      "en": "Press on Chara to increase speed. She retains some speed if you stop.",
+      "es": "Presiona a Chara para aumentar la velocidad. Ella mantiene algo de velocidad si te detienes."
+    },
+    {
+      "bucket": 434,
+      "hash": 246599135,
+      "en": "Languages",
+      "es": "Idiomas"
+    },
+    {
+      "bucket": 440,
+      "hash": 727356709,
+      "en": "Missionary",
+      "es": "Misionero"
+    },
+    {
+      "bucket": 440,
+      "hash": -204106679,
+      "en": "Nebby Titjob",
+      "es": "Titjob de Nebby"
+    },
+    {
+      "bucket": 450,
+      "hash": -1887269867,
+      "en": "Second Round",
+      "es": "Segunda Ronda"
+    },
+    {
+      "bucket": 456,
+      "hash": -1976473844,
+      "en": "Who needs pants?",
+      "es": "Quién necesita pantalones?"
+    },
+    {
+      "bucket": 462,
+      "hash": 1845685169,
+      "en": "Hp",
+      "es": "Hp"
+    },
+    {
+      "bucket": 468,
+      "hash": -2047417260,
+      "en": "Back",
+      "es": "Atrás"
+    },
+    {
+      "bucket": 474,
+      "hash": 1242161417,
+      "en": "Windowed Fullscreen",
+      "es": "Pantalla completa (sin bordes)"
+    },
+    {
+      "bucket": 474,
+      "hash": -1756604845,
+      "en": "STAT",
+      "es": "EST."
+    },
+    {
+      "bucket": 474,
+      "hash": -1998276634,
+      "en": "Real Knife",
+      "es": "Cuchillo Real"
+    },
+    {
+      "bucket": 488,
+      "hash": -414615247,
+      "en": "Enables / Disables extra lines (mostly moans in sex scenes).",
+      "es": "Activa / Desactiva líneas extra (mayormente gemidos en las escenas de sexo)."
+    },
+    {
+      "bucket": 488,
+      "hash": -439416314,
+      "en": "Fullscreen",
+      "es": "Pantalla completa"
+    },
+    {
+      "bucket": 488,
+      "hash": 131359269,
+      "en": "EXP:99999",
+      "es": "EXP:99999"
+    },
+    {
+      "bucket": 502,
+      "hash": 629330431,
+      "en": "Use the Strange Pill?",
+      "es": "¿Usar la Píldora Extraña?"
+    },
+    {
+      "bucket": 508,
+      "hash": 1162081600,
+      "en": "Losing is an option",
+      "es": "Perder es una opción "
+    },
+    {
+      "bucket": 514,
+      "hash": -1490697399,
+      "en": "Solver",
+      "es": "Solver"
+    },
+    {
+      "bucket": 520,
+      "hash": -338318126,
+      "en": "Male Moans",
+      "es": "Gemidos masculinos"
+    },
+    {
+      "bucket": 526,
+      "hash": 785203448,
+      "en": "Mouse",
+      "es": "Ratón"
+    },
+    {
+      "bucket": 532,
+      "hash": 1752945226,
+      "en": "Pinup",
+      "es": "Pin-up"
+    },
+    {
+      "bucket": 532,
+      "hash": -162617027,
+      "en": "OPTIONS",
+      "es": "OPCIONES"
+    },
+    {
+      "bucket": 542,
+      "hash": 1032358647,
+      "en": "Confirm",
+      "es": "Confirmar"
+    },
+    {
+      "bucket": 548,
+      "hash": -790575920,
+      "en": "Pale",
+      "es": "Pálida"
+    },
+    {
+      "bucket": 548,
+      "hash": 81136346,
+      "en": "Use the bed in Chara's room",
+      "es": "Usa la cama en la habitación de Chara"
+    },
+    {
+      "bucket": 558,
+      "hash": 544678422,
+      "en": "These are the best controls if you want to play more like in undertale. Use a screen d-pad and buttons  to move your character, Z to confirm/interact and X to cancel/run.",
+      "es": "Estos son los mejores controles si quieres jugar como en undertale. Usa botones en pantalla para jugar. Un D-Pad para moverte, Z para interactuar/confirmar y X para correr/cancelar"
+    },
+    {
+      "bucket": 564,
+      "hash": -1424737551,
+      "en": "Load Game",
+      "es": "Cargar partida"
+    },
+    {
+      "bucket": 564,
+      "hash": 854651657,
+      "en": "Retry",
+      "es": "Reintentar"
+    },
+    {
+      "bucket": 574,
+      "hash": 1995647994,
+      "en": "Hold to skip",
+      "es": "Mantén para saltar"
+    },
+    {
+      "bucket": 574,
+      "hash": 1076643809,
+      "en": "Sideview BJ",
+      "es": "Mamada (de lado)"
+    },
+    {
+      "bucket": 574,
+      "hash": 77303052,
+      "en": "Have sex with Solver Chara",
+      "es": "Ten sexo con Chara Solver"
+    },
+    {
+      "bucket": 588,
+      "hash": 1879240328,
+      "en": "No",
+      "es": "No"
+    },
+    {
+      "bucket": 594,
+      "hash": 1055553395,
+      "en": "Play",
+      "es": "Jugar"
+    },
+    {
+      "bucket": 600,
+      "hash": 1252325054,
+      "en": "Nebby Riding",
+      "es": "Cabalgata de Nebby"
+    },
+    {
+      "bucket": 606,
+      "hash": 432052541,
+      "en": "Continue to Scene",
+      "es": "Continuar a la escena"
+    },
+    {
+      "bucket": 612,
+      "hash": 1018823768,
+      "en": "You have to Login",
+      "es": "Tienes que iniciar sesión"
+    },
+    {
+      "bucket": 618,
+      "hash": 159779343,
+      "en": "This is an [color=pink]NSFW[/color] game.\n\nAll Characters in this game are depicted as being over the age of [color=yellow]18[/color].\n\nYou need to be [color=yellow]18+[/color] to play this game,\nas it contains [color=pink]adult themes[/color].\n\n[color=red]By clicking [color=yellow]\"Confirm\"[/color] and continuing to play the game you acknowledge that fact.[/color]",
+      "es": "Este es un juego [color=pink]NSFW[/color].\n\nTodos los personajes de este juego son representados como mayores de [color=yellow]18[/color] años.\n\nNecesitas tener [color=yellow]18+[/color] para jugar,\nya que contiene [color=pink]temas para adultos[/color].\n\n[color=red]Al hacer clic en [color=yellow]\"Confirmar\"[/color] y continuar jugando, reconoces ese hecho.[/color]"
+    },
+    {
+      "bucket": 618,
+      "hash": -2131128713,
+      "en": "Give Nebby Cats to Nebby",
+      "es": "Dale Gatos de Nebby a Nebby"
+    },
+    {
+      "bucket": 628,
+      "hash": -1104266092,
+      "en": "Quit Game",
+      "es": "Salir del juego"
+    },
+    {
+      "bucket": 634,
+      "hash": 2124662207,
+      "en": "Pale Doggy",
+      "es": "Mamada (Pale)"
+    },
+    {
+      "bucket": 640,
+      "hash": -1134501933,
+      "en": "First Fight",
+      "es": "Primera Pelea"
+    },
+    {
+      "bucket": 646,
+      "hash": -1442676403,
+      "en": "Return to Save",
+      "es": "Volver al guardado"
+    },
+    {
+      "bucket": 646,
+      "hash": -2721424,
+      "en": "Frisk",
+      "es": "Frisk"
+    },
+    {
+      "bucket": 656,
+      "hash": -1025798036,
+      "en": "Restart Battle",
+      "es": "Reiniciar batalla"
+    },
+    {
+      "bucket": 662,
+      "hash": 478329797,
+      "en": "Costume",
+      "es": "Disfraz"
+    },
+    {
+      "bucket": 668,
+      "hash": 143867002,
+      "en": "Strapon",
+      "es": "Dildo"
+    },
+    {
+      "bucket": 668,
+      "hash": 156555328,
+      "en": "NEXT:0",
+      "es": "SIGT:0"
+    },
+    {
+      "bucket": 668,
+      "hash": -1563465768,
+      "en": "DF 4(99)",
+      "es": "DF 4(99)"
+    },
+    {
+      "bucket": 682,
+      "hash": -1951384515,
+      "en": "Options",
+      "es": "Opciones"
+    },
+    {
+      "bucket": 682,
+      "hash": -650789195,
+      "en": "Background",
+      "es": "Fondo"
+    },
+    {
+      "bucket": 692,
+      "hash": 326446271,
+      "en": "Connect to Patreon",
+      "es": "Conectarse a Patreon"
+    },
+    {
+      "bucket": 698,
+      "hash": 1731830178,
+      "en": "Text Language",
+      "es": "Idioma de texto"
+    },
+    {
+      "bucket": 698,
+      "hash": -388100362,
+      "en": "Standard",
+      "es": "Estándar"
+    },
+    {
+      "bucket": 708,
+      "hash": -1915791981,
+      "en": "Zukafu Doggy",
+      "es": "Zukafu Doggy"
+    },
+    {
+      "bucket": 714,
+      "hash": 107897970,
+      "en": "Yes",
+      "es": "Sí"
+    },
+    {
+      "bucket": 714,
+      "hash": -1030611346,
+      "en": "KEY",
+      "es": "CLV."
+    },
+    {
+      "bucket": 724,
+      "hash": 6068509,
+      "en": "Different buttons change animations.",
+      "es": "Diferentes botones cambian la animación."
+    },
+    {
+      "bucket": 730,
+      "hash": -645884977,
+      "en": "Voice Acting",
+      "es": "Actuación de voz"
+    },
+    {
+      "bucket": 730,
+      "hash": 1912795771,
+      "en": "Lv",
+      "es": "Nv"
+    },
+    {
+      "bucket": 730,
+      "hash": -339855676,
+      "en": "AT 38(99)",
+      "es": "AT 38(99)"
+    },
+    {
+      "bucket": 744,
+      "hash": 1044087354,
+      "en": "Window Mode",
+      "es": "Modo de ventana"
+    },
+    {
+      "bucket": 750,
+      "hash": -1767739253,
+      "en": "Master",
+      "es": "General"
+    },
+    {
+      "bucket": 756,
+      "hash": 346590663,
+      "en": "Have sex with Pale Chara",
+      "es": "Ten sexo con Pale Chara"
+    },
+    {
+      "bucket": 762,
+      "hash": 1402979432,
+      "en": "Sets your HP in battle to 1, as well as skips the death NSFW scene.",
+      "es": "Establece tus HP en combate en 1 y también omite la escena NSFW al morir."
+    },
+    {
+      "bucket": 768,
+      "hash": -1995341203,
+      "en": "Voice",
+      "es": "Voz"
+    },
+    {
+      "bucket": 768,
+      "hash": -5474468,
+      "en": "Not now",
+      "es": "Ahora no"
+    },
+    {
+      "bucket": 768,
+      "hash": 3904247,
+      "en": "Default",
+      "es": "Predeterminado"
+    },
+    {
+      "bucket": 782,
+      "hash": -469984786,
+      "en": "Windowed",
+      "es": "Ventana"
+    },
+    {
+      "bucket": 788,
+      "hash": -1397573966,
+      "en": "Battles",
+      "es": "Peleas"
+    },
+    {
+      "bucket": 788,
+      "hash": -1780367001,
+      "en": "The clothes remain",
+      "es": "La ropa se queda"
+    },
+    {
+      "bucket": 798,
+      "hash": 1689915955,
+      "en": "Have sex with Zukafu Chara",
+      "es": "Ten sexo con Zukafu Chara "
+    },
+    {
+      "bucket": 804,
+      "hash": 975905964,
+      "en": "Zukafu",
+      "es": "Zukafu"
+    },
+    {
+      "bucket": 810,
+      "hash": -558912827,
+      "en": "To prevent piracy. The pre-public releases require you to log in and play with internet on. We are [color=#FF6666]sorry[/color] we have to do this.",
+      "es": "Para prevenir la piratería, las versiones pre-públicas del juego necesitan que inicies sesión en Patreon y juegues con internet. [color=#FF6666]Sentimos mucho[/color] tener que llegar a esto."
+    },
+    {
+      "bucket": 816,
+      "hash": 731559227,
+      "en": "Appearance",
+      "es": "Apariencia"
+    },
+    {
+      "bucket": 822,
+      "hash": -976933720,
+      "en": "WEAPON: Real Knife",
+      "es": "ARMA: Cuchillo Real"
+    },
+    {
+      "bucket": 828,
+      "hash": 825287820,
+      "en": "MENU",
+      "es": "MENÚ"
+    },
+    {
+      "bucket": 834,
+      "hash": -1081746226,
+      "en": "Keyboard",
+      "es": "Teclado"
+    },
+    {
+      "bucket": 834,
+      "hash": 160202142,
+      "en": "EXP",
+      "es": "EXP"
+    },
+    {
+      "bucket": 844,
+      "hash": -74829487,
+      "en": "Press on Thenia to increase speed. She retains some speed if you stop.",
+      "es": "Presiona a Thenia para aumentar la velocidad. Ella mantiene algo de velocidad si te detienes."
+    },
+    {
+      "bucket": 850,
+      "hash": 900871758,
+      "en": "DROP",
+      "es": "TIRAR"
+    }
+  ]
+}

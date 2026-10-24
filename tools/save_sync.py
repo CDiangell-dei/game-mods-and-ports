@@ -17,6 +17,13 @@ GAMES_CONFIG = {
         'repo_dir': os.path.join('games', 'nsfw', 'Adulttale', 'saves'),
         'files': ['all', 'global_save_0.ini', 'settings.ini', 'pause_screen.png'],
         'android_hint': '/sdcard/Android/data/com.adulttale.game/files/'
+    },
+    'lovemaniac': {
+        'name': 'LoveManiac',
+        'pc_dir': os.path.expandvars(r'%APPDATA%\Godot\app_userdata\Love Maniac\save'),
+        'repo_dir': os.path.join('games', 'nsfw', 'LoveManiac', 'saves'),
+        'files': ['meta.json', 'slot_0.json', 'slot_1.json', 'slot_2.json'],
+        'android_hint': '/sdcard/Android/data/com.teamnebula.lovemaniac/files/save/'
     }
 }
 
@@ -82,7 +89,7 @@ def export_for_mobile(game_key, output_dir=None):
 
 def main():
     parser = argparse.ArgumentParser(description="Sincronizador de Saves (PC <-> Repositório <-> Celular)")
-    parser.add_argument('--game', choices=['all', 'mge', 'adulttale'], default='all', help="Jogo alvo (padrão: all)")
+    parser.add_argument('--game', choices=['all', 'mge', 'adulttale', 'lovemaniac'], default='all', help="Jogo alvo (padrão: all)")
     parser.add_argument('--backup', action='store_true', help="Copia save do PC para o repositório")
     parser.add_argument('--restore', action='store_true', help="Aplica o save do repositório no PC")
     parser.add_argument('--export', action='store_true', help="Exporta o save para enviar ao celular")

@@ -1,0 +1,22 @@
+{
+	"came_count": 3,
+	"chara_death_scene_seen": true,
+	"coughted_nebby": true,
+	"gold": 686,
+	"inventory_items": [
+		"star_cookie",
+		"star_cookie",
+		"star_cookie",
+		"star_cookie",
+		"star_cookie",
+		"star_cookie",
+		"star_cookie",
+		"star_cookie"
+	],
+	"playtime_seconds": 3544.84210488291,
+	"progress_scene": "uid://7ojddck70jc3",
+	"store_talks_progress": {
+		"topic_place_title": 1,
+		"topic_shop_title": 0
+	}
+}

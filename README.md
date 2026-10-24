@@ -20,6 +20,8 @@ Repositório privado para versionamento de código-fonte modificado, traduções
 | :--- | :--- | :--- | :--- |
 | **Monster Girl Encounters** | [`games/nsfw/MGE/`](games/nsfw/MGE/) | • [Página Oficial (Reinesoft)](https://reinesoft.itch.io/monster-girl-encounters)<br>• [MGE Mod (ks-k-dev)](https://maybeks-k-dev.itch.io/mge-mod-by-ks-k-dev) | • Tradução PT-BR Completa<br>• APK Android (v1+v2+v3 assinado)<br>• Galeria 100% Desbloqueada<br>• Modo Sem Fim & Criador Sandbox |
 | **Adulttale** | [`games/nsfw/Adulttale/`](games/nsfw/Adulttale/) | • [Página Oficial (Itch.io)](https://adulttale.itch.io/adulttale) | • Tradução PT-BR Completa (1.045 chaves)<br>• Script de Auto-Merge para Novas Versões<br>• Backup de Saves (`%LOCALAPPDATA%\Adulttale`) |
+| **LoveManiac** | [`games/nsfw/LoveManiac/`](games/nsfw/LoveManiac/) | • [Página Oficial (Team Nebula)](https://team-nebula.itch.io/lovemaniac) | • Tradução PT-BR Completa (`v0.3.6` — 919 entradas em 20 arquivos)<br>• Patcher Binário Godot 4.5 (`PCK v3` / `OptimizedTranslation`)<br>• Backup de Saves (`%APPDATA%\Godot\app_userdata\Love Maniac\save`) |
+| **LoveManiac: Scarlet Lust** | [`games/nsfw/LoveManiac-Scarlet-Lust/`](games/nsfw/LoveManiac-Scarlet-Lust/) | • [Página Oficial (Team Nebula)](https://team-nebula.itch.io/lovemaniac-scarlet-lust) | • Tradução PT-BR Completa (`v0.1.43` — 144 diálogos + 25 blocos de UI)<br>• Script de Auto-Merge e Patch (`www/assets/project.json`) |
 
 ---
 
@@ -45,11 +47,22 @@ game-mods-and-ports/
 │       │   ├── docs/                             # Planejamento detalhado de expansão
 │       │   └── saves/                            # Backups versionados de progresso e configurações
 │       │
-│       └── Adulttale/                            # Adulttale (Tradução Completa PT-BR)
+│       ├── Adulttale/                            # Adulttale (Tradução Completa PT-BR)
+│       │   ├── README.md                         # Links oficiais e instruções de atualização
+│       │   ├── lang/                             # Arquivos JSON de localização (pt.json, esp.json, eng.json) e fontes
+│       │   ├── scripts/                          # Script de merge/aplicação automática para novas versões
+│       │   └── saves/                            # Backups versionados de saves e configurações
+│       │
+│       ├── LoveManiac/                           # LoveManiac (Tradução PT-BR & Patcher Godot 4.5 PCK)
+│       │   ├── README.md                         # Links oficiais e instruções de atualização
+│       │   ├── lang/                             # Dicionário PT-BR (919 entradas) e referência EN/ES
+│       │   ├── scripts/                          # Reconstrutor binário OptimizedTranslation no .pck
+│       │   └── saves/                            # Backups versionados (meta.json, slot_0.json)
+│       │
+│       └── LoveManiac-Scarlet-Lust/              # LoveManiac: Scarlet Lust (Tradução PT-BR)
 │           ├── README.md                         # Links oficiais e instruções de atualização
-│           ├── lang/                             # Arquivos JSON de localização (pt.json, esp.json, eng.json) e fontes
-│           ├── scripts/                          # Script de merge/aplicação automática para novas versões
-│           └── saves/                            # Backups versionados de saves e configurações
+│           ├── lang/                             # Dicionário PT-BR (diálogos + blocos de UI) e referência EN/ES
+│           └── scripts/                          # Script de merge/aplicação automática no project.json
 │
 └── tools/
     └── save_sync.py                              # Utilitário para backup/restauração de saves (PC <-> Celular)

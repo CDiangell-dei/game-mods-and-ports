@@ -1,0 +1,581 @@
+{
+  "dialog_count": 288,
+  "dialog_pairs": {
+    "1": {
+      "en": "* So, you're finally here, after all this time down here",
+      "es": "* Asi que, finalmente llegaste, despues de todo este tiempo en el subsuelo"
+    },
+    "3": {
+      "en": "...",
+      "es": "..."
+    },
+    "5": {
+      "en": "* Wait, something is different",
+      "es": "* Espera, algo no se siente normal"
+    },
+    "7": {
+      "en": "* You look different...",
+      "es": "* te ves diferente..."
+    },
+    "9": {
+      "en": "* You... Did you really change?",
+      "es": "* Tu... Realmente cambiaste?"
+    },
+    "11": {
+      "en": "* Did you actually?... I see",
+      "es": "* Realmente tu?.... Ya veo"
+    },
+    "13": {
+      "en": "* Impressive, I wouldn't know whether to feel flattered or disappointed",
+      "es": "* Admirable, No sabria si sentirme alagada o decepcionada"
+    },
+    "15": {
+      "en": "...",
+      "es": "..."
+    },
+    "17": {
+      "en": "* Fine, since you finally understand the rules of this place",
+      "es": "* Bien, ya que finalmente entiendes las reglas de este lugar"
+    },
+    "19": {
+      "en": "* Let's cut this nonsense talk, actions speak louder than words.",
+      "es": "* Ahorremonos esta platica inutil, y pasemos a los hechos."
+    },
+    "21": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "23": {
+      "en": "* So, you're finally here, after all this time down here",
+      "es": "* Asi que, porfin llegaste, despues de todo este tiempo aqui"
+    },
+    "25": {
+      "en": "...",
+      "es": "..."
+    },
+    "27": {
+      "en": "* Wait, something is different",
+      "es": "* Espera, algo se siente extraño"
+    },
+    "29": {
+      "en": "* You look... frustrated",
+      "es": "* Te vez... frustrado"
+    },
+    "31": {
+      "en": "* I guess you didn't learn anything then",
+      "es": "* Supongo que aun no lo acabas de entender"
+    },
+    "33": {
+      "en": "* well, I will make you think twice.",
+      "es": "* bueno, te hare reconsiderarlo."
+    },
+    "35": {
+      "en": "* So, you're finally here, after all this time down here",
+      "es": "* Asi que, finalmente llegas, tras tanto tiempo"
+    },
+    "37": {
+      "en": "...",
+      "es": "..."
+    },
+    "39": {
+      "en": "* Look at you",
+      "es": "* Mirate"
+    },
+    "41": {
+      "en": "* Is something wrong?",
+      "es": "* Algun problema"
+    },
+    "43": {
+      "en": "* Do I need to make you think it over a third time?",
+      "es": "* Tengo que recordartelo una tercera vez?"
+    },
+    "45": {
+      "en": "* So, you're finally here. You know the drill by now, don't you?",
+      "es": "* Asi que, finalmente llegas. Ya sabes cómo funciona esto, ¿verdad?"
+    },
+    "47": {
+      "en": "* Let's just get straight to the point, okay?",
+      "es": "* Vayamos directo al grano, ¿de acuerdo?"
+    },
+    "49": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "51": {
+      "en": "If you really changed",
+      "es": "Si realmente cambiaste"
+    },
+    "53": {
+      "en": "Prove to me now that you are capable.",
+      "es": "Demuestrame que ahora eres capaz"
+    },
+    "55": {
+      "en": "Otherwise, don't waste my time.",
+      "es": "Sino, deja de desperdiciar mi tiempo."
+    },
+    "57": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "59": {
+      "en": "Do you feel pleasure doing this?",
+      "es": "Acaso es que sientes placer con esto?"
+    },
+    "61": {
+      "en": "Some kind of satisfaction?",
+      "es": "Algun tipo de satisfaccion?"
+    },
+    "63": {
+      "en": "Going at it over and over again?",
+      "es": "Haciendo esto una y otra vez?"
+    },
+    "65": {
+      "en": "...",
+      "es": "..."
+    },
+    "67": {
+      "en": "You're a weirdo. That's for sure",
+      "es": "Eres un desquiciado. sin duda"
+    },
+    "69": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "71": {
+      "en": "Even if you try to prove something",
+      "es": "Incluso si intentas probar un punto"
+    },
+    "73": {
+      "en": "The best you can do, is just give up",
+      "es": "Lo mejor que puedes hacer es rendirte"
+    },
+    "75": {
+      "en": "...",
+      "es": "..."
+    },
+    "77": {
+      "en": "Come on idiot, just die already!",
+      "es": "Vamos idiota, solo muere de una vez!"
+    },
+    "79": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "81": {
+      "en": "Hey idiot, my eyes are over here!",
+      "es": "Oye idiota, mis ojos estan aqui!"
+    },
+    "83": {
+      "en": "Stop looking at me like that!",
+      "es": "Deja de mirarme de esa forma!"
+    },
+    "85": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "87": {
+      "en": "You'll get bored of this eventually",
+      "es": "Te aburriras de esto eventualmente"
+    },
+    "89": {
+      "en": "A pathetic attempt to get attention",
+      "es": "Solo un intento patetico de atencion"
+    },
+    "91": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "93": {
+      "en": "Why are you even here?",
+      "es": "Porque sigues aqui siquiera?"
+    },
+    "95": {
+      "en": "There's nothing for you down here",
+      "es": "No hay nada para ti aqui abajo"
+    },
+    "97": {
+      "en": "You could take a monster soul and leave this place long ago",
+      "es": "Podrias simplementa tomar un alma de monstruo y salir de aqui"
+    },
+    "99": {
+      "en": "and yet, you prefer to drag me into your nonsense",
+      "es": "pese a eso, prefieres distraerme con tus tonterias"
+    },
+    "101": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "103": {
+      "en": "Is there even something you haven't already seen?",
+      "es": "Acaso queda algo que aun no hayas visto?"
+    },
+    "105": {
+      "en": "...",
+      "es": "..."
+    },
+    "107": {
+      "en": "Why are you eyes on me!?",
+      "es": "¿Por qué tienes los ojos puestos en mí?"
+    },
+    "109": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "111": {
+      "en": "Oh that's low",
+      "es": "Oh eso es caer bajo"
+    },
+    "113": {
+      "en": "Even for you!",
+      "es": "Incluso para ti!"
+    },
+    "115": {
+      "en": "Is all of this just so you can stare me like a pervert?",
+      "es": "¿Todo esto es para poder mirarme como un maniaco?"
+    },
+    "117": {
+      "en": "Freak!",
+      "es": "Pervertido!"
+    },
+    "119": {
+      "en": "Why go to such lengths for me?",
+      "es": "¿Por qué llegar a tales extremos por mí?"
+    },
+    "121": {
+      "en": "Give up, take a monster soul, and leave.",
+      "es": "Ríndete, toma un alma de monstruo y vete."
+    },
+    "123": {
+      "en": "This is getting ridiculous",
+      "es": "Esto se está volviendo ridículo."
+    },
+    "125": {
+      "en": "...",
+      "es": "..."
+    },
+    "127": {
+      "en": "You're... good",
+      "es": "Eres ... bueno"
+    },
+    "129": {
+      "en": "Almost every monster I face is dead by this point",
+      "es": "A este punto, todo monstruo que enfrento estaria muerto."
+    },
+    "131": {
+      "en": "This overexertion",
+      "es": "Este esfuerzo excesivo"
+    },
+    "133": {
+      "en": "This feeling...",
+      "es": "Esta sensación..."
+    },
+    "135": {
+      "en": "...",
+      "es": "..."
+    },
+    "137": {
+      "en": "DAMN IT, JUST DIE!",
+      "es": "CARAJO, SOLO MUERE!"
+    },
+    "139": {
+      "en": "Am I... sweating?",
+      "es": "¿Estoy... sudando?"
+    },
+    "141": {
+      "en": "Is this idiot making me sweat?",
+      "es": "¿Este idiota realmete me hace sudar?"
+    },
+    "143": {
+      "en": "...",
+      "es": "..."
+    },
+    "145": {
+      "en": "cool...",
+      "es": "chido..."
+    },
+    "147": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "149": {
+      "en": "Come on, keep fighting.",
+      "es": "Vamos, sigue luchando."
+    },
+    "151": {
+      "en": "Keep up with me, partner.",
+      "es": "Sigueme el ritmo, compañero."
+    },
+    "153": {
+      "en": "Seriously, you won't stop looking at me.",
+      "es": "En serio, no dejas de mirarme."
+    },
+    "155": {
+      "en": "Put your eyes on the battle!",
+      "es": "¡Concéntrate en la batalla!"
+    },
+    "157": {
+      "en": "Alright partner",
+      "es": "Bien compañero"
+    },
+    "159": {
+      "en": "I owe an apologize",
+      "es": "Te debo una disculpa"
+    },
+    "161": {
+      "en": "Even though you're a weirdo, it seems like you've really changed.",
+      "es": "A pesar de que estás desquiciado, parece que realmente has cambiado."
+    },
+    "163": {
+      "en": "If you keep this up",
+      "es": "Si sigues así"
+    },
+    "165": {
+      "en": "I'll really have to get serious with you",
+      "es": "Realmente voy a tener que ponerme seria contigo."
+    },
+    "167": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "169": {
+      "en": "So, as a courtesy, surrender and I'll slit your throat.",
+      "es": "Así que, como cortesía, ríndete y te rebanare el cuello."
+    },
+    "171": {
+      "en": "Quick and painless",
+      "es": "Rápido e indoloro"
+    },
+    "173": {
+      "en": "sounds a good way to go for me",
+      "es": "Me suena a una buena opción."
+    },
+    "175": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "177": {
+      "en": "Last chance",
+      "es": "Última oportunidad"
+    },
+    "179": {
+      "en": "look me in the eyes and tell me",
+      "es": "Mírame a los ojos y dímelo."
+    },
+    "181": {
+      "en": "Am I really worth dying for?",
+      "es": "¿Realmente lo vale morir por mí?"
+    },
+    "183": {
+      "en": "It's that so...",
+      "es": "En ese caso..."
+    },
+    "185": {
+      "en": "This stupid battle, your change... all because of me...",
+      "es": "Esta estúpida batalla, lo que te paso... todo por mi..."
+    },
+    "187": {
+      "en": "...you.. love me?",
+      "es": "...tu.. ¿me amas?"
+    },
+    "189": {
+      "en": "No matter what, you will still standing just for me, huh",
+      "es": "Pase lo que pase, seguirás ahí firme solo por mí, ¿eh?"
+    },
+    "191": {
+      "en": "Let's see if you are truly worthy.",
+      "es": "A ver si eres verdaderamente digno."
+    },
+    "193": {
+      "en": "Show me you determination!",
+      "es": "¡Muéstrame tu determinación!"
+    },
+    "195": {
+      "en": "------------------------------------------------------",
+      "es": "------------------------------------------------------"
+    },
+    "197": {
+      "en": "...Is this really all you wanted?",
+      "es": "...¿Es esto realmente todo lo que querías?"
+    },
+    "199": {
+      "en": "Me? The pain, the suffering, all just for me?",
+      "es": "¿Yo? ¿El dolor, el sufrimiento, todo solo por mí?"
+    },
+    "201": {
+      "en": "T-That's... really stupid... hehe....",
+      "es": "E-Eso es... una estupidez... jeje..."
+    },
+    "203": {
+      "en": "Fine, you win",
+      "es": "Está bien, tu ganas."
+    },
+    "205": {
+      "en": "Let's get this over with, come here~",
+      "es": "Acabemos con esto de una vez, ven aquí~"
+    },
+    "207": {
+      "en": "e e e e e e e e e e e e e e e e e e e e e e e e e e e e e",
+      "es": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+    },
+    "209": {
+      "en": "Don't think you're going to walk away from here just like that.",
+      "es": "No creas que te vas a ir de aquí así como así."
+    },
+    "211": {
+      "en": "......",
+      "es": "......"
+    },
+    "213": {
+      "en": "Skill Issue",
+      "es": "Skill Issue"
+    },
+    "215": {
+      "en": "Use both hands   7-7",
+      "es": "Usa ambas manos  7-7"
+    },
+    "217": {
+      "en": "Adios",
+      "es": "Bye "
+    },
+    "219": {
+      "en": "Getgud",
+      "es": "Getgud"
+    },
+    "221": {
+      "en": "Watch the knife next time",
+      "es": "Fijate en los cuchillos mejor"
+    },
+    "223": {
+      "en": "I almost tried",
+      "es": "Casi me esfuerzo"
+    },
+    "225": {
+      "en": "Impressive performance. Your parents must be proud.",
+      "es": "Gran demostracion. Tus padres estarian orgullosos."
+    },
+    "227": {
+      "en": "You dying on purpose?",
+      "es": "Perdiste a proposito?"
+    },
+    "229": {
+      "en": "Waiting for a secret here? Not happening",
+      "es": "Buscabas un secreto aqui? No pasara"
+    },
+    "231": {
+      "en": "Nope",
+      "es": "Nope"
+    },
+    "233": {
+      "en": "You're finally taking the initiative, huh?.",
+      "es": "Por fin tomas la iniciativa, eh?."
+    },
+    "235": {
+      "en": "You like what you see, don't you?",
+      "es": "Te gusta lo que ves, no?"
+    },
+    "237": {
+      "en": "Hey, be careful!",
+      "es": "Ey ten cuidado!"
+    },
+    "239": {
+      "en": "T-they are sensitive.",
+      "es": "S-son sensibles."
+    },
+    "241": {
+      "en": "Hold it a l-little longer.",
+      "es": "Mantenlo un p-poco mas"
+    },
+    "243": {
+      "en": "Let's agree to see each other more often, ok?",
+      "es": "Quedemos de vernos más seguido, ok?"
+    },
+    "245": {
+      "en": "* Seems to just be a decoy",
+      "es": "* Parece solo ser un Decorativo"
+    },
+    "247": {
+      "en": "* The plushie winks at you ;P",
+      "es": "* El peluche te guiña ;P"
+    },
+    "249": {
+      "en": "* You trying to get a room too?",
+      "es": "*Buscas un cuarto?"
+    },
+    "251": {
+      "en": "*Good luck with that, the receptionist hasn't moved for two hours now",
+      "es": "Buena suerte con eso, la recepcionista no se ha movido por como dos horas"
+    },
+    "253": {
+      "en": "* Tf you looking at?",
+      "es": "* Que me ves pendejo?"
+    },
+    "255": {
+      "en": "* I've been here waiting for the show to start since this morning.",
+      "es": "*Llevo aqui esperando a que empiece el show desde la madrugada."
+    },
+    "257": {
+      "en": "* Who would show up? No idea.",
+      "es": "* Quien se presentara?, ni idea"
+    },
+    "259": {
+      "en": "* I came for the free appetizers",
+      "es": "* vine por los aperitivos gratis"
+    },
+    "261": {
+      "en": "* The sauna here is horrible.",
+      "es": "* El sauna aqui es horrible"
+    },
+    "263": {
+      "en": "* How am I supposed to reach my bedroom door now?",
+      "es": "* Como se supone que alcanze la puerta de mi habitacion ahora?"
+    },
+    "265": {
+      "en": "* I don't get paid enough to keep cleaning this place",
+      "es": "* No me pagan lo suficiente para seguir limpiando esto"
+    },
+    "267": {
+      "en": "* What do you mean a leak on the fountain?",
+      "es": "* A que te refieres con gotera en la fuente?"
+    },
+    "269": {
+      "en": "* Where do you think I got the water from",
+      "es": "* De donde crees que saque el agua entonces"
+    },
+    "271": {
+      "en": "* The food from this place is pretty good!",
+      "es": "* La comida aqui es muy buena! ^-^"
+    },
+    "273": {
+      "en": "* It's not like I can really taste anything",
+      "es": "* No es como que pueda saborearla realmente"
+    },
+    "275": {
+      "en": "* Since I'm already dead, lol",
+      "es": "* Pues ya estoy muerta al fin y al cabo"
+    },
+    "277": {
+      "en": "* But that's all the costumers  say.",
+      "es": "* Pero como todos los demas lo dicen."
+    },
+    "279": {
+      "en": "* So I'm saying it too, hehe.",
+      "es": "* Tambien lo dire, jeje. "
+    },
+    "281": {
+      "en": "* Oh, don't mind me",
+      "es": "* Oh, no te preocupes por mí."
+    },
+    "283": {
+      "en": "* I'm just looking for someone to bother~",
+      "es": "* Solo busco a alguien a quien molestar~"
+    },
+    "285": {
+      "en": "* Room service?",
+      "es": "* Servicio a habitacion?"
+    },
+    "287": {
+      "en": "* ",
+      "es": "* "
+    }
+  }
+}

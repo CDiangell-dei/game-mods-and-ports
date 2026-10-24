@@ -1,0 +1,32 @@
+{
+	"category_updated_scenes": [],
+	"chara_moans_enabled": true,
+	"costume_settings": {
+
+	},
+	"extra_voices_enabled": true,
+	"frisk_moans_enabled": true,
+	"input_scale": 1.0,
+	"language": "pt_BR",
+	"no_hit_enabled": false,
+	"unlocked_battles": [
+		"first_fight"
+	],
+	"unlocked_costumes": [],
+	"unlocked_scenes": {
+		"miss_scene": false,
+		"nebby_fingering": false,
+		"ride_scene": false,
+		"side_bj": true,
+		"titjob_scene": false
+	},
+	"used_controller_type": 1,
+	"version": 5,
+	"voice_acting_enabled": true,
+	"voice_language": "en",
+	"volume_master": 1.0,
+	"volume_music": 0.07,
+	"volume_sfx": 1.0,
+	"volume_voice": 1.0,
+	"window_mode": 4
+}

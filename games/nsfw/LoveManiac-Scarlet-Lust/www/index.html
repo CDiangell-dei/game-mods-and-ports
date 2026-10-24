@@ -191,6 +191,28 @@
       scaffolding.appendTo(appElement);
 
       const vm = scaffolding.vm;
+      // Patch PT-BR: Controles extras (WASD + Espaco=Confirmar + Shift=Cancelar/Correr + E=Inventario)
+      const _origPostIOData = vm.postIOData.bind(vm);
+      const _keyAliases = {
+        "w": { key: "ArrowUp", keyCode: 38 },
+        "a": { key: "ArrowLeft", keyCode: 37 },
+        "s": { key: "ArrowDown", keyCode: 40 },
+        "d": { key: "ArrowRight", keyCode: 39 },
+        " ": { key: "z", keyCode: 90 },
+        "shift": { key: "x", keyCode: 88 },
+        "e": { key: "c", keyCode: 67 }
+      };
+      vm.postIOData = function(device, data) {
+        const res = _origPostIOData(device, data);
+        if (device === "keyboard" && data && typeof data.key === "string") {
+          const k = data.key === " " ? " " : data.key.toLowerCase();
+          const alias = _keyAliases[k];
+          if (alias) {
+            _origPostIOData("keyboard", Object.assign({}, data, alias));
+          }
+        }
+        return res;
+      };
       window.scaffolding = scaffolding;
       window.vm = scaffolding.vm;
       window.Scratch = {

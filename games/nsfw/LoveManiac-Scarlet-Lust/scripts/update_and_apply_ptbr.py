@@ -161,6 +161,44 @@ def apply_translation(game_dir: Path) -> int:
 
     save_json(proj_path, proj_data, compact=True)
     print(f"[APLICADO] {updated_dialogs} pares de diálogo e {updated_ui} blocos de UI traduzidos em: {proj_path}")
+
+    # 3. Injeta suporte aos controles adicionais (WASD + Espaço + Shift + E) no www/index.html
+    index_path = game_dir / "www" / "index.html"
+    index_orig = game_dir / "www" / "index.html.orig"
+    if index_path.exists():
+        if not index_orig.exists():
+            shutil.copy2(index_path, index_orig)
+            print(f"[BACKUP] Backup do index.html salvo em: {index_orig}")
+        html_src = index_orig.read_text(encoding="utf-8")
+        target_line = "      const vm = scaffolding.vm;"
+        key_hook = """      const vm = scaffolding.vm;
+      // Patch PT-BR: Controles extras (WASD + Espaco=Confirmar + Shift=Cancelar/Correr + E=Inventario)
+      const _origPostIOData = vm.postIOData.bind(vm);
+      const _keyAliases = {
+        "w": { key: "ArrowUp", keyCode: 38 },
+        "a": { key: "ArrowLeft", keyCode: 37 },
+        "s": { key: "ArrowDown", keyCode: 40 },
+        "d": { key: "ArrowRight", keyCode: 39 },
+        " ": { key: "z", keyCode: 90 },
+        "shift": { key: "x", keyCode: 88 },
+        "e": { key: "c", keyCode: 67 }
+      };
+      vm.postIOData = function(device, data) {
+        const res = _origPostIOData(device, data);
+        if (device === "keyboard" && data && typeof data.key === "string") {
+          const k = data.key === " " ? " " : data.key.toLowerCase();
+          const alias = _keyAliases[k];
+          if (alias) {
+            _origPostIOData("keyboard", Object.assign({}, data, alias));
+          }
+        }
+        return res;
+      };"""
+        if target_line in html_src and "_keyAliases" not in html_src:
+            html_patched = html_src.replace(target_line, key_hook, 1)
+            index_path.write_text(html_patched, encoding="utf-8")
+            print(f"[CONTROLES] Esquema extra (WASD + Espaço + Shift + E) injetado em: {index_path}")
+
     return 0
 
 

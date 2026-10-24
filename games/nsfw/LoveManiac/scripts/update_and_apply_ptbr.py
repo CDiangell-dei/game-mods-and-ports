@@ -284,6 +284,130 @@ def build_patched_opt_trans(raw_bytes: bytes, hash_to_pt: dict[int, str]) -> byt
     return bytes(out_rsrc)
 
 
+def build_patched_project_binary(raw_bytes: bytes) -> bytes:
+    """
+    Adiciona controles extras (WASD + Espaço=Confirmar + Shift=Cancelar/Correr + E=Inventário)
+    ao project.binary (ECFG), mantendo todos os controles originais (Setas + Z + X + C).
+    """
+    if not raw_bytes.startswith(b"ECFG"):
+        return raw_bytes
+
+    count = struct.unpack("<I", raw_bytes[4:8])[0]
+    pos = 8
+    entries_list = []
+    entries_map = {}
+    for idx in range(count):
+        klen = struct.unpack("<I", raw_bytes[pos : pos + 4])[0]
+        pos += 4
+        k_str = raw_bytes[pos : pos + klen].decode("utf-8", "replace")
+        pos += klen
+        vlen = struct.unpack("<I", raw_bytes[pos : pos + 4])[0]
+        pos += 4
+        v_bytes = raw_bytes[pos : pos + vlen]
+        pos += vlen
+        entries_list.append([k_str, v_bytes])
+        entries_map[k_str] = idx
+
+    if "input/interact" not in entries_map or "input/left" not in entries_map:
+        return raw_bytes
+
+    interact_val = entries_list[entries_map["input/interact"]][1]
+    template_ev = interact_val[60:460]
+    if len(template_ev) != 400:
+        return raw_bytes
+
+    def make_key_event(keycode: int, unicode_val: int = 0) -> bytes:
+        ev = bytearray(template_ev)
+        ev[272:276] = struct.pack("<I", keycode)
+        ev[300:304] = struct.pack("<I", keycode)
+        ev[324:328] = struct.pack("<I", keycode)
+        ev[344:348] = struct.pack("<I", unicode_val)
+        return bytes(ev)
+
+    marker = b"events\x00\x00\x1c\x00\x00\x00"
+
+    def append_events(val_bytes: bytes, new_events: list[bytes]) -> bytes:
+        m_idx = val_bytes.find(marker)
+        if m_idx == -1:
+            return val_bytes
+        cnt_pos = m_idx + len(marker)
+        old_cnt = struct.unpack("<I", val_bytes[cnt_pos : cnt_pos + 4])[0]
+        out = bytearray(val_bytes[:cnt_pos])
+        out.extend(struct.pack("<I", old_cnt + len(new_events)))
+        out.extend(val_bytes[cnt_pos + 4 :])
+        for ev in new_events:
+            out.extend(ev)
+        return bytes(out)
+
+    def create_action_val(base_val: bytes, events: list[bytes]) -> bytes:
+        m_idx = base_val.find(marker)
+        cnt_pos = m_idx + len(marker)
+        out = bytearray(base_val[:cnt_pos])
+        out.extend(struct.pack("<I", len(events)))
+        for ev in events:
+            out.extend(ev)
+        return bytes(out)
+
+    # Godot 4 Keycodes
+    KEY_W = (0x57, 0x77)
+    KEY_A = (0x41, 0x61)
+    KEY_S = (0x53, 0x73)
+    KEY_D = (0x44, 0x64)
+    KEY_E = (0x45, 0x65)
+    KEY_X = (0x58, 0x78)
+    KEY_SPACE = (0x20, 0x20)
+    KEY_SHIFT = (0x00400015, 0)
+    KEY_ENTER = (0x00400005, 0)
+    KEY_LEFT = (0x0040000F, 0)
+    KEY_UP = (0x00400010, 0)
+    KEY_RIGHT = (0x00400011, 0)
+    KEY_DOWN = (0x00400012, 0)
+
+    additions = {
+        "input/up": [make_key_event(*KEY_W)],
+        "input/left": [make_key_event(*KEY_A)],
+        "input/down": [make_key_event(*KEY_S)],
+        "input/right": [make_key_event(*KEY_D)],
+        "input/interact": [make_key_event(*KEY_SPACE), make_key_event(*KEY_ENTER)],
+        "input/cancel": [make_key_event(*KEY_SHIFT)],
+        "input/ui_cancel": [make_key_event(*KEY_SHIFT)],
+        "input/sprint": [make_key_event(*KEY_X)],
+        "input/inventory": [make_key_event(*KEY_E)],
+        "input/Inventario": [make_key_event(*KEY_E)],
+    }
+
+    for k_str, ev_list in additions.items():
+        if k_str in entries_map:
+            idx = entries_map[k_str]
+            entries_list[idx][1] = append_events(entries_list[idx][1], ev_list)
+
+    base_action_val = entries_list[entries_map["input/left"]][1]
+    ui_dirs = [
+        ("input/ui_up", [make_key_event(*KEY_UP), make_key_event(*KEY_W)]),
+        ("input/ui_left", [make_key_event(*KEY_LEFT), make_key_event(*KEY_A)]),
+        ("input/ui_down", [make_key_event(*KEY_DOWN), make_key_event(*KEY_S)]),
+        ("input/ui_right", [make_key_event(*KEY_RIGHT), make_key_event(*KEY_D)]),
+    ]
+    insert_pos = entries_map.get("input/ui_cancel", len(entries_list) - 1) + 1
+    for k_str, ev_list in reversed(ui_dirs):
+        if k_str in entries_map:
+            idx = entries_map[k_str]
+            entries_list[idx][1] = append_events(entries_list[idx][1], ev_list)
+        else:
+            entries_list.insert(insert_pos, [k_str, create_action_val(base_action_val, ev_list)])
+
+    out_buf = bytearray(b"ECFG")
+    out_buf.extend(struct.pack("<I", len(entries_list)))
+    for k_str, v_bytes in entries_list:
+        kb = k_str.encode("utf-8")
+        out_buf.extend(struct.pack("<I", len(kb)))
+        out_buf.extend(kb)
+        out_buf.extend(struct.pack("<I", len(v_bytes)))
+        out_buf.extend(v_bytes)
+
+    return bytes(out_buf)
+
+
 def check_and_merge(game_dir: Path, do_merge: bool = False) -> int:
     pck_path = find_latest_pck(game_dir)
     orig_pck = pck_path.with_name(pck_path.name + ".orig")
@@ -357,24 +481,35 @@ def apply_translation(game_dir: Path) -> int:
         base_to_hash_pt[base] = {int(k): v for k, v in h_map.items()}
 
     patched_count = 0
+    controls_patched = False
     with pck_path.open("r+b") as f:
         write_cursor = dir_offset
         for e in entries:
             fp = e["path"]
-            base = None
-            if fp.endswith(".en.translation"):
-                base = fp.removesuffix(".en.translation")
-            elif fp.endswith(".es.translation"):
-                base = fp.removesuffix(".es.translation")
-            elif fp.endswith(".esp.translation"):
-                base = fp.removesuffix(".esp.translation")
+            patched_bytes = None
 
-            if base is None or base not in base_to_hash_pt:
+            if fp == "project.binary":
+                f.seek(file_base + e["ofs"])
+                raw_orig = f.read(e["size"])
+                patched_bytes = build_patched_project_binary(raw_orig)
+                controls_patched = True
+            else:
+                base = None
+                if fp.endswith(".en.translation"):
+                    base = fp.removesuffix(".en.translation")
+                elif fp.endswith(".es.translation"):
+                    base = fp.removesuffix(".es.translation")
+                elif fp.endswith(".esp.translation"):
+                    base = fp.removesuffix(".esp.translation")
+
+                if base is not None and base in base_to_hash_pt:
+                    f.seek(file_base + e["ofs"])
+                    raw_orig = f.read(e["size"])
+                    patched_bytes = build_patched_opt_trans(raw_orig, base_to_hash_pt[base])
+                    patched_count += 1
+
+            if patched_bytes is None:
                 continue
-
-            f.seek(file_base + e["ofs"])
-            raw_orig = f.read(e["size"])
-            patched_bytes = build_patched_opt_trans(raw_orig, base_to_hash_pt[base])
 
             # Alinha write_cursor em 32 bytes relativo a file_base
             rel_ofs = write_cursor - file_base
@@ -390,7 +525,6 @@ def apply_translation(game_dir: Path) -> int:
             e["ofs"] = rel_ofs
             e["size"] = len(patched_bytes)
             e["md5"] = hashlib.md5(patched_bytes).digest()
-            patched_count += 1
 
         # Alinha início do novo diretório em 16 bytes
         if write_cursor % 16 != 0:
@@ -415,6 +549,8 @@ def apply_translation(game_dir: Path) -> int:
         f.write(struct.pack("<Q", new_dir_offset))
 
     print(f"[APLICADO] {patched_count} recursos .translation (.en/.es/.esp) atualizados em: {pck_path}")
+    if controls_patched:
+        print(f"[CONTROLES] Esquema extra (WASD + Espaço + Shift + E) aplicado em project.binary ({pck_path.name})")
     return 0
 
 

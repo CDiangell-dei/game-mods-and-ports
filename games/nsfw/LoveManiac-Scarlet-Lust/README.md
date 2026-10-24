@@ -27,6 +27,19 @@ LoveManiac-Scarlet-Lust/
 
 ---
 
+## 🎮 Controles (Esquema Duplo: Clássico + WASD)
+
+O patch injeta automaticamente em `www/index.html` suporte simultâneo ao esquema original e ao novo esquema confortável:
+
+| Ação | Esquema Novo (Adicionado) | Esquema Original (Mantido) |
+| :--- | :--- | :--- |
+| **Mover (Overworld / Alma em Combate / Menus)** | `W`, `A`, `S`, `D` | Setas (`↑`, `←`, `↓`, `→`) |
+| **Confirmar / Interagir / Avançar Diálogo** | `Espaço` (`Space`) | `Z` |
+| **Cancelar / Voltar / Pular Texto / Correr** | `Shift` | `X` |
+| **Inventário** | `E` | `C` |
+
+---
+
 ## 🛠️ Arquitetura Técnica
 
 O jogo é empacotado com **TurboWarp / PenguinMod (Scratch 3)** sobre **WebView2**:

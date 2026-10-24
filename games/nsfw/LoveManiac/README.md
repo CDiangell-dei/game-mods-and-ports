@@ -31,6 +31,19 @@ LoveManiac/
 
 ---
 
+## 🎮 Controles (Esquema Duplo: Clássico + WASD)
+
+O patch aplica automaticamente suporte simultâneo ao esquema original e ao novo esquema confortável no `project.binary` do pacote `.pck`:
+
+| Ação | Esquema Novo (Adicionado) | Esquema Original (Mantido) |
+| :--- | :--- | :--- |
+| **Mover (Overworld / Combate / Menus / Cenas)** | `W`, `A`, `S`, `D` | Setas (`↑`, `←`, `↓`, `→`) |
+| **Confirmar / Interagir / Avançar Diálogo** | `Espaço` (`Space`) | `Z` / `Enter` |
+| **Cancelar / Voltar / Correr (Sprint)** | `Shift` | `X` / `Esc` |
+| **Inventário** | `E` | `C` / `I` |
+
+---
+
 ## 🛠️ Arquitetura Técnica
 
 - O jogo utiliza **Godot Engine 4.5** com pacotes `PCK v3` (`flags=2`, `file_base=112`, `dir_offset` dinâmico no cabeçalho).

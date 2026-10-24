@@ -22,6 +22,7 @@ Repositório privado para versionamento de código-fonte modificado, traduções
 | **Adulttale** | [`games/nsfw/Adulttale/`](games/nsfw/Adulttale/) | • [Página Oficial (Itch.io)](https://adulttale.itch.io/adulttale) | • Tradução PT-BR Completa (1.045 chaves)<br>• Script de Auto-Merge para Novas Versões<br>• Backup de Saves (`%LOCALAPPDATA%\Adulttale`) |
 | **LoveManiac** | [`games/nsfw/LoveManiac/`](games/nsfw/LoveManiac/) | • [Página Oficial (Team Nebula)](https://team-nebula.itch.io/lovemaniac) | • Tradução PT-BR Completa (`v0.3.6` — 919 entradas em 20 arquivos)<br>• Patcher Binário Godot 4.5 (`PCK v3` / `OptimizedTranslation`)<br>• Backup de Saves (`%APPDATA%\Godot\app_userdata\Love Maniac\save`) |
 | **LoveManiac: Scarlet Lust** | [`games/nsfw/LoveManiac-Scarlet-Lust/`](games/nsfw/LoveManiac-Scarlet-Lust/) | • [Página Oficial (Team Nebula)](https://team-nebula.itch.io/lovemaniac-scarlet-lust) | • Tradução PT-BR Completa (`v0.1.43` — 144 diálogos + 25 blocos de UI)<br>• Script de Auto-Merge e Patch (`www/assets/project.json`) |
+| **Fap Nights at Frenni's Night Club** | [`games/nsfw/Fap-Nights-at-Frennis-Night-Club/`](games/nsfw/Fap-Nights-at-Frennis-Night-Club/) | • [Página Oficial (Fatal Fire Studios)](https://fatal-fire-studios.itch.io/fap-nights-at-frennis-night-club) | • Tradução PT-BR Completa (2.182 chaves)<br>• Suporte Duplo: Story Mode (`v0.2.2`) e Arcade Mode (`v0.2.8`)<br>• Patcher Automatizado de Cenas Unity (`update_and_apply_ptbr.py`) |
 
 ---
 
@@ -59,10 +60,17 @@ game-mods-and-ports/
 │       │   ├── scripts/                          # Reconstrutor binário OptimizedTranslation no .pck
 │       │   └── saves/                            # Backups versionados (meta.json, slot_0.json)
 │       │
-│       └── LoveManiac-Scarlet-Lust/              # LoveManiac: Scarlet Lust (Tradução PT-BR)
-│           ├── README.md                         # Links oficiais e instruções de atualização
-│           ├── lang/                             # Dicionário PT-BR (diálogos + blocos de UI) e referência EN/ES
-│           └── scripts/                          # Script de merge/aplicação automática no project.json
+│       ├── LoveManiac-Scarlet-Lust/              # LoveManiac: Scarlet Lust (Tradução PT-BR)
+│       │   ├── README.md                         # Links oficiais e instruções de atualização
+│       │   ├── lang/                             # Dicionário PT-BR (diálogos + blocos de UI) e referência EN/ES
+│       │   └── scripts/                          # Script de merge/aplicação automática no project.json
+│       │
+│       └── Fap-Nights-at-Frennis-Night-Club/     # Fap Nights at Frenni's Night Club (Tradução PT-BR)
+│           ├── README.md                         # Links oficiais, engenharia reversa e guia do patcher
+│           ├── FAP NIGHTS AT FRENNIs.exe         # Executável oficial do Story Mode (v0.2.2)
+│           ├── FAP N.A.F. ARCADE MODE.exe        # Executável oficial do Arcade Mode (v0.2.8)
+│           ├── lang/                             # Dicionário PT-BR (2.182 chaves) e dumps estruturados
+│           └── scripts/                          # Patcher automatizado para cenas Unity (.assets / level*)
 │
 └── tools/
     └── save_sync.py                              # Utilitário para backup/restauração de saves (PC <-> Celular)

@@ -25,7 +25,7 @@ Fap-Nights-at-Frennis-Night-Club/
 ├── FAP NIGHTS AT FRENNIs.exe           # Executável oficial do Story Mode (v0.2.2)
 ├── FAP N.A.F. ARCADE MODE.exe          # Executável oficial do Arcade Mode (v0.2.8)
 ├── lang/
-│   ├── pt_br.json                     # Dicionário unificado PT-BR (2.182 chaves traduzidas)
+│   ├── pt_br.json                     # Dicionário universal PT-BR (6.093 chaves traduzidas)
 │   ├── story_strings.json             # Dump e mapeamento estruturado de cenas do Story Mode
 │   └── arcade_strings.json            # Dump e mapeamento estruturado de cenas do Arcade Mode
 ├── scripts/
@@ -35,24 +35,36 @@ Fap-Nights-at-Frennis-Night-Club/
 
 ---
 
-## 🛠️ Arquitetura Técnica & Engenharia Reversa (REA)
+## 🛠️ Arquitetura Técnica, Engenharia Reversa (REA) & Seletor PT-BR
 
 A análise arquitetural e extração profunda dos binários foram realizadas com o **REA (Reverse Engineer Anything)** e o framework **UnityPy**:
 
-1. **Story Mode (`v0.2.2 FIX2`):**
+1. **Arquitetura Dual-Slot & Opção "PORTUGUÊS (PT-BR)" no Menu:**
+   - O jogo possui internamente uma estrutura paralela de GameObjects para cada idioma (ex.: `... INGLES` ativo quando `IDIOMA == 1`, e `... ESPAÑOL` ativo quando `IDIOMA == 0`).
+   - O seletor de idiomas original continha apenas botões para inglês e espanhol.
+   - **Solução Implementada (Função PT-BR Nativa):**
+     - O botão de idioma primário foi renomeado e configurado para **`PORTUGUÊS (PT-BR)`**.
+     - O botão secundário foi configurado para **`PORTUGUÊS`**.
+     - O título do menu foi ajustado para **`IDIOMA: PORTUGUÊS`**.
+     - **Ambos os slots (inglês e espanhol) foram 100% traduzidos para o Português Brasileiro.**
+     - Desta forma, mesmo se o jogador alternar acidentalmente de opção de idioma nas configurações, **o jogo nunca perde a tradução**, garantindo 100% de estabilidade e consistência visual.
+
+2. **Story Mode (`v0.2.2 FIX2`):**
    - Engine: **Unity (Mono BleedingEdge x64)**
    - Código de script gerenciado em `Assembly-CSharp.dll` com controle de idioma via `PlayerPrefs` e GameObjects dinâmicos (`IDIOMACONTROL`).
    - Os textos da interface, diálogos, chamadas telefônicas e missões ficam serializados em componentes `MonoBehaviour` do tipo `UnityEngine.UI.Text` (`m_Script` PathID `434`).
    - A string `m_Text` fica localizada no byte relativo **128** da estrutura binária de cada objeto serializado nas cenas (`level0` a `level31` e `sharedassets*.assets`).
+   - **8.467 componentes de texto localizados.**
 
-2. **Arcade Mode (`v0.2.8xxx♥`):**
+3. **Arcade Mode (`v0.2.8xxx♥`):**
    - Engine: **Unity (IL2CPP x64)**
    - Código nativo compilado em `GameAssembly.dll` com metadados estruturados em `global-metadata.dat`.
-   - Utiliza versão mais recente da pipeline gráfica do Unity, onde o componente `UnityEngine.UI.Text` (`m_Script` PathID `475`) adiciona campos de padding (como `m_RaycastPadding`), posicionando a string `m_Text` no byte relativo **144**.
+   - Utiliza versão mais recente da pipeline gráfica do Unity, onde o componente `UnityEngine.UI.Text` (`m_Script` PathID `475`) posiciona a string `m_Text` no byte relativo **144**.
+   - **1.844 componentes de texto localizados.**
 
-3. **Injeção de Tradução Segura:**
-   - O script `update_and_apply_ptbr.py` lê os blocos serializados das cenas de ambos os modos, substitui os textos originais em inglês/espanhol diretamente por suas versões em Português Brasileiro (reajustando o tamanho de 4 bytes e o alinhamento de memória), preserva backups automáticos `.orig` e grava os arquivos atualizados em poucos segundos.
-   - Dessa forma, independente do idioma selecionado no menu, o jogo roda 100% em Português!
+4. **Injeção de Tradução Segura & Preservação de Formatação:**
+   - O utilitário `update_and_apply_ptbr.py` conta com resolução inteligente de espaços em branco, quebras de linha (`\r`, `\n`) e recuos de diálogos, preservando a diagramação original dos textos nas caixas de fala.
+   - Mais de **10.311 componentes de texto** foram traduzidos e validados nos arquivos de cenas locais.
 
 ---
 

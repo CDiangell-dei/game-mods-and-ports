@@ -60,6 +60,32 @@ def load_ptbr_map():
         return json.load(f)
 
 
+def resolve_translation(s, ptbr_map):
+    # 1. Exact match
+    if s in ptbr_map and ptbr_map[s] != s:
+        return ptbr_map[s]
+
+    # 2. Whitespace-preserved trimmed match
+    prefix = s[: len(s) - len(s.lstrip())]
+    suffix = s[len(s.rstrip()) :]
+    core = s.strip()
+
+    if core in ptbr_map and ptbr_map[core] != core:
+        return prefix + ptbr_map[core] + suffix
+
+    # 3. Case-insensitive fallback
+    core_upper = core.upper()
+    if core_upper in ptbr_map and ptbr_map[core_upper] != core_upper:
+        trans = ptbr_map[core_upper]
+        if core.isupper():
+            return prefix + trans.upper() + suffix
+        elif core.istitle():
+            return prefix + trans.title() + suffix
+        return prefix + trans + suffix
+
+    return None
+
+
 def patch_file(file_path, config, ptbr_map, make_backup=True):
     changed_count = 0
     try:
@@ -78,8 +104,8 @@ def patch_file(file_path, config, ptbr_map, make_backup=True):
                     if 1 <= t_len <= (len(raw) - text_offset - 4):
                         try:
                             s = raw[text_offset + 4 : text_offset + 4 + t_len].decode('utf-8')
-                            if s in ptbr_map and ptbr_map[s] != s:
-                                new_text = ptbr_map[s]
+                            new_text = resolve_translation(s, ptbr_map)
+                            if new_text and new_text != s:
                                 new_bytes = new_text.encode('utf-8')
                                 new_len = len(new_bytes)
                                 old_pad = (4 - (t_len % 4)) % 4

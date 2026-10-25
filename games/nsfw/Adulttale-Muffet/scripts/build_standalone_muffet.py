@@ -195,11 +195,22 @@ def main() -> None:
     # Patch Adulttale.exe
     patch_executable(src / "Adulttale.exe", dst / "Adulttale.exe")
 
+    # Copy all files from lang directory (fonts, support.json, etc.)
+    src_lang = src / "lang"
+    dst_lang = dst / "lang"
+    dst_lang.mkdir(parents=True, exist_ok=True)
+    if src_lang.exists():
+        for item in src_lang.iterdir():
+            if item.is_dir():
+                shutil.copytree(item, dst_lang / item.name, dirs_exist_ok=True)
+            elif item.is_file():
+                shutil.copy2(item, dst_lang / item.name)
+
     # Build standalone PT-BR lang files
     pt_src = src / "lang" / "pt.json"
     if not pt_src.exists():
         pt_src = src / "lang" / "esp.json"
-    build_standalone_lang(pt_src, dst / "lang")
+    build_standalone_lang(pt_src, dst_lang)
 
     # Copy saves to target-dir/saves and %LOCALAPPDATA%/Adulttale
     if args.saves_dir.exists():

@@ -25,5 +25,7 @@ games/**/sotc.exe
 
 # Arquivos >100MB divididos em .part00/.part01/.part02 para o GitHub (os arquivos originais permanecem localmente)
 games/nsfw/Adulttale/Squishes.dat
+games/nsfw/Adulttale-Muffet/Squishes.dat
 games/nsfw/LoveManiac/LoveManiac 0.3.6.pck
+
 

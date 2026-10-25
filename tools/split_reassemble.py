@@ -16,6 +16,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CHUNK_SIZE = 80 * 1024 * 1024  # 80 MB por parte
 LARGE_FILES = [
     REPO_ROOT / "games" / "nsfw" / "Adulttale" / "Squishes.dat",
+    REPO_ROOT / "games" / "nsfw" / "Adulttale-Muffet" / "Squishes.dat",
     REPO_ROOT / "games" / "nsfw" / "LoveManiac" / "LoveManiac 0.3.6.pck",
 ]
 

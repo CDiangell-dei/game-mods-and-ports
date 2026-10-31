@@ -1,0 +1,7 @@
+[name] Vá para o quarto de Viola (→ manhã)
+[cast v=Viola]
+[show portrait v blushing]
+Viola cora sutilmente.
+
+[rmv-miran()]
+[viola-night()]

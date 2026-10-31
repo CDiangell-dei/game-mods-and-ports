@@ -1,0 +1,18 @@
+[cast a=Hero, b=Bell]
+[show portrait b smiling]
+b: Olá, {heroname}!
+
+a: Olá Bel, como vai?
+
+b: Parece que Nanako está ocupada hoje, então decidi treinar na masmorra hoje!
+
+[menu]
+    [if alone()]
+        a: Você quer treinar juntos?
+            [scene bell_agrees_to_train]
+
+    a: Boa sorte! (Saia.)
+        [show portrait b laughing]
+        Bell mostra um sorriso entusiasmado.
+        b: Obrigado, {heroname}!
+[end]

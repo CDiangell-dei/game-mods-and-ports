@@ -1,0 +1,11 @@
+[cast a=Hero, e=Emma, i=Ise, trav=Trav]
+[show portrait i normal]
+i: H-hein? Isso é lutar sujo!
+
+[show portrait e swooning]
+e: O código moral do Ise é tão fofo!
+
+[show portrait trav sighing]
+t: Nós tínhamos isso chegando...
+
+[bandit-become-hostile()]

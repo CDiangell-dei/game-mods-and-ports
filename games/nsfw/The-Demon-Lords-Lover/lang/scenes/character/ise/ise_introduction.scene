@@ -1,0 +1,19 @@
+[cast a=Hero, i=Ise]
+[show portrait i normal]
+i: Ack!! É você!!
+
+a: Ah, oi. Ise, foi? Meu nome é {heroname}.
+
+[show portrait i smug]
+i: {heroname}? Eu vou lembrar disso. Afinal, você é meu inimigo!
+
+a: Eu sou seu inimigo? Desde quando?
+
+[show portrait i crying]
+i: S-desde que você me derrotou na batalha! Augh, eu nem quero dizer isso!
+
+a: Isso foi legítima defesa...
+
+i: Grrr... Se pudéssemos lutar na cidade, eu me vingaria, mas...
+
+i: Teremos que esperar até nos encontrarmos novamente na masmorra!

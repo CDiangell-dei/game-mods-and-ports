@@ -1,0 +1,2 @@
+[cast s=Seri]
+s: {rescue-target|capitalize(definite)} {if rescue-target.plural then are else is} em B{quest-end-floor}, certo?

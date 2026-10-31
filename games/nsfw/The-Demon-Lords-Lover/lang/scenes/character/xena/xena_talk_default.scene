@@ -1,0 +1,3 @@
+[cast a=Hero, x=Xena]
+[show portrait x normal]
+Olá, {heroname}! Como tá indo?

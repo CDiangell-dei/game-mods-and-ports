@@ -1,0 +1,6 @@
+[cast x=Xena]
+[show portrait x smiling]
+[if alone-with(x)]
+    x: Uau! Bom trabalho {heroname}!
+[else]
+    x: Uau! Bom trabalho, pessoal!

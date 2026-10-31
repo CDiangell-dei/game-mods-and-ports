@@ -1,0 +1,78 @@
+[name] A erva fez alguma coisa?
+[cast a=Hero, p=Paila]
+[set TODAY_I_TALKED_TO_PAILA]
+[show portrait p]
+a: A erva... funcionou?
+
+[show portrait p worried]
+Paila balança a cabeça negativamente.
+p: Não parece.
+
+a: Ah... isso é uma chatice...
+
+[show portrait p]
+Paila dá um sorriso fraco.
+p: Está tudo bem. Eu sei que a vida não é tão simples.
+
+p: Por alguma razão, me sinto um pouco aliviado.
+
+a: Aliviado?
+
+p: Sim. Desde que o aventureiro me contou sobre aquela erva, tenho pensado nela sem parar. {heroname}, não gosto de sonhar, é muito doloroso.
+
+p: Mas neste caso, não consegui parar de pensar nisso. É como se houvesse uma porta para outra vida bem no meu quintal.
+
+p: Fantasiei com minha mãe se recuperando, minha mãe assumindo as responsabilidades da loja, eu não tendo mais que cuidar de minha mãe, minha liberdade e o que eu faria com isso.
+
+p: E acho que com o tempo, isso me fez odiar esta vida.
+
+p: Mas agora esse sonho está morto. E por alguma razão, pela primeira vez em muito tempo, me sinto bem. Tipo não é bom, mas ok. Como se eu pudesse lidar com... tudo isso.
+
+p: Talvez eu não esteja destinado a ser um aventureiro.
+
+p: Não é tão ruim ser uma filha com obrigações, certo?
+[menu]
+    a: Eu te apoiarei de qualquer maneira.
+    a: Vamos viver um passo de cada vez.
+Paila lhe dá um abraço profundo, empurrando os seios contra você.
+
+...
+
+a: Paila, quero fazer sexo de novo...
+
+Paila fica vermelha como uma beterraba.
+p: Você é um idiota...
+
+p: Você nem entende como eu me sinto...
+
+a: Como você se sente?
+
+Paila cora de raiva.
+p: {heroname}, vou ser honesto com você. E vou ser honesto comigo mesmo.
+
+p: Estou apaixonado por você.
+
+a: O-o quê?
+
+Paila levanta a voz.
+p: Estou apaixonado por você! Você ouviu isso daquela vez?
+
+a: Então isso é um sim ou um não?
+
+Paila coloca o rosto nas palmas das mãos.
+p: Não acredito... estou apaixonado por um pau falante...
+
+p: Isso significa que você tem que me levar para um encontro primeiro!
+
+a: Ah, é isso? Podemos fazer isso 7 vezes como da última vez?
+
+[show portrait p blushing_angry]
+Paila mostra uma expressão facial que você nunca viu antes.
+
+Claro, ela está chateada... mas por baixo disso, você sente outra coisa.
+
+Será demasiado presunçoso dizer que a resposta aos seus comentários grosseiros, na verdade, expõe um vislumbre de alegria despreocupada?
+
+p: CEM DATAS!
+
+Parece muito trabalho...

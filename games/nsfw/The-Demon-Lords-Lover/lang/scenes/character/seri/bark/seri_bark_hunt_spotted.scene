@@ -1,0 +1,2 @@
+[cast s=Seri]
+s: Isso é {if hunt-target.plural then them else it}, não é?

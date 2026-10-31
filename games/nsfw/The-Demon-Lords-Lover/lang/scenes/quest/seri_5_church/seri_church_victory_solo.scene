@@ -1,0 +1,59 @@
+[cast a=Hero, s=Seri, n=Nanako, e=Eve]
+[show portrait e normal]
+e: Interessante...
+
+e: Parece que a bênção do Lorde Demônio é mais do que apenas poder mágico...
+
+e: Meros humanos, mesmo ungidos por Deus, não são páreo para os seres predestinados.
+
+[hide portrait]
+a: Onde está o poder do Lorde Demônio?
+
+[show portrait e normal]
+e: ...
+
+e: Ok, então você descobre onde o poder está escondido...
+
+e: E então o que?
+
+[hide portrait]
+a: Seri irá destruí-lo.
+
+[show portrait e bitter_laugh]
+e: Hahahaha!!!!
+
+e: Tão ingênuo!
+
+[show portrait e normal]
+e: Tudo o que posso dizer é que se ela refletir o suficiente para descobrir o que é...
+
+e: Ela também pode descobrir quem ela realmente é.
+
+[hide portrait]
+Eva e os inquisidores escapam.
+
+[if with(n)]
+[show portrait n smiling]
+n: Parece que temos nossa próxima missão.
+
+a: O que você quer dizer?
+
+[show portrait n smiling]
+n: Você quer encontrar, certo?
+
+n: Os restos de seu poder.
+
+[show portrait n normal]
+n: Para qualquer propósito.
+
+a: Nanako! Como você pode dizer algo assim?
+
+[show portrait n smiling]
+n: Quero dizer, precisamos descobrir onde o poder do Lorde Demônio está escondido, certo? Você sabe, para destruí-lo... ou retomá-lo.
+
+[show portrait n normal]
+n: Estou bem com qualquer resultado, apenas apoio Seri.
+
+[goto-evening()]
+[seri-church-place-post-victory()]
+[stop floor-song]

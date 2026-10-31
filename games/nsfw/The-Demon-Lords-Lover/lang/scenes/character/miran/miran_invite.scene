@@ -1,0 +1,23 @@
+[cast a=Hero, m=Miran]
+Um pouco mais tarde...
+
+[show portrait m blushing]
+m: Hum... {heroname}, onde você está hospedado?
+
+Pila disse que não havia problema em passar a noite na casa dela...
+
+Mas uma parte de você está preocupada em sobrecarregá-los.
+
+m: Porque... se quiser, pode ficar comigo... e podemos dividir o custo do quarto.
+
+a: O-o quê?
+
+[show portrait m pleading]
+m: Não aja assim... já passamos a noite juntos uma vez...
+
+a: Você tem certeza?
+
+[show portrait m blushing_angry]
+m: Não me faça dizer isso de novo... idiota.
+
+hint: Daqui para frente, você pode falar com Hilde para passar a noite com Miran.

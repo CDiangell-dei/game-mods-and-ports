@@ -1,0 +1,100 @@
+[name] Passe algum tempo com Seri (→ noite)
+[cast a=Hero, s=Seri]
+[show portrait s normal]
+s: {heroname}, a governança desta cidade... é estranha, não é?
+
+a: Como assim?
+
+s: Chii e Hilde governam a cidade, e administrarão a cidade indefinidamente...
+
+s: As iniciativas públicas são feitas através de missões...
+
+s: Os criminosos são mais ou menos livres...
+
+s: {heroname}, o que você acha?
+[menu]
+    a: Eu gosto disso.
+        s: Você tem sido um espírito livre desde o início, então faz sentido.
+
+    a: É um produto do meio ambiente.
+        s: Eu também acho... Suponho que os aventureiros não sejam representativos da humanidade.
+
+    a: Para ser honesto, estou surpreso que esta cidade ainda esteja de pé.
+        s: Eu também acho... Às vezes parece que há um equilíbrio delicado. Outras vezes, parece que existe uma resiliência de autocura.
+
+s: Talvez seja porque as pessoas aqui têm algo para fazer.
+
+s: As pessoas que buscam poder, dinheiro, etc. podem fazê-lo na masmorra.
+
+s: Na maior parte, não faz sentido competir.
+
+s: Se você quiser mais, pode entrar mais na masmorra.
+
+s: Não posso deixar de me sentir deslocado...
+
+a: Você tem pensado no que quer fazer neste mundo?
+
+[show portrait s serious]
+s: No Japão, sempre quis tornar o mundo um lugar melhor.
+
+s: Mas fazê-lo como alguém de fora parece, de certa forma, inapropriado.
+
+s: Presumo que esta cidade seja apenas uma fatia da humanidade... e que a humanidade seja parecida com o que conheci no Japão.
+
+s: Mas isso parece uma suposição estranha de se fazer.
+
+s: Quero dizer, mesmo no contexto do Japão, existem países fora do Japão.
+
+s: No Japão, há um grande número de pessoas que realmente não têm nada a ver comigo. Meu ressentimento e ódio nunca foram direcionados a eles.
+
+s: Acho que até certo ponto, quando vejo os aventureiros correndo por aí sem nenhuma preocupação no mundo, fico um pouco ressentido.
+
+[show portrait s sad]
+s: Mas não é nada comparado ao que senti no Japão.
+
+a: Eu sinto que você está se identificando um pouco com o seu chamado mal...
+
+a: Sentir-se frustrado só porque outra pessoa está feliz e você não, não é mau. É apenas uma merda normal.
+
+a: É porque você se mantém em um padrão tão elevado que pode se sentir assim.
+
+s: Acho que você provavelmente está certo, mas é mais fácil falar do que fazer para mudar minha maneira de pensar.
+
+a: Afinal, o que o mal deveria ser? Digamos que você se tornou presidente do conselho estudantil porque queria poder.
+
+a: Mas no final você promulgou muitas coisas positivas para a escola e seus alunos.
+
+a: No final acabou servindo ao mundo. Mas de alguma forma você está rebatizando isso como sendo mau?
+
+a: Existem tantos tipos de sentimentos que são convenientes e inconvenientes para diferentes grupos de pessoas.
+
+a: Se você é mau, muitas pessoas também o são.
+
+[show portrait s smiling]
+s: Haha, você é tão apaixonado.
+
+a: ... desculpe.
+
+s: Não, gosto de ouvir você discursar desse jeito... isso me lembra dos velhos tempos.
+
+a: Sinto que nunca consegui entrar em contato com você.
+
+s: Suponho que sou uma pessoa teimosa.
+
+s: Mas posso sentir que você se preocupa comigo e isso me ajuda de alguma forma.
+
+s: Eu gostaria de poder ajudá-lo mais.
+
+s: Só posso oferecer meu corpo...
+
+s: E mesmo assim sinto que estou tirando mais proveito disso do que você.
+
+a: Você continua direcionando a conversa de volta para a sua culpa.
+
+s: Acho que deveria ter mais cuidado.
+
+a: Desculpe por incomodar você.
+
+s: Está tudo bem, não acho que sejamos tão diferentes nesse ponto.
+[record-study(s)]
+[goto-night()]

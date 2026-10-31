@@ -1,0 +1,31 @@
+[cast a=Hero, s=Seri, v=Viola]
+[show portrait s normal]
+Ao perceber Viola, Seri se curva.
+s: Olá, você deve ser amigo de {heroname}... meu nome é Seri.
+
+[show portrait v normal]
+v: Olá, meu nome é Viola.
+
+v: Ouvi falar da sua situação... quero ajudar você também.
+
+[show portrait s smiling]
+s: ... faz sentido que o amigo de {heroname} também seja uma pessoa incrivelmente gentil.
+
+[show portrait v normal]
+v: Ele é uma pessoa idealista, não é?
+
+v: Acho que você pode dizer que ele me inspirou a ser o mesmo.
+
+a: I-isso é demais...
+
+[show portrait s normal]
+s: Eu entendo.
+
+[show portrait s smiling]
+s: {heroname}... Não acredito como ela é linda...
+
+[show portrait v blushing]
+Viola não sabe como responder a este comentário.
+
+[show portrait s smiling]
+s: E ela nem sabe disso...

@@ -1,0 +1,84 @@
+[name] Treine no dojo (→ noite)
+[cast a=Hero, x=Xena]
+Você treina no dojo.
+
+[get-dojo-skill()]
+[record-dojo-train()]
+[show portrait x blushing]
+Você capta o olhar de Xena diversas vezes, mas a cada vez ela desvia o olhar, corando.
+
+Ah, deve ser por causa do que o pai dela disse outro dia...
+
+Mas ela consegue se aproximar de você depois da aula.
+
+x: Ei {heroname}! Fico feliz em ver que você está treinando forte!
+
+a: Hum, sobre o que seu pai disse...
+
+x: E-espere!
+
+x: Antes de dizer qualquer coisa, deixe-me dizer a minha parte primeiro!
+
+[show portrait x normal]
+x: Lembra quando você sugeriu que eu escrevesse uma carta para o papai?
+
+x: Foi um bom conselho! E agora estou mais perto do meu pai e da minha irmã.
+
+[show portrait x motivated]
+x: Então acho que tenho que encarar essa situação de frente também!
+
+[show portrait x normal]
+x: Irmão...
+
+Xena hesita.
+
+x: Mano!
+
+[show portrait x motivated]
+x: Não sei o que você pensa de mim, mas o que quer que você pense, está tudo bem!
+
+[show portrait x normal]
+x: Mas quanto a mim...
+
+x: Estou a fim de você, {heroname}! Sim, assim...
+[menu]
+    a: Eu também gosto de você.
+        [set XENA_CONFESSION_ACCEPTED]
+    a: Obrigado Xena.
+        [show portrait x teasing]
+        x: Ahaha, aí! Está fora.
+
+        x: Hum, {heroname}... seremos amigos, não importa o que aconteça!
+
+        x: Então... não se preocupe com isso, ok?
+
+        E Xena faz uma breve reverência e desaparece.
+        [hide portrait]
+        [goto-night()]
+        [end]
+[show portrait x surprised]
+x: Sério?
+
+[show portrait x smiling]
+x: Uhuuu!!!!
+
+E Xena pula de alegria.
+
+[show portrait x teasing]
+x: Mas ahahaha... agora que a verdade foi revelada, não tenho certeza de como deveria tratar você... sou novo nisso!
+
+a: Não acho que precisamos tratar uns aos outros de maneira muito diferente!
+
+[show portrait x smiling]
+x: Acho que sim, hein!
+
+x: Ahahaha...
+
+Xena ainda parece um pouco nervosa.
+
+a: Por enquanto, deixe-me ajudá-lo a limpar como de costume.
+
+[show portrait x normal]
+x: Obrigado {heroname}! Eu agradeço.
+
+[scene xena_first_time_in_the_storage_room]

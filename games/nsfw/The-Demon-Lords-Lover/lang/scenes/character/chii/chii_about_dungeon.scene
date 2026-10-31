@@ -1,0 +1,23 @@
+[name] Conte-me sobre a masmorra
+[cast a=Hero, c=Chii]
+[show portrait c normal]
+a: Você pode me contar mais sobre a masmorra?
+
+c: Você quer dizer a Masmorra do Lorde Demônio?
+
+a: Sim...
+
+c: Estou surpreso que você tenha feito a jornada até esta ilha sem saber disso.
+
+c: A Masmorra do Lorde Demônio é a maior masmorra do mundo... na minha opinião, hehe!
+
+c: E o Lorde Demônio renasceu este ano, então este lugar ficou animado.
+
+c: Por causa da influência do Lorde Demônio, os monstros se tornaram numerosos e inquietos...
+
+c: Os tesouros parecem nunca acabar...
+
+c: Até as salas e corredores se movem como se a masmorra fosse um ser vivo...
+
+c: Como tal, aventureiros de todo o mundo vieram em busca de fama e fortuna.
+[chat-menu(c)]

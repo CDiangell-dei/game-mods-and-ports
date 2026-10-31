@@ -1,0 +1,17 @@
+[cast h=Hilde]
+[if is-morning()]
+    [show portrait h normal]
+    h: Bom dia, {heroname}. ^^
+    hint: Você pode fazer check-in à noite.
+[if is-afternoon()]
+    [show portrait h normal]
+    h: Boa tarde, {heroname}. ^^
+    hint: Você pode fazer check-in à noite.
+[if is-evening()]
+    [show portrait h normal]
+    h: Boa noite, {heroname}.
+    hint: Você pode fazer check-in à noite.
+[if is-night()]
+    [show portrait h normal]
+    h: Olá {heroname}, fazendo check-in? Temos alguns quartos disponíveis.
+    hint: Você pode passar a noite na casa de Paila de graça.

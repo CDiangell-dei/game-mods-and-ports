@@ -1,0 +1,36 @@
+[cast a=Hero, k=Kira, x=Xena]
+[move-to-dojo-entrance()]
+[show portrait x disappointed]
+Em algum momento, você e Xena passam algum tempo a sós.
+
+x: Ei, {heroname}... Obrigado por... o que quer que tenha acontecido lá atrás. protegendo-a na masmorra, protegendo-a depois que ela atacou você, vendo a humanidade nela depois que ela fez algo maluco.
+
+x: É possível que eu tenha causado isso...
+
+x: No final, eu não estive lá para ela.
+
+a: Não sei o que aconteceu, mas tenho certeza que você fez o que era possível naquele momento.
+
+x: {heroname}... tipo como sempre.
+
+x: De qualquer forma, sinto muito por envolver você nisso tudo. Mas sim, depois desse duelo, tudo acabará e poderemos voltar às nossas vidas, espero.
+
+x: Se isso puder ajudá-la um pouco, será o suficiente.
+
+a: Mas e se você perder?
+
+[show portrait x normal]
+x: Ah, vamos lá, isso é impossível.
+
+x: É a Kira... nunca perdi contra ela...
+
+[show portrait x disappointed]
+x: Mas agora que você plantou essa ideia na minha cabeça, estou começando a pensar demais nas coisas...
+
+[show portrait x normal]
+x: Bem, nada que eu possa fazer agora!
+
+[show portrait x disappointed]
+x: Haha...
+[hide portrait]
+[goto-night()]

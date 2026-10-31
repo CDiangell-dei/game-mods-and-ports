@@ -1,0 +1,102 @@
+[cast a=Hero, n=Nanako, h=Hera, o=Ophelia, q=Quinn, l=Lizza]
+[show portrait h normal]
+Você vê um grupo de quatro aventureiros... todas mulheres lindas...
+
+[show portrait o normal]
+...
+
+[show portrait q normal]
+...
+
+[show portrait l normal]
+...
+
+[show portrait h normal]
+O líder olha diretamente para você e depois para Nanako.
+
+[if with(n)]
+    h: Os asseclas do lorde demônio...
+
+    [show portrait n smiling]
+    n: Somos amigos dela.
+[else]
+    h: O servo do lorde demônio...
+
+    [hide portrait]
+    a: Eu sou amigo dela.
+
+[show portrait h normal]
+h: ...
+
+h: Uma maneira meio triste de pensar.
+
+a: O que você quer dizer?
+
+h: Por acaso... você não tem lembranças disso???
+
+[if with(n)]
+    [show portrait n smiling]
+    n: ...
+
+    n: O que você quer dizer?
+[else]
+    a: O que você quer dizer?
+
+[show portrait h normal]
+h: Hmmm... me pergunto se cabe a mim dizer isso...
+
+[if with(n)]
+    h: Se vocês não são os servos do lorde demônio, deveriam fugir para outro lugar, ir morar em uma fazenda ou algo assim.
+[else]
+    h: Se você não é o servo do Lorde Demônio, você deveria correr para outro lugar, ir morar em uma fazenda ou algo assim.
+
+h: Você deveria ter sorte de estar vivo...
+
+h: Mas suponho que você me poupou, então... podemos ficar empatados.
+
+a: Quem é você?
+
+a: E o que você está fazendo aqui?
+
+h: ...
+
+h: Quero dizer, vamos acabar com essa coisa de herói/lorde demônio.
+
+h: Antes que a igreja se aprofunde mais em nossos negócios.
+
+a: Nosso?
+
+h: Eu sou o herói... A contraparte do lorde demônio.
+
+h: Mas mantenha isso em segredo... ou a igreja realmente enviará todo mundo e teremos que matar muito mais pessoas do que queremos.
+
+a: ...
+
+a: Você está planejando matar Seri?
+
+h: Ah, na verdade não.
+
+h: Ouvi dizer que ela desistiu do posto de lorde demônio, certo?
+
+h: Estamos aqui apenas para encontrar o que resta do poder do Lorde Demônio.
+
+h: Então podemos acabar com isso...
+
+h: Sei que a igreja tem outros planos, por isso estamos trabalhando em segredo.
+
+a: Nossos planos estão alinhados...
+
+h: Sim? Não posso deixar de ficar desconfiado...
+
+h: Embora o lorde demônio tenha desistido de seu poder, não podemos ter certeza de que ela não está apenas tentando recuperar seu poder...
+
+[if with(n)]
+    h: ...com a ajuda dela... amigos.
+[else]
+    h: ...com a ajuda dela... amiga.
+
+[hide portrait]
+A festa vai embora.
+
+[depart(hera, ophelia, daia, lizza, quinn)]
+[end]

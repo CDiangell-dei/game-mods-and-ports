@@ -1,0 +1,6 @@
+[name] Sair
+[cast m=Miran]
+[if MIRAN_JOIN_UNLOCKED]
+    m: Tchau {heroname}.
+[if with(m)]
+    [rmv-miran()]

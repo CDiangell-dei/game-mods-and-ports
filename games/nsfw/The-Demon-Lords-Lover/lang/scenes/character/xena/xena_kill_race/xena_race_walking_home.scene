@@ -1,0 +1,25 @@
+[cast a=Hero, x=Xena]
+[if TODAY_I_WON_XENAS_RACE]
+    [show portrait x normal]
+    x: Eu tenho {xena-race-xena-kills}, e você?
+
+    a: Eu obtive {xena-race-hero-kills}.
+
+    [show portrait x smiling]
+    x: Você é incrível, mano!
+[elif TODAY_I_TIED_XENAS_RACE]
+    [show portrait x normal]
+    x: Eu tenho {xena-race-xena-kills}, e você?
+
+    a: Eu obtive {xena-race-hero-kills}.
+
+    [show portrait x smiling]
+    x: Você é um grande rival, mano!
+[elif TODAY_I_LOST_XENAS_RACE]
+    [show portrait x normal]
+    x: Eu tenho {xena-race-xena-kills}, e você?
+
+    a: Eu obtive {xena-race-hero-kills}.
+
+    [show portrait x smiling]
+    x: Parece que desta vez ganhei! ^^

@@ -1,0 +1,58 @@
+[cast m=Miran, v=Viola]
+Miran e Viola conversam entre si.
+
+[show portrait m normal]
+m: Hum... Viola...
+
+[show portrait v normal]
+v: O que é isso?
+
+[show portrait m normal]
+m: Por acaso... você fica com ciúmes?
+
+[show portrait v normal]
+v: Do quê?
+
+[show portrait m blushing]
+m: Sabe... já que nós dois fizemos sexo com {heroname}...
+
+[show portrait v blushing]
+v: Ah...
+
+v: Acho que não...
+
+[show portrait m normal]
+m: Como assim?
+
+[show portrait v smiling]
+v: Não sei... sinto que {heroname} é como o vento...
+
+v: Eu aprecio a brisa quando ela está lá...
+
+v: Mas não acho que seja algo que eu possa controlar...
+
+[show portrait m normal]
+m: Você é incrível.
+
+[show portrait v normal]
+v: Hum... isso significa que você fica com ciúmes?
+
+[show portrait m blushing]
+m: Não é um pouco tarde para isso agora? ^^;
+
+m: Honestamente... estou feliz por termos outra coisa em comum.
+
+[show portrait v blushing]
+v: Sim... Nós dois fizemos sexo com {heroname}.
+
+[show portrait m blushing]
+Miran cora.
+
+m: Estou surpreso que você possa dizer coisas tão embaraçosas sem constrangimento. Acho que você e {heroname} são parecidos nesse aspecto.
+
+m: Eu chegarei lá...
+
+[show portrait v smiling]
+Viola tem um sorriso gentil.
+
+v: Você não precisa. <3

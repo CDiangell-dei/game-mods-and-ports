@@ -1,0 +1,28 @@
+[name] Retomar romance
+[cast a=Hero, x=Xena]
+[set XENA_CONFESSION_ACCEPTED]
+[show portrait x surprised]
+Você retribui os sentimentos de Xena.
+
+[show portrait x teasing]
+x: Estou muito feliz, {heroname}. Fiquei preocupado porque minha confissão estava apenas estressando você.
+
+x: Mas você sente o mesmo...
+
+x: Ahahaha... não tenho certeza de como devo tratar você... sou novo nisso!
+
+a: Não acho que precisamos tratar uns aos outros de maneira muito diferente!
+
+[show portrait x smiling]
+x: Acho que sim, hein!
+
+x: Ahahaha...
+
+Xena ainda parece um pouco nervosa.
+
+a: Por enquanto, deixe-me ajudá-lo a limpar como de costume.
+
+[show portrait x normal]
+x: Obrigado {heroname}! Eu agradeço.
+
+[scene xena_first_time_in_the_storage_room]

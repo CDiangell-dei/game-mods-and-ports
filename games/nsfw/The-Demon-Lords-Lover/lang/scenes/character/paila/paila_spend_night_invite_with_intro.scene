@@ -1,0 +1,133 @@
+[name] Passe a noite (→ manhã)
+[cast a=Hero, l=Pila, p=Paila]
+[scene spend_night_setup]
+[show portrait l normal]
+Pila e Paila colocaram um colchão futon e cobertores no chão da sala.
+
+l: Está tudo bem?
+
+a: Sim, é mais que suficiente... Obrigado por me deixar passar a noite.
+
+[show portrait p worried]
+p: Hummm...
+
+[hide all]
+Pila e Paila sobem e você afunda no colchão.
+
+O colchão é confortável, mas o quarto é um pouco frio...
+
+Por causa disso, você não consegue dormir imediatamente.
+
+[show portrait p worried]
+Cerca de 30 minutos depois, Paila desce para beber água.
+
+p: Está frio aqui, não está?
+
+a: Um pouco, mas está tudo bem.
+
+Paila fica em silêncio por um momento e avalia a temperatura.
+
+E parece que ela decide que está frio o suficiente para ficar um pouco preocupada...
+
+p: Ei, você pode dormir no meu quarto.
+
+a: Isso é demais...
+
+p: Está tudo bem... não vou conseguir dormir sabendo que você pode pegar um resfriado.
+
+E Paila se aproxima e pega seu cobertor.
+
+Você pega o colchão futon e segue Paila até o quarto dela.
+
+E vocês dois arrumaram o colchão futon e as mantas no chão, perto da cama da Paila.
+
+[mood-song dream]
+[show cg paila_bedside_neutral]
+p: É melhor aqui, não é?
+
+p: Talvez ainda esteja um pouco frio porque você está no chão, mas melhor que no primeiro andar.
+
+a: Obrigado Paila.
+
+Deitado na cama, você não consegue deixar de olhar para os bens de Paila.
+
+Instantaneamente, você sente uma pressão contra suas calças...
+
+p: Então, hum, de onde você é?
+[menu]
+    a: Acho que posso ser de outro mundo...
+    a: Eu sou do Japão...
+Paila parece confusa, mas mostra um sorriso gentil.
+
+p: É um mundo grande, não é?
+
+p: Quando criança, muitas vezes sonhei em ver o mundo. Muitos aventureiros visitam esta cidade, por isso é difícil não ficar curioso sobre outros lugares.
+
+a: Por que você não pode ir?
+
+Paila mostra um sorriso gentil.
+
+p: Haha, sozinho? Acho que ouvir aventureiros contando suas histórias pode ser o suficiente para mim.
+[menu]
+    a: Talvez possamos ir juntos.
+        p: Haha... Você não deveria dizer essas coisas tão levianamente.
+
+        [show cg paila_bedside_sad]
+        Paila parece um pouco triste.
+        [menu]
+            a: Estou falando sério.
+                Inesperadamente, Paila quase parece irritada. Ela levanta a mão.
+
+                p: Pare.
+
+                a: Sinto muito.
+
+                Paila exala profundamente.
+                p: Não, não, você está bem. Sinto muito por essa reação.
+
+            a: Desculpe...
+        p: Eu tenho que cuidar da loja. Isso é tudo. É melhor não sonhar muito, se isso faz sentido.
+
+        Você tem a sensação de que não tem a visão completa, mas decide não insistir mais nisso.
+    a: Eu vejo...
+
+...
+
+[show cg paila_bedside_sad]
+p: Você está interessado em se tornar um aventureiro?
+
+a: Acho que sim.
+
+p: Haha, números.
+
+a: O que você quer dizer?
+
+p: Ah, não sei... pode-se dizer que é o destino cruel de todos que vêm aqui. É um delírio coletivo.
+
+a: ...
+
+[show cg paila_bedside_neutral]
+p: {heroname}, peço desculpas. Não se importe comigo.
+
+a: Paila... há algo em sua mente?
+
+Paila olha nos seus olhos com uma expressão gentil.
+
+[show cg paila_bedside_smiling]
+Então, ela sorri.
+p: {heroname}... você é uma pessoa gentil, não é?
+
+a: Eu sinto que é isso que você é.
+
+Paila ri indiferente.
+
+p: Quem sabe.
+
+a: Somente uma pessoa gentil colocaria um estranho inconsciente em sua cama...
+
+Paila olha para você calorosamente. Ela brinca com o cabelo com os dedos. Por algum motivo, você sente seu rosto ficar quente.
+
+p: Vamos para a cama.
+[menu]
+    Dormir
+[scene inn_night_subscene]

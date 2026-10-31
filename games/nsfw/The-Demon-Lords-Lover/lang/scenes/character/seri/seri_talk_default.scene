@@ -1,0 +1,4 @@
+[cast s=Seri]
+[set TODAY_I_TALKED_TO_SERI_IN_THE_AFTERNOON]
+[show portrait s normal]
+s: Olá, {heroname}.

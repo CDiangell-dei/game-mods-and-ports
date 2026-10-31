@@ -1,0 +1,24 @@
+[hide all]
+[full-heal()]
+[player-depart()]
+[if not skip-travel-scene()]
+    [if is-morning()]
+        [show background CG_morning]
+    [if is-afternoon()]
+        [show background CG_sunset]
+    Você parte {src}.
+
+    [travel-scene()]
+
+    [hide all]
+    [stop mood-song]
+    Você chega em {dst}.
+[else]
+    Você viaja de {src} para {dst}.
+[advance-time()]
+[if should-handle-deprecated-quests()]
+    [goto-pub-counter()]
+[else]
+    [arrive()]
+[if not skip-arrive-scene()]
+    [arrive-event()]

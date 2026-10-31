@@ -1,0 +1,98 @@
+[name] Treine no dojo (→ noite)
+[cast a=Hero, x=Xena]
+Você treina no dojo com Xena.
+
+[get-dojo-skill()]
+[record-train(x)]
+Exausto de uma aula intensa, você se deita no chão.
+
+[show portrait x normal]
+Xena está guardando as coisas.
+
+a: Ei Xena, devo ajudar?
+
+[show portrait x teasing]
+x: Ah, que legal da sua parte, mas você não parece muito útil agora, haha!
+
+a: Ei Xena, há quanto tempo você está fazendo isso?
+
+[show portrait x normal]
+x: Hein? Você quer dizer aqui? Ou artes marciais em geral?
+
+a: Gostaria de saber as respostas para ambos!
+
+x: Uhhh, estou aqui há apenas alguns meses.
+
+a: Uau! Eu nunca teria imaginado... você parece tão confortável e os alunos adoram você!
+
+x: Teehee...
+
+x: Mas tenho praticado artes marciais literalmente desde sempre.
+
+x: Você sabe, eu cresci no dojo do meu pai.
+
+a: O que fez você decidir vir para cá?
+
+[show portrait x disappointed]
+x: Ah, hehe... é uma longa história.
+
+O sorriso de Xena desaparece um pouco.
+
+x: Acho que você poderia dizer que as coisas ficaram complicadas em casa...
+
+x: Meu pai quer que eu herde o dojo.
+
+x: E bem... algumas coisas aconteceram e ele foi ficando cada vez mais rígido.
+
+x: Eu senti que não conseguia respirar!
+
+x: Então eu, uh... fugi.
+
+a: Oh merda... Você está bem?
+
+x: Eu? Sim. Eu não sei sobre meu pai, no entanto.
+
+Xena novamente tem uma expressão mais neutra, que comparada ao seu sorriso habitual, parece um pouco estranha de se olhar.
+
+x: E uh... minha irmã deve estar preocupada...
+
+x: Ela é apenas um ano mais nova que eu... mas é uma garota meio indefesa.
+
+x: Eu estava lá para aproveitar a energia do meu pai, então me pergunto como ela está agora.
+
+Xena suspira.
+
+a: Você planeja visitar em algum momento?
+
+x: Sim... quero dizer, eu deveria, mas para ser honesto, antes de partir, eu meio que disse algumas coisas horríveis para meu pai.
+
+x: Então você sabe, é meio estranho.
+
+[show portrait x motivated]
+x: Mas talvez eu possa ver isso como um desafio. E supere isso!
+
+[show portrait x disappointed]
+x: Ah...
+
+x: Eu digo isso, mas...
+
+a: Que tal uma carta?
+
+[show portrait x motivated]
+x: Boa ideia!! {heroname}, você é um cara muito interessante, né?
+
+[show portrait x normal]
+x: Uma carta...
+
+[show portrait x motivated]
+x: Ok! Eu posso fazer isso.
+
+x: Querido pai! Querida irmã! Estou bem! E peço desculpas por sair, mas encontrei algo novo para fazer! Não se preocupe comigo, e eventualmente voltarei... ou voltarei??
+
+Xena está perdida em pensamentos enquanto recita um rascunho de sua carta para si mesma.
+
+[show portrait x normal]
+x: {heroname}, obrigado por me ouvir.
+
+x: Já me sinto um pouco melhor!
+[goto-night()]

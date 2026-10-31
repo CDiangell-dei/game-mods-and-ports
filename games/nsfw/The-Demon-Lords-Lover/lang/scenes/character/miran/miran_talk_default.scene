@@ -1,0 +1,19 @@
+[cast m=Miran]
+[if is-morning() and not MIRAN_JOIN_UNLOCKED]
+    [show portrait m blushing]
+    m: Olá...
+[elif is-morning() and MIRAN_JOIN_UNLOCKED]
+    [show portrait m smile]
+    m: Olá {heroname}, indo para a masmorra?
+[elif is-afternoon() and is-dungeon()]
+    [show portrait m normal]
+    m: Olá {heroname}, o que é isso?
+[elif is-evening()]
+    [show portrait m smile]
+    m: Olá, {heroname}.
+[elif is-night()]
+    [show portrait m smile]
+    m: Olá, {heroname}.
+[else]
+    [show portrait m smile]
+    m: Olá, {heroname}.

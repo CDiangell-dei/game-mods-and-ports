@@ -1,0 +1,7 @@
+[cast p=Paila]
+[if seen(paila_talk_after_her_quest)]
+    [show portrait p worried]
+    p: {heroname}... Já faz um tempo.
+[else]
+    [show portrait p normal]
+    p: Olá, {heroname}. Você tem se saído bem?

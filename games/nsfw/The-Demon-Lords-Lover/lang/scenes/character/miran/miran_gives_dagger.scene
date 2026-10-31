@@ -1,0 +1,14 @@
+[cast a=Hero, m=Miran]
+[show portrait m normal]
+m: Hum... você tem uma arma?
+[menu]
+    a: Uh, acho que não...
+    a: Eu estava pensando em usar esses punhos!
+[show portrait m blushing_surprised]
+m: D-você tem um desejo de morte?
+
+[show portrait m blushing]
+m: Aqui, você pode pegar minha adaga emprestada...
+
+Miran lhe dá uma adaga.
+[miran-gives-dagger()]

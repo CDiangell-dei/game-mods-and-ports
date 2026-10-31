@@ -1,0 +1,101 @@
+[cast a=Hero, m=Miran]
+[mood-song dream]
+Você vai para o quarto de Miran.
+
+[show portrait m blushing]
+Miran abre uma fresta da porta e espia você.
+
+m: Olá, {heroname}.
+
+Miran parece ansiosa...
+
+a: Olá Miran... Posso passar a noite com você?
+
+Miran fica vermelho como uma beterraba.
+
+m: Você sabe a resposta para isso, idiota...
+
+E Miran abre a porta e você entra.
+
+a: Haha... Achei que nunca faríamos algo assim.
+
+[show portrait m blushing_surprised]
+m: Fazer o quê??
+
+[show portrait m blushing_angry]
+m: Eu não vou fazer sexo com você!
+
+a: Ah, eu só quis dizer passar a noite, haha.
+
+[show portrait m blushing]
+Miran parece que vai desmaiar de vergonha.
+
+m: Ah, hahahaha...
+
+[hide all]
+Um após o outro, você entra na cama.
+
+A cama é grande o suficiente para que haja algum espaço entre vocês.
+
+Vocês dois olham para o teto.
+
+Por alguma razão, você insiste na afirmação dela (“Não vou fazer sexo com você!”).
+
+[hide all]
+[show cg miran_bedside_neutral]
+E você vira a cabeça para olhar para Miran.
+
+Você não pode deixar de admirar o rosto fofo e o corpo fofo de Miran.
+
+Em algum momento, seus olhos estão percorrendo os seios modestos de Miran.
+
+[show cg miran_bedside_blushing]
+Ao fazer isso, o rosto de Miran se volta para você.
+
+m: O que você está olhando?
+[menu]
+    a: Estou admirando seu corpo.
+    a: Estou olhando para você.
+Miran cora...
+
+m: Nossa, como vou dormir nessa situação...
+
+m: Não olhe para mim... é constrangedor.
+
+a: Mas você é tão fofo...
+
+[show cg miran_bedside_surprised]
+m: Pare!!
+
+a: Ok, foi mal.
+
+[hide all]
+E você olha de volta para o teto.
+
+Você pode entender os sentimentos de Miran.
+
+Mesmo olhando para o teto, sabendo que tem uma linda garota ao seu lado...
+
+Seu perfume sutil no ar...
+
+Você não pode deixar de ter uma excitação vertiginosa.
+
+E nesse momento, você sente primeiro o toque de uma mão e depois se aproxima da sua.
+
+[show cg miran_bedside_blushing]
+Você olha para Miran, cujo rosto está vermelho.
+
+m: Está tudo bem?
+
+a: Eu gosto disso.
+
+[show cg miran_bedside_smiling]
+E pela primeira vez desde que você entrou no quarto dela, ela sorri.
+
+...
+
+m: Eu disse para você não olhar.
+
+[scene inn_night_subscene]
+
+[end]

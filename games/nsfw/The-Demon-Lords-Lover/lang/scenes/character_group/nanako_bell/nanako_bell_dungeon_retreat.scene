@@ -1,0 +1,10 @@
+[cast b=Bell, n=Nanako]
+[stop floor-song]
+[show portrait n]
+n: Vamos recuar...
+
+[show portrait b laughing]
+b: Vocês são fortes!
+
+Nanako e Bell recuam.
+[nanako-group-depart()]

@@ -1,0 +1,89 @@
+[cast a=Hero, m=Miran]
+[mood-song lighthearted]
+[if fell-today(a) or fell-today(m)]
+    [show portrait m pleading]
+    Miran murmura baixinho...
+    m: É porque eu não fui bom o suficiente...
+
+    a: Hein?
+
+    [show portrait m blushing]
+    m: Quer dizer... ahaha... ótimo trabalho em uma ótima expedição... ^^;
+
+[show portrait m blushing]
+m: Hum... eu me saí bem?
+
+a: Você foi ótimo!
+
+m: Realmente?
+
+a: Sim!
+
+a: Aliás, o que fez você decidir se tornar um aventureiro?
+
+Miran tem uma expressão ansiosa.
+
+m: {heroname}, pretendo me tornar o maior mago de todos os tempos. Acabei de fazer missões de coleta de recursos na semana passada, mas quero desafiar os andares mais profundos da Masmorra do Lorde Demônio!
+
+m: Hum... estou procurando por bravos aventureiros para se juntarem a mim!
+
+[show portrait m smile]
+m: {heroname}, você é um corajoso aventureiro?
+
+Por um momento, você pensa se atende ao ideal platônico de “corajoso”.
+
+[show portrait m pleading]
+Sua hesitação faz com que ela preencha o silêncio.
+
+m: Hum, você não precisa ser tão corajoso... haha...
+[menu]
+    a: Posso ser corajoso com você.
+    a: Não sei o quão corajoso sou, mas estou disposto a sair com uma linda garota.
+[show portrait m blushing_surprised]
+Seu rosto fica vermelho como uma beterraba.
+m: O que você está dizendo? Hum, quero dizer...
+
+[show portrait m blushing]
+Ela começa a murmurar para si mesma (e você pode ouvir tudo).
+
+m: Ele se apaixonou por você! Isso é uma coisa boa... Você pode usá-lo....
+
+m: Ahahahaha... quero dizer...
+
+[show portrait m proud]
+m: Se você se juntar a mim novamente... talvez eu possa lhe dar uma recompensa ;)
+
+... e ela dá uma piscadela pouco natural.
+
+a: Como o quê?
+
+[show portrait m blushing]
+Novamente seu rosto fica vermelho como uma beterraba.
+
+[show portrait m proud]
+m: Uma recompensa!
+
+... e ela dá outra piscadela pouco natural.
+
+[show portrait m blushing_angry]
+Ela dá uma expressão quase lamentável, que em um momento se torna frustrada.
+
+m: Não me faça dizer isso!
+
+Você considera o que essa "recompensa" poderia ser...
+
+Bem, você não tinha intenção de rejeitá-la em primeiro lugar...
+
+a: Ok, isso é um acordo!
+
+[show portrait m blushing]
+a: Estou curioso sobre a recompensa ^^.
+
+Novamente seu rosto fica vermelho como uma beterraba.
+
+Para si mesma, ela pensa: "Uh oh... Estou em apuros? Ouvi dizer que os homens podem ser feras vorazes... É realmente possível para mim lidar com tal criatura?
+
+[show portrait m normal]
+Mal ela sabe, enquanto pensa isso, ela está olhando para o contorno do seu pau nas calças.
+
+Você decide não mencionar isso para salvá-la do constrangimento.

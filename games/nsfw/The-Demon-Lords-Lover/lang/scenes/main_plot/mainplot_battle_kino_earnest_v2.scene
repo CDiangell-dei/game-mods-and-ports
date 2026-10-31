@@ -1,0 +1,75 @@
+[cast a=Hero, earnest=Earnest, kino=Kino, v=Viola]
+[floor-song tension]
+[if viola-and-earnest-have-met()]
+    [show portrait kino serious]
+    Você vê o príncipe e o capitão-cavaleiro discutindo algo.
+
+[else]
+    [show portrait kino serious]
+    Você vê dois homens discutindo algo.
+
+kino: Os fragmentos deveriam estar escondidos de todos; como ela conseguiu um?
+
+[show portrait earnest serious]
+sério: Talvez seja por causa de seu antigo relacionamento com o Lorde Demônio?
+
+[show portrait kino serious]
+kino: Você acha que a masmorra, como uma extensão da vontade do Lorde Demônio, apresentou isso a ela?
+
+[show portrait earnest serious]
+sério: Não consigo pensar em outra explicação...
+
+[if with(v) and not viola-and-earnest-have-met()]
+    [set VIOLA_AND_EARNEST_MET]
+    [show portrait v normal]
+    v: Capitão Earnest... o que você está fazendo aqui?
+
+    [show portrait earnest serious]
+    O capitão-cavaleiro tem uma expressão sombria.
+
+    sério: posso dizer o mesmo.
+
+    [show portrait v normal]
+    a: Viola, quem é esse?
+
+    v: Eu-é o príncipe... e o capitão-cavaleiro...
+
+[show portrait kino serious]
+Nesse ponto, Kino encontra seu olhar.
+
+[if seen(mainplot_find_nanako_yuu_defeated)]
+    a: É verdade que você tem um dos fragmentos de Seri?
+
+    Kino hesita em responder.
+
+    kino: Isto é verdade.
+
+    a: O que você está planejando fazer com isso?
+
+    kino: Antes de responder, posso perguntar: O que VOCÊ está planejando fazer com o fragmento?
+    [menu]
+        a: Vou salvar Seri.
+        a: Vou deixar Seri inteira.
+        a: ... nada!
+[else]
+    a: O que você planeja fazer com Seri?
+
+    kino: Antes de responder, posso perguntar: O que VOCÊ está planejando fazer com ela?
+    [menu]
+        a: Vou salvar Seri.
+        a: Vou deixar Seri inteira.
+        a: ... nada!
+kino: Sério. Acho que há pouca ou nenhuma desvantagem em deter este.
+
+[show portrait earnest serious]
+sério: eu entendo.
+
+[show portrait kino serious]
+Kino e Earnest desembainham suas espadas.
+[kino-and-earnest-become-hostile()]
+
+[if with(v)]
+    [set VIOLA_FOUGHT_EARNEST]
+    Mas... Earnest parece estar se contendo. Poderia ser por causa da Viola?
+    [earnest-holds-back()]
+[end]

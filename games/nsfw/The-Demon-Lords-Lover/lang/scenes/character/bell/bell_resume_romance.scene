@@ -1,0 +1,8 @@
+[name] Retomar romance
+[cast a=Hero, b=Bell]
+[show portrait b smiling]
+Você expressa interesse em fazer sexo...
+
+[set I_AGREED_TO_HAVE_SEX_WITH_BELL]
+b: Ah, estou feliz! Venha me visitar à noite algum dia!
+hint: Daqui para frente, você pode falar com Hilde para visitar Bell à noite.

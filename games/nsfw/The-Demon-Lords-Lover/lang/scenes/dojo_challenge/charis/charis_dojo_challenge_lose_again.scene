@@ -1,0 +1,5 @@
+[cast a=Hero, ch=Charis, x=Xena]
+[show portrait ch normal]
+ch: Você mostra promessa! Continue treinando duro.
+
+[end-dojo-challenge()]

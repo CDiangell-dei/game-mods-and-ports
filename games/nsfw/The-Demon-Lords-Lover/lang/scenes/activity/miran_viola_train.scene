@@ -1,0 +1,7 @@
+[name] Treine com Viola e Miran (→ noite)
+[cast v=Viola, m=Miran]
+Você treina no dojo com Viola e Miran.
+
+[get-dojo-skill()]
+[record-train(v, m)]
+[goto-night()]

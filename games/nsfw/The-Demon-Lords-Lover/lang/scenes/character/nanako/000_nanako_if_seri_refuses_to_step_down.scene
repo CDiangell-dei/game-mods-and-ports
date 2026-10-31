@@ -1,0 +1,64 @@
+[name] Passe algum tempo com Nanako (→ noite)
+[cast a=Hero, n=Nanako]
+[show portrait n normal]
+Você e Nanako bebem no bar...
+
+n: {heroname}. Você tem um plano para caso Seri se recuse a renunciar?
+
+n: Se ao restaurar Seri ao seu verdadeiro eu, ela for dominada pelo poder do Lorde Demônio e começar sua violência violenta... e então?
+[menu]
+    a: Seri deixará o cargo.
+        Nanako olha profundamente em seus olhos, como se estivesse espiando um poço escuro.
+
+        n: Interessante...
+
+        n: Acho que é verdade que, até certo ponto, as crenças das pessoas moldam o mundo.
+
+        n: Mas será que Seri é tão fraca para assumir o papel que você dá a ela?
+
+    a: Vou convencê-la a renunciar.
+        Nanako olha profundamente em seus olhos, como se estivesse espiando um poço escuro.
+
+        n: Interessante.
+
+        n: Como ex-ídolo, entendo que um discurso motivacional pode levar as pessoas à ação.
+
+        n: Mas na maioria dos casos, os velhos hábitos ressurgem.
+
+    a: Eu não sei...
+        Nanako olha profundamente em seus olhos, como se estivesse espiando um poço escuro.
+
+        n: Interessante.
+
+        n: Você age por instinto. E imagino que foi com o mesmo instinto que você conseguiu cair de pé repetidas vezes, como um gato.
+
+n: Talvez porque eu não tenha conhecido Seri no passado...
+
+[show portrait n smiling]
+n: Estou preparado para matá-la.
+[menu]
+    a: Eu vejo...
+        n: Todos os aventureiros aqui têm o mesmo objetivo, exceto o seu grupo.
+
+        n: Mas, de certa forma, estamos no mesmo time.
+
+        n: Nós dois queremos tornar Seri inteiro.
+
+    a: Então nos opomos.
+        n: Isso é verdade?
+
+        n: Nós dois queremos tornar Seri inteiro.
+
+a: E matá-la depois? Como isso faz sentido?
+
+n: Acho que ela merece fazer suas próprias escolhas... como ela mesma.
+
+n: E eu poderia perder, você sabe.
+
+[show portrait n winking]
+n: Ela é o Lorde Demônio, afinal.
+
+Você passa a noite conversando com Nanako.
+[stop mood-song]
+[hide all]
+[goto-night()]

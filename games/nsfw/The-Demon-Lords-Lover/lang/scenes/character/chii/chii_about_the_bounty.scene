@@ -1,0 +1,25 @@
+[cast a=Hero, c=Chii]
+[show portrait c frowning]
+c: Querido, você sabia que há uma recompensa pela sua prisão?
+
+a: O-o quê?
+
+[hide portrait]
+[show cg mc_wanted_CG]
+c: Sim, fornecido pelos próprios militares.
+
+c: Se você notar olhos em você, é isso que são.
+
+[show cg nanako_wanted_CG]
+c: E não é só você... sua amiga Nanako também tem uma.
+
+c: A recompensa é de uma grande quantia, então há uma chance de que mesmo aventureiros que não têm nada contra você estejam dispostos a capturá-lo por esse dinheiro.
+
+[show portrait c frowning]
+c: Esta cidade tem uma regra contra combates, aplicada pelo resto da cidade.
+
+c: Portanto, você não será o alvo aqui, mas precisa ter cuidado na masmorra.
+
+c: Pelo menos quando estiver na cidade, você estará seguro.
+
+c: Não tenho interesse em saber o que você fez, mas cuide-se.

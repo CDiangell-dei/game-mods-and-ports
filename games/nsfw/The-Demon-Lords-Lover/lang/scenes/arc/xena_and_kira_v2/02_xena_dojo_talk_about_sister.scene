@@ -1,0 +1,78 @@
+[name] Treine no dojo (→ noite)
+[cast a=Hero, x=Xena]
+Você treina no dojo com Xena.
+
+[get-dojo-skill()]
+[record-train(x)]
+[show portrait x normal]
+a: Xena, você mencionou que tinha uma irmã?
+
+a: Como ela é?
+
+[show portrait x blushing]
+x: Minha irmã? Uhhhh... espere, não tenha ideias estranhas!
+
+a: Eu não estava, mas porque você acabou de dizer isso, agora estou...
+
+x: Hein?
+
+a: Quero dizer, se você está dizendo isso, ela deve ser muito fofa, certo?
+
+[show portrait x smiling]
+x: Ufa!!! Você me pegou aí... hahaha!
+
+x: Suponho que você não seja um cara mau!
+
+[show portrait x teasing]
+x: Forte, legal...
+
+x: Talvez você pudesse fazer minha irmã feliz, hahaha...
+
+x: Estou apenas brincando, é claro.
+
+[show portrait x disappointed]
+x: Ah, irmão.
+
+a: O que é isso?
+
+x: Estou realmente preocupado com ela.
+
+x: Ela era uma criança chorona.
+
+x: Anexado a mim no quadril...
+
+x: Eu estaria dando aulas e ela estaria me observando no canto.
+
+[show portrait x normal]
+x: Mas você sabe, acho que ela tentou me ajudar à sua maneira.
+
+x: Sempre que meu pai ficava realmente chateado comigo, ela simplesmente aparecia convenientemente.
+
+x: Veja, meu pai é fraco com minha irmã. Ele meio que a mima por algum motivo...
+
+x: Meu pai sempre bufava e dizia “Ok, tudo bem” quando minha irmã estava por perto.
+
+x: Não sei se alguma vez foi intenção dela tirar meu pai do meu pé daquele jeito, mas com certeza parecia acontecer muito.
+
+Xena fica perdida em pensamentos por um tempo.
+
+[show portrait x disappointed]
+x: {heroname}, você acha que sou uma pessoa má?
+
+x: Você sabe... por fugir.
+
+a: Quer dizer, não tenho ideia do que você estava passando.
+
+x: Sim, suponho que sim.
+
+a: Você acabou escrevendo aquela carta?
+
+[show portrait x normal]
+x: Ah, isso... sim, na verdade eu fiz.
+
+x: Eu realmente tenho que agradecer por me fazer revisitar essas coisas na minha cabeça.
+
+x: E você sabe, me encorajando a alcançá-los.
+
+x: Agora eles sabem que estou seguro, pelo menos!
+[goto-night()]

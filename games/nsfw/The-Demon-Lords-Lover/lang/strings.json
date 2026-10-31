@@ -1,0 +1,3598 @@
+{
+  "abilities": {
+    "_ability_feat": {
+      "charges": "Tem {max_charges} {misc.charge|plural(max_charges)} e ganha {charge_rate} {misc.charge|plural(charge_rate)}/turno.",
+      "grants": "Concessões {ability_name}."
+    },
+    "animate_kuma_chan": {
+      "name": "Animar Kuma-chan"
+    },
+    "animate_weapon": {
+      "desc": "Anime uma arma em seu inventário. Quando a arma cai, ela retorna ao seu inventário.",
+      "name": "Arma Animada"
+    },
+    "aqua_jet": {
+      "name": "Aqua Jet",
+      "desc": "Causa {damage} de dano, repele {knockback} {misc.tile|plural(knockback)} e derruba o primeiro monstro em uma direção, até {range} {misc.tile|plural(range)} de distância."
+    },
+    "arc_attack": {
+      "desc": "Um ataque de arco abrangente.",
+      "desc_with_monster": "Um ataque de arco abrangente que causa {damage} dano (alcance {range}).",
+      "name": "Ataque de Arco"
+    },
+    "arc_shot": {
+      "desc_with_monster": "Use um arco para atacar um ponto dentro do raio {range}.",
+      "name": "Tiro de Arco",
+      "desc": "Use um arco para atacar um ponto dentro do raio [alcance da arma]."
+    },
+    "arrow_drop": {
+      "desc": "Lance uma flecha sobre obstáculos."
+    },
+    "arrow_rain": {
+      "desc": "Projéteis de chuva em uma área.",
+      "desc_with_monster": "Use um arco para atacar cada monstro em uma área {size}x{size} dentro do alcance {range}, causando {damage} dano.",
+      "name": "Chuva de Flechas"
+    },
+    "attack": {
+      "desc": "Ataque um monstro.",
+      "desc_with_damage": "Ataque um monstro causando {damage} dano.",
+      "desc_with_damage_and_poison": "Ataque um monstro causando {damage} de dano + {poison} veneno.",
+      "hint": "Pode ser usado pressionando instruções.",
+      "name": "Ataque"
+    },
+    "backflip_kick": {
+      "desc": "Chute e dê um backflip em 1 peça.",
+      "name": "Chute para trás"
+    },
+    "backward_cut": {
+      "desc": "Atacar e dar um passo para trás."
+    },
+    "bayonet_attack": {
+      "name": "Ataque"
+    },
+    "bear_form": {
+      "name": "Forma de Urso",
+      "desc": "Transforme-se em um urso."
+    },
+    "bayonet_lunge_attack": {
+      "name": "Ataque de estocada"
+    },
+    "beam_attack": {
+      "desc": "Ataque em linha."
+    },
+    "bite": {
+      "name": "Mordida"
+    },
+    "bite_plant": {
+      "desc": "Invoque uma planta mordida.",
+      "name": "Invocar planta mordida"
+    },
+    "blade_arc": {
+      "desc_with_monster": "Balança a arma para enviar um arco cortante em um cone, causando {damage} dano (alcance {range}).",
+      "name": "Arco de Lâmina",
+      "desc": "Balance a arma para enviar um arco cortante em um cone."
+    },
+    "blinding_light": {
+      "desc": "Cegar e expor os inimigos.",
+      "name": "Luz ofuscante"
+    },
+    "blood_sacrifice": {
+      "desc": "Receba {cost} dano. Todos os tomos e movimentos ganham +1 carga.",
+      "name": "Sacrifício de Sangue"
+    },
+    "briars": {
+      "desc": "Preencha uma área com sarças.",
+      "name": "Briars"
+    },
+    "bridge": {
+      "desc": "Faça uma ponte sobre água, lava, etc.",
+      "name": "Ponte"
+    },
+    "burst_poison_gas": {
+      "name": "Explosão (gás venenoso)"
+    },
+    "camera_flash": {
+      "name": "Câmera Flash"
+    },
+    "camp": {
+      "name": "Acampamento"
+    },
+    "chakram_spin": {
+      "desc": "Ataque giratório."
+    },
+    "claw_non_diagonal": {
+      "name": "Garra (não diagonal)"
+    },
+    "clone": {
+      "desc": "Invoque um clone do alvo. O clone tem os mesmos talentos/movimentos/itens equipados. O clone tem as mesmas lealdades do alvo.",
+      "name": "Clonar"
+    },
+    "cold_blast": {
+      "desc": "Explodir uma área com frio.",
+      "name": "Explosão Fria"
+    },
+    "ki_ball": {
+      "desc": "Dispara um projétil que causa dano ao punho.",
+      "desc_with_monster": "Dispara um projétil causando {damage} dano.",
+      "name": "Bola de Ki"
+    },
+    "constrict": {
+      "name": "Contrair"
+    },
+    "dash": {
+      "desc": "Avance.",
+      "name": "Traço"
+    },
+    "destruction_beam": {
+      "name": "Feixe de Destruição"
+    },
+    "detonate_minion": {
+      "name": "Detonar Minion",
+      "desc": "Detone um lacaio."
+    },
+    "dig": {
+      "name": "Cavar"
+    },
+    "discard": {
+      "name": "Soltar",
+      "short_name": "Soltar"
+    },
+    "dive": {
+      "desc": "Mova-se em uma direção.",
+      "name": "Mergulhar"
+    },
+    "divine_shield": {
+      "name": "Invencibilidade"
+    },
+    "diving_lunge": {
+      "desc": "Corra até 2 peças e ataque.",
+      "desc_with_monster": "Corra até 2 peças e ataque, causando {damage} dano.",
+      "name": "Mergulho"
+    },
+    "double_shot": {
+      "name": "Tiro duplo",
+      "desc": "Atire duas vezes em um turno. Usa 2 munições."
+    },
+    "drain_life": {
+      "desc": "Drene a vida de um alvo.",
+      "name": "Drenar Vida"
+    },
+    "eat": {
+      "name": "Coma {item}",
+      "short_name": "Coma"
+    },
+    "entangling_vines": {
+      "desc": "Preencha uma área com vinhas emaranhadas.",
+      "name": "Vinhas Enredadas"
+    },
+    "equip_to_limb": {
+      "name": "Equipar {item} para {limb}"
+    },
+    "excavation": {
+      "desc": "Cave um túnel através das paredes."
+    },
+    "exit_dungeon": {
+      "name": "Sair da masmorra"
+    },
+    "explode": {
+      "long_name": "{name} ({damage} dano)",
+      "name": "Explodir"
+    },
+    "explosion": {
+      "desc": "Invoque uma explosão massiva.",
+      "name": "Explosão"
+    },
+    "fire_beam": {
+      "desc": "Atire um raio de fogo.",
+      "desc_with_monster": "Dispara um raio de fogo para causar {damage} dano.",
+      "name": "Feixe de Fogo"
+    },
+    "fire_blast": {
+      "desc": "Crie uma explosão de fogo.",
+      "name": "Explosão de Fogo"
+    },
+    "fire_breath": {
+      "desc": "Respire fogo em um cone.",
+      "desc_with_monster": "Sopra fogo em um cone, causando {damage} dano. {startup} inicia a inicialização.",
+      "name": "Sopro de Fogo"
+    },
+    "fire_cone": {
+      "desc": "Explodir fogo em um cone.",
+      "desc_with_monster": "Dispare fogo em um cone, causando {damage} dano.",
+      "name": "Cone de Fogo"
+    },
+    "fire_nova": {
+      "desc": "Solte fogo em todas as direções.",
+      "desc_with_monster": "Dispare fogo em todas as direções, causando {damage} dano.",
+      "name": "Fogo Nova"
+    },
+    "fire_plant": {
+      "desc": "Invoca uma planta de fogo.",
+      "name": "Usina de Incêndio"
+    },
+    "fire_strike": {
+      "desc": "Cause dano de fogo com sua arma.",
+      "name": "Ataque de Fogo"
+    },
+    "fireball": {
+      "desc": "Lance uma bola de fogo.",
+      "desc_with_monster": "Lança uma bola de fogo, causando {damage} dano.",
+      "name": "Bola de fogo"
+    },
+    "flame_wall": {
+      "desc": "Crie uma parede de fogo.",
+      "name": "Parede de Chamas"
+    },
+    "flurry_attack": {
+      "desc": "Use uma arma para atacar várias vezes.",
+      "name": "Ataque rápido"
+    },
+    "flurry_punch": {
+      "desc": "Dê um soco 3 vezes.",
+      "desc_with_monster": "Ataque {attacks}x, causando {damage} dano.",
+      "name": "Jab-Cross-Hook"
+    },
+    "get_a_room": {
+      "name": "Pegue um quarto"
+    },
+    "glaciate": {
+      "desc": "Invoque gelo em uma área circular. O gelo central dura {base_turns} {misc.turn|plural(base_turns)}, perdendo {turns_addend} {misc.turn|plural(turns_addend)} por bloco do centro.",
+      "name": "Glaciar"
+    },
+    "go_downstairs": {
+      "name": "Desça"
+    },
+    "go_to_town": {
+      "name": "Vá para a cidade"
+    },
+    "go_upstairs": {
+      "name": "Suba as escadas"
+    },
+    "gravity": {
+      "name": "Gravidade",
+      "desc": "Puxe os monstros para mais perto de você."
+    },
+    "heal": {
+      "desc": "Cure um monstro.",
+      "name": "Curar"
+    },
+    "heal_area": {
+      "desc": "Cure aliados em uma área.",
+      "name": "Área de cura"
+    },
+    "hide_in_plain_sight": {
+      "desc": "Torne-se invisível.",
+      "name": "Esconda-se à vista de todos"
+    },
+    "hiki_waza": {
+      "name": "Hiki-waza"
+    },
+    "homing_missile": {
+      "desc": "Dispare um míssil mágico."
+    },
+    "ice_floor": {
+      "desc": "Cubra uma área com gelo.",
+      "enchant_desc": "+{charges_per_level} {misc.charge|plural(charges_per_level)} e +{charge_rate_per_level} {misc.charge|plural(charge_rate_per_level)}/turno por nível.",
+      "name": "Piso de gelo"
+    },
+    "ice_strike": {
+      "desc": "Cause dano de gelo com sua arma.",
+      "name": "Golpe de Gelo"
+    },
+    "ice_wall": {
+      "desc": "Conjure uma parede de blocos de gelo.",
+      "name": "Parede de Gelo"
+    },
+    "iceball": {
+      "desc": "Jogue uma bola de neve.",
+      "name": "Bola de neve"
+    },
+    "instant_spin": {
+      "desc": "Ataque giratório.",
+      "name": "Ataque giratório rápido"
+    },
+    "jet_punch": {
+      "name": "Soco a Jato"
+    },
+    "jump_kick": {
+      "desc": "Mova-se e ataque na mesma direção, repelindo.",
+      "desc_with_monster": "Mova-se e ataque causando {damage} dano na mesma direção. Empurre para trás {knockback} {misc.tile|plural(knockback)}.",
+      "name": "Chute de Salto"
+    },
+    "knockback": {
+      "desc": "Ataque e derrube um monstro."
+    },
+    "ki_nova": {
+      "desc": "Liberte o ki em todas as direções.",
+      "name": "Ki Nova"
+    },
+    "knockback_attack": {
+      "desc": "Atacar e repelir.",
+      "desc_with_monster": "Use uma arma para atacar um monstro, causando {damage} dano, derrubá-lo {knockback} {misc.tile|plural(knockback)} e derrubá-lo.",
+      "name": "Ataque de Força"
+    },
+    "lariat": {
+      "name": "Lariat giratório"
+    },
+    "leg_sweep": {
+      "desc": "Ataque todos os inimigos terrestres adjacentes e derrube-os.",
+      "desc_with_monster": "Ataque todos os inimigos terrestres adjacentes, causando {damage} dano e derrubando-os.",
+      "name": "Varredura de perna"
+    },
+    "lightning": {
+      "desc": "Atire um raio.",
+      "name": "Lança Relâmpago"
+    },
+    "loadout": {
+      "desc": "Kit de carga (talentos e equipamentos)",
+      "name": "Kit de carga \"{name}\""
+    },
+    "lunge_attack": {
+      "desc": "Mova-se e ataque na mesma direção.",
+      "desc_with_monster": "Mova-se e ataque causando {damage} dano na mesma direção.",
+      "hint": "Pode ser usado pressionando instruções.",
+      "name": "Ataque de corrida"
+    },
+    "magic_mapping": {
+      "desc": "Por um momento, veja o nível inteiro.",
+      "name": "Mapeamento Mágico"
+    },
+    "magic_missile": {
+      "desc_with_monster": "Dispara um míssil mágico que atinge os inimigos e causa {damage} dano.",
+      "name": "Míssil Mágico",
+      "desc": "Dispara um míssil mágico que atinge os inimigos e causa {damage} dano."
+    },
+    "magic_pulse": {
+      "desc": "Envie um pulso de magia em forma de T.",
+      "name": "Pulso Mágico"
+    },
+    "microadjustment": {
+      "desc": "Reposicione uma peça e aja novamente imediatamente. O raio de presença é preservado da sua posição anterior.",
+      "name": "Microajuste"
+    },
+    "mirror_strike": {
+      "desc": "Ataque para frente e para trás."
+    },
+    "mirrors_edge": {
+      "name": "Ataque de espelho",
+      "desc": "Ataque pela frente e por trás, causando {damage_factor} dano."
+    },
+    "move": {
+      "desc": "Mova para uma posição adjacente. Se houver um monstro ali, troque de posição com ele.",
+      "hint1": "Pode ser usado pressionando instruções.",
+      "hint2": "Pode ser usado sobre outras ações segurando {key}.",
+      "name": "Mover"
+    },
+    "move_and_spin_attack": {
+      "desc": "Use arma para atacar monstros dentro do raio <alcance da arma>.",
+      "desc_with_monster": "Use a arma para atacar monstros dentro do raio {range}, causando {damage} dano.",
+      "name": "Mover e Girar Ataque"
+    },
+    "move_in_walls": {
+      "name": "Mova-se ao longo das paredes"
+    },
+    "move_non_diagonal": {
+      "desc": "Mova para uma posição adjacente. Se houver um monstro ali, troque de posição com ele.\n(Pode ser usado pressionando instruções.)\n(Pode ser usado sobre outras ações mantendo pressionado {key}.)",
+      "name": "Mover (não diagonal)"
+    },
+    "move_through_walls": {
+      "desc": "Mova para uma posição adjacente. Se houver um monstro ali, troque de posição com ele.\n(Pode ser usado pressionando instruções.)\n(Pode ser usado sobre outras ações mantendo pressionado {key}.)",
+      "name": "Mova-se ignorando obstáculos"
+    },
+    "multi_attack": {
+      "desc": "Ataque várias vezes rapidamente."
+    },
+    "nuki_waza": {
+      "desc": "Ataque e passe.",
+      "name": "Nuki-waza"
+    },
+    "open_door": {
+      "name": "Porta aberta"
+    },
+    "open_door_with_key": {
+      "name": "Abra a porta com chave"
+    },
+    "permutation": {
+      "desc": "Troque de lugar com um monstro.",
+      "name": "Permutação"
+    },
+    "phantom_blades": {
+      "desc": "Invoque espadas fantasmas.",
+      "name": "Lâminas Fantasmas"
+    },
+    "pick_up": {
+      "name": "Pegue {item}"
+    },
+    "poison_gas": {
+      "desc": "Crie uma nuvem de gás venenoso.",
+      "name": "Gás venenoso"
+    },
+    "poison_ivy": {
+      "desc": "Encha uma área com hera venenosa.",
+      "name": "Hera Venenosa"
+    },
+    "potion": {
+      "use_name": "{verb} {potion}"
+    },
+    "potion_antidote": {
+      "name": "Antídoto"
+    },
+    "potion_beer": {
+      "desc": "Fique bêbado.",
+      "name": "Cerveja"
+    },
+    "potion_blast": {
+      "desc": "Aplique o efeito de uma poção em uma área.",
+      "desc_with_potion": "Aplique o efeito {potion} a uma área.",
+      "name": "Poção Explosiva",
+      "name_with_potion": "Poção Explosiva ({potion})"
+    },
+    "potion_blindness": {
+      "name": "Cegueira"
+    },
+    "potion_hallucination": {
+      "name": "Alucinação"
+    },
+    "potion_confusion": {
+      "name": "Confusão"
+    },
+    "potion_distortion": {
+      "desc": "Teleporte um alvo.",
+      "name": "Distorção"
+    },
+    "potion_fire_immunity": {
+      "name": "Imunidade ao Fogo"
+    },
+    "potion_healing": {
+      "name": "Cura"
+    },
+    "potion_incineration": {
+      "name": "Incineração"
+    },
+    "potion_invisibility": {
+      "name": "Invisibilidade"
+    },
+    "potion_levitation": {
+      "name": "Levitação"
+    },
+    "potion_poison": {
+      "name": "Veneno"
+    },
+    "potion_poison_gas": {
+      "desc": "Crie uma nuvem de gás venenoso.",
+      "name": "Gás venenoso"
+    },
+    "potion_rage": {
+      "name": "Raiva"
+    },
+    "potion_recharging": {
+      "desc": "Recarregue cada tomo em 50% de suas cargas máximas.",
+      "name": "Recarregando"
+    },
+    "potion_sleep": {
+      "name": "Dormir"
+    },
+    "potion_smoke": {
+      "desc": "Crie uma nuvem de fumaça.",
+      "name": "Fumaça"
+    },
+    "potion_steam": {
+      "desc": "Crie uma nuvem de vapor.",
+      "name": "Vapor"
+    },
+    "potion_weakness": {
+      "name": "Fraqueza"
+    },
+    "pounce_attack": {
+      "desc": "Mova-se e ataque causando {factor}x dano na mesma direção.",
+      "desc_with_monster": "Mova-se e ataque causando {damage} dano na mesma direção.",
+      "name": "Ataque de ataque"
+    },
+    "power_attack": {
+      "desc": "Um poderoso ataque corpo a corpo.",
+      "desc_with_monster": "Um poderoso ataque corpo a corpo que causa {damage} dano.",
+      "name": "Ataque Poderoso"
+    },
+    "power_lunge": {
+      "desc": "Um poderoso ataque de estocada.",
+      "desc_with_monster": "Um poderoso ataque de estocada que causa {damage} dano.",
+      "name": "Estocada poderosa"
+    },
+    "power_shot": {
+      "desc": "Um poderoso tiro à distância.",
+      "desc_with_monster": "Um tiro de longo alcance poderoso que causa {damage} dano e {range_factor}x alcance.",
+      "name": "Tiro poderoso"
+    },
+    "power_spin_attack": {
+      "desc": "Um poderoso ataque giratório.",
+      "desc_with_monster": "Um poderoso ataque giratório que causa {damage} dano (alcance {range}).",
+      "name": "Ataque giratório poderoso"
+    },
+    "propagate": {
+      "desc": "Todas as plantas ao alcance se espalham para um ladrilho adjacente.",
+      "name": "Propagar"
+    },
+    "push_kick": {
+      "name": "Empurrar Chute"
+    },
+    "quiet_attack": {
+      "desc": "Ataque um monstro. Não alerta monstros.",
+      "desc_with_damage": "Ataque um monstro causando {damage} dano. Não alerta monstros.",
+      "hint": "Pode ser usado pressionando instruções.",
+      "name": "Ataque Silencioso"
+    },
+    "quiet_lunge_attack": {
+      "desc": "Mova-se e ataque na mesma direção. Não alerta monstros.",
+      "desc_with_monster": "Mova-se e ataque causando {damage} dano na mesma direção. Não alerta monstros.",
+      "hint": "Pode ser usado pressionando instruções.",
+      "name": "Ataque de estocada silenciosa"
+    },
+    "quiet_sidestep_attack": {
+      "desc": "Mova-se em torno de um monstro e ataque-o. Não alerta monstros.",
+      "desc_with_monster": "Mova-se ao redor de um monstro e ataque-o, causando {damage} dano. Não alerta monstros.",
+      "name": "Ataque silencioso"
+    },
+    "recover": {
+      "name": "Recuperar"
+    },
+    "redirect_fire": {
+      "desc": "Transforme todas as chamas/bolas de fogo em bolas de fogo movendo-se na direção escolhida.",
+      "name": "Redirecionar Fogo"
+    },
+    "reel_in": {
+      "desc": "Atacar e puxar o alvo.",
+      "name": "Enrole"
+    },
+    "reeds": {
+      "desc": "Preencha uma área com juncos.",
+      "name": "Juncos"
+    },
+    "release_wasp": {
+      "desc": "Solte uma vespa."
+    },
+    "remove_bones": {
+      "desc": "Quebre uma pilha de ossos. Usado automaticamente ao inserir direções.",
+      "name": "Remover Ossos"
+    },
+    "remove_tree": {
+      "desc": "Corta uma árvore. Usado automaticamente ao inserir direções.",
+      "name": "Remover árvore"
+    },
+    "repeat": {
+      "desc": "Repita sua última ação.",
+      "desc_with_ability": "Repita {ability}.",
+      "name": "Repetir"
+    },
+    "rest": {
+      "desc": "Termine o turno. Cada descanso consecutivo regenera mais HP.",
+      "hint": "Pode ser usado pressionando {key}.",
+      "name": "Descanse"
+    },
+    "roar": {
+      "desc": "Enfraquece monstros dentro do raio 10.",
+      "name": "Rugido"
+    },
+    "sacrifice_throw": {
+      "desc": "Você é derrubado depois. Requer uma mão não equipada.",
+      "name": "Lançamento de sacrifício"
+    },
+    "scattershot": {
+      "desc_with_monster": "Dispare vários projéteis em um cone, causando {damage} dano (alcance {range}).",
+      "name": "Dispersão",
+      "desc": "Dispare vários projéteis em um cone."
+    },
+    "scratch": {
+      "name": "Arranhar"
+    },
+    "scroll": {
+      "use_name": "{verb} {scroll}"
+    },
+    "scroll_excavation": {
+      "desc": "Cave paredes em uma área grande.",
+      "name": "Escavação"
+    },
+    "scroll_fresh_air": {
+      "desc": "Remova o gás.",
+      "name": "Ar fresco"
+    },
+    "scroll_magic_mapping": {
+      "desc": "Revele todo o chão da masmorra.",
+      "name": "Mapeamento Mágico"
+    },
+    "scroll_repeat": {
+      "desc": "Repita a última ação sem consumir cobranças.",
+      "name": "Repetir"
+    },
+    "scroll_return": {
+      "desc": "Volte para a cidade.",
+      "name": "Retorno"
+    },
+    "shikake_waza": {
+      "desc": "Dê um passo à frente e ataque.",
+      "name": "Shikake-waza"
+    },
+    "shoot": {
+      "desc": "Ataque um monstro.",
+      "desc_with_monster": "Ataque um monstro causando {damage} dano.",
+      "hint": "Pode ser usado pressionando instruções.",
+      "name": "Atire"
+    },
+    "short_teleport": {
+      "desc": "Teleporte-se para um bloco visível."
+    },
+    "sidestep_attack": {
+      "desc": "Mova-se em torno de um monstro e ataque-o.",
+      "desc_with_monster": "Mova-se ao redor de um monstro e ataque-o, causando {damage} dano.",
+      "name": "Ataque lateral"
+    },
+    "skewer": {
+      "desc": "Ataque perfurando monstros e obstáculos."
+    },
+    "needle_burst": {
+      "desc": "Estoure as agulhas em todas as direções.",
+      "name": "Estouro de agulha"
+    },
+    "skewer_attack": {
+      "desc": "Perfure monstros em linha.",
+      "desc_with_monster": "Use uma arma para atacar cada monstro em uma direção dentro de um intervalo de {range}-tiles, causando {damage} dano.",
+      "name": "Ataque de Espeto"
+    },
+    "sleep": {
+      "name": "Dormir",
+      "desc": "Durma por 1 turno."
+    },
+    "slow_spin": {
+      "name": "Ataque de rotação lenta"
+    },
+    "slow_spin_attack": {
+      "name": "Ataque de rotação lenta"
+    },
+    "slow_tail_sweep": {
+      "name": "Varredura lenta da cauda"
+    },
+    "spin_attack": {
+      "name": "Ataque giratório"
+    },
+    "spin_attack_move": {
+      "desc": "Ataque giratório."
+    },
+    "spit_fireball": {
+      "desc": "Cuspa uma bola de fogo que causa {damage} dano.",
+      "desc_with_monster": "Cuspa uma bola de fogo que causa {damage} dano.",
+      "name": "Cuspir Bola de Fogo"
+    },
+    "split_kick": {
+      "desc": "Chute em 2 direções opostas.",
+      "name": "Chute dividido"
+    },
+    "summon_demon": {
+      "desc": "Invoca um demônio.",
+      "name": "Convocar Demônio"
+    },
+    "swim": {
+      "desc": "Mova para uma posição adjacente. Se houver um monstro ali, troque de posição com ele.\n(Pode ser usado pressionando instruções.)\n(Pode ser usado sobre outras ações (por exemplo, ataques) segurando {key}.)",
+      "name": "Nadar"
+    },
+    "tail_sweep": {
+      "desc": "Use arma para atacar monstros dentro do raio <alcance da arma>.",
+      "desc_with_monster": "Use a arma para atacar monstros dentro do raio {range}, causando {damage} dano.",
+      "name": "Varredura de cauda"
+    },
+    "teleportation": {
+      "name": "Teletransporte",
+      "desc": "Teleporte-se para um bloco visível dentro de um raio de {range} bloco."
+    },
+    "throw": {
+      "use_name": "{verb} {item}"
+    },
+    "thunderbolt": {
+      "desc": "Invoque um raio. Arcos para inimigos próximos.",
+      "name": "Raio"
+    },
+    "tidal_step": {
+      "desc": "Teleporte-se para um bloco de água visível.",
+      "name": "Passo da maré"
+    },
+    "tome_spin_attack": {
+      "desc": "Ataque giratório."
+    },
+    "toxic_shock": {
+      "desc": "Causa dano a todos os monstros envenenados ao alcance.",
+      "name": "Choque Tóxico"
+    },
+    "town_sleep": {
+      "name": "Avance o tempo"
+    },
+    "trees": {
+      "desc": "Invoque uma parede de árvores.",
+      "name": "Parede de árvore"
+    },
+    "triple_arrows": {
+      "desc": "Ataque em 3 direções adjacentes.",
+      "name": "Ataque de garfo"
+    },
+    "tunnel": {
+      "name": "Túnel",
+      "desc": "Escava um túnel de {range}-tile."
+    },
+    "unarmed_attack": {
+      "name": "Ataque Desarmado"
+    },
+    "transform_into_other": {
+      "desc": "Substitua seu talento corporal e equipamento pelos do alvo.",
+      "name": "Transforme-se em outro"
+    },
+    "untransform": {
+      "desc": "Reverta para sua forma original.",
+      "name": "Reverter"
+    },
+    "wall_burst": {
+      "desc": "Detonar uma parede.",
+      "name": "Detonar Parede"
+    },
+    "water": {
+      "name": "Água",
+      "desc": "Despeje água em um ladrilho adjacente."
+    },
+    "water_elemental": {
+      "desc": "Invoque um elemental da água da água.",
+      "name": "Elemental da Água"
+    },
+    "water_jet": {
+      "desc": "Sopre um jato de água."
+    },
+    "watering_can": {
+      "desc": "Molhe uma área 3x3 à sua frente com água."
+    },
+    "wave_crash": {
+      "desc": "Alveje a água, enviando uma onda. Monstros subaquáticos não são afetados.",
+      "name": "Queda de onda"
+    },
+    "web": {
+      "desc": "Preencha uma área com teias.",
+      "name": "Rede"
+    }
+  },
+  "actions": {
+    "arc_attack": {
+      "desc": "{actor|definite} {if actor.plural then desferem um golpe else desfere um golpe} em um arco."
+    },
+    "attack": {
+      "desc": "{actor|definite} {if actor.plural then atacam else ataca} {target|definite}."
+    },
+    "backflip_kick": {
+      "desc": "{actor|definite} backflip {if actor.plural then chutam else chuta} {target|definite}."
+    },
+    "bat": {
+      "desc": "{actor|definite} {if actor.plural then rebatem else rebate} {object}."
+    },
+    "become_blind": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} cego."
+    },
+    "become_hallucinating": {
+      "desc": "{actor|definite} {if actor.plural then começam a else começa a} alucinando."
+    },
+    "become_confused": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} confuso!"
+    },
+    "become_dazzled": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} deslumbrado."
+    },
+    "become_drunk": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} bêbado!"
+    },
+    "become_enraged": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} enfurecido!"
+    },
+    "become_frozen": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} congelado!"
+    },
+    "become_healed": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} curado."
+    },
+    "become_hostile": {
+      "desc": "{actor|definite} {if actor.plural then tornam-se else torna-se} hostil!"
+    },
+    "become_hostile_group": {
+      "desc": "{names} torne-se hostil!"
+    },
+    "become_immobile": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} imóvel!"
+    },
+    "become_immune_to_fire": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} imune ao fogo."
+    },
+    "become_invincible": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} invencível!"
+    },
+    "become_invisible": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} invisível."
+    },
+    "become_more_poisoned": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} mais envenenados."
+    },
+    "become_poisoned": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} envenenado."
+    },
+    "become_stunned": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} atordoado!"
+    },
+    "become_visible": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} visível."
+    },
+    "become_weak": {
+      "desc": "{actor|definite} {if actor.plural then ficam else fica} fraco."
+    },
+    "bite": {
+      "desc": "{actor|definite} {if actor.plural then bite else bites} {target|definite}."
+    },
+    "blood_sacrifice": {
+      "desc": "{actor|definite} {if actor.plural then give else gives} sangue para o rosário."
+    },
+    "bump_into": {
+      "desc": "{actor|definite} {if actor.plural then bump else bumps} em {object|definite}."
+    },
+    "burn": {
+      "desc": "{actor|definite} {if actor.plural then queimam else queima} {target|definite}."
+    },
+    "burned_by_lava": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} queimado pela lava."
+    },
+    "pulled_by_quicksand": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} puxado pela areia movediça."
+    },
+    "burst": {
+      "desc": "{actor|definite} {if actor.plural then burst else bursts}."
+    },
+    "call_out": {
+      "desc": "{actor|definite} {if actor.plural then chamam else chama} para {target|definite}."
+    },
+    "calm_down": {
+      "desc": "{actor|definite} {if actor.plural then calm else calms} desativado."
+    },
+    "catch_fire": {
+      "desc": "{actor|definite} {if actor.plural then catch else catches} fogo!"
+    },
+    "chop": {
+      "desc": "{actor|definite} {if actor.plural then chop else chops} {target|definite}."
+    },
+    "chop_tree": {
+      "desc": "{actor|definite} {if actor.plural then chop else chops} {object|definite}."
+    },
+    "claw": {
+      "desc": "{actor|definite} {if actor.plural then claw else claws} {target|definite}."
+    },
+    "collide_with": {
+      "desc": "{actor|definite} {if actor.plural then collide else collides} com o {object|definite}."
+    },
+    "ki_ball": {
+      "desc": "{actor|definite} {if actor.plural then fire else fires} uma bola de ki!"
+    },
+    "ki_nova": {
+      "desc": "{actor|definite} {if actor.plural then release else releases} uma explosão de ki."
+    },
+    "constrict": {
+      "desc": "{actor|definite} {if actor.plural then constrict else constricts} {target|definite}."
+    },
+    "crush": {
+      "desc": "{actor|definite} {if actor.plural then crush else crushes} {target|definite}."
+    },
+    "dash": {
+      "desc": "{actor|definite} {if actor.plural then dash else dashes}."
+    },
+    "dig": {
+      "desc": "{actor|definite} {if actor.plural then dig else digs}."
+    },
+    "dive": {
+      "desc": "{actor|definite} {if actor.plural then dive else dives}."
+    },
+    "diving_lunge": {
+      "desc": "{actor|definite} {if actor.plural then dive else dives} em {target|definite}."
+    },
+    "dont_respond": {
+      "desc": "{actor|definite} {if actor.plural then don't else doesn't} responder."
+    },
+    "drain": {
+      "desc": "{actor|definite} {if actor.plural then drenam else drena} os encantamentos de {object|definite}."
+    },
+    "drain_life_attack": {
+      "desc": "{actor|definite} {if actor.plural then drenam else drena} vida de {target|definite}."
+    },
+    "drink_potion": {
+      "desc": "{actor|definite} {if actor.plural then drink else drinks} {object|definite}."
+    },
+    "drop_item": {
+      "desc": "{actor|definite} {if actor.plural then soltam else solta} {object|definite}."
+    },
+    "drop_multiple": {
+      "desc": "{actor|definite} {if actor.plural then soltam else solta} alguns itens."
+    },
+    "eat_item": {
+      "desc": "{actor|definite} {if actor.plural then eat else eats} {object|definite}."
+    },
+    "enchant": {
+      "desc": "{actor|definite} {if actor.plural then enchant else enchants} {object|definite}."
+    },
+    "enchant_item": {
+      "desc": "{actor|definite} {if actor.plural then enchant else enchants} {object|definite}."
+    },
+    "equip_item": {
+      "desc": "{actor|definite} {if actor.plural then equip else equips} {object|definite}."
+    },
+    "explode": {
+      "desc": "{actor|definite} {if actor.plural then explode else explodes}."
+    },
+    "fall": {
+      "desc": "{actor|definite} {if actor.plural then caem else cai}."
+    },
+    "fall_asleep": {
+      "desc": "{actor|definite} {if actor.plural then caem else cai} dormindo."
+    },
+    "fall_down": {
+      "desc": "{actor|definite} {if actor.plural then caem else cai} desativado."
+    },
+    "fall_important": {
+      "desc": "{actor|definite} {if actor.plural then caem else cai}!"
+    },
+    "fire_breath": {
+      "desc": "{actor|definite} {if actor.plural then breathe else breathes} atire em {target|definite}."
+    },
+    "flurry_punch": {
+      "desc": "{actor|definite} {if actor.plural then fazem else faz} uma série de socos!"
+    },
+    "gain_attack_boost": {
+      "desc": "{actor|definite} {if actor.plural then ganham else ganha} um impulso de ataque."
+    },
+    "get_burned": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} queimado."
+    },
+    "get_damaged_by_thorns": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} picado por espinhos."
+    },
+    "get_entangled_by_vine": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} enredado pelas vinhas!"
+    },
+    "get_fame": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} {count} fama."
+    },
+    "get_feat": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} \"{object|definite}\"."
+    },
+    "get_feat_again": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} \"{object|definite}\" (novamente)."
+    },
+    "get_food": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} {count} comida."
+    },
+    "get_gold": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} {count} ouro."
+    },
+    "get_hit": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} acerto."
+    },
+    "get_hit_by": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} atingido por {object|definite}."
+    },
+    "get_item": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} {object|definite}."
+    },
+    "get_knocked_back": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} repelido."
+    },
+    "get_pulled": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} retirado."
+    },
+    "get_knocked_down": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} derrubado."
+    },
+    "get_max_hp": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} +{count} HP máximo."
+    },
+    "get_poisoned_by_ivy": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} envenenado pela hera!"
+    },
+    "get_poisoned_by_puddle": {
+      "desc": "{actor|definite} {if actor.plural then step else steps} na poça de veneno!"
+    },
+    "get_pricked_by_briar": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} picado pela sarça!"
+    },
+    "get_pricked_by_ice_shards": {
+      "desc": "{actor|definite} {if actor.plural then step else steps} em cacos de gelo!"
+    },
+    "get_pricked_by_spikes": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} picado pelos espinhos!"
+    },
+    "get_shocked": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} chocado."
+    },
+    "get_shot": {
+      "desc": "{actor|definite} {if actor.plural then sofrem else sofre} dano."
+    },
+    "get_up": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} para cima."
+    },
+    "get_weakened": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} enfraquecido."
+    },
+    "give_to": {
+      "desc": "{actor|definite} {if actor.plural then give else gives} {object|definite} a {target|definite}."
+    },
+    "give_warning": {
+      "desc": "{actor|definite} {if actor.plural then give else gives} um aviso."
+    },
+    "go_underwater": {
+      "desc": "{actor|definite} {if actor.plural then go else goes} debaixo d'água."
+    },
+    "grow": {
+      "desc": "{actor|definite} {if actor.plural then grow else grows}!"
+    },
+    "heal_hit": {
+      "desc": "{actor|definite} {if actor.plural then curam else cura} {target|definite}."
+    },
+    "hit": {
+      "desc": "{actor|definite} {if actor.plural then atingem else atinge} {target|definite}."
+    },
+    "hit_floor": {
+      "desc": "{actor|definite} {if actor.plural then atingem else atinge} no chão."
+    },
+    "join_party": {
+      "desc": "{actor|definite} {if actor.plural then join else joins} sua festa."
+    },
+    "jump_kick": {
+      "desc": "{actor|definite} pular {if actor.plural then chutam else chuta} {target|definite}."
+    },
+    "kick": {
+      "desc": "{actor|definite} {if actor.plural then chutam else chuta} {target|definite}."
+    },
+    "kusarigama": {
+      "desc": "{actor|definite} {if actor.plural then golpeiam else golpeia} {object}."
+    },
+    "lariat": {
+      "desc": "{actor|definite} {if actor.plural then fazem else faz} um laço giratório!"
+    },
+    "learn_move": {
+      "desc": "{actor|definite} {if actor.plural then learn else learns} {object|definite}."
+    },
+    "leave_party": {
+      "desc": "{actor|definite} {if actor.plural then leave else leaves} sua festa."
+    },
+    "leave_water": {
+      "desc": "{actor|definite} {if actor.plural then leave else leaves} a água."
+    },
+    "leg_sweep": {
+      "desc": "{actor|definite} {if actor.plural then sweep else sweeps} com {actor|possessive} perna!"
+    },
+    "lunge_attack": {
+      "desc": "{actor|definite} traço {if actor.plural then atacam else ataca} {target|definite}."
+    },
+    "microadjustment": {
+      "desc": "{actor|definite} {if actor.plural then make else makes} um microajuste."
+    },
+    "move_and_spin": {
+      "desc": "{actor|definite} {if actor.plural then move else moves} e {if actor.plural then spin else spins}."
+    },
+    "no_longer_blind": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não é mais cego."
+    },
+    "no_longer_hallucinating": {
+      "desc": "{actor|definite} {if actor.plural then stop else stops} alucinando."
+    },
+    "no_longer_confused": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não está mais confuso."
+    },
+    "no_longer_dazzled": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não está mais deslumbrado."
+    },
+    "no_longer_frozen": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não está mais congelado."
+    },
+    "no_longer_immobile": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não está mais imóvel."
+    },
+    "no_longer_immune_to_fire": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não está mais imune ao fogo."
+    },
+    "no_longer_invincible": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não é mais invencível."
+    },
+    "no_longer_poisoned": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não está mais envenenado."
+    },
+    "no_longer_stunned": {
+      "desc": "{actor|definite} {if actor.plural then estão else está} não está mais atordoado."
+    },
+    "open_door": {
+      "desc": "{actor|definite} {if actor.plural then open else opens} {object|definite}."
+    },
+    "open_door_with_key": {
+      "desc": "{actor|definite} {if actor.plural then usam else usa} uma chave para abrir {object|definite}."
+    },
+    "pick_up": {
+      "desc": "{actor|definite} {if actor.plural then pick else picks} até {object|definite}."
+    },
+    "pinch": {
+      "desc": "{actor|definite} {if actor.plural then pinch else pinches} {target|definite}."
+    },
+    "nuki_waza": {
+      "desc": "{actor|definite} {if actor.plural then atacam else ataca} após {target|definite}."
+    },
+    "pounce_attack": {
+      "desc": "{actor|definite} {if actor.plural then pounce else pounces} em {target|definite}."
+    },
+    "punch": {
+      "desc": "{actor|definite} {if actor.plural then punch else punches} {target|definite}."
+    },
+    "needle": {
+      "desc": "{actor|definite} {if actor.plural then prick else pricks} {target|definite}."
+    },
+    "needle_burst": {
+      "desc": "{actor|definite} {if actor.plural then burst else bursts} agulhas em todas as direções."
+    },
+    "read": {
+      "desc": "{actor|definite} {if actor.plural then read else reads} {object|definite}."
+    },
+    "recover": {
+      "desc": "{actor|definite} {if actor.plural then recuperam else recupera}."
+    },
+    "recover_x_hp": {
+      "desc": "{actor|definite} {if actor.plural then recuperam else recupera} {amount} HP."
+    },
+    "release_poison_gas": {
+      "desc": "{actor|definite} {if actor.plural then release else releases} gás venenoso."
+    },
+    "reel_in": {
+      "desc": "{actor|definite} {if actor.plural then reel else reels} em {target|definite} com {actor|possessive} {implement}."
+    },
+    "reload": {
+      "desc": "{actor|definite} {if actor.plural then reload else reloads}."
+    },
+    "resist_knockback": {
+      "desc": "{actor|definite} {if actor.plural then resistem else resiste} sendo repelido."
+    },
+    "return_to_normal": {
+      "desc": "{actor|definite} {if actor.plural then return else returns} para normal."
+    },
+    "roar": {
+      "desc": "{actor|definite} {if actor.plural then roar else roars}."
+    },
+    "sacrifice_throw": {
+      "desc": "{actor|definite} {if actor.plural then lançam else lança} {target|definite}!"
+    },
+    "sell": {
+      "desc": "{actor|definite} {if actor.plural then sell else sells} {object|definite} por {price}g. (Você tem {gold}g.)"
+    },
+    "set_feat": {
+      "desc": "{actor|definite} {if actor.plural then set else sets} \"{feat}\" para o slot de talento {slot}."
+    },
+    "shoot": {
+      "desc": "{actor|definite} {if actor.plural then disparam else dispara} {target|definite}."
+    },
+    "shoot_arrow_arc": {
+      "desc": "{actor|definite} {if actor.plural then disparam else dispara} uma seta em arco."
+    },
+    "shoot_dart": {
+      "desc": "{actor|definite} {if actor.plural then disparam else dispara} um dardo em {target|definite}."
+    },
+    "sidestep_attack": {
+      "desc": "{actor|definite} evite {if actor.plural then atacam else ataca} {target|definite}."
+    },
+    "slash": {
+      "desc": "{actor|definite} {if actor.plural then cortam else corta} {target|definite}."
+    },
+    "sleep": {
+      "desc": "{actor|definite} {if actor.plural then sleep else sleeps}."
+    },
+    "slip": {
+      "desc": "{actor|definite} {if actor.plural then slip else slips}!"
+    },
+    "smack": {
+      "desc": "{actor|definite} {if actor.plural then smack else smacks} {target|definite}."
+    },
+    "smash": {
+      "desc": "{actor|definite} {if actor.plural then esmagam else esmaga} {object|definite}."
+    },
+    "sober_up": {
+      "desc": "{actor|definite} {if actor.plural then sober else sobers} para cima."
+    },
+    "spear": {
+      "desc": "{actor|definite} {if actor.plural then perfuram else perfura} {target|definite}."
+    },
+    "speeds_up": {
+      "desc": "{actor|definite} {if actor.plural then speed else speeds} pronto!"
+    },
+    "spin_attack": {
+      "desc": "{actor|definite} {if actor.plural then fazem else faz} um ataque giratório."
+    },
+    "spit_fireball": {
+      "desc": "{actor|definite} {if actor.plural then spit else spits} uma bola de fogo."
+    },
+    "split": {
+      "desc": "{actor|definite} {if actor.plural then split else splits}."
+    },
+    "stab": {
+      "desc": "{actor|definite} {if actor.plural then stab else stabs} {target|definite}."
+    },
+    "start_levitating": {
+      "desc": "{actor|definite} {if actor.plural then começam a else começa a} levitando."
+    },
+    "step_on_pressure_plate": {
+      "desc": "{actor|definite} {if actor.plural then step else steps} em uma placa de pressão."
+    },
+    "sting": {
+      "desc": "{actor|definite} {if actor.plural then ferroam else ferroa} {target|definite}."
+    },
+    "stop_burning": {
+      "desc": "{actor|definite} {if actor.plural then stop else stops} queima."
+    },
+    "stop_levitating": {
+      "desc": "{actor|definite} {if actor.plural then stop else stops} levitando."
+    },
+    "summon_phantom_sword": {
+      "desc": "{actor|definite} {if actor.plural then invocam else invoca} a {misc.summon|indefinite}."
+    },
+    "summon_phantom_swords": {
+      "desc": "{actor|definite} {if actor.plural then invocam else invoca} {count} {misc.summon|plural(count)}."
+    },
+    "swing_tail": {
+      "desc": "{actor|definite} {if actor.plural then desferem um golpe else desfere um golpe} {actor|possessive} cauda!"
+    },
+    "take_item": {
+      "desc": "{actor|definite} {if actor.plural then sofrem else sofre} {object|definite} de {target|definite}."
+    },
+    "take_x_damage": {
+      "desc": "{actor|definite} {if actor.plural then sofrem else sofre} {damage} dano."
+    },
+    "teleport": {
+      "desc": "{actor|definite} {if actor.plural then teletransportam-se else teletransporta-se}."
+    },
+    "throw_at": {
+      "desc": "{actor|definite} {if actor.plural then lançam else lança} {object} em {target|definite}."
+    },
+    "throw_item": {
+      "desc": "{actor|definite} {if actor.plural then lançam else lança} {object|definite} e cai no chão."
+    },
+    "throw_potion": {
+      "desc": "{actor|definite} {if actor.plural then lançam else lança} {object|definite}."
+    },
+    "throw_potion_break": {
+      "desc": "{actor|definite} {if actor.plural then lançam else lança} {object|definite} e ele quebra."
+    },
+    "unequip": {
+      "desc": "{actor|definite} {if actor.plural then desequipam else desequipa} {object|definite}."
+    },
+    "untransform": {
+      "desc": "{actor|definite} {if actor.plural then revertem else reverte} para normal."
+    },
+    "use_ability": {
+      "desc": "{actor|definite} {if actor.plural then usam else usa} {object|definite}!"
+    },
+    "vision_dungeon": {
+      "desc": "{actor|definite} {if actor.plural then recebem else recebe} uma visão da masmorra."
+    },
+    "wake_up": {
+      "desc": "{actor|definite} {if actor.plural then acordam else acorda} para cima."
+    },
+    "water": {
+      "desc": "{actor|definite} {if actor.plural then despejam else despeja} água."
+    },
+    "whip": {
+      "desc": "{actor|definite} {if actor.plural then chicotearam else chicoteia} {target|definite}."
+    },
+    "tongue": {
+      "desc": "{actor|definite} {if actor.plural then chicotearam else chicoteia} {target|definite} com língua {actor|possessive}."
+    },
+    "wind_up": {
+      "desc": "{actor|definite} {if actor.plural then preparam-se else prepara-se} pronto!"
+    }
+  },
+  "ai_routine": {
+    "adjust": {
+      "desc": "Recarregar, etc",
+      "name": "Outras ações"
+    },
+    "amble": {
+      "name": "Vaguear",
+      "desc": "Passeie por algum lugar próximo quando não houver nada melhor para fazer."
+    },
+    "attack": {
+      "desc": "Ataque os inimigos.",
+      "name": "Ataque"
+    },
+    "attack_and_defend": {
+      "desc": "Ataque inimigos e defenda aliados.",
+      "name": "Atacar ou defender"
+    },
+    "defend": {
+      "desc": "Defenda aliados.",
+      "name": "Defender"
+    },
+    "escape": {
+      "desc": "Vá para peças menos perigosas.",
+      "name": "Fuga"
+    },
+    "greet_hero": {
+      "name": "Fale com o herói"
+    },
+    "hide": {
+      "desc": "Esconda-se dos inimigos.",
+      "name": "Esconder"
+    },
+    "move_to_follow_radius": {
+      "desc": "Mova para o raio da guia.",
+      "name": "Reagrupar"
+    },
+    "move_to_leader": {
+      "desc": "Aproxime-se do líder.",
+      "name": "Mover para Líder"
+    },
+    "regroup_same_type": {
+      "desc": "Aproxime-se de monstros do mesmo tipo",
+      "name": "Reagrupar com o mesmo tipo"
+    },
+    "rest": {
+      "desc": "Espere e se recupere.",
+      "name": "Descanse"
+    }
+  },
+  "behaviors": {
+    "attack": {
+      "name": "Ataque"
+    },
+    "dont_attack": {
+      "desc": "{owner|subject} {if owner.plural then têm else tem} recebeu ordens para não atacar.",
+      "name": "Não ataque"
+    },
+    "escort": {
+      "desc": "{owner|subject} {if owner.plural then têm else tem} recebeu ordens para se aproximar e evitar o perigo.",
+      "name": "Esteja perto e evite o perigo"
+    },
+    "move_as_group": {
+      "desc": "{owner|subject} {if owner.plural then têm else tem} recebeu ordens para se mover em grupo (raio {radius}).",
+      "name": "Mova-se como um grupo (raio {radius})"
+    },
+    "stay": {
+      "desc": "{owner|subject} {if owner.plural then têm else tem} recebeu ordens para ficar.",
+      "name": "Fique"
+    },
+    "territorial": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} territorial.",
+      "name": "Territorial"
+    }
+  },
+  "blockers": {
+    "already_equipped": "Está equipado.",
+    "already_microadjusting": "Já microajustando.",
+    "cannot_pick_up": "Você não pode pegar isso.",
+    "cant_read": "{actor|subject} não consegue ler.",
+    "cant_use_potions": "{actor|subject} não pode usar poções.",
+    "not_transformed": "{actor|subject} {if actor.plural then estão else está} não transformado.",
+    "form_is_permanent": "{actor|subject} não pode descartar este formulário.",
+    "confused": "{actor|subject} {if actor.plural then estão else está} confuso.",
+    "do_not_have_it": "Você não tem isso.",
+    "in_middle_of_action": "{actor|subject} {if actor.plural then estão else está} no meio de uma ação.",
+    "loadout_unchanged": "Este kit está equipado.",
+    "no_ammo": "{actor|subject} {if actor.plural then fazem else faz} não tem munição.",
+    "no_charge": "{actor|subject} {if actor.plural then fazem else faz} não tem cobrança.",
+    "no_compatible_weapon": "{actor|subject} {if actor.plural then fazem else faz} não possui uma arma compatível.",
+    "no_key": "{actor|subject} {if actor.plural then fazem else faz} não possui uma chave.",
+    "on_the_ground": "{actor|subject} {if actor.plural then estão else está} no chão.",
+    "sliding": "{actor|subject} {if actor.plural then estão else está} deslizando no gelo.",
+    "transformed": "{actor|subject} {if actor.plural then estão else está} transformado.",
+    "underwater": "{actor|subject} {if actor.plural then estão else está} debaixo d'água."
+  },
+  "classes": {
+    "occult": {
+      "desc": "Você pode gastar 20 HP para ganhar 1 carga em todos os movimentos/tomos."
+    },
+    "photographer": {
+      "desc": "Você tem uma câmera que pode cegar monstros."
+    }
+  },
+  "datetime": {
+    "day_format": "Dia {date} ({time})",
+    "days": {
+      "fri": "Sexta-feira",
+      "mon": "segunda-feira",
+      "sat": "Sábado",
+      "sun": "Sol",
+      "thu": "Qui",
+      "tue": "Terça",
+      "wed": "Quarta"
+    },
+    "info_format": "{day} {date} ({time})",
+    "invalid": "<inválido>",
+    "times": {
+      "afternoon": "tarde",
+      "evening": "noite",
+      "morning": "manhã",
+      "night": "noite"
+    }
+  },
+  "credits": {
+    "artists": "Artistas",
+    "asset_packs": "Pacotes de ativos",
+    "creator": "Criador",
+    "fonts": "Fontes",
+    "libraries": "Bibliotecas",
+    "musicians": "Músicos",
+    "patrons": "Patronos",
+    "voice_material": "Material de voz"
+  },
+  "damage_types": {
+    "electric": "elétrico",
+    "fire": "fogo",
+    "ice": "gelo",
+    "magic": "magia",
+    "physical": "físico",
+    "plant": "plantar",
+    "poison": "veneno",
+    "water": "água"
+  },
+  "directions": {
+    "e": "leste",
+    "n": "norte",
+    "ne": "nordeste",
+    "nw": "noroeste",
+    "s": "sul",
+    "se": "sudeste",
+    "sw": "sudoeste",
+    "w": "oeste"
+  },
+  "essays": {
+    "abilities": "Movimentos: {list}",
+    "attributes": "Atributos: {list}.",
+    "behaviors": "Comportamentos: {list}",
+    "cant_drop_give_sell": "Você não pode largar/dar/vender este item.",
+    "cant_pickup": "Você não pode pegar este item.",
+    "charge_info": "{current}/{max} {misc.charge|plural}, ganha {rate} {misc.charge|plural(rate)}/turno.",
+    "charges_display": "[{current}/{max}]",
+    "feats": "Talentos: {list}",
+    "hallucinated": "Você não sabe o que é isso.",
+    "hit_points_desc": "{owner|subject} {if owner.plural then têm else tem} {current}/{max} HP.",
+    "hp": "HP: {current}/{max}",
+    "hp_max": "HP: {max}",
+    "class_determines": "(A classe determina talentos/movimentos/itens/estatísticas.)",
+    "items_count": "Itens: {count}",
+    "items_list": "Itens: {list}",
+    "items_none": "Itens: Nenhum",
+    "max_charge_info": "{max} máx. {misc.charge|plural(max)}, ganhos {rate} {misc.charge|plural(rate)}/turno.",
+    "presence": "Presença: {value}",
+    "statuses": "Status: {list}",
+    "unaware": "{owner|subject} {if owner.plural then estão else está} sem saber de você."
+  },
+  "feats": {
+    "ability_feat_move": {
+      "desc": "Mover: {ability}"
+    },
+    "baseball_team": {
+      "desc": "Ataques de armas com armas semelhantes a morcegos batem projéteis na direção do ataque.",
+      "name": "Time de beisebol"
+    },
+    "brace": {
+      "desc": "Receba 50% menos dano durante a inicialização, atraso ou descanso.",
+      "name": "Cinta"
+    },
+    "explodes": {
+      "desc": "Explode ({damage} dano) ao ser atingido."
+    },
+    "sand_elemental_body": {
+      "desc": "{owner|definite} {if owner.plural then chutam else chuta} levanta areia no final do turno."
+    },
+    "jet_cone": {
+      "desc": "Os ataques de cone têm {width_factor}x largura e {range_factor}x intervalo.",
+      "name": "Bocal de jato"
+    },
+    "reload_on_move": {
+      "desc": "Recarregue a munição ao se mover.",
+      "name": "Recarregar em movimento"
+    },
+    "shower_cone": {
+      "desc": "Os ataques de cone têm {width_factor}x largura e {range_factor}x intervalo.",
+      "name": "Bocal de chuveiro"
+    },
+    "tipper": {
+      "desc": "Dada uma arma com alcance> 1, ataques de alcance máximo causam dano aumentado."
+    }
+  },
+  "gases": {
+    "poison_gas": {
+      "desc": "Monstros recebem {damage} dano de veneno por turno.\nMonstros têm raio de presença reduzido em {radius} (mas não além de 1).\nInflamável.",
+      "name": "gás venenoso"
+    },
+    "smoke": {
+      "desc": "Monstros têm raio de presença reduzido em {radius} (mas não além de 1).",
+      "name": "fumaça"
+    },
+    "sand": {
+      "desc": "Monstros têm raio de presença reduzido em {radius} (mas não além de 1).",
+      "name": "chutou areia"
+    },
+    "steam": {
+      "desc": "Monstros ganham o status molhado.\nAlém disso, os monstros têm raio de presença reduzido em {radius} (mas não além de 1).",
+      "name": "névoa"
+    }
+  },
+  "guide": {
+    "sections": {
+      "seri": "Série\n* Complete \"The Demon Lord, pt. 1\": Obtenha o item em B{panties_shard_floor}. Vença o encontro em B{nanako_bell_floor}. Entregue o item para Seri em B{seri_room_1}.\n* Complete \"The Demon Lord, pt. 2\": Vença o encontro em B{kino_earnest_floor}. Entregue o item para Seri em B{seri_room_2}. Selecione a nova opção (HCGs).\n* Complete \"The Demon Lord, pt. 3\": Dê o item para Seri em B{seri_room_3}.\n* Complete \"The Demon Lord, pt. 4\": Leve Seri para B{seri_room_4}. Fale com Seri no B{seri_room_4} e selecione a nova opção (HCGs).\n* Complete \"The Demon Lord, pt. 5\": Vença o encontro em B{seri_room_5}. Se Seri não estiver no grupo, pegue o item e entregue-o a Seri na cidade.\n* Complete \"The Demon Lord, pt. 6\": Fale com Seri em B{seri_room_6}.\n* Complete \"The Demon Lord, pt. 7\": Vença o encontro em B{hero_party_floor}. Vença o encontro em B{seri_room_7}. Selecione a nova opção quando o menu noturno de Seri abrir, ou passe a noite com Seri ou Nanako mais tarde e selecione-o (HCG).",
+      "miran": "Miran\n* Complete \"Colete ervas com Miran\". (Miran pode ser uma companheira)\n* Saia da masmorra com Miran 4x OU Complete “Paila está faltando” com Miran e Viola.\n* Passe a noite com Miran 3x (HCGs).",
+      "viola": "viola\n* Complete \"Rescue Adventurers with Viola\" OU Vá para B{viola_first_encounter_floor} sozinho, fale com Viola e saia da masmorra com ela. (Viola pode ser uma companheira)\n* Saia da masmorra com Viola 2x OU Complete \"Paila está faltando\" com Viola.\n* Passar a noite no quarto da Viola 3x (HCGs).",
+      "paila": "Paila\n* Vá até a loja de roupas e fale com Paila.\n* Passar a noite no quarto da Paila 2x (HCGs).\n* Fale com Pila. Fale com Chii.\n* Complete \"Paila está desaparecida\": Fale com Paila em B{paila_missing_talk_floor}. Obtenha o item em B{paila_missing_item_floor}.\n* (Outro Dia) Fale com Paila na loja de roupas e selecione a nova opção (HCGs).",
+      "pila": "Pila\n* Complete \"Paila is Missing\" e \"The Demon Lord, pt. 3\".\n* Complete \"Derrote o dragão\" e pegue o item.\n* Fale com Pila pela manhã e selecione as novas opções.\n* (Outro Dia) Fale com Pila pela manhã e selecione as novas opções (HCG).\n* Fale com Pila à noite e selecione a nova opção (HCGs).",
+      "nanako": "Nanako\n* Vença o encontro em B{nanako_bell_floor}.\n* Fale com Nanako no pub à noite.\n* Passe a noite no quarto de Nanako (HCG).\n* Complete \"The Demon Lord, pt. 7\" com Nanako e selecione a nova opção no menu noturno de Seri ou Nanako (HCG).",
+      "bell": "Sino\n* Complete \"O Lorde Demônio, ponto 2\".\n* Comece \"The Demon Lord, pt. 3\" (Bell pode ser um companheiro).\n* Saia da masmorra com Bell sozinho.\n* Passar a noite no quarto de Bell (HCGs).",
+      "torne": "Torne\n* Fale com Torne apenas no B{torne_meet_floor}.\n* (Outro dia) Fale com Torne em B{torne_gold_floor} sozinho.\n* Complete \"O Lorde Demônio, ponto 1\".\n* (Outro dia) Fale com Torne em B{torne_stuck_floor} sozinho.\n* Complete \"O Lorde Demônio, ponto 2\".\n* (Outro dia) Fale com Torne apenas no B{torne_sex_puzzle_floor} (HCG).\n* (Outro dia) Fale com Torne na masmorra (ela agora aparece em um andar aleatório de B{torne_ambient_min}-B{torne_ambient_max}) (HCG).",
+      "kira": "Kira\n* Fale com Xena no dojo à noite 2x.\n* Complete \"O Lorde Demônio, ponto 1\".\n* Fale com Xena no dojo à noite 2x.\n* Complete a missão de Kira: Obtenha o item em B{kira_heartplant_floor}.\n* Fale com Kira e selecione a nova opção (HCG).\n* Fale com Xena no dojo.",
+      "xena": "Xena\n* Termine a rota de Kira (duelo de Xena e Kira).\n* Fale com Xena no dojo à noite e vença o desafio dela.\n* (Outro dia) Ganhe o desafio de Charis.\n* (Outro Dia) Treine com Xena à noite (HCGs)."
+    },
+    "title": "Guia"
+  },
+  "hints": {
+    "cant_attack_underwater": "Você não pode atacar debaixo d'água. Para passar por esse monstro, segure {force_key} e pressione {direction_key}.)",
+    "garden_in_evening": "você pode jardinar à noite",
+    "move_past_monster": "Para passar por esse monstro, segure {force_key} e pressione {direction_key}.)",
+    "use_by_pressing_directions": "Pode ser usado pressionando instruções."
+  },
+  "implement": {
+    "proc": {
+      "blind": {
+        "certain": "persianas para {turns} {misc.turn|plural(turns)}",
+        "chance": "{chance}% de chance de cegar para {turns} {misc.turn|plural(turns)}"
+      },
+      "burn": {
+        "certain": "queima objetos",
+        "chance": "{chance}% de chance de queimar objetos"
+      },
+      "drench": {
+        "certain": "encharca para {turns} {misc.turn|plural(turns)}",
+        "chance": "{chance}% de chance de encharcar por {turns} {misc.turn|plural(turns)}"
+      },
+      "freeze": {
+        "certain": "congela por {turns} {misc.turn|plural(turns)}",
+        "chance": "{chance}% de chance de congelar por {turns} {misc.turn|plural(turns)}"
+      },
+      "knockback": {
+        "certain": "bate de volta",
+        "chance": "{chance}% de chance de repelir"
+      },
+      "knockdown": {
+        "certain": "derruba",
+        "chance": "{chance}% de chance de derrubar"
+      },
+      "weaken": {
+        "certain": "enfraquece para {turns} {misc.turn|plural(turns)}",
+        "chance": "{chance}% de chance de enfraquecer por {turns} {misc.turn|plural(turns)}"
+      }
+    }
+  },
+  "implement_stats": {
+    "ammo_count": "{current}/{max} munição",
+    "arc_damage": "ao acertar, causa {value} dano elétrico a placas condutoras/água conectadas",
+    "assassination_factor": "{value} dano contra monstros imobilizados, envenenados, cegos, dormindo, derrubados ou inconscientes",
+    "backstab_factor": "{value}x dano contra monstros inconscientes",
+    "base_damage": "{value} dano",
+    "can_use_underwater": "pode usar debaixo d'água",
+    "damage_factor": "{value}x dano",
+    "damage_vs_plants": "{value}x danos contra plantas",
+    "dispel": "dissipa status mágicos ao acertar",
+    "expose_bonus": "{sign}{value} expor",
+    "gold_damage": "Dano de machado, A = 1 + ouro/(ouro+1000)",
+    "lag_bonus": "{sign}{value} atraso",
+    "lifesteal": "curar {value}x dano causado",
+    "max_ammo": "{value} munição",
+    "pierce_all": "ataques passam por monstros e obstáculos",
+    "pierce_monsters": "ataques passam por monstros",
+    "poison_damage": "{value} dano venenoso",
+    "quiet": "não alerta os inimigos",
+    "rage_on_hit_turns": "{sign}{value} a raiva é ativada ao acertar",
+    "range": "{value} intervalo",
+    "recharge": "todos os movimentos/tomos ganham cargas iguais a {value}x dano causado",
+    "reloads_on_rest": "recarrega em repouso",
+    "startup_bonus": "{sign}{value} inicialização"
+  },
+  "implements": {
+    "axe": "machado",
+    "bat": "morcego",
+    "bayonet": "baioneta",
+    "blowgun": "zarabatana",
+    "body": "corpo",
+    "bow": "arco",
+    "chakram": "chacra",
+    "claw": "garra",
+    "club": "clube",
+    "dagger": "punhal",
+    "fist": "punho",
+    "halberd": "alabarda",
+    "hammer": "martelo",
+    "jaw": "mandíbula",
+    "katana": "Katana",
+    "kunai": "kunai",
+    "kusarigama": "kusarigama",
+    "leg": "perna",
+    "mace": "maça",
+    "musket": "mosquete",
+    "pincer": "pinça",
+    "quarterstaff": "bordão",
+    "needle": "agulha",
+    "revolver": "revólver",
+    "rifle": "rifle",
+    "rod": "vara",
+    "scythe": "foice",
+    "spear": "lança",
+    "staff": "pessoal",
+    "stinger": "ferrão",
+    "sword": "espada",
+    "tail": "cauda",
+    "tentacle": "tentáculo",
+    "tongue": "língua",
+    "towel": "toalha",
+    "whip": "chicote",
+    "shuriken": "shuriken"
+  },
+  "items": {
+    "food": {
+      "lentil_soup": {
+        "desc": "+{hp_bonus} HP por {duration}d. Expira em {expiration}."
+      },
+      "medicinal_herb": {
+        "desc": "Cura +{hp_heal} HP."
+      }
+    },
+    "key": {
+      "bear_shard": {
+        "desc": "A etiqueta diz: \"Fabricado em Osaka\"."
+      },
+      "claris_research_notes": {
+        "desc": "Notas de pesquisa de Eve. Eu deveria mostrar isso para Seri..."
+      },
+      "glowstick_shard": {
+        "desc": "Isso poderia pertencer a Seri?"
+      },
+      "heartplant": {
+        "desc": "Uma raiz de uma planta de coração."
+      },
+      "leos_rucksack": {
+        "desc": "Poderia isto ter pertencido ao marido de Pila?"
+      },
+      "moon_herb": {
+        "desc": "Será isso que Paila está procurando?"
+      },
+      "panties_shard": {
+        "desc": "Estas são, sem dúvida, as calcinhas da Seri."
+      }
+    },
+    "other": {
+      "diamond": {
+        "desc": "Uma pedra preciosa."
+      },
+      "food": {
+        "desc": "Receba {count} comida na retirada."
+      },
+      "gold": {
+        "desc": "{count} ouro."
+      },
+      "key": {
+        "desc": "Abre uma porta trancada."
+      }
+    },
+    "rings": {
+      "no_stack": "(não acumula com outros anéis de {noun})"
+    },
+    "scrolls": {
+      "enchant_armor": {
+        "desc": "Adiciona \"{enchantment_desc}\" a uma armadura."
+      },
+      "enchant_weapon": {
+        "desc": "Adiciona \"{enchantment_desc}\" a uma arma."
+      },
+      "enchantment": {
+        "desc": "Aumenta o nível de um item."
+      },
+      "excavation": {
+        "desc": "Escave todas as paredes em um raio de {radius}-tile."
+      },
+      "magic_mapping": {
+        "desc": "Por um momento, veja o nível inteiro."
+      },
+      "repeat": {
+        "desc": "Repita sua última ação."
+      },
+      "return": {
+        "desc": "Saia da masmorra."
+      },
+      "skill": {
+        "already_has": "Já conhece {skill}.",
+        "custom_name": "pergaminho de habilidade: {skill}",
+        "desc": "Ensina {skill} a um membro do grupo.",
+        "will_learn": "Aprenderá {skill}."
+      }
+    },
+    "starter_item_locked_desc": "Você não pode dar/deixar este item."
+  },
+  "keys": {
+    "backspace": "Retrocesso",
+    "delete": "Excluir",
+    "down_arrow": "↓",
+    "end": "Fim",
+    "enter": "Ent",
+    "escape": "Esc",
+    "f1": "F1",
+    "f2": "F2",
+    "f3": "F3",
+    "f4": "F4",
+    "f5": "F5",
+    "f6": "F6",
+    "f7": "F7",
+    "f8": "F8",
+    "f9": "F9",
+    "f10": "F10",
+    "f11": "F11",
+    "f12": "F12",
+    "home": "Página inicial",
+    "insert": "Inserir",
+    "l_click": "L-clique",
+    "left_arrow": "←",
+    "left_command": "L Cmd",
+    "left_ctrl": "LCtrl",
+    "left_shift": "Mudança L",
+    "page_down": "PgDn",
+    "page_up": "PgUp",
+    "r_click": "Clique com R",
+    "right_arrow": "→",
+    "right_command": "Comando R",
+    "right_ctrl": "R Ctrl",
+    "right_shift": "Mudança R",
+    "space": "Espaço",
+    "tab": "Guia",
+    "up_arrow": "↑"
+  },
+  "locations": {
+    "dungeon_floor": "Masmorra B{depth}",
+    "foothold": {
+      "desc": "Um centro para aventureiros.",
+      "name": "Ponto de apoio"
+    }
+  },
+  "menu": {
+    "abilities": {
+      "title": "Movimentos"
+    },
+    "confirm": {
+      "ending": "Isso encerra o jogo. Continuar?"
+    },
+    "ai": {
+      "avoid_threat": "Evite ameaças",
+      "avoid_threat_desc": "Nunca se mova para peças ameaçadas, mesmo para atacar.",
+      "clear_slot_desc": "Remova esta rotina da lista.",
+      "fight": "Engajamento",
+      "fight_all_costs": "Lute a todo custo",
+      "fight_positive_ev": "Lute se o valor esperado for positivo",
+      "follow_radius": "Raio da trela",
+      "follow_radius_desc": "Quão perto {name|subject} deve estar do líder.",
+      "pick_routine": "Escolha a rotina para o slot {number}",
+      "routines": "Lógica",
+      "routines_desc": "Configure a lista prioritária de ações de IA."
+    },
+    "ai_kit": {
+      "default_name": "Padrão",
+      "delete": "Excluir kit de IA",
+      "in_force": "Este kit de IA está equipado.",
+      "loaded": "{monster|subject} kit de IA equipado \"{name}\".",
+      "logic": "Lógica: {list}",
+      "name": "Nome do kit de IA",
+      "rename": "Renomear kit de IA",
+      "save_new": "Salvar kit de IA",
+      "save_new_desc": "Salvar kit de IA (lógica, movimentos desativados, trela).",
+      "saved": "{monster|subject} salvou o kit de IA \"{name}\".",
+      "title": "Kits de IA",
+      "blocked_moves": "Desativado: {list}"
+    },
+    "character_creation": {
+      "as_a_child": "Quando criança...",
+      "default_name": "Yuu",
+      "enter_name": "Digite o nome",
+      "hero": "Herói",
+      "lock_all_characters": "Bloquear todos os personagens",
+      "name_validation": "1-20 caracteres.",
+      "select_character": "Desça como...",
+      "trait_baseball": "Eu estava no time de beisebol.",
+      "trait_bathhouse": "Muitas vezes eu ficava no balneário local.",
+      "trait_bullied": "Muitas vezes apanhei depois da escola.",
+      "trait_bullied_desc": "+{factor}% de resistência a todos os danos",
+      "trait_garden": "Eu cuidava do jardim da cobertura da escola.",
+      "trait_garden_desc": "+{bonus} para danos curados no final do turno em peças de plantas.",
+      "trait_invisible": "Eu estava mais ou menos invisível.",
+      "trait_invisible_desc": "{bonus} para presença",
+      "trait_kendoka": "Eu era um kendoka sem talento.",
+      "trait_kendoka_desc": "+{factor}% de dano de espada.",
+      "trait_occult": "Eu queria acreditar no oculto.",
+      "trait_occult_desc": "+{factor}% para taxa de cobrança (para tomos)",
+      "trait_photographer": "Eu gostava de tirar fotos de pássaros e insetos.",
+      "unlock_all_characters": "Desbloqueie todos os personagens",
+      "unmet_desc": "Você ainda não conheceu esse personagem.",
+      "unmet_name": "???"
+    },
+    "companions": {
+      "line": "Complementares: {value}",
+      "none": "Nenhum",
+      "select_companions": "Selecione companheiros",
+      "select_companions_max": "Selecione até {max} {misc.companion|plural(max)}.",
+      "select_companions_max_other": "Selecione até {max} outros {misc.companion|plural(max)}.",
+      "up_to": "até {max} {misc.companion|plural(max)}",
+      "up_to_other": "até {max} outros {misc.companion|plural(max)}"
+    },
+    "controls": {
+      "abilities": "Movimentos",
+      "add_keybinding": "Adicionar atalho de teclado",
+      "advanced": "Avançado",
+      "cancel": "Cancelar",
+      "cancel_move_past": "Cancelar / passar por monstros",
+      "cancel_open_menu": "Cancelar/Abrir menu",
+      "change_hotkeys": "Alterar teclas de atalho",
+      "controls": "Controles",
+      "cursor_down": "Cursor ↓",
+      "cursor_left": "Cursor ←",
+      "cursor_right": "Cursor →",
+      "cursor_up": "Cursor ↑",
+      "delete_keybinding": "Excluir atalho de teclado",
+      "delete_keybinding_key": "Excluir atalho de teclado: {key}",
+      "delete_keybindings": "Excluir atalhos de teclado",
+      "do_an_input": "Faça uma entrada (por exemplo, stick, botão).",
+      "drop_item": "Soltar item",
+      "edit_hotkeys": "Editar teclas de atalho",
+      "equipment": "Equipamento",
+      "feats": "Talentos",
+      "gamepad_cancel": "Cancelar",
+      "gamepad_confirm": "Confirmar",
+      "gamepad_controls": "Controles do gamepad",
+      "gamepad_input_delay": "Atraso de entrada do gamepad ({value} {misc.second|plural(value)})",
+      "gamepad_input_delay_desc": "Duração entre pressionar a entrada e repetir a entrada",
+      "gamepad_input_repeat": "Repetição de entrada do gamepad ({value} {misc.second|plural(value)})",
+      "gamepad_input_repeat_desc": "Duração entre repetições de entrada",
+      "gamepad_reset": "As ligações do gamepad foram redefinidas.",
+      "gamepad_title": "Controles do gamepad",
+      "hotkey_n": "Tecla de atalho {n}",
+      "hotkey_wheel": "Roda de teclas de atalho",
+      "hotkeys": "Teclas de atalho",
+      "items": "Itens",
+      "keyboard_reset": "As ligações do teclado foram redefinidas.",
+      "keyboard_title": "Controles de teclado",
+      "locations": "Locais",
+      "look": "Olha",
+      "look_e": "Olha E",
+      "look_n": "Olha N",
+      "look_ne": "Olha NE",
+      "look_nw": "Olhe para noroeste",
+      "look_s": "Olha S",
+      "look_se": "Olhe SE",
+      "look_sw": "Olhe SW",
+      "look_w": "Olhe W",
+      "map": "Mapa",
+      "menu": "Cardápio",
+      "move_diagonal_only": "Mover apenas na diagonal",
+      "move_e": "Mover →",
+      "move_hotkeys": "Mover (teclas de atalho)",
+      "move_l_ability_bar": "Mover L (barra de movimento)",
+      "move_n": "Mover ↑",
+      "move_ne": "Mover-se para NE",
+      "move_nw": "Mover-se para noroeste",
+      "move_past_monsters": "Passe por monstros",
+      "move_r_ability_bar": "Mover R (barra de movimento)",
+      "move_s": "Mover ↓",
+      "move_se": "Mover SE",
+      "move_sw": "Mover SW",
+      "move_w": "Mover ←",
+      "options_gamepad": "Opções: Gamepad",
+      "party": "Festa",
+      "potion": "Poção",
+      "press_a_key": "Pressione uma tecla.",
+      "read_item": "Ler item",
+      "rest_heal": "Descansar/curar",
+      "select": "Selecione",
+      "set_gamepad_bindings": "Definir ligações do gamepad",
+      "set_gamepad_delay": "Definir atraso de entrada do gamepad",
+      "set_gamepad_repeat": "Definir repetição de entrada do gamepad",
+      "set_keybindings_for": "Definir atalhos de teclado para {name}",
+      "set_keyboard_delay": "Definir atraso de entrada do teclado",
+      "set_keyboard_repeat": "Definir repetição de entrada do teclado",
+      "touch_center": "Centro: Passar, virar / Descansar",
+      "touch_dpad": "Cluster Esquerdo (D-Pad)",
+      "touch_dpad_desc": "8 direções: Mover/Atacar",
+      "touch_right": "Cluster direito",
+      "touch_right_bot": "Inferior: A (Selecionar), B (Cancelar)",
+      "touch_right_top": "Topo: Veja, Menu",
+      "touch_tip_attack": "Ataque/fale com monstros movendo-se em direção a eles.",
+      "touch_tip_hold_b": "Segure B e mova-se para passar pelos monstros.",
+      "touch_tips": "Dicas",
+      "touch_title": "Controles (toque)",
+      "update_keybinding": "Atualizar atalho de teclado: {key}",
+      "use_ability_bar": "Usar (barra de movimento)",
+      "use_default": "Use controles padrão",
+      "use_hotkeys": "Usar (teclas de atalho)"
+    },
+    "debug": {
+      "bottom_floor": "Este é o andar inferior.",
+      "fall": "Outono",
+      "get_feats": "Obtenha talentos",
+      "get_gold": "Obtenha 1000g",
+      "get_items": "Obter itens",
+      "get_moves": "Faça movimentos",
+      "go_downstairs": "Desça",
+      "go_upstairs": "Suba as escadas",
+      "have_feat": "Você tem esse talento.",
+      "have_item": "Você tem este item.",
+      "have_move": "Você tem esse movimento.",
+      "hero_name": "Nome: {value}",
+      "run_settings": "Executar configurações",
+      "seed": "Semente: {value}",
+      "set_flags": "Definir sinalizadores",
+      "ivar_days_ago": "{days}d atrás",
+      "ivar_never": "nunca",
+      "ivar_today": "hoje",
+      "set_ivars": "Definir sinalizadores inteiros",
+      "set_seen_scenes": "Definir cenas vistas",
+      "title": "Menu de depuração"
+    },
+    "editor": {
+      "title": "Modo Foto",
+      "desc": "Ferramentas de captura e autoria. Somente editor.",
+      "photo": "Modo foto: {value}",
+      "photo_desc": "Oculte a interface e liberte a câmera do herói.",
+      "pan_speed": "Velocidade panorâmica da câmera: {value}",
+      "pan_speed_desc": "Quão rápido a câmera cinematográfica voa. Segure a tecla Force-Move para correr.",
+      "pan_speed_title": "Velocidade panorâmica da câmera",
+      "pan_speed_value": "{value} blocos/s"
+    },
+    "enchant": {
+      "cant_enchant_further": "Este item não pode ser mais encantado.",
+      "enchant_item": "Encantar item",
+      "sell_enchantments": "Venda encantamentos",
+      "sell_enchantments_desc": "Você pode vender os encantamentos por {cost}g. (Você tem {gold}g.)"
+    },
+    "examine": {
+      "ai_title": "[{name}] Rotinas de IA",
+      "abilities_title": "[{name}] Movimentos",
+      "equip_feat_title": "[{name}] Equipar slot de talento {number}",
+      "equip_limb_title": "Equipar {limb} [{name}]",
+      "equipment_title": "[{name}] Equipamento",
+      "feats_title": "[{name}] Talentos",
+      "items_title": "[{name}] Itens",
+      "statuses_title": "[{name}] Efeitos de status",
+      "summary_title": "[{name}] Resumo"
+    },
+    "feat": {
+      "already_has": "{name} {has} esse talento.",
+      "food": "Comida:",
+      "innate": "Inato:",
+      "no_feats": "Nenhum talento disponível; continuar",
+      "no_new_skills": "Continuar (sem novas habilidades)",
+      "select": "Selecione um talento",
+      "select_for": "[{name}] Obtenha um talento",
+      "select_skill": "Selecione uma habilidade",
+      "select_skill_for": "Adquira uma habilidade",
+      "slot": "Espaço {number}:"
+    },
+    "feats": {
+      "set_feats": "Definir talentos"
+    },
+    "gallery": {
+      "all_locked_log": "Todos os CGs, retratos e cenas bloqueados.",
+      "all_unlocked": "Tudo desbloqueado",
+      "all_unlocked_log": "Todos os CGs, retratos e memórias desbloqueados.",
+      "bonus_art": "Arte bônus",
+      "bonus_art_entry": "#{number}\nArtista: {artist}",
+      "concept_art": "Arte Conceitual",
+      "cg_locked": "CG#{number}: ???",
+      "unused": "CGs não utilizados",
+      "cg_progress": "{current}/{total}",
+      "cg_unlocked": "CG#{number}\nArtista: {artist}",
+      "cgs": "CG",
+      "portraits": "Retratos",
+      "unused_portraits": "Retratos não utilizados",
+      "character_locked": "???",
+      "character_unlocked": "{name}",
+      "portrait_locked": "Retrato #{number}: ???",
+      "portrait_unlocked": "Retrato #{number}",
+      "lock_all": "Bloquear tudo",
+      "lock_all_desc": "Bloqueie todos os CGs, retratos e cenas",
+      "music": "Música",
+      "memory": {
+        "bell_sex": "Fiz sexo",
+        "kira_seduction": "Kira tentou seduzir você",
+        "kira_sex": "Fiz sexo",
+        "xena_sex": "Fiz sexo no depósito",
+        "miran_masturbation": "Miran se masturbou",
+        "miran_sex": "Fiz sexo com Miran",
+        "nanako_sex": "Fiz sexo",
+        "paila_clothing_shop": "Fiz sexo na loja de roupas",
+        "paila_sex": "Fiz sexo",
+        "pila_pants": "Pacote entregue para Grent",
+        "pila_sex": "Fiz sexo",
+        "seri_from_behind": "Fiz sexo novamente (por trás)",
+        "seri_missionary": "Fiz sexo (missionário)",
+        "seri_nanako_threesome": "Transou com Seri e Nanako",
+        "torne_lift": "Dei uma carona ao Torne",
+        "torne_sex": "Fiz sexo",
+        "torne_stuck": "Torne estava preso",
+        "torne_stuck_again": "Torne ficou preso novamente",
+        "viola_hot_springs": "Fui para as fontes termais",
+        "viola_massage": "Fiz uma massagem; Viola deu uma punheta",
+        "viola_sex": "Fiz sexo",
+        "viola_stretching": "Parceiro fez alongamento"
+      },
+      "nothing_unlocked": "Nada desbloqueado",
+      "scene_locked": "Cena #{number}: ???",
+      "scene_unlocked": "Cena #{number}: {title}",
+      "scenes": "Cenas",
+      "title": "Galeria",
+      "unlock_all": "Desbloquear tudo",
+      "unlock_all_desc": "Desbloqueie todos os CGs, retratos e cenas",
+      "unlocked_count": "{count}/{total} desbloqueado"
+    },
+    "game": {
+      "abilities": "Movimentos",
+      "abilities_desc": "Use movimentos.",
+      "abilities_desc_key": "Use movimentos.\n(Pode ser aberto pressionando {key}.)",
+      "characters": "Personagens",
+      "controls": "Controles",
+      "controls_desc": "Ver controles.",
+      "equip": "Equipar",
+      "equipment": "Equipamento",
+      "equipment_desc": "Definir equipamentos.",
+      "equipment_desc_key": "Definir equipamentos.\n(Pode ser aberto pressionando {key}.)",
+      "exit_to_title": "Sair para o título",
+      "feats": "Talentos",
+      "feats_desc": "Defina talentos.",
+      "feats_desc_key": "Defina talentos.\n(Pode ser aberto pressionando {key}.)",
+      "goto": "Lugares",
+      "guide": "Guia",
+      "guide_desc": "Um guia sem spoilers para ver os HCGs.",
+      "hotkey_abilities": "Teclas de atalho",
+      "hotkey_desc": "Defina movimentos para teclas de atalho.",
+      "hotkey_desc_key": "Defina movimentos para teclas de atalho.\n(Pode ser aberto pressionando {key}.)",
+      "items": "Itens",
+      "items_desc": "Use, dê, receba e descarte itens.",
+      "items_desc_key": "Use, dê, receba e descarte itens.\n(Pode ser aberto pressionando {key}.)",
+      "load": "Carregar",
+      "locations": "Locais",
+      "locations_desc": "Vá para outro local.",
+      "menu_button": "Cardápio",
+      "moves": "Movimentos",
+      "moves_set": "Movimentos (conjunto)",
+      "moves_set_desc": "Defina movimentos equipados.",
+      "moves_use": "Movimentos",
+      "moves_use_desc": "Use movimentos.",
+      "moves_use_desc_key": "Use movimentos.\n(Pode ser aberto pressionando {key}.)",
+      "party": "Festa",
+      "party_desc": "Verifique as informações/táticas dos companheiros.",
+      "party_desc_key": "Verifique as informações/táticas dos companheiros.\n(Pode ser aberto pressionando {key}.)",
+      "quest": "Missão",
+      "quest_desc": "Verifique a missão.",
+      "patron_menu": "Menu de depuração",
+      "patron_menu_desc": "Defina bandeiras, obtenha talentos/itens/ouro, etc.",
+      "save": "Salvar",
+      "settings": "Configurações",
+      "settings_button": "Opções",
+      "title": "Menu do jogo"
+    },
+    "hotkeys": {
+      "clear_all": "Limpar tudo",
+      "set_key": "Definir {key}",
+      "title": "Teclas de atalho"
+    },
+    "item": {
+      "drop": "Soltar",
+      "equip": "Equipar",
+      "equip_title": "Equipar {item}",
+      "give": "Dê",
+      "give_take": "Dar/Receber",
+      "give_title": "Dê {item}",
+      "give_to": "Doe para {name}",
+      "take": "Pegue",
+      "unequip": "Desequipar"
+    },
+    "items": {
+      "title": "Itens"
+    },
+    "loadout": {
+      "default_name": "{n}",
+      "delete": "Excluir kit",
+      "equipment": "Equipamento: {list}",
+      "feats": "Talentos: {list}",
+      "loaded": "{monster|subject} kit equipado \"{name}\".",
+      "missing": "{monster|subject} não pode equipar {thing} (ausente).",
+      "missing_entry": "{thing} (ausente)",
+      "name": "Salvar kit",
+      "name_validation": "1-20 caracteres.",
+      "rename": "Renomear kit",
+      "save_new": "Salvar Kit",
+      "save_new_desc": "Salvar kit (talentos, equipamentos).",
+      "saved": "{monster|subject} kit salvo \"{name}\".",
+      "title": "Conjuntos"
+    },
+    "location": {
+      "here": "Estou aqui.",
+      "title": "Vá para..."
+    },
+    "menus": {
+      "buy": "Compre (você tem {gold}g.)",
+      "discount": "[{percent}% DE DESCONTO!]",
+      "drop": "Soltar",
+      "equip_limb": "Equipar [{name}] {limb}",
+      "give": "Dê {name}",
+      "pick_up": "Pegue",
+      "read": "Leia",
+      "sell": "Vender (você tem {gold}g.)",
+      "use_potion": "Usar Poção"
+    },
+    "party": {
+      "give_items_title": "Dê itens para {name}",
+      "give_orders": "Dê ordens a {name}",
+      "set_behavior": "Definir comportamento (atual: {orders})",
+      "take_items_title": "Pegue itens de {name}",
+      "title": "Festa"
+    },
+    "quest": {
+      "cant_join": "<color=#dc322f>A pessoa com quem você está falando não pode participar desta missão.</color>",
+      "title": "Missões"
+    },
+    "challenge": {
+      "row": "Desafios",
+      "title": "Partidas"
+    },
+    "save": {
+      "autosave": "Salvamento automático: {name}",
+      "confirm_overwrite": "Substituir um salvamento de uma execução diferente?",
+      "created_at": "Criado em: {date}",
+      "moved_to_non_steam": "Selecionar este slot move o salvamento para o diretório de salvamento da versão não Steam.",
+      "moved_to_steam": "Selecionar este slot move o salvamento para o diretório de salvamento da versão Steam.",
+      "from_non_steam": "{name} (não Steam)",
+      "from_steam": "{name} (Steam)",
+      "delete": "Excluir",
+      "export": "Exportar",
+      "export_failed": "Falha na exportação.",
+      "exported": "Salvar exportado.",
+      "import": "Importar",
+      "import_failed": "Falha na importação.",
+      "import_invalid": "Não é um arquivo salvo válido.",
+      "imported": "Salve importado.",
+      "invalid_datetime": "<data e hora inválida>",
+      "load_failed": "O carregamento falhou por um motivo inesperado; entre em contato com o desenvolvedor.",
+      "new_save_file": "Novo arquivo salvo",
+      "pre_version": "pré-0.7.0",
+      "select_file": "Selecione o arquivo.",
+      "too_new": "Carregar salvamentos de versões posteriores não é suportado. Obtenha a versão mais recente do jogo.",
+      "too_old": "O carregamento de salvamentos de versões anteriores à 0.8 não é suportado.",
+      "updated_at": "Atualizado em: {date}",
+      "version": "Versão: {version}"
+    },
+    "settings": {
+      "animate_text": "Texto animado: {value}",
+      "animate_text_desc": "Animar efeitos de texto decorativos. Usado para créditos.",
+      "bgm_volume_title": "Volume da música musical",
+      "delete_translation": "Excluir tradução importada…",
+      "delete_translation_title": "Excluir qual tradução?",
+      "error_reporting": "Relatar erros: {value}",
+      "update_check": "Verifique se há atualizações na inicialização: {value}",
+      "update_check_desc": "Contatos api.ayumu98.com.",
+      "error_reporting_desc": "Envie relatórios de erros para o Sentry. É necessário reiniciar.",
+      "privacy": "Política de Privacidade",
+      "privacy_english_only": "(Este documento está apenas em inglês.)",
+      "privacy_hint": "Para mais informações, consulte a Política de Privacidade.",
+      "privacy_latest": "(Veja a versão mais recente da política de privacidade em {url})",
+      "privacy_unavailable": "Falha ao abrir a política de privacidade. (Você pode ver a política de privacidade em {url})",
+      "font": "Fonte: {value}",
+      "font_title": "Fonte",
+      "font_unsupported": "Não suporta tradução atual",
+      "fullscreen": "Tela cheia: {value}",
+      "gamepad_options": "Opções de gamepad",
+      "graphics": "Gráficos",
+      "hallucination": "Alucinação",
+      "hallucination_breathing": "O terreno sobe e desce: {value}",
+      "hallucination_colors": "Cores do arco-íris: {value}",
+      "hallucination_disable_all": "Desativar tudo",
+      "hallucination_enable_all": "Habilitar tudo",
+      "hallucination_shimmer": "Mudança na aparência dos monstros: {value}",
+      "hide_nsfw": "Mostrar/ocultar retratos e CGs: {value}",
+      "hide_nsfw_desc": "Para jogar em público",
+      "import_music_pack": "Importar pacote de música",
+      "import_music_pack_desc": "Importe um pacote de música (formato zip).",
+      "import_translation": "Importar tradução…",
+      "import_translation_desc": "Importe uma tradução não oficial (formato zip).",
+      "interface": "Interface: {value}",
+      "interface_title": "Interface",
+      "key_repeat": "Repetição de chave ({value} {misc.second|plural(value)})",
+      "key_repeat_delay": "Atraso de repetição de chave ({value} {misc.second|plural(value)})",
+      "key_repeat_delay_desc": "Duração entre o pressionamento da tecla e a repetição da tecla",
+      "key_repeat_desc": "Duração entre repetições de teclas",
+      "keyboard_controls": "Controles de teclado",
+      "keyboard_options": "Opções de teclado",
+      "keyboard_options_title": "Opções de teclado",
+      "log_damage_numbers": "Números de danos",
+      "log_damage_numbers_desc": "Mostre os números de dano e cura no registro.",
+      "log_options": "Registro",
+      "mobile_options": "Opções móveis",
+      "mobile_options_title": "Opções móveis",
+      "mouse_options": "Opções de mouse",
+      "mouse_options_title": "Opções do mouse",
+      "master_volume": "Volume mestre ({value}%)",
+      "master_volume_title": "Volume mestre",
+      "music_volume": "Volume da música ({value}%)",
+      "music_pack": "Música: {value}",
+      "music_pack_builtin": "Trilha sonora padrão",
+      "music_pack_import_failed": "Falha na importação do pacote de música.",
+      "music_pack_import_invalid": "O pacote de música é inválido.",
+      "music_pack_imported": "Pacote de músicas: {name}",
+      "music_pack_title": "Música",
+      "patron_code": "Código do usuário: {value}",
+      "patron_code_active": "Ativo",
+      "patron_code_active_until": "Ativo até {date}",
+      "patron_code_desc": "Resgate seu código para ativar os recursos de patrono.",
+      "patron_code_failed": "Esse código de patrono não é válido.",
+      "patron_code_file": "Carregar do arquivo",
+      "patron_code_file_desc": "Escolha o arquivo .txt anexado à postagem do Patreon.",
+      "patron_code_hint": "Obtenha o código em patron.ayumu98.com/code",
+      "patron_code_none": "nenhum",
+      "patron_code_paste": "Colar código",
+      "patron_code_paste_desc": "Cole o código da postagem do Patreon.",
+      "patron_code_prompt": "Cole seu código de patrono",
+      "patron_code_redeemed": "Recursos do patrono desbloqueados.",
+      "patron_code_title": "Código do patrono",
+      "patron_link": "Vincular conta do Patreon",
+      "patron_link_desc": "Vincule a conta do Patreon via navegador.",
+      "patron_link_failed": "Falha ao vincular a conta do Patreon.",
+      "patron_link_none": "A conta Patreon não tem promessa ativa.",
+      "patron_link_waiting": "Navegador aberto; faça login no Patreon.",
+      "resolution": "Resolução: {value}",
+      "resolution_title": "Resolução",
+      "scroll_speed": "Velocidade de rolagem ({value}x)",
+      "scroll_speed_title": "Velocidade de rolagem",
+      "set_key_delay_title": "Definir atraso de chave",
+      "set_key_repeat_title": "Definir repetição de tecla",
+      "sex_sfx_volume": "Volume de efeitos sexuais ({value}%)",
+      "sex_sfx_volume_title": "Volume Sfx de sexo",
+      "sex_voice_sfx_volume": "Volume Sfx de voz sexual ({value}%)",
+      "sex_voice_sfx_volume_title": "Volume Sfx de voz de sexo",
+      "sfx_volume": "Volume Sfx ({value}%)",
+      "sfx_volume_title": "Volume de efeitos sonoros",
+      "ui_sfx_volume": "Volume Sfx da IU ({value}%)",
+      "ui_sfx_volume_title": "Volume Sfx da IU",
+      "shader": "Sombreador: {value}",
+      "shader_crt_monitor": "Monitor CRT",
+      "shader_crt_tv": "TV CRT",
+      "shader_off": "Desligado",
+      "shader_title": "Sombreador",
+      "smooth_movement": "Animar movimento: {value}",
+      "smooth_movement_desc": "Animar movimento (monstros, projéteis, etc.)",
+      "title": "Opções",
+      "translation": "Tradução: {value}",
+      "translation_compatible_version": "v{version} — compatível",
+      "translation_coverage": "{code}: cenas {scenes}/{scenes_total} e {strings}/{strings_total} traduzidas.",
+      "translation_deleted": "Tradução excluída: {code}",
+      "translation_font_switch": "Mudará a fonte para {font}",
+      "translation_import_failed": "Falha na importação da tradução",
+      "translation_import_invalid": "Falha ao carregar a tradução.",
+      "translation_imported": "Tradução importada: {code}",
+      "translation_no_font": "Nenhuma fonte compatível instalada",
+      "translation_patch_warning": "Verifique se você possui a versão mais recente da tradução. Não é garantido que uma tradução para uma versão antiga do patch funcione.",
+      "translation_stale_version": "<color=#dc322f>v{version} — incompatível com o jogo v{game_version}</color>",
+      "translation_title": "Tradução",
+      "volume_options": "Volume",
+      "volume_options_title": "Volume"
+    },
+    "start_quest": "Missão: {name}",
+    "start_quest_prompt": "Iniciar {name}?",
+    "start_dojo_challenge_prompt": "Treinar com {name}?",
+    "tab": {
+      "ai": "Rotinas de IA",
+      "abilities": "Movimentos",
+      "ai_config": "IA",
+      "ai_kits": "Kits de IA",
+      "ai_kits_desc": "Salvar/equipar kits de IA (lógica, movimentos desabilitados, trela).",
+      "equipment": "Equipamento",
+      "feats": "Talentos",
+      "give_items": "Dê itens",
+      "items": "Itens",
+      "loadouts": "Conjuntos",
+      "loadouts_desc": "Salvar/equipar kits (talentos, equipamentos).",
+      "set_abilities": "Movimentos desativados",
+      "set_abilities_desc": "Desative um movimento para a IA.",
+      "set_abilities_no_ai": "A partir desta versão, este movimento não tem suporte de IA.",
+      "statuses": "Status",
+      "summary": "Resumo",
+      "take_items": "Pegue itens"
+    },
+    "top": {
+      "character": "Personagem",
+      "character_name": "Nome",
+      "continue": "Continuar",
+      "credits": "Créditos",
+      "debug_starting_items": "Depurar itens iniciais",
+      "debug_starting_items_desc": "Conceda todas as armas, armaduras, anéis, tomos, pergaminhos, poções, talentos, movimentos e 1.000 de ouro no novo jogo.",
+      "difficulty": "Dificuldade: {value}",
+      "difficulty_title": "Dificuldade",
+      "difficulty_desc": "Experimental: A geração de níveis atrai encontros/monstros com diferentes classificações médias de perigo.",
+      "difficulty_easy": "Fácil",
+      "difficulty_hard": "Difícil",
+      "difficulty_normal": "Normais",
+      "difficulty_very_hard": "Muito difícil",
+      "discord": "Discórdia",
+      "dungeon_gen_test": "[Editor] Teste de Masmorra",
+      "dungeon_mode": "Modo Masmorra",
+      "dungeon_mode_desc": "Modo de jogo experimental que é apenas a masmorra (sem cidade/enredo). Se você cair, o jogo termina.",
+      "exit": "Sair",
+      "gallery": "Galeria",
+      "game_options": "Opções de jogo",
+      "get_latest": "Obtenha a versão mais recente",
+      "hunger_mode": "Modo Fome: {value}",
+      "hunger_mode_desc": "Experimental: Se ficar sem comida, você e seus companheiros não se regeneram e seus movimentos/itens não recarregam. Cada nível gera 0-{max} rações de comida.",
+      "load": "Carregar",
+      "load_failed": "Falha no carregamento!",
+      "load_failed_invalid": "Falha no carregamento: os dados são inválidos",
+      "new_game": "Novo jogo",
+      "new_game_plus": "Herdar de salvar",
+      "new_game_plus_desc": "Comece com talentos, itens e movimentos salvos.",
+      "patreon": "Patreon",
+      "potion_mode": "Modo Poção: {value}",
+      "escape_loss": "Perder itens/ouro ao escapar",
+      "escape_loss_desc": "Experimental: Você e seus companheiros perdem X% de itens/ouro ao escapar.",
+      "potion_mode_desc": "Experimental: Ninguém regenera/recarrega. Cada nível gera 0-{max} poções de cura e 0-{max} poções de recarga.",
+      "reaper_mode": "Modo Ceifador: {value}",
+      "reaper_mode_desc": "Experimental: Um ceifador é gerado após {turns} virar em cada andar.",
+      "seed": "Semente",
+      "seed_desc": "Estabeleça uma semente para a geração de masmorras determinísticas.",
+      "seed_prompt": "Insira a semente",
+      "seed_random": "Aleatório",
+      "settings": "Configurações",
+      "start_game": "Começar",
+      "steam": "Vapor",
+      "website": "Site"
+    }
+  },
+  "misc": {
+    "all_know_skill": "Você e seus companheiros conhecem essa habilidade.",
+    "attention": " (!)",
+    "bottom_floor": "Este é o andar inferior.",
+    "bubbling_water": "Você ouve água borbulhando ao longe.",
+    "bump_into_something": "Você esbarra em alguma coisa.",
+    "buy_items": "Comprar itens",
+    "cannot_move_diagonally": "Você não pode se mover em direções diagonais!",
+    "cant_enchant_further": "Este item não pode ser mais encantado.",
+    "changes_equipment": "{owner|definite} altera {owner|possessive} equipamento.",
+    "charge_info": {
+      "desc": "Tem {current_charges}/{max_charges} {misc.charge|plural(max_charges)} e ganha {charge_rate} {misc.charge|plural(charge_rate)}/turno."
+    },
+    "comes_downstairs": "{actor} desce!",
+    "comes_upstairs": "{actor} sobe!",
+    "cremate_bones": "Os ossos são cremados.",
+    "current_routine": "Atual: {routine}",
+    "distant_conversation": "Você ouve pessoas conversando à distância.",
+    "distant_murmurs": "Você ouve murmúrios distantes.",
+    "enchantment": {
+      "armor_scroll_desc": "Adicione \"{trait_desc}\" à armadura.",
+      "cant_be_enchanted": "{item} não pode ser encantado.",
+      "feat_level_increase_theirs": "{owner} {feat} aumenta de +{from_level} para +{to_level}.",
+      "feat_level_increase_yours": "{feat} aumenta de +{from_level} para +{to_level}.",
+      "item_glows": "{item} brilha.",
+      "level_increase": "O nível de {item} aumenta de {from_level} para +{to_level}.",
+      "read_scroll": "Leia {item}",
+      "replaces_existing": "Substitui a característica existente, se houver.",
+      "scroll_menu_desc": "Adicione \"{trait_desc}\" a {item}.",
+      "weapon_scroll_desc": "Adicione \"{trait_desc}\" a uma arma."
+    },
+    "equipment": {
+      "abilities_list": "Movimentos: {abilities}."
+    },
+    "error": {
+      "damaged_scroll": "Este pergaminho está danificado.",
+      "file_picker_failed": "Falha ao abrir o seletor de arquivos.",
+      "no_menu_options": "erro: sem opções"
+    },
+    "escape_loss": "{actor} {if actor.plural then perdem else perde} {things} no escape.",
+    "escape_loss_gold": "{gold} ouro",
+    "exit_to_title": "Sair e ir para o título?",
+    "expires": "Expira em {turns} {misc.turn|plural(turns)}.",
+    "fall_on_ground": "{object|definite} cai no chão.",
+    "fire_trap_key_removed": "Quando a chave é removida, uma planta pega fogo.",
+    "found_adventurers": "Os aventureiros!",
+    "gas_trap_activated": "Gás venenoso sai pelas aberturas!",
+    "get_item": "Você obtém {item}.",
+    "getting_late": "Está ficando tarde...",
+    "give_gold": "Você dá {gold}g.",
+    "glass_key_removed": "À medida que a chave é removida, as paredes de vidro desaparecem.",
+    "glass_walls_appear": "À medida que o item é removido, aparecem paredes de vidro.",
+    "glass_walls_disappear": "À medida que o item é colocado, as paredes de vidro desaparecem.",
+    "glass_walls_hint": "Se você colocar o item de volta, as paredes de vidro desaparecerão.",
+    "go_down": "Desça",
+    "going_to_use": "Vou usar {ability}.",
+    "how_many": "Quantos?",
+    "item_expired": "{item} expirou.",
+    "jangling_backpack": "Você ouve uma mochila barulhenta.",
+    "keep_exploring": "Continue explorando",
+    "knocked_down_afterwards": "Você é derrubado depois.",
+    "kuma_chan_already_summoned": "Kuma-chan está aqui.",
+    "love_increased": "O amor de {name} aumentou ({from} → {to}).",
+    "lust_increased": "A luxúria de {name} aumentou.",
+    "missing_limb": "<ausente>",
+    "name_with_noun": "{name} {noun}",
+    "no_action_to_repeat": "Nenhuma ação para repetir.",
+    "no_actions_for_tile": "Você não tem ações que possam ter como alvo este bloco.",
+    "no_active_quests": "Nenhuma missão ativa.",
+    "no_ammo": "Você não tem munição.",
+    "no_ammo_type": "Você não tem {ammo_type} munição.",
+    "no_compatible_items": "Você não tem itens/membros compatíveis.",
+    "no_food": "Sem comida",
+    "no_item": "Você não tem {item}.",
+    "no_legal_directions": "Sem orientações legais.",
+    "no_name": "<sem nome>",
+    "no_potions_remaining": "Nenhuma poção restante.",
+    "no_scrolls": "Sem pergaminhos",
+    "no_scrolls_remaining": "Nenhum pergaminho restante.",
+    "no_valid_targets": "Você não tem metas válidas.",
+    "none": "<nenhum>",
+    "not_enough_hp": "Não há HP suficiente.",
+    "not_my_bed": "Esta não é a minha cama... talvez eu possa passar a noite na pousada?",
+    "nothing_interesting": "Você não vê nada de interessante.",
+    "open_url_failed": "Falha ao abrir {url}.",
+    "party_locked_by_quest": "Você não pode fazer isso durante o desafio.",
+    "path_too_long": "O caminho do jogo é muito longo. Isso causará bugs que quebram o jogo.\n\nMova o jogo para um caminho mais curto (por exemplo, C:\\Games\\).",
+    "pay_for_room": "Você paga {cost}g.",
+    "permutation": {
+      "swap": "{actor|definite} e {target|definite} trocam de lugar."
+    },
+    "phantom_blades": {
+      "monster_desc": "{actor|definite} foi convocado por {summoner} {tome}.",
+      "summoned_multiple": "{actor|definite} convocou {count} {misc.summon|plural(count)}.",
+      "summoned_single": "{actor|definite} convocou um {misc.summon|indefinite}.",
+      "unsummoned": "Os {misc.summon|plural} não foram convocados."
+    },
+    "pick_up_items": "Retirar itens ({count})",
+    "plate_mail_sounds": "Você ouve os sons fracos de uma pessoa usando cota de malha.",
+    "potion_break": {
+      "action": "{object|definite} quebras."
+    },
+    "proliferate": "{object|definite} prolifera.",
+    "quest_done": "[feito]",
+    "reaper_arrives": "Algo está chegando.",
+    "requires": "Requer {list}.",
+    "retired_location": "Local ausente/excluído. Você foi movido para a masmorra.",
+    "requires_unarmed": "Requer desarmado.",
+    "returns_items": "{owner|definite} retorna {owner|possessive} itens.",
+    "running_from_archive": "Parece que você está executando o jogo diretamente de um arquivo.\n\nPrimeiro extraia o jogo para uma pasta (por exemplo, C:\\Games\\).",
+    "scroll_blockers": {
+      "enchantment_max_level": "Este item não pode ser mais encantado.",
+      "no_valid_target": "Você não tem um alvo válido.",
+      "return_outside_dungeon": "Você não pode usar isso fora da masmorra."
+    },
+    "sell_items": "Vender itens",
+    "sense_familiar_presence": "Você sente uma presença familiar.",
+    "single_action": "[{key}] {text}",
+    "situational_actions": "[{key}] Ações situacionais ({count})",
+    "smash_bones": "Os ossos estão feitos em pedaços.",
+    "spawn_monster": "Coloque Monstro Hostil",
+    "spear_training_sound": "Você ouve o som de alguém brandindo uma lança.",
+    "spider_trap_key_removed": "Conforme a chave é removida, aranhas descem do teto.",
+    "status_duration": "({turns} {misc.turn|plural(turns)})",
+    "status_pending_damage": "({damage} danos pendentes)",
+    "status_stacks": "({stacks} {misc.stack|plural(stacks)})",
+    "teleport": {
+      "blocked": "{actor|definite} não pode se teletransportar para esse bloco.",
+      "sealed_in": "{actor|definite} não pode se teletransportar deste bloco."
+    },
+    "to_tomorrow_morning": "(→ amanhã de manhã)",
+    "top_floor": "Este é o último andar.",
+    "town_becomes_hostile": "A cidade se torna hostil.",
+    "trait_ended": "{trait} finalizado.",
+    "update_available": "Uma nova versão ({version}) está disponível!",
+    "water_trap_key_removed": "À medida que a chave é removida, a área fica inundada.",
+    "weapon": {
+      "ammo_desc": "{ammo}/{max_ammo} munição",
+      "ammo_remaining": "({ammo}/{max_ammo} munição)",
+      "charges_remaining": "({charges}/{max_charges} {misc.charge|plural})",
+      "damage_desc": "{damage} dano",
+      "has_implement": "Tem {implement_name}:",
+      "lag_desc": "{turns} atraso de giro",
+      "poison_damage_desc": "{poison_damage} dano venenoso",
+      "range_desc": "{range} intervalo",
+      "reloads_on_rest": "Recarrega em repouso.",
+      "special_shout": "{weapon_name}!",
+      "startup_desc": "{turns} iniciar inicialização"
+    },
+    "you_know_skill": "Você conhece essa habilidade.",
+    "you_see": "Você vê {object|definite}.",
+    "you_see_with_desc": "Você vê {object|definite}. ({desc})"
+  },
+  "misc_abilities": {
+    "drink_throw": "Beber/Jogar",
+    "read": "Leia",
+    "talk": "Conversar",
+    "talk_desc": "Fale com um monstro.\n(Pode ser usado pressionando instruções.)",
+    "throw": "Jogue"
+  },
+  "monster_stats": {
+    "arc_chain_bonus": "{sign}{value} correntes de arco elétrico",
+    "arc_range": "ataques elétricos podem saltar {value} espaços entre ladrilhos de água/condutores",
+    "area_width_bonus": "{sign}{value} largura da área",
+    "attack_startup": "{sign}{value} inicialização",
+    "big_flames": "faça grandes chamas",
+    "blind": "cego",
+    "blind_duration": "{value} duração da cegueira",
+    "blind_immunity": "imune à cegueira",
+    "burn_chance": "{value} chance de queimar",
+    "charge_rate": "{value} {tag} taxa de cobrança",
+    "collision_damage": "{value} dano de colisão (você causa dano de colisão ao jogar monstros contra outros monstros/obstáculos)",
+    "conductivity": "condutivo",
+    "cone_degrees_factor": "{value} {tag} graus de cone",
+    "cone_range_factor": "{value} {tag} alcance do cone",
+    "crit_rate": "{sign}{value} taxa crítica",
+    "damage": "{sign}{value} {tag} danos",
+    "damage_factor": "{value} {tag} danos",
+    "damage_vs_plant_monsters": "{value} dano contra monstros plantas",
+    "dash_distance": "{sign}{value} distância do traço",
+    "dashing": "arrojado",
+    "dazzled_duration": "{value} duração do ofuscamento",
+    "dazzled_immunity": "imune ao deslumbramento",
+    "drench_duration": "{value} duração do encharcamento",
+    "drench_immunity": "imune a encharcar",
+    "drenched_charge_rate": "{value} taxa de cobrança quando encharcado",
+    "evasion_on_move": "{value} chance de acerto obtida enquanto se move",
+    "extra_actions": "{sign}{value} ações extras por turno",
+    "disable_read": "não posso usar tomos/pergaminhos",
+    "disable_potions": "não posso usar poções",
+    "eyesight": "{sign}{value} visão",
+    "fatigue_per_action": "ações sem descanso/movimento causam {sign}{value} fadiga",
+    "first_move_charge_rate": "{value} taxa de cobrança para movimentação no slot 1",
+    "flame_duration": "{value} duração da chama",
+    "grounded": "aterrado",
+    "flying": "voando",
+    "fragile": "receba {value} dano durante a inicialização, atraso ou descanso",
+    "freeze_chance": "{value} chance de congelamento",
+    "global_charge_factor": "{value} taxa de cobrança",
+    "global_lag": "{sign}{value} atraso",
+    "global_range": "{sign}{value} intervalo",
+    "grace": "{value} chance de efeito baseado em chance",
+    "graze_while_dashing": "correr / pular projéteis",
+    "heal_addend": "{sign}{value} {tag} cura",
+    "heal_factor": "{value} {tag} cura",
+    "hit_chance": "{sign}{value} {tag} precisão",
+    "hit_resist": "{sign}{value} {tag} evasão",
+    "homing": "projéteis atingem alvos",
+    "hp": "{sign}{value}HP",
+    "hp_factor": "{value} HP",
+    "ice_duration": "{value} duração do bloco/placa de gelo",
+    "ice_immunity": "imune a escorregar",
+    "immobilize_on_hit": "ao receber dano corpo a corpo, imobilize o atacante por {value} {misc.turn|plural(value)}",
+    "knockback": "{sign}{value} resistência ao empurrão",
+    "knockback_bonus": "{sign}{value} repulsão para ataques com repulsão",
+    "knockback_immunity": "imune a knockback",
+    "large": "grande",
+    "levitating": "levitando",
+    "lightning_thorns": "ao receber dano corpo a corpo, cause {value} dano elétrico ao atacante e às peças condutoras/de água conectadas",
+    "long_melee_range": "{sign}{value} alcance com armas brancas com alcance 2+",
+    "max_charges": "{sign}{value} {tag} cobranças",
+    "minion_count": "{sign}{value} contagem de invocação para movimentos de invocação múltipla",
+    "minion_damage": "{value} dano aos lacaios",
+    "minion_duration": "{value} duração do lacaio",
+    "minion_hp": "{value} servo HP",
+    "multi_attack": "{sign}{value} ataques para movimentos de ataques múltiplos",
+    "near_flame_charge_rate": "{value} taxa de carga quando ligado/adjacente a uma chama",
+    "no_friendly_fire": "ataques de área não atingem aliados",
+    "phasing": "pode passar pelas paredes",
+    "plant_duration": "{value} duração da planta",
+    "plant_terrain_charge_rate": "{value} taxa de cobrança no terreno da planta",
+    "plant_terrain_regen": "{sign}{value} taxa de regeneração em terreno vegetal",
+    "poison_thorns": "ao receber dano corpo a corpo, cause {value} dano de veneno ao atacante",
+    "potion_mastery": "{value} efeito de poção",
+    "presence": "{sign}{value} raio de presença",
+    "presence_near_flame": "{sign}{value} presença quando ligado/adjacente a uma chama",
+    "presence_reduced": "{sign}{value} raio de presença (mas não além de 1)",
+    "rage_duration": "{value} duração da raiva",
+    "rage_immunity": "imune à raiva",
+    "rage_on_hit": "ao receber dano, fica furioso por {value} {misc.turn|plural(value)}",
+    "rage_turns_on_kill": "{sign}{value} {misc.turn|plural(value)} de raiva por morte",
+    "recharge_on_damage": "ao receber dano, todos os movimentos/tomos ganham cargas iguais a {value}% do dano recebido",
+    "regeneration": "{value} taxa de regeneração",
+    "reload_on_move": "recarregar munição ao se mover",
+    "resist": "{sign}{value} {tag} resistência",
+    "resist_factor": "{value} {tag} dano sofrido",
+    "resist_immunity": "imune a {tag} dano",
+    "resist_immunity_all": "imune a todos os danos",
+    "sleep_duration": "{value} duração do sono",
+    "sleep_immunity": "imune ao sono",
+    "tagged_lag": "{sign}{value} {tag} atraso",
+    "tagged_range": "{sign}{value} {tag} intervalo",
+    "thorns": "ao receber dano corpo a corpo, cause {value} dano ao atacante",
+    "throw_range": "{sign}{value} alcance de lançamento",
+    "tome_charges": "{sign}{value} cobranças de tomo",
+    "very_long_damage": "{sign}{value} dano de longo alcance",
+    "very_long_range": "{sign}{value} alcance de longo alcance",
+    "water_range": "{sign}{value} intervalo de água",
+    "xray": "{sign}{value} visão de raio X",
+    "tagged_startup": "{sign}{value} {tag} inicialização"
+  },
+  "monsters": {
+    "bell": {
+      "roger": "Rogério!"
+    },
+    "miran": {
+      "got_it": "E-entendi!"
+    },
+    "viola": {
+      "makes_sense": "Ok, isso faz sentido."
+    }
+  },
+  "objects": {
+    "anti_teleportation_spell": {
+      "desc": "Monstros não podem se teletransportar para esta peça."
+    },
+    "briar": {
+      "desc": "Causa {damage} dano. Diminui o raio de presença em {radius}, mas não passa de 1. Inflamável."
+    },
+    "ki_ball": {
+      "desc": "Um ataque de projétil que causa {damage} dano ao acertar."
+    },
+    "door": {
+      "desc": "Uma porta."
+    },
+    "entangling_vine": {
+      "desc": "Imobiliza por 1 turno. Inflamável."
+    },
+    "fence_door": {
+      "desc": "Uma porta trancada. Talvez a chave esteja por aqui em algum lugar."
+    },
+    "fireball": {
+      "desc": "Move {speed} unidade por turno na direção escolhida.\nSe atingir um monstro, causará {damage} dano."
+    },
+    "flame": {
+      "desc": "Monstros sofrem {damage} de dano no final do turno.\nTem {chance}% de chance de incendiar objetos adjacentes a cada turno.\nExpira em {remaining} {misc.turn|plural(remaining)}."
+    },
+    "ice_boulder": {
+      "desc": "Um bloco de gelo deslizante que causa {damage} dano com o impacto."
+    },
+    "ice_shards": {
+      "desc": "Pisar neles causa {damage} dano de gelo. Eles derretem com o tempo."
+    },
+    "ice_wall": {
+      "desc": "Expira em {turns}."
+    },
+    "iceball": {
+      "desc": "Move {speed} unidade por turno na direção escolhida.\nSe atingir um monstro, causará {damage} dano."
+    },
+    "kelp": {
+      "desc": "Monstros têm raio de presença reduzido em {radius} (mas não além de 1)."
+    },
+    "lilypad": {
+      "desc": "Monstros têm raio de presença reduzido em {radius} (mas não além de 1)."
+    },
+    "lock_block": {
+      "desc": "Pode ser aberto com chave."
+    },
+    "parched_reeds": {
+      "desc": "Monstros têm raio de presença reduzido em {radius} (mas não além de 1).\n{burn_factor}x chance de queimar."
+    },
+    "parched_tree": {
+      "desc": "Monstros têm raio de presença reduzido em {radius} (mas não além de 1).\n{burn_factor}x chance de queimar."
+    },
+    "poison_ivy": {
+      "desc": "Causa {damage} dano de veneno. Diminui o raio de presença em {radius}, mas não passa de 1. Inflamável."
+    },
+    "poison_puddle": {
+      "desc": "Causa {poison_damage} dano de veneno."
+    },
+    "reeds": {
+      "desc": "Monstros têm raio de presença reduzido em {radius} (mas não além de 1)."
+    },
+    "return_glyph": {
+      "desc": "Você pode usar este glifo para se teletransportar para fora da masmorra."
+    },
+    "skeleton_bones": {
+      "desc": "Revive após {turns} {misc.turn|plural(turns)}. Pode ser cremado com fogo."
+    },
+    "spiderweb": {
+      "desc": "Imobiliza monstros por {turns} {misc.turn|plural(turns)}. Neste caso, a web é removida."
+    },
+    "spikes": {
+      "desc": "Causa {damage} dano."
+    },
+    "stairs_down": {
+      "desc": "Uma escada descendo."
+    },
+    "stairs_up": {
+      "desc": "Uma escada para a superfície."
+    }
+  },
+  "partner": {
+    "resting_today": "Descansando hoje",
+    "unavailable_today": "Indisponível hoje"
+  },
+  "patterns": {
+    "enchanted_item_definite": "{item|definite} de {enchantment|base}",
+    "enchanted_item_indefinite": "{item|indefinite} de {enchantment|base}",
+    "enchanted_item_plural": "{item|plural} de {enchantment|base}"
+  },
+  "dojo_challenges": {
+    "opponents": "Oponentes: {list}",
+    "no_consumables": "Você não pode usar tomos/pergaminhos/poções.",
+    "xena": {
+      "name": "Duelo Xena",
+      "objective": "Derrote Xena."
+    },
+    "charis": {
+      "name": "Duelo Charis",
+      "desc": "Xena disse que eu deveria treinar com o pai dela...",
+      "objective": "Derrote Charis."
+    }
+  },
+  "quests": {
+    "objective_complete": "Esta missão está concluída. Reporte-se a Chii.",
+    "reward": "Recompensa: {gold_reward}g",
+    "ability": {
+      "examine_rucksack": "Examinar mochila",
+      "gather_herbs": "Reúna ervas",
+      "get_heartplant_roots": "Obtenha as raízes da planta do coração",
+      "get_moon_herb": "Pegue a erva da lua",
+      "rescue_adventurers": "Resgate os aventureiros"
+    },
+    "bandits": {
+      "bandits_left": "{count} bandidos partiram.",
+      "objective_arrest_fallback": "Derrote os bandidos.",
+      "objective_v2": "Prenda os bandidos na {location} Masmorra B{depth}.",
+      "trait_desc": "Foi relatado que esses bandidos têm roubado aventureiros. Você está aqui para apreendê-los."
+    },
+    "defeat_demon_lord": {
+      "objective": "Vá para o fundo da masmorra."
+    },
+    "hunt": {
+      "name_with_depth": "{name} Em B{depth}",
+      "dragon": {
+        "name": "Derrote o Dragão",
+        "objective": "Derrote o dragão em {location} B{depth}."
+      },
+      "kobold_pack": {
+        "name": "Derrote o Pacote Kobold",
+        "objective": "Derrote o bando de kobolds em {location} B{depth}."
+      },
+      "slime": {
+        "name": "Derrote o Slime",
+        "objective": "Derrote o slime em {location} B{depth}."
+      }
+    },
+    "gather": {
+      "objective": "Colete a erva em {location} B{depth}."
+    },
+    "kira": {
+      "objective": "Encontre raízes de coração em B5 de {location}."
+    },
+    "names": {
+      "bandit_quest_v2": "Prenda os bandidos",
+      "bandit_quest_v2_desc": "Foi relatado que há bandidos roubando aventureiros em {location} B{depth}. Se você conseguir prendê-los, daremos uma recompensa de {gold_reward}g.",
+      "defeat_demon_lord": "Derrote o Lorde Demônio",
+      "defeat_demon_lord_desc": "Há rumores de que o Lorde Demônio vive na Masmorra do Lorde Demônio.",
+      "defeat_dragon": "Derrote o Dragão em B{depth}",
+      "defeat_dragon_desc": "Um dragão foi avistado em {location} B{depth}.",
+      "dungeon_mode": "Modo Masmorra",
+      "dungeon_mode_desc": "Apenas a masmorra.",
+      "gather_heartplant_roots": "Reúna raízes de plantas de coração",
+      "gather_heartplant_roots_desc": "Reúna raízes de planta-coração na masmorra.",
+      "gather_herbs": "Colete a erva em B{depth}",
+      "gather_herbs_desc": "Colete a erva em {location} B{depth}.",
+      "null_quest": "Vá para a masmorra sem missão",
+      "rescue_adventurer": "Resgate o aventureiro em B{depth}",
+      "rescue_adventurers": "Resgate os aventureiros em B{depth}",
+      "rescue_adventurer_desc": "Foi relatado que há um aventureiro caído em {location} B{depth}.",
+      "rescue_adventurers_desc": "Foi relatado que há aventureiros caídos em {location} B{depth}.",
+      "rescue_missing_cat": "Resgate o gato desaparecido",
+      "rescue_missing_cat_desc": "Por favor, encontre meu gato! Foi visto pela última vez em {location}.",
+      "rescue_paila": "Resgatar Paila",
+      "rescue_paila_desc": "Vou procurar Paila na masmorra.",
+      "seri_bear": "[Principal] O Lorde Demônio, pt. 2",
+      "seri_bear_desc": "Tenho que encontrar os fragmentos de Seri e trazê-los para ela.",
+      "seri_books": "O Lorde Demônio, pt. 4",
+      "seri_books_desc": "Seri tem um favor...",
+      "seri_church": "O Lorde Demônio, pt. 5",
+      "seri_church_desc": "Os inquisidores da igreja foram até a biblioteca de Seri.",
+      "seri_demon_lord_returns": "O Lorde Demônio, pt. 7",
+      "seri_demon_lord_returns_desc": "Seri se tornou o Lorde Demônio novamente.",
+      "seri_girl_to_girl": "O Lorde Demônio, pt. 6",
+      "seri_girl_to_girl_desc": "Seri desapareceu.",
+      "seri_glowstick": "[Principal] O Lorde Demônio, pt. 3",
+      "seri_glowstick_desc": "Tenho que encontrar os fragmentos de Seri e trazê-los para ela.",
+      "seri_panties": "[Principal] O Lorde Demônio, pt. 1",
+      "seri_panties_desc": "Preciso encontrar minha amiga de infância, Seri."
+    },
+    "rescue": {
+      "objective_one": "Resgate o aventureiro em {location} B{depth}",
+      "objective": "Resgate os aventureiros em {location} B{depth}",
+      "objective_fallback": "Resgate os aventureiros."
+    },
+    "rescue_cat": {
+      "objective": "Encontre o gato desaparecido em {location}."
+    },
+    "rescue_paila": {
+      "blocker_not_in_party": "Paila não está no seu grupo.",
+      "go_to_mirans_room": "Vá para o quarto de Miran {arrow}",
+      "go_to_neither": "Vá para nenhum dos dois",
+      "go_to_violas_room": "Vá para o quarto da Viola {arrow}",
+      "objective_find_paila": "Encontre Paila na masmorra.",
+      "objective_with_paila": "Encontre a erva da lua com Paila."
+    },
+    "rogue": {
+      "go_to_title": "Ir para o título",
+      "locations_disabled": "O menu de localização está desativado no modo masmorra.",
+      "score": "Pontuação: {score}"
+    },
+    "tags": {
+      "main": "[Principal]"
+    }
+  },
+  "quips": {
+    "read_clothing_shop_sign": "“Loja de roupas”.",
+    "read_equipment_shop_sign": "“Loja de equipamentos”.",
+    "read_inn_sign": "\"A pousada do ponto de apoio\".",
+    "read_pub_sign": "\"A pousada do ponto de apoio\".",
+    "read_town_sign": "A placa diz \"Ponto de apoio\".",
+    "spider_descends": "Uma aranha desce de cima!"
+  },
+  "save": {
+    "auto_saved": "Salvo automaticamente.",
+    "autosave_failed": "Falha no salvamento automático: {message}",
+    "autosave_failed_simple": "Falha no salvamento automático",
+    "save_failed": "Falha ao salvar: {message}",
+    "save_failed_unknown": "Falha ao salvar por motivo desconhecido!",
+    "saved": "Salvo."
+  },
+  "scenes": {
+    "ally_falls": {
+      "are_down": "{names} estão fora do ar!",
+      "continue_without": "Continuar sem {names}",
+      "go_back_with": "Volte para a cidade com {names}",
+      "is_down": "{names} está fora do ar!"
+    },
+    "hero_falls": {
+      "go_back": "Volte para a cidade"
+    },
+    "buy_items": "Comprar itens",
+    "leave": "Sair",
+    "quests": "Missões",
+    "sell_items": "Vender itens",
+    "take_back_items": "Retirar itens"
+  },
+  "stat_clauses": {
+    "area_value": "área {value}x{value}",
+    "area_width": "{value} largura da área",
+    "attacks_value": "{value} {misc.attack|plural(value)}",
+    "blinds": "persianas para {duration} {misc.turn|plural(duration)}",
+    "hallucinates": "aplica alucinação para {duration} {misc.turn|plural(duration)}",
+    "dazzles": "deslumbra",
+    "burn_chance": "{percent}% de chance de queimar o terreno",
+    "burn_pct": "{value}% de chance de queima",
+    "burns_terrain": "queima terreno",
+    "charges": "{value} {misc.charge|plural(value)}",
+    "charges_per_turn": "{value} {misc.charge|plural(value)}/turno",
+    "confuses": "confunde com {duration} {misc.turn|plural(duration)}",
+    "damage_bonus": "+{value} dano",
+    "damage_factor": "{value}x dano",
+    "damage_value": "{value} dano",
+    "degrees_value": "{value}°",
+    "enrages": "enfurece por {duration} {misc.turn|plural(duration)}",
+    "freeze_chance": "{percent}% de chance de congelar por {duration} {misc.turn|plural(duration)}",
+    "freeze_pct": "{value}% de chance de congelamento",
+    "freeze_turns": "{value} congelar turnos",
+    "freezes_for": "congela por {duration} {misc.turn|plural(duration)}",
+    "grants_fire_immunity": "concede imunidade ao fogo para {duration} {misc.turn|plural(duration)}",
+    "grants_invincibility": "concede invencibilidade para {duration} {misc.turn|plural(duration)}",
+    "grants_invisibility": "concede invisibilidade para {duration} {misc.turn|plural(duration)}",
+    "grants_levitation": "concede levitação para {duration} {misc.turn|plural(duration)}",
+    "heals_damage": "cura {value} dano",
+    "heals_poison_damage": "cura {value} dano de veneno",
+    "hp_value": "{value} HP",
+    "immobilizes": "imobiliza por {duration} {misc.turn|plural(duration)}",
+    "knockback": "{value} empurrão",
+    "knocks_down": "derruba",
+    "lag_bonus": "+{value} atraso",
+    "lag_value": "{value} atraso",
+    "more_gas": "mais gás",
+    "move_range": "{value} alcance de movimento",
+    "move_range_value": "{value} alcance de movimento",
+    "next_level": "Próximo nível: {clauses}.",
+    "poison_damage_bonus": "+{value} dano de veneno",
+    "poison_damage_factor": "{value}x dano de veneno",
+    "poison_damage_value": "{value} dano venenoso",
+    "pull": "{value} puxar",
+    "puts_to_sleep": "adormece por {duration} {misc.turn|plural(duration)}",
+    "radius_value": "{value} raio",
+    "range_bonus": "+{value} intervalo",
+    "range_factor": "{value}intervalo x",
+    "range_value": "{value} intervalo",
+    "reveals_invisible": "revela monstros invisíveis",
+    "startup_bonus": "+{value} inicialização",
+    "startup_value": "{value} inicialização",
+    "summons_value": "{value} {misc.summon|plural(value)}",
+    "turns_value": "{value} {misc.turn|plural(value)}",
+    "wall_width": "{value} largura da parede",
+    "weakens": "enfraquece para {duration} {misc.turn|plural(duration)}",
+    "width_value": "{value} largura"
+  },
+  "status": {
+    "attack_down": {
+      "name": "Fraco ({factor}x)"
+    },
+    "bound_to_wall": {
+      "desc": "{owner|definite} {if owner.plural then caem else cai} se a parede em seu ladrilho for removida.",
+      "name": "Preso na parede"
+    },
+    "attack_orders": {
+      "desc": "{owner|definite} {if owner.plural then têm else tem} recebeu ordens para atacar.",
+      "name": "Ordens de Ataque"
+    },
+    "attack_up": {
+      "name": "Ataque ({factor}x)"
+    },
+    "banished": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} temporariamente removido da realidade.",
+      "name": "Banido"
+    },
+    "baseball_player": {
+      "name": "Interbases"
+    },
+    "basic_axe_training": {
+      "name": "Treinamento Básico de Machado",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano do machado."
+    },
+    "basic_bow_training": {
+      "name": "Treinamento Básico de Arco",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano do arco."
+    },
+    "basic_endurance_training": {
+      "name": "Treinamento Básico de Resistência",
+      "desc": "+{bonus} HP."
+    },
+    "basic_firearm_training": {
+      "name": "Treinamento Básico com Armas de Fogo",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano de arma."
+    },
+    "basic_hammer_training": {
+      "name": "Treinamento Básico com Martelo",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano de martelo."
+    },
+    "basic_knife_training": {
+      "name": "Treinamento básico com faca",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano da adaga."
+    },
+    "basic_martial_arts_training": {
+      "name": "Treinamento Básico em Artes Marciais"
+    },
+    "basic_spear_training": {
+      "name": "Treinamento Básico de Lança",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano de lança."
+    },
+    "basic_staff_training": {
+      "name": "Treinamento Básico de Pessoal",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x danos à equipe."
+    },
+    "basic_sword_training": {
+      "name": "Treinamento Básico de Espada",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano de espada."
+    },
+    "bathhouse": {
+      "name": "Convidado do balneário"
+    },
+    "berserk": {
+      "desc": "{owner|subject} {if owner.plural then atacam else ataca} aliados e inimigos.",
+      "name": "Furioso"
+    },
+    "big_flames": {
+      "name": "Grandes chamas",
+      "desc": "As chamas que você cria são grandes. (Cause 1,5x de dano e tenha 1,5x de chance de queimar peças adjacentes.)"
+    },
+    "blind": {
+      "name": "Cego"
+    },
+    "hallucinating": {
+      "name": "Alucinando",
+      "desc": "{owner|definite} não consegue reconhecer monstros."
+    },
+    "blindfold_training": {
+      "name": "Treinamento de olhos vendados",
+      "desc": "{owner|definite} {if owner.plural then têm else tem} +{bonus} visão de raios X."
+    },
+    "bloodlust": {
+      "name": "Sede de sangue"
+    },
+    "bond_with_bell": {
+      "desc": "{owner|definite} {if owner.plural then ganham else ganha} 50 turnos de raiva quando Bell cai.",
+      "desc_lvl1": "{owner|definite} pode ler com status de raiva.",
+      "name": "Vínculo com Bell"
+    },
+    "burn_chance_boost": {
+      "name": "Aumento da chance de queima",
+      "desc": "{factor}x chance de queimar objetos."
+    },
+    "burn_duration_boost": {
+      "name": "Aumento da duração da chama",
+      "desc": "As chamas duram {factor}x turnos."
+    },
+    "burning": {
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {damage} dano por turno.",
+      "name": "Queimando"
+    },
+    "burning_passion": {
+      "name": "Paixão Ardente",
+      "desc": "{factor}x taxa de recarga em blocos de fogo e lava."
+    },
+    "carom": {
+      "name": "Carambola",
+      "desc": "+10 de dano de colisão para colisões causadas por você. (Monstros sofrem dano de colisão quando são empurrados contra monstros/obstáculos.)"
+    },
+    "centipede_parent": {
+      "name": "Pai Centopeia"
+    },
+    "clone_on_hit": {
+      "desc": "Ao receber dano, um novo slime com o mesmo HP é convocado.",
+      "name": "Divisões ao receber dano"
+    },
+    "composure": {
+      "name": "Compostura",
+      "desc": "Status mentais (por exemplo, raiva) expiram em {factor}x turnos, arredondados para cima."
+    },
+    "conductor": {
+      "name": "Maestro"
+    },
+    "confused": {
+      "desc": "Não é possível mover-se em direções não diagonais, usar movimentos e usar itens.",
+      "hint_blocked": "Você não pode se mover em direções não diagonais porque está confuso!",
+      "name": "Confuso"
+    },
+    "constitution": {
+      "name": "Constituição",
+      "desc": "Afecções físicas (por exemplo, envenenamento, fraqueza) expiram em {factor}x turnos, arredondado para cima."
+    },
+    "crab_movement": {
+      "desc": "{owner|definite} não pode se mover ou atacar na diagonal.",
+      "name": "Movimento do Caranguejo"
+    },
+    "dash_distance": {
+      "name": "Velocista",
+      "desc": "+1 de distância para movimentos de corrida e salto."
+    },
+    "dashing": {
+      "name": "Arrojado"
+    },
+    "dazzled": {
+      "desc": "Recupera +1 raio de visão por turno.",
+      "name": "Deslumbrado"
+    },
+    "defense_up": {
+      "name": "Defesa aumentada ({factor}x)"
+    },
+    "demon_lord_power": {
+      "name": "O poder do Lorde Demônio"
+    },
+    "divine_shield": {
+      "name": "Invencível"
+    },
+    "down": {
+      "ability_get_up": "Levante-se",
+      "desc": "{owner|definite} {if owner.plural then estão else está} imóvel.",
+      "name": "Para baixo"
+    },
+    "drenched": {
+      "name": "Encharcado"
+    },
+    "drunk": {
+      "name": "Bêbado"
+    },
+    "electric_boost": {
+      "name": "Impulso Elétrico",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x danos elétricos."
+    },
+    "electric_resistance": {
+      "name": "Resistência Elétrica",
+      "desc": "Sofra {factor}x dano elétrico."
+    },
+    "evasion_up": {
+      "name": "Evasivo"
+    },
+    "ever_burning": {
+      "desc": "{owner|definite} {if owner.plural then queimam else queima} objetos queimáveis na mesma peça ({same_tile_chance}% de chance) e objetos queimáveis em peças adjacentes ({adjacent_chance}% de chance) no final do turno.",
+      "name": "Sempre queimando"
+    },
+    "expires": {
+      "name": "Expirando",
+      "desc": "{owner|definite} {if owner.plural then expire else expires} em breve."
+    },
+    "explosive": {
+      "name": "Explosivo",
+      "desc": "{owner|definite} {if owner.plural then estão else está} explosivo."
+    },
+    "extra_actions": {
+      "name": "Ações extras"
+    },
+    "extra_actions_budget": {
+      "desc": "{owner|definite} {if owner.plural then têm else tem} {remaining} {misc.action|plural(remaining)} extras restantes neste turno.",
+      "name": "Ações extras ({remaining} restantes)"
+    },
+    "fatigue": {
+      "name": "Fatigado",
+      "desc": "Descanse ou mova-se para se recuperar."
+    },
+    "figure_skater": {
+      "name": "Patinadora artística",
+      "desc": "{factor}x dano de ataque giratório enquanto estiver no gelo."
+    },
+    "fire_boost": {
+      "name": "Impulso de Fogo",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano de fogo."
+    },
+    "fire_immune": {
+      "name": "Imune ao Fogo",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {factor}x dano de fogo."
+    },
+    "fire_resistance": {
+      "name": "Resistência ao Fogo",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {factor}x dano de fogo."
+    },
+    "flame_dash": {
+      "desc": "Dashing deixa chamas atrás de você.",
+      "name": "Traço Flamejante"
+    },
+    "freeze_chance_boost": {
+      "name": "Aumento da chance de congelamento",
+      "desc": "{factor}x chance de congelar monstros."
+    },
+    "frozen": {
+      "ability_continue": "Continuar congelado",
+      "name": "Congelado",
+      "remaining": "Você está congelado ({turns} {if turns = 1 then turn else turns} restantes)!",
+      "desc": "{owner|definite} {if owner.plural then estão else está} congelado e incapaz de agir."
+    },
+    "graze": {
+      "name": "Pastar"
+    },
+    "heal_boost": {
+      "name": "Impulso de cura",
+      "desc": "{owner|definite} {if owner.plural then curam else cura} {factor}x dano."
+    },
+    "heat_mirage": {
+      "name": "Miragem de Calor"
+    },
+    "hero_power": {
+      "name": "O poder do herói"
+    },
+    "holding_back": {
+      "name": "Segurando"
+    },
+    "homing_projectiles": {
+      "name": "Projéteis teleguiados",
+      "desc": "Seus projéteis atingem os inimigos."
+    },
+    "ice_boost": {
+      "name": "Impulso de gelo",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano de gelo."
+    },
+    "ice_duration_boost": {
+      "name": "Aumento da duração do gelo",
+      "desc": "{owner|possessive} blocos de gelo e mantos de gelo duram {factor}x turnos."
+    },
+    "ice_resistance": {
+      "name": "Resistência ao Gelo",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {factor}x dano de gelo."
+    },
+    "immobile": {
+      "ability_skip_turn": "Pular a vez por causa da imobilização",
+      "name": "Imóvel",
+      "desc": "{owner|definite} {if owner.plural then estão else está} imóvel."
+    },
+    "inevitable": {
+      "desc": "Ganha +1 turno extra a cada {turns} turnos.",
+      "name": "Inevitável"
+    },
+    "invisible": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} invisível.",
+      "name": "Invisível"
+    },
+    "jumpscare": {
+      "desc": "Quando um inimigo avistar você pela primeira vez, atordoe-o por 1 turno. (Faixa 2.)",
+      "name": "Jumpscare"
+    },
+    "body": {
+      "name": "Corpo de {monster}"
+    },
+    "background": {
+      "name": "Histórico de {monster}"
+    },
+    "kendoka": {
+      "name": "Kendoka",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano de espada."
+    },
+    "kicker": {
+      "name": "Chutador"
+    },
+    "knife_hand": {
+      "desc": "Seus punhos são adagas.",
+      "name": "Mão de faca"
+    },
+    "knights_formation": {
+      "name": "Formação de Cavaleiro",
+      "desc": "Se estiver adjacente a Viola, 0,85x o dano físico sofrido, +1 de resistência ao empurrão."
+    },
+    "knights_formation_feat": {
+      "name": "Formação de Cavaleiro"
+    },
+    "knights_stance": {
+      "name": "Postura do cavaleiro",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {physical_factor}x dano físico e {if owner.plural then têm else tem} +{knockback_resist} resistência a empurrão."
+    },
+    "knockback_boost": {
+      "name": "Impulso de empurrão",
+      "desc": "+1 empurrão para ataques com empurrão."
+    },
+    "lag": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} em atraso.",
+      "name": "Em atraso"
+    },
+    "lag_turns": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} em atraso ({turns} {if turns = 1 then turn else turns} restante).",
+      "name": "Em atraso"
+    },
+    "large": {
+      "name": "Grande",
+      "desc": "{owner|definite} {if owner.plural then estão else está} coberto de vegetação, com 1,5x de HP e 1,5x de dano."
+    },
+    "lentil_soup": {
+      "desc": "{owner|definite} {if owner.plural then têm else tem} +{hp_bonus} HP. Expira em {expiration}.",
+      "name": "efeito da sopa de lentilha"
+    },
+    "levitate": {
+      "name": "Levitando"
+    },
+    "long_range_damage_boost": {
+      "name": "Aumento de dano de longo alcance",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} +{factor} dano para arcos/armas."
+    },
+    "long_range_range_boost": {
+      "name": "Impulso de longo alcance",
+      "desc": "{owner|definite} {if owner.plural then têm else tem} +{bonus} alcance para arcos/armas."
+    },
+    "low_presence": {
+      "name": "Baixa presença",
+      "desc": "{owner|definite} {if owner.plural then têm else tem} {bonus} raio de presença."
+    },
+    "magic_attuned": {
+      "name": "Sintonizado com Magia",
+      "desc": "{owner|definite} {if owner.plural then têm else tem} {factor}x taxa de cobrança."
+    },
+    "magic_resistance": {
+      "name": "Resistência Mágica",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {factor}x dano mágico."
+    },
+    "medium_range_range_boost": {
+      "name": "Impulso de alcance médio",
+      "desc": "+1 de alcance para armas brancas com alcance > 1."
+    },
+    "melee_damage_boost": {
+      "name": "Aumento de dano corpo a corpo",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x dano corpo a corpo."
+    },
+    "microadjustment": {
+      "desc": "{owner|definite} {if owner.plural then têm else tem} presença bloqueada antes do reposicionamento.",
+      "name": "Microajuste"
+    },
+    "minion_attack_boost": {
+      "name": "Aumento de ataque de lacaios",
+      "desc": "Monstros invocados causam {factor}x de dano."
+    },
+    "minion_count_boost": {
+      "name": "Aumento de contagem de lacaios",
+      "desc": "Quando {owner|definite} {if owner.plural then invocam else invoca} vários monstros, {owner|subject} {if owner.plural then invocam else invoca} {count} monstro adicional."
+    },
+    "minion_duration_boost": {
+      "name": "Aumento da duração dos lacaios",
+      "desc": "Monstros invocados têm {factor}x duração."
+    },
+    "minion_hit_points_boost": {
+      "name": "Aumento de HP dos Minions",
+      "desc": "Monstros invocados têm {factor}x HP."
+    },
+    "momentum": {
+      "name": "Momento",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x ataque de estocada e dano de ataque de esquiva."
+    },
+    "momentum_strike": {
+      "name": "Ataque de impulso",
+      "desc": "+2 de dano corpo a corpo ao atacar na mesma direção em que você se moveu neste turno ou no último turno."
+    },
+    "move_during_lag": {
+      "desc": "Você pode se mover durante o atraso.",
+      "name": "Mover durante o atraso"
+    },
+    "no_feat_slots": {
+      "desc": "{owner|definite} {if owner.plural then don't else doesn't} têm slots de talentos gratuitos.",
+      "name": "Sem slots de talentos"
+    },
+    "no_friendly_fire": {
+      "name": "Precisão",
+      "desc": "Ataques de área não atingem aliados."
+    },
+    "on_fire": {
+      "name": "Queimando",
+      "desc": "{owner|definite} {if owner.plural then estão else está} em chamas."
+    },
+    "phase_shift": {
+      "desc": "Fique invisível por 1 turno após o teletransporte.",
+      "name": "Entrar"
+    },
+    "phasing_cone": {
+      "desc": "Os ataques de cone passam por monstros, atingindo tudo no arco.",
+      "name": "Cone de fase"
+    },
+    "photographer": {
+      "name": "Fotógrafo"
+    },
+    "plant_anatomy": {
+      "name": "Anatomia Vegetal",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor}x danos contra plantas."
+    },
+    "root_legs": {
+      "name": "Pernas de raiz",
+      "desc": "As plantas convocadas podem se mover."
+    },
+    "plant_duration_boost": {
+      "name": "Aumento da duração da planta",
+      "desc": "As plantas invocadas têm {factor}x duração."
+    },
+    "plant_resistance": {
+      "name": "Resistência das Plantas",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {factor}x danos às plantas."
+    },
+    "pointed_tip": {
+      "name": "Ponta pontiaguda",
+      "desc": "Dada uma arma com alcance>1, ataques de alcance máximo causam {factor} dano."
+    },
+    "poison": {
+      "desc": "Receba 1 dano por turno.",
+      "name": "Envenenado"
+    },
+    "poison_boost": {
+      "name": "Impulso de Veneno",
+      "desc": "{owner|definite} {if owner.plural then causam else causa} {factor} dano de veneno. (Isso não afeta o gás venenoso.)"
+    },
+    "poison_gas_emitting": {
+      "desc": "{owner|definite} {if owner.plural then emit else emits} gás venenoso no final do turno.",
+      "name": "Emissor de gás venenoso"
+    },
+    "poison_resistance": {
+      "name": "Resistência a veneno",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {factor}x dano de veneno."
+    },
+    "potion_mastery": {
+      "name": "Maestria em Poções",
+      "desc": "Poções causam {factor}x de dano, curam {factor}x de dano e colocam status por {factor}x turnos."
+    },
+    "quiet_steps": {
+      "name": "Passos Silenciosos",
+      "desc": "{owner|definite} {if owner.plural then têm else tem} raio de presença reduzido em 1, mas não passa de 1."
+    },
+    "rage": {
+      "name": "Furioso"
+    },
+    "reassembling": {
+      "desc": "{owner|definite} {if owner.plural then revive else revives} {count} {misc.turn|plural(count)} depois de {owner|subject} {if owner.plural then caem else cai}.",
+      "name": "Remontagem"
+    },
+    "recharge_on_plants": {
+      "name": "Aumento da taxa de recarga nas plantas"
+    },
+    "releases_poison_gas_on_death": {
+      "desc": "{owner|definite} {if owner.plural then release else releases} {count} partículas de gás venenoso quando derrubadas.",
+      "name": "Libera gás venenoso na morte"
+    },
+    "releases_poison_gas_on_hit": {
+      "desc": "{owner|definite} {if owner.plural then release else releases} gás venenoso ao ser atingido por um ataque que não seja de fogo.",
+      "name": "Libera gás venenoso ao ser atingido"
+    },
+    "relentless": {
+      "name": "Implacável"
+    },
+    "runic_logician": {
+      "name": "Lógico Rúnico",
+      "desc": "{factor}x taxa de recarga."
+    },
+    "rush_out": {
+      "name": "Apresse-se",
+      "desc": "Ataques com inicialização causam 0,6x de dano e têm -1 de inicialização."
+    },
+    "sapping_bite": {
+      "desc": "Ataques de mordida reduzem o ataque do alvo em {percent}% para {turns} {misc.turn|plural(turns)}.",
+      "name": "Mordida Sacante"
+    },
+    "second_leg": {
+      "name": "Corredor de longa distância",
+      "desc": "Movimentos de corrida e salto têm taxa de carga 2x."
+    },
+    "sleep": {
+      "desc": "Não posso agir. Acordado ao acertar.",
+      "name": "Dormindo"
+    },
+    "sliding": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} deslizando no gelo.",
+      "name": "Deslizando"
+    },
+    "special_connection_with_plants": {
+      "name": "Conexão Especial com Plantas",
+      "desc": "{owner|definite} {if owner.plural then têm else tem} {regen_factor}x taxa de regeneração e {charge_factor}x taxa de carga em blocos de plantas."
+    },
+    "startup": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} na inicialização de {ability_name}.",
+      "name": "Na inicialização de {ability_name}"
+    },
+    "startup_turns": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} na inicialização para {ability_name} ({turns} {if turns = 1 then turn else turns} restantes).",
+      "name": "Na inicialização de {ability_name}"
+    },
+    "starving": {
+      "name": "Morrendo de fome"
+    },
+    "stunned": {
+      "ability_continue": "Continuar atordoado",
+      "name": "Atordoado",
+      "desc": "{owner|definite} {if owner.plural then estão else está} atordoado e incapaz de agir."
+    },
+    "thick_skin": {
+      "name": "Pele grossa",
+      "desc": "{owner|definite} {if owner.plural then sofrem else sofre} {factor}x dano."
+    },
+    "transformed": {
+      "desc": "{owner|definite} {if owner.plural then estão else está} transformado em {monster|indefinite}.",
+      "name": "Transformado em {monster|indefinite}"
+    },
+    "underwater": {
+      "desc": "{owner|definite} não pode usar fogo, eletricidade, pergaminhos ou armas terrestres.",
+      "name": "Subaquático"
+    },
+    "water_bound": {
+      "desc": "{owner|definite} não pode sair da água.",
+      "name": "Água Limitada"
+    },
+    "water_range_boost": {
+      "name": "Aumento do alcance da água",
+      "desc": "+1 de alcance para ataques de água."
+    },
+    "weak": {
+      "name": "Fraco"
+    },
+    "web_immune": {
+      "name": "Imune à Web",
+      "desc": "{owner|definite} {if owner.plural then estão else está} não é afetado pelas webs."
+    },
+    "wide_blast": {
+      "name": "Ampla Explosão"
+    }
+  },
+  "tags": {
+    "all": "tudo",
+    "backstab": "sem saber",
+    "backstab_format": "{value} dano contra monstros inconscientes",
+    "blast": "explosão",
+    "telegraphed_format": "{value} dano para ataques com inicialização reduzida",
+    "chop": "pode cortar alguns objetos",
+    "dash": "traço",
+    "electric": "causa dano elétrico",
+    "fire": "causa dano de fogo",
+    "gun": "arma",
+    "healing": "cura",
+    "ice": "causa dano de gelo",
+    "kick": "chutar",
+    "melee": "arma corpo a corpo",
+    "momentum": "impulso",
+    "move": "mover",
+    "projectile": "projétil",
+    "spin": "girar",
+    "tip": "dica",
+    "tome": "tomo",
+    "phase": "ataques passam através de paredes",
+    "piercing": "ataques passam por monstros",
+    "poison": "causa dano venenoso",
+    "ranged": "arma de longo alcance",
+    "smash": "pode quebrar alguns objetos",
+    "step_dash": "ataque passo/traço",
+    "unarmed": "desarmado",
+    "chain": "arma de corrente",
+    "water": "causa dano de água",
+    "read": "leia",
+    "poisoned": "envenenado",
+    "downed": "abatido",
+    "immobilized": "imobilizado",
+    "target_condition_format": "{value} dano contra {tag} monstros"
+  },
+  "terrain": {
+    "lava_desc": "Causa {damage} dano de fogo.",
+    "quicksand_desc": "Monstros neste terreno se movem {direction} no final do turno."
+  },
+  "text": {
+    "disclaimer": "Este jogo é ficção. As pessoas, grupos, lugares, eventos, etc. são fictícios. As semelhanças com outros, reais ou fictícios, são mera coincidência. Este jogo contém representações artísticas de conduta sexual. Todos os personagens envolvidos em conduta sexual têm mais de 18 anos de idade. Você deve ter mais de 18 anos de idade e ser um adulto legal em sua jurisdição para jogar este jogo. Se não estiver, não continue. Obrigado e por favor aproveite.",
+    "game_info": "Versão do Amante do Lorde Demônio $\nCriado por ayumu98. Arte de Mirthlume, Poolfman, zcozco. Música de robotmeadows."
+  },
+  "tips": {
+    "controls": "Pressione {controls} para ver as combinações de teclas.",
+    "dungeon_gamepad": "Mire com o stick e pressione {select} para mover ou atacar.\nPressione {select} sem querer interagir ou descansar.\nHold {force_move}: {select} apenas se moverá ou descansará, ignorando ataques e interações.",
+    "dungeon_keyboard": "Mova-se com {move}.\nPara atacar um monstro, mova-se em sua direção.\nPara se mover sem atacar, segure {force_move}.\nPara descansar (passar a vez), pressione {rest}.",
+    "dungeon_keyboard_block": "Mova-se com {move}.\nBloqueie o movimento não diagonal segurando {block_cardinal}.\nPara atacar um monstro, mova-se em sua direção.\nPara se mover sem atacar, segure {force_move}.\nPara descansar (passar a vez), pressione {rest}.",
+    "dungeon_mobile": "Ataque monstros movendo-se em direção a eles.\nSegure B e mova-se para passar pelos monstros.\nPressione o centro do D-Pad para descansar (passar a curva).",
+    "equipment": "Pressione {gear} para equipar itens.",
+    "frozen_in_wall": "Você está permanentemente congelado. (Use o menu Locais para sair da área.)",
+    "hotkey_set": "Defina \"{ability}\" como [{key}].",
+    "hotkey_set_gamepad": "Defina \"{ability}\" como tecla de atalho {index}.",
+    "potion": "Pressione {potion} para beber/jogar poções.",
+    "ranged_weapon": "Pressione instruções para atacar. Segure {force_move} e pressione instruções para se mover em vez de atacar.",
+    "ranged_weapon_mobile": "Pressione instruções para atacar. Segure B e pressione instruções para se mover em vez de atacar.",
+    "reload": "Para recarregar, descanse ({rest}).",
+    "reload_mobile": "Para recarregar, descanse (pressione o centro do D-Pad).",
+    "scroll": "Pressione {read} para ler os pergaminhos.",
+    "tome": "Pressione {read} para ler tomos.",
+    "town_evening": "À noite você pode treinar no dojo ou estudar na biblioteca.",
+    "town_gamepad": "Use o stick para mirar, pressione {select} para se mover/falar.\nSegure {force_move} para passar pelas pessoas.\nPressione {controls} para ver os outros controles.",
+    "town_keyboard": "Mova-se com {move}.\nFale com as pessoas entrando nelas.\nPasse pelas pessoas segurando {force_move} e vá até elas.\nPressione {controls} para ver os outros controles.",
+    "town_keyboard_block": "Mova-se com {move}.\nBloqueie o movimento não diagonal segurando {block_cardinal}.\nFale com as pessoas entrando nelas.\nPasse pelas pessoas segurando {force_move} e vá até elas.\nPressione {controls} para ver os outros controles.",
+    "town_mobile": "Fale com as pessoas entrando nelas.\nSegure B e mova-se para passar pelas pessoas.\nVá para Menu -> Controles para visualizar os controles.",
+    "town_night": "À noite, você pode pernoitar na casa de Paila ou na pousada."
+  },
+  "ui": {
+    "a_gamepad_input": "Uma entrada de gamepad",
+    "a_key": "Uma chave",
+    "cant_afford": "Eu não posso permitir isso.",
+    "charges": "{current}/{max}",
+    "continue": "Continuar",
+    "default_indicator": "(Padrão)",
+    "desktop": "Área de trabalho",
+    "disabled": "Desativado",
+    "editor_tag": "[Editor]",
+    "empty_slot": "(vazio)",
+    "enabled": "Habilitado",
+    "equipped": "(equipado)",
+    "experimental": "(Experimental; por favor reporte bugs)",
+    "hide": "Esconder",
+    "cancel": "Cancelar",
+    "hint_cancel": "Cancelar",
+    "hint_close": "Fechar",
+    "hint_move": "Mover",
+    "hint_move_page": "Mover/página",
+    "hint_page": "Página",
+    "hint_select": "Selecione",
+    "hint_set": "Definir",
+    "hint_submit": "Enviar",
+    "hotkey_label": "[{key}/{l_click}] Usar",
+    "keyboard_backspace": "Bobagem",
+    "keyboard_case": "aA",
+    "keyboard_done": "OK",
+    "keyboard_space": "␣",
+    "later": "Mais tarde",
+    "leave": "Sair",
+    "look": "Olha",
+    "mobile": "Móvel",
+    "mobile_landscape": "Móvel V2 (paisagem)",
+    "mobile_v2": "Móvel V2 (Retrato)",
+    "no": "Não",
+    "no_item": "<nenhum item>",
+    "none": "<nenhum>",
+    "not_integer_scaling": "Não é escala inteira.",
+    "off": "Desligado",
+    "paste": "Colar",
+    "patron_tag": "[Patrono]",
+    "r_click_set": "[{r_click}] Definir",
+    "remove_item": "Remover item",
+    "seconds": "{value} {misc.second|plural(value)}",
+    "selected": "(selecionado)",
+    "selected_checkbox": "[x] {name}",
+    "selected_required": "[x] {name} (obrigatório)",
+    "show": "Mostrar",
+    "to_evening": "(→ noite)",
+    "to_morning": "(→ manhã)",
+    "to_night": "(→ noite)",
+    "unselected": "[ ] {name}",
+    "unset": "<desativado>",
+    "yes": "Sim",
+    "photo_mode_hint": "Modo Foto — {key} para sair"
+  }
+}

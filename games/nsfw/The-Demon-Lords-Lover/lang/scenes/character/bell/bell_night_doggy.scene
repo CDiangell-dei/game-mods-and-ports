@@ -1,0 +1,12 @@
+[name] Faça sexo (traseiro)
+[cast b=Bell]
+[show cg bell_sex_rear]
+b: Ah, {heroname}...
+
+[show cg bell_sex_rear_hard]
+b: Ahh...
+
+[show cg bell_sex_rear_orgasm]
+b: Foi tão bom...
+
+[bell-room-menu()]

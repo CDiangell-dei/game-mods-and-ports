@@ -1,0 +1,5 @@
+[cast a=Hero]
+[if hunt-target-is-plural()]
+    Você vê os alvos.
+[else]
+    Você vê o alvo.

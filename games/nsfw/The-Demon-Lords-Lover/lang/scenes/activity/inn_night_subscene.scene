@@ -1,0 +1,10 @@
+[hide all]
+[show cg CG_nightSky_03]
+[if has-dream()]
+    [play-dream()]
+[menu]
+    Acordado
+[hide all]
+[if not MEMORIES_MODE]
+    [rmv-companions()]
+    [goto-tomorrow-morning()]

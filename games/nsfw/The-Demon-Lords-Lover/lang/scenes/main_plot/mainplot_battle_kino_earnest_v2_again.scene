@@ -1,0 +1,17 @@
+[cast earnest=Earnest, kino=Kino, v=Viola]
+[floor-song tension]
+[show portrait kino serious]
+kino: Sério. Acho que há pouca ou nenhuma desvantagem em deter este.
+
+[show portrait earnest serious]
+sério: eu entendo.
+
+[show portrait kino serious]
+Kino e Earnest desembainham suas espadas.
+[kino-and-earnest-become-hostile()]
+
+[if with(v)]
+    [set VIOLA_FOUGHT_EARNEST]
+    Mas... Earnest parece estar se contendo. Poderia ser por causa da Viola?
+    [earnest-holds-back()]
+[end]

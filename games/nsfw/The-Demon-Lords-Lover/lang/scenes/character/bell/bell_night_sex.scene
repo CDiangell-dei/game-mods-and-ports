@@ -1,0 +1,12 @@
+[name] Faça sexo
+[cast b=Bell]
+[show cg bell_sex_soft]
+b: É... bom para você?
+
+[show cg bell_sex_hard]
+b: Ahh...
+
+[show cg bell_sex_orgasm]
+b: Estou feliz...
+
+[bell-room-menu()]

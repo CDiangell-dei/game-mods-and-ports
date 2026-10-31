@@ -1,0 +1,2178 @@
+{
+  "genders": {
+    "feminine": {
+      "object": "a",
+      "possessive": "dela",
+      "reflexive": "a si mesma",
+      "subject": "ela"
+    },
+    "masculine": {
+      "object": "o",
+      "possessive": "dele",
+      "reflexive": "a si mesmo",
+      "subject": "ele"
+    },
+    "neuter": {
+      "object": "o",
+      "possessive": "dele",
+      "reflexive": "a si mesmo",
+      "subject": "ele"
+    },
+    "nonbinary": {
+      "object": "elu",
+      "possessive": "delu",
+      "reflexive": "a si mesme",
+      "subject": "elu"
+    },
+    "plural": {
+      "object": "os",
+      "possessive": "deles",
+      "reflexive": "a si mesmos",
+      "subject": "eles"
+    }
+  },
+  "nouns": {
+    "adventurer": {
+      "base": "aventureiro",
+      "definite": "o aventureiro",
+      "indefinite": "um aventureiro",
+      "other": "aventureiros"
+    },
+    "adventurers": {
+      "base": "aventureiros",
+      "definite": "os aventureiros",
+      "indefinite": "alguns aventureiros",
+      "plural": true
+    },
+    "animated_weapon": {
+      "base": "arma animada",
+      "definite": "a arma animada",
+      "indefinite": "uma arma animada",
+      "other": "armas animadas"
+    },
+    "anti_teleportation_spell": {
+      "base": "feitiço antiteleporte",
+      "definite": "a proteção antiteleporte",
+      "indefinite": "uma proteção antiteleporte",
+      "other": "proteções antiteleporte"
+    },
+    "antlion": {
+      "base": "formiga-leão",
+      "definite": "o formiga-leão",
+      "indefinite": "um formiga-leão",
+      "other": "formigas-leão"
+    },
+    "anvil": {
+      "base": "bigorna",
+      "definite": "a bigorna",
+      "indefinite": "uma bigorna",
+      "other": "bigornas"
+    },
+    "quicksand": {
+      "base": "areia movediça",
+      "definite": "a areia movediça",
+      "indefinite": "areia movediça"
+    },
+    "assassination": {
+      "base": "assassinato",
+      "definite": "o assassinato",
+      "indefinite": "um assassinato"
+    },
+    "bar_counter": {
+      "base": "balcão do bar",
+      "definite": "o balcão do bar",
+      "indefinite": "um balcão de bar",
+      "other": "balcões de bar"
+    },
+    "bat": {
+      "base": "morcego",
+      "definite": "o morcego",
+      "indefinite": "um morcego",
+      "other": "morcegos"
+    },
+    "bear": {
+      "base": "urso",
+      "definite": "o urso",
+      "indefinite": "um urso",
+      "other": "ursos"
+    },
+    "bed": {
+      "base": "cama",
+      "definite": "a cama",
+      "indefinite": "uma cama",
+      "other": "camas"
+    },
+    "bell": {
+      "base": "Bell",
+      "definite": "a Bell",
+      "indefinite": "uma Bell"
+    },
+    "big_bag": {
+      "base": "mochila grande",
+      "definite": "a mochila grande",
+      "indefinite": "uma mochila grande",
+      "other": "mochilas grandes"
+    },
+    "bin": {
+      "base": "lixeira",
+      "definite": "a lixeira",
+      "indefinite": "uma lixeira",
+      "other": "lixeiras"
+    },
+    "bite_plant": {
+      "base": "planta mordedora",
+      "definite": "a planta mordedora",
+      "indefinite": "uma planta mordedora",
+      "other": "plantas mordedoras"
+    },
+    "bomb_man": {
+      "base": "homem-bomba",
+      "definite": "o homem-bomba",
+      "indefinite": "um homem-bomba",
+      "other": "homens-bomba"
+    },
+    "bookcase": {
+      "base": "estante de livros",
+      "definite": "a estante de livros",
+      "indefinite": "uma estante de livros",
+      "other": "estantes de livros"
+    },
+    "box": {
+      "base": "caixa",
+      "definite": "a caixa",
+      "indefinite": "uma caixa",
+      "other": "caixas"
+    },
+    "briar": {
+      "base": "silva",
+      "definite": "a silva",
+      "indefinite": "uma silva",
+      "other": "silvas"
+    },
+    "bridge": {
+      "base": "ponte",
+      "definite": "a ponte",
+      "indefinite": "uma ponte",
+      "other": "pontes"
+    },
+    "butterfly": {
+      "base": "borboleta",
+      "definite": "a borboleta",
+      "indefinite": "uma borboleta",
+      "other": "borboletas"
+    },
+    "cactus": {
+      "base": "cacto",
+      "definite": "o cacto",
+      "indefinite": "um cacto",
+      "other": "cactos"
+    },
+    "cactus_monster": {
+      "base": "monstro-cacto",
+      "definite": "o monstro-cacto",
+      "indefinite": "um monstro-cacto",
+      "other": "monstros-cacto"
+    },
+    "campsite": {
+      "base": "acampamento",
+      "definite": "o acampamento",
+      "indefinite": "um acampamento",
+      "other": "acampamentos"
+    },
+    "centipede": {
+      "base": "centopeia",
+      "definite": "a centopeia",
+      "indefinite": "uma centopeia",
+      "other": "centopeias"
+    },
+    "chair": {
+      "base": "cadeira",
+      "definite": "a cadeira",
+      "indefinite": "uma cadeira",
+      "other": "cadeiras"
+    },
+    "charis": {
+      "base": "Charis",
+      "definite": "o Charis",
+      "indefinite": "um Charis"
+    },
+    "chii": {
+      "base": "Chii",
+      "definite": "a Chii",
+      "indefinite": "uma Chii"
+    },
+    "clairvoyance": {
+      "base": "clarividência",
+      "definite": "a clarividência",
+      "indefinite": "uma clarividência"
+    },
+    "claris_cleric": {
+      "base": "Claris, a Clériga",
+      "definite": "a Claris, a Clériga",
+      "indefinite": "uma Claris, a Clériga"
+    },
+    "claris_crusader": {
+      "base": "Claris, a Cruzada",
+      "definite": "a Claris, a Cruzada",
+      "indefinite": "uma Claris, a Cruzada"
+    },
+    "claris_luminary": {
+      "base": "Claris, a Luminar",
+      "definite": "a Claris, a Luminar",
+      "indefinite": "uma Claris, a Luminar"
+    },
+    "claris_penitent": {
+      "base": "Claris, a Penitente",
+      "definite": "a Claris, a Penitente",
+      "indefinite": "uma Claris, a Penitente"
+    },
+    "cleric": {
+      "base": "clérigo",
+      "definite": "o clérigo",
+      "indefinite": "um clérigo",
+      "other": "clérigos"
+    },
+    "clothing_shop_sign": {
+      "base": "placa de loja de roupas",
+      "definite": "a placa de loja de roupas",
+      "indefinite": "uma placa de loja de roupas",
+      "other": "placas de loja de roupas"
+    },
+    "clover": {
+      "base": "trevo",
+      "definite": "o trevo",
+      "indefinite": "um trevo",
+      "other": "trevos"
+    },
+    "ki_ball": {
+      "base": "esfera de ki",
+      "definite": "a esfera de ki",
+      "indefinite": "uma esfera de ki",
+      "other": "esferas de ki"
+    },
+    "corpse_flower": {
+      "base": "flor-cadáver",
+      "definite": "a flor-cadáver",
+      "indefinite": "uma flor-cadáver",
+      "other": "flores-cadáver"
+    },
+    "crab": {
+      "base": "caranguejo",
+      "definite": "o caranguejo",
+      "indefinite": "um caranguejo",
+      "other": "caranguejos"
+    },
+    "crate": {
+      "base": "caixote",
+      "definite": "o caixote",
+      "indefinite": "um caixote",
+      "other": "caixotes"
+    },
+    "crocodile": {
+      "base": "crocodilo",
+      "definite": "o crocodilo",
+      "indefinite": "um crocodilo",
+      "other": "crocodilos"
+    },
+    "cyclops": {
+      "base": "ciclope",
+      "definite": "o ciclope",
+      "indefinite": "um ciclope",
+      "other": "ciclopes"
+    },
+    "daia": {
+      "base": "Daia",
+      "definite": "a Daia",
+      "indefinite": "uma Daia"
+    },
+    "deep_water": {
+      "base": "águas profundas",
+      "definite": "as águas profundas",
+      "indefinite": "águas profundas"
+    },
+    "demon": {
+      "base": "demônio",
+      "definite": "o demônio",
+      "indefinite": "um demônio",
+      "other": "demônios"
+    },
+    "demon_lords_dungeon": {
+      "base": "Masmorra do Lorde Demônio",
+      "definite": "a Masmorra do Lorde Demônio",
+      "indefinite": "uma Masmorra do Lorde Demônio"
+    },
+    "demon_lords_room": {
+      "base": "Aposentos do Lorde Demônio",
+      "definite": "os Aposentos do Lorde Demônio",
+      "indefinite": "os Aposentos do Lorde Demônio"
+    },
+    "dojo_floor": {
+      "base": "tatame do dojo",
+      "definite": "o tatame do dojo",
+      "indefinite": "um tatame do dojo"
+    },
+    "door": {
+      "base": "porta",
+      "definite": "a porta",
+      "indefinite": "uma porta",
+      "other": "portas"
+    },
+    "dragon": {
+      "base": "dragão",
+      "definite": "o dragão",
+      "indefinite": "um dragão",
+      "other": "dragões"
+    },
+    "drake_skeleton": {
+      "base": "esqueleto de draco",
+      "definite": "o esqueleto de draco",
+      "indefinite": "um esqueleto de draco",
+      "other": "esqueletos de draco"
+    },
+    "dungeon": {
+      "base": "masmorra",
+      "definite": "a masmorra",
+      "indefinite": "uma masmorra",
+      "other": "masmorras"
+    },
+    "earnest": {
+      "base": "Earnest",
+      "definite": "o Earnest",
+      "indefinite": "um Earnest"
+    },
+    "electric_eel": {
+      "base": "enguia-elétrica",
+      "definite": "a enguia-elétrica",
+      "indefinite": "uma enguia-elétrica",
+      "other": "enguias-elétricas"
+    },
+    "emma": {
+      "base": "Emma",
+      "definite": "a Emma",
+      "indefinite": "uma Emma"
+    },
+    "enchantment_armor_recharging": {
+      "base": "encantamento de recarga de armadura",
+      "definite": "o encantamento de recarga de armadura",
+      "indefinite": "um encantamento de recarga de armadura"
+    },
+    "enchantment_assassination": {
+      "base": "encantamento de assassinato",
+      "definite": "o encantamento de assassinato",
+      "indefinite": "um encantamento de assassinato"
+    },
+    "enchantment_avarice": {
+      "base": "encantamento de avareza",
+      "definite": "o encantamento de avareza",
+      "indefinite": "um encantamento de avareza"
+    },
+    "enchantment_blinding": {
+      "base": "encantamento de cegueira",
+      "definite": "o encantamento de cegueira",
+      "indefinite": "um encantamento de cegueira"
+    },
+    "enchantment_devouring": {
+      "base": "encantamento devorador",
+      "definite": "o encantamento devorador",
+      "indefinite": "um encantamento devorador"
+    },
+    "enchantment_diminishing": {
+      "base": "encantamento de redução",
+      "definite": "o encantamento de redução",
+      "indefinite": "um encantamento de redução"
+    },
+    "enchantment_dispelling": {
+      "base": "encantamento dissipador",
+      "definite": "o encantamento dissipador",
+      "indefinite": "um encantamento dissipador"
+    },
+    "enchantment_fire": {
+      "base": "encantamento de fogo",
+      "definite": "o encantamento de fogo",
+      "indefinite": "um encantamento de fogo"
+    },
+    "enchantment_glue": {
+      "base": "encantamento colante",
+      "definite": "o encantamento colante",
+      "indefinite": "um encantamento colante"
+    },
+    "enchantment_ice": {
+      "base": "encantamento de gelo",
+      "definite": "o encantamento de gelo",
+      "indefinite": "um encantamento de gelo"
+    },
+    "enchantment_knockback": {
+      "base": "encantamento de repulsão",
+      "definite": "o encantamento de repulsão",
+      "indefinite": "um encantamento de repulsão"
+    },
+    "enchantment_knockdown": {
+      "base": "encantamento de derrubada",
+      "definite": "o encantamento de derrubada",
+      "indefinite": "um encantamento de derrubada"
+    },
+    "enchantment_lightning": {
+      "base": "encantamento de raio",
+      "definite": "o encantamento de raio",
+      "indefinite": "um encantamento de raio"
+    },
+    "enchantment_of_phasing": {
+      "base": "encantamento de transposição",
+      "definite": "o encantamento de transposição",
+      "indefinite": "um encantamento de transposição"
+    },
+    "enchantment_of_piercing": {
+      "base": "encantamento de perfuração",
+      "definite": "o encantamento de perfuração",
+      "indefinite": "um encantamento de perfuração"
+    },
+    "enchantment_poison": {
+      "base": "encantamento de veneno",
+      "definite": "o encantamento de veneno",
+      "indefinite": "um encantamento de veneno"
+    },
+    "enchantment_rage": {
+      "base": "encantamento de fúria",
+      "definite": "o encantamento de fúria",
+      "indefinite": "um encantamento de fúria"
+    },
+    "enchantment_speed": {
+      "base": "encantamento de velocidade",
+      "definite": "o encantamento de velocidade",
+      "indefinite": "um encantamento de velocidade"
+    },
+    "enchantment_the_educated": {
+      "base": "encantamento da erudição",
+      "definite": "o encantamento da erudição",
+      "indefinite": "um encantamento da erudição"
+    },
+    "enchantment_thorns": {
+      "base": "encantamento de espinhos",
+      "definite": "o encantamento de espinhos",
+      "indefinite": "um encantamento de espinhos"
+    },
+    "enchantment_weapon_recharging": {
+      "base": "encantamento de recarga de arma",
+      "definite": "o encantamento de recarga de arma",
+      "indefinite": "um encantamento de recarga de arma"
+    },
+    "enchantment_weight": {
+      "base": "encantamento de peso",
+      "definite": "o encantamento de peso",
+      "indefinite": "um encantamento de peso"
+    },
+    "ent": {
+      "base": "ent",
+      "definite": "o ent",
+      "indefinite": "um ent",
+      "other": "ents"
+    },
+    "entangling_vine": {
+      "base": "trepadeira emaranhante",
+      "definite": "a trepadeira emaranhante",
+      "indefinite": "uma trepadeira emaranhante",
+      "other": "trepadeiras emaranhantes"
+    },
+    "equipment_shop_sign": {
+      "base": "placa da loja de equipamentos",
+      "definite": "a placa da loja de equipamentos",
+      "indefinite": "uma placa da loja de equipamentos"
+    },
+    "erona_statue": {
+      "base": "estátua de Erona",
+      "definite": "a estátua de Erona",
+      "indefinite": "uma estátua de Erona"
+    },
+    "eve": {
+      "base": "Eve",
+      "definite": "a Eve",
+      "indefinite": "uma Eve"
+    },
+    "fairy": {
+      "base": "fada",
+      "definite": "a fada",
+      "indefinite": "uma fada",
+      "other": "fadas"
+    },
+    "fallen_archer": {
+      "base": "arqueiro caído",
+      "definite": "o arqueiro caído",
+      "indefinite": "um arqueiro caído",
+      "other": "arqueiros caídos"
+    },
+    "fallen_berserk": {
+      "base": "berserker caído",
+      "definite": "o berserker caído",
+      "indefinite": "um berserker caído",
+      "other": "berserkers caídos"
+    },
+    "fallen_cleric": {
+      "base": "clérigo caído",
+      "definite": "o clérigo caído",
+      "indefinite": "um clérigo caído",
+      "other": "clérigos caídos"
+    },
+    "fallen_druid": {
+      "base": "druida caído",
+      "definite": "o druida caído",
+      "indefinite": "um druida caído",
+      "other": "druidas caídos"
+    },
+    "fallen_gunner": {
+      "base": "atirador caído",
+      "definite": "o atirador caído",
+      "indefinite": "um atirador caído",
+      "other": "atiradores caídos"
+    },
+    "fallen_lancer": {
+      "base": "lanceiro caído",
+      "definite": "o lanceiro caído",
+      "indefinite": "um lanceiro caído",
+      "other": "lanceiros caídos"
+    },
+    "fallen_martial_artist": {
+      "base": "artista marcial caído",
+      "definite": "o artista marcial caído",
+      "indefinite": "um artista marcial caído",
+      "other": "artistas marciais caídos"
+    },
+    "fallen_necromancer": {
+      "base": "necromante caído",
+      "definite": "o necromante caído",
+      "indefinite": "um necromante caído",
+      "other": "necromantes caídos"
+    },
+    "fallen_rogue": {
+      "base": "ladino caído",
+      "definite": "o ladino caído",
+      "indefinite": "um ladino caído",
+      "other": "ladinos caídos"
+    },
+    "fallen_swordsman": {
+      "base": "espadachim caído",
+      "definite": "o espadachim caído",
+      "indefinite": "um espadachim caído",
+      "other": "espadachins caídos"
+    },
+    "fallen_wizard": {
+      "base": "mago caído",
+      "definite": "o mago caído",
+      "indefinite": "um mago caído",
+      "other": "magos caídos"
+    },
+    "fence": {
+      "base": "cerca",
+      "definite": "a cerca",
+      "indefinite": "uma cerca",
+      "other": "cercas"
+    },
+    "fence_door": {
+      "base": "portão de cerca",
+      "definite": "o portão de cerca",
+      "indefinite": "um portão de cerca",
+      "other": "portões de cerca"
+    },
+    "fighter": {
+      "base": "lutador",
+      "definite": "o lutador",
+      "indefinite": "um lutador",
+      "other": "lutadores"
+    },
+    "fire_drake": {
+      "base": "draco de fogo",
+      "definite": "o draco de fogo",
+      "indefinite": "um draco de fogo",
+      "other": "dracos de fogo"
+    },
+    "fire_plant": {
+      "base": "planta de fogo",
+      "definite": "a planta de fogo",
+      "indefinite": "uma planta de fogo",
+      "other": "plantas de fogo"
+    },
+    "fireball": {
+      "base": "bola de fogo",
+      "definite": "a bola de fogo",
+      "indefinite": "uma bola de fogo",
+      "other": "bolas de fogo"
+    },
+    "flame": {
+      "base": "chama",
+      "definite": "a chama",
+      "indefinite": "uma chama",
+      "other": "chamas"
+    },
+    "flower": {
+      "base": "flor",
+      "definite": "a flor",
+      "indefinite": "uma flor",
+      "other": "flores"
+    },
+    "flying_key": {
+      "base": "chave voadora",
+      "definite": "a chave voadora",
+      "indefinite": "uma chave voadora",
+      "other": "chaves voadoras"
+    },
+    "foothold": {
+      "base": "ponto de apoio",
+      "definite": "o ponto de apoio",
+      "indefinite": "um ponto de apoio",
+      "other": "pontos de apoio"
+    },
+    "ghost": {
+      "base": "fantasma",
+      "definite": "o fantasma",
+      "indefinite": "um fantasma",
+      "other": "fantasmas"
+    },
+    "ghost_sword": {
+      "base": "espada fantasma",
+      "definite": "a espada fantasma",
+      "indefinite": "uma espada fantasma",
+      "other": "espadas fantasmas"
+    },
+    "giant_cat": {
+      "base": "gato gigante",
+      "definite": "o gato gigante",
+      "indefinite": "um gato gigante",
+      "other": "gatos gigantes"
+    },
+    "giant_spider": {
+      "base": "aranha gigante",
+      "definite": "a aranha gigante",
+      "indefinite": "uma aranha gigante",
+      "other": "aranhas gigantes"
+    },
+    "glass_wall": {
+      "base": "parede de vidro",
+      "definite": "a parede de vidro",
+      "indefinite": "uma parede de vidro",
+      "other": "paredes de vidro"
+    },
+    "glyph": {
+      "base": "glifo",
+      "definite": "o glifo",
+      "indefinite": "um glifo",
+      "other": "glifos"
+    },
+    "grent": {
+      "base": "Grent",
+      "definite": "o Grent",
+      "indefinite": "um Grent"
+    },
+    "hera": {
+      "base": "Hera",
+      "definite": "a Hera",
+      "indefinite": "uma Hera"
+    },
+    "hieroglyph": {
+      "base": "hieróglifo",
+      "definite": "o hieróglifo",
+      "indefinite": "um hieróglifo",
+      "other": "hieróglifos"
+    },
+    "hilde": {
+      "base": "Hilde",
+      "definite": "a Hilde",
+      "indefinite": "uma Hilde"
+    },
+    "hot_spring_water": {
+      "base": "água termal",
+      "definite": "a água termal",
+      "indefinite": "água termal"
+    },
+    "hunt_dragon": {
+      "base": "caçada ao dragão",
+      "definite": "a caçada ao dragão",
+      "indefinite": "uma caçada ao dragão"
+    },
+    "hunt_kobold_pack": {
+      "base": "caçada ao bando de kobolds",
+      "definite": "a caçada ao bando de kobolds",
+      "indefinite": "uma caçada ao bando de kobolds"
+    },
+    "hunt_slime": {
+      "base": "caçada ao slime",
+      "definite": "a caçada ao slime",
+      "indefinite": "uma caçada ao slime"
+    },
+    "human": {
+      "base": "humano",
+      "definite": "o humano",
+      "indefinite": "um humano",
+      "other": "humanos"
+    },
+    "human_f": {
+      "base": "humana",
+      "definite": "a humana",
+      "indefinite": "uma humana",
+      "other": "humanas"
+    },
+    "human_m": {
+      "base": "humano",
+      "definite": "o humano",
+      "indefinite": "um humano",
+      "other": "humanos"
+    },
+    "ice_boulder": {
+      "base": "pedregulho de gelo",
+      "definite": "o pedregulho de gelo",
+      "indefinite": "um pedregulho de gelo",
+      "other": "pedregulhos de gelo"
+    },
+    "ice_floor": {
+      "base": "chão de gelo",
+      "definite": "o chão de gelo",
+      "indefinite": "um chão de gelo"
+    },
+    "ice_shards": {
+      "base": "fragmentos de gelo",
+      "definite": "os fragmentos de gelo",
+      "indefinite": "fragmentos de gelo",
+      "plural": true
+    },
+    "ice_wall": {
+      "base": "parede de gelo",
+      "definite": "a parede de gelo",
+      "indefinite": "uma parede de gelo",
+      "other": "paredes de gelo"
+    },
+    "iceball": {
+      "base": "bola de gelo",
+      "definite": "a bola de gelo",
+      "indefinite": "uma bola de gelo",
+      "other": "bolas de gelo"
+    },
+    "inn_sign": {
+      "base": "placa da estalagem",
+      "definite": "a placa da estalagem",
+      "indefinite": "uma placa da estalagem"
+    },
+    "ise": {
+      "base": "Ise",
+      "definite": "a Ise",
+      "indefinite": "uma Ise"
+    },
+    "items.armor.cloak": {
+      "base": "capa",
+      "definite": "a capa",
+      "indefinite": "uma capa",
+      "other": "capas"
+    },
+    "items.armor.dragonscale": {
+      "base": "armadura de escamas de dragão",
+      "definite": "a armadura de escamas de dragão",
+      "indefinite": "uma armadura de escamas de dragão"
+    },
+    "items.armor.gi": {
+      "base": "quimono",
+      "definite": "o quimono",
+      "indefinite": "um quimono",
+      "other": "quimonos"
+    },
+    "items.armor.leather_armor": {
+      "base": "armadura de couro",
+      "definite": "a armadura de couro",
+      "indefinite": "uma armadura de couro"
+    },
+    "items.armor.plate": {
+      "base": "armadura de placas",
+      "definite": "a armadura de placas",
+      "indefinite": "uma armadura de placas"
+    },
+    "items.armor.practice_clothes": {
+      "base": "roupas de treino",
+      "definite": "as roupas de treino",
+      "indefinite": "roupas de treino",
+      "plural": true
+    },
+    "items.armor.raincoat": {
+      "base": "capa de chuva",
+      "definite": "a capa de chuva",
+      "indefinite": "uma capa de chuva"
+    },
+    "items.armor.robe": {
+      "base": "manto",
+      "definite": "o manto",
+      "indefinite": "um manto",
+      "other": "mantos"
+    },
+    "items.broken_item": {
+      "base": "item quebrado",
+      "definite": "o item quebrado",
+      "indefinite": "um item quebrado",
+      "other": "itens quebrados"
+    },
+    "items.food.lentil_soup": {
+      "base": "sopa de lentilha",
+      "definite": "a sopa de lentilha",
+      "indefinite": "uma sopa de lentilha"
+    },
+    "items.food.medicinal_herb": {
+      "base": "erva medicinal",
+      "definite": "a erva medicinal",
+      "indefinite": "uma erva medicinal",
+      "other": "ervas medicinais"
+    },
+    "items.key.bear_shard": {
+      "base": "fragmento de urso",
+      "definite": "o fragmento de urso",
+      "indefinite": "um fragmento de urso"
+    },
+    "items.key.claris_research_notes": {
+      "base": "notas de pesquisa de Claris",
+      "definite": "as notas de pesquisa de Claris",
+      "indefinite": "notas de pesquisa de Claris",
+      "plural": true
+    },
+    "items.key.glowstick_shard": {
+      "base": "fragmento de bastão luminoso",
+      "definite": "o fragmento de bastão luminoso",
+      "indefinite": "um fragmento de bastão luminoso"
+    },
+    "items.key.heartplant": {
+      "base": "planta-coração",
+      "definite": "a planta-coração",
+      "indefinite": "uma planta-coração"
+    },
+    "items.key.leos_rucksack": {
+      "base": "mochila de Leo",
+      "definite": "a mochila de Leo",
+      "indefinite": "uma mochila de Leo"
+    },
+    "items.key.moon_herb": {
+      "base": "erva-da-lua",
+      "definite": "a erva-da-lua",
+      "indefinite": "uma erva-da-lua"
+    },
+    "items.key.panties_shard": {
+      "base": "fragmento de calcinha",
+      "definite": "o fragmento de calcinha",
+      "indefinite": "um fragmento de calcinha"
+    },
+    "items.key.rogue_panties": {
+      "base": "calcinha da ladina",
+      "definite": "a calcinha da ladina",
+      "indefinite": "uma calcinha da ladina"
+    },
+    "items.other.diamond": {
+      "base": "diamante",
+      "definite": "o diamante",
+      "indefinite": "um diamante",
+      "other": "diamantes"
+    },
+    "items.other.food": {
+      "base": "comida",
+      "definite": "a comida",
+      "indefinite": "uma comida",
+      "other": "comidas"
+    },
+    "items.other.gold": {
+      "base": "ouro",
+      "definite": "o ouro",
+      "indefinite": "ouro"
+    },
+    "items.other.key": {
+      "base": "chave",
+      "definite": "a chave",
+      "indefinite": "uma chave",
+      "other": "chaves"
+    },
+    "items.potions.generic": {
+      "base": "poção",
+      "definite": "a poção",
+      "indefinite": "uma poção",
+      "other": "poções"
+    },
+    "items.rings.acrobatics": {
+      "base": "anel da acrobacia",
+      "definite": "o anel da acrobacia",
+      "indefinite": "um anel da acrobacia"
+    },
+    "items.rings.assassination": {
+      "base": "anel do assassinato",
+      "definite": "o anel do assassinato",
+      "indefinite": "um anel do assassinato"
+    },
+    "items.rings.clairvoyance": {
+      "base": "anel da clarividência",
+      "definite": "o anel da clarividência",
+      "indefinite": "um anel da clarividência"
+    },
+    "items.rings.destruction": {
+      "base": "anel da destruição",
+      "definite": "o anel da destruição",
+      "indefinite": "um anel da destruição"
+    },
+    "items.rings.force": {
+      "base": "anel da força",
+      "definite": "o anel da força",
+      "indefinite": "um anel da força"
+    },
+    "items.rings.grace": {
+      "base": "anel da graça",
+      "definite": "o anel da graça",
+      "indefinite": "um anel da graça"
+    },
+    "items.rings.marksmanship": {
+      "base": "anel da pontaria",
+      "definite": "o anel da pontaria",
+      "indefinite": "um anel da pontaria"
+    },
+    "items.rings.recharging": {
+      "base": "anel da recarga",
+      "definite": "o anel da recarga",
+      "indefinite": "um anel da recarga"
+    },
+    "items.rings.regeneration": {
+      "base": "anel da regeneração",
+      "definite": "o anel da regeneração",
+      "indefinite": "um anel da regeneração"
+    },
+    "items.rings.shadow": {
+      "base": "anel das sombras",
+      "definite": "o anel das sombras",
+      "indefinite": "um anel das sombras"
+    },
+    "items.rings.specialization": {
+      "base": "anel da especialização",
+      "definite": "o anel da especialização",
+      "indefinite": "um anel da especialização"
+    },
+    "items.rings.sprinting": {
+      "base": "anel da corrida",
+      "definite": "o anel da corrida",
+      "indefinite": "um anel da corrida"
+    },
+    "items.rings.torque": {
+      "base": "anel do torque",
+      "definite": "o anel do torque",
+      "indefinite": "um anel do torque"
+    },
+    "items.rings.protection": {
+      "base": "anel da proteção",
+      "definite": "o anel da proteção",
+      "indefinite": "um anel da proteção"
+    },
+    "protection": {
+      "base": "proteção",
+      "definite": "a proteção",
+      "indefinite": "uma proteção"
+    },
+    "items.scrolls.enchant_armor": {
+      "base": "pergaminho de encantar armadura",
+      "definite": "o pergaminho de encantar armadura",
+      "indefinite": "um pergaminho de encantar armadura"
+    },
+    "items.scrolls.enchant_weapon": {
+      "base": "pergaminho de encantar arma",
+      "definite": "o pergaminho de encantar arma",
+      "indefinite": "um pergaminho de encantar arma"
+    },
+    "items.scrolls.enchantment": {
+      "base": "pergaminho de encantamento",
+      "definite": "o pergaminho de encantamento",
+      "indefinite": "um pergaminho de encantamento"
+    },
+    "items.scrolls.excavation": {
+      "base": "pergaminho de escavação",
+      "definite": "o pergaminho de escavação",
+      "indefinite": "um pergaminho de escavação"
+    },
+    "items.scrolls.generic": {
+      "base": "pergaminho",
+      "definite": "o pergaminho",
+      "indefinite": "um pergaminho",
+      "other": "pergaminhos"
+    },
+    "items.scrolls.magic_mapping": {
+      "base": "pergaminho de mapa mágico",
+      "definite": "o pergaminho de mapa mágico",
+      "indefinite": "um pergaminho de mapa mágico"
+    },
+    "items.scrolls.repeat": {
+      "base": "pergaminho da repetição",
+      "definite": "o pergaminho da repetição",
+      "indefinite": "um pergaminho da repetição"
+    },
+    "items.scrolls.return": {
+      "base": "pergaminho de retorno",
+      "definite": "o pergaminho de retorno",
+      "indefinite": "um pergaminho de retorno"
+    },
+    "items.scrolls.skill": {
+      "base": "pergaminho de habilidade",
+      "definite": "o pergaminho de habilidade",
+      "indefinite": "um pergaminho de habilidade"
+    },
+    "items.tomes.animate_weapon": {
+      "base": "tomo de animar arma",
+      "definite": "o tomo de animar arma",
+      "indefinite": "um tomo de animar arma"
+    },
+    "items.tomes.arrow_rain": {
+      "base": "tomo de chuva de flechas",
+      "definite": "o tomo de chuva de flechas",
+      "indefinite": "um tomo de chuva de flechas"
+    },
+    "items.tomes.briars": {
+      "base": "tomo de silvas",
+      "definite": "o tomo de silvas",
+      "indefinite": "um tomo de silvas"
+    },
+    "items.tomes.bridge": {
+      "base": "tomo de ponte",
+      "definite": "o tomo de ponte",
+      "indefinite": "um tomo de ponte"
+    },
+    "items.tomes.drain_life": {
+      "base": "tomo de drenar vida",
+      "definite": "o tomo de drenar vida",
+      "indefinite": "um tomo de drenar vida"
+    },
+    "items.tomes.entangling_vines": {
+      "base": "tomo de vinhas aprisionadoras",
+      "definite": "o tomo de vinhas aprisionadoras",
+      "indefinite": "um tomo de vinhas aprisionadoras"
+    },
+    "items.tomes.explosion": {
+      "base": "tomo de explosão",
+      "definite": "o tomo de explosão",
+      "indefinite": "um tomo de explosão"
+    },
+    "items.tomes.fire_wall": {
+      "base": "tomo de parede de fogo",
+      "definite": "o tomo de parede de fogo",
+      "indefinite": "um tomo de parede de fogo"
+    },
+    "items.tomes.fireball": {
+      "base": "tomo de bola de fogo",
+      "definite": "o tomo de bola de fogo",
+      "indefinite": "um tomo de bola de fogo"
+    },
+    "items.tomes.generic": {
+      "base": "tomo",
+      "definite": "o tomo",
+      "indefinite": "um tomo",
+      "other": "tomos"
+    },
+    "items.tomes.glacier": {
+      "base": "tomo de geleira",
+      "definite": "o tomo de geleira",
+      "indefinite": "um tomo de geleira"
+    },
+    "items.tomes.heal_area": {
+      "base": "tomo de cura em área",
+      "definite": "o tomo de cura em área",
+      "indefinite": "um tomo de cura em área"
+    },
+    "items.tomes.healing": {
+      "base": "tomo de cura",
+      "definite": "o tomo de cura",
+      "indefinite": "um tomo de cura"
+    },
+    "items.tomes.iceball": {
+      "base": "tomo de bola de gelo",
+      "definite": "o tomo de bola de gelo",
+      "indefinite": "um tomo de bola de gelo"
+    },
+    "items.tomes.iceblast": {
+      "base": "tomo de rajada de gelo",
+      "definite": "o tomo de rajada de gelo",
+      "indefinite": "um tomo de rajada de gelo"
+    },
+    "items.tomes.knockback": {
+      "base": "tomo de repulsão",
+      "definite": "o tomo de repulsão",
+      "indefinite": "um tomo de repulsão"
+    },
+    "items.tomes.lightning": {
+      "base": "tomo de raio",
+      "definite": "o tomo de raio",
+      "indefinite": "um tomo de raio"
+    },
+    "items.tomes.magic_pulse": {
+      "base": "tomo de pulso mágico",
+      "definite": "o tomo de pulso mágico",
+      "indefinite": "um tomo de pulso mágico"
+    },
+    "items.tomes.mirrors_edge": {
+      "base": "tomo do fio do espelho",
+      "definite": "o tomo do fio do espelho",
+      "indefinite": "um tomo do fio do espelho"
+    },
+    "items.tomes.multi_attack": {
+      "base": "tomo de multiataque",
+      "definite": "o tomo de multiataque",
+      "indefinite": "um tomo de multiataque"
+    },
+    "items.tomes.penetration_shot": {
+      "base": "tomo de tiro perfurante",
+      "definite": "o tomo de tiro perfurante",
+      "indefinite": "um tomo de tiro perfurante"
+    },
+    "items.tomes.permutation": {
+      "base": "tomo de transmutação",
+      "definite": "o tomo de transmutação",
+      "indefinite": "um tomo de transmutação"
+    },
+    "items.tomes.phantom_blades": {
+      "base": "tomo de lâminas fantasmas",
+      "definite": "o tomo de lâminas fantasmas",
+      "indefinite": "um tomo de lâminas fantasmas"
+    },
+    "items.tomes.poison_gas": {
+      "base": "tomo de gás venenoso",
+      "definite": "o tomo de gás venenoso",
+      "indefinite": "um tomo de gás venenoso"
+    },
+    "items.tomes.poison_ivy": {
+      "base": "tomo de hera venenosa",
+      "definite": "o tomo de hera venenosa",
+      "indefinite": "um tomo de hera venenosa"
+    },
+    "items.tomes.potion_blast": {
+      "base": "tomo de explosão de poção",
+      "definite": "o tomo de explosão de poção",
+      "indefinite": "um tomo de explosão de poção"
+    },
+    "items.tomes.reeds": {
+      "base": "tomo de juncos",
+      "definite": "o tomo de juncos",
+      "indefinite": "um tomo de juncos"
+    },
+    "items.tomes.short_teleport": {
+      "base": "tomo de teleporte curto",
+      "definite": "o tomo de teleporte curto",
+      "indefinite": "um tomo de teleporte curto"
+    },
+    "items.tomes.spin_attack": {
+      "base": "tomo de ataque giratório",
+      "definite": "o tomo de ataque giratório",
+      "indefinite": "um tomo de ataque giratório"
+    },
+    "items.tomes.toxic_shock": {
+      "base": "tomo de choque tóxico",
+      "definite": "o tomo de choque tóxico",
+      "indefinite": "um tomo de choque tóxico"
+    },
+    "items.tomes.trees": {
+      "base": "tomo de árvores",
+      "definite": "o tomo de árvores",
+      "indefinite": "um tomo de árvores"
+    },
+    "items.tomes.triple_arrows": {
+      "base": "tomo de flechas triplas",
+      "definite": "o tomo de flechas triplas",
+      "indefinite": "um tomo de flechas triplas"
+    },
+    "items.tomes.tunnel": {
+      "base": "tomo de túnel",
+      "definite": "o tomo de túnel",
+      "indefinite": "um tomo de túnel"
+    },
+    "items.tomes.water_elemental": {
+      "base": "tomo do elemental da água",
+      "definite": "o tomo do elemental da água",
+      "indefinite": "um tomo do elemental da água"
+    },
+    "items.tomes.water_jet": {
+      "base": "tomo de jato de água",
+      "definite": "o tomo de jato de água",
+      "indefinite": "um tomo de jato de água"
+    },
+    "items.tomes.web": {
+      "base": "tomo de teia",
+      "definite": "o tomo de teia",
+      "indefinite": "um tomo de teia"
+    },
+    "items.tools.camera": {
+      "base": "câmera",
+      "definite": "a câmera",
+      "indefinite": "uma câmera"
+    },
+    "items.tools.rosary": {
+      "base": "rosário",
+      "definite": "o rosário",
+      "indefinite": "um rosário"
+    },
+    "items.tools.watering_can": {
+      "base": "regador",
+      "definite": "o regador",
+      "indefinite": "um regador"
+    },
+    "items.weapons.axe": {
+      "base": "machado",
+      "definite": "o machado",
+      "indefinite": "um machado",
+      "other": "machados"
+    },
+    "items.weapons.bat": {
+      "base": "taco",
+      "definite": "o taco",
+      "indefinite": "um taco",
+      "other": "tacos"
+    },
+    "items.weapons.blowgun": {
+      "base": "zarabatana",
+      "definite": "a zarabatana",
+      "indefinite": "uma zarabatana",
+      "other": "zarabatanas"
+    },
+    "items.weapons.bow": {
+      "base": "arco",
+      "definite": "o arco",
+      "indefinite": "um arco",
+      "other": "arcos"
+    },
+    "items.weapons.chakram": {
+      "base": "chakram",
+      "definite": "o chakram",
+      "indefinite": "um chakram",
+      "other": "chakrams"
+    },
+    "items.weapons.claw": {
+      "base": "garra",
+      "definite": "a garra",
+      "indefinite": "uma garra",
+      "other": "garras"
+    },
+    "items.weapons.club": {
+      "base": "clava",
+      "definite": "a clava",
+      "indefinite": "uma clava",
+      "other": "clavas"
+    },
+    "items.weapons.dagger": {
+      "base": "adaga",
+      "definite": "a adaga",
+      "indefinite": "uma adaga",
+      "other": "adagas"
+    },
+    "items.weapons.garden_knife": {
+      "base": "faca de jardinagem",
+      "definite": "a faca de jardinagem",
+      "indefinite": "uma faca de jardinagem"
+    },
+    "items.weapons.halberd": {
+      "base": "alabarda",
+      "definite": "a alabarda",
+      "indefinite": "uma alabarda",
+      "other": "alabardas"
+    },
+    "items.weapons.hammer": {
+      "base": "martelo",
+      "definite": "o martelo",
+      "indefinite": "um martelo",
+      "other": "martelos"
+    },
+    "items.weapons.heros_sword": {
+      "base": "espada do herói",
+      "definite": "a espada do herói",
+      "indefinite": "uma espada do herói"
+    },
+    "items.weapons.katana": {
+      "base": "katana",
+      "definite": "a katana",
+      "indefinite": "uma katana",
+      "other": "katanas"
+    },
+    "items.weapons.kunai": {
+      "base": "kunai",
+      "definite": "a kunai",
+      "indefinite": "uma kunai",
+      "other": "kunais"
+    },
+    "items.weapons.kusarigama": {
+      "base": "kusarigama",
+      "definite": "a kusarigama",
+      "indefinite": "uma kusarigama",
+      "other": "kusarigamas"
+    },
+    "items.weapons.mace": {
+      "base": "maça",
+      "definite": "a maça",
+      "indefinite": "uma maça",
+      "other": "maças"
+    },
+    "items.weapons.musket_with_bayonet": {
+      "base": "mosquete com baioneta",
+      "definite": "o mosquete com baioneta",
+      "indefinite": "um mosquete com baioneta"
+    },
+    "items.weapons.nanakos_sword": {
+      "base": "espada de Nanako",
+      "definite": "a espada de Nanako",
+      "indefinite": "uma espada de Nanako"
+    },
+    "items.weapons.quarterstaff": {
+      "base": "bordão",
+      "definite": "o bordão",
+      "indefinite": "um bordão",
+      "other": "bordões"
+    },
+    "items.weapons.reapers_scythe": {
+      "base": "foice do ceifador",
+      "definite": "a foice do ceifador",
+      "indefinite": "uma foice do ceifador"
+    },
+    "items.weapons.revolver": {
+      "base": "revólver",
+      "definite": "o revólver",
+      "indefinite": "um revólver",
+      "other": "revólveres"
+    },
+    "items.weapons.rifle": {
+      "base": "rifle",
+      "definite": "o rifle",
+      "indefinite": "um rifle",
+      "other": "rifles"
+    },
+    "items.weapons.rod": {
+      "base": "vara",
+      "definite": "a vara",
+      "indefinite": "uma vara",
+      "other": "varas"
+    },
+    "items.weapons.scythe": {
+      "base": "foice",
+      "definite": "a foice",
+      "indefinite": "uma foice",
+      "other": "foices"
+    },
+    "items.weapons.shinai": {
+      "base": "shinai",
+      "definite": "o shinai",
+      "indefinite": "um shinai",
+      "other": "shinais"
+    },
+    "items.weapons.shuriken": {
+      "base": "shuriken",
+      "definite": "a shuriken",
+      "indefinite": "uma shuriken",
+      "other": "shurikens"
+    },
+    "items.weapons.spear": {
+      "base": "lança",
+      "definite": "a lança",
+      "indefinite": "uma lança",
+      "other": "lanças"
+    },
+    "items.weapons.staff": {
+      "base": "cajado",
+      "definite": "o cajado",
+      "indefinite": "um cajado",
+      "other": "cajados"
+    },
+    "items.weapons.stick": {
+      "base": "graveto",
+      "definite": "o graveto",
+      "indefinite": "um graveto",
+      "other": "gravetos"
+    },
+    "items.weapons.sword": {
+      "base": "espada",
+      "definite": "a espada",
+      "indefinite": "uma espada",
+      "other": "espadas"
+    },
+    "items.weapons.tornes_shortsword": {
+      "base": "espada curta de Torne",
+      "definite": "a espada curta de Torne",
+      "indefinite": "uma espada curta de Torne"
+    },
+    "items.weapons.towel": {
+      "base": "toalha",
+      "definite": "a toalha",
+      "indefinite": "uma toalha",
+      "other": "toalhas"
+    },
+    "items.weapons.whip": {
+      "base": "chicote",
+      "definite": "o chicote",
+      "indefinite": "um chicote",
+      "other": "chicotes"
+    },
+    "jellyfish": {
+      "base": "água-viva",
+      "definite": "a água-viva",
+      "indefinite": "uma água-viva",
+      "other": "águas-vivas"
+    },
+    "jessica": {
+      "base": "Jessica",
+      "definite": "a Jessica",
+      "indefinite": "uma Jessica"
+    },
+    "kelp": {
+      "base": "alga",
+      "definite": "a alga",
+      "indefinite": "uma alga",
+      "other": "algas"
+    },
+    "kino": {
+      "base": "Kino",
+      "definite": "a Kino",
+      "indefinite": "uma Kino"
+    },
+    "kira": {
+      "base": "Kira",
+      "definite": "a Kira",
+      "indefinite": "uma Kira"
+    },
+    "kobold_archer": {
+      "base": "arqueiro kobold",
+      "definite": "o arqueiro kobold",
+      "indefinite": "um arqueiro kobold",
+      "other": "arqueiros kobold"
+    },
+    "kobold_assassin": {
+      "base": "assassino kobold",
+      "definite": "o assassino kobold",
+      "indefinite": "um assassino kobold",
+      "other": "assassinos kobold"
+    },
+    "kobold_blowgunner": {
+      "base": "atirador de zarabatana kobold",
+      "definite": "o atirador de zarabatana kobold",
+      "indefinite": "um atirador de zarabatana kobold",
+      "other": "atiradores de zarabatana kobold"
+    },
+    "kobold_bomb_thrower": {
+      "base": "lançador de bombas kobold",
+      "definite": "o lançador de bombas kobold",
+      "indefinite": "um lançador de bombas kobold",
+      "other": "lançadores de bombas kobold"
+    },
+    "kobold_shaman": {
+      "base": "xamã kobold",
+      "definite": "o xamã kobold",
+      "indefinite": "um xamã kobold",
+      "other": "xamãs kobold"
+    },
+    "kobold_stabber": {
+      "base": "esfaqueador kobold",
+      "definite": "o esfaqueador kobold",
+      "indefinite": "um esfaqueador kobold",
+      "other": "esfaqueadores kobold"
+    },
+    "kobold_trapper": {
+      "base": "caçador de armadilhas kobold",
+      "definite": "o caçador de armadilhas kobold",
+      "indefinite": "um caçador de armadilhas kobold",
+      "other": "caçadores de armadilhas kobold"
+    },
+    "kobold_wizard": {
+      "base": "mago kobold",
+      "definite": "o mago kobold",
+      "indefinite": "um mago kobold",
+      "other": "magos kobold"
+    },
+    "kuma_chan": {
+      "base": "Kuma-chan",
+      "definite": "o Kuma-chan",
+      "indefinite": "um Kuma-chan"
+    },
+    "lamp": {
+      "base": "lâmpada",
+      "definite": "a lâmpada",
+      "indefinite": "uma lâmpada",
+      "other": "lâmpadas"
+    },
+    "lava": {
+      "base": "lava",
+      "definite": "a lava",
+      "indefinite": "lava"
+    },
+    "lava_worm": {
+      "base": "verme de lava",
+      "definite": "o verme de lava",
+      "indefinite": "um verme de lava",
+      "other": "vermes de lava"
+    },
+    "lich": {
+      "base": "lich",
+      "definite": "o lich",
+      "indefinite": "um lich",
+      "other": "liches"
+    },
+    "lilypad": {
+      "base": "vitória-régia",
+      "definite": "a vitória-régia",
+      "indefinite": "uma vitória-régia",
+      "other": "vitórias-régias"
+    },
+    "limb_body": {
+      "base": "corpo",
+      "definite": "o corpo",
+      "indefinite": "um corpo"
+    },
+    "limb_hand": {
+      "base": "mão",
+      "definite": "a mão",
+      "indefinite": "uma mão",
+      "other": "mãos"
+    },
+    "limb_left_hand": {
+      "base": "mão esquerda",
+      "definite": "a mão esquerda",
+      "indefinite": "uma mão esquerda"
+    },
+    "limb_off_hand": {
+      "base": "mão secundária",
+      "definite": "a mão secundária",
+      "indefinite": "uma mão secundária"
+    },
+    "limb_right_hand": {
+      "base": "mão direita",
+      "definite": "a mão direita",
+      "indefinite": "uma mão direita"
+    },
+    "limb_ring": {
+      "base": "dedo do anel",
+      "definite": "o dedo do anel",
+      "indefinite": "um dedo do anel",
+      "other": "dedos do anel"
+    },
+    "lizza": {
+      "base": "Lizza",
+      "definite": "a Lizza",
+      "indefinite": "uma Lizza"
+    },
+    "lock_block": {
+      "base": "bloco de tranca",
+      "definite": "o bloco de tranca",
+      "indefinite": "um bloco de tranca",
+      "other": "blocos de tranca"
+    },
+    "mage": {
+      "base": "mago",
+      "definite": "o mago",
+      "indefinite": "um mago",
+      "other": "magos"
+    },
+    "magic_missile": {
+      "base": "projétil mágico",
+      "definite": "o projétil mágico",
+      "indefinite": "um projétil mágico",
+      "other": "projéteis mágicos"
+    },
+    "mimic": {
+      "base": "mímico",
+      "definite": "o mímico",
+      "indefinite": "um mímico",
+      "other": "mímicos"
+    },
+    "miran": {
+      "base": "Miran",
+      "definite": "a Miran",
+      "indefinite": "uma Miran"
+    },
+    "mirror_golem": {
+      "base": "golem de espelho",
+      "definite": "o golem de espelho",
+      "indefinite": "um golem de espelho",
+      "other": "golems de espelho"
+    },
+    "misc.action": {
+      "base": "ação",
+      "definite": "a ação",
+      "indefinite": "uma ação",
+      "other": "ações"
+    },
+    "misc.attack": {
+      "base": "ataque",
+      "definite": "o ataque",
+      "indefinite": "um ataque",
+      "other": "ataques"
+    },
+    "misc.charge": {
+      "base": "carga",
+      "definite": "a carga",
+      "indefinite": "uma carga",
+      "other": "cargas"
+    },
+    "misc.companion": {
+      "base": "companheiro",
+      "definite": "o companheiro",
+      "indefinite": "um companheiro",
+      "other": "companheiros"
+    },
+    "misc.second": {
+      "base": "segundo",
+      "definite": "o segundo",
+      "indefinite": "um segundo",
+      "other": "segundos"
+    },
+    "misc.stack": {
+      "base": "acúmulo",
+      "definite": "o acúmulo",
+      "indefinite": "um acúmulo",
+      "other": "acúmulos"
+    },
+    "misc.summon": {
+      "base": "invocação",
+      "definite": "a invocação",
+      "indefinite": "uma invocação",
+      "other": "invocações"
+    },
+    "misc.tile": {
+      "base": "quadrado",
+      "definite": "o quadrado",
+      "indefinite": "um quadrado",
+      "other": "quadrados"
+    },
+    "misc.turn": {
+      "base": "turno",
+      "definite": "o turno",
+      "indefinite": "um turno",
+      "other": "turnos"
+    },
+    "monster": {
+      "base": "monstro",
+      "definite": "o monstro",
+      "indefinite": "um monstro",
+      "other": "monstros"
+    },
+    "mummy": {
+      "base": "múmia",
+      "definite": "a múmia",
+      "indefinite": "uma múmia",
+      "other": "múmias"
+    },
+    "myconid": {
+      "base": "micônide",
+      "definite": "o micônide",
+      "indefinite": "um micônide",
+      "other": "micônides"
+    },
+    "nanako": {
+      "base": "Nanako",
+      "definite": "a Nanako",
+      "indefinite": "uma Nanako"
+    },
+    "nothing": {
+      "base": "nada",
+      "definite": "nada",
+      "indefinite": "nada"
+    },
+    "octopus": {
+      "base": "polvo",
+      "definite": "o polvo",
+      "indefinite": "um polvo",
+      "other": "polvos"
+    },
+    "ophelia": {
+      "base": "Ophelia",
+      "definite": "a Ophelia",
+      "indefinite": "uma Ophelia"
+    },
+    "paila": {
+      "base": "Paila",
+      "definite": "a Paila",
+      "indefinite": "uma Paila"
+    },
+    "painting": {
+      "base": "pintura",
+      "definite": "a pintura",
+      "indefinite": "uma pintura",
+      "other": "pinturas"
+    },
+    "parched_reeds": {
+      "base": "juncos secos",
+      "definite": "os juncos secos",
+      "indefinite": "juncos secos",
+      "plural": true
+    },
+    "parched_tree": {
+      "base": "árvore seca",
+      "definite": "a árvore seca",
+      "indefinite": "uma árvore seca",
+      "other": "árvores secas"
+    },
+    "party": {
+      "base": "grupo",
+      "definite": "o grupo",
+      "indefinite": "um grupo",
+      "other": "grupos"
+    },
+    "party_alone": {
+      "base": "sozinho",
+      "definite": "sozinho",
+      "indefinite": "sozinho"
+    },
+    "pila": {
+      "base": "Pila",
+      "definite": "a Pila",
+      "indefinite": "uma Pila"
+    },
+    "piranha": {
+      "base": "piranha",
+      "definite": "a piranha",
+      "indefinite": "uma piranha",
+      "other": "piranhas"
+    },
+    "poison_bubble": {
+      "base": "bolha de veneno",
+      "definite": "a bolha de veneno",
+      "indefinite": "uma bolha de veneno",
+      "other": "bolhas de veneno"
+    },
+    "poison_ivy": {
+      "base": "hera venenosa",
+      "definite": "a hera venenosa",
+      "indefinite": "uma hera venenosa",
+      "other": "heras venenosas"
+    },
+    "poison_puddle": {
+      "base": "poça de veneno",
+      "definite": "a poça de veneno",
+      "indefinite": "uma poça de veneno",
+      "other": "poças de veneno"
+    },
+    "poison_shore": {
+      "base": "margem venenosa",
+      "definite": "a margem venenosa",
+      "indefinite": "uma margem venenosa",
+      "other": "margens venenosas"
+    },
+    "poison_water": {
+      "base": "água envenenada",
+      "definite": "a água envenenada",
+      "indefinite": "água envenenada"
+    },
+    "porcupine": {
+      "base": "porco-espinho",
+      "definite": "o porco-espinho",
+      "indefinite": "um porco-espinho",
+      "other": "porcos-espinhos"
+    },
+    "portal": {
+      "base": "portal",
+      "definite": "o portal",
+      "indefinite": "um portal",
+      "other": "portais"
+    },
+    "pot": {
+      "base": "vaso",
+      "definite": "o vaso",
+      "indefinite": "um vaso",
+      "other": "vasos"
+    },
+    "pressure_plate": {
+      "base": "placa de pressão",
+      "definite": "a placa de pressão",
+      "indefinite": "uma placa de pressão",
+      "other": "placas de pressão"
+    },
+    "pub_sign": {
+      "base": "placa da taberna",
+      "definite": "a placa da taberna",
+      "indefinite": "uma placa da taberna"
+    },
+    "puddle": {
+      "base": "poça",
+      "definite": "a poça",
+      "indefinite": "uma poça",
+      "other": "poças"
+    },
+    "quest_board": {
+      "base": "mural de missões",
+      "definite": "o mural de missões",
+      "indefinite": "um mural de missões",
+      "other": "murais de missões"
+    },
+    "quickling": {
+      "base": "ligeirinho",
+      "definite": "o ligeirinho",
+      "indefinite": "um ligeirinho",
+      "other": "ligeirinhos"
+    },
+    "quinn": {
+      "base": "Quinn",
+      "definite": "a Quinn",
+      "indefinite": "uma Quinn"
+    },
+    "rat": {
+      "base": "rato",
+      "definite": "o rato",
+      "indefinite": "um rato",
+      "other": "ratos"
+    },
+    "rattlesnake": {
+      "base": "cascavel",
+      "definite": "a cascavel",
+      "indefinite": "uma cascavel",
+      "other": "cascaveis"
+    },
+    "reaper": {
+      "base": "ceifador",
+      "definite": "o ceifador",
+      "indefinite": "um ceifador",
+      "other": "ceifadores"
+    },
+    "red_mat": {
+      "base": "tapete vermelho",
+      "definite": "o tapete vermelho",
+      "indefinite": "um tapete vermelho",
+      "other": "tapetes vermelhos"
+    },
+    "reeds": {
+      "base": "juncos",
+      "definite": "os juncos",
+      "indefinite": "juncos",
+      "plural": true
+    },
+    "resident": {
+      "base": "morador",
+      "definite": "o morador",
+      "indefinite": "um morador",
+      "other": "moradores"
+    },
+    "return_glyph": {
+      "base": "glifo de retorno",
+      "definite": "o glifo de retorno",
+      "indefinite": "um glifo de retorno",
+      "other": "glifos de retorno"
+    },
+    "rock": {
+      "base": "rocha",
+      "definite": "a rocha",
+      "indefinite": "uma rocha",
+      "other": "rochas"
+    },
+    "rock_golem": {
+      "base": "golem de rocha",
+      "definite": "o golem de rocha",
+      "indefinite": "um golem de rocha",
+      "other": "golems de rocha"
+    },
+    "rogue": {
+      "base": "ladina",
+      "definite": "a ladina",
+      "indefinite": "uma ladina",
+      "other": "ladinas"
+    },
+    "ruri": {
+      "base": "Ruri",
+      "definite": "a Ruri",
+      "indefinite": "uma Ruri"
+    },
+    "sandworm": {
+      "base": "verme da areia",
+      "definite": "o verme da areia",
+      "indefinite": "um verme da areia",
+      "other": "vermes da areia"
+    },
+    "big_dune_worm": {
+      "base": "verme gigante das dunas",
+      "definite": "o verme gigante das dunas",
+      "indefinite": "um verme gigante das dunas",
+      "other": "vermes gigantes das dunas"
+    },
+    "sand_elemental": {
+      "base": "elemental de areia",
+      "definite": "o elemental de areia",
+      "indefinite": "um elemental de areia",
+      "other": "elementais de areia"
+    },
+    "scorpion": {
+      "base": "escorpião",
+      "definite": "o escorpião",
+      "indefinite": "um escorpião",
+      "other": "escorpiões"
+    },
+    "seri": {
+      "base": "Seri",
+      "definite": "a Seri",
+      "indefinite": "uma Seri"
+    },
+    "shadow": {
+      "base": "sombra",
+      "definite": "a sombra",
+      "indefinite": "uma sombra",
+      "other": "sombras"
+    },
+    "shallow_water": {
+      "base": "águas rasas",
+      "definite": "as águas rasas",
+      "indefinite": "águas rasas"
+    },
+    "shapeshifter": {
+      "base": "metamorfo",
+      "definite": "o metamorfo",
+      "indefinite": "um metamorfo",
+      "other": "metamorfos"
+    },
+    "shark": {
+      "base": "tubarão",
+      "definite": "o tubarão",
+      "indefinite": "um tubarão",
+      "other": "tubarões"
+    },
+    "skeleton": {
+      "base": "esqueleto",
+      "definite": "o esqueleto",
+      "indefinite": "um esqueleto",
+      "other": "esqueletos"
+    },
+    "skeleton_archer": {
+      "base": "esqueleto arqueiro",
+      "definite": "o esqueleto arqueiro",
+      "indefinite": "um esqueleto arqueiro",
+      "other": "esqueletos arqueiros"
+    },
+    "skeleton_bones": {
+      "base": "ossos de esqueleto",
+      "definite": "os ossos de esqueleto",
+      "indefinite": "ossos de esqueleto",
+      "plural": true
+    },
+    "skeleton_mage": {
+      "base": "esqueleto mago",
+      "definite": "o esqueleto mago",
+      "indefinite": "um esqueleto mago",
+      "other": "esqueletos magos"
+    },
+    "skeleton_rat": {
+      "base": "rato esqueleto",
+      "definite": "o rato esqueleto",
+      "indefinite": "um rato esqueleto",
+      "other": "ratos esqueleto"
+    },
+    "skeleton_swordsman": {
+      "base": "esqueleto espadachim",
+      "definite": "o esqueleto espadachim",
+      "indefinite": "um esqueleto espadachim",
+      "other": "esqueletos espadachins"
+    },
+    "slime": {
+      "base": "slime",
+      "definite": "o slime",
+      "indefinite": "um slime",
+      "other": "slimes"
+    },
+    "slime_large": {
+      "base": "slime grande",
+      "definite": "o slime grande",
+      "indefinite": "um slime grande",
+      "other": "slimes grandes"
+    },
+    "slime_xl": {
+      "base": "slime gigante",
+      "definite": "o slime gigante",
+      "indefinite": "um slime gigante",
+      "other": "slimes gigantes"
+    },
+    "snail": {
+      "base": "caracol",
+      "definite": "o caracol",
+      "indefinite": "um caracol",
+      "other": "caracóis"
+    },
+    "snow_wisp": {
+      "base": "espírito da neve",
+      "definite": "o espírito da neve",
+      "indefinite": "um espírito da neve",
+      "other": "espíritos da neve"
+    },
+    "something": {
+      "base": "algo",
+      "definite": "algo",
+      "indefinite": "algo"
+    },
+    "spider": {
+      "base": "aranha",
+      "definite": "a aranha",
+      "indefinite": "uma aranha",
+      "other": "aranhas"
+    },
+    "spiderweb": {
+      "base": "teia de aranha",
+      "definite": "a teia de aranha",
+      "indefinite": "uma teia de aranha",
+      "other": "teias de aranha"
+    },
+    "spikes": {
+      "base": "espinhos",
+      "definite": "os espinhos",
+      "indefinite": "espinhos",
+      "plural": true
+    },
+    "stack_of_clothes": {
+      "base": "pilha de roupas",
+      "definite": "a pilha de roupas",
+      "indefinite": "uma pilha de roupas",
+      "other": "pilhas de roupas"
+    },
+    "stairs_down": {
+      "base": "escadas para baixo",
+      "definite": "as escadas para baixo",
+      "indefinite": "escadas para baixo",
+      "plural": true
+    },
+    "stairs_up": {
+      "base": "escadas para cima",
+      "definite": "as escadas para cima",
+      "indefinite": "escadas para cima",
+      "plural": true
+    },
+    "steam_vent": {
+      "base": "respiradouro de vapor",
+      "definite": "o respiradouro de vapor",
+      "indefinite": "um respiradouro de vapor",
+      "other": "respiradouros de vapor"
+    },
+    "stone_path": {
+      "base": "caminho de pedra",
+      "definite": "o caminho de pedra",
+      "indefinite": "um caminho de pedra"
+    },
+    "stone_wall": {
+      "base": "parede de pedra",
+      "definite": "a parede de pedra",
+      "indefinite": "uma parede de pedra",
+      "other": "paredes de pedra"
+    },
+    "t_rex": {
+      "base": "t-rex",
+      "definite": "o t-rex",
+      "indefinite": "um t-rex",
+      "other": "t-rexes"
+    },
+    "table": {
+      "base": "mesa",
+      "definite": "a mesa",
+      "indefinite": "uma mesa",
+      "other": "mesas"
+    },
+    "table_with_pawnsboard": {
+      "base": "tabuleiro de jogo",
+      "definite": "o tabuleiro de jogo",
+      "indefinite": "um tabuleiro de jogo"
+    },
+    "toad": {
+      "base": "sapo",
+      "definite": "o sapo",
+      "indefinite": "um sapo",
+      "other": "sapos"
+    },
+    "torne": {
+      "base": "Torne",
+      "definite": "a Torne",
+      "indefinite": "uma Torne"
+    },
+    "town_sign": {
+      "base": "placa da cidade",
+      "definite": "a placa da cidade",
+      "indefinite": "uma placa da cidade"
+    },
+    "training_dummy": {
+      "base": "boneco de treino",
+      "definite": "o boneco de treino",
+      "indefinite": "um boneco de treino",
+      "other": "bonecos de treino"
+    },
+    "trav": {
+      "base": "Trav",
+      "definite": "o Trav",
+      "indefinite": "um Trav"
+    },
+    "tree": {
+      "base": "árvore",
+      "definite": "a árvore",
+      "indefinite": "uma árvore",
+      "other": "árvores"
+    },
+    "troll": {
+      "base": "troll",
+      "definite": "o troll",
+      "indefinite": "um troll",
+      "other": "trolls"
+    },
+    "vampire": {
+      "base": "vampiro",
+      "definite": "o vampiro",
+      "indefinite": "um vampiro",
+      "other": "vampiros"
+    },
+    "velociraptor": {
+      "base": "velociraptor",
+      "definite": "o velociraptor",
+      "indefinite": "um velociraptor",
+      "other": "velociraptores"
+    },
+    "vent": {
+      "base": "respiradouro",
+      "definite": "o respiradouro",
+      "indefinite": "um respiradouro",
+      "other": "respiradouros"
+    },
+    "viola": {
+      "base": "Viola",
+      "definite": "a Viola",
+      "indefinite": "uma Viola"
+    },
+    "wall": {
+      "base": "parede",
+      "definite": "a parede",
+      "indefinite": "uma parede",
+      "other": "paredes"
+    },
+    "wasp": {
+      "base": "vespa",
+      "definite": "a vespa",
+      "indefinite": "uma vespa",
+      "other": "vespas"
+    },
+    "wasp_hive": {
+      "base": "colmeia de vespas",
+      "definite": "a colmeia de vespas",
+      "indefinite": "uma colmeia de vespas",
+      "other": "colmeias de vespas"
+    },
+    "water_elemental": {
+      "base": "elemental de água",
+      "definite": "o elemental de água",
+      "indefinite": "um elemental de água",
+      "other": "elementais de água"
+    },
+    "will_o_wisp": {
+      "base": "fogo-fátuo",
+      "definite": "o fogo-fátuo",
+      "indefinite": "um fogo-fátuo",
+      "other": "fogos-fátuos"
+    },
+    "wood_counter": {
+      "base": "balcão de madeira",
+      "definite": "o balcão de madeira",
+      "indefinite": "um balcão de madeira",
+      "other": "balcões de madeira"
+    },
+    "wood_fence": {
+      "base": "cerca de madeira",
+      "definite": "a cerca de madeira",
+      "indefinite": "uma cerca de madeira",
+      "other": "cercas de madeira"
+    },
+    "xena": {
+      "base": "Xena",
+      "definite": "a Xena",
+      "indefinite": "uma Xena"
+    },
+    "you": {
+      "base": "você",
+      "definite": "você",
+      "indefinite": "você"
+    },
+    "yuu": {
+      "base": "Yuu",
+      "definite": "a Yuu",
+      "indefinite": "uma Yuu"
+    }
+  },
+  "separators": {
+    "comma": ", "
+  }
+}

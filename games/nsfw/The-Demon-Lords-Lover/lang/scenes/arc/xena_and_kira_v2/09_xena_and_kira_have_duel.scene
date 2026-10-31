@@ -1,0 +1,201 @@
+[name] Assista ao duelo de Xena e Kira (→ noite)
+[cast a=Hero, ch=Charis, k=Kira, x=Xena]
+Xena e Kira estão se aquecendo para o duelo.
+
+[show portrait ch normal]
+O pai de Xena está andando pela sala.
+
+ch: Ah, é aluno de Xena. {heroname}, foi?
+
+a: Ah, sim.
+
+ch: Por acaso você sabe o que aconteceu entre Xena e Kira?
+
+ch: Para ser sincero, não sei por que esse duelo está acontecendo.
+
+ch: Sempre tive dificuldade em entender minhas filhas.
+
+a: Acho que eles têm muito que resolver...
+
+[show portrait x normal]
+x: Vamos começar? Pai, você pode ser a testemunha. Mesmo tendo certeza de que você é tendencioso quanto ao resultado, confiarei em você. Você está bem com isso, Kira?
+
+[show portrait k tired]
+k: Sim.
+
+Kira parece um pouco cansada...
+
+Quero dizer, dado tudo o que aconteceu ontem, isso faz sentido...
+
+[hide portrait]
+Os dois se enfrentam no centro do dojo.
+
+[show portrait ch normal]
+O pai de Xena fica entre eles.
+
+ch: Os termos do duelo são os seguintes: Lute até que alguém ceda ou até que eu determine uma vantagem decisiva.
+
+[hide portrait]
+Xena e Kira assentem.
+
+[show portrait ch normal]
+ch: Pronto?
+
+ch: Lute!
+
+[hide all]
+[show cg kira_vs_xena]
+E assim que o pai de Xena diz isso, Xena voa até Kira e inicia uma violenta saraivada de socos e chutes.
+
+Você nunca viu Xena assim...
+
+Kira bloqueia e desvia com movimentos precisos, mas mostra um pouco de dor ao bloquear.
+
+Quando Xena percebe que seus ataques não estão acertando, ela diminui a velocidade por um momento, mas então Kira contra-ataca com um golpe preciso que atinge o rosto de Xena.
+
+x: Kira, você ficou mais forte...
+
+k: ...
+
+E Kira começa seus próprios ataques. Um soco bloqueado, um direto bloqueado, um chute bloqueado, um pouco de indireção e depois uma varredura com o pé que coloca Xena de costas.
+
+Kira se ajoelha como se fosse dar um soco nela, mas o movimento tem um toque de... hesitação? E Xena a chuta e se levanta.
+
+Por um tempo, Xena e Kira atacam, bloqueiam e desviam.
+
+[hide all]
+[show portrait k normal]
+Então, por um momento, Kira fica parada com uma expressão vazia, e Xena prontamente acerta um chute lateral em seu rosto, derrubando-a.
+
+[show portrait x surprised]
+Xena olha para Kira em estado de choque.
+
+[show portrait ch exasperated]
+ch: Acabou.
+
+[show portrait x surprised]
+x: K-kira, você está bem?
+
+[show portrait k tired]
+Kira se levanta lentamente.
+
+k: Sim...
+
+k: Você conseguiu, irmã.
+
+k: Papai e eu iremos para casa.
+
+[show portrait x serious]
+x: No final - você apenas ficou lá!
+
+[show portrait k normal]
+Kira mostra um sorriso gentil.
+
+k: Esse chute... foi mais rápido do que eu esperava.
+
+[show portrait x serious]
+x: Não minta para mim...
+
+x: Eu sei que você se conteve...
+
+[show portrait k crying]
+k: ...
+
+k: Vamos lá, Xena... Como se você não tivesse pegado leve comigo durante toda a minha vida... Não posso ficar com essa?
+
+k: Eu entendi os sentimentos do papai: você deveria ficar aqui! E eu sei que fiz uma coisa horrível: queria pagar por isso! Então pensei em te dar a sua vitória...
+
+k: Vou para casa... ficarei bem.
+
+[show portrait x serious]
+x: ...
+
+x: Eu abandonei você... e sinto muito.
+
+x: Esse tempo todo menti para mim mesmo que não tive escolha. Mesmo ontem à noite, quando pensamentos como "Eu causei isso?" apareceu, eu continuei dizendo isso a mim mesmo.
+
+[show portrait k tired]
+k: É compreensível, no entanto.
+
+[show portrait x serious]
+x: Não, não é!
+
+x: Eu não fui forte o suficiente para conversar com meu pai, desafiá-lo para um duelo, qualquer coisa! Então eu simplesmente fugi!
+
+[show portrait ch normal]
+ch: ...
+
+[show portrait ch exasperated]
+ch: Xena... Kira...
+
+ch: Chega. Deixe-me assumir a culpa. Não sei toda a extensão do que aconteceu entre vocês, mas sei de uma coisa: aconteceu por causa da minha fraqueza.
+
+ch: Depois que Ru faleceu... eu expulsei Xena do dojo...
+
+ch: E depois disso, deixei de cumprir meus deveres no dojo.
+
+[show portrait ch normal]
+ch: E Kira teve que intervir.
+
+[show portrait k tired]
+Kira está olhando para baixo.
+
+[show portrait x serious]
+x: Kira... eu não sabia...
+
+[show portrait ch normal]
+ch: Kira, sou grato a você por seu trabalho duro. Mas deixe-me assumir o dojo daqui. Você pode voltar a ser estudante... e minha filha.
+
+[show portrait k tired]
+k: Papai...
+
+[show portrait x serious]
+x: Pai, não há problema em sofrer. Mas percebo que deveríamos ter sofrido juntos, em vez de separadamente.
+
+[show portrait x disappointed]
+x: Então, hum... não vá para casa ainda.
+
+x: Devíamos passar algum tempo juntos como uma família... apenas nos divertindo...
+
+[show portrait x normal]
+x: Você não está com pressa de voltar, está?
+
+x: Podemos fazer isso, certo?
+
+[show portrait k tired]
+k: Xena...
+
+[show portrait ch blushing]
+ch: Fechamos o dojo. Então temos algum tempo...
+
+[show portrait x normal]
+Xena parece aliviada.
+
+[show portrait x disappointed]
+x: Bom... Você percorreu um longo caminho. Então seria um desperdício se você já tivesse que sair!
+
+x: Além disso... senti falta de vocês...
+
+[hide portrait]
+Xena dá um abraço em seu pai e sua irmã. Seu pai e sua irmã se abraçam de volta com alguma incerteza...
+
+Acabou... por enquanto.
+
+[show portrait k normal]
+Mais tarde, depois que as coisas se acalmam, Kira vem até você.
+
+Ela se inclina e sussurra em seu ouvido.
+
+[if seen(kira_has_sex)]
+    [show portrait k staring]
+    k: Parece que você terá a chance de colocar aquele bebê em mim, afinal...
+[else]
+    [show portrait k staring]
+    k: Parece que vamos passar mais tempo juntos...
+
+[show portrait k normal]
+Ah, Deus...
+
+[hide portrait]
+
+[scene xena_train]

@@ -1,0 +1,6 @@
+[name] Sair
+[cast s=Seri]
+s: Venha visitar novamente algum dia.
+[if not MEMORIES_MODE]
+    [goto-evening()]
+    [regenerate-demon-lord-room()]

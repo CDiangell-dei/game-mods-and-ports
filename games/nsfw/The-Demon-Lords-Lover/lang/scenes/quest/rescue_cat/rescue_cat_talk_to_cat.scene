@@ -1,0 +1,36 @@
+[cast b=Bell, n=Nanako]
+[show portrait b smiling]
+b: Existe sim!! O gato!!
+
+[show portrait n smiling]
+n: Sou só eu... ou aquele gato é bem maior do que na foto?
+
+n: Acho que esse gato não tem nada que se possa comparar na foto...
+
+[show portrait n normal]
+n: E parece agressivo.
+
+[show portrait b smiling]
+b: Uau! Dá medo... devíamos ter trazido algumas guloseimas!
+
+[show portrait b laughing]
+b: Ainda bem que trouxemos alguns!!
+
+[show portrait n smiling]
+n: Oh querido... você só pode estar brincando comigo...
+
+[show portrait b smiling]
+Bell dá as guloseimas. O gato se aproxima lentamente da comida.
+
+[hide portrait]
+Mas em vez de comê-lo, de repente salta sobre Bell e a ataca.
+
+[floor-song tension]
+Bell, que é pego de surpresa, é nocauteado.
+[bell-fall-skipping-triggers()]
+
+[show portrait n serious]
+n: {heroname}, é hora de agir.
+
+n: Esqueça a missão, é hora de fazer o que for necessário para salvar Bell.
+[cat-becomes-hostile()]

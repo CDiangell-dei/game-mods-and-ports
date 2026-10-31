@@ -1,0 +1,8 @@
+[name] Retomar romance
+[cast a=Hero, k=Kira]
+[scene kira_first_time_at_the_inn]
+[if not MEMORIES_MODE]
+    [rmv-companions()]
+    [goto-tomorrow-morning()]
+
+[end]

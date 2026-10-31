@@ -1,0 +1,5 @@
+[cast a=Hero, ch=Charis, x=Xena]
+[show portrait ch normal]
+ch: Impressionante!
+
+[end-dojo-challenge()]

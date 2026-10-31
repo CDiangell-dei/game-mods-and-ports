@@ -1,0 +1,132 @@
+[name] Treine com Viola (→ noite)
+[cast a=Hero, v=Viola]
+[set TODAY_I_TRAINED_IN_THE_DOJO_WITH_VIOLA]
+[show portrait v normal]
+a: Ei, hum, você quer treinar juntos?
+
+Ela não sabe como reagir imediatamente.
+
+v: Hum, o que você quer fazer?
+
+Você não pensou tão longe...
+
+Viola percebe sua hesitação e fala.
+
+v: Hum, que tal um exercício de parceiro que eu costumava fazer quando era cavaleiro?
+
+a: Ok!
+
+[hide all]
+[show cg viola_dojo_sunset]
+Você pega uma espada de treino e a enfrenta.
+
+[if have-kendoka-feat()]
+    Você adota uma postura de kendo...
+
+[else]
+    Você assume uma postura baseada na sua intuição...
+
+Viola faz uma pausa.
+
+Talvez seja sua imaginação, mas ela parece perturbada...
+
+a: Há algo errado?
+
+v: Hmmm... talvez a furadeira parceira não tenha sido a escolha certa.
+
+v: É um movimento meio rígido... Não quero pedir para você mudar de postura.
+
+a: Como assim?
+
+v: Você tem seu próprio estilo de luta... e é eficaz.
+
+a: Ah, está tudo bem. Estou interessado em saber como você treina... treinou.
+
+a: Você pode me mostrar?
+
+Ela concorda e faz o possível para demonstrar.
+
+a: Assim?
+
+Viola hesita.
+
+a: Corrija-me, professor!
+
+Viola cora...
+
+a: Se quisermos fazer isso, devemos fazer o nosso melhor.
+
+Viola assente.
+
+E depois de alguma hesitação, ela se aproxima e usa as mãos para reposicionar seus braços...
+
+E suas pernas...
+
+Ela estar tão perto te excita...
+
+[if viola-has-done-skinship()]
+    v: {heroname}... você tem tanta energia...
+
+[else]
+    Ela está ciente da sua ereção?
+
+Depois que Viola termina de ajustar seu corpo, ela se levanta.
+
+O rosto dela está próximo...
+
+a: Você é tão linda...
+
+[if viola-has-done-skinship()]
+    Viola cora.
+
+    v: {heroname}... Gostaria de saber como responder...
+
+    a: Haha, está tudo bem, você não precisa.
+
+[else]
+    Você acabou de deixar escapar...
+
+    v: Hum...
+
+    v: Não sei como responder a isso...
+
+    a: Ah, desculpe... você não precisa...
+
+O exercício parceiro tem um golpe lateral e um bloqueio lateral.
+
+Para ambos os lados, a postura ajuda no equilíbrio na absorção do impacto.
+
+Com o tempo, Viola fica mais confortável para dar conselhos.
+
+À medida que você pega o jeito da broca, vocês dois vão mais forte e mais rápido.
+
+[hide all]
+[show portrait v normal]
+No final, vocês dois estão doloridos e suados.
+
+v: Acho que podemos parar por aqui...
+
+v: Posso ter pressionado você demais... Afinal, é a primeira vez que você faz esse exercício.
+
+a: Haha, tudo bem, essa parte é divertida para mim.
+
+...
+
+v: Ah, hum, {heroname}?
+
+a: Sim?
+
+v: Eu também acho você linda.
+
+Apesar da entrega indiferente, você sente sua cabeça esquentar.
+
+a: Ah, ah, hum...
+
+[show portrait v smiling]
+Os lados dos lábios de Viola se curvam.
+
+v: Parece que você também não sabe como responder a essa afirmação.
+[stop mood-song]
+[hide all]
+
+[scene viola_train]

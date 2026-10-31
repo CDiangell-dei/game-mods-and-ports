@@ -1,0 +1,16 @@
+[cast a=Hero, m=Miran]
+[show portrait m normal]
+a: Olá, meu nome é {heroname}. Qual é o seu nome?
+
+[show portrait m blushing]
+m: Ah! Hum... meu nome é Miran.
+
+a: Prazer em conhecê-lo!
+
+m: N-prazer em conhecer você também.
+
+m: Você pode conversar com o barman se estiver interessado nas missões disponíveis.
+
+Ela parece tímida...
+
+[end]

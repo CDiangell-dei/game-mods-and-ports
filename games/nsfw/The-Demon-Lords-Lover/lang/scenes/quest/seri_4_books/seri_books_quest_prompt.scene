@@ -1,0 +1,82 @@
+[cast a=Hero, s=Seri]
+[if not seen(seri_books_quest_prompt)]
+    [show portrait s normal]
+    s: Olá, {heroname}.
+
+    s: Eu gostaria de pedir um favor.
+
+    a: O que é isso?
+
+    s: Gostaria de sua ajuda para ir ao meu antigo quarto.
+
+    a: Seu... quarto?
+
+    s: Você sabe, na masmorra.
+
+    a: Hein? Por que?
+
+    s: A biblioteca lá embaixo tem muitos livros que não estão na biblioteca daqui.
+
+    a: Você não pode trazer todos os livros aqui, no entanto.
+
+    s: Oh, quero dizer, eu apenas pegaria alguns. E depois de um tempo poderei ir até lá sozinho, sem a sua ajuda.
+
+    a: Você pretende descer regularmente, apenas verificando 2 ou 3 livros por vez?
+
+    s: Bem, a biblioteca lá embaixo é realmente impressionante.
+
+    a: Para que você quer os livros?
+
+    [show portrait s smiling]
+    s: Bem, estive pensando no que posso fazer neste mundo para ser útil.
+
+    s: E pensei seriamente sobre o que tenho vantagem em fazer...
+
+    s: E está encerrando o ciclo Herói/Lorde Demônio para sempre.
+
+    s: Isso seria heróico, certo?
+
+    s: Acho que quem montou a biblioteca deve ter se interessado por temas semelhantes.
+
+    s: Então acho que vou pesquisar sobre os mecanismos da maldição.
+
+    a: Seri... você não acha que já passou pelo suficiente?
+
+    a: Por que você não relaxa? Ou partir em uma aventura?
+
+    s: Você... não acha isso emocionante?
+
+    [show portrait s pensive]
+    s: O ciclo herói/lorde demônio, que dura milhares e milhares de anos... resultando em traumas regulares para toda a população...
+
+    s: Eu sinto que esse é exatamente o tipo de coisa que poderia ser interessante para ser arrogante. Como se talvez eu pudesse fazer algo a respeito.
+
+    s: E como já estive envolvido nisso, tenho uma participação.
+
+    [show portrait s smiling]
+    s: O que você acha?
+
+    a: Hummm...
+
+    a: Suponho que seria legal acabar com isso, e se alguém puder fazer isso, será alguém tão inteligente e dedicado quanto você.
+
+    a: Ok, vou ajudá-lo a descer para aquela sala.
+
+    [show portrait s smiling]
+    s: Obrigado {heroname}.
+
+    a: Hum... você tem certeza que quer voltar para lá?
+
+    [show portrait s pensive]
+    s: ...
+
+    s: É apenas uma sala com alguns livros.
+
+    a: ... Justo. Você tem equipamento?
+
+    [show portrait s normal]
+    s: Durante meu tempo como Lorde Demônio, fiz minha própria pesquisa sobre magia e consegui aprender alguns feitiços.
+
+    s: Não tenho o poder do Lorde Demônio apoiando esses feitiços, mas deveria ser alguma coisa.
+
+    a: Ok, fique por perto então.

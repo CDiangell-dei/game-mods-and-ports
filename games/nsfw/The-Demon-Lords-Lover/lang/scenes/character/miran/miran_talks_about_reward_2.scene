@@ -1,0 +1,59 @@
+[cast a=Hero, m=Miran]
+[mood-song lighthearted]
+[show portrait m normal]
+a: A propósito, você disse algo sobre recompensa?
+
+[show portrait m blushing]
+Miran fica vermelha.
+m: Hum... qual você acha que é a recompensa?
+
+a: Humm... não sei...
+[menu]
+    a: Talvez um doce item mágico?
+        [show portrait m smile]
+        m: Ah, ele é normal...
+
+        Ela murmura baixinho com um suspiro de alívio.
+
+        a: Você achou que eu ia pedir um beijo?
+    a: Talvez um beijo de uma doce garota mágica?
+[show portrait m blushing_surprised]
+Miran está em choque.
+m: C-como você pode ser tão sem vergonha!!
+
+[show portrait m blushing]
+E então vocês dois falam ao mesmo tempo.
+
+a: Só estou brincando!
+
+m: M-mas estou bem com isso...
+
+Você faz uma pausa. "Eu ouvi o que acho que ouvi?" você diz para si mesmo em sua mente.
+
+[show portrait m blushing_surprised]
+Você olha para o rosto fofo de Miran, que está ficando vermelho como uma beterraba.
+
+a: Espere - o que você disse?
+
+m: Eu não disse nada!!
+
+a: Ah, ok.
+
+m: ...
+
+a: Ahahaha, desculpe, eu não queria te chatear. E eu não quero um beijo como recompensa... você não acha que isso é errado?
+
+a: Tipo, e se vocês só quisessem ser amigos/companheiros, mas sentissem que precisavam me beijar para me manter firme?
+
+a: Isso seria meio confuso haha...
+
+[show portrait m blushing]
+m: Ahahaha...
+
+Espere, é só você ou os olhos dela estão lacrimejando?
+
+a: Uh Miran... eu disse algo errado?
+
+Enquanto você tenta descobrir se ela está chateada com você ou se alguma poeira entrou em seus olhos, ela fala com tom derrotado.
+
+m: Eu-idiota...

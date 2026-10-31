@@ -1,0 +1,15 @@
+[name] Pegue um quarto (10g) (→ manhã)
+[cast h=Hilde]
+[scene spend_night_setup]
+[if gold() >= inn-cost()]
+    [pay-for-room()]
+    [hide portrait]
+    [scene yuu_visit]
+[else]
+    Você não tem ouro suficiente...
+
+    Hilde parece notar sua hesitação.
+
+    h: Está tudo bem, querido, você pode ficar de graça até se recuperar...
+
+    [scene yuu_visit]

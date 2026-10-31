@@ -1,0 +1,5 @@
+[if not MEMORIES_MODE]
+    [if is-evening()]
+        Ainda é cedo... vai mesmo para a cama?
+        [yes-or-no-prompt()]
+        [goto-night()]

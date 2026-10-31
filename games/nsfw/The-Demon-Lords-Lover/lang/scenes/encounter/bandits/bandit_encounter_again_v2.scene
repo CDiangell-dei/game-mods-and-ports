@@ -1,0 +1,27 @@
+[cast a=Hero, e=Emma, i=Ise, trav=Trav]
+[show portrait i smiling]
+i: É o seu dia de sorte! Vou poupar seu {if party.plural then lives else life}... por apenas 100 ouros.
+[menu]
+    a: Vamos lá!
+        [show portrait i determined]
+        i: Prepare-se para enfrentar sua desgraça!
+
+        [show portrait e swooning]
+        e: Ah, ela fica tão apaixonada quando tem um objetivo!
+
+        [show portrait trav sighing]
+        trav: Realmente? Para 100g? *suspiro*
+
+        [bandit-become-hostile()]
+    a: (Dê 100g).
+        [show portrait i smiling]
+        i: Obrigado pelo seu patrocínio!
+
+        [show portrait e smiling]
+        e: Para nossos braços mágicos!
+
+        [show portrait trav surprised]
+        trav: Obrigado... Minhas costas estão doendo...
+
+        [bandit-give-gold()]
+[end]

@@ -1,0 +1,12 @@
+[name] Sexo (ela por cima)
+[cast t=Torne]
+[show cg torne_cowgirl_soft]
+t: {heroname}... É tão bom...
+
+[show cg torne_cowgirl_hard]
+t: {heroname}... Porra...
+
+[show cg torne_cowgirl_orgasm]
+t: Porra... dê para mim...
+
+[torne-private-area-menu()]

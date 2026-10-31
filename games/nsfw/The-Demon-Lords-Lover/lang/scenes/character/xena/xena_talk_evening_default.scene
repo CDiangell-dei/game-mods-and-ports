@@ -1,0 +1,6 @@
+[cast x=Xena]
+[show portrait x normal]
+x: Olá, {heroname}! Vai treinar?
+[if not DOJO_HINT_SEEN]
+    [set DOJO_HINT_SEEN]
+    hint: "Treinar no dojo" concede a escolha de 1 de 4 talentos.

@@ -1,0 +1,35 @@
+[cast a=Hero, b=Bell, n=Nanako]
+[show portrait n neutral]
+Você vê Nanako prestando primeiros socorros a Bell ferido.
+
+Nanako não tem seu sorriso opaco de sempre.
+
+[show portrait b tired]
+Bell percebe você e dá um sorriso fraco.
+
+a: Ela está bem?
+
+[show portrait n neutral]
+Nanako assente.
+
+n: Vi o príncipe e sua guarda descerem aos andares inferiores com um dos fragmentos de Seri.
+
+a: Um dos fragmentos de Seri?
+
+Por fragmento, ela se refere a um dos antigos pertences de Seri?
+
+n: Você precisa disso, certo? É melhor você ir.
+
+[show portrait b tired]
+b: Fui encurralado e Nanako deu o fragmento para eles me salvarem! Ah, se eu tivesse sido um lutador melhor!
+
+[show portrait n normal]
+n: Bell, cale-se. Não há necessidade de desperdiçar sua energia.
+
+Nanako se vira para você.
+
+n: E não há necessidade de perder seu tempo.
+
+Nanako e Bell saem da masmorra.
+[depart(n, b)]
+[end]

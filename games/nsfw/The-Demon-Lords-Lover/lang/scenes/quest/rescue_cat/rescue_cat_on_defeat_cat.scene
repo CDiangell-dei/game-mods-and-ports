@@ -1,0 +1,24 @@
+[cast a=Hero, b=Bell, n=Nanako]
+[show portrait n serious]
+E depois que o animal de estimação, espancado e machucado, cai no chão, Nanako fica acima dele com sua espada.
+
+Nanako, que parece ter perdido a calma até certo ponto, fica parada diante dele, pronta para matar.
+
+[show portrait b tired]
+É nesse momento que Bell estende a mão.
+
+b: Nanako, está tudo bem... só estava com medo...
+
+b: Não é culpa dela...
+
+[show portrait n neutral]
+Nanako olha para Bell e hesita.
+
+No final das contas, Nanako não consegue passar por isso.
+
+[hide portrait]
+O gato, que foi poupado, parece entender a situação e fica domesticado.
+
+[add-bell()]
+[set-quest-success()]
+[goto-town-triggering-events()]

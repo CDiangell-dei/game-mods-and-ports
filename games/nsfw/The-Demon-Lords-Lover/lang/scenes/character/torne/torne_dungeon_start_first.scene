@@ -1,0 +1,9 @@
+[cast a=Hero, t=Torne]
+[show portrait t]
+t: Olá! É Torne, seu lojista de masmorra favorito!
+
+a: Olá, meu nome é {heroname}. Você é um... lojista de masmorra?
+
+t: Isso mesmo! Parte aventureiro, parte lojista!
+
+t: Poções, pergaminhos, o que você precisar nas masmorras, eu tenho. ^^

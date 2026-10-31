@@ -1,0 +1,14 @@
+[cast kino=Kino, m=Miran]
+[stop floor-song]
+[set KINO_DUNGEON_FIGHT_WON]
+[show portrait kino normal]
+kino: Impressionante...
+
+kino: Pode ter sido arrogante acreditar que poderíamos parar a maldição...
+
+Kino e Earnest recuam.
+[kino-and-earnest-depart()]
+
+[if with(m)]
+    [show portrait m pleading]
+    m: Acho que não podemos voltar atrás agora...

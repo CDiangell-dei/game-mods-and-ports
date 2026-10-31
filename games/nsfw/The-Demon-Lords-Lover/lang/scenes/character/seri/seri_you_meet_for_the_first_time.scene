@@ -1,0 +1,245 @@
+[cast a=Hero, m=Miran, s=Seri, v=Viola]
+[set TODAY_I_TALKED_TO_SERI_IN_THE_AFTERNOON]
+[if seen(seri_find_panties)]
+    [show portrait s normal]
+    É a Seri.
+
+    Por causa da calcinha dela, você suspeitou que ela estava aqui...
+
+    Mas por alguma razão, ainda te surpreende...
+
+    Como se uma crença que você sabia no fundo não ser verdade se tornasse verdade.
+[else]
+    Espere... isso é... Seri?
+
+    O que ela está fazendo aqui?
+
+[show portrait s surprised]
+E você e Seri fazem contato visual. Seus olhos se arregalam.
+
+a: Seri! Você está aqui!
+
+s: Isso é... {heroname}?
+
+[show portrait s sad]
+s: Eu não posso acreditar...
+
+No passado, Seri era o cérebro e a beleza da minha escola e a presidente do conselho estudantil.
+
+E agora, ela está diante de você.
+
+[if with(v) and with(m)]
+    [show portrait s normal]
+    Seri percebe Miran e Viola e se curva diante deles.
+
+    s: Olá, vocês devem ser amigos de {heroname}. Meu nome é Seri.
+
+    [show portrait m smile]
+    m: Olá, meu nome é Miran.
+
+    [show portrait v normal]
+    v: Olá, meu nome é Viola.
+
+    [show portrait s normal]
+    s: Prazer em conhecê-lo.
+
+[elif with(v)]
+    [show portrait s normal]
+    Seri percebe Viola e se curva para ela.
+
+    s: Olá, você deve ser amigo de {heroname}. Meu nome é Seri.
+
+    [show portrait v normal]
+    v: Olá, meu nome é Viola.
+
+    [show portrait s normal]
+    s: Prazer em conhecê-lo.
+
+[elif with(m)]
+    [show portrait s normal]
+    Seri percebe Miran e se curva para ela.
+
+    s: Olá, vocês devem ser amigos de {heroname}. Meu nome é Seri.
+
+    [show portrait m smile]
+    m: Olá, meu nome é Miran.
+
+    [show portrait s normal]
+    s: Prazer em conhecê-lo.
+
+a: Seri, o que você está fazendo aqui?
+
+s: {heroname}... você se lembra da sua vida passada?
+
+a: Neste ponto parece um pouco um sonho, mas acho que sim.
+
+[show portrait s serious]
+s: Ok. Portanto, provavelmente nada que eu possa dizer poderá chocá-lo neste momento.
+
+Você acena com a cabeça.
+
+s: Parece que me tornei o Lorde Demônio deste mundo.
+
+...
+
+a: Você é... o lorde demônio?
+
+s: Em suma, parece que este mundo tem um roteiro recorrente.
+
+a: Um roteiro recorrente?
+
+s: Resumindo, um poder misterioso seleciona um herói e um lorde demônio.
+
+s: O lorde demônio e seu exército fazem o possível para assassinar/subjugar a raça humana...
+
+s: O herói e seu grupo matam o lorde demônio e seu exército...
+
+s: Então, a raça humana terá 100 anos de relativa paz antes que um novo herói e um novo lorde demônio sejam selecionados...
+
+[show portrait s normal]
+s: Isso faz sentido?
+[menu]
+    a: Deve ser difícil estar envolvido nisso tudo...
+    a: É meio confuso, não é?
+        [show portrait s smiling]
+        s: Eu concordo, quem o projetou deve ser levado à justiça...
+
+[show portrait s smiling]
+a: Seri, como é ser o Lorde Demônio?
+
+s: Você quer dizer "Você quer assassinar/subjugar a raça humana?"
+
+s: Para ser sincero, não me sinto tão diferente.
+
+s: Talvez eu tenha um relógio dentro de mim e, quando um certo tempo passar, perderei minha humanidade e serei consumido por uma raiva assassina.
+
+s: Se isso for verdade, talvez a coisa certa a fazer seja cometer suicídio enquanto ainda tenho o controle.
+
+a: Seri, o-o que você está dizendo?
+
+s: Haha, é apenas especulação.
+
+a: É possível que você... venha comigo?
+
+[show portrait s normal]
+Seri balança a cabeça.
+
+s: Parece que fui preso. Uma força misteriosa me impede de sair da masmorra.
+
+a: O que... isso é horrível.
+
+s: Está tudo bem.
+
+s: Parece que a maioria dos aventureiros não consegue chegar a essa profundidade. Por enquanto, parece que estou seguro.
+
+s: Além disso, como você pode ver, este piso é relativamente confortável.
+
+s: Parece que este lugar pertencia a um antigo lorde demônio.
+
+s: As estantes estão cheias de livros sobre histórias de heróis/lordes demônio, magia negra, etc.
+
+s: O mais interessante é que encontrei as anotações do antigo lorde demônio.
+
+s: O antigo lorde demônio, como eu, parece ter sido surpreendentemente lúcido.
+
+s: E em suas anotações, há uma hipótese de que o manto do lorde demônio pode ser removido com um simples feitiço de incursão... se o feitiço de incursão for lançado com enorme poder mágico.
+
+a: O-o quê?
+
+a: Então, se pudermos lançar esse feitiço, você poderá ser dispensado desse papel?
+
+s: Hipoteticamente.
+
+a: Você já experimentou?
+
+s: Eu tenho. Mas parece que o poder mágico do Lorde Demônio não é suficiente. Isso, ou não tenho habilidade mágica suficiente.
+
+[show portrait s smiling]
+s: Está tudo bem. Vou continuar pesquisando.
+
+s: Por enquanto, meu objetivo é entender este mundo, entender o que significa ser o Lorde Demônio e entender quais opções eu tenho.
+
+[if with(v) and with(m)]
+    [show portrait m normal]
+    m: Seri... não é solitário aqui?
+
+    [show portrait s smiling]
+    s: Haha, acho que já estou acostumada...
+
+    [show portrait m smile]
+    m: Você precisa de algumas plantas... da próxima vez trarei algumas!
+
+    [show portrait v normal]
+    v: Eu quero ajudar você também.
+
+    [show portrait s smiling]
+    s: Faz sentido que os amigos de {heroname} sejam pessoas incrivelmente gentis...
+
+    [show portrait v normal]
+    v: Ele é uma pessoa idealista, não é?
+
+    v: Acho que você pode dizer que ele me inspirou a ser o mesmo.
+
+    [show portrait s smiling]
+    s: eu entendo...
+
+    Seri se vira para você.
+
+    s: Não acredito como eles são lindos...
+
+    Seri olha para Miran e Viola.
+
+    s: E eles nem sabem disso...
+[elif with(v)]
+    [show portrait v normal]
+    v: Eu quero ajudar você também.
+
+    [show portrait s smiling]
+    s: ... faz sentido que o amigo de {heroname} também seja uma pessoa incrivelmente gentil.
+
+    [show portrait v normal]
+    v: Ele é uma pessoa idealista, não é?
+
+    v: Acho que você pode dizer que ele me inspirou a ser o mesmo.
+
+    a: I-isso é demais...
+
+    [show portrait s normal]
+    s: Eu entendo.
+
+    [show portrait s smiling]
+    s: {heroname}... Não acredito como ela é linda...
+
+    [show portrait v blushing]
+    Viola não sabe como responder a este comentário.
+
+    [show portrait s smiling]
+    s: E ela nem sabe disso...
+[elif with(m)]
+    [show portrait m normal]
+    m: Seri... não é solitário aqui?
+
+    [show portrait s smiling]
+    s: Haha, acho que já estou acostumada...
+
+    [show portrait m smile]
+    m: Você precisa de algumas plantas... da próxima vez trarei algumas!
+
+    [show portrait s smiling]
+    Seri não sabe como responder...
+
+    s: Posso ver como vocês se tornaram amigos...
+
+    s: Tanta bondade... para alguém que você não conhece.
+
+    Seri se vira para você.
+
+    s: Ela é tão fofa... onde você a encontrou?
+
+    a: Eu sei, certo?
+
+    [show portrait m blushing_surprised]
+    Miran fica vermelha.
+
+    m: O-o que vocês dois estão dizendo?
+

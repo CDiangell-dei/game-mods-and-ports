@@ -1,0 +1,84 @@
+[cast a=Hero, l=Pila, p=Paila]
+[if talking-to(p)]
+    [if (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait p normal]
+        p: Olá, {heroname}.
+
+        [show portrait l normal]
+        l: Bem-vindo de volta, querido.
+
+    [if (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and not (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait p normal]
+        p: Olá, {heroname}.
+
+        [show portrait l normal]
+        l: Oi querido, fiquei tão surpreso quando você fugiu esta manhã...
+
+    [if not (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait p normal]
+        p: Olá, você é {heroname}, certo?
+
+        [show portrait l normal]
+        l: Bem-vindo de volta, querido.
+
+    [if not (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and not (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait p normal]
+        p: Olá, meu nome é Paila. E esta é minha mãe, Pila.
+
+        [show portrait l normal]
+        l: Olá, querido, fiquei tão surpreso quando você fugiu esta manhã.
+
+        [show portrait p normal]
+        a: M-meu nome é {heroname}...
+
+[else]
+    [if (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait l normal]
+        l: Bem-vindo de volta, querido.
+
+        [show portrait p normal]
+        p: Olá, {heroname}.
+
+    [if (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and not (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait l normal]
+        l: Oi querido, fiquei tão surpreso quando você fugiu esta manhã...
+
+        [show portrait p normal]
+        p: Olá, {heroname}.
+
+    [if not (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait l normal]
+        l: Bem-vindo de volta, querido.
+
+        [show portrait p normal]
+        p: Olá, você é {heroname}, certo?
+
+    [if not (seen(paila_pila_night_intro) or seen(paila_introduction) or seen(paila_intro_evening)) and not (seen(pila_introduction) or seen(pila_intro_evening) or seen(paila_pila_night_intro))]
+        [show portrait l normal]
+        l: Olá, querido, fiquei tão surpreso quando você fugiu esta manhã.
+
+        l: Meu nome é Pila. E esta é minha filha, Paila.
+
+        [show portrait p normal]
+        p: Olá...
+
+        l: Ontem à noite, minha filha encontrou você desmaiado na praia. Ela carregou você para nossa casa.
+
+        a: Eu aprecio isso...
+
+        [show portrait p normal]
+        p: Ah, não se preocupe, acho que qualquer pessoa nesta cidade teria feito o mesmo. Acontece que sou eu.
+
+[show portrait l normal]
+l: Querido, acho que você deveria passar a noite aqui...
+
+l: Tudo bem, Paila?
+
+[show portrait l worried]
+Paila assente.
+
+p: Nós o acolhemos...
+[if talking-to(l)]
+    [show portrait l normal]
+[else]
+    [show portrait p normal]

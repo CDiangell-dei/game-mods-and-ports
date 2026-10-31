@@ -1,0 +1,89 @@
+[cast a=Hero, ch=Charis, x=Xena, k=Kira]
+[show portrait ch exasperated]
+Charis cai de joelhos.
+
+[show portrait x smiling]
+x: {heroname}! Você conseguiu!
+
+[show portrait k scared]
+k: Eu não posso acreditar...
+
+[show portrait ch exasperated]
+Charis está curvada, tremendo.
+
+[show portrait x surprised]
+x: D-pai? Você está bem?
+
+[show portrait ch exasperated]
+ch: Estou bem...
+
+[show portrait ch crying]
+ch: Estou melhor do que bem!!!
+
+ch: Como posso ficar triste quando um homem tão forte vai se casar com minha preciosa filha!!
+
+[show portrait x blushing]
+x: Do que você está falando?
+
+[show portrait k normal]
+k: Ah... Não admira que papai estivesse se esforçando tanto...
+
+[show portrait ch crying]
+ch: {heroname} me desafiou a conseguir permissão para casar com você.
+
+[show portrait x blushing]
+x: O-o quê? {heroname} e eu somos apenas amigos... Certo?
+[menu]
+    a: Minha intenção era apenas treinar...
+        [show portrait ch normal]
+        ch: Você está dizendo que não está interessado na minha filha!!
+
+        a: Não foi isso que eu disse!
+
+        [show portrait x blushing]
+        x: {heroname}, o-o que você está dizendo?
+    a: Então tenho permissão para me casar com Xena?
+        [show portrait x blushing]
+        x: {heroname}, o-o que você está dizendo?
+
+[show portrait k normal]
+k: Vamos lá, Xena, dada a nossa cultura... é um mal-entendido razoável.
+
+k: Quero dizer, você gosta dele, certo?
+
+[show portrait x blushing]
+x: Ah!!!
+
+[show portrait ch normal]
+ch: Com o resultado deste duelo, posso aceitar que você possa proteger minha filha.
+
+[show portrait x blushing]
+x: D-pai!!!!
+
+x: Não estamos namorando!!!
+
+[show portrait ch normal]
+ch: Xena, você está interessada em {heroname}?
+
+[show portrait x blushing]
+x: O que você está perguntando, pai!
+
+[show portrait ch normal]
+ch: Responda a pergunta, Xena. E não minta para mim.
+
+[show portrait x blushing]
+x: Ahhhh!!!
+
+[hide portrait]
+E Xena foge e se fecha em seu quarto.
+
+[show portrait ch normal]
+ch: Hmmm... talvez tenha havido um mal-entendido.
+
+[show portrait ch blushing]
+ch: Mas posso reconhecer que você é capaz de proteger minha filha.
+
+[show portrait ch normal]
+ch: O resto é com você.
+
+[end-dojo-challenge()]

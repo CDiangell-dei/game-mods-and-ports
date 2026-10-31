@@ -1,0 +1,6 @@
+[cast t=Torne]
+[show portrait t]
+[if alone()]
+    t: Olá, {heroname}!
+[else]
+    t: Olá pessoal!

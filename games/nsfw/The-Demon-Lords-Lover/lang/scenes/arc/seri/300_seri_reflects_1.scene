@@ -1,0 +1,70 @@
+[name] Passe algum tempo com Seri (→ noite)
+[cast a=Hero, s=Seri]
+[show portrait s normal]
+a: Olá Seri, como você está?
+
+s: Acho que estou bem... Reconheço que tem sido um pouco demais estar aqui depois de tanto tempo em quarentena.
+
+a: Acho que isso é compreensível.
+
+s: Oh, espero não parecer tão ingrato.
+
+a: Não!
+
+s: ...
+
+[show portrait s sad]
+Seri olha para baixo.
+
+s: Eu sou ingrato.
+
+a: Seri, o que você está dizendo?
+
+s: Eu não experimentei o que você experimentou. Então eu simplesmente não sei o que você fez.
+
+s: Meu cérebro pode imaginar que você passou por grandes provações...
+
+s: Mas outro lado do meu cérebro pode imaginar que não foi tão difícil...
+[menu]
+    a: Foi difícil.
+    a: Não foi tão difícil.
+
+s: Me desculpe...
+
+s: Acho que me lembro da impotência que senti no Japão contra diversas injustiças...
+
+s: E então eu vi você superar obstáculo após obstáculo para me salvar.
+
+s: E tenho vergonha de ter pensado: “Deve ser mais fácil aqui”.
+[menu]
+    a: ... está tudo bem.
+    a: Acho que um indivíduo tem mais poder aqui.
+
+s: Me desculpe...
+
+s: Sinto muito pelas desculpas inúteis.
+
+[show portrait s pensive]
+s: Estou aqui agora.
+
+s: Eu gostaria de fazer algo.
+
+a: Não tenha pressa.
+
+[show portrait s normal]
+Seri assente.
+
+s: Decidi ajudar Chii e Hilde no gerenciamento da guilda.
+[menu]
+    a: Acho que isso faz sentido.
+        s: ...
+
+        [show portrait s sad]
+        s: Obrigado, {heroname}.
+    a: Você vai ficar satisfeito com isso?
+        s: ...
+
+        [show portrait s sad]
+        s: {heroname}... por favor, me trate gentilmente neste momento...
+[record-study(s)]
+[goto-night()]

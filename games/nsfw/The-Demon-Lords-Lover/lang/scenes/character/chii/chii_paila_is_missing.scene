@@ -1,0 +1,49 @@
+[cast a=Hero, c=Chii]
+[set PAILA_IS_MISSING_QUEST_UNLOCKED]
+a: Chii, você viu Paila?
+
+[show portrait c frowning]
+c: Paila?
+
+Você cora, mas Chii percebe uma expressão por trás disso. A expressão de Chii fica séria.
+
+Chii fecha os olhos.
+
+c: Não, não. Não pode ser isso. Isso é demais.
+
+a: O-o quê?
+
+c: Ah, não se preocupe comigo, só estou tendo uma ideia maluca... Quer dizer, não faz tanto tempo, certo? Talvez ela simplesmente apareça depois de fazer uma tarefa aleatória...
+
+Você se lembra da confiança com que Chii disse: “Chii simplesmente sabe”. E você não pode deixar de ficar curioso sobre a “ideia maluca” dela.
+
+a: Diga-me a ideia maluca.
+
+Chii franze a testa.
+
+c: Ultimamente, Paila tem estado obcecada em obter uma erva da lua, que dizem curar a condição de sua mãe. Ela cresce na Masmorra do Lorde Demônio, mas é bastante rara.
+
+a: A condição de sua mãe?
+
+c: Sua mãe não teve muita energia desde que seu pai morreu.
+
+c: Mas é uma farsa. Na verdade, conheço o golpista que espalhou os boatos. E foi só para ganhar dinheiro rápido, você sabe, vendendo as plantas que de outra forma seriam inúteis...
+
+c: Expliquei isso para Paila, e ela finge entender, mas depois volta a pedir aos aventureiros que comprem um para ela.
+
+c: Acho que nenhum aventureiro conseguiu encontrar uma porque na semana passada ela passou a pedir aos aventureiros que a acompanhassem até a masmorra.
+
+c: Mas pelo que tenho visto, todos eles recusaram, dizendo que era muito perigoso para ela.
+
+c: Você entende qual é a ideia maluca agora?
+
+a: Eu não acho que seja tão louco.
+
+Mas tudo isso é novo.
+
+Parece que não conheço Paila....
+
+a: Eu vou encontrá-la...
+
+hint: A missão "Resgatar Paila" foi desbloqueada.
+[set PAILA_IS_MISSING_QUEST_UNLOCKED]

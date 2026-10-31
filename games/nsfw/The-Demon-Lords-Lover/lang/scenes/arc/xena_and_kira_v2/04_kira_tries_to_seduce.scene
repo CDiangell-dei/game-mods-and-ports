@@ -1,0 +1,400 @@
+[name] Treine no dojo (→ noite)
+[cast a=Hero, ch=Charis, k=Kira, x=Xena]
+[unlock kira_seduction]
+[show portrait x motivated]
+x: Pessoal! Você está com sorte. Temos um instrutor convidado hoje!
+
+x: Não é outro senão meu pai!
+
+[show portrait ch normal]
+Um estudante sussurra: "Nossa, ele emite vibrações sérias de artista marcial..."
+
+“Não é como nosso professor habitual...”
+
+[show portrait x smiling]
+x: Ei!! Eu também sou um artista marcial sério!
+
+[show portrait ch normal]
+ch: Aham. Meu nome é Charis. Sou o proprietário e instrutor líder do Rudo Dojo.
+
+Um aluno diz: "Espere... já ouvi esse nome... Um dojo apenas para convidados nas profundezas das montanhas de Garland..."
+
+"Garland? Isso é tão longe... Xena veio de lá também?"
+
+[show portrait x disappointed]
+Xena parece envergonhada.
+
+[show portrait ch normal]
+ch: Primeiro, assuma sua posição.
+
+Todos os alunos assumem suas próprias posições, das quais nenhuma é igual.
+
+ch: Hummm. Suponho que faz sentido que não exista uma postura padrão, já que vocês são aventureiros de origens diferentes.
+
+ch: Por enquanto, escolha um parceiro e mova-se com ele em suas respectivas posições. Mantenha uma distância consistente.
+
+[show portrait k normal]
+Ao olhar ao redor, você encontra Kira.
+
+k: Vamos?
+
+a: Claro.
+
+E então você começa.
+
+A postura de Kira é muito parecida com a de Xena, mas enquanto a postura de Xena parece fácil, a postura de Kira parece intencional, como um balé.
+
+Conforme você se move com Kira da maneira que sabe, você percebe que Kira rastreia seus movimentos com um alto grau de precisão, quase como se ela fosse sua sombra.
+
+O pai de Xena então adiciona luta leve. Ele dá metas para agarrar o outro, seja pela cabeça e pelos ombros, pela cintura ou pela perna.
+
+Por um momento, vocês dois parecem um pouco tímidos, mas decidem ir em frente e pegar o pulso dela.
+
+Mas assim que você faz isso, a mão de Kira desvia a sua e é o seu pulso que é agarrado.
+
+Seu aperto é suave e firme.
+
+Kira mostra um sorriso educado.
+
+k: Suponho que ganhei o primeiro turno.
+
+E você dá outra chance.
+
+Desta vez, você adiciona alguma orientação errada e consegue agarrar o tornozelo de Kira.
+
+[hide portrait]
+[show cg kira_training]
+Você levanta a perna de Kira no ar e faz contato visual.
+
+a: Isso é uma vitória, certo?
+
+k: Sim. E você pode deixar ir agora.
+
+E você percebe que a calcinha dela está visível.
+
+[show portrait x blushing]
+Então, Xena mostra seu rosto do nada.
+
+x: Vamos {heroname}, seja um cavalheiro!!
+
+a: Eu não queria! Quero dizer, não fazemos a mesma coisa o tempo todo?
+
+[show portrait x normal]
+x: Hummm... acho que sim!
+
+a: Veja?
+
+[show portrait x disappointed]
+x: Eu sinto que é diferente com minha irmã...
+
+[show portrait k normal]
+Kira observa atentamente as expressões de Xena.
+
+k: Está tudo bem, irmã. {heroname} está apenas fazendo o que ele mandou.
+
+E assim a aula continua.
+
+[show portrait ch normal]
+À medida que a aula avança, o pai de Xena dá dicas para cada aluno, tipo de coisa “Experimente isto” “Experimente aquilo”.
+
+Um aluno diz: "Obrigado, velho! Essa explicação fez muito sentido!"
+
+"Droga, talvez eu devesse ter aulas particulares com ele em vez de com Xena..."
+
+[show portrait x surprised]
+x: Ei! Estou literalmente bem aqui!
+
+“Por que aprender com o aluno quando você pode aprender com o mestre?”
+
+A estudante provoca Xena com uma expressão presunçosa.
+
+[show portrait x disappointed]
+x: Ack... não posso discutir com isso...
+
+[show portrait x normal]
+x: Por alguma razão, é bom que você entenda o quão incrível ele é...
+
+[show portrait ch normal]
+ch: Xena também é uma mestra.
+
+[show portrait x surprised]
+x: D-pai... o-o que você está dizendo?
+
+[show portrait ch normal]
+ch: Planejei que você herdasse o dojo, então isso é natural.
+
+[show portrait x disappointed]
+Xena fica em silêncio por um tempo...
+
+[show portrait x normal]
+x: Nunca vi você dar uma aula assim.
+
+x: As aulas no dojo são muito mais estruturadas.
+
+[show portrait ch exasperated]
+ch: Hmph. Tal aula seria impossível aqui, visto que os alunos não têm uma base comum.
+
+[show portrait ch normal]
+ch: Devo encontrar os alunos onde eles estão. E então estou dando aos alunos a chance de resolver problemas com suas habilidades únicas.
+
+ch: E com base no desempenho dos alunos, parece que você chegou à mesma conclusão.
+
+[show portrait x normal]
+Xena mostra um sorriso bastante infantil.
+
+x: Os alunos estão tão focados em comparação com quando estou ensinando!
+
+[show portrait ch normal]
+ch: Mas talvez haja algo em um ambiente lúdico.
+
+ch: Você sempre lutou pela sua própria maneira de pensar sobre as artes marciais.
+
+[hide portrait]
+Neste momento você ouve um baque.
+
+[show portrait k tired]
+Kira caiu no chão. Xena e seu pai voltam sua atenção para ela.
+
+a: Kira!! O que está acontecendo?
+
+Kira está com uma expressão cansada e respirando com dificuldade.
+
+k: Hum... só estou me sentindo um pouco tonto...
+
+[show portrait x disappointed]
+x: Kira... Não se esforce tanto...
+
+[show portrait ch normal]
+ch: Kira... Vamos levá-la para a cama.
+
+[show portrait k tired]
+k: V-você e Xena não estão dando aula?
+
+k: Estou bem, me sinto bem, só preciso me deitar.
+
+k: Que tal se {heroname} me levar?
+
+[show portrait x disappointed]
+Xena olha para você. E você acena com a cabeça.
+
+[show portrait k tired]
+E você apoia o corpo de Kira enquanto vocês dois sobem as escadas. Kira guia você até o depósito que virou quarto de hóspedes improvisado.
+
+Kira fecha a porta atrás dela...
+
+E você a ajuda a deitar no futon.
+
+a: Como você se sente?
+
+k: Estou bem... só um pouco cansado.
+
+[show portrait k normal]
+Kira olha para você com uma expressão fria, mas curiosa.
+
+k: Posso ver por que minha irmã tem tanta estima por você...
+
+k: Como lutador, você tem bons instintos...
+
+[show portrait k blushing]
+k: E hum... é grande...
+
+a: O-o quê?
+
+k: Eu vi... depois que você viu minha calcinha...
+
+k: Você fez isso com minha irmã?
+
+a: O-o quê? Não...
+
+[hide portrait]
+[show cg kira_seduction]
+Então, Kira agarra seu pulso com as duas mãos e puxa você para o futon.
+
+k: Eu não estou realmente doente.
+
+Os membros de Kira envolvem os seus e você fica cara a cara e paralelo.
+
+E mesmo ela dizendo que não estava doente, ela está respirando com dificuldade...
+
+Cada inspiração empurra os seios dela contra o seu peito...
+
+E seu pau fica duro como pedra e empurra sua virilha através das roupas.
+
+k: Eep! Quero dizer... hum...
+
+a: Hum... Kira...
+
+k: Estou muito, muito atraído por você.
+
+k: Você pode fazer o que quiser, se quiser.
+
+Você olha para o rosto de Kira, que é lindo. Para este mundo, ela tem características de aparência asiática. Ela parece um ídolo.
+
+É um tipo de beleza que é ao mesmo tempo nova e familiar.
+
+Você olha para os seios de Kira, que caem para o lado.
+
+Seu pau está tão duro que dói.
+
+O rosto de Kira se aproxima para um beijo...
+[menu]
+    (Vá em frente.)
+        [set KIRA_ACCEPTED_SEDUCTION]
+        Kira leva a mão ao seu pau... Conforme sua mão o envolve, você percebe que a mão dela está tremendo...
+
+        Parece que ela é bastante inexperiente, pois dá para sentir uma espécie de incerteza em suas mãos.
+
+        Quanto mais ela esfrega, mais ela cora...
+
+        Você acaricia a nuca dela e, ao fazer isso, Kira solta um ruído estridente e sedutor.
+    (Pare ela.)
+        Você percebe que a mão de Kira está se movendo em direção ao seu pau, e você decide pegar o pulso dela e impedi-la.
+
+        a: Ei... não acho que esse seja o momento certo...
+
+        Kira olha para seu rosto, atordoada. Uma lágrima começa a se formar em seu olho.
+
+        k: Você não está atraído por mim?
+
+        a: Estou atraído por você, mas acabamos de nos conhecer!
+
+        a: E eu sei que você está passando por isso agora, com sua irmã e tudo.
+
+        a: Você está realmente no estado de espírito certo para fazer isso?
+
+        O rosto de Kira fica sombrio.
+
+        k: Olhe para você... sendo tão nobre.
+
+        k: Não é como se você fosse me machucar. Eu só queria brincar.
+
+Nesse momento você ouve a voz de Xena chamando o nome de Kira.
+
+E Kira puxa você para um abraço profundo.
+
+Por um momento você congela (já que Xena está lá fora).
+
+E então a porta se abre.
+
+[show portrait x blushing]
+x: Uhhh... o que está acontecendo?
+
+[if KIRA_ACCEPTED_SEDUCTION]
+    [show portrait k normal]
+    k: Parece que {heroname} não conseguiu se controlar...
+
+    a: H-hein? Você veio até mim!
+
+    [show portrait x blushing]
+    x: Kira... isso é verdade?
+
+    [show portrait k normal]
+    k: Eu só fiz isso para testar a lealdade dele para com você! E ele falhou!
+
+    [show portrait x blushing]
+    x: Hum... Kira... Somos apenas amigos...
+
+[else]
+    [show portrait k normal]
+    k: Parece que {heroname} não conseguiu se controlar...
+
+    a: H-hein? Você me puxou para a cama e tentou me beijar? E eu recusei!
+
+    [show portrait x blushing]
+    x: Kira... isso é verdade?
+
+    [show portrait k normal]
+    k: Eu estava apenas testando ele. Ele pode ter "passado" desta vez...
+
+    k: Mas ele hesitou... Você não pode confiar que ele será leal a você...
+
+    [show portrait x blushing]
+    x: Hum... Kira... somos apenas amigos...
+
+[show portrait x disappointed]
+Xena fecha os olhos.
+
+x: Tanto caos...
+
+x: E mana, parece que você tem muita energia...
+
+x: Vamos voltar para baixo? A aula acabou...
+
+[hide portrait]
+E então vocês três descem.
+
+[show portrait ch normal]
+ch: Kira, você está se sentindo melhor?
+
+[show portrait k normal]
+k: Hum, sim, eu só precisava me deitar.
+
+[show portrait ch exasperated]
+ch: Isso é um alívio.
+
+[show portrait ch normal]
+Charis volta sua atenção para Xena.
+
+ch: Este... não é um lugar tão ruim.
+
+[show portrait x smiling]
+x: D-pai!! Que bom que você entendeu!!
+
+[show portrait x smiling]
+x: Como está o dojo? Você sabe, em casa.
+
+[show portrait ch exasperated]
+Charis suspira.
+
+ch: Tem sido uma sombra do que era desde então...
+
+[show portrait ch normal]
+ch: Talvez você pertença aqui...
+
+ch: Nesse caso, talvez eu possa fechar o dojo...
+
+[show portrait k yan_angry]
+Neste ponto, Kira caminha até o pai de Xena.
+
+E ela dá um tapa nele.
+
+[show portrait ch normal]
+...
+
+[show portrait k yan_angry]
+k: Pai, como você pode dizer isso?!
+
+k: Não é o seu dojo...
+
+k: É da nossa família... é tudo o que resta da nossa família!
+
+k: Eu tenho mantido tudo sob controle!
+
+k: Dando aulas com esse sorriso idiota todos os dias!
+
+k: E para quê??
+
+k: Você vai fugir assim como Xena fez?
+
+k: Não acredito nessa merda...
+
+[show portrait ch normal]
+ch: Kira...
+
+[hide portrait]
+Todos eles ficam em silêncio por um tempo.
+
+[show portrait k normal]
+Kira é a primeira a falar.
+
+k: Eu... peço desculpas.
+
+Então, Kira volta sozinha para cima.
+
+[show portrait x normal]
+x: {heroname}... Desculpe, você teve que ver isso.
+
+x: Este é um assunto de família... então, hum... não se preocupe com isso. Podemos resolver isso sozinhos.
+[hide portrait]
+
+[scene xena_train]

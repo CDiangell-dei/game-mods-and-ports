@@ -1,0 +1,6 @@
+[name] a: Quem são vocês?
+[cast a=Hero]
+O homem olha para você com desdém...
+
+i: Somos inquisidores da igreja Claris.
+[chat-menu()]

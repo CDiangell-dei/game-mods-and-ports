@@ -1,0 +1,16 @@
+[cast a=Hero, ch=Charis, x=Xena]
+[show portrait ch normal]
+Você cai de joelhos.
+
+ch: Nada mal! Posso sentir sua determinação.
+
+ch: Eu decidi! Você pode me desafiar até ficar satisfeito!
+
+a: Obrigado pela oportunidade, senhor!
+
+[show portrait x teasing]
+Xena se aproxima com um pouco de gelo, que ela aplica nas áreas machucadas.
+
+x: Não se preocupe, {heroname}!
+
+[end-dojo-challenge()]

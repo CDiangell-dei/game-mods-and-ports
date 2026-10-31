@@ -1,0 +1,12 @@
+[name] Faça sexo (traseiro)
+[cast p=Paila]
+[show cg paila_rear]
+p: {heroname}... Ahhhh~
+
+[show cg paila_rear_hard]
+p: {heroname}... Isso é loucura...
+
+[show cg paila_rear_orgasm]
+p: Ahhhh!!! Estou gozando!!!
+
+[paila-room-menu()]

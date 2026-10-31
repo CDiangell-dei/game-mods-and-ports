@@ -1,0 +1,6 @@
+[name] Usar vibrador
+[cast l=Pila]
+[show cg pila_vibrator]
+l: {heroname}... é bom...
+
+[pila-room-menu()]

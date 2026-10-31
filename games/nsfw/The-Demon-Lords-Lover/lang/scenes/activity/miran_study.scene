@@ -1,0 +1,19 @@
+[name] Estude com Miran (→ noite)
+[cast m=Miran]
+Você passa a noite estudando com Miran.
+
+[miran-get-library-feat()]
+[get-library-feat()]
+
+[if room-open(m)]
+    [show portrait m blushing]
+    m: Foi divertido... hum, você quer vir?
+[else]
+    [show portrait m normal]
+    m: Obrigado por estudar comigo... eu deveria voltar.
+
+Miran arruma seus livros enquanto a biblioteca fecha à noite.
+
+[stop mood-song]
+[record-study(m)]
+[goto-night()]

@@ -1,0 +1,2 @@
+[cast n=Nanako]
+n: Vamos encontrar nosso {if rescue-target.plural then targets else target}.

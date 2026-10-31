@@ -1,0 +1,9 @@
+[name] Vá para o quarto de Miran (→ manhã)
+[cast m=Miran]
+[scene spend_night_setup]
+[mood-song dream]
+[miran-room-intro()]
+[scene miran_spend_night_intro]
+[miran-room-menu()]
+
+[scene inn_night_subscene]

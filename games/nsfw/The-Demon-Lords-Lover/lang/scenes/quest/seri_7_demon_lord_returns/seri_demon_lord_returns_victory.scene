@@ -1,0 +1,267 @@
+[cast a=Hero, s=Seri, n=Nanako, h=Hera]
+[mood-song seri_reprise]
+[show portrait s pensive]
+s: Mate-me...
+
+[show portrait s serious]
+s: Você entende que isso aconteceu várias vezes agora, certo?
+
+s: Concordei em ajudar Kino e Earnest a acabar com a maldição e, no final, hesitei.
+
+a: E quando vocês abandonaram a maldição juntos? O que foi isso?
+
+s: ... Eu devia saber no fundo que não era permanente.
+
+a: Ridículo! Eu não acredito nisso.
+
+a: Você está tão apegado à sua história que não consegue ver mais nada!
+
+a: Posso aceitar que há uma parte de você que está curiosa em se tornar o Lorde Demônio!
+
+a: Mas seus sentimentos quando você escolheu não ser da última vez não foram por acaso!
+
+a: E o mesmo aconteceu quando Kino e Earnest lhe ofereceram uma chance de acabar com a maldição e você concordou!
+
+a: Você pode ter ambos os desejos dentro de você!
+
+a: Eu aceito você!
+
+a: Eu entendo você em todos os sentidos? Estou sempre ao seu lado? Talvez não!
+
+[show portrait s pensive]
+s: {heroname}, eu sabia que você nunca seria meu.
+
+s: Você é um pássaro e sempre soube que você nunca seria meu.
+
+s: Você diz coisas boas...
+
+s: Mas sei que posso apenas fazer parte da sua vida, não de toda ela.
+
+[if with(n)]
+    [show portrait n normal]
+    n: Seri, você está pensando demais. Vamos para casa descansar.
+
+    n: Podemos fazer isso, Sra. Hero?
+[else]
+    a: Seri, vamos para casa descansar.
+
+    Nesse momento chega a festa do herói.
+
+    a: Eu não quero brigar...
+
+[show portrait h normal]
+O herói, que acaba de chegar, zomba.
+
+h: Agora que o papel do Lorde Demônio foi removido, quem é essa garota, realmente?
+
+h: Seu maior medo se tornou a verdade: ela não é ninguém.
+
+h: Sua fantasia de ser mais do que um pecador amargo comum chegou ao fim.
+
+h: Se meu propósito fosse matar todos os idiotas medíocres, de vontade fraca e com alguns sentimentos amargos, eu seria um assassino em massa.
+
+h: Espero nunca mais ver vocês três...
+
+h: Espero que vocês três possam encontrar um novo propósito, vivendo tranquilamente.
+
+h: Se você subir ao poder novamente, entraremos em conflito novamente, desta vez não como herói e senhor demônio, mas apenas como dois grupos com sentidos de justiça opostos.
+
+h: Por enquanto, não somos isso.
+
+[hide portrait]
+E então, Hera vai embora.
+
+...
+
+[show portrait s pensive]
+s: Depois de tudo isso... você me perdoa.
+
+[show portrait s irritated]
+s: É francamente nojento.
+
+[if with(n)]
+    [show portrait n normal]
+    n: Hmmm... é bom ouvir você dizer algo assim.
+
+    [show portrait s irritated]
+    s: Como o quê?
+
+    [show portrait n smiling]
+    n: Dizendo que somos nojentos.
+
+    a: Sim, é melhor saber como você realmente se sente.
+[else]
+    a: ...
+
+    a: É bom falar o que pensa.
+
+[show portrait s irritated]
+s: Não quero viver num mundo onde o mal é perdoado...
+
+[if with(n)]
+    [show portrait n winking]
+    n: E ainda assim, você está amaldiçoado a viver mais um dia.
+
+    [show portrait n normal]
+    n: Bem, {heroname}, pode ser uma boa ideia passar algum tempo com ela esta noite, para que ela não faça nada precipitado.
+
+    a: Rogério...
+
+    [show portrait n normal]
+    n: E você deveria ter mais fé em si mesmo.
+
+    n: Não te ajudei porque pensei que você fosse uma boa pessoa.
+
+    n: E seu magnetismo não é apenas o poder de um lorde demônio.
+
+    [show portrait n smiling]
+    n: Acho que você poderia dizer que gostei de ver você se contorcer...
+
+    a: Nanako, não intimide Seri! Ela passou por muita coisa hoje...
+
+    [show portrait s pensive]
+    s: ...
+
+[hide all]
+[stop mood-song]
+Você coloca Seri de costas e sai da masmorra.
+[seri-joins-party()]
+
+[travel-to-town-skipping-quest-arrival()]
+[goto-inn-counter()]
+Por enquanto, Chii e Hilde deixaram Seri ficar em um quarto na pousada.
+
+[hide all]
+[show portrait s sad]
+Você leva Seri para o quarto dela na pousada.
+
+Seri se deita e você também.
+
+s: Ei {heroname}... não vou fazer nada precipitado...
+
+s: Então você não precisa cuidar de mim se não quiser.
+
+a: Mas eu quero.
+
+a: Quero dizer, muita coisa aconteceu. Sinto que é natural descansarmos juntos, assim.
+
+[show portrait s pensive]
+s: Hmmm... talvez você esteja certo.
+
+s: De qualquer forma, estou grato...
+
+[show portrait s blushing]
+E Seri te dá um abraço.
+
+Seu rosto está próximo e seus olhos são suaves...
+
+[if intimate-with(s)]
+    E considerando todas as vezes que você fez sexo no passado, você não consegue evitar de ter uma ereção...
+[else]
+    E você não pode evitar ter uma ereção...
+
+Seri percebe e sorri gentilmente.
+
+s: Posso cuidar disso?
+
+[hide portrait]
+É nesse momento que alguém bate na porta.
+
+n: Sou eu!
+
+[show portrait n smiling]
+Nanako traz 3 tigelas de mingau de frango.
+
+n: Seri, você já jantou? ... ou qualquer comida?
+
+[show portrait s pensive]
+s: ...
+
+[show portrait n smiling]
+n: eu imaginei...
+
+[hide portrait]
+E então vocês três comem o mingau de frango, sentados na cama.
+
+[show portrait n smiling]
+n: Então, Seri, o que o Lorde Demônio fará a seguir?
+
+[show portrait s normal]
+s: ... o que?
+
+[show portrait n smiling]
+n: Você não disse que queria dominar o mundo?
+
+n: Não me diga que você desistiu disso só porque perdeu algum poder mágico...
+
+n: Ouvi dizer que há um barco que traz pessoas de e para o continente.
+
+[show portrait n winking]
+n: Tenho certeza de que podemos encontrar lá os próximos passos para a dominação mundial.
+
+[show portrait s pensive]
+s: Ahhhh, cala a boca...
+
+s: Não quero pensar nessas coisas agora.
+
+[show portrait n smiling]
+Nanako tem um sorriso gentil.
+
+n: Entendido, mestre.
+
+a: Nanako, dê um tempo para Seri!
+
+[show portrait s pensive]
+É nesse momento que Seri aproxima você e Nanako para um abraço.
+
+s: {heroname}... Nanako...
+
+s: Eu reconheço o que você passou.
+
+s: Eu reconheço o que fiz.
+
+s: Eu sei que não mereço seu perdão, mas sinto muito.
+
+s: Para tudo.
+
+[show portrait n normal]
+Nanako parece estar passando por momentos difíceis com a seriedade de Seri...
+
+n: Seri... está no passado... poderia muito bem ser uma história neste momento.
+
+[hide portrait]
+Você, por outro lado, está em um lugar totalmente diferente.
+
+Acontece que ficar pele a pele com duas lindas mulheres (com quem você fez sexo) é excitante.
+
+E você fica duro.
+
+[show portrait n smiling]
+n: Ah, aí está.
+
+[show portrait s blushing]
+s: {heroname}...
+
+[show portrait n smiling]
+n: Alguém deveria cuidar disso? Eu posso fazer isso, mas você quer dinheiro, Seri?
+
+[show portrait s blushing]
+...
+
+s: Nanako...
+
+s: Que tal cuidarmos disso juntos?
+
+s: Quero dizer, nós dois fizemos sexo com ele, certo?
+
+[show portrait n smiling]
+n: !!! Isto... é um desenvolvimento inesperado.
+
+n: Você vai aproveitar esta oportunidade enquanto ela dura?
+
+[hide all]
+[set SERI_LEFT_DUNGEON]
+[end-quests()]
+[seri-room-menu()]
+
+[scene inn_night_subscene]

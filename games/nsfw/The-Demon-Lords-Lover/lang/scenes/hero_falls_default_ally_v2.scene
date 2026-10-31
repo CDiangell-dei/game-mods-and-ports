@@ -1,0 +1,11 @@
+[play-fall-pretext()]
+[menu]
+    {go-back-with-fallen}
+        [escape-loss(party)]
+        [if have-quest() and not have-quest-success()]
+            (Você pode tentar novamente a missão amanhã.)
+        [goto-town-triggering-events()]
+    [if allow-continue-without()]
+        {continue-without-fallen}
+            [escape-loss(fallen)]
+            [rmv-fallen-companions()]

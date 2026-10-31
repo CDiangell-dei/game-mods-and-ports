@@ -1,0 +1,47 @@
+[name] Missões
+[cast a=Hero, c=Chii]
+Conforme você navega pelas missões, uma delas salta imediatamente.
+
+[show cg seri_wanted_CG]
+"Procurado: O Lorde Demônio"
+
+O pôster traz um desenho misteriosamente bem ilustrado de alguém que não pode ser outro senão Seri.
+
+Seu amigo de infância.
+
+Seu coração bate cada vez mais forte...
+
+E você pensa: “Tenho que encontrá-la”.
+
+c: Querido... o que há de errado?
+
+a: Chii, por favor, deixe-me fazer esta missão.
+
+E a expressão de Chii endurece.
+
+c: Você é ousado, não é?
+
+c: Querido, eu não me intrometo com quem está ou não atrás dessa recompensa.
+
+c: Mas se você quer saber, há rumores de que o Lorde Demônio está no andar inferior da Masmorra do Lorde Demônio.
+
+c: Chegar lá não será uma tarefa fácil!
+
+c: Será útil estar familiarizado com a masmorra para que você saiba o que está enfrentando.
+
+c: E ter alguns aliados não vai doer!
+
+Apesar do resumo de Chii, você se sente um pouco impaciente... e Chii percebe.
+
+[hide all]
+[show portrait c normal]
+c: Se o seu objetivo é O Lorde Demônio, que tal fazer uma missão de nível inferior primeiro?
+
+c: Talvez seja melhor fazer as coisas passo a passo.
+
+c: E posso emparelhá-lo com outro aventureiro que pode lhe mostrar o que fazer.
+
+c: Pense nisso, ok?
+
+Você olha de volta para o quadro de missões...
+[chii-quests-menu()]

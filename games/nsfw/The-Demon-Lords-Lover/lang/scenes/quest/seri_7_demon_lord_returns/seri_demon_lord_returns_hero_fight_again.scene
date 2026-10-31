@@ -1,0 +1,8 @@
+[cast a=Hero, h=Hera]
+[floor-song tension]
+[show portrait h glowing]
+h: Renda-se ou enfrente as consequências.
+
+[hide portrait]
+[hero-party-become-hostile()]
+[end]

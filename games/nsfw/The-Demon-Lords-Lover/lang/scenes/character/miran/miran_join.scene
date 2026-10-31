@@ -1,0 +1,4 @@
+[name] Faça com que Miran participe
+[cast m=Miran]
+m: Claro!
+[add-miran()]

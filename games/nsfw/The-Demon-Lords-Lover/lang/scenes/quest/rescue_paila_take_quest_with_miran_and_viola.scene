@@ -1,0 +1,16 @@
+[cast m=Miran, v=Viola]
+[show portrait m normal]
+m: {heroname}... o que está acontecendo? Você parece... pálido.
+
+Você explica a situação.
+
+[show portrait v normal]
+Miran e Viola se entreolham e acenam com a cabeça.
+
+[show portrait m normal]
+m: {heroname}, estamos aqui com você.
+
+[show portrait v normal]
+v: Vamos.
+
+Você aceita a missão.

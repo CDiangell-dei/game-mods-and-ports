@@ -1,0 +1,6 @@
+[cast p=Paila]
+Você cai.
+
+[show portrait p worried]
+Paila desaparece no caos.
+[rmv-companion(p)]

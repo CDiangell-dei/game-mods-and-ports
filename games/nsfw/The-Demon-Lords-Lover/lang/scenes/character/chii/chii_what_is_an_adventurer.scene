@@ -1,0 +1,41 @@
+[name] O que é um aventureiro?
+[cast a=Hero, c=Chii]
+[show portrait c]
+a: Hum, o que é um aventureiro?
+
+c: Num sentido prático... um aventureiro é apenas alguém que faz biscates.
+
+c: Aqui, a maioria dos trabalhos envolve o Calabouço do Lorde Demônio.
+
+c: Os aventureiros são pagos para realizar tarefas na masmorra, como coletar ervas, caçar monstros e ajudar outros aventureiros que enviaram sinais de ajuda.
+
+a: Posso me tornar um aventureiro?
+
+[if seen(chii_seris_bounty)]
+    Você acabou de dizer...
+[else]
+    Você acabou de dizer isso, por curiosidade...
+
+Chii olha nos seus olhos como se estivesse procurando alguma coisa.
+
+c: A verdade é que posso ter falado de forma irresponsável.
+
+a: Deve ser perigoso.
+
+c: Isso mesmo. Logicamente, ninguém deveria se tornar um aventureiro.
+
+c: E muitas pessoas que se tornam aventureiras não têm muitas outras opções. Isso foi verdade para mim, pelo menos no início.
+
+c: Mas aqui está o que eu penso... Nós, aventureiros...
+
+[show portrait c normal]
+Chii se inclina e sussurra.
+
+c: Estamos um pouco enjoados da cabeça.
+
+c: Mesmo sendo uma mulher idosa que não consegue se mover como antes, sinto falta de ser uma aventureira o tempo todo.
+
+c: Quanto à sua pergunta sobre se você pode ou não se tornar um aventureiro...
+
+c: Querido, não é uma escolha.
+[chat-menu(c)]

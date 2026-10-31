@@ -1,0 +1,45 @@
+[cast m=Miran, s=Seri, v=Viola]
+[show portrait s normal]
+Ao notar Miran e Viola, Seri se curva.
+
+s: Olá, vocês devem ser amigos de {heroname}. Meu nome é Seri.
+
+[show portrait m smile]
+m: Olá, meu nome é Miran. {heroname} nos contou sobre você...
+
+[show portrait v normal]
+v: Olá, meu nome é Viola.
+
+[show portrait s normal]
+s: Prazer em conhecê-lo.
+
+[show portrait m normal]
+m: Você não precisa ser tão formal, Seri... quero dizer... não é solitário aqui embaixo?
+
+[show portrait s smiling]
+s: Haha, acho que já estou acostumada...
+
+[show portrait m smile]
+m: Você precisa de algumas plantas... da próxima vez trarei algumas!
+
+[show portrait v normal]
+v: Ouvi falar da sua situação... quero ajudar você também.
+
+[show portrait s smiling]
+s: Faz sentido que os amigos de {heroname} sejam pessoas incrivelmente gentis...
+
+[show portrait v normal]
+v: Ele é uma pessoa idealista, não é?
+
+v: Acho que você pode dizer que ele me inspirou a ser o mesmo.
+
+[show portrait s smiling]
+s: eu entendo...
+
+Seri se vira para você.
+
+s: Não acredito como eles são lindos...
+
+Seri olha para Miran e Viola.
+
+s: E eles nem sabem disso...

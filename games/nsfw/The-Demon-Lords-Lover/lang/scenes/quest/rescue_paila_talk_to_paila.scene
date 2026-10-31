@@ -1,0 +1,62 @@
+[cast a=Hero, p=Paila]
+[show portrait p worried]
+a: Paila!
+
+Paila não faz contato visual... por um momento, você pensa que ela está te ignorando.
+
+p: {heroname}, ouça... Isso não envolve você.
+
+p: Não quero que você arrisque sua vida por causa da minha tolice...
+
+a: Isso não me envolve?? Como você pode dizer isso, depois daquela noite?
+
+Paila olha nos seus olhos e começa a chorar.
+
+p: {heroname}... por favor... você é uma boa pessoa.
+
+p: {heroname}... Eu me diverti muito naquela noite.
+
+p: Tão bom que quase decidi não fazer isso.
+
+a: Você está aqui para encontrar remédios para sua mãe?
+
+p: Como você sabia?
+
+p: Eu acho que isso não importa. Sim. Minha mãe está doente, se é que se pode chamar assim, desde que meu pai morreu.
+
+p: Sim, quando se trata de bate-papo básico, ela parece bem. Mas se ela se esforçar um pouquinho, ela vai desmaiar e ficar com febre...
+
+p: Há alguns meses, ouvi dizer que existe uma erva rara que cresce nos níveis intermediários da masmorra e que irá curar a condição da minha mãe.
+
+p: Publiquei uma busca pela erva há um mês, mas nenhum aventureiro conseguiu encontrá-la.
+
+p: Acho que você poderia dizer que cansei de esperar.
+
+a: Paila, vamos procurar a erva juntos.
+
+p: {heroname}... deixe-me fazer isso...
+
+Paila para para pensar.
+
+p: {heroname}, você sabe o que a maioria dos aventureiros diz quando você pergunta por que eles se tornaram aventureiros?
+
+a: O quê?
+
+p: Liberdade.
+
+p: Às vezes sinto que eles estão apenas tentando fugir de suas responsabilidades...
+
+p: Mas apesar disso, às vezes... sinto ciúmes.
+
+p: Talvez eu quisesse sentir essa “liberdade” resolvendo o problema com minhas próprias mãos.
+
+p: Isso faz sentido?
+[menu]
+    a: Você não precisa fazer isso sozinho.
+    a: Eu não me importo. Eu vou proteger você.
+p: Acho que fui muito ingênuo.
+
+p: Ok.
+
+[add-paila()]
+[end]

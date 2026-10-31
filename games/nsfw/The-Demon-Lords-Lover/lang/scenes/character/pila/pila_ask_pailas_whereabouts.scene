@@ -1,0 +1,7 @@
+[name] Pergunte onde Paila está
+[cast a=Hero, l=Pila]
+a: Gostaria de agradecer a Paila. Onde ela está agora?
+
+[show portrait l]
+l: Ela deveria estar cuidando da loja de roupas ao lado. Você deveria passar por aqui. Tenho certeza que ela gostaria de dizer oi.
+[chat-menu(l)]

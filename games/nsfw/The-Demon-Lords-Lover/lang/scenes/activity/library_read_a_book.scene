@@ -1,0 +1,5 @@
+[name] Leia um livro (→ noite)
+Você leu um livro.
+[get-library-feat()]
+[record-library-read()]
+[goto-night()]

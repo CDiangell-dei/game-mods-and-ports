@@ -1,0 +1,5 @@
+[name] Faça uma massagem nela
+[cast v=Viola]
+[show cg viola_massage]
+Você e Viola se massageiam.
+[viola-room-menu()]

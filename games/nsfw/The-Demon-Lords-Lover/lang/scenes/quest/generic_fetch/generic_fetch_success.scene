@@ -1,0 +1,9 @@
+[play-fetch-complete-intro()]
+
+Você obtém {fetch-target|definite}.
+[set-quest-success()]
+
+Voltar para a cidade?
+[yes-or-later-prompt()]
+[play-fetch-complete-outro()]
+[goto-town-triggering-events()]

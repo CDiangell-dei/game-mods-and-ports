@@ -1,0 +1,12 @@
+[cast x=Xena]
+[show portrait x normal]
+x: Ei, veio treinar?
+
+x: Este é um dojo de artes marciais! Os aventureiros vêm aqui para compartilhar movimentos e treinar.
+
+[show portrait x determined]
+x: Você também é um aventureiro, certo? Damos aulas para crianças pela manhã, mas você pode sair à noite.
+[if is-evening()]
+    [if not DOJO_HINT_SEEN]
+        [set DOJO_HINT_SEEN]
+        hint: "Treinar no dojo" concede a escolha de 1 de 4 talentos.

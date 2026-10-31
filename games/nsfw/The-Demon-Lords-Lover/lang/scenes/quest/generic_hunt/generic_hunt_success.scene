@@ -1,0 +1,8 @@
+[play-defeat-outro()]
+
+Você derrotou {hunt-target|definite}.
+[set-quest-success()]
+
+Voltar para a cidade?
+[yes-or-later-prompt()]
+[goto-town-triggering-events()]

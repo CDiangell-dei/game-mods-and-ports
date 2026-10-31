@@ -1,0 +1,5 @@
+[cast a=Hero, x=Xena]
+[show portrait x normal]
+x: Continue assim, {heroname}!
+
+[end-dojo-challenge()]

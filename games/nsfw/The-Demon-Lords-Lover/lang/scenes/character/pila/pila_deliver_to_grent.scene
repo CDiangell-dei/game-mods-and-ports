@@ -1,0 +1,124 @@
+[name] Entregar pacote para Grent
+[blocker is-night()] Must not be night.
+[cast a=Hero, grent=Grent, l=Pila]
+[unlock pila_pants]
+[mood-song gentle]
+[set TODAY_I_TALKED_TO_PILA]
+a: Vamos entregar o pacote para Grent.
+
+[show portrait l normal]
+l: Ok. Ele ainda administra a loja do aventureiro, certo?
+
+[add-pila()]
+[move-to-shop-counter()]
+Você vai à loja de Grent.
+
+[show portrait l normal]
+Pila explica a situação.
+
+[hide portrait]
+Grent: Leo tinha um pacote para mim... Ok, vamos dar uma olhada.
+
+Grent abre o pacote, que contém o que parece ser uma calça.
+
+Por um momento, ele olha para as calças com perplexidade.
+
+Grent: Hummm...
+
+Grent: Ei {heroname}, aumentei alguns tamanhos de calças nos últimos anos... Que tal você experimentá-las?
+
+a: Hein?
+
+[show portrait l normal]
+Você olha para Pila, que parece interessada.
+
+a: Ok, ok.
+
+[hide portrait]
+Na despensa, você se senta em um banquinho e sobe as calças aos poucos.
+
+Mas, no momento em que você termina de puxar a calça, ela começa a se mover sozinha.
+
+a: Ah!!! Que merda!!!
+
+Em estado de choque, você cai do banquinho com um baque forte. E as calças envolvem seus quadris e pernas como uma píton...
+
+[show portrait l frowning]
+Pila e Grent entram.
+
+l: {heroname}, o que aconteceu?
+
+[hide portrait]
+Grent: Eu sabia... Maldito Leo, tentando me pregar uma peça do além-túmulo...
+
+Grent: Quando éramos aventureiros, tive um, hum, incidente em que uma armadilha arrancou minhas calças.
+
+Grent: Posso ouvi-lo dizendo "Achei que você poderia usar isso." com esse sorriso idiota...
+
+a: Então eu fui sua cobaia?!
+
+Grent: Haha, você pode dizer que foi uma espécie de vingança.
+
+Grent: Antes de nos preocuparmos em remover a maldição, por que não tentamos removê-la com força bruta?
+
+Você desliza um dedo na cintura.
+
+gent: Pode ser possível.
+
+[hide portrait]
+[show cg pila_pants]
+Você fica em uma posição onde está sentado, Grent está sentado por trás e agarrando você por baixo dos braços, e Pila está puxando suas calças pela frente.
+
+E você percebe que é a primeira vez que vejo Pila tão de perto...
+
+O rosto dela está próximo, os seios dela estão juntos e ela está puxando suas calças...
+
+E você tem uma ereção, que é extremamente visível contra as calças mais ou menos seladas a vácuo.
+
+l: {heroname}... o-o que você está fazendo?
+
+gent: Deus, ele é igualzinho ao Leo...
+
+Pila cora...
+
+gent: Ok, ok, vamos acabar logo com isso. Vamos {heroname}, ajude Pila. Em 1, 2, 3!
+
+[show cg pila_pants_down]
+A calça sai...
+
+Mas o mesmo acontece com a sua roupa interior... que deixa a sua erecção apontada para o ar como um obelisco.
+
+l: Ah!!!
+
+Grent: Ah, qual é, Pila, não é como se não pudéssemos ver a maldita coisa através das calças dele em primeiro lugar.
+
+Grent: Suspiro... Sinto que Leo conseguiu pregar uma peça em mim, afinal...
+
+[show portrait l blushing]
+Mais tarde, você e Pila vão embora.
+
+[hide portrait]
+Grent: {heroname}... cuide bem dela, ok?
+
+a: Ah, ok. Eu vou.
+
+Grent: E Pila, talvez nós três possamos ir para a masmorra algum dia. Como nos velhos tempos.
+
+[show portrait l normal]
+l: Grent, você não acha que já tivemos aventuras suficientes por um dia?
+
+[hide portrait]
+gent: Acho que encontramos um monstro...
+
+[show portrait l dizzy]
+l: Grente!!
+
+[hide portrait]
+Grent: Desculpe!!
+
+[show portrait l normal]
+Você percebe que Pila tem um brilho de sorriso...
+
+Você volta para a casa de Pila.
+[goto-pailas-house()]
+[rmv-pila()]

@@ -1,0 +1,14 @@
+[name] Faça sexo (de volta)
+[cast s=Seri]
+[show cg seri_sex_1]
+s: Ainda não consigo acreditar que podemos fazer sexo assim... Na minha vida passada era só uma fantasia...
+
+[show cg seri_sex_1_hard]
+s: {heroname}... não pare... vou gozar...
+
+[show cg seri_sex_1_orgasm]
+Você pode senti-la convulsionando por dentro enquanto vocês dois gozam...
+
+s: É tão bom...
+
+[seri-room-menu()]

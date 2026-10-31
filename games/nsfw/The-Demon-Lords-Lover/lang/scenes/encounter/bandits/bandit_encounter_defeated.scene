@@ -1,0 +1,15 @@
+[cast a=Hero, e=Emma, i=Ise, trav=Trav]
+[show portrait i crying]
+i: Ugh... Como isso pode estar acontecendo?
+
+[show portrait e swooning]
+e: Como isso pode estar acontecendo!
+
+[show portrait trav sighing]
+trav: Dados nossos erros, isso era apenas uma questão de tempo.
+
+[if bandit-held-gold()]
+    Os bandidos devolvem seu ouro.
+    [bandit-refund-gold()]
+
+Os bandidos escapam.

@@ -1,0 +1,7 @@
+[name] Passe um tempo sozinho
+[cast s=Seri]
+[set TODAY_I_SPENT_TIME_ALONE_WITH_SERI]
+[exit-companions()]
+[mood-song dream]
+[seri-dungeon-bedroom-intro()]
+[seri-spend-alone-in-dungeon-menu()]

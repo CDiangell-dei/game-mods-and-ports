@@ -1,0 +1,128 @@
+[cast a=Hero, s=Seri, n=Nanako]
+[set TODAY_SERI_IS_UNAVAILABLE]
+[set TODAY_NANAKO_IS_UNAVAILABLE]
+[set SERI_GIRL_TO_GIRL_DONE]
+[unset SERI_LEFT_DUNGEON]
+[show portrait s normal]
+[if with(n)]
+    a: Seri... o que você está fazendo aqui sozinho?
+[else]
+    a: Seri, Nanako... o que vocês estão fazendo aqui?
+
+a: A masmorra é perigosa... Pensei em descermos juntos.
+
+[show portrait s pensive]
+s: Ah, {heroname}, só não queria sobrecarregar você. Você já fez tantos favores para mim. Eu queria encontrar meu próprio caminho.
+
+[show portrait s normal]
+s: Acho que descobri como acabar com o ciclo herói/lorde demônio para sempre.
+
+s: As anotações da igreja... Encontrei a peça que faltava.
+
+a: O que é isso?
+
+s: Não tenho 100% de certeza de que minhas teorias estejam corretas, mas...
+
+a: Seri, você sabia que o grupo do herói está aqui, procurando a fonte do poder do lorde demônio. Eles querem acabar com tudo, assim como você.
+
+a: Talvez se você falar com eles - você possa descobrir algo?
+
+[show portrait s serious]
+s: ...
+
+s: Acho que isso pode complicar um pouco as coisas...
+
+s: Nós dois almejamos a mesma coisa, então por que não trabalhar separadamente... não precisamos trabalhar juntos.
+
+[show portrait n normal]
+n: Seri, você está escondendo algo de nós?
+
+n: Eu tinha certeza que fui transportado para esse mundo... sem você, certo?
+
+[show portrait s normal]
+Seri congela.
+
+[show portrait n smiling]
+n: Seri... Você esteve aqui, sozinho...
+
+n: Você já quis... companhia?
+
+n: Seri, tenho uma pergunta...
+
+n: Como você se sentiu quando meu escândalo estourou?
+
+n: Eu sei que você era meu fã.
+
+[show portrait s serious]
+s: O que você está dizendo?
+
+[show portrait n normal]
+n: Vamos, temos os mesmos peitos.
+
+n: Você deve ter visto algo em mim que reconheceu em você.
+
+[show portrait s serious]
+s: Como você pode dizer isso...
+
+s: Na terra, eu estava muito ocupado...
+
+s: Estar seguindo ídolos... e estrelas pornôs.
+
+[show portrait n smiling]
+n: Mas você sabe que sou uma estrela pornô.
+
+[show portrait s serious]
+Seri congela.
+
+[show portrait n smiling]
+n: Para um ex-presidente do conselho estudantil, você é bastante descuidado com suas palavras.
+
+n: Se você não era meu fã, então por que estou aqui?
+
+[show portrait s serious]
+s: O-o que você está dizendo... Não sei por que algum de nós está aqui.
+
+[show portrait n serious]
+n: Hummm...
+
+[show portrait s serious]
+s: ...
+
+s: {heroname}...
+
+[show portrait n smiling]
+n: E ele não está envolvido nisso também?
+
+[show portrait s sad]
+s: Ele não é.
+
+s: Nanako... vamos discutir isso em particular.
+
+[show portrait s normal]
+s: {heroname}... Nanako e eu temos... nosso próprio relacionamento.
+
+s: Ela tem me ajudado, como você tem feito...
+
+s: Portanto, há algumas conversas nas quais você pode não ter contexto...
+
+a: Seri, o que está acontecendo?
+
+[show portrait s pensive]
+s: É muita coisa para explicar...
+
+s: Estou me sentindo um pouco cansado...
+
+[show portrait s serious]
+s: Mas basicamente acho que você poderia dizer que preciso conversar com Nanako, de garota para garota.
+
+s: Vamos conversar mais amanhã.
+
+[show portrait s sad]
+s: Acho que tudo isso... acabará em breve.
+
+s: E então poderemos viver neste mundo sem qualquer confusão.
+
+[grant-final-arc-powers()]
+[rmv-companions()]
+[goto-town-triggering-events()]
+[end]

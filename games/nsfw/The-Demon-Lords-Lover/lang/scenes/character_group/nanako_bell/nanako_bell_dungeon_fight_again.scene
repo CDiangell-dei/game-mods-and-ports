@@ -1,0 +1,18 @@
+[cast b=Bell, n=Nanako]
+[show portrait n smiling]
+Nanako se vira para Bell.
+n: Sino...
+
+[show portrait b smiling]
+b: Sim?
+
+[floor-song tension]
+[show portrait n winking]
+n: Vamos matar {if party.plural then these pests else this pest}.
+
+[show portrait b laughing]
+Bell fica um pouco confusa, mas ela não pensa demais.
+
+b: Rogério isso!
+
+[nanako-bell-become-hostile()]

@@ -1,0 +1,444 @@
+[name] Passe algum tempo com Paila (→ noite)
+[cast a=Hero, l=Pila, p=Paila]
+[unlock paila_clothing_shop]
+[show portrait p normal]
+a: Então eu tenho que sair com você em 100 encontros, certo?
+
+a: Que tal agora?
+
+Paila, que examina uma calça, não faz contato visual, mas mostra uma pitada de diversão.
+
+p: Eu sei que disse isso, mas foi uma espécie de fantasia.
+
+p: Você sabe, eu tenho que trabalhar.
+
+a: Posso sair com você no trabalho?
+
+Paila olha para cima.
+
+p: Por que...
+
+a: Quero dizer, de que outra forma vou começar a ganhar esses 100?
+
+[show portrait p blushing]
+Paila cora.
+
+p: Você é um idiota...
+
+a: Honestamente, eu só quero passar um tempo com você.
+
+a: E talvez eu possa aprender uma ou duas coisas!
+
+[show portrait p normal]
+Paila mostra um sorriso divertido.
+
+p: Você está interessado em roupas?
+
+a: Não sei, deveria estar?
+
+[show portrait p worried]
+p: Hmmm... Você sabe, eu adorava.
+
+p: Mas tem sido difícil mergulhar nisso ultimamente.
+
+a: Você pode me mostrar o que você faz?
+
+[show portrait p normal]
+p: Quero dizer, dado que esta é uma cidade de masmorras, a maior parte do trabalho consiste em limpar e consertar roupas danificadas.
+
+Paila faz uma pausa para pensar.
+
+p: Hmmm, talvez você possa remendar essas calças.
+
+Paila abre uma caixa com restos de tecido. Os retalhos de tecido possuem diversas cores e estampas, algumas mais lisas e outras mais chamativas.
+
+p: Você pode escolher um destes.
+
+a: Eu? O que o cliente quer?
+
+p: Haha, o cliente não liga. E mesmo que o fizesse, seríamos a única loja de roupas por aqui.
+
+Você olha os restos de tecido.
+
+a: Humm, e esse?
+
+p: Haha, é uma escolha interessante.
+
+Paila vira a calça do avesso e coloca o remendo no buraco. Ela usa alfinetes para segurar o remendo no lugar.
+
+Paila abre uma caixa de fios de cores diferentes.
+
+p: Você também pode escolher um desses.
+
+a: A maioria dessas cores não vai aparecer?
+
+p: Sim, essa é a parte divertida.
+
+p: Por alguma razão, acho um pouco triste consertar roupas e esconder os danos.
+
+p: Por alguma razão, sinto que se consertarmos de uma forma que fique mais visível, teremos a chance de dar um pouco mais de personalidade à roupa...
+
+p: É quase como se pudéssemos comemorar o crescimento das roupas... ou algo assim.
+
+[show portrait p blushing]
+Você olha para Paila e quando ela percebe, ela evita se sentir constrangida.
+
+a: Você ama isso.
+
+a: Eu irei com este tópico.
+
+Você escolhe um fio cerúleo.
+
+[show portrait p normal]
+Paila segura o fio contra a calça e o remendo para ver como as cores combinam.
+
+E Paila olha para você.
+
+p: Eu amo isso.
+
+Paila pega uma régua e desenha uma grade sobre o remendo.
+
+Depois disso, ela enfia a linha na agulha e começa a costurar na grade.
+
+p: Você vê o que estou fazendo? Você acha que pode lidar com isso?
+
+a: Posso dar uma chance...
+
+Paila lhe dá a agulha e seus dedos roçam um no outro.
+
+Com base no que Paila fez antes, você empurra a agulha para a próxima posição.
+
+Você não consegue fazer isso com a mesma elegância que Paila, mas consegue guiar a agulha mais ou menos para o lugar certo.
+
+Em alguns casos, você erra o local e pensa em puxar a agulha para refazer, mas Paila coloca a mão na sua para impedi-lo.
+
+p: Não é grande coisa. Você vai enlouquecer se atacar isso com esse tipo de perfeccionismo.
+
+E assim você continua, indo ponto por ponto.
+
+p: Vou voltar ao trabalho, mas entrarei em contato com você daqui a pouco.
+
+Você olha para Paila, que parece estar de bom humor.
+
+[hide all]
+[show cg paila_working_together_cg]
+E você volta para a calça/remendo/agulha.
+
+Para sua surpresa, você se perde no processo.
+
+O tempo passa...
+[hide cg]
+[goto-night()]
+
+E de repente, está feito.
+
+Existem sinais de mais azuis em uma grade ao longo do patch.
+
+[show portrait p normal]
+Paila dá um nó no resto da linha e aproveita um momento para apreciar seu trabalho.
+
+p: Hmmm... você fez um bom trabalho.
+
+Paila primeiro dá um tapinha na sua cabeça, mas depois deixa a mão no seu cabelo.
+
+p: Quer tentar bordar algo aí também?
+
+a: O que está bordando?
+
+p: Uh... você vê como você desenhou esses sinais de mais com o fio?
+
+p: Você também pode desenhar outras coisas.
+
+a: Adicionar mais pontos torna o remendo mais durável?
+
+p: É só por diversão.
+
+a: Parece divertido... mas também me sinto culpado desenhando enquanto você está ocupado fazendo um trabalho de verdade.
+
+p: Está tudo bem. Por alguma razão, quero ver você se divertindo.
+
+E então você pega alguns fios coloridos e faz o possível para costurar o contorno de uma estrela no remendo.
+
+Paila verifica com você depois que terminar.
+
+Ela examina seu trabalho. Ela tem um pequeno sorriso.
+
+a: Ei! Eu dei o meu melhor...
+
+p: Ah, desculpe, não quero provocar, acho fofo.
+
+À noite, você devolve as calças ao cliente.
+
+O cliente diz: “Uau, parece tão legal!”
+
+O entusiasmo do cliente é um pouco contagiante.
+
+Você pensa: "Parece legal, não é?"
+
+Você sente uma misteriosa sensação de satisfação.
+
+Mais tarde, Paila fecha a loja e você a ajuda a arrumar/se preparar para amanhã.
+
+p: {heroname}, obrigado por ajudar hoje.
+
+a: Eu sinto que estava apenas brincando...
+
+p: Não se subestime.
+
+p: Por alguma razão, sua concentração me ajudou a focar também... e me deixou feliz também.
+
+a: Eu costurar te deixou feliz?
+
+p: Não sei, talvez a situação seja um pouco nostálgica.
+
+p: Minha mãe me envolveu nessas coisas da mesma maneira.
+
+p: Acho que o que estou dizendo é que foi um ótimo encontro.
+
+[show portrait p blushing]
+Paila se aproxima e segura sua bochecha com a mão.
+
+p: {heroname}, quero abraçar você.
+
+a: Você não precisa perguntar...
+
+E você abraça. Os seios de Paila empurram seu peito.
+
+Você passa a mão pelo cabelo de Paila.
+
+Você se separa um pouco e Paila olha para você com o rosto corado.
+
+p: Acho que esse abraço foi perigoso...
+
+p: Meu corpo se lembra de tudo...
+
+a: Eu também...
+
+O contorno do seu pau empurra o estômago de Paila.
+
+E você e Paila se beijam.
+
+O beijo começa com um pouco de contenção, mas se desfaz rapidamente conforme seus corpos começam de onde pararam...
+
+Você coloca a língua na boca de Paila e ela instintivamente a chupa.
+
+Você pode ouvir sua respiração difícil e pequenos gemidos.
+
+E seus corpos se empurram cada vez mais um contra o outro... os seios dela achatando sua barriga, seu pau achatando contra a barriga dela...
+
+E você não pode deixar de beijar e morder seu pescoço enquanto agarra sua bunda redonda...
+
+p: {heroname}...
+
+p: Eu sei que disse 100 encontros... mas acho que não posso esperar...
+
+a: Que bom que você disse isso porque eu sinto o mesmo...
+
+a: Não consigo resistir ao seu corpo sexy.
+
+a: Eu quero te foder de novo e de novo e de novo...
+
+[show portrait p|nude blushing]
+E vocês dois se despem.
+
+Você inclina Paila sobre o balcão, mostrando sua bunda deliciosa...
+
+Você passa a mão sobre a boceta dela, que está absolutamente encharcada.
+
+a: Deus, você está tão molhado...
+
+p: Só de estar perto de você me deixa molhado...
+
+p: Eu estive resistindo esse tempo todo...
+
+Você segura o seu eixo erecto contra a boca da rata dela.
+
+p: Basta colocar...
+
+p: Não me provoque...
+
+[show cg paila_rear]
+E você empurra seu pau na buceta dela, que está impossivelmente molhada e apertada...
+
+Ouve-se um som alto de esmagamento enquanto a sua pila a enche completamente.
+
+p: Ahhhh!!!
+
+p: É tão bom...
+
+p: Porra, {heroname}... estou gozando... Ahhhh!!!
+
+Você pode sentir as paredes de Paila se fechando em volta do seu pau.
+
+a: Paila, você é tão sexy...
+
+a: Eu não consigo parar de te foder...
+
+[show cg paila_rear_hard]
+E incapaz de se controlar, você a fode cada vez com mais força, esmagando seus quadris contra sua bunda ondulante.
+
+Como um coelho você enche Paila com seu pau.
+
+p: Ahhhh!!!
+
+p: {heroname}... Vou ficar viciado nisso...
+
+p: {heroname}... Não pare...
+
+p: {heroname}... Vou gozar de novo... Porra...
+
+a: Eu também... não aguento mais...
+
+[show cg paila_rear_orgasm]
+E vocês dois gozam ao mesmo tempo, a buceta de Paila arrancando cada gota de seu esperma.
+
+Seu esperma invade o corpo espasmódico de Paila.
+
+p: Deus... dê para mim...
+
+E por um momento, você descansa com seu pau na buceta dela, o corpo de Paila estremecendo.
+
+[show cg paila_rear]
+E no momento seguinte, você está transando com ela novamente.
+
+Paila aperta você cada vez com mais força, a ponto de doer um pouco.
+
+Mas você está tão viciado no corpo dela que isso não importa, você sente que poderia transar com ela para sempre.
+
+Em algum momento você percebe o idiota se contorcendo de Paila acima do seu pau.
+
+Você leva um polegar lubrificado com uma mistura do seu suor e do suor dela até o cu dela, que se contorce ao toque.
+
+a: Posso colar isso?
+
+p: {heroname}... você é um pervertido...
+
+p: Faça como quiser...
+
+E você desliza o polegar na bunda de Paila enquanto continua fodendo sua boceta.
+
+p: Oh meu Deus...
+
+p: Foda-se...
+
+Você pode sentir o cu dela apertando seu polegar repetidamente.
+
+p: {heroname}... vou gozar de novo...
+
+E você sente sua bunda e sua boceta estremecerem enquanto ela goza uma e outra vez.
+
+p: {heroname}... vou enlouquecer...
+
+Você passa algum tempo beijando a parte superior das costas dela enquanto ela descansa...
+
+E beijar não parece suficiente, você começa a mordê-la...
+
+p: {heroname}... porra... é bom...
+
+E você começa a se mexer na buceta dela novamente.
+
+p: Ahhhh...
+
+Enquanto você fode Paila sabe-se lá quantas vezes, seu polegar vai cada vez mais fundo na bunda de Paila...
+
+O idiota dela aperta seu polegar, que teimosamente empurra cada vez mais fundo até que seja enterrado até o punho.
+
+E Paila não para de gozar.
+
+p: {heroname}... você quer colocar lá também?
+
+a: Sim...
+
+p: Você pode fazer isso...
+
+p: Basta ser gentil...
+
+E então você tira seu pau da buceta da Paila...
+
+Seu pau está pingando com a lubrificação natural de Paila...
+
+Você descansa a cabeça do seu pau no cu da Paila...
+
+Você pode ver o idiota dela tendo espasmos...
+
+[show cg paila_anal_2]
+E você gentilmente empurra a cabeça do seu pau na bunda dela...
+
+p: {heroname}... ah, Deus... você acha que vai entrar?
+
+p: Ahhhh!!!!
+
+E você cruza os braços em volta do corpo de Paila enquanto empurra suavemente seu pau no cu de Paila, que está apertando tudo o que está dentro para salvar sua vida...
+
+E você leva a mão até o clitóris dela e massageia suavemente...
+
+E Paila geme com mais violência... os diferentes tipos de estimulação que a dominam.
+
+p: Estou sendo levado para outro mundo...
+
+E toda a situação está te excitando tanto...
+
+a: Eu vou gozar de novo...
+
+p: Goze para mim...
+
+p: Goze na minha bunda!!!!
+
+[show cg paila_anal_2_hard]
+E ao ouvir isso, o empurrão suave se torna um pouco mais aleatório... seu pau empurra profundamente no cu dela.
+
+O idiota da Paila está basicamente esmagando seu pau...
+
+E sentir sua bunda macia na superfície de seus quadris...
+
+Ver os seios de Paila achatados contra a bancada...
+
+Os olhos de Paila olhando para você com um desejo desesperado...
+
+Você quer despejar todo o seu esperma nela, até a última gota.
+
+a: Porra, eu vou gozar!!!!
+
+[show cg paila_anal_2_orgasm]
+Seu pau, contra as paredes esmagadoras de Paila, explode o esperma profundamente em seu cu...
+
+p: Ahhhh!!!!
+
+[hide all]
+Depois de horas de amor apaixonado, vocês dois estão se vestindo em uma névoa delirante.
+
+É nesse momento que a porta da loja de roupas é destrancada e aberta.
+
+[hide all]
+Sua visão está comprometida mas você consegue reconhecer quem abriu a porta...
+
+[show portrait l dizzy]
+É a Pilá...
+
+Ela tem uma expressão chocada.
+
+[show portrait p blushing_surprised]
+p: Mãe! Hum...
+
+[show portrait l dizzy]
+l: Sinto muito! Eu bati, mas...
+
+l: Sinto muito!
+
+[hide all]
+E Pila fecha a porta.
+
+...
+
+[show portrait p worried]
+a: Acho que já é tarde... Pila provavelmente estava se perguntando o que aconteceu conosco...
+
+Paila faz o possível para processar a situação.
+
+p: Está tudo bem... falo com ela mais tarde...
+
+[show portrait p normal]
+E Paila te dá um beijo.
+
+[goto-night()]
+[end]

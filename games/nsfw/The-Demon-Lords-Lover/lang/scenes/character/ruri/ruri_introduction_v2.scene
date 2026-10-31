@@ -1,0 +1,7 @@
+[cast r=Ruri]
+r: Olá, bem-vindo à Biblioteca Foothold.
+
+r: Operamos uma escola infantil pela manhã, mas fique à vontade para passar por aqui à noite para ler um livro.
+[if is-evening() and not LIBRARY_HINT_SEEN]
+    [set LIBRARY_HINT_SEEN]
+    hint: "Ler um livro" concede a escolha de 1 de 4 talentos.

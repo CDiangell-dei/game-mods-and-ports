@@ -1,0 +1,26 @@
+[hide all]
+Você tem 21 anos e mora no Japão.
+
+Você é um NEET (não está estudando, trabalhando ou treinando).
+
+Ao ir até a loja de conveniência, você é atropelado por um caminhão.
+
+Sua vida passa diante de seus olhos...
+[name-prompt()]
+[character-creation-menu()]
+
+[show cg seri_cg_casual_a]
+Por alguma razão, a última visão é de Seri na reunião de sua turma.
+
+A ex-presidente do conselho estudantil era linda, gentil e inteligente.
+
+E ela tinha os maiores peitos que você já viu.
+
+No último momento antes de morrer, você não consegue deixar de pensar:
+
+"Teria sido bom fazer sexo pelo menos uma vez..."
+
+[hide all]
+Depois de um período de tempo que não parece nem curto nem longo, você abre os olhos para outro mundo.
+
+[goto-pailas-house()]

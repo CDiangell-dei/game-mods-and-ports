@@ -1,0 +1,5 @@
+[cast a=Hero, x=Xena]
+[show portrait x teasing]
+x: Ei... Você está ficando tão forte!
+
+[end-dojo-challenge()]

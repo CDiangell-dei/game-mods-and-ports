@@ -1,0 +1,227 @@
+[name] Passe algum tempo com Ise (→ noite)
+[cast a=Hero, i=Ise, e=Emma, r=Ruri]
+Parece que Emma está lendo um livro para Ise...
+
+Parece ser um romance...
+
+Em algum momento, a leitura para.
+
+[show portrait e normal]
+e: Ise, acho que é o suficiente por enquanto...
+
+[show portrait i crying]
+i: O que??? Esse é o pior momento para parar!
+
+i: Nãooooo!!!! Se pararmos por aí, não vou dormir esta noite!
+
+[show portrait e normal]
+Nesse ponto, Emma se aproxima de você.
+
+e: Com licença, acredito que nos conhecemos...
+
+e: Qual era o seu nome mesmo?
+
+a: Meu nome é {heroname}... e aí?
+
+e: Minha querida amiga precisa de alguém que leia este livro para ela...
+
+e: Estou lendo há 2 horas... talvez você possa assumir o meu lugar?
+
+a: H-hein?
+
+[show portrait i surprised]
+i: O que??? Ele é meu inimigo!
+
+e: Mas você não quer descobrir o que acontece a seguir?
+
+[show portrait i normal]
+i: Ugh...
+
+a: Por que você não consegue ler o livro sozinho?
+
+[show portrait e thinking]
+e: Ah, querido...
+
+[show portrait i determined]
+i: Leia a sala!!!!
+
+i: É porque não consigo ler!!!!
+
+i: Estou aprendendo, então não tire sarro de mim!!!!
+
+[show portrait e thinking]
+e: Então agora que você sabe o motivo, o que você diria?
+[menu]
+    a: Ok, estou caído.
+        [set I_AGREED_TO_READ_TO_ISE]
+    a: Estou um pouco ocupado... (declínio)
+        [show portrait i normal]
+        Ise parece um pouco triste, mas ela se recupera disso.
+        
+        i: Ahhhh quero saber o que acontece a seguir... acho que tenho que esperar até amanhã...
+        [depart(e)]
+        [end]
+[show portrait e normal]
+Ema sorri.
+
+e: Ok, ela está bem aqui.
+
+E Emma aponta para o início de um capítulo.
+[depart(e)]
+
+[show portrait i smug]
+Ise olha para você com expectativa.
+
+i: Hmmm... Podemos ser inimigos na masmorra, mas acho que podemos ser camaradas na biblioteca!
+
+a: Eu sinto que sou seu servo... não seu camarada...
+
+[show portrait i smiling]
+i: Hahaha, melhor ainda!
+
+i: Leia-me para mim, servo!
+
+[hide portrait]
+Vá em frente e leia o capítulo.
+
+O livro se chama O Toque do Vampiro. Parece ser algum tipo de romance.
+
+Apesar de você não ter nenhum contexto dos capítulos anteriores, o livro acaba sendo interessante...
+
+Em algum momento, você fica cada vez mais imerso, até fazendo algumas dublagens para os personagens...
+
+[show portrait i determined]
+i: Ele não parece assim!!!
+
+a: Hein? Então, como ele soa?
+
+[show portrait i excited]
+Ise deixa sua voz profunda.
+
+i: Assim: Esta noite você é meu...
+
+Hum... nada mal!
+
+[show portrait i blushing]
+Enquanto você admira a atuação dela, por algum motivo Ise começa a corar.
+
+i: Esse é o personagem! Eu não!
+
+a: Hein? O que você está falando?
+
+i: Não é nada! Continue lendo, servo!
+
+[hide portrait]
+Você continua...
+
+Parece que este capítulo contém o clímax do livro: a confissão.
+
+Faz sentido que Ise não quisesse parar neste capítulo...
+
+[show portrait i crying]
+Quando o clímax acontece, Ise começa a chorar.
+
+i: Ahhhh... é tão lindo...
+
+[hide portrait]
+Nada mal...
+
+Por alguma razão, logo após o clímax, os personagens começam a se beijar agressivamente e o livro passa muito tempo descrevendo os detalhes.
+
+[show portrait i bashful_blushing]
+Você olha para Ise, que tem uma expressão bastante erótica no rosto...
+
+Ela está interessada!!!!
+
+a: Uhhhh... quer ler isso comigo?
+
+[show portrait i determined]
+i: Eu não tenho escolha!!!!
+
+Se você diz isso...
+
+[hide portrait]
+Conforme a tensão sexual aumenta, você percebe que a mão de Ise agarrou a sua.
+
+Você olha para ela de novo...
+
+[show portrait i scared]
+i: Ah! Eu não queria.
+
+i: É tão emocionante! E um pouco assustador...
+
+a: Não entendi, o que é assustador?
+
+i: Eu sinto que eles vão fazer sexo! Mas não sei se isso vai acontecer ou não! É assustador!
+
+a: Hmmmm... Essa é uma palavra interessante para usar para a situação.
+[menu]
+    a: Se você estiver com medo, podemos dar as mãos.
+        [show portrait i normal]
+        Ise olha para você com uma expressão incrédula...
+        
+        i: Você é um cara com tesão, hein.
+        
+        a: Não precisamos, haha.
+        
+        Ise agarra sua mão.
+        
+        i: Continue lendo!!
+    (Continue lendo.)
+[hide portrait]
+E você continua lendo.
+
+Você começa a imaginar o medo de Ise e, surpreendentemente, começa a senti-lo também.
+
+Os personagens falam como se estivessem em casca de ovo...
+
+Você não sabe o que aconteceu nos capítulos anteriores, mas tem a sensação de que se os personagens fizerem sexo, haverá consequências.
+
+Quais são essas consequências, quem sabe.
+
+[show portrait i normal]
+a: Ei... Você pode me dizer o que aconteceu antes deste capítulo???
+
+i: Hein? Vamos, apenas leia.
+
+a: Não é justo! Eu quero saber!
+
+[show portrait i determined]
+i: Você é um bebê??
+
+[show portrait i normal]
+i: Tudo bem! Vou explicar a história.
+
+[show portrait i excited]
+E Ise dá uma descrição bastante prolixa da trama até agora...
+
+a: Porra... Isso é loucura...
+
+[show portrait r normal]
+r: Olá queridos, estamos fechando a biblioteca...
+
+[show portrait i determined]
+i: Argh!!!! Como passei todo esse tempo explicando o enredo não conseguimos terminar o capítulo!
+
+a: Será muito mais interessante para mim se eu souber o que está acontecendo.
+
+[show portrait i bashful_blushing]
+i: ... Isso significa que você vai ler para mim de novo?
+[menu]
+    a: Sim, claro!
+        i: Isso é uma promessa!!
+    a: Se eu tiver tempo...
+        i: Vamos!!!!
+[hide portrait]
+Você e Ise saem da biblioteca.
+
+[show portrait i determined]
+i: Meu inimigo! Em algum momento eu vou derrotar você!
+
+[show portrait i smiling]
+i: Mas eu não odiei esta noite!
+
+i: Tenha uma boa noite.
+
+a: Você também!
+[goto-night()]

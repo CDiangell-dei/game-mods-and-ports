@@ -1,0 +1,38 @@
+[cast a=Hero, l=Pila]
+[show portrait l frowning]
+l: {heroname}... você não sabe onde Paila está, não é?
+[menu]
+    a: Estávamos juntos...
+        Pila está congelada de medo. A reação dela te pega desprevenido... o que está acontecendo?
+
+    a: Acabamos de fazer sexo...
+        l: Ah... {heroname}, você é uma pessoa honesta...
+
+l: Não sei se estou exagerando...
+
+l: Mas Paila, ela, ela...
+
+Pila parece um pouco doente...
+
+l: Ela não tem sido ela mesma ultimamente.
+
+l: O pai dela morreu há 2 anos... e desde então ela tem sido muito reservada...
+
+l: Ela tem sido educada e obediente...
+
+a: Ela não é assim normalmente, hein.
+
+Pila balança a cabeça...
+
+l: Sinto nas minhas entranhas... que algo está errado.
+
+l: Não estou ficando louco, estou?
+[menu]
+    a: Eu senti que algo estava errado também.
+        l: Então não fui só eu...
+
+        a: Eu vou encontrá-la.
+    a: Eu vou encontrá-la.
+l: Sou grato {heroname}. Farei o que puder... também.
+
+Talvez Chii saiba onde ela está...

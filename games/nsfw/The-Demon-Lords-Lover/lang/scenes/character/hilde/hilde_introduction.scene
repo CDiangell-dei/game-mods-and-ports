@@ -1,0 +1,5 @@
+[cast a=Hero, h=Hilde]
+[show portrait h normal]
+h: Olá senhor ^^. Bem-vindo à Pousada Olla. Meu nome é Hilde; me avise se precisar de alguma coisa :)
+
+a: Olá Hilde, meu nome é {heroname}.

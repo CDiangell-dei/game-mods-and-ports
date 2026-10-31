@@ -1,0 +1,18 @@
+[cast v=Viola, m=Miran]
+[menu]
+    Mais tarde...
+[show portrait v normal]
+v: Talvez devêssemos dar-lhe algum espaço...
+
+v: Você tem um lugar para ficar? Se quiser, você pode dormir no meu quarto.
+
+[show portrait m blushing_surprised]
+m: O que você está dizendo? Ele é um cara...
+
+[show portrait v normal]
+v: Eu sinto que vai ficar tudo bem...
+
+[show portrait m blushing]
+m: {heroname}... E-fique à vontade para ficar no meu quarto também...
+hint: Daqui para frente, você pode falar com Hilde para passar a noite com Miran ou Viola.
+[paila-post-quest-room-menu()]

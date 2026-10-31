@@ -1,0 +1,12 @@
+[name] Faça sexo (ela por cima)
+[cast p=Paila]
+[show cg paila_cowgirl]
+p: {heroname}... Hummm~
+
+[show cg paila_cowgirl_hard]
+p: {heroname}... É tão grande...
+
+[show cg paila_cowgirl_orgasm]
+p: {heroname}... estou gozando!!!
+
+[paila-room-menu()]

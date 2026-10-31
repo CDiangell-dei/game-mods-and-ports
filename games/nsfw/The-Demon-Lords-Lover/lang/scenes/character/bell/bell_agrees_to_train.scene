@@ -1,0 +1,5 @@
+[cast b=Bell]
+[show portrait b laughing]
+Bell mostra um sorriso entusiasmado.
+b: Boa ideia!
+[bell-joins()]

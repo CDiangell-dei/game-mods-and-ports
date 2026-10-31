@@ -1,0 +1,10 @@
+[cast t=Torne]
+[if alone() and seen(torne_sex_puzzle)]
+    [show portrait t normal]
+    t: Ah, meu parceiro no crime. <3
+[elif alone() and seen(torne_lift_encounter)]
+    [show portrait t normal]
+    t: Ah, aí está ele.
+[else]
+    [show portrait t normal]
+    t: Ah, nos encontramos de novo!

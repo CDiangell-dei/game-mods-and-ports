@@ -1,0 +1,12 @@
+[cast a=Hero, e=Emma, i=Ise, trav=Trav]
+[show portrait i determined]
+i: Ninguém derrota o Bando do Braço de Ferro e vive para contar a história!
+
+[show portrait e swooning]
+e: A confiança do Ise é tão fofa!
+
+[show portrait trav facepalm]
+trav: Você não quer dizer confiança delirante?
+
+[bandit-become-hostile()]
+[end]

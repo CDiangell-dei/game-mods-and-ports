@@ -1,0 +1,11 @@
+[cast a=Hero, v=Viola]
+[show portrait v normal]
+a: Olá, meu nome é {heroname}. Qual é o seu nome?
+
+v: Olá, meu nome é Viola.
+
+a: Você é um aventureiro?
+
+v: Suponho que você poderia dizer isso...
+
+Ela parece reservada...

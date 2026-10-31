@@ -24,6 +24,7 @@ Repositório privado para versionamento de código-fonte modificado, traduções
 | **LoveManiac** | [`games/nsfw/LoveManiac/`](games/nsfw/LoveManiac/) | • [Página Oficial (Team Nebula)](https://team-nebula.itch.io/lovemaniac) | • Tradução PT-BR Completa (`v0.3.6` — 919 entradas em 20 arquivos)<br>• Controles Duplos: `WASD + Espaço + Shift + E` + originais<br>• Patcher Binário Godot 4.5 (`PCK v3` / `OptimizedTranslation` / `project.binary`)<br>• Backup de Saves (`%APPDATA%\Godot\app_userdata\Love Maniac\save`) |
 | **LoveManiac: Scarlet Lust** | [`games/nsfw/LoveManiac-Scarlet-Lust/`](games/nsfw/LoveManiac-Scarlet-Lust/) | • [Página Oficial (Team Nebula)](https://team-nebula.itch.io/lovemaniac-scarlet-lust) | • Tradução PT-BR Completa (`v0.1.43` — 144 diálogos + 25 blocos de UI)<br>• Controles Duplos: `WASD + Espaço + Shift + E` + originais<br>• Script de Auto-Merge e Patch (`www/assets/project.json` + `www/index.html`) |
 | **Fap Nights at Frenni's Night Club** | [`games/nsfw/Fap-Nights-at-Frennis-Night-Club/`](games/nsfw/Fap-Nights-at-Frennis-Night-Club/) | • [Página Oficial (Fatal Fire Studios)](https://fatal-fire-studios.itch.io/fap-nights-at-frennis-night-club) | • Tradução PT-BR Completa (2.182 chaves)<br>• Suporte Duplo: Story Mode (`v0.2.2`) e Arcade Mode (`v0.2.8`)<br>• Patcher Automatizado de Cenas Unity (`update_and_apply_ptbr.py`) |
+| **The Demon Lord's Lover** | [`games/nsfw/The-Demon-Lords-Lover/`](games/nsfw/The-Demon-Lords-Lover/) | • [Página Oficial (ayumu98)](https://ayumu98.itch.io/the-demon-lords-lover) | • Tradução PT-BR Completa (2.168 strings + 649 cenas)<br>• APK Android (Signature Scheme v2 assinado)<br>• Suporte nativo PC Windows (StreamingAssets/Localization/pt) |
 
 ---
 
@@ -66,12 +67,17 @@ game-mods-and-ports/
 │       │   ├── lang/                             # Dicionário PT-BR (diálogos + blocos de UI) e referência EN/ES
 │       │   └── scripts/                          # Script de merge/aplicação automática no project.json
 │       │
-│       └── Fap-Nights-at-Frennis-Night-Club/     # Fap Nights at Frenni's Night Club (Tradução PT-BR)
-│           ├── README.md                         # Links oficiais, engenharia reversa e guia do patcher
-│           ├── FAP NIGHTS AT FRENNIs.exe         # Executável oficial do Story Mode (v0.2.2)
-│           ├── FAP N.A.F. ARCADE MODE.exe        # Executável oficial do Arcade Mode (v0.2.8)
-│           ├── lang/                             # Dicionário PT-BR (2.182 chaves) e dumps estruturados
-│           └── scripts/                          # Patcher automatizado para cenas Unity (.assets / level*)
+│       ├── Fap-Nights-at-Frennis-Night-Club/     # Fap Nights at Frenni's Night Club (Tradução PT-BR)
+│       │   ├── README.md                         # Links oficiais, engenharia reversa e guia do patcher
+│       │   ├── FAP NIGHTS AT FRENNIs.exe         # Executável oficial do Story Mode (v0.2.2)
+│       │   ├── FAP N.A.F. ARCADE MODE.exe        # Executável oficial do Arcade Mode (v0.2.8)
+│       │   ├── lang/                             # Dicionário PT-BR (2.182 chaves) e dumps estruturados
+│       │   └── scripts/                          # Patcher automatizado para cenas Unity (.assets / level*)
+│       │
+│       └── The-Demon-Lords-Lover/               # The Demon Lord's Lover (Tradução Completa PT-BR & APK)
+│           ├── README.md                         # Links oficiais, engenharia reversa e guia de instalação
+│           ├── lang/                             # Dicionário PT-BR (manifest, grammar, strings e 649 cenas)
+│           └── scripts/                          # Assinador puro Python APK v2, injeção e validação de strings
 │
 └── tools/
     └── save_sync.py                              # Utilitário para backup/restauração de saves (PC <-> Celular)
@@ -83,8 +89,12 @@ game-mods-and-ports/
 
 Para baixar os arquivos prontos diretamente no celular ou no computador:
 * 👉 **[Página de Releases do Repositório](https://github.com/CDiangell-dei/game-mods-and-ports/releases)**
-  * **Android APK:** [`Monster_Girl_Encounters_PTBR.apk`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v1.0.0-mge-deluxe/Monster_Girl_Encounters_PTBR.apk)
-  * **Windows ZIP:** [`MGE_Deluxe_Windows_PTBR.zip`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v1.0.0-mge-deluxe/MGE_Deluxe_Windows_PTBR.zip)
+  * **Monster Girl Encounters:**
+    * **Android APK:** [`Monster_Girl_Encounters_PTBR.apk`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v1.0.0-mge-deluxe/Monster_Girl_Encounters_PTBR.apk)
+    * **Windows ZIP:** [`MGE_Deluxe_Windows_PTBR.zip`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v1.0.0-mge-deluxe/MGE_Deluxe_Windows_PTBR.zip)
+  * **The Demon Lord's Lover:**
+    * **Android APK:** [`the-demon-lords-lover-0.18.54-android-ptbr.apk`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v0.18.54-ptbr/the-demon-lords-lover-0.18.54-android-ptbr.apk)
+    * **Windows Pacote PT-BR:** [`The_Demon_Lords_Lover_PTBR_Windows_Pack.zip`](https://github.com/CDiangell-dei/game-mods-and-ports/releases/download/v0.18.54-ptbr/The_Demon_Lords_Lover_PTBR_Windows_Pack.zip)
 
 ---
 

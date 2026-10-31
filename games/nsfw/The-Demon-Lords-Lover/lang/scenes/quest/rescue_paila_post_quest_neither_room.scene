@@ -1,0 +1,7 @@
+[name] Vá para nenhum dos dois
+[cast m=Miran, v=Viola]
+v: Eu entendo... você provavelmente precisa de algum espaço também.
+
+m: Tenha uma boa noite {heroname}...
+[rmv-companions()]
+[regenerate-town()]

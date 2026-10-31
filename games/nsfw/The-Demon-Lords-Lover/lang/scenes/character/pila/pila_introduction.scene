@@ -1,0 +1,28 @@
+[cast a=Hero, l=Pila]
+[if is-morning()]
+    [show portrait l]
+    l: Ah, você está acordado. Que alívio...
+[else]
+    l: Olá querido... você me surpreendeu quando fugiu sem dizer uma palavra...
+
+    l: De qualquer forma, estou feliz que você pareça saudável...
+[menu]
+    a: Você é minha mãe?
+        [show portrait l frowning]
+        l: Ah, querido... me desculpe...
+
+    a: Você é minha namorada?
+        [show portrait l frowning]
+        l: Oh meu... me desculpe....
+
+    a: Fizemos sexo ontem à noite?
+        [show portrait l frowning]
+        l: O que você está dizendo?
+
+l: Você se lembra do seu nome, querido?
+
+a: Meu nome é {heroname}.
+
+l: Eu sou Pilá. Prazer em conhecê-lo.
+
+l: Ontem à noite, minha filha Paila encontrou você desmaiado na praia. Ela carregou você para nossa casa.

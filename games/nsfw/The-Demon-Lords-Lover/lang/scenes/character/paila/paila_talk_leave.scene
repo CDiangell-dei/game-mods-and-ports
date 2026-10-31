@@ -1,0 +1,11 @@
+[name] Sair
+[cast p=Paila]
+[if is-morning()]
+    p: Tome cuidado.
+[if is-afternoon()]
+    p: Tome cuidado.
+[if is-evening()]
+    p: Tenha uma boa noite.
+[if is-night()]
+    p: Tenha uma boa noite.
+[rmv-paila()]

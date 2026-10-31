@@ -1,0 +1,98 @@
+[name] Estude com Miran (→ noite)
+[cast a=Hero, m=Miran]
+[mood-song lighthearted]
+[show portrait m normal]
+a: Ei, o que você está lendo?
+
+[show portrait m blushing]
+Miran segura o livro perto do peito.
+
+m: Hum... não é nada.
+
+a: Ah, desculpe.
+
+a: Eu entendo, tenho revistas debaixo da cama que teria vergonha de mostrar para você também.
+
+[show portrait m normal]
+Miran tem uma expressão confusa...
+
+m: Hum, o que é uma revista?
+
+a: Ah, hum...
+
+Você dá a um Miran uma visão geral de alto nível do que é uma revista...
+
+m: Não entendo, por que você teria vergonha de mostrá-los para mim?
+
+a: Hum... as revistas debaixo da minha cama têm fotos de mulheres em poses eróticas...
+
+[show portrait m blushing_surprised]
+Conforme Miran gradualmente entende, seu rosto fica vermelho e sua mão direita se torna um punho...
+
+m: C-como você pode ser tão sem vergonha!!
+
+a: Haha, eu só não queria que você se sentisse constrangido por esconder seu livro.
+
+[show portrait m normal]
+Miran leva algum tempo para pensar sobre o que você disse e então suspira.
+
+m: Aqui.
+
+Miran dá o livro.
+
+a: Você tem certeza?
+
+[show portrait m blushing_surprised]
+m: {heroname}... não me faça mudar de ideia...
+
+[show portrait m normal]
+Você examina o livro.
+
+"Uma introdução à lógica rúnica, Vol. II".
+
+Você abre o que parece ser uma espécie de livro de matemática. As anotações de Miran preenchem as margens...
+
+a: Isso é... um livro didático?
+
+[show portrait m normal]
+m: Ok, ok, isso é o suficiente.
+
+Miran pega o livro.
+
+a: Agora quem não entende sou eu... o que há de tão constrangedor nisso?
+
+Miran olha para baixo.
+
+m: Eu abandonei a escola de magia...
+
+...
+
+a: Não acho que seja constrangedor.
+
+Você colocou a mão no ombro de Miran.
+
+[show portrait m blushing]
+Miran colocou a mão sobre a sua como se fosse retirá-la, mas hesita e deixa a mão em cima da sua por algum tempo.
+
+Você pode ver a orelha de Miran ficando vermelha.
+
+a: V-você acha que pode me ensinar um pouco disso? Tipo, o básico... estou curioso sobre isso...
+
+m: Eu-é chato...
+
+a: Eu gostaria de ver por mim mesmo.
+
+Miran folheia o livro.
+
+m: Hum... esta parte não requer muitos pré-requisitos de conhecimento.
+
+m: D-você realmente quer fazer isso?
+
+a: Sim!
+
+[show cg miran_library_sunset]
+E Miran passa a noite dando uma aula de matemática basicamente mágica.
+[menu]
+    Concluir
+
+[scene miran_study]

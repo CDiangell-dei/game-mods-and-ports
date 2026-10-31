@@ -1,0 +1,10 @@
+[name] Vá para casa com Seri
+[cast a=Hero, s=Seri, n=Nanako]
+[show portrait s smiling]
+s: Vamos para casa, {heroname}.
+
+[depart(s)]
+[depart(n)]
+[add-character(s)]
+[add-character(n)]
+[goto-town-triggering-events()]

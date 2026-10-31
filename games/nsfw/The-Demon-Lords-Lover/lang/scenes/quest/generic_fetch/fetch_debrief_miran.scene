@@ -1,0 +1,7 @@
+[cast a=Hero, m=Miran]
+[if fetch-target-is-plant()]
+    [show portrait m smile]
+    m: Aqui está {fetch-target|definite}... Acho que isso deve ser suficiente.
+[else]
+    [show portrait m smile]
+    m: C-aqui está! Vamos levá-lo de volta para a cidade.

@@ -1,0 +1,5 @@
+[name] Segure a mão dela
+[cast m=Miran]
+[show cg miran_bedside_blushing]
+Você fica de mãos dadas com Miran.
+[miran-room-menu()]

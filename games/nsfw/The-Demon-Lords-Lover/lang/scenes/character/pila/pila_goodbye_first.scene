@@ -1,0 +1,7 @@
+[name] Sair
+[cast l=Pila]
+l: Antes de ir, por favor, leve estas peças de ouro.
+[pila-gives-gold()]
+
+l: E querido... se você precisar de um lugar para se orientar, fique à vontade para passar a noite aqui.
+hint: Daqui para frente, você pode falar com Pila ou Paila para passar a noite.

@@ -1,0 +1,168 @@
+[cast a=Hero, m=Miran, s=Seri, v=Viola]
+[set TODAY_I_TALKED_TO_SERI_IN_THE_AFTERNOON]
+[mood-song seri_reprise]
+[show portrait s sad]
+Seri parece que tem muito em que pensar...
+
+[if alone()]
+    s: {heroname}, acho que descobri o que aconteceu comigo...
+[else]
+    s: Tenho uma ideia do que aconteceu comigo...
+
+a: O que você quer dizer?
+
+s: Este é um livro de feitiços de alto nível...
+
+s: E um deles é chamado de "alma quebrada".
+
+s: De acordo com o livro, ele rasga a alma do alvo em fragmentos.
+
+s: Uma peça permanece em seu corpo e as outras assumem a forma de posses passadas.
+
+a: Tem que ser isso.
+
+a: Então, o que pensamos que era você recuperando sua humanidade, era você recuperando partes de sua alma.
+
+s: Eu acho que sim...
+
+s: Também notei que os fragmentos de alma devem estar a uma certa distância um do outro.
+
+a: Em outras palavras, se encontrarmos todos os fragmentos de alma, você poderá sair da masmorra.
+
+Enquanto sua mente dispara, você pensa em outra ideia.
+
+a: Seri, lembro que você disse que se lançasse um feitiço iníquo com enorme poder mágico, poderia se livrar do papel de lorde demônio.
+
+a: É possível que, se você se tornar completo, terá acesso ao enorme poder mágico do lorde demônio?
+
+[show portrait s serious]
+E Seri fica em silêncio por um momento.
+
+s: {heroname}... você entende o que está sugerindo?
+
+a: ... o que?
+
+s: Você está sugerindo tornar o Lorde Demônio inteiro.
+
+Você começa a pensar, mas Seri continua.
+
+s: É possível que minha alma tenha sido despedaçada por algum motivo.
+
+s: É possível que, se eu me tornar inteiro, atacarei a raça humana como os lordes demônios antes de mim.
+
+s: É possível que, se eu ficar inteiro, mate pessoas inocentes.
+
+s: E esse sangue estaria em nossas mãos.
+
+[if with(m)]
+    [show portrait m pleading]
+    m: Sério...
+
+[if with(v)]
+    [show portrait v normal]
+    Viola escuta atentamente.
+
+a: Sério...
+
+a: É a minha vez de perguntar... você entende o que está dizendo?
+
+[show portrait s surprised]
+s: ... o que?
+
+Você levanta sua voz.
+
+a: Você está sugerindo apodrecer na masmorra pelo resto da vida!
+
+a: Em estado lobotomizado!
+
+[show portrait s crying]
+E Seri começa a chorar.
+
+s: Eu não quero matar pessoas...
+
+a: Você pode trazer esse pensamento com você quando se tornar completo.
+
+a: Eu sei que você pode fazer isso.
+
+s: {heroname}, percebi uma coisa.
+
+s: A calcinha...
+
+s: Quando os segurei, lembrei-me de coisas.
+
+s: Na época, imaginei que eles apenas me lembravam velhas memórias.
+
+s: Mas acho que é possível que antes de segurar esses itens eu não tivesse essas memórias e os sentimentos associados a eles.
+
+s: {heroname}... Temo ter sido escolhido para ser o lorde demônio porque sou mau.
+
+s: E se isso for verdade, temo que o que me torna mau esteja nos outros fragmentos.
+
+s: {heroname}... talvez eu devesse ser grato por poder experimentar o seu amor...
+
+s: E eu deveria permitir que o herói me matasse quando chegar a hora.
+
+s: Pelo bem da humanidade.
+
+Você começa a tremer de raiva...
+
+E Seri tenta responder a isso...
+
+s: Está tudo bem...
+
+E você estala.
+
+a: Não está tudo bem!
+
+a: Eu quero que você se torne completo.
+
+a: Quero que você lance o feitiço antimaldição mais poderoso de todos os tempos e diga ao Lorde Demônio para se foder.
+
+a: E então, eu quero que vivamos.
+
+a: Quero que exploremos nossos interesses com curiosidade.
+
+a: Quero que lutemos pela justiça com coragem.
+
+a: Quero que amemos com o coração aberto.
+
+a: Eu quero que a gente foda com todo o nosso corpo.
+
+a: E eu sei que você, no fundo, também quer.
+
+Seri chora.
+
+s: {heroname}... eu quero isso...
+
+s: Mas se eu falhar... vidas inocentes serão perdidas.
+
+a: Seri, me recuso a acreditar que você foi eleito presidente do conselho estudantil e liderou a equipe de debate inglesa para vencer o campeonato nacional para desistir aqui...
+
+a: Você sabe o que eu acho?
+
+a: Eu acho que você pode acabar com o ciclo herói/lorde demônio de uma vez por todas.
+
+a: Se você está tão preocupado com a perda de vidas inocentes, por que não começamos por aí?
+
+Seri soluça em seu peito.
+
+Por muito tempo, vocês dois se abraçam.
+
+[show portrait s serious]
+Mas quando os soluços desaparecem, Seri levanta a cabeça.
+
+A área ao redor dos olhos dela está vermelha...
+
+Mas há determinação em seus olhos.
+
+s: Ok.
+
+s: {heroname}, uma parte de mim concorda com você, embora eu tema que seja apenas instinto de sobrevivência.
+
+s: Mas suponho que posso dar algum respeito a essa parte de mim.
+
+s: Preparei algumas contramedidas para o cenário em que perco o controle...
+
+s: Dado isso, suponho que posso fazer o meu melhor para acreditar.
+
+s: Você pode me trazer os outros fragmentos.

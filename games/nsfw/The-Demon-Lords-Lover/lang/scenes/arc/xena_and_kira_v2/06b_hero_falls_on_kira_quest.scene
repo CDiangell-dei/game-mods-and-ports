@@ -1,0 +1,8 @@
+[cast a=Hero, k=Kira]
+[show portrait k normal]
+a: Vamos recuar por enquanto...
+
+[show portrait k blushing]
+Você agarra a mão de Kira e foge.
+
+hint: Você pode tentar novamente a missão amanhã.

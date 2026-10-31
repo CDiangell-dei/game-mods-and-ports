@@ -1,0 +1,57 @@
+[name] Fale sobre mochila
+[cast a=Hero, l=Pila, p=Paila]
+[mood-song gentle]
+Você dá a mochila a Pila e Paila.
+[remove-leos-rucksack()]
+
+Pila e Paila reconhecem a mochila imediatamente.
+
+Enquanto os dois mexem nos pertences do marido, os dois choram.
+
+Você decide dar-lhes algum espaço...
+
+[show portrait p worried]
+Você retorna depois de uma hora ou mais. Ao fazer isso, Paila lhe dá um abraço.
+
+p: {heroname}, onde você foi?
+
+a: Ah, eu senti como se estivesse me intrometendo em um momento pessoal...
+
+[show portrait l frowning]
+Pila também te dá um abraço.
+
+l: {heroname}... você faz parte da nossa família.
+
+...
+
+a: Você viu que o registro de missões tinha algumas missões incompletas?
+
+Com base em suas expressões, não parece.
+
+Você abre o registro de missões e aponta para as três missões.
+
+a: Parece que temos que entregar este pacote para Grent...
+
+a: E parece que temos que conversar com Chii sobre uniformes de guilda... o que isso significa?
+
+a: E parece que temos que usar--
+
+[show portrait l blushing]
+E Pila fecha o livro, corando furiosamente.
+
+[show portrait p blushing_surprised]
+p: {heroname}... tenha alguma etiqueta!!!
+
+p: Mas acho que isso é pai para você...
+
+[show portrait l dizzy]
+Pila parece que vai desmaiar de vergonha.
+
+[show portrait p normal]
+p: Ok, ok, vamos começar com o primeiro. Eu tenho que cuidar da loja, então talvez você possa cuidar disso, {heroname}?
+
+[show portrait l normal]
+l: Hum, eu posso ir com você. Grent era amigo do meu marido, talvez eu devesse falar com ele.
+
+l: Me avise quando estiver pronto.
+[chat-menu(l)]

@@ -1,0 +1,119 @@
+[name] Cozinhe com Pila (→ noite)
+[cast a=Hero, l=Pila, p=Paila]
+[mood-song gentle]
+[show portrait l normal]
+Pila está na cama...
+
+a: Hum... espero não estar sendo rude, mas você está bem?
+
+l: Hum...
+
+Pila está sem palavras...
+
+l: Eu deveria estar na loja de roupas com Paila...
+
+l: Mas estou aqui... por algum motivo.
+
+l: Acho que estou um pouco cansado...
+
+l: Hum, deixe-me levantar.
+
+a: Espere, se você está cansado, você está cansado.
+
+l: Não, não...
+
+l: Talvez estar na cama o tempo todo seja o que me deixa cansado.
+[menu]
+    a: Você deveria se controlar...
+    a: Você deveria descansar...
+
+[show portrait l smiling]
+l: Está tudo bem querido, vou sair da cama porque posso...
+
+[show portrait l normal]
+E você vê Pila sair da cama com uma expressão tensa.
+
+l: Hum, é noite, certo?
+
+l: Você deve estar com fome.
+
+l: Deixe-me cozinhar algo para você e Paila.
+
+a: Deixe-me ajudar!
+
+[show portrait l frowning]
+l: Hein? Você também deve estar cansado, isso é o mínimo que posso fazer...
+
+a: Você pode me ensinar a cozinhar!
+
+Pila olha para você.
+
+a: Quer dizer, eu sei que estaria atrapalhando...
+
+a: Então pense nisso como um favor para mim...
+
+[show portrait l smiling]
+Pila sorri.
+
+l: Você sabe como me manipular...
+
+l: Hum... eu estava pensando em preparar um ensopado simples...
+
+l: Mas talvez possamos elevá-lo um pouco.
+
+Enquanto Pila demonstra como preparar os vegetais, você pode ver um leve sorriso no rosto de Pila.
+
+Por um tempo, o ar fica alegre.
+
+Mas com o passar do tempo, Pila fica cada vez mais cansada.
+
+Até mesmo dar ordens a você parece sobrecarregar a mente e o corpo dela, e você começa a se preocupar.
+
+[show portrait p worried]
+Nessa época, Paila chega em casa.
+
+p: Mãe... Você não precisa se esforçar por causa de {heroname}...
+
+[show portrait l frowning]
+l: Mas eu quero...
+
+l: Não posso ficar assim para sempre...
+
+[show portrait p worried]
+p: Mas você não se lembra do que aconteceu antes? Você...
+
+[show portrait l frowning]
+l: Paila... Não na frente de {heroname}...
+
+Por um momento, Paila fica em silêncio.
+
+Então, Paila força uma expressão mais alegre.
+
+[show portrait p neutral]
+p: Hum... o ensopado parece bom.
+[menu]
+    a: Pila fez um ótimo trabalho.
+        Paila olha para você com uma expressão vazia...
+
+        p: Sim, ela fez...
+
+    a: Vamos jantar.
+        p: Sim... vamos.
+
+[hide portrait]
+E vocês três se sentam à mesa de jantar.
+
+E você tem seu primeiro gosto.
+
+a: Isso é delicioso!!
+
+[show portrait p normal]
+p: É...
+
+[show portrait l smiling]
+E Pila se permite um leve sorriso.
+
+[show portrait p normal]
+p: O-obrigado {heroname}... por ajudar a mãe... e ajudar a preparar esta refeição.
+
+[scene pila_cook]

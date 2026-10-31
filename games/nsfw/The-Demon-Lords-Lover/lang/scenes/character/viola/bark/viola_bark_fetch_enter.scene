@@ -1,0 +1,2 @@
+[cast v=Viola]
+v: {fetch-target|capitalize(definite)} {if fetch-target.plural then are else is} em B{quest-end-floor}.

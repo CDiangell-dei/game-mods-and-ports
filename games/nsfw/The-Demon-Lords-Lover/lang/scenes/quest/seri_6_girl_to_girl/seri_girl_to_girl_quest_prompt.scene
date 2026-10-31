@@ -1,0 +1,33 @@
+[cast a=Hero, n=Nanako, c=Chii]
+[if not seen(seri_girl_to_girl_quest_prompt)]
+    [show portrait c normal]
+    a: Chii, você viu Seri por aí?
+
+    a: Ela não deveria estar ajudando a guilda dos aventureiros?
+
+    c: Hum, ela realmente se retirou de suas funções.
+
+    c: Tudo bem, foi apenas um período de teste.
+
+    c: Parece que ela está realmente interessada na história dos Lordes Demônios.
+
+    c: Parece que ela sempre teve a cabeça enfiada em um livro.
+
+    c: Não sei onde ela está... talvez um lugar tranquilo onde ela possa estudar?
+
+    [show portrait c frowning]
+    c: Dado que as pessoas na cidade realmente não confiam nela, ou que há aventureiros oportunistas tentando reivindicar recompensas desatualizadas...
+
+    c: Ou mesmo apenas caras que querem dormir com ela...
+
+    c: Talvez ela tenha encontrado um lugar isolado.
+
+    [show portrait n normal]
+    Nanako aparece.
+
+    [show portrait n smiling]
+    n: Só há um lugar onde ela poderia estar, certo?
+
+    n: Em algum momento ela deve ter percebido que não adianta trazer todos os livros para cima, quando ela poderia apenas lê-los ali embaixo.
+
+    n: Talvez... devêssemos ver como ela está?

@@ -1,0 +1,56 @@
+[cast a=Hero, b=Bell]
+[mood-song lighthearted]
+[show portrait b smiling]
+Ao sair da masmorra, Bell parece estar de bom humor.
+
+b: {heroname}, você quer fazer sexo quando voltarmos?
+
+A rapidez da afirmação faz com que você se atrapalhe com as palavras.
+
+[if feature-flag-optional-romance()]
+    [menu]
+        a: O-o que?! Quero dizer... claro!
+            [set I_AGREED_TO_HAVE_SEX_WITH_BELL]
+            [show portrait b laughing]
+            b: Haha, isso é ótimo!
+        a: O-o quê?
+            [show portrait b laughing]
+            b: Se fizer, me avise, haha!
+[else]
+    a: o-o que?! Quero dizer... claro!
+    [set I_AGREED_TO_HAVE_SEX_WITH_BELL]
+
+[show portrait b laughing]
+[if I_AGREED_TO_HAVE_SEX_WITH_BELL]
+    O entusiasmo sincero de Bell é ao mesmo tempo fofo e desconcertante...
+[else]
+    O entusiasmo sincero de Bell é desconcertante...
+
+a: Bell... o que sexo significa para você?
+
+[show portrait b smiling]
+Bell considera a questão.
+
+[if I_AGREED_TO_HAVE_SEX_WITH_BELL]
+    Enquanto ela faz isso, você sente seu pau começar a reagir ao ver Bell sob uma luz sexual...
+
+b: Hmmm... Nanako disse que é como treinar, mas em vez de treinar os músculos que conectam nossos ossos, estamos treinando os músculos que nos conectam como amigos.
+
+a: Ah, isso é interessante...
+
+[show portrait b laughing]
+Bell ri.
+
+b: Haha, eu também estava cético! Para ser sincero, eu não entendia o que era sexo até que Nanako me mostrou!
+
+[show portrait b smiling]
+b: {heroname}, se ainda não o fez, experimente!
+
+b: Eu posso te ensinar! ^^
+
+[if I_AGREED_TO_HAVE_SEX_WITH_BELL]
+    Ahhh... Bell é fofo...
+    a: Haha... se você insiste...
+
+    hint: Daqui para frente, você pode falar com Hilde para visitar Bell à noite.
+[bell-returns-items()]

@@ -1,0 +1,4 @@
+[cast a=Hero, h=Hera]
+[show portrait h normal]
+h: O que é isso?
+[hide portrait]

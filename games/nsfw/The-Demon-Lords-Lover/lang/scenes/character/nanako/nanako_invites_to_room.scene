@@ -1,0 +1,127 @@
+[cast a=Hero, b=Bell, n=Nanako]
+[show portrait b laughing]
+b: Nanako, olha! É... uhhh qual era mesmo o nome dele? ^^;
+
+[show portrait n normal]
+Nanako enfrenta você.
+n: Olá, qual é o seu nome?
+
+a: É {heroname}.
+
+[show portrait n normal]
+n: Eu sou Nanako.
+
+Nanako faz uma pequena reverência.
+
+[show portrait b smiling]
+b: E eu sou Bell!
+
+[show portrait b laughing]
+b: Deveríamos ter uma revanche!
+
+[show portrait n winking]
+n: Bell, não creio que este seja o lugar para isso. <3
+
+[show portrait b laughing]
+b: Acho que sim, hein...
+
+[show portrait n normal]
+Nanako olha nos seus olhos.
+n: {heroname}... podemos conversar em particular por um momento?
+
+[show portrait n normal]
+Você e Nanako saem.
+
+Nanako olha nos seus olhos.
+
+a: Hum, sobre o que você queria conversar?
+
+n: {heroname}... o quanto você sabe sobre mim?
+
+a: Eu sei que você está no ABC48...
+
+Nanako assente.
+
+a: Eu sei que você foi pego em um namoro doce...
+
+[show portrait n smiling]
+Nanako fecha os olhos e acena com a cabeça.
+
+a: Eu sei sobre sua carreira AV...
+
+[show portrait n smiling]
+n: Hummm...
+
+a: Vou ser sincero, já vi todos os seus vídeos...
+
+[show portrait n winking]
+n: Hmmm... são muitos vídeos...
+
+a: Haha... eu acho...
+
+[show portrait n normal]
+n: {heroname}, tenho uma solicitação.
+
+a: O que é isso?
+
+n: Minha vida passada... mantenha isso em segredo.
+
+Nanako se aproxima...
+n: Em troca, farei sexo com você.
+
+Considerando o quanto você se masturbou assistindo aos vídeos de Nanako...
+
+Até o formato do rosto dela é apenas sexo para você...
+
+a: Eu ia manter isso em segredo...
+
+a: E mesmo que eu contasse a alguém... acho que ninguém acreditaria em mim...
+
+Nanako examina seus olhos.
+n: Eu acredito em você.
+
+[show portrait n winking]
+Nanako se aproxima ainda mais e coloca a mão na sua virilha.
+
+n: Mas você sabe, eu ainda acho que é uma boa ideia fazer sexo...
+
+[show portrait n normal]
+n: Então a promessa está gravada em sua mente...
+
+Seu pau está arfando, mas algo está te incomodando...
+
+Nanako percebe isso e recua.
+
+n: Hmmm... o que está acontecendo?
+
+n: Fale comigo.
+
+a: Isso não é... chantagem?
+
+[show portrait n smiling]
+Nanako pensa sobre isso e sorri.
+
+n: Ah, você é esse tipo de pessoa...
+
+n: Ok, que tal isso.
+
+n: Quanto ao segredo... vamos em frente. Não estou mais preocupado com você espalhando boatos.
+
+Você acena hesitantemente.
+
+n: Mas eu quero fazer sexo.
+
+n: E posso ver sua mente pensando: "por quê?"
+
+n: Estou apenas com tesão.
+
+n: E posso ver que você também está.
+
+a: Ok. Vamos fazê-lo!
+
+Nanako sorri.
+n: Estou feliz que conseguimos descobrir isso.
+
+n: Vou passar a noite, venha para o meu quarto esta noite.
+[goto-night()]
+[end]

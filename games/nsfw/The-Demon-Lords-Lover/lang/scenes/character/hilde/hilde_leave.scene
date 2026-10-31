@@ -1,0 +1,10 @@
+[name] Sair
+[cast h=Hilde]
+[if is-morning()]
+    h: Tenha um bom dia, {heroname}. ^^
+[if is-afternoon()]
+    h: Tenha um bom dia, {heroname}. ^^
+[if is-evening()]
+    h: Tenha uma boa noite, {heroname}. ^^
+[if is-night()]
+    h: Tanta energia a esta hora da noite. ^^

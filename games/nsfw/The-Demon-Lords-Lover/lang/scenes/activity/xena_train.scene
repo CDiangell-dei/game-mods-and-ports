@@ -1,0 +1,7 @@
+[name] Treine no dojo (→ noite)
+[cast x=Xena]
+Você treina no dojo com Xena.
+
+[get-dojo-skill()]
+[record-train(x)]
+[goto-night()]

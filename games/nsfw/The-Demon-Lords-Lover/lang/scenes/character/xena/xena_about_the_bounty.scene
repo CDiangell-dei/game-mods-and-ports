@@ -1,0 +1,13 @@
+[cast a=Hero, x=Xena]
+[show portrait x surprised]
+x: Mano, ouvi dizer que você é procurado pelo governo!!
+
+x: Você não fez nada de ruim, não é?
+
+a: Acho que fiz alguns inimigos...
+
+[show portrait x smiling]
+x: Acho que isso é inevitável aqui, haha!
+
+[show portrait x teasing]
+x: Não morra, ok?

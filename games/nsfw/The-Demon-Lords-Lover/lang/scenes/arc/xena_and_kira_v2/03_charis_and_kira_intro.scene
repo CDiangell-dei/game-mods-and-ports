@@ -1,0 +1,274 @@
+[name] Treine no dojo (→ noite)
+[cast a=Hero, ch=Charis, k=Kira, x=Xena]
+Você treina no dojo com Xena.
+
+[get-dojo-skill()]
+[record-train(x)]
+[show portrait x normal]
+A prática diminui. Gradualmente, Xena permitiu que você ajudasse a arrumar o dojo, e você está fazendo isso. Você está sozinho com ela...
+
+[hide portrait]
+Mas não por muito tempo.
+
+Uma silhueta aparece na porta.
+
+[show portrait ch normal]
+Um homem-raposa de aparência severa aparece.
+
+Apesar de ser um velho de tamanho médio, ele tem uma espécie de aura imponente que atravessa a sala.
+
+[show portrait k normal]
+E você não a percebe a princípio, mas há outra raposa que está um pouco atrás dele.
+
+Ela tem muito menos presença, mas se você olhar de perto notará uma garota extremamente fofa.
+
+[hide portrait]
+Você sabe quem são essas pessoas...
+
+[show portrait x surprised]
+x: Papai???? Irmã???
+
+x: O que você está fazendo aqui?
+
+[show portrait ch exasperated]
+ch: Como você ousa fazer essa pergunta!! Como se não estivéssemos procurando por você há meses...
+
+[show portrait k normal]
+k: Consegui rastrear o papel timbrado que você usou para enviar aquela carta.
+
+[show portrait x surprised]
+x: H-hein? Como isso é possível?
+
+[show portrait ch normal]
+ch: Chega. Eu preciso de respostas. O que você está fazendo aqui?
+
+[show portrait x disappointed]
+x: Ah, ah...
+
+[show portrait x normal]
+x: Estou administrando este dojo! Sim, eu sei que fiz um grande discurso sobre não estar envolvido com artes marciais, mas uhhhh...
+
+[show portrait x disappointed]
+x: Quero dizer, preciso de dinheiro, haha...
+
+[show portrait ch normal]
+ch: Então você fugiu para fazer a mesma coisa que estava fazendo, só que desta vez com sua família fora de cena.
+
+[show portrait ch exasperated]
+ch: Qual é o significado disso?
+
+[show portrait x disappointed]
+x: Ah, vamos lá, pai! Sou um adulto crescido! E tenho seguido suas ordens durante toda a minha vida!
+
+x: Não quero passar o resto da minha vida no seu velho dojo empoeirado!
+
+[show portrait k normal]
+k: Xena... você não precisa ir tão longe.
+
+[show portrait x disappointed]
+x: Me desculpe...
+
+[show portrait ch crying]
+ch: Eu simplesmente não consigo entender o momento. Como você pôde...
+
+O pai de Xena, por algum motivo, parece... chorar?
+
+ch: É neste momento, mais do que nunca, que nossa família precisa se unir.
+
+ch: Posso aceitar que você esteja curioso sobre o mundo.
+
+ch: Mas... agora???
+
+[show portrait k normal]
+Kira dá um tapinha nas costas do pai.
+
+k: Xena, pelo menos dê um abraço no seu pobre pai.
+
+k: Dado o que aconteceu, você sabe que alguns meses são basicamente alguns anos...
+
+[show portrait x disappointed]
+x: ...
+
+Xena dá um abraço em seu pai.
+
+x: Sinto muito.
+
+x: Eu só queria ver o mundo antes de me inscrever no dojo pelo resto da minha vida, sabe?
+
+[show portrait ch crying]
+ch: Então você vai voltar?
+
+[show portrait x disappointed]
+x: Não posso fazer essa promessa...
+
+x: Pessoal, agora tenho uma vida aqui... consegui um novo emprego, consegui estudantes...
+
+[show portrait x normal]
+x: Não posso simplesmente abandoná-los!
+
+[show portrait k normal]
+k: Hmmm... e sua família?
+
+[show portrait x surprised]
+x: Gente, não é bem assim! Eu não abandonei vocês.
+
+[show portrait x normal]
+x: Estou apenas explorando o mundo!
+
+x: E você sabe, estou aprendendo muitas técnicas de artes marciais.
+
+x: Tenho treinado com todos os aventureiros daqui – todos eles têm seu próprio estilo de luta.
+
+[show portrait x motivated]
+x: Estou ficando muito forte!
+
+[show portrait x normal]
+x: Kira, você não quer explorar o mundo um dia?
+
+[show portrait k normal]
+k: Hmmm... Para mim, estar com minha querida irmã é o mais importante.
+
+k: Mas parece que eu estava sozinho nesse pensamento...
+
+Kira suspira.
+
+k: Então, querida irmã, você acredita que se tornou mais forte...
+
+[show portrait x normal]
+x: Hum... sim???
+
+[show portrait k normal]
+k: Que tal isso, querida irmã. Eu desafio você para um duelo.
+
+k: Se você vencer, você pode ficar aqui. Papai e eu iremos para casa.
+
+k: Se eu ganhar, você terá que voltar conosco.
+
+[show portrait x surprised]
+x: Mana... você acha que pode vencer contra mim?
+
+[show portrait x smiling]
+x: Isso é tão emocionante!!
+
+x: A última vez que estive no dojo, você chorou depois de cada treino...
+
+[show portrait k normal]
+k: Então vencer deveria ser simples, certo?
+
+[show portrait x normal]
+x: ...
+
+[show portrait x disappointed]
+x: Espere, não faz sentido eu concordar com isso.
+
+x: Não estou planejando voltar de qualquer maneira.
+
+x: Então, por que preciso de um duelo para provar isso?
+
+[show portrait k normal]
+k: Por acaso... você tem medo de não vencer?
+
+[show portrait x disappointed]
+x: Não vou cair nessa isca óbvia!
+
+[show portrait k normal]
+k: Tudo bem <3. Papai e eu não vamos a lugar nenhum, então pense nisso, ok?
+
+[show portrait x surprised]
+x: H-hein? Você vai ficar aqui?
+
+[show portrait ch normal]
+ch: Claro! Xena, preciso ver como você tem vivido...
+
+ch: Eu decidi! Vou ver como você administra esse dojo!
+
+ch: Tenho que ter certeza de que você não está desonrando o nome da nossa família.
+
+[show portrait x normal]
+x: Eu não faria isso!!
+
+[show portrait x disappointed]
+x: E pai... isso é constrangedor...
+
+[hide portrait]
+Neste ponto, você já terminou de limpar a parte do dojo que normalmente limpa e já terminou de fazer as malas...
+
+É certo que você pode estar fazendo isso um pouco mais devagar do que o normal, apenas por curiosidade, mas há um limite para o tempo que as coisas podem ser estendidas.
+
+[show portrait ch normal]
+Ao sair, você decide fazer uma reverência silenciosa ao pai de Xena antes de sair.
+
+[show portrait x disappointed]
+x: Ah! Hum... este é meu pai. E esta é minha irmã.
+
+[show portrait ch normal]
+Você se curva diante do pai de Xena.
+
+ch: Olá, sou Charis, pai de Xena. Presumo que você seja um dos alunos dela?
+
+a: Sim, meu nome é {heroname}. Sou grata por poder aprender com sua filha.
+
+[show portrait k normal]
+k: Olá, {heroname}. Sou Kira, irmã de Xena. É um prazer conhecê-lo.
+
+Você sente o olhar deles...
+
+k: Você também está trabalhando aqui?
+
+[show portrait x blushing]
+x: N-não, ele só está ajudando um pouco depois da aula...
+
+[show portrait k normal]
+k: Como é que ele é o único?
+
+[show portrait x blushing]
+x: Ele não deveria estar ajudando, ele apenas insistiu, então eu deixei ele...
+
+[show portrait ch exasperated]
+ch: Obrigado por ajudar minha filha ingrata.
+
+[show portrait k normal]
+Kira olha para você com uma expressão curiosa. E quando ela percebe que você está olhando de volta, ela mostra um sorriso que não alcança seus olhos.
+
+[show portrait x disappointed]
+x: Pai... mana... podemos fazer isso mais tarde? Está ficando tarde...
+
+x: Há alguns futons no andar de cima, então suba e fique confortável.
+
+x: Deixe-me dizer adeus a {heroname}.
+
+[show portrait k normal]
+Kira olha para Xena e depois para você.
+
+k: Hmmm... Suponho que nos conheceremos na próxima semana.
+
+k: Adeus, {heroname} <3.
+
+[show portrait x disappointed]
+Você e Xena saem do dojo e conversam na frente.
+
+x: Oh Deus... sinto muito que você tivesse que estar aqui para isso...
+
+x: Ainda não consigo acreditar que eles vieram até aqui...
+
+Xena suspira.
+
+x: Não sei o que vou fazer com eles...
+
+x: Deus, talvez eu devesse aceitar a oferta de Kira e me livrar deles.
+
+a: Seu pai vai ficar bem com isso?
+
+[show portrait x normal]
+x: Acredite ou não, meu pai é meio fraco quando se trata de minha irmã.
+
+[show portrait x disappointed]
+x: Hum... quando você estiver lidando com ela, apenas tome cuidado.
+
+x: Às vezes eu realmente não sei o que ela está pensando.
+
+[show portrait k normal]
+É nesse momento que você percebe Kira no dojo, observando e ouvindo.
+
+[hide portrait]
+[goto-night()]

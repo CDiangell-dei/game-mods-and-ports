@@ -1,0 +1,32 @@
+[cast a=Hero, n=Nanako]
+[if not seen(nanako_proposes_alliance)]
+    [show portrait n smiling]
+    n: Bom dia, {heroname}.
+
+    n: Você viu que há uma recompensa para nós?
+
+    [show portrait n winking]
+    n: Não é emocionante?
+
+    [show portrait n normal]
+    n: Ouça... eu tenho o último.
+
+    De sua mochila, Nanako lhe dá um bastão luminoso.
+    [nanako-gives-glowstick()]
+
+    O tipo de bastão luminoso que você veria em um evento de ídolos.
+
+    a: Isto é...
+
+    n: Sim. Eu encontrei na masmorra.
+
+    [show portrait n smiling]
+    Nanako aponta para si mesma com um sorriso maroto.
+
+    n: Ela deve ter sido uma fã sua de verdade.
+
+    [show portrait n winking]
+    n: Se quiser, posso ir com você.
+[else]
+    [show portrait n smiling]
+    n: Devemos dar o bastão luminoso para Seri?

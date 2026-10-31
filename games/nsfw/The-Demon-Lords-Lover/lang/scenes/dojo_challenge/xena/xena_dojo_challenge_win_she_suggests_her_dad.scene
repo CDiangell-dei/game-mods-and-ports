@@ -1,0 +1,35 @@
+[cast a=Hero, x=Xena]
+[show portrait x surprised]
+x: Mano... não acredito.
+
+x: Você é um grande lutador!
+
+a: Ah haha... Você é um ótimo professor!
+
+[show portrait x smiling]
+Por um momento, há um momento de silêncio onde Xena está apenas olhando para você, radiante.
+
+a: O que é isso?
+
+x: Ah, estou simplesmente impressionado.
+
+x: Estou feliz que haja muitas pessoas nesta cidade que se preocupam com artes marciais!
+
+[if seen(charis_and_kira_intro)]
+    [show portrait x teasing]
+    x: Ei! Você deveria desafiar meu pai algum dia.
+
+    x: Estou curioso para saber como você se sairia contra ele!
+
+    x: Nunca consegui vencê-lo, mesmo quando ele está indo com calma!
+
+    a: Duvido que possa fazer muito contra ele...
+
+    [show portrait x smiling]
+    x: Ei, é apenas para treinamento. Você não precisa vencer!
+    [set XENA_SUGGESTED_HER_DAD]
+[else]
+    [show portrait x teasing]
+    x: Cara, isso me faz pensar como você se sairia contra meu pai...
+
+[end-dojo-challenge()]

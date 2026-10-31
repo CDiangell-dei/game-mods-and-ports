@@ -1,0 +1,32 @@
+[name] Passe algum tempo com Seri (→ noite)
+[cast a=Hero, s=Seri]
+[show portrait s normal]
+s: {heroname}, estive pensando no que aconteceu...
+
+s: E acho que a principal diferença entre mim e os outros Lordes Demônios é que não sou deste mundo.
+
+s: Eu tinha ressentimento contra o povo do Japão e, em menor grau, da Terra.
+
+s: Mas não sinto esse ressentimento contra as pessoas daqui.
+
+s: Mesmo que as pessoas sejam semelhantes, no sentido de que tanto as pessoas no Japão quanto as pessoas aqui são humanas...
+
+s: Em última análise, as pessoas aqui se sentem inocentes para mim.
+
+s: Acho que consegui desistir da maldição porque o alvo do meu ressentimento havia desaparecido...
+
+a: Parece uma coisa boa...
+
+[show portrait s pensive]
+s: Hummm...
+
+[show portrait s normal]
+s: Você acha, por acaso, que alguém pretendia que isso acontecesse?
+
+a: O que você quer dizer?
+
+s: Que alguém me escolheu para me tornar o Lorde Demônio, esperando por esse resultado?
+
+a: Acho que há muitas coisas que não sabemos.
+[record-study(s)]
+[goto-night()]

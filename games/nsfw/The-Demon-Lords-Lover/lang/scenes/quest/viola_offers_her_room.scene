@@ -1,0 +1,9 @@
+[cast v=Viola]
+[menu]
+    Mais tarde...
+[show portrait v normal]
+v: Talvez devêssemos dar-lhe algum espaço...
+
+v: Você tem um lugar para ficar? Se quiser, você pode dormir no meu quarto.
+hint: Daqui para frente, você pode conversar com Hilde para passar a noite com Viola.
+[paila-post-quest-room-menu()]

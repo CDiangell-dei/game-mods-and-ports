@@ -1,0 +1,21 @@
+[name] O que são “aventureiros”?
+[cast a=Hero, p=Paila]
+[show portrait p]
+a: Hum... o que são “aventureiros”?
+
+Paila parece confusa.
+p: Hum, aventureiros. Como pessoas que exploram masmorras, caçam monstros e fazem biscates...
+
+Você está pasmo.
+
+[show portrait p worried]
+p: Você pode aprender mais na taverna ao norte.
+
+p: Só uma coisa...
+
+p: Aventureiros morrem... muito.
+
+p: Não quero ser presunçoso, mas pelo que vejo, você tem a chance de começar de novo, de viver a vida que quiser.
+
+p: Apenas tome cuidado. Não é bom jogar fora sua vida.
+[chat-menu(p)]

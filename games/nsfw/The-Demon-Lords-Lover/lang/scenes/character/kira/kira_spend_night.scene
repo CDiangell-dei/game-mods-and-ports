@@ -1,0 +1,9 @@
+[name] Passe a noite com Kira (→ manhã)
+[cast k=Kira]
+[scene spend_night_setup]
+[mood-song dream]
+[kira-room-intro()]
+[scene kira_spend_night_intro]
+[kira-room-menu()]
+
+[scene inn_night_subscene]

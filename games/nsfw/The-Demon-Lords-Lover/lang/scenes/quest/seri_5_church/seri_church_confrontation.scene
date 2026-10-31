@@ -1,0 +1,113 @@
+[cast a=Hero, s=Seri, e=Eve]
+[floor-song tension]
+Ao entrar na sala do Lorde Demônio, você não vê um grupo de cultistas saqueadores.
+
+Em vez disso, uma mulher está sentada no antigo trono de Seri, folheando um livro.
+
+[show portrait e normal]
+e: Ah, o ex-lorde demônio.
+
+[if with(s)]
+    [show portrait s normal]
+    s: ...
+
+    s: O que você vai fazer com a biblioteca?
+[else]
+    [hide portrait]
+    a: O que você vai fazer com os livros?
+
+[show portrait e bitter_laugh]
+e: Da sua perspectiva? Eles devem ter se perdido em um incêndio *piscadelas*.
+
+[if with(s)]
+    [show portrait s normal]
+    s: Você não pode levá-los...
+
+    s: Tenho pesquisado como acabar com o ciclo herói/lorde demônio para sempre.
+[else]
+    [hide portrait]
+    a: Você não pode levá-los!
+
+    a: Seri quer acabar com o ciclo herói/lorde demônio para sempre!
+
+[show portrait e normal]
+e: ...
+
+e: Tão prescritivo para um estrangeiro.
+
+e: O ciclo herói/lorde demônio é o que mantém este país unido.
+
+e: Uma estrangeira não deveria ser tão prescritiva num mundo em que nunca viveu.
+
+e: Ou...
+
+[show portrait e bitter_laugh]
+e: Isso é apenas uma história?
+
+[if with(s)]
+    e: Talvez você esteja planejando se tornar o Lorde Demônio novamente? E o que aconteceu antes foi apenas um estratagema?
+[else]
+    e: Talvez ela esteja planejando se tornar o Lorde Demônio novamente? E o que aconteceu antes foi apenas um estratagema?
+
+[show portrait e normal]
+e: Isso seria conveniente para nós...
+
+[if with(s)]
+    [show portrait s normal]
+    s: ... o que você quer dizer com se tornar o Lorde Demônio novamente?
+
+    [show portrait s serious]
+    s: A maldição foi levantada. Isso não é uma opção.
+[else]
+    [hide portrait]
+    a: O que você quer dizer com se tornar o Lorde Demônio novamente?
+
+    a: Seri desceu.
+
+[show portrait e normal]
+e: ...
+
+e: Olhe ao redor. O poder do Lorde Demônio claramente continua vivo nesta masmorra.
+
+[if with(s)]
+    e: Pode não estar no seu corpo, mas está afixado em alguma coisa.
+
+    e: Ex-lorde demônio... você não saberia o que é isso, não é?
+[else]
+    e: Pode não estar no corpo dela, mas está afixado em alguma coisa.
+
+    e: Hmmm... você não saberia o que é isso, não é?
+
+[if with(s)]
+    [show portrait s serious]
+    s: ...
+
+    s: O poder do lorde demônio leva tempo para se dissipar.
+
+    [show portrait e normal]
+    e: ... Você está mentindo.
+
+    [show portrait s serious]
+    s: ...
+
+    Você olha para Seri, que não faz contato visual.
+
+[show portrait e normal]
+e: Suspiro...
+
+e: Não parece que esta conversa será produtiva.
+
+[show portrait e bitter_laugh]
+e: Vamos, vamos brigar, certo?
+
+[if with(s)]
+    e: Vamos detê-lo e confiscar todos os seus livros.
+
+    e: Por mais inocente que você pareça, sei que não poderei fazer isso de graça.
+[else]
+    e: Vamos confiscar os livros.
+
+    e: Por mais fofo que você pareça, sei que não poderei fazer isso de graça.
+
+[hide portrait]
+[inquisitors-become-hostile()]

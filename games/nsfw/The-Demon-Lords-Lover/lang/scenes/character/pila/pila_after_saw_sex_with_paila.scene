@@ -1,0 +1,29 @@
+[cast a=Hero, l=Pila]
+[show portrait l normal]
+a: Hum...
+
+l: Está tudo bem, querido. Não é uma surpresa...
+
+[show portrait l blushing]
+l: Como ela pode não se apaixonar pelo homem bonito que arriscou a vida para resgatá-la?
+
+l: Honestamente, estou um pouco aliviado por ela estar fazendo coisas assim.
+
+[show portrait l frowning]
+l: Desde que o pai dela morreu... é como se ela nem vivesse neste mundo.
+
+l: Então, vê-la assim...
+
+l: É como se ela voltasse à terra.
+[menu]
+    a: Paila é importante para mim...
+        [show portrait l smiling]
+        l: eu sei...
+
+        l: Por favor, faça-a feliz...
+    a: E você?
+        l: Hein?
+
+        a: Você acha que voltou à terra?
+
+        l: Ah... não sei, querido.

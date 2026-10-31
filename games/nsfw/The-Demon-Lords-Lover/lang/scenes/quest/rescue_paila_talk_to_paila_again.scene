@@ -1,0 +1,5 @@
+[cast p=Paila]
+Paila entrou?
+[yes-or-later-prompt()]
+[add-paila()]
+[end]

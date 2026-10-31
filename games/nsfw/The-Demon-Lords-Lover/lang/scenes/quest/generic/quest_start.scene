@@ -1,0 +1,4 @@
+[play-quest-start-prompt()]
+{quest-prompt}
+[yes-or-later-prompt()]
+[confirm-quest-start()]

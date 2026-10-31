@@ -1,0 +1,211 @@
+[cast a=Hero, v=Viola]
+[unlock viola_hot_springs]
+[mood-song dream]
+[show portrait v]
+Você vê uma piscina de água com vapor subindo da superfície.
+
+a: Por acaso, esta é uma fonte termal?
+
+v: Ah... eu nunca vi um antes.
+
+v: Ouvi dizer que relaxar em uma fonte termal tem um efeito curativo.
+
+...
+
+a: Você nunca esteve em uma fonte termal antes?
+
+Viola balança a cabeça negativamente.
+
+a: Você deveria tentar. Posso sair da sala e ficar vigiando.
+
+v: Isso seria... egoísta da minha parte.
+
+...
+
+a: Você está sugerindo que entremos juntos na fonte termal? Quero dizer... estou bem com isso.
+
+[show portrait v blushing]
+Viola cora.
+v: Não, acho que estava sugerindo que você entrasse...
+
+a: Mas pela sua lógica, isso seria egoísmo da minha parte.
+
+v: N-não, não é...
+
+a: Eu concordo, não é egoísta, então você deveria tentar. Já estive em uma fonte termal antes; não se preocupe comigo.
+
+...
+
+v: Eu acho... que gostaria de tentar.
+
+Você dá a ela um grande sorriso.
+a: Estou feliz, porque fontes termais são ótimas ^^. Vou esperar lá fora.
+
+[show portrait v smiling]
+v: Obrigado {heroname}. Você é uma pessoa gentil.
+
+[hide portrait]
+Você sai.
+
+As fontes termais foram um dos poucos lugares de consolo em sua vida anterior...
+
+Você se sente satisfeito porque Viola também pode experimentá-los - ela parece alguém que poderia se beneficiar com um pouco de relaxamento, honestamente.
+
+Você começa a ouvir Viola se despindo. Você ouve os ruídos cuidadosos dela removendo a armadura e colocando a espada e o escudo no chão.
+
+E quando você a ouve começar a tirar a roupa, você imagina como seria o corpo nu dela... e fica duro.
+
+Você coloca a mão nas calças para ajustar sua ereção, mas à medida que continua a imaginá-la em meio aos sons dela se despindo, você não consegue evitar se distrair e se masturbar um pouco.
+
+Mas antes que você encontre o ritmo, você ouve uma voz vinda da sala de águas termais.
+
+v: {heroname}...
+
+Assustado, você tira a mão da calça.
+
+v: Eu acho... que devíamos entrar juntos.
+
+a: Hein?
+
+v: Simplesmente não parece certo para mim... Você deveria poder usar a fonte termal também...
+
+Quero dizer, você não vai reclamar.
+
+a: Hum, ok... se isso faz você se sentir melhor, não me importo de participar...
+
+v: Por favor faça...
+
+[hide all]
+[show cg viola_undressing]
+Você entra novamente na sala e, uau...
+
+Ela está se despindo e seus seios estão à mostra... Como eles cabem em sua cota de malha?
+
+À medida que você admira as curvas de seu corpo, seu pau cresce outro tamanho, criando uma protuberância enorme em suas calças.
+
+Viola parece notar a protuberância e cora...
+
+v: Hum, acho que vou entrar primeiro...
+
+O olhar dela desce do seu rosto até a protuberância e assim por diante.
+
+Você se sente um pouco constrangido, mas neste ponto, não há muito o que fazer além de se despir, deixando de lado a ereção violenta.
+
+Depois de tirar a camisa, você tira as calças e seu pau perfura o ar.
+
+Viola espia seu pau.
+v: É... grande...
+
+a: Não consigo evitar, você é muito sexy...
+
+...
+
+[show cg viola_hot_springs]
+Vocês dois entram na fonte termal. Sentando-se, a água borbulhante chega até o topo dos ombros.
+
+v: É uma sensação boa...
+
+a: Sim, fontes termais são ótimas.
+
+É um pouco difícil relaxar sabendo que o corpo macio e nu de Viola está a poucos metros de distância...
+
+v: Já faz muito tempo que não me juntei a alguém... É divertido...
+
+a: Por que você decidiu se juntar a mim?
+
+v: Eu não sei...
+
+v: Você exala um sentimento inocente; é difícil explicar.
+
+a: Um sentimento inocente? Eu não entendo... você não viu meu pau ereto antes?
+
+Viola cora.
+v: Até o jeito que você fala sobre suas partes íntimas é inocente... você não tem vergonha nenhuma.
+
+...
+
+Para ser honesto, você não entende do que ela está falando, mas entende que ela está fazendo um elogio genuíno.
+
+a: Não sei se vou cumprir tudo o que você está imaginando sobre mim, mas estou feliz que você sinta que pode baixar a guarda perto de mim.
+
+v: Baixando a guarda, hein...
+
+...
+
+v: Ainda é difícil?
+
+a: Sim...
+
+v: É normal ficar duro mesmo sem fazer nada?
+
+a: Você está existindo, isso é o suficiente para me deixar duro.
+
+v: Eu não entendo; você não pode ver meu corpo, certo?
+
+a: Acho que tem mais a ver com a situação em que estamos.
+
+v: Em que tipo de situação estamos?
+
+a: Estamos ambos nus e sentados muito próximos um do outro.
+
+v: Por que isso te deixa duro?
+
+a: Ah... não sei como explicar.
+
+v: Você está imaginando meu corpo?
+
+a: Não intencionalmente...
+
+v: Você está se imaginando fazendo coisas com meu corpo?
+
+Seu pau incha.
+a: Eu não estava... até você fazer essa pergunta.
+
+Viola cora.
+v: O que você está imaginando?
+
+a: Uh...
+
+v: Você pode me contar sobre isso.
+
+a: Acho que... estou imaginando agarrar seus seios.
+
+Viola parece agarrar os seios debaixo da água borbulhante.
+
+v: Hummm...
+
+v: Você está imaginando fazer sexo comigo também?
+
+a: Sim...
+
+[if seen(viola_night_sex_event)]
+    v: Eu vejo...
+
+[else]
+    v: Eu nunca fiz sexo antes...
+
+v: Quando eu era cavaleiro, recebi algumas confissões de meus colegas cavaleiros... Você acha que eles estavam imaginando as mesmas coisas? Agarrar meus seios, fazer sexo comigo e assim por diante?
+
+a: Provavelmente, mas seus colegas cavaleiros provavelmente também apreciavam você de outras maneiras.
+
+v: Você me aprecia... de outras maneiras?
+
+a: Eu sim. Estou me divertindo muito saindo com você.
+
+a: Parece que você está passando por uma fase difícil agora, mas no fundo você parece alguém gentil e curioso.
+
+a: E eu acho fofo que você tenha ficado angustiado pensando na justiça de entrar sozinho na fonte termal...
+
+v: Não creio que tenha sido por isso; Acho que só queria compartilhar a experiência.
+
+a: Fico feliz que possamos compartilhar essa experiência.
+
+...
+
+[hide all]
+Depois de algum tempo, você sai da fonte termal.
+
+[show portrait v blushing]
+v: Vamos?
+
+a: Sim, vamos continuar.

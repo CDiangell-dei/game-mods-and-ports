@@ -1,0 +1,2 @@
+[cast m=Miran]
+m: {rescue-target|capitalize(definite)} {if rescue-target.plural then are else is} neste andar. Vamos encontrá-los!

@@ -1,0 +1,105 @@
+[cast a=Hero, e=Emma, i=Ise, trav=Trav]
+Você ouve uma conversa...
+
+[show portrait i smiling]
+i: Não consigo parar de pensar naquele aventureiro com braço mágico!
+
+[show portrait trav sighing]
+trav: Não é um braço mágico... é uma prótese...
+
+[show portrait i excited]
+i: Eu não me importo, Trav, eu quero um! Vamos começar a economizar!
+
+[show portrait e smiling]
+e: Ah, que ideia maravilhosa, Ise! Vamos começar!!
+
+[show portrait i smiling]
+i: Veja, Emma sabe o que está acontecendo.
+
+[show portrait trav sighing]
+trav: Você já tem 2 braços funcionando...
+
+[show portrait i determined]
+i: Não seja tão deprimente. Se eu tivesse 3 braços eu poderia empunhar 3 armas ao mesmo tempo!
+
+[show portrait trav sighing]
+trav: Você não pode nem empunhar 2 de uma vez...
+
+[show portrait trav normal]
+trav: E onde você o anexaria. Eles não deveriam ler seus nervos ou movimentos musculares ou algo assim?
+
+[show portrait i smiling]
+i: Entendo, então não há lugar para o braço mágico obter informações.
+
+i: Ah! E meu rosto? Ouvi dizer que o rosto tem 57 músculos.
+
+[show portrait e smiling]
+e: Nosso querido Ise é tão inteligente!
+
+[show portrait trav normal]
+trav: Deixando de lado por que você sabe disso... então você quer um braço preso ao seu rosto?
+
+[show portrait i smiling]
+i: Aposto que poderia ficar muito bom em usá-lo.
+
+[show portrait e smiling]
+e: Ela é tão expressiva! Então o braço mágico dela também seria expressivo!
+
+[show portrait trav sighing]
+trav: ...
+
+[show portrait i excited]
+i: Ah, espere! Eu tenho um membro faltando!
+
+i: Eu não tenho pau!!
+
+[show portrait trav sighing]
+trav: Você pode chamar isso de falta?
+
+[show portrait i crying]
+i: Sempre quis poder fazer xixi em pé...
+
+[show portrait trav sighing]
+trav: É um braço mágico ou um pau mágico?
+
+[show portrait e normal]
+Emma dá um tapinha no ombro de Ise.
+
+e: Ise, querido, acho que temos {if party.plural then visitors else a visitor}...
+
+[show portrait i determined]
+i: Momento perfeito! Você aí! Somos o Bando do Braço de Ferro!
+
+[show portrait trav normal]
+trav: Não é o Bando do Pau de Ferro?
+
+[show portrait e smiling]
+e: Nosso querido Ise parece cada dia mais um verdadeiro bandido!
+
+[show portrait i smiling]
+i: É o seu dia de sorte! Vou poupar seu {if party.plural then lives else life}... por apenas 100 ouros.
+[menu]
+    a: Vamos lá!
+        [show portrait i determined]
+        i: Prepare-se para enfrentar sua desgraça!
+
+        [show portrait e swooning]
+        e: Ah, ela fica tão apaixonada quando tem um objetivo!
+
+        [show portrait trav sighing]
+        trav: Realmente? Para 100g? *suspiro*
+
+        [bandit-become-hostile()]
+    a: (Dê 100g).
+        [show portrait i smiling]
+        i: Obrigado pelo seu patrocínio!
+
+        [show portrait e smiling]
+        e: Para nossos braços mágicos!
+
+        [show portrait trav surprised]
+        trav: Obrigado... Minhas costas estão doendo...
+
+        [bandit-give-gold()]
+
+[bandit-become-hostile()]

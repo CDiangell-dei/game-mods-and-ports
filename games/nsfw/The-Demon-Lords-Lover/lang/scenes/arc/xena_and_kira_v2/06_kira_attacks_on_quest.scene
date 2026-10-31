@@ -1,0 +1,39 @@
+[cast a=Hero, k=Kira]
+Ao coletar as raízes da planta-coração, você percebe que Kira não está em sua linha de visão.
+
+Você sente um arrepio na espinha.
+
+[show portrait k staring]
+Ao se virar, você vê ninguém menos que Kira chutando seu pescoço.
+
+Se você não se esquivasse, você estaria morto.
+
+a: Kira??? O que está acontecendo?
+
+k: Pelo que ouvi, aventureiros morrem nas masmorras o tempo todo.
+
+k: Então, o que é mais um?
+
+a: O-o quê?
+
+k: Você vai morrer... e minha irmã vai voltar para casa.
+
+E Kira ataca novamente com ainda mais intensidade. Você dá um passo para trás, mas agora suas costas estão contra a parede...
+
+a: Kira! Acho que há um mal-entendido!
+
+a: Tenho certeza que ela estava indo muito bem antes de me conhecer!
+
+[show portrait k yan_angry]
+k: Mentiras!
+
+k: Ela é apenas uma covarde que não consegue encarar a verdade!
+
+k: Pessoas morrem! É assim que o mundo é!
+
+k: Você não pode fugir disso...
+
+[show portrait k staring]
+k: Vou fazê-la entender.
+
+[kira-quest-becomes-hostile()]

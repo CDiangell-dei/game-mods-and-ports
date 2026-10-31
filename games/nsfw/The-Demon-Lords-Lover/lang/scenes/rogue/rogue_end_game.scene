@@ -1,0 +1,4 @@
+Terminar o jogo?
+[yes-or-no-prompt()]
+[rogue-show-score()]
+[rogue-go-to-title()]

@@ -1,0 +1,49 @@
+[cast a=Hero, kino=Kino, m=Miran, n=Nanako, v=Viola]
+[floor-song tension]
+[show portrait kino serious]
+kino: Demorou um pouco para entender a situação...
+
+kino: O Lorde Demônio mascarou o feitiço destruidor de almas como um feitiço de teletransporte.
+
+kino: Inteligente, mas tudo o que ela fez foi protelar sua morte.
+
+kino: Entregue o último fragmento.
+
+a: Não.
+
+kino: O Lorde Demônio não pode ser curado novamente.
+
+kino: Inúmeros morrerão.
+
+a: O Lorde Demônio não matou pessoas até agora.
+
+Kino fica em silêncio.
+
+a: Você planeja matar uma pessoa inocente.
+
+a: Planejamos salvá-la.
+
+[if with(m)]
+    [show portrait m angry]
+    m: Afinal, não posso ficar de braços cruzados quando alguém diz que vai matar nosso amigo.
+
+[if with(v)]
+    [show portrait v normal]
+    v: O reino mata repetidamente em prol da paz...
+
+    v: Não existe uma maneira melhor?
+
+[if with(n)]
+    [show portrait n smiling]
+    n: Novamente com os homens egoístas usando as mulheres para seus próprios dispositivos...
+
+    n: Estou tão cansado de ver essa merda.
+
+kino: Posso sentir sua determinação.
+
+kino: Não há necessidade de prolongar esta conversa.
+
+[show portrait kino normal]
+kino: Lute por aquilo em que você acredita; Eu farei o mesmo.
+
+[kino-and-earnest-become-hostile()]

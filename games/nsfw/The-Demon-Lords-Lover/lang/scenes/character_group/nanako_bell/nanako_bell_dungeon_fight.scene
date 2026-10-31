@@ -1,0 +1,94 @@
+[cast a=Hero, b=Bell, n=Nanako]
+Você ouve uma conversa...
+
+[show portrait b smiling]
+b: Nanako, por que não matamos o lorde demônio?
+
+[show portrait n smiling]
+n: Sino... Você já ouviu a expressão: "Se uma árvore cai na floresta e não há ninguém por perto para ouvir, ela faz algum barulho?"
+
+[show portrait b smiling]
+b: Eu nunca ouvi isso.
+
+[show portrait n smiling]
+n: Basicamente, se matarmos o lorde demônio, ninguém saberá.
+
+[show portrait b smiling]
+b: É importante que as pessoas saibam?
+
+[show portrait n smiling]
+n: Uma parte importante de ser um herói é inspirar as pessoas.
+
+[show portrait b laughing]
+b: Hmmm... esse é um bom ponto! E aqui estava eu ​​pensando que era apenas uma questão de arrasar ^^.
+
+[show portrait n smiling]
+n: Haha, eu não me importo com essa parte de você.
+
+[show portrait b smiling]
+b: Eh...
+
+[show portrait n]
+n: A história de um herói pode dar esperança e coragem às pessoas por gerações...
+
+n: Cabe a nós torná-lo atraente.
+
+[show portrait b laughing]
+b: Não sei se entendi, mas não senti muito poder do lorde demônio. Talvez lutar contra ela seja mais divertido depois que ela for ativada!
+
+[show portrait n smiling]
+n: Haha, acho que estamos na mesma página.
+
+...
+
+[show portrait n]
+Nesse momento, Nanako percebe você.
+n: Ah, quem é esse?
+
+[show portrait b smiling]
+b: Olá!
+
+[show portrait n]
+Você dá uma olhada mais de perto no rosto de Nanako.
+
+Espere, espere, espere...
+
+[show cg nanako_as_idol_cg]
+É ESSE Nanako?
+
+Nanako, o antigo centro do ABC48?
+
+Nanako, quem foi pego em um namoro doce?
+
+Nanako, que aproveitou sua fama para se tornar a criadora nº 1 de AV (vídeo adulto)?
+
+[hide cg]
+[show portrait n normal]
+a: N-Nanako?
+
+[show portrait n smiling]
+Nanako sorri.
+n: Por acaso... você é japonês?
+
+[show portrait b smiling]
+b: Japonês? Como você, Nanako?
+
+[show portrait n smiling]
+Você acena com a cabeça.
+
+Nanako se vira para Bell.
+n: Sino...
+
+[show portrait b smiling]
+b: Sim?
+
+[floor-song tension]
+[show portrait n sadistic]
+n: Vamos matar {if party.plural then these pests else this pest}.
+
+[show portrait b laughing]
+Bell fica um pouco confusa, mas ela não pensa demais.
+
+b: Rogério isso!
+
+[nanako-bell-become-hostile()]

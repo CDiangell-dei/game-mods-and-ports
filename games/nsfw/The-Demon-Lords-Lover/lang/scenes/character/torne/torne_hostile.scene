@@ -1,0 +1,6 @@
+[cast a=Hero, t=Torne]
+[show portrait t normal]
+t: Ficando atrevido, hein?
+
+t: Acho que alguém precisa aprender uma lição...
+[become-hostile(t)]

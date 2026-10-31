@@ -1,0 +1,53 @@
+[name] Fale sobre "uniformes de guilda"
+[cast a=Hero, l=Pila, p=Paila]
+[mood-song gentle]
+a: Você sabe do que se trata "Fale com Chii sobre uniformes de guilda"?
+
+[show portrait l frowning]
+l: Leo acreditava que poderíamos fazer uniformes de guilda para a guilda dos aventureiros e vendê-los para Chii, que então os venderia aos aventureiros.
+
+l: Eu disse que não achava que os aventureiros usariam uniforme oficial. Eu disse que os aventureiros usam roupas que combinam com seu estilo e atributos.
+
+l: Achei que era o fim da conversa, mas parecia que ele ainda queria me convencer de que era possível.
+
+a: Eu sinto que é possível... se eu tivesse um uniforme de guilda antes da minha primeira aventura, eu definitivamente o teria usado.
+
+[show portrait p normal]
+p: É possível. Muitos dos aventureiros que vêm a esta loja estão mais ou menos em busca de recordações. Eles amam o Foothold e querem se lembrar disso. Um uniforme de guilda seria perfeito para isso...
+
+p: E como você era um aventureiro, você saberia como tornar funcional um uniforme de guilda.
+
+[show portrait l frowning]
+l: Será que temos mão de obra para fabricar uniformes de guilda em grande quantidade?
+
+[show portrait p worried]
+Paila fica em silêncio.
+
+Dado o cansaço de Pila, Paila já deve estar muito ocupada...
+
+a: E os emblemas da guilda? Você sabe, como aqueles de classificação e várias conquistas. Ouvi dizer que a guilda está ficando sem eles e as remessas estão atrasadas...
+
+[show portrait p normal]
+p: Gosta de patches bordados? Essa é uma boa ideia!
+
+[show portrait l frowning]
+l: Mas os oficiais são tão fofos... Acho que não consigo fazer um melhor.
+
+[show portrait p normal]
+p: Ah, vamos, mãe. Seus patches se esgotam imediatamente. Eles são itens colecionáveis ​​limite neste momento...
+
+[show portrait l normal]
+l: Ok, vou conversar com Chii sobre isso... pelo bem de Leo. Apesar dos meus protestos, sei que ele concordaria com vocês dois.
+
+[show portrait p normal]
+p: {heroname}, você se importa de ir com ela?
+
+[show portrait l normal]
+l: Hã, para quê?
+
+[show portrait p normal]
+p: Você sabe, apoio moral.
+
+[show portrait l normal]
+l: Ok...
+[chat-menu(l)]

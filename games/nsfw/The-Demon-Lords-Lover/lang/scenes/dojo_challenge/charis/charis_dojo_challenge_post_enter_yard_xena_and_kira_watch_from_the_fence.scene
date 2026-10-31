@@ -1,0 +1,9 @@
+[cast a=Hero, ch=Charis, x=Xena, k=Kira]
+[show portrait x normal]
+Conforme você e Charis se posicionam, Xena e Kira aparecem.
+
+x: Oh, você vai treinar com meu pai? Boa sorte, {heroname}!
+
+[show portrait k normal]
+k: Hummm...
+

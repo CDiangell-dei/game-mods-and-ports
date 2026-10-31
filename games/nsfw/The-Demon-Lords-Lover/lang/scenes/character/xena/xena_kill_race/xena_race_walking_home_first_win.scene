@@ -1,0 +1,8 @@
+[cast a=Hero, x=Xena]
+[show portrait x normal]
+x: Eu tenho {xena-race-xena-kills}, e você?
+
+a: Eu obtive {xena-race-hero-kills}.
+
+[show portrait x surprised]
+x: Eu não posso acreditar...

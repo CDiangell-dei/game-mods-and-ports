@@ -1,0 +1,16 @@
+[cast a=Hero, s=Seri, e=Eve]
+[floor-song tension]
+[show portrait e normal]
+e: Suspiro...
+
+e: Não parece que esta conversa será produtiva.
+
+[show portrait e bitter_laugh]
+e: Vamos, vamos brigar, certo?
+
+e: Vamos detê-lo e confiscar todos os seus livros.
+
+e: Por mais inocente que você pareça, sei que não poderei fazer isso de graça.
+
+[hide portrait]
+[inquisitors-become-hostile()]

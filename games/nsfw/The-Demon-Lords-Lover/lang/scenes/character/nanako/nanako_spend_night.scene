@@ -1,0 +1,9 @@
+[name] Vá para o quarto de Nanako (→ manhã)
+[cast n=Nanako]
+[scene spend_night_setup]
+[mood-song dream]
+[nanako-room-intro()]
+[scene nanako_spend_night_intro]
+[nanako-room-menu()]
+
+[scene inn_night_subscene]

@@ -1,0 +1,8 @@
+[cast m=Miran]
+[show portrait m blushing]
+m: Sobre ontem à noite, como foi?
+
+a: Você pode repetir o que disse? Eu não ouvi você.
+
+[show portrait m blushing_angry]
+m: Não é nada!!

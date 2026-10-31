@@ -1,0 +1,2 @@
+[cast s=Seri]
+s: Se não me engano, {if hunt-target.plural then the targets are else the target is} em B{quest-end-floor}.

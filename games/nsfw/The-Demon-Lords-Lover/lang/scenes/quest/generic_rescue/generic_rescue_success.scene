@@ -1,0 +1,8 @@
+[play-rescue-complete-intro()]
+Voltar para a cidade com {rescue-target|definite}?
+[yes-or-later-prompt()]
+[set-quest-success()]
+[play-rescue-complete-outro()]
+Você volta para a cidade com {rescue-target|definite}.
+[goto-town-triggering-events()]
+[end]

@@ -1,0 +1,12 @@
+[name] Faça sexo
+[cast l=Pila]
+[show cg pila_cowgirl]
+l: {heroname}... ahh...
+
+[show cg pila_cowgirl_hard]
+l: {heroname}... você é tão enérgico...
+
+[show cg pila_cowgirl_orgasm]
+l: D-você se sente satisfeito?
+
+[pila-room-menu()]

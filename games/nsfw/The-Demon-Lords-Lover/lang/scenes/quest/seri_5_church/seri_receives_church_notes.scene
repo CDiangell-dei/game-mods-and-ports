@@ -1,0 +1,7 @@
+[name] Dê notas de pesquisa
+[cast a=Hero, s=Seri]
+[show portrait s normal]
+a: Seri, encontrei as notas da igreja sobre o ciclo herói/lorde demônio.
+[seri-receives-church-notes()]
+
+s: Uau... Obrigado {heroname}. vou dar uma olhada...

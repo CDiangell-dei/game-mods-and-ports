@@ -1,0 +1,52 @@
+[name] Passe algum tempo com Nanako (→ noite)
+[cast a=Hero, n=Nanako]
+[show portrait n normal]
+Você e Nanako bebem no bar...
+
+a: No final, você não acabou lutando contra Seri...
+
+n: Quero dizer, ela não fez nada.
+
+[show portrait n winking]
+n: Mas estou de olho nela.
+
+a: Mas sua maldição foi suspensa...
+
+[show portrait n smiling]
+Nanako sorri.
+
+n: Você acha que é o poder do Lorde Demônio que faz dela o Lorde Demônio?
+
+a: O que você quer dizer?
+
+n: Dito de outra forma, você acha que Seri ainda é o lorde demônio?
+[menu]
+    a: Acho que não.
+        n: Interessante. Você acha que Seri concordaria?
+
+    a: Dependendo da perspectiva, ela poderia ser.
+        n: Interessante. Compartilho do seu sentimento...
+
+[show portrait n normal]
+n: Não subestime o poder de um rótulo.
+
+n: Um prêmio de discurso em inglês pode fazer com que um aluno do ensino médio se torne professor de inglês.
+
+n: A maioria das pessoas precisa de permissão para se expressar em alguma direção.
+[menu]
+    a: Seri não é assim.
+        n: Você protege a idéia que tem dela, hein?
+
+        a: Posso dizer o mesmo sobre você!
+
+    a: Temos que ajudá-la a encontrar uma nova narrativa.
+        n: Eu me pergunto o que ela quer, no fundo.
+
+        a: Está se perguntando?
+
+[show portrait n smiling]
+n: Eu não me importo de ser honesto -
+
+[show portrait n winking]
+n: Se ela decidir se tornar uma vilã, eu adoraria ser seu herói.
+[goto-night()]

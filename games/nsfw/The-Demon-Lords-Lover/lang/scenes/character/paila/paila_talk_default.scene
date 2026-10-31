@@ -1,0 +1,13 @@
+[cast p=Paila]
+[if is-morning()]
+    [show portrait p normal]
+    p: Olá {heroname}, como vai?
+[if is-afternoon()]
+    [show portrait p normal]
+    p: Olá {heroname}, como vai?
+[if is-evening()]
+    [show portrait p normal]
+    p: Olá {heroname}, que bom ver você.
+[if is-night()]
+    [show portrait p normal]
+    p: Olá {heroname}, você vai passar a noite?

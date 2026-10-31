@@ -1,0 +1,8 @@
+[name] Treine com Viola (→ noite)
+[cast v=Viola]
+Você passa a noite treinando com Viola.
+
+[viola-get-dojo-skill()]
+[get-dojo-skill()]
+[record-train(v)]
+[goto-night()]

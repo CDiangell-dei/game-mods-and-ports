@@ -1,0 +1,25 @@
+[cast m=Miran, v=Viola]
+Você examina o urso de pelúcia.
+
+“Handmade in Osaka” está impresso na etiqueta.
+
+[if with(m) and with(v)]
+    [show portrait m pleading]
+    m: Tão fofo... mas o que isso está fazendo aqui?
+
+    [show portrait v normal]
+    Viola percebe a situação e coloca a mão nas suas costas.
+
+    v: Vamos levar isso para Seri.
+[elif with(m)]
+    [show portrait m pleading]
+    m: Tão fofo... mas o que isso está fazendo aqui?
+
+    m: Isso poderia pertencer a Seri?
+[elif with(v)]
+    [show portrait v normal]
+    Viola percebe a situação e coloca a mão nas suas costas.
+
+    v: Vamos levar isso para Seri.
+[else]
+    Isso deve pertencer a Seri...

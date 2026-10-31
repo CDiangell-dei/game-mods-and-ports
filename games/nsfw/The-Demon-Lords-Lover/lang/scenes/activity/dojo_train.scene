@@ -1,0 +1,5 @@
+[name] Treine no dojo (→ noite)
+Você treina no dojo.
+[get-dojo-skill()]
+[record-dojo-train()]
+[goto-night()]

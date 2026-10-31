@@ -1,0 +1,29 @@
+[cast a=Hero, s=Seri, n=Nanako, k=Kino]
+[if not seen(seri_church_quest_prompt)]
+    [show portrait k serious]
+    k: Seri, a igreja Claris está aqui.
+
+    [show portrait s pensive]
+    s: Os livros proibidos...
+
+    [show portrait k serious]
+    Kino assente.
+
+    k: Não espero que eles permaneçam intocados.
+
+    [show portrait s normal]
+    s: ...
+
+    a: É hora de uma missão de resgate?
+
+    s: N-não... não posso pedir que você arrisque sua vida por... livros.
+
+    a: Mas os livros são importantes, certo? Para que o seu sonho encerre o ciclo do herói/lorde demônio para sempre.
+
+    [show portrait n smiling]
+    n: Vamos, vamos indo.
+
+    [show portrait s normal]
+    s: ...
+
+    Seri assente.

@@ -1,0 +1,50 @@
+[cast a=Hero, c=Chii, m=Miran]
+[show portrait c smiling]
+c: Hmmm... esta pode ser uma boa oportunidade.
+
+c: Olá Miran!
+
+Chii chama uma linda garota.
+
+[show portrait m pleading]
+m: Hum.... o que é isso?
+
+c: Olá Miran... Tenho um aventureiro novato que está interessado na mesma missão que você.
+
+c: Por que você não o traz com você?
+
+[show portrait m blushing_surprised]
+Por alguma razão, Miran cora, nervosa.
+
+m: O-o quê? Eu posso lidar com isso sozinho!
+
+[show portrait c normal]
+c: Miran, é uma boa oportunidade para treinar outras pessoas. Isso também faz parte de ser um aventureiro!
+
+[if not (seen(miran_talk_introduction) or seen(gather_quest_prompt))]
+    [show portrait m blushing_surprised]
+    a: Olá Miran, meu nome é {heroname}.
+
+    [show portrait m blushing]
+    m: Eu-eu sou Miran.
+[else]
+    a: Hum, olá Miran!
+
+Você e Miran fazem contato visual. E um momento depois, Miran desvia o olhar e cora novamente.
+
+m: Ok, ok! Eu vou levá-lo.
+
+a: Obrigado...
+
+[show portrait c smiling]
+c: Miran é uma especialista em plantas. Como tal, ela é boa em identificar qual planta é qual.
+
+c: Talvez você possa ensinar {heroname} uma ou duas coisas?
+
+[show portrait m blushing]
+m: Ok...
+
+a: Obrigado...
+
+[show portrait m normal]
+m: Então, hum, você está pronto para ir para a masmorra?

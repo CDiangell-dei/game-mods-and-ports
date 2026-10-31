@@ -1,0 +1,60 @@
+[name] Dê urso
+[cast a=Hero, m=Miran, s=Seri, v=Viola]
+[mood-song seri_reprise]
+[show portrait s normal]
+Você mostra o urso para Seri.
+
+a: Seri, esse urso é seu?
+
+[show portrait s smiling]
+Seri encara o urso e sorri.
+[seri-remove-bear()]
+
+s: É tão fofo... e ela embala o urso como um bebê.
+
+[show portrait s glowing_eyes_closed]
+Assim como a calcinha, o urso brilha e Seri fecha os olhos.
+
+Como da última vez, você segura o corpo de Seri. Você não quer que ela caia, mas também está curioso para saber se a temperatura dela vai mudar novamente...
+
+O corpo de Seri reage, mas não da maneira que você espera.
+
+Começa como um tremor, mas se torna quase convulsivo...
+
+a: S-seri!!
+
+E enquanto ela continua a tremer, você a abraça com força.
+
+[show portrait s crying]
+E quando você dá um forte aperto nela, os olhos de Seri se abrem.
+
+Ao dar um passo para trás, você vê lágrimas escorrendo dos olhos de Seri.
+
+a: Seri, o que aconteceu?
+
+Seri coloca as palmas das mãos no rosto e sente as lágrimas...
+
+s: Quando segurei o urso, revivi uma cena da minha infância...
+
+s: Minha casa estava pegando fogo...
+
+s: Meus pais estavam tentando me salvar...
+
+s: Mas eu insisti em tentar salvar meu urso...
+
+s: E por causa da minha teimosia, meus pais morreram no incêndio...
+
+s: E numa outra memória, desta vez, uma década depois, queimei aquele urso como se o estivesse culpando pela morte dos meus pais.
+
+[if with(m)]
+    [show portrait m pleading]
+    m: É uma memória horrível.
+
+[if with(v)]
+    [show portrait v normal]
+    v: Sério...
+
+[show portrait s crying]
+Você continua abraçando Seri enquanto as convulsões de seu corpo diminuem...
+[set TODAY_CHAPTER_2_ENDED]
+[chat-menu(s)]

@@ -1,0 +1,43 @@
+[cast a=Hero, k=Kira]
+[if not seen(kira_quest_prompt)]
+    [show portrait k staring]
+    Você vê Kira olhando para o quadro de missões, perdida em pensamentos. Ela está murmurando para si mesma com uma expressão bastante sombria...
+
+    a: Olá Kira.
+
+    [show portrait k normal]
+    Kira é tirada de seu torpor.
+
+    k: Ah, olá {heroname}.
+
+    Kira dá um sorriso educado.
+
+    a: O que você está pensando?
+
+    k: Estou pensando em bancar o aventureiro há um dia.
+
+    k: Já que estou aqui, achei que deveria aprender mais sobre esse estilo de vida.
+
+    a: Existe uma missão na qual você está interessado?
+
+    k: Eu estava pensando em ir nessa.
+
+    A missão diz: “Colete raízes de planta-coração em B5”.
+
+    a: Este vai bem fundo na masmorra. Talvez para começar você possa escolher um mais fácil?
+
+    k: Pensei em ter uma visão mais detalhada da masmorra... o que atrai as pessoas para esta cidade.
+
+    k: Eu não estarei aqui para sempre...
+
+    a: Você tem uma festa?
+
+    k: Eu preciso de um?
+
+    a: Acho que é uma boa ideia ter um.
+
+    k: Eu estava pensando em ir sozinho... a não ser?
+
+    a: Eu?
+[else]
+    k: Pronto para ir?

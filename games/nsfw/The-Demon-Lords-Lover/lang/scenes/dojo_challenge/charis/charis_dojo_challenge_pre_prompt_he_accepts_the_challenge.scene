@@ -1,0 +1,12 @@
+[cast a=Hero, ch=Charis]
+[show portrait ch normal]
+ch: {heroname}. Você pretende me desafiar para uma luta?
+
+a: Sim, senhor! É uma ótima oportunidade. Eu me arrependeria de não ter perguntado!
+
+[show portrait ch normal]
+Charis olha em seus olhos.
+
+ch: Estou impressionado com sua seriedade, garoto.
+
+ch: Muito bem, aceito seu desafio.

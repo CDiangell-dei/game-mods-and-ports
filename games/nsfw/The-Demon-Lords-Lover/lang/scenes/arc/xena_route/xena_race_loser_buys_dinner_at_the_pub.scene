@@ -1,0 +1,118 @@
+[cast a=Hero, x=Xena, c=Chii]
+[if TODAY_I_WON_XENAS_RACE]
+    [show portrait x teasing]
+    x: Cara, não acredito que perdi!
+
+    x: Acho que essa é a diferença entre um artista marcial e um aventureiro experiente!
+
+    x: Acho que isso significa que preciso convidar você para jantar!
+[else]
+    [show portrait x teasing]
+    x: Parece que desta vez ganhei!
+
+    [show portrait x smiling]
+    x: Comida grátis! Uau, uau!
+
+[show portrait x normal]
+Você e Xena vão jantar no pub.
+
+Durante o jantar, você e Xena conversam alegremente sobre várias coisas.
+
+[hide portrait]
+Enquanto isso, há alguns murmúrios pela cidade...
+
+aventureiro: Psiu, não é a Xena?
+
+aventureiro: Sim, o instrutor do dojo...
+
+aventureiro: Quem é aquele com ele?
+
+aventureiro: Eles estão namorando?
+
+[show portrait x blushing]
+Xena, que parece ter ouvido tudo isso, está corando profundamente.
+
+x: E-então {heroname}, hum, qual é, seu vegetal favorito!
+
+a: H-hein?
+
+x: S-você sabe, porque tem legumes na sopa que eles servem aqui... Hum, tem cenoura, batata...
+
+x: Então, qual é o seu favorito?
+[menu]
+    a: Você não pode errar com batatas!
+    a: Os tomates são o rei dos molhos!
+    a: Eu também sou um homem rabanete.
+
+x: Boa escolha, ahahaha.
+
+[show portrait c normal]
+Mais tarde, Chii traz o cheque.
+
+c: Ah, isso é interessante. Xena no pub com {heroname}?
+
+c: É bom ver que você está fazendo amigos, {heroname}.
+
+[show portrait c smiling]
+c: Ou hum... isso é mais que amigos?
+
+[show portrait x blushing]
+x: Ahhhh!!!
+
+x: Todos neste pub pensam que estamos num encontro!
+[menu]
+    a: É tão ruim para eles pensarem isso?
+    a: Deixe-os pensar o que quiserem.
+[show portrait x surprised]
+x: {heroname}, você fica tão tranquilo com essas coisas...
+
+[show portrait x motivated]
+x: Ok! Eu assumirei sua liderança!
+
+[if XENA_CONFESSION_ACCEPTED]
+    [show portrait x motivated]
+    x: Eu sou sua namorada!
+
+    [show portrait x blushing]
+    x: Ahaha... o que estou dizendo?
+[else]
+    [show portrait x motivated]
+    x: Eu sou sua namorada!
+
+    a: H-hein?
+
+    [show portrait x blushing]
+    x: Haha, só estou brincando mano!
+
+    x: Só estou, hum, brincando...
+[if TODAY_I_WON_XENAS_RACE]
+    [show portrait x normal]
+    Xena paga o jantar conforme prometido na sua aposta.
+
+    [show portrait c normal]
+    c: Ah! Você tem uma doce mamãe, {heroname}.
+
+    [show portrait x blushing]
+    x: E-ei, é porque perdi uma aposta!
+[else]
+    [show portrait x teasing]
+    Você paga o jantar conforme prometido na sua aposta.
+
+    [show portrait c normal]
+    c: Ah! Afinal, é um encontro!
+
+    [show portrait x blushing]
+    x: E-ei! É porque ganhei uma aposta!
+
+[show portrait c normal]
+c: Não é uma má maneira de enganar alguém em um encontro, seu patife {heroname}.
+
+[show portrait x blushing]
+x: ...
+
+x: {heroname}, você me enganou???
+
+a: Você não sugeriu que o vencedor pagasse pela comida?
+
+[show portrait x teasing]
+x: Ah haha... certo...

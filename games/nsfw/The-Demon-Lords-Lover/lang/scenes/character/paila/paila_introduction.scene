@@ -1,0 +1,67 @@
+[cast a=Hero, p=Paila]
+[show portrait p]
+[if not seen(pila_introduction)]
+    p: Olá, encontrei você na praia ontem à noite e minha mãe e eu levamos você...
+
+p: Estou aliviado por você estar bem. Meu nome é Paila, qual é o seu?
+
+Paila é bem baixa, talvez cerca de 1,5 metro?
+
+Como resultado, você tem que olhar para baixo para encontrar os olhos dela.
+
+Deste ângulo, seus... bens... são impossíveis de perder.
+
+Instantaneamente, você sente uma pressão contra suas calças...
+
+[if seen(pila_introduction)]
+    a: M-meu nome é {heroname}... Ouvi dizer que você me trouxe. Agradeço...
+[else]
+    a: M-meu nome é {heroname}... Agradeço...
+
+p: Ah, não se preocupe, acho que qualquer pessoa nesta cidade teria feito o mesmo. Acontece que sou eu.
+
+p: Você sabe, você tinha algumas roupas interessantes.
+
+Você não reconhece as roupas que está vestindo.
+
+p: Não aqueles; Eu te dei isso. Suas roupas estavam rasgadas e encharcadas. Eu vou consertá-los. Apenas me dê algum tempo.
+
+Ao imaginar Paila despindo um você inconsciente, você cora.
+
+p: Então, hum, de onde você é?
+[menu]
+    a: Acho que posso ser de outro mundo...
+    a: Eu sou do Japão...
+Paila parece confusa, mas mostra um sorriso gentil.
+
+p: É um mundo grande, não é?
+
+p: Quando criança, muitas vezes sonhei em ver o mundo. Muitos aventureiros visitam esta cidade, por isso é difícil não ficar curioso sobre outros lugares.
+
+a: Por que você não pode ir?
+
+Paila mostra um sorriso gentil.
+
+p: Haha, sozinho? Acho que ouvir aventureiros contando suas histórias pode ser o suficiente para mim.
+[menu]
+    a: Talvez possamos ir juntos.
+        [show portrait p worried]
+        p: Haha... Você não deveria dizer essas coisas tão levianamente.
+
+        Paila parece um pouco triste.
+        [menu]
+            a: Estou falando sério.
+                Inesperadamente, Paila quase parece irritada. Ela levanta a mão.
+
+                p: Pare.
+
+                a: Sinto muito.
+
+                Paila exala profundamente.
+                p: Não, não, você está bem. Sinto muito por essa reação.
+
+            a: Desculpe...
+        p: Eu tenho que cuidar da loja. Isso é tudo. É melhor não sonhar muito, se isso faz sentido.
+
+        Você tem a sensação de que não tem a visão completa, mas decide não insistir mais nisso.
+    a: Eu vejo...

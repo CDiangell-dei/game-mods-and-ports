@@ -1,0 +1,6 @@
+[cast c=Chii]
+Você relata o resultado da missão para Chii.
+
+[show portrait c normal]
+c: Bom trabalho! Aqui está sua recompensa.
+[get-quest-rewards()]

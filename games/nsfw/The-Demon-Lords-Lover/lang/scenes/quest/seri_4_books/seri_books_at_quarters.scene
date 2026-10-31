@@ -1,0 +1,242 @@
+[cast a=Hero, s=Seri]
+[show portrait s smiling]
+Ao entrar nos aposentos do Lorde Demônio, você percebe um pequeno sorriso no rosto de Seri.
+
+a: Seri, como é? Estar de volta aqui...
+
+s: Estou bem...
+
+s: É, hum, apenas uma sala com um monte de livros, como eu disse.
+
+s: Hum, vim aqui com alguns livros em mente, mas talvez devesse dar uma olhada no que está aqui, caso tenha esquecido alguma coisa.
+
+s: Tudo bem?
+
+a: Hum, Seri, você está... feliz?
+
+a: Você não ficou preso aqui sabe-se lá quanto tempo?
+
+[show portrait s normal]
+s: Hum, suponho que sim.
+
+s: Acho que depois de ficar aqui por tanto tempo, devo ter me acostumado.
+
+a: Estamos num mundo totalmente novo, Seri.
+
+s: Sim...
+
+Enquanto Seri se perde nas estantes, você decide pegar seu próprio livro.
+
+[hide portrait]
+"Contratos de Escravos"
+
+O livro é uma abordagem bastante acadêmica sobre o que parece ser um feitiço que cria um contrato de escravos.
+
+“Um contrato de escravidão requer uma grande quantidade de mana. Em geral, o ser humano médio não tem acesso a essa quantidade de mana.”
+
+...
+
+"Um escravo mantém alguma aparência de livre arbítrio."
+
+“Mas se o senhor dá uma ordem, o contrato de escravo é ativado e obriga o escravo a obedecer.”
+
+...
+
+"Um monstro sob contrato de escravos tem um conjunto separado de memórias que são apagadas ao terminar o contrato de escravos."
+
+...
+
+"Ao criar um contrato de escravos, parte da mana usada para criá-lo é codificada no próprio contrato."
+
+...
+
+[show portrait s smiling]
+s: Olá, {heroname}, acho que estou pronto.
+
+s: O que você está lendo? Ah...
+
+[show portrait s normal]
+Seri tem uma expressão vazia no rosto.
+
+a: Seri, você está bem?
+
+s: Hum... sim, estou bem.
+
+a: Não posso acreditar que este mundo tenha um contrato de escravos.
+
+a: Este livro tem que ser banido, certo?
+
+a: Ou isso é apenas conhecimento comum e a maioria das pessoas não tem acesso a ele?
+
+[show portrait s sad]
+s: Eu... eu não sei muito sobre o que acontece fora desta masmorra.
+
+s: Mas pelo menos em Foothold, não vi nenhum relacionamento desse tipo.
+
+s: Se fosse tão simples lançar um feitiço para criar esse tipo de relacionamento, o mundo seria realmente um lugar cruel.
+
+s: Por outro lado, as pessoas podem se acostumar facilmente com comportamentos cruéis quando as coisas se tornam comuns.
+
+s: ...
+
+Seri está perdida em pensamentos.
+
+[show portrait s normal]
+s: {heroname}... se eu fosse seu escravo...
+
+s: Você acha que faria sexo comigo?
+
+a: Hein? Tipo, eu ordenaria que você fizesse sexo comigo?
+
+a: Você não pode recusar pedidos, certo? Isso é...
+
+s: Ok, e se você não me pediu... mas apenas pediu.
+
+...
+
+a: Quero dizer... você pode confiar que o sim de um escravo significa sim?
+
+a: O senhor pode punir o escravo por ir contra ele...
+
+a: É difícil para o escravo dizer não nessa situação...
+
+[show portrait s pensive]
+s: Hummm...
+
+s: Na minha vida passada... acho que nunca fui capaz de dizer não a nada.
+
+a: ...
+
+[show portrait s normal]
+s: Quero dizer, não é o mesmo que escravidão, é claro.
+
+a: Ah, sim...
+
+s: Então, se você tivesse um escravo com quem quisesse fazer sexo...
+
+a: Acho que teria que libertá-la da escravidão.
+
+a: E então ela teria que viver uma vida separada de mim... fazer alguns amigos, não ficar isolada ou depender de mim depois que o contrato fosse quebrado.
+
+a: Mesmo assim, é realmente possível?
+
+a: Alguma coisa na bagagem do passado faz com que...
+
+a: Não sei se conseguiria continuar com isso.
+
+[show portrait s pensive]
+s: Acho que sim, hein...
+
+a: Seri... tem algo errado?
+
+[show portrait s serious]
+s: Não... não há nada de errado.
+
+s: Hum... obrigado por me trazer aqui.
+
+s: Mas talvez eu deva continuar a partir daqui. Agora que estive aqui uma vez, tenho uma ideia geral do que é necessário...
+
+a: Espere, isso não é perigoso? E não somos amigos? E mais do que amigos também?
+
+a: Realmente não há problema para mim ir com você.
+
+s: Sim... só não quero sobrecarregar você...
+
+a: Seri, vamos, quero que descubramos nosso lugar neste mundo juntos!
+
+s: Você já me ajudou muito...
+
+s: Por alguma razão, essa conversa passada me fez perceber o que tenho feito com você esse tempo todo.
+
+s: Por causa do seu senso de dever, você foi forçado a me ajudar.
+
+s: Se eu entrar na masmorra, você deve vir comigo, porque é uma espécie de obrigação.
+
+a: ...
+
+a: Não é uma obrigação...
+
+a: E se eu estivesse apenas com tesão?
+
+a: Isso não é motivo suficiente para querer estar com você?
+
+[show portrait s pensive]
+s: ...
+
+[show portrait s pensive]
+s: {heroname}... Acho que é um bom motivo.
+
+s: Meu corpo... se eu puder devolver pelo menos um pouquinho do que você me deu...
+
+a: Ei! Não é uma troca.
+
+a: Você quer fazer isso também, certo?
+
+s: ...
+
+a: Espere... Você está falando sério?
+
+[show portrait s normal]
+s: Não {heroname}. Não.
+
+s: Você não entende...
+
+s: Eu queria fazer isso com você há muito tempo... desde sempre.
+
+[show portrait s blushing]
+s: Desde que nos conhecemos...
+
+s: E especialmente quando você começou a me ajudar... naquela época.
+
+s: Eu queria tanto fazer sexo com você desesperadamente... Já me masturbei pensando em você inúmeras vezes.
+
+[if intimate-with(s)]
+    s: A relação sexual que temos tido... é o que eu queria há tanto tempo.
+[else]
+    s: Esse relacionamento que temos tido... é o que eu queria há tanto tempo.
+
+a: ...
+
+[show portrait s normal]
+s: Eu só quero saber se você está ganhando algo com isso e não estou apenas sendo egoísta.
+
+a: Você está louco???
+
+a: Olhe para o seu corpo!!!
+
+[show portrait s blushing]
+Seri sorri.
+
+s: Você sempre foi capaz de romper a névoa em minha mente...
+
+s: É simples assim, não é?
+
+s: Se estamos atraídos um pelo outro...
+
+s: Devemos fazer isso tanto quanto pudermos.
+
+[show portrait s crying]
+Seri começa a chorar...
+
+Você não tem certeza do que está acontecendo, mas decide confortar Seri com um abraço.
+
+Uma coisa leva à outra e você acaba fazendo sexo com Seri durante a noite.
+
+[hide portrait]
+...
+
+[show portrait s smiling]
+Ao terminar, você vê Seri lhe dar um sorriso caloroso.
+
+s: A vida se torna muito mais simples quando fazemos isso.
+
+a: Quero dizer, nós conseguimos, certo?
+
+a: Você não é mais o Lorde Demônio.
+
+a: Podemos fazer isso tanto quanto quisermos.
+
+[show portrait s blushing]
+s: Sim...
+
+[set TODAY_CHAPTER_4_ENDED]

@@ -1,0 +1,157 @@
+[cast a=Hero, c=Chii, m=Miran]
+[mood-song dream]
+[hide background]
+[goto-inn-counter()]
+[show portrait m normal]
+Miran se senta no balcão e enterra o rosto nos braços.
+
+a: Miran? O que está errado?
+
+m: Estou bem, só um pouco cansado...
+
+[show portrait c frowning]
+Chii coloca a mão na testa de Miran.
+
+c: Hmmm... um pouco quente.
+
+c: Este está queimando a vela nas duas pontas...
+
+c: Mesmo quando eu não lhe dou uma missão, ela foge para a masmorra.
+
+c: Ela é uma garota tão imprudente.
+
+c: E ela insiste em trabalhar sozinha.
+
+a: Mas ela trabalhou comigo...
+
+c: Sim, foi uma surpresa.
+
+c: Eu tenho uma espécie de pressentimento.
+
+c: Acho que é porque mesmo sem trocar palavras, ela percebeu que você tinha uma energia semelhante.
+
+a: Que tipo de energia?
+
+c: Querido, por favor, não leve isso a mal.
+
+c: Vejo uma solidão sutil.
+
+c: Eu posso estar errado.
+
+c: Mas minha esperança é que vocês dois possam cuidar um do outro.
+
+c: {heroname}, ajude-a a chegar ao quarto.
+[menu]
+    Leve Miran para o quarto dela
+[hide all]
+Você leva Miran para o quarto dela e coloca uma toalha úmida em sua testa.
+
+[show portrait m pleading]
+Ao fazer isso, ela olha para você com os olhos semicerrados e fala com uma voz delirante.
+
+m: {heroname}...
+
+m: Eu... fiz um bom trabalho?
+[menu]
+    a: Você deveria descansar...
+    a: Sim, você fez um bom trabalho.
+[show portrait m blushing]
+Miran mostra um sorriso fraco.
+
+m: É bom ter um parceiro...
+
+Seus olhos ficam vidrados.
+
+m: E tão lindo também...
+
+Isso te pega desprevenido e seu coração começa a disparar...
+
+Ao mesmo tempo, ao ver o estado delirante de Miran, você sente que não deveria estar ouvindo isso...
+
+a: Ummm... vou sair... Tenha uma boa noite...
+
+[show portrait m pleading]
+Miran agarra sua mão.
+
+m: {heroname}... por favor, não vá...
+
+[hide all]
+Miran puxa sua mão e você não quer que ela se esforce, então cede e se deita ao lado dela na cama queen-size.
+
+Você imagina que vai ficar aqui apenas um pouco, mas assim que se deita, sente uma onda de exaustão tomar conta de você.
+
+Parece que você está preso por uma espécie de nervosismo com todas as novas situações...
+
+E antes que você perceba, você adormece segurando a mão de Miran.
+[menu]
+    Dormir
+[scene inn_night_subscene]
+[set TODAY_MIRAN_IS_RESTING]
+[show cg miran_bedside_surprised]
+m: Ahhhh!!!
+
+Você vem.
+a: Miran?
+
+[show cg miran_bedside_blushing]
+O rosto de Miran está vermelho como uma beterraba.
+m: N-nós...
+
+a: O que está acontecendo?
+
+m: N-nós...
+
+a: Nós fizemos o quê?
+
+[show cg miran_bedside_angry]
+m: Não se faça de bobo!! Um homem e uma mulher na mesma cama...
+
+Miran cora furiosamente.
+
+m: Devemos ter feito sexo!
+
+a: H-hein?
+
+m: D-eu fiz um bom trabalho?
+
+m: Quero dizer, você não pode esperar muito! Afinal, foi minha primeira vez...
+
+a: Do que você está falando?
+
+a: Você desmaiou de exaustão...
+
+a: E acho que cochilei enquanto cuidava de você...
+
+[show cg miran_bedside_blushing]
+Miran implora.
+m: Nós não fizemos nada?
+
+a: Não!
+
+m: ...
+
+m: Ok.
+
+[show cg miran_bedside_neutral]
+Naquele momento, Miran é atingida por outra onda de exaustão.
+
+[show cg miran_bedside_smiling]
+m: Obrigado por cuidar de mim.
+
+a: Não é nada... obrigado por cuidar de mim na masmorra.
+
+a: Espero que possamos trabalhar juntos outra hora.
+
+[show cg miran_bedside_blushing]
+m: ...
+
+m: Eu também.
+
+a: Mas hoje não, você deveria descansar um pouco.
+
+[show cg miran_bedside_neutral]
+Por um momento, Miran abre a boca como se quisesse resistir, mas ao passar por outra onda de exaustão, ela aceita sua situação.
+
+m: Ok...
+
+m: Espere por mim...

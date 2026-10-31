@@ -1,0 +1,5 @@
+[name] Faça Bell participar
+[cast b=Bell]
+[show portrait b laughing]
+b: Vamos!
+[add-bell()]

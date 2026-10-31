@@ -1,0 +1,62 @@
+[cast a=Hero, k=Kira, x=Xena]
+[show portrait k tired]
+Kira cai no chão.
+
+k: Então é assim que termina...
+
+a: Eu não vou te matar, idiota!
+
+[show portrait k angry]
+Kira faz contato visual com você.
+
+k: Você seria um tolo se me deixasse viver... como você sabe que não vou atacar você de novo?
+
+a: Eu vou bater em você de novo!
+
+k: Insano...
+
+a: Estou literalmente aqui para proteger você. O que diabos sua irmã vai pensar se eu não te trouxer de volta vivo?
+
+k: ...
+
+a: E eu sei que você está apenas emocionado agora. Eu sei que você ama sua irmã e sei que você pode lidar com essa situação se apenas conhecer sua irmã como ela é agora!
+
+k: Não seja tão arrogante...
+
+a: Além disso, não vou matar alguém que queria fazer sexo comigo!!
+
+k: Eu nunca quis fazer sexo com você!
+
+k: Eu só tentei te foder para machucar minha irmã!
+
+k: É a mesma razão pela qual tentei matar você!
+
+[show portrait x serious]
+É nesse momento que Xena aparece. Ela tem uma expressão vazia que você nunca viu antes.
+
+[show portrait k scared]
+Kira está congelada de medo.
+
+k: X-xena... quanto você ouviu?
+
+[show portrait x serious]
+x: Já ouvi o suficiente...
+
+[show portrait k scared]
+k: Não - espere - eu não quis dizer que queria machucar você... quero dizer, eu quis, mas quero dizer, você sabe, eu queria que você voltasse para casa, e {heroname} parecia ser importante... ahhhh, nada disso está dando certo.
+
+[show portrait x serious]
+x: Eu decidi, Kira.
+
+x: Nós vamos fazer o duelo.
+
+[show portrait k scared]
+k: O-o quê?
+
+[show portrait x serious]
+x: E então você vai para casa.
+
+[hide portrait]
+Você, Kira e Xena vão para casa em silêncio.
+
+[travel-to-town-skipping-events()]

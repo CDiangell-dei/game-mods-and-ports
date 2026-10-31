@@ -1,0 +1,17 @@
+[cast a=Hero, b=Bell, n=Nanako, villager_f=villager-f]
+Você devolve o gato ao cliente.
+
+aldeão_f: Meu bebê!!!! Muito obrigado...
+
+villager_f: Ah não, você ficou gravemente ferido... os monstros na masmorra devem ter realmente agredido você. Estou tão feliz que você foi trazido de volta...
+
+[show portrait b tired]
+b: Sobre isso... isso foi...
+
+[show portrait n smiling]
+n: Ahhhh, sim, havia alguns monstros...
+
+n: Nós o protegemos.
+
+[hide portrait]
+aldeão_f: Muito obrigado!

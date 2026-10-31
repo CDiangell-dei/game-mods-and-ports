@@ -1,0 +1,6 @@
+[cast a=Hero, k=Kira]
+[show portrait k normal]
+Kira está olhando para a água.
+
+k: Olá, {heroname}.
+

@@ -1,0 +1,7 @@
+[cast k=Kira]
+[if seen(xena_and_kira_have_duel)]
+    [show portrait k blushing]
+    k: {heroname}... Senti sua falta.
+[else]
+    [show portrait k normal]
+    k: Olá, {heroname}. É bom ver você de novo. <3

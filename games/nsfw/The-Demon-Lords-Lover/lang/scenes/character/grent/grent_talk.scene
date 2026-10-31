@@ -1,0 +1,10 @@
+[cast a=Hero, grent=Grent]
+[if not seen(grent_talk)]
+    Um homem rude de meia-idade cumprimenta você.
+    Grent: Ei amigo, meu nome é Grent. O que você precisa?
+
+    a: Olá, meu nome é {heroname}. Que tipo de lugar é esse?
+
+    gent: Minha loja! Vendo equipamentos e suprimentos para aventureiros. Deixe-me saber se você vir algo que goste.
+[else]
+    Grent: Ei {heroname}, do que você precisa?

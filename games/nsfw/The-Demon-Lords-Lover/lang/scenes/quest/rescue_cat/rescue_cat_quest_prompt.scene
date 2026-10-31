@@ -1,0 +1,49 @@
+[cast a=Hero, b=Bell, n=Nanako]
+[if not seen(rescue_cat_quest_prompt)]
+    Nanako e Bell estão olhando o quadro de missões.
+
+    [show portrait b smiling]
+    b: Nanako, temos que pegar esse aqui!!
+
+    [show portrait n normal]
+    n: Hummm...
+
+    Nanako murmura,
+    n: Este aqui não ganha muito dinheiro... e não acho que nossa classificação de aventureiro vá aumentar muito com este...
+
+    [show portrait b smiling]
+    b: Nanako, você disse alguma coisa?
+
+    [show portrait n smiling]
+    n: Ah! Hum, Bell, você não disse que queria um desafio maior?
+
+    [show portrait b tired]
+    b: Só estou imaginando a dona do gato... deve ser muito triste!
+
+    b: E se o gato está na masmorra, deve estar em perigo!
+
+    b: Não há tempo!
+
+    [show portrait n smiling]
+    n: Tudo bem, Bell, estou dentro.
+
+    [show portrait b smiling]
+    Neste momento, Bell percebe você.
+
+    b: {heroname}! Nanako e eu vamos procurar esse gato. Você quer participar?
+
+    [show portrait n smiling]
+    n: Hum, precisamos de 3 pessoas para encontrar um gato desaparecido?
+
+    [show portrait b smiling]
+    b: O gato pode estar escondido em qualquer lugar!
+
+    a: Coitado do gato... temos que ajudar!
+
+    [show portrait n smiling]
+    n: Você também, hein...
+
+    n: Bem, eu não me importo.
+[else]
+    [show portrait n smiling]
+    n: Pronto?

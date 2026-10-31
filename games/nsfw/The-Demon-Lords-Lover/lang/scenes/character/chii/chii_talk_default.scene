@@ -1,0 +1,13 @@
+[cast c=Chii]
+[if is-morning()]
+    [show portrait c smiling]
+    c: Bom dia, querido!
+[if is-afternoon()]
+    [show portrait c smiling]
+    c: Boa tarde, querido!
+[if is-evening()]
+    [show portrait c smiling]
+    c: Boa noite, querido! Deixe-me pegar uma bebida para você...
+[if is-night()]
+    [show portrait c smiling]
+    c: Boa noite, querido. Sinta-se à vontade para conversar com minha irmã se quiser passar a noite aqui.

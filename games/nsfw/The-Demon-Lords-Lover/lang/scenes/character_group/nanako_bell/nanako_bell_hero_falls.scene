@@ -1,0 +1,8 @@
+[cast b=Bell, n=Nanako]
+Você cai.
+
+[show portrait n normal]
+n: Bell, ajude-me a levá-lo para casa.
+
+[show portrait b smiling]
+b: Não se preocupe, estou com vocês dois!

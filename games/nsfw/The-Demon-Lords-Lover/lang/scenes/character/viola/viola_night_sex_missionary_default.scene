@@ -1,0 +1,17 @@
+[name] Foda-se (missionário)
+[cast v=Viola]
+[show cg viola_missionary_slow]
+v: {heroname}... não pare...
+
+[show cg viola_missionary_fast]
+v: {heroname}... vou gozar...
+
+[menu]
+    Gozada dentro
+        [show cg viola_missionary_cum_in]
+        v: Estou gozando!!!
+    Retire
+        [show cg viola_missionary_cum_out]
+        v: Estou gozando!!!
+
+[viola-room-menu()]

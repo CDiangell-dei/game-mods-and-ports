@@ -1,0 +1,42 @@
+[cast a=Hero, b=Bell, n=Nanako]
+[move-to-pub-table()]
+[show portrait n normal]
+Depois, você toma uma bebida com Nanako.
+
+n: Tanto para Bell ser meu animal de estimação...
+
+n: Parece que ultimamente é ela quem está me controlando e não o contrário.
+
+n: Acredito que pessoas confiantes são capazes de hipnotizar e hipnotizar outras pessoas para que entrem em sua realidade.
+
+n: Esse é o trabalho de um ídolo. Você projeta a ideia de um futuro positivo e as pessoas que assistem acreditam nisso no mundo.
+
+n: A maioria das pessoas quer ser liderada, como ovelhas.
+
+n: E quando duas pessoas confiantes se encontram, às vezes as suas visões do mundo podem colidir.
+
+n: Nesse caso, Bell, apesar de supostamente ser meu subordinado, é quem realmente comanda as cenas.
+
+n: Ela tem uma visão muito confiante da realidade e, nessa realidade, sou um herói gentil.
+
+n: E contra a minha vontade, estou me tornando esse herói.
+
+n: Talvez eu tenha me tornado fraco por permitir que outras pessoas me pressionem assim.
+
+a: É uma coisa tão ruim?
+
+[show portrait n smiling]
+n: Suponho que não.
+
+n: Parece que você está fazendo a mesma coisa comigo...
+
+a: Você não acha que os fãs dos ídolos também fizeram o mesmo?
+
+n: Suponho que nem sempre há uma hierarquia clara com essas coisas.
+
+n: Como uma ovelha, me torno quem os outros querem que eu seja.
+
+n: Talvez o controle que sinto seja apenas uma narrativa em minha mente.
+
+[level-up-nanakos-bond-with-bell()]
+[goto-night()]

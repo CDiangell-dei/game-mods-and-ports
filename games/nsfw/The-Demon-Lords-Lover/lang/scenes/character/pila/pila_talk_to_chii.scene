@@ -1,0 +1,124 @@
+[name] Fale com Chii sobre uniformes de guilda
+[blocker not is-morning()] Must be morning.
+[cast a=Hero, c=Chii, l=Pila]
+[mood-song gentle]
+[set TODAY_I_TALKED_TO_PILA]
+[add-pila()]
+[move-to-pub-counter()]
+[show portrait c smiling]
+c: Nossa, se não for a nossa querida Pila!
+
+[hide all]
+Você ouve os aventureiros ficarem entusiasmados.
+
+"Uau, quem é esse?"
+
+"Essa é a Pila da loja de roupas, novata!"
+
+"Chii, Hilde e Pila... juro que esse lugar é o paraíso para quem gosta de mulheres mais velhas..."
+
+"Seu idiota, ela é casada..."
+
+"Ei, você não ouviu? O marido dela morreu há 2 anos..."
+
+“O quê, então ela está de volta ao mercado?!”
+
+[show portrait c smiling]
+c: Ok, ok, dê algum espaço à pobre garota. Suma! ^^
+
+c: Não se importe com eles. Um bando de homens solitários anda por aqui, mas eles têm boas intenções.
+
+[show portrait l normal]
+l: Haha, eu sei...
+
+[show portrait c normal]
+Chii dá um abraço em Pila.
+
+c: Pila, estou feliz em ver você por aí.
+
+c: Então, o que traz você aqui hoje?
+
+[show portrait l normal]
+Pila apresenta a ideia do patch de classificação/conquista da guilda, a princípio timidamente, mas com mais confiança enquanto Chii a incentiva.
+
+[show portrait c normal]
+c: Pila.
+
+[show portrait l frowning]
+l: O-o quê?
+
+[show portrait c normal]
+c: Essa é uma boa ideia.
+
+[show portrait l frowning]
+l: Você não está apenas sendo legal?
+
+[show portrait c normal]
+c: Ah, Pila, você sabe o quão caros são os pins oficiais?
+
+c: Especialmente considerando os custos de envio... você sabe a que distância fica a sede da guilda.
+
+c: Na maioria dos dias nem sinto que fazemos parte da guilda nacional, estamos tão longe que não temos influência sobre a política/tomada de decisão.
+
+c: Faz sentido fazermos nossas próprias coisas.
+
+Chii encomenda 100 patches.
+
+[show portrait l normal]
+a: Não são ótimas notícias, Pila?
+
+Pila está hesitante, quase como se não esperasse que as coisas corressem tão bem.
+
+l: Hum, acho que preciso postar uma missão para coletar materiais corantes. Quanto seria isso?
+
+[show portrait c smiling]
+c: A guilda cuidará disso!
+
+[show portrait l normal]
+l: Ah! Hum, ok.
+
+[show portrait l frowning]
+l: Ah, pode levar algum tempo. Somos só eu e Paila, e infelizmente não tenho sido tão produtivo ultimamente...
+
+[show portrait c smiling]
+c: Hmmm... você precisa que a guilda envie alguma ajuda? Claro, você teria que treiná-los.
+
+[show portrait l frowning]
+l: E-eu não posso permitir isso.
+
+[show portrait c smiling]
+c: A guilda pode pagar por isso, bobo.
+
+[show portrait l dizzy]
+l: H-hein?
+
+[show portrait c smiling]
+c: Ah, e como ainda estamos em negociações...
+
+c: Você sabe o que seria legal?
+
+c: Equipamento de aventura "padrão".
+
+a: Tipo um uniforme?
+
+c: Sim!! Um uniforme durável e com muitos bolsos, etc.
+
+c: Deus, estou tão cansado de ver aventureiros indo para a masmorra apenas com uma camiseta nas costas...
+
+c: A frugalidade é uma virtude, mas eles vão longe demais!!
+
+[show portrait l crying]
+Pila começa a chorar.
+
+[show portrait c frowning]
+c: Oh querido, eu disse algo errado?
+
+[show portrait l crying]
+l: Não é nada...
+
+[hide portrait]
+E assim a loja de roupas de Pila e Paila conseguiu um novo contrato e uma ajuda...
+
+Você volta para a casa de Pila.
+[goto-pailas-house()]
+[rmv-pila()]

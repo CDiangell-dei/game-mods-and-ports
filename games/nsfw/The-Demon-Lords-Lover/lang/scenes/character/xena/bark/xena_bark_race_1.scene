@@ -1,0 +1,7 @@
+[cast x=Xena]
+[if xena-leads-race()]
+    x: {xena-race-xena-kills}-{xena-race-hero-kills}... Parece que estou na frente, mano!
+[elif race-is-tied()]
+    x: {xena-race-xena-kills}-{xena-race-hero-kills}... Cara, estamos empatados!
+[else]
+    x: {xena-race-xena-kills}-{xena-race-hero-kills}... Ei... Preciso me concentrar!

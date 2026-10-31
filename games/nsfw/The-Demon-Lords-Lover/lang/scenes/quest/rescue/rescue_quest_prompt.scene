@@ -1,0 +1,34 @@
+[cast a=Hero, c=Chii, m=Miran, v=Viola]
+[show portrait c smiling]
+Hummm...
+
+c: Olá Viola!
+
+[show portrait v normal]
+Uma linda mulher com pernas longas se aproxima.
+
+[show portrait c smiling]
+c: Olá, Viola, aqui é {heroname}.
+
+c: Este aventureiro novato quer realizar esta missão.
+
+[show portrait v normal]
+Viola olha a nota da missão.
+
+v: Ah, eu ia pegar esse.
+
+[show portrait c smiling]
+c: Ok, perfeito! Essa missão é um pouco perigosa, então ficaria tranquilo se você o acompanhasse.
+
+[show portrait v normal]
+Viola se volta para você.
+
+v: Ok... se você estiver bem comigo.
+
+Você não tem certeza se ela está com frio ou apenas tímida.
+
+a: Eu ficaria feliz em formar uma equipe!
+
+v: Estarei sob seus cuidados.
+
+v: Vamos sair agora?

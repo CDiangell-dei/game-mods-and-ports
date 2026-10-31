@@ -1,0 +1,2 @@
+[cast n=Nanako]
+n: O {if rescue-target.plural then rescuees else rescuee}.

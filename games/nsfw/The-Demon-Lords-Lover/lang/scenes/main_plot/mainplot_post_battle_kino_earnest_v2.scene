@@ -1,0 +1,12 @@
+[cast earnest=Earnest, kino=Kino]
+[stop floor-song]
+[set MAIN_PLOT_KINO_FIGHT_V2_DONE]
+[show portrait kino serious]
+kino: Parece que a situação é ainda mais perigosa do que o esperado...
+
+[show portrait earnest serious]
+sério: Vamos nos reagrupar por enquanto...
+
+[kino-and-earnest-depart()]
+Parece que Kino deixou cair um urso de pelúcia no caos da batalha. Você pega.
+[get-bear-shard()]

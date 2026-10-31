@@ -1,0 +1,66 @@
+[name] Treine no dojo (→ noite)
+[cast a=Hero, x=Xena, st=martial-artist]
+Enquanto Xena demonstra uma técnica marcial, ela grita de dor.
+
+a: O que há de errado?
+
+[show portrait x disappointed]
+x: Ah, não é nada, acho que acabei de puxar alguma coisa.
+
+Xena se senta no chão.
+
+x: A-a-a-a....
+
+st: Você está bem, Xena?
+
+x: Ah, estou bem...
+
+[show portrait x normal]
+x: {heroname}, você sabe como fazer esse movimento, certo? Vá demonstrar isso para todos.
+
+E então você faz...
+
+x: Entendeu? Você pode treinar enquanto eu me recupero...
+
+Xena está massageando a área machucada.
+
+Você traz uma garrafa de água para Xena.
+
+[show portrait x smiling]
+x: Obrigado {heroname}.
+
+x: Ahhhh... talvez eu tenha me esforçado demais hoje.
+
+x: Eu me esforcei tentando acompanhar você.
+
+x: Você tem muita energia, haha!
+
+x: Mas eu me diverti...
+
+Os alunos murmuram...
+
+st: Você está ouvindo isso?
+
+st: {heroname} e Xena fizeram isso?
+
+st: De jeito nenhum... não consigo imaginar...
+
+[show portrait x blushing]
+Xena, que está ouvindo isso claramente, está ficando com o rosto vermelho.
+
+x: Do que vocês idiotas estão falando!
+
+x: E por que você não pode imaginar isso! Há algo de errado comigo?
+
+st: Então você fez sexo com {heroname}???
+
+x: Não!!!
+
+st: Tudo bem se você fez isso, sensei. Vamos apoiá-lo na sua felicidade!
+
+[show portrait x teasing]
+x: Ah {heroname}, não ligue para eles...
+
+x: Eles só estão brincando comigo...
+
+[scene xena_train]

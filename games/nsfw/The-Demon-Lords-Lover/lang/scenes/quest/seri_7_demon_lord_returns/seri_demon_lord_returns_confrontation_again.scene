@@ -1,0 +1,6 @@
+[cast a=Hero, s=Seri]
+[show portrait s glowing]
+s: {heroname}... Sempre adorei sua teimosia.
+
+[seri-demon-lord-become-hostile()]
+[end]

@@ -1,0 +1,37 @@
+[name] Pergunte sobre a estante
+[cast a=Hero, m=Miran, s=Seri]
+[show portrait s normal]
+Nos aposentos do lorde demônio, há uma enorme estante que se estende por uma parede.
+
+Os livros cobrem uma ampla gama de tópicos, incluindo histórias, religiões e ciências.
+
+[if with(m)]
+    [show portrait m normal]
+    m: Eu li a maioria dos livros sobre histórias de lordes demônios ao longo dos anos...
+
+    m: E eu nunca vi alguns desses livros...
+
+    Miran examina alguns deles.
+
+    [show portrait m normal]
+    m: Com base no idioma, alguns desses livros devem ter milhares de anos...
+
+    m: Seri, você consegue ler isso?
+
+    [show portrait s sad]
+    s: tenho tempo livre...
+
+    [show portrait m smile]
+    m: Mesmo assim, isso é incrível.
+
+[show portrait s normal]
+a: Seri... quem reuniu esses livros?
+
+s: Deve ter sido o antigo lorde demônio, certo?
+
+[show portrait s pensive]
+s: Se eu imaginar o antigo Lorde Demônio como alguém que lê livros, isso contradiz a imagem do Lorde Demônio dominado pela sede de sangue.
+
+[show portrait s smiling]
+s: Isso me alivia.
+[chat-menu(s)]

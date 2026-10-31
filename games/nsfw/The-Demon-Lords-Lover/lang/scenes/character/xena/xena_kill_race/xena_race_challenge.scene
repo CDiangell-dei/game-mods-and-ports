@@ -1,0 +1,20 @@
+[cast a=Hero, x=Xena]
+[if not seen(xena_race_challenge)]
+    [show portrait x normal]
+    x: Ei... tenho uma ideia.
+
+    [show portrait x motivated]
+    x: Que tal fazermos uma competição?
+
+    x: Vamos ver quem consegue nocautear mais monstros! Podemos comparar os números após o término da missão.
+[else]
+    [if HERO_LOST_LAST_XENA_RACE]
+        [show portrait x smiling]
+        x: Você quer uma revanche? Vamos ver quem consegue nocautear mais monstros!
+    [else]
+        [show portrait x motivated]
+        x: Me dê uma revanche!! Vamos ver quem consegue nocautear mais monstros!
+[menu]
+    a: Você está ligado!
+        [install-xena-race()]
+    a: Vamos nos concentrar na missão.

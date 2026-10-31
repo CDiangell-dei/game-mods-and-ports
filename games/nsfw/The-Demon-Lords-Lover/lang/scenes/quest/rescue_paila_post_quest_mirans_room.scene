@@ -1,0 +1,7 @@
+[name] Vá para o quarto de Miran (→ manhã)
+[cast m=Miran]
+[show portrait m blushing]
+Miran cora furiosamente.
+
+[rmv-viola()]
+[miran-night()]

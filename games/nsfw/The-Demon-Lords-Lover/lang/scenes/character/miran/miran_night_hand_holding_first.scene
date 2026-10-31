@@ -1,0 +1,139 @@
+[cast a=Hero, m=Miran]
+[unlock miran_masturbation]
+[mood-song dream]
+[show cg miran_bedside_blushing]
+Na cama, você e Miran estão de frente um para o outro.
+
+Os olhos de Miran desviaram, fazendo contato visual por um instante aqui e outro ali.
+
+m: O que você está olhando...
+
+a: Seu rosto fofo...
+
+Miran cobre o rosto com as mãos.
+
+m: Como você pode simplesmente dizer coisas assim...
+
+Você gentilmente segura uma das mãos dela, revelando seu rosto avermelhado.
+
+Miran fecha os olhos de vergonha.
+
+a: Eu não posso evitar...
+
+m: Você é tão indecente...
+
+m: Eu nem sei o que devo fazer nesta situação...
+
+Você sente uma umidade na mão de Miran...
+
+Miran, percebendo isso, afasta a mão, mas você a segura.
+
+m: Minhas mãos suam quando fico nervoso...
+
+m: É nojento...
+
+a: Mas não é.
+
+Você leva a mão dela ao seu peito.
+
+À medida que a umidade de Miran penetra em sua pele, o rosto de Miran fica cada vez mais vermelho.
+
+m: O-o que você vai fazer comigo?
+[menu]
+    a: Só estou segurando sua mão agora...
+    a: Nada que você também não queira fazer...
+m: N-não podemos fazer sexo...
+
+a: Eu não disse nada disso...
+
+Ao pousar os olhos em Miran, a exaustão das atividades do dia toma conta de você.
+
+E você adormece.
+
+[show cg miran_bedside_angry]
+Miran, cuja mão ainda está em sua mão, se sente frustrada.
+
+m: (Como ele consegue dormir numa hora dessas...)
+
+[show cg miran_bedside_blushing]
+Miran mexe as pernas e percebe o quão molhada ficou durante toda essa provação.
+
+Enquanto Miran sente a luz pulsar em sua mão, ela usa a outra mão para sentir a umidade sob as cobertas.
+
+m: (Oo que estou fazendo...)
+
+E seus dedos começam a estimular seu clitóris...
+
+m: (E-e se ele descobrir o que estou fazendo...)
+
+Mas Miran não consegue parar e seus dedos atacam sua feminilidade com cada vez mais intensidade.
+
+Sua respiração fica irregular...
+
+E ela solta um pequeno gemido.
+
+Assim que faz isso, ela cobre a mão com a mão, que está pingando de umidade.
+
+Você se mexe um pouco e murmura enquanto dorme.
+
+a: Miran, aqui... eu tenho uma poção de cura...
+
+E você aperta a mão dela.
+
+[hide all]
+Miran, cujo rosto está manchado de umidade, retira a mão da sua e vai para o banheiro, onde se encara no espelho.
+
+m: (Miran, você perdeu a cabeça...)
+
+Mas a sensação da sua mão permanece.
+
+E Miran, com as pernas fracas, senta-se na tampa do vaso sanitário.
+
+[show cg miran_masturbation]
+E ela começa a se masturbar...
+
+m: (Se eu não terminar, não vou conseguir dormir...)
+
+... é o raciocínio dela.
+
+Ao fazer isso, ela emite ruídos molhados cada vez mais altos...
+
+E a combinação de sua respiração ofegante e ruídos molhados faz com que você caia em um estado meio acordado...
+
+E você questiona o que está ouvindo.
+
+Não pode ser... certo?
+
+Você muda de posição de lado para de costas e volta a dormir.
+
+[hide all]
+Depois que Miran termina, ela encontra você em uma posição de dormir diferente, o que faz sua mente disparar.
+
+m: (Ele não me ouviu... certo?)
+
+[show cg miran_bedside_neutral]
+Miran gentilmente vai para a cama com você, o que faz com que você diga palavras durante o sono...
+
+a: Miran...
+
+m: O-o que...
+
+a: Você não precisa fazer isso sozinho...
+
+m: V-você me ouviu?
+
+[if (seen(seri_you_meet_for_the_first_time) or seen(seri_spend_alone_in_dungeon) or seen(seri_spend_time_alone_dungeon_default))]
+    a: Podemos derrotar a maldição do Lorde Demônio juntos...
+
+[else]
+    a: Podemos derrotar o Lorde Demônio juntos...
+
+a: Eu posso cuidar de você...
+
+[show cg miran_bedside_blushing]
+m: Eu-idiota...
+
+[if not MEMORIES_MODE]
+    [scene inn_night_subscene]
+
+[end]

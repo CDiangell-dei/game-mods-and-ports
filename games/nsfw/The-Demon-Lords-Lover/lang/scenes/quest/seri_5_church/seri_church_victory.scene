@@ -1,0 +1,98 @@
+[cast a=Hero, s=Seri, n=Nanako, e=Eve]
+[show portrait e normal]
+e: Interessante...
+
+e: Parece que a bênção do Lorde Demônio é mais do que apenas poder mágico...
+
+e: Meros humanos, mesmo ungidos por Deus, não são páreo para os seres predestinados.
+
+[show portrait s serious]
+s: Diga-me, o que você quis dizer com está afixado em alguma coisa.
+
+[show portrait e normal]
+e: ...
+
+e: Ok, então você descobre onde o poder está escondido...
+
+e: E então o que?
+
+[show portrait s serious]
+s: Quando eu descobrir onde ele está escondido, poderei me livrar dele para sempre.
+
+[show portrait e bitter_laugh]
+e: Hahahaha!!!!
+
+e: Eu nunca vi um lorde demônio tão fora de sintonia com seus sentimentos!
+
+[show portrait e normal]
+e: Tudo o que posso dizer é que se você refletir o suficiente para descobrir o que é...
+
+e: Você também pode descobrir quem você realmente é.
+
+[hide portrait]
+Eva e os inquisidores escapam.
+
+[show portrait n smiling]
+n: Parece que temos nossa próxima missão.
+
+[show portrait s normal]
+s: Hein?
+
+[show portrait n smiling]
+n: Você quer encontrar, certo?
+
+n: Os restos do seu poder.
+
+[show portrait n normal]
+n: Para qualquer propósito.
+
+a: Nanako! Como você pode dizer algo assim?
+
+[show portrait n smiling]
+n: Quero dizer, precisamos descobrir onde o poder do Lorde Demônio está escondido, certo? Você sabe, para destruí-lo... ou retomá-lo.
+
+[show portrait n normal]
+n: Estou bem com qualquer resultado, apenas apoio Seri.
+
+[show portrait s pensive]
+s: Nanako... você não pode dizer coisas assim.
+
+s: Eu quero...
+
+s: Bem... alguém tem que destruí-lo.
+
+[show portrait s serious]
+s: E estamos aqui... então...
+
+[show portrait s pensive]
+s: E não é como se eu tivesse mais alguma coisa para fazer.
+
+s: ...
+
+[show portrait s sad]
+s: Você acha... que tenho fugido do meu destino?
+
+a: Você acha que seu destino era ser transportado para outro mundo e ser o lorde demônio?
+
+a: Isso é muito complicado para considerar as coisas como destino.
+
+s: Ela disse que eu era estrangeiro...
+
+[show portrait s normal]
+s: E se o ciclo herói / senhor demônio existir para dar às pessoas neste mundo algo pelo que torcer?
+
+s: Tipo, se não existisse, todas as raças do mundo começariam a se voltar umas contra as outras.
+
+s: Nunca me senti tão próximo do povo japonês... Ou melhor, sinto que eles me traíram.
+
+s: Não acho certo matar pessoas, andando por aí com uma fantasia tão grande...
+
+[goto-evening()]
+[seri-church-place-post-victory()]
+[stop floor-song]
+
+Eve deixou cair algumas notas de pesquisa. Você os pega e entrega para Seri.
+
+[show portrait s normal]
+s: Ok, vou dar uma olhada.
+[seri-receives-church-notes()]

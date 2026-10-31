@@ -1,0 +1,42 @@
+[name] Retomar romance
+[cast a=Hero, l=Pila]
+[mood-song gentle]
+[show portrait l blushing]
+a: A última missão... vocês querem fazer isso juntos?
+
+[set I_AGREED_TO_HAVE_SEX_WITH_PILA]
+[show portrait l blushing]
+Pila suspira...
+
+l: {heroname}... o que você está dizendo...
+
+a: Quero usar a vara de vibração em você...
+
+l: M-mas... se você fizer isso... não é como fazer sexo??
+
+a: Eu quero fazer sexo com você também...
+
+a: E você?
+
+[show portrait l crying]
+Ao observar a seriedade em seus olhos, Pila começa a chorar...
+
+l: {heroname}... você já me deu tanto... sem nada em troca.
+
+l: Posso receber isso de você? S-sexo?
+
+a: Não entendo... Não é um favor...
+
+a: Eu quero fazer isso...
+
+...
+
+[show portrait l blushing]
+l: Eu quero fazer isso também...
+
+l: Oh querido... não acredito no que estou dizendo...
+
+a: Irei ao seu quarto à noite!!
+
+Pila olha nos seus olhos... e acena com a cabeça.
+hint: Daqui para frente, você poderá visitar o quarto de Pila à noite.

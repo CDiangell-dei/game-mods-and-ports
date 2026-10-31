@@ -1,0 +1,38 @@
+[cast a=Hero, v=Viola]
+[show portrait v]
+Uma mulher elegante com pernas longas está diante de você.
+
+Uau... Ela é linda.
+
+a: Hum, olá!
+
+v: Olá.
+
+Você não tem certeza se ela está com frio ou apenas tímida.
+
+a: Meu nome é {heroname}. Acho que você poderia dizer que sou um aventureiro.
+
+v: Eu sou Viola... e sou uma aventureira também...
+
+[menu]
+    a: Por acaso você quer formar uma equipe?
+        v: Ah... Em geral eu trabalho sozinho...
+
+        a: Ah, está tudo bem, não se preocupe ^^.
+
+        v: Hummm...
+
+        v: Nós dois estamos aqui, então talvez seja mais seguro se ajudarmos um ao outro desta vez...
+
+        a: Sério? Quer dizer, eu concordo!
+
+        v: Ok... se você estiver bem comigo.
+        [menu]
+            a: Vamos!
+                v: ... tudo bem. Estarei sob seus cuidados.
+                [add-viola()]
+            a: Ah, talvez seja melhor explorar separadamente.
+                Viola assente.
+    a: Vamos fazer o nosso melhor. (Saia.)
+        Viola assente.
+[end]

@@ -1,0 +1,12 @@
+[name] Ajude-a a se alongar
+[cast v=Viola]
+[show cg viola_stretch_yoga]
+Viola faz algumas posturas de ioga enquanto você assiste.
+
+[show cg viola_stretch_partner]
+Viola segura o calcanhar e alonga os isquiotibiais.
+
+[show cg viola_stretch]
+Você e Viola fazem alguns alongamentos de parceria.
+
+[viola-room-menu()]

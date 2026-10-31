@@ -1,0 +1,216 @@
+[cast a=Hero, s=Seri, n=Nanako]
+[show portrait s glowing]
+Você vê Seri, brilhando com poder demoníaco.
+
+a: Então era verdade. Você realmente se tornou o Lorde Demônio.
+
+a: Era necessário acabar com o ciclo herói/lorde demônio para sempre?
+
+s: Sim, foi.
+
+a: Isso é um alívio. eu sabia disso...
+
+s: {heroname}, sinto muito.
+
+s: Me desculpe por não ter correspondido às suas expectativas...
+
+[if with(n)]
+    [show portrait n smiling]
+    n: Seri, é hora de parar de pedir desculpas.
+
+    [show portrait s glowing]
+    s: ...
+
+    [show portrait n smiling]
+    n: Não há problema em dizer isso.
+
+    n: Você quer isso.
+
+[show portrait s glowing]
+s: Eu só queria tentar.
+
+s: Olha o poder que eu tenho...
+
+s: Se eu conseguir derrotar o grupo do herói...
+
+s: Eu poderia remodelar este mundo no que acredito que deveria ser.
+
+s: Acho que nunca poderia me apegar a este mundo se não estivesse no comando...
+
+s: Você poderia dizer que esta é a minha maneira de afirmar minha vida.
+
+s: Em vez de se esconder na obscuridade...
+
+s: Esta é a minha maneira de dizer que existo.
+
+a: Você sempre existiu!
+
+[show portrait s glowing]
+s: {heroname}... minha ganância por reconhecimento aparentemente não tem limites...
+
+a: Nossas conversas até agora eram apenas mentiras?
+
+[if with(n)]
+    [show portrait n normal]
+    n: Não dê ouvidos a ela, {heroname}. O que você teve com ela foi real. Isso também é real.
+
+    [show portrait s glowing]
+a: Então o que é isso? Você vai fazer o que? Nos matar?
+
+s: Para deixar uma marca neste mundo... não permitirei que ninguém fique no meu caminho.
+
+s: Não estou interessado em compromisso desta vez...
+
+a: Isso é apenas uma grande fantasia...
+
+a: Depois que você começar a matar pessoas de verdade, você perceberá o que fez e se arrependerá de tudo isso.
+
+a: Você não sabe quem você é!
+
+[if with(n)]
+    [show portrait n normal]
+    n: ... isso é o suficiente, {heroname}.
+
+    n: Se é isso que Seri quer, mesmo que seja em um momento fugaz, temos que deixá-la fazer isso.
+
+    n: Tudo o que vem a seguir é como queremos responder.
+
+[show portrait s glowing]
+s: {heroname}...
+
+[if with(n)]
+    s: Nanako...
+
+s: Vou lhe dar uma chance de se aliar a mim... como nos velhos tempos.
+
+[if with(n)]
+    [show portrait n smiling]
+    n: ...
+
+    n: Então, como é que você não nos força a fazer isso, como fez no passado?
+
+    n: Eventualmente, o grupo do herói chegará. E em vez de nos usar, você fez a escolha nossa?
+
+    n: Isso é apenas uma farsa antes de você me coagir como fez na outra noite?
+
+    [show portrait s glowing]
+    s: Essa foi a última vez.
+
+    a: ...
+
+    [show portrait n smiling]
+    n: Você entendeu agora, {heroname}?
+    [menu]
+        a: Ela nos escravizou.
+        a: Não, o que é isso?
+            n: Eu nem sei se devo dizer isso.
+[else]
+    a: O que você quer dizer?
+
+[show portrait s glowing]
+s: {heroname}... os livros de feitiços descrevem um feitiço para invocar os asseclas do Lorde Demônio.
+
+s: Eu queria tentar.
+
+s: E quando lancei o feitiço, as duas pessoas que apareceram foram você e Nanako.
+
+s: O feitiço cria inerentemente um contrato de escravos.
+
+s: E apesar de saber que era errado, mantive sua existência como meus escravos.
+
+s: Quando Kino e Earnest estavam prestes a destruir minha alma... consegui a permissão deles para libertar vocês dois primeiro.
+
+s: Terminei nosso contrato.
+
+s: Eu libertei vocês dois, mas não esperava que vocês dois acabassem me ajudando por vontade própria.
+
+[if with(n)]
+    [show portrait n smiling]
+    n: Acho que não teria feito isso se soubesse o que aconteceu.
+
+[show portrait s glowing]
+s: Mesmo quando vocês eram meus escravos, vocês eram muito gentis comigo.
+
+s: Isso me deixou doente de culpa, então provavelmente teria libertado você eventualmente.
+
+s: Kino e Earnest apenas me forçaram.
+
+s: De qualquer forma, agora você sabe.
+
+s: Eu sou uma pessoa má, viu?
+[menu]
+    a: Sério...
+    a: Você não está.
+
+[show portrait s glowing]
+s: Bem, suponho que teremos que concordar em discordar.
+
+s: Não posso deixar de sentir que tenho alguma curiosidade sobre como seria o mundo sob o meu governo.
+
+s: Será necessário o mal para criar o mundo que desejo...
+
+s: Você não quer ver, {heroname}?
+
+s: E Nanako... considerando todas as coisas que aconteceram na sua vida...
+
+s: Você não quer garantir que coisas assim nunca aconteçam com mais ninguém?
+
+s: Podemos criar um novo mundo...
+
+s: E estou lhe dando a escolha porque não desejo ver vocês dois como meus escravos se movendo contra a vontade deles.
+
+a: É porque você é uma boa pessoa.
+
+a: É porque você sente culpa.
+
+a: Isso significa que você sabe que está errado.
+
+s: É apenas uma emoção humana que não é útil para mim.
+
+s: Ter vocês dois por perto como escravos me incomodaria... tornaria minha vida mais complicada.
+
+s: Ok, por favor, tome sua decisão. Você vai se aliar a mim? Ou não?
+
+Você fecha os olhos para pensar.
+
+Seri... o que está acontecendo...
+
+Isso é realmente Seri?
+
+O que é exatamente que ela realmente quer?
+
+Ela realmente quer governar o mundo?
+
+Não estou vendo a verdade óbvia?
+
+E se o que Seri diz for verdade, o que acontecerá?
+
+É possível que ela realmente use seus poderes de lorde demônio para criar um mundo melhor do que o que existe atualmente?
+
+O que eu sei sobre este mundo?
+
+Eu me importo com o que é certo?
+
+Ou me importo com outra coisa?
+
+a: Sério. Parece que nunca conheci essa parte de você.
+
+a: Sinto muito por ser tão indiferente e sinto muito por nunca ter conhecido você dessa maneira.
+
+a: É claro que não posso permitir que você vá mais longe.
+
+a: Se é uma luta que você quer, nós daremos a você.
+
+[if with(n)]
+    [show portrait n smiling]
+    n: Seri... se é isso que você quer, você sabe que tem que lutar por isso, certo?
+
+    n: Dê tudo de si.
+
+    n: Por mais que eu te odiei quando descobri que você havia me escravizado.
+
+    [show portrait n winking]
+    n: É possível que eu tivesse feito a mesma coisa na sua situação.
+
+[seri-demon-lord-become-hostile()]
+[end]

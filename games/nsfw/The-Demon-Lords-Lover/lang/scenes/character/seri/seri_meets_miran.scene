@@ -1,0 +1,35 @@
+[cast a=Hero, m=Miran, s=Seri]
+[show portrait s normal]
+Ao notar Miran, Seri se curva.
+s: Olá, meu nome é Seri.
+
+[show portrait m smile]
+m: Olá, meu nome é Miran. {heroname} me contou sobre você...
+
+s: Prazer em conhecê-lo.
+
+[show portrait m normal]
+m: Você não precisa ser tão formal, Seri... quero dizer... não é solitário aqui embaixo?
+
+[show portrait s smiling]
+s: Haha, acho que já estou acostumada...
+
+[show portrait m smile]
+m: Você precisa de algumas plantas... da próxima vez trarei algumas!
+
+Seri não sabe como responder...
+
+s: Posso ver como vocês se tornaram amigos...
+
+s: Tanta bondade... para alguém que você não conhece.
+
+Seri se vira para você.
+
+s: Ela é tão fofa... onde você a encontrou?
+
+a: Eu sei, certo?
+
+[show portrait m blushing_surprised]
+Miran fica vermelha.
+
+m: O-o que vocês dois estão dizendo?

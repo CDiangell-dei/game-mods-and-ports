@@ -1,0 +1,2 @@
+[cast v=Viola]
+v: {hunt-target|capitalize(definite)} {if hunt-target.plural then are else is} em B{quest-end-floor}.

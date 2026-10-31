@@ -1,0 +1,3 @@
+Voltar para a cidade?
+[yes-or-no-prompt()]
+[goto-town-triggering-events()]

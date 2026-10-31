@@ -1,0 +1,16 @@
+[cast a=Hero, n=Nanako, h=Hera, o=Ophelia]
+[stop floor-song]
+[show portrait o normal]
+o: Vamos nos reagrupar, Hera.
+
+[show portrait h normal]
+h: Mas...
+
+[show portrait o normal]
+o: Está tudo bem... Podemos derrotar o lorde demônio e seus asseclas juntos.
+
+o: Teremos outra chance.
+
+[hide portrait]
+O grupo de Hera escapa.
+[depart(hera, ophelia, lizza, quinn)]

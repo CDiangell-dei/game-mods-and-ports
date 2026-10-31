@@ -1,0 +1,10 @@
+[name] Sair
+[cast c=Chii]
+[if is-morning()]
+    c: Tenha um bom dia, querido!
+[if is-afternoon()]
+    c: Tenha um bom dia, querido!
+[if is-evening()]
+    c: Certifique-se de relaxar um pouco!
+[if is-night()]
+    c: Boa noite, querido.

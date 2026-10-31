@@ -1,0 +1,15 @@
+[name] O que é esse lugar?
+[cast a=Hero, c=Chii]
+[show portrait c normal]
+a: Então, que lugar é esse?
+
+c: Esta é a Pousada Foothold! Minha irmã administra a pousada no lado oeste e eu administro o pub no lado leste.
+
+c: Esta também é a casa da guilda dos aventureiros.
+
+c: De manhã, os aventureiros se reúnem aqui, realizam missões e seguem para a masmorra.
+
+c: E eu faço um pouco de trabalho administrativo, como combinar aventureiros com missões para que eles não pisem uns nos outros.
+
+c: E aí, você ficou interessado em se tornar um aventureiro?
+[chat-menu(c)]

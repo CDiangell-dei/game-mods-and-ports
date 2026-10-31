@@ -1,0 +1,74 @@
+[cast a=Hero, k=Kira]
+[show portrait k normal]
+Você vê Kira, que está olhando para a água com uma expressão vazia.
+
+Kira percebe que você está olhando para ela.
+
+k: Olá, {heroname}.
+
+k: Não sei se você está interessado em fazer sexo comigo...
+
+k: Mas parece que vou deixar esta cidade amanhã, ganhando ou perdendo o duelo.
+
+Kira aproxima o rosto do seu.
+
+[show portrait k staring]
+k: Então deveríamos fazer sexo esta noite. É a nossa última chance.
+
+a: O-o quê? Você não acabou de dizer que nunca quis fazer sexo comigo?
+
+[show portrait k normal]
+k: Vou te entregar meu corpo como forma de pedido de desculpas.
+
+a: O-o quê? Eu não quero que você me foda por culpa... isso é só...
+
+k: ...
+
+k: Ok, e se eu estivesse pedindo ajuda?
+
+a: Ajuda?
+
+k: Estou nervoso com o duelo com minha irmã amanhã... talvez você possa me distrair.
+
+a: ...
+
+k: Meu relacionamento com minha irmã mudou para sempre, então estou triste. Preciso que você me anime.
+
+a: Eu não sei...
+
+k: Você está realmente insistente em me rejeitar.
+
+k: Você está atraído por mim?
+
+Kira segura suas duas mãos. Você olha para o rosto e os seios dela.
+
+a: Sim, estou.
+
+a: Mas não quero fazer sexo por este ou aquele motivo. Eu quero que você se sinta atraído por mim também!
+
+a: Eu quero que você esteja a fim de mim para que quando eu te foder você fique excitado, e não apenas verificando mentalmente sua culpa, seu nervosismo, sua tristeza... isso faz sentido?
+
+[show portrait k blushing]
+k: Deus, você é tão burro! Você não consegue ler nas entrelinhas?
+
+k: Eu quero, eu quero com você!
+
+[show portrait k blushing_b]
+Kira começa a chorar.
+
+k: Sim, me sinto culpado, me sinto nervoso, me sinto triste.
+
+k: Mas eu também gosto de você!!
+
+k: Quero dizer, como eu poderia não estar... Você foi bom comigo esse tempo todo!
+
+k: E mesmo quando tentei te matar, você me poupou, você me entendeu, você viu o que havia de bom em mim. Mesmo que não haja nada de bom em mim!
+
+a: Shh, entendi.
+
+Você dá um abraço em Kira e Kira retribui.
+
+k: Eu quero fazer isso com você... tanto...
+
+[yes-or-later-prompt()]
+[scene kira_has_sex]

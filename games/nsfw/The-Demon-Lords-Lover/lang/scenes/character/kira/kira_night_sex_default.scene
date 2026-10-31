@@ -1,0 +1,15 @@
+[name] Faça sexo
+[cast k=Kira]
+[hide all]
+[show cg kira_sex_slow]
+k: {heroname}...
+
+[show cg kira_sex_hard]
+k: {heroname}!!!
+
+[show cg kira_sex_orgasm]
+k: Ahhhh~ <3
+
+[hide all]
+[show portrait k|nude blushing_b]
+[kira-room-menu()]

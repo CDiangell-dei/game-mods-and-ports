@@ -1,0 +1,13 @@
+[cast l=Pila]
+[if is-morning()]
+    [show portrait l normal]
+    l: Bom dia, querido.
+[if is-afternoon()]
+    [show portrait l normal]
+    l: Boa tarde, querido.
+[if is-evening()]
+    [show portrait l normal]
+    l: Boa noite, querido. Fique à vontade para passar a noite.
+[if is-night()]
+    [show portrait l normal]
+    l: Boa noite, querido. Fique à vontade para passar a noite.

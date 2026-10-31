@@ -1,0 +1,72 @@
+[name] Passe algum tempo com Ise (→ noite)
+[cast a=Hero, i=Ise, c=Chii]
+[if not seen(ise_introduction)]
+    [scene ise_introduction]
+[else]
+    [show portrait i smiling]
+    Parece que Ise está aqui...
+
+    [show portrait i determined]
+    i: Hein? O que você está olhando? Você quer ir??
+
+[show portrait i blushing]
+O estômago de Ise ronca alto e ela cora de vergonha.
+
+i: Hum... antes disso... eu tenho que comer!
+
+[show portrait i smiling]
+i: Chi! Eu quero o frango frito!
+
+[show portrait c smiling]
+c: Serão 5 peças de ouro.
+
+[show portrait i normal]
+E Ise abre sua bolsa de moedas e... ela só tem algumas moedas de ouro.
+
+[show portrait i crying]
+i: Ah!!!
+
+[show portrait i blushing]
+Ise se vira para você com o rosto corado.
+
+i: É tudo porque você não nos deixou roubá-lo pacificamente!
+
+[show portrait i crying]
+i: Eu teria 100 ouro a mais...
+
+É nessa hora que entra a sua refeição... que também é meio frango frito.
+
+[show portrait i excited]
+Ise olha para o seu frango frito, com uma pitada de baba no rosto.
+
+Ela te dá olhos de cachorrinho...
+[menu]
+    [if have-gold(10)]
+        Cubra ela (10g)
+            [rmv-gold(10)]
+            [set YOU_GAVE_ISE_FOOD]
+    Dê a ela uma baqueta
+        [set YOU_GAVE_ISE_FOOD]
+    Nenhuma das opções acima
+[if YOU_GAVE_ISE_FOOD]
+    [show portrait i smiling]
+    Ise inicialmente tem uma expressão cautelosa, que se transforma em um sorriso aberto.
+
+    i: Ah, oh!!! Mesmo que você tenha me superado na batalha, você pode reconhecer o valor de ficar do meu lado!
+
+    i: Mas não pense que você está impune! Eu vou me vingar!
+
+    i: Eu poderia limitar minha vingança ao seu ouro em vez de à sua vida!
+
+    É bom saber que ela não vai me matar...
+[else]
+    [show portrait i normal]
+    a: Eu não vou cobrir você! Como seu inimigo, isso é uma forma de respeito.
+
+    [show portrait i determined]
+    i: Grrr... Você sabe como racionalizar as coisas... Esses 100 ouro serão meus!
+
+    [hide portrait]
+    Mais tarde, os membros do grupo de Ise chegam e acabam cobrindo-a.
+[record-pub-hang-out()]
+[goto-night()]

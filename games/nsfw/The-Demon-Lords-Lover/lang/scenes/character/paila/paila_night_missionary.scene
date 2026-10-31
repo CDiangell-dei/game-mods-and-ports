@@ -1,0 +1,12 @@
+[name] Fazer sexo (missionário)
+[cast p=Paila]
+[show cg paila_missionary_soft]
+p: {heroname}... Ahhhh~
+
+[show cg paila_missionary_hard]
+p: {heroname}... Isso é loucura...
+
+[show cg paila_missionary_orgasm]
+p: Ahhhh!!! Estou gozando!!!
+
+[paila-room-menu()]

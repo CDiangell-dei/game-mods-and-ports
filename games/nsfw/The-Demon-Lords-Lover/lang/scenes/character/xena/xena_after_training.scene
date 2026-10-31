@@ -1,0 +1,4 @@
+[venue dojo]
+[cast a=Hero, x=Xena]
+[show portrait x normal]
+x: Bom trabalho, {heroname}!

@@ -1,0 +1,17 @@
+[cast a=Hero, i=Ise, e=Emma, trav=Trav]
+[show portrait i smiling]
+i: Parece que você acumulou uma grande recompensa...
+
+i: Como seu rival, estou orgulhoso de você!
+
+[show portrait i smug]
+i: Mas é hora de me vingar... e conseguir essa recompensa!
+
+[show portrait e normal]
+e: Afinal, Ise precisa comer!
+
+[show portrait trav facepalm]
+trav: Todos nós precisamos comer...
+
+[bandit-become-hostile()]
+[end]

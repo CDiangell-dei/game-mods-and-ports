@@ -1,0 +1,123 @@
+Pegar a erva e ir para casa?
+[yes-or-later-prompt()]
+[set TODAY_PAILA_WAS_RESCUED]
+[show portrait p worried]
+Você mostra a erva para Paila.
+a: É isso?
+
+Paila pega a erva com as mãos trêmulas. Ela olha atentamente.
+
+p: Vou ser sincero... não pensei que iríamos encontrá-lo.
+
+p: {heroname}, sinto que vou desmaiar.
+
+Você dá um abraço nela e ela cai nele. Ela estremece contra você, e você pode sentir a umidade de suas lágrimas e muco em seu peito.
+
+Você gentilmente dá um tapinha na cabeça dela e, em resposta, ela choraminga e morde sua camisa...
+
+a: Vamos indo...
+
+Paila assente.
+[menu]
+    Sair da masmorra
+[paila-returns-items()]
+[travel-to-town-skipping-quest-arrival()]
+[goto-pailas-house()]
+[show portrait l frowning]
+l: Paila!!!!
+
+[show portrait p worried]
+p: Estou em casa.
+
+[show portrait l frowning]
+l: {heroname}, não consigo expressar o quanto estou grato.
+
+Ela se vira para Paila.
+l: Paila, onde você esteve?
+
+[show portrait p worried]
+p: Peço desculpas, mãe. Eu estava... ocupado.
+
+[show portrait l frowning]
+Pila olha para Paila com preocupação.
+l: Eu acho... eu acho que você é um adulto agora. Talvez eu não precise saber onde você está o tempo todo...
+
+[show portrait p worried]
+p: Não mãe, não é bem assim. Eu não deveria ter feito você se preocupar.
+
+[show portrait l frowning]
+l: Estou feliz que você esteja seguro. Por alguma razão, tive uma sensação horrível no estômago...
+
+[show portrait p worried]
+Paila parece culpada.
+p: Está tudo bem agora.
+
+[show portrait l frowning]
+l: Mas não é, certo?
+
+[show portrait p worried]
+p: ...
+
+p: Está tudo bem agora.
+
+[show portrait l frowning]
+Pila suspira e se vira para você.
+l: Eu gostaria de poder lhe dar uma recompensa generosa...
+
+a: Está tudo bem; você já me deu tanto.
+
+[show portrait l smiling]
+Pila mostra um sorriso gentil.
+l: Você é um garoto gentil...
+
+[menu]
+    Mais tarde...
+[show portrait p]
+Paila fala com você em particular.
+
+p: {heroname}... obrigado. Quero dizer.
+
+p: Vou pedir para minha mãe tomar a erva.
+
+a: Espero que ela melhore.
+
+[show portrait p worried]
+p: {heroname}... Vou ser honesto... acho que provavelmente não vai ajudar.
+
+a: O quê?
+
+p: A erva ser capaz de curar a doença da minha mãe... é baseada num boato infundado.
+
+a: Você não precisa se desculpar, mas...
+
+p: Estou preparado para isso, é o que quero dizer.
+
+[show portrait p blushing]
+Paila aperta suas mãos.
+p: Muita coisa aconteceu...
+
+p: Perdi minha virgindade. Acho que perdi minha virgindade na masmorra também.
+
+Hein? Paila era virgem?
+
+[show portrait p worried]
+p: Acho que preciso de algum tempo para processar tudo...
+
+a: eu entendo...
+
+Ela te dá um abraço profundo. Por um tempo, ela olha nos seus olhos como se estivesse procurando alguma coisa. E então ela recupera a compostura e se curva.
+[rmv-paila()]
+[end-quests()]
+[if with(v) and with(m)]
+    [scene miran_viola_offer_their_rooms]
+[elif with(v)]
+    [scene viola_offers_her_room]
+[elif with(m)]
+    [menu]
+        Mais tarde...
+    [show portrait m normal]
+    m: Tenha uma boa noite, {heroname}...
+
+[rmv-companions()]
+[regenerate-town()]
+[end]

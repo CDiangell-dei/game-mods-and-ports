@@ -1,0 +1,303 @@
+[name] Dê bastão luminoso
+[cast a=Hero, m=Miran, n=Nanako, s=Seri, v=Viola]
+[set SERI_LEFT_DUNGEON]
+[set TODAY_SERI_CAME_HOME]
+[mood-song seri_reprise]
+[show portrait s normal]
+Você dá o bastão luminoso para Seri.
+[seri-remove-glowstick()]
+
+[show portrait s serious]
+s: Ok, é isso.
+
+[if with(v)]
+    [show portrait v normal]
+    v: Não há problema em ficar nervoso.
+
+[if with(m)]
+    [show portrait m smile]
+    m: Seri, eu acredito em você.
+
+[if with(n)]
+    [show portrait n normal]
+    n: Finalmente está acontecendo, não é?
+
+[show portrait s normal]
+Seri pega o último fragmento...
+
+E logo depois, ela cai de joelhos.
+
+Sua respiração fica áspera, quase como se ela estivesse engasgada.
+
+Você corre para o lado dela.
+
+a: Seri, o que há de errado?
+
+s: {heroname}, não me sinto bem...
+
+E Seri cai de lado em posição fetal.
+
+Enquanto ela estremece, você sente a sala ficando em silêncio...
+
+No seu íntimo, você sente que algo muito, muito ruim vai acontecer.
+
+[show portrait s glowing]
+E acontece: Seri libera uma explosão de energia. Você é derrubado de costas com força contundente.
+
+E quando você se orienta, percebe que Seri parece diferente.
+
+Seus olhos são de um vermelho brilhante...
+
+E a aura quieta e severa é substituída por um tremor de medo.
+
+a: Seri, fale comigo!
+
+s: {heroname}... afinal foi o último...
+
+s: Como os outros fragmentos, este fragmento retornou memórias, emoções e impulsos.
+
+s: Mas, ao contrário dos outros fragmentos, este fragmento preencheu as lacunas deixadas pelos outros fragmentos.
+
+s: As mesmas memórias... recontextualizadas.
+
+s: {heroname}... Eu sou de fato o Lorde Demônio...
+
+s: Eu sou mau...
+
+[if with(v)]
+    [show portrait v normal]
+    v: Seri... não tire conclusões precipitadas...
+
+[if with(m)]
+    [show portrait m pleading]
+    m: Eu... ainda... acredito em você...
+
+[if with(n)]
+    [show portrait n normal]
+    Nanako não tem expressão facial, mas sua mão avança em direção à espada.
+
+[show portrait s glowing]
+Você dá um abraço em Seri, mas ela não retribui.
+
+s: Estou com medo... de mim mesmo.
+
+s: Se eu olhar objetivamente... acho que outras pessoas passaram por situações piores do que eu.
+
+s: Outras pessoas passaram pelo inferno e se revelaram boas pessoas.
+
+s: Eu queria parecer uma boa pessoa também.
+
+s: Mas posso sentir minha amargura... é tão avassaladora.
+
+s: Eu tentei tanto ser uma "boa menina"...
+
+s: Mas acho que não fui nada "bom"...
+
+s: Acho que no fundo, eu só queria que as pessoas retribuíssem...
+
+s: Pouco a pouco, comecei a odiá-los....
+
+E por um momento, o brilho de Seri fica mais intenso e seus olhos ficam mais vazios.
+
+a: Seri, está tudo bem.
+
+a: Você pode odiar as pessoas.
+
+a: Você pode desejar que a humanidade acabe.
+
+a: Mas em vez de se dar ao trabalho de acabar com isso sozinho,
+
+a: Prefiro que você passe algum tempo com {if party.plural then us else me}.
+
+[if with(v)]
+    [show portrait v normal]
+    v: Seri, podemos recomeçar...
+
+[if with(m)]
+    [show portrait m pleading]
+    m: Seri, você nem viu fora desta masmorra...
+
+[if with(n)]
+    [show portrait n normal]
+    n: Seri, eu entendo seus sentimentos. Mas ouça {heroname}. Mesmo que aceitemos que você odeia a humanidade, acho que estar com algumas pessoas que você ama é uma maneira melhor de viver.
+
+    n: Eu sei que é difícil acreditar.
+
+    n: Como primeiro passo, veja os olhos de {heroname} e entenda sua seriedade.
+
+[show portrait s crying]
+Seri começa a chorar.
+
+s: {heroname}... por que você não respondeu meu e-mail?
+
+Você se lembra que 2 anos depois de se formar, Seri lhe enviou um e-mail...
+
+Dizia: "Olá {heroname}, peço desculpas se isso é uma invasão de privacidade, mas encontrei seu e-mail em meus antigos papéis do conselho estudantil... Como vai você?"
+
+E seu coração afunda.
+
+Você se lembra daquele e-mail...
+
+E você se lembra do que aconteceu um dia antes de receber aquele e-mail...
+
+Agora é a hora de ser corajoso...
+
+a: Sério.
+
+a: Minha vida tinha ido uma merda.
+
+a: E porque te admirei, tive vergonha de responder.
+
+a: Posso ver agora que foi um erro horrível.
+
+E Seri te dá um abraço.
+
+s: {heroname}...
+
+s: Uma parte de mim acreditava que era um motivo inócuo como esse...
+
+s: Mas a maior parte de mim acreditava que você me abandonou... como todos os outros.
+
+s: Mesmo agora, não consigo afastar a sensação de que se você me amasse de verdade, teria sido capaz de superar sua vergonha...
+
+Seri soluça.
+
+s: Eu sou horrível... você deve ter passado por algo horrível...
+
+s: E eu nem consigo acreditar por causa do meu ódio por mim mesmo...
+
+a: Seri, naquela época eu não sabia quem você era. Era impossível para mim amar você genuinamente naquela época.
+
+a: Mas agora,
+
+a: Eu te amo.
+
+a: Mas mesmo agora, sinto que estou apenas começando a conhecer você.
+
+s: Mas e se depois de me conhecer mais você me amar menos?
+
+a: Acho que para termos uma chance de amar, temos que nos mostrar um ao outro.
+
+a: Você pode me amar menos depois de me conhecer mais...
+
+a: Mas temos que tentar.
+
+Seri te dá um abraço.
+
+s: {heroname}...
+
+s: Quero saber mais sobre você também.
+
+E por um momento, há silêncio.
+
+[show portrait s sad]
+Depois de um tempo, Seri quebra o silêncio.
+
+s: E acho que para nós termos uma chance...
+
+s: Eu não posso ser o Lorde Demônio...
+
+a: O que você quer dizer?
+
+s: Eu sinto que o fato de eu ser o Lorde Demônio... pressiona você para me ajudar...
+
+s: Também estou começando a conhecer você...
+
+s: Mas eu sei que você é meio intrometido...
+
+s: Se alguém está passando por dificuldades, você não pode deixar de ajudar...
+
+s: Talvez sejamos parecidos nesse aspecto, embora sempre tenha achado que as suas razões para fazê-lo eram mais puras que as minhas.
+
+a: Nunca senti tanta pressão!
+
+[show portrait s smiling]
+Pela primeira vez nesta conversa, Seri mostra um sorriso gentil.
+
+s: Estou feliz, mas não acredito em você.
+
+s: Tudo bem, planejamos isso desde o início, certo?
+
+[show portrait s normal]
+E Seri coloca a mão no pergaminho da maldição.
+
+[if alone()]
+    s: {heroname}, por acaso você pode me emprestar seu poder?
+
+    E você colocou a mão em cima da Seri.
+[else]
+    Seri olha para você e seus companheiros.
+
+    s: Hum, por acaso, você pode me emprestar seu poder?
+
+    [if with(v)]
+        [show portrait v smiling]
+        Viola assente.
+
+    [if with(m)]
+        [show portrait m smile]
+        m: Seri, é claro.
+
+    [if with(n)]
+        [show portrait n smiling]
+        n: Vamos fazer isso.
+
+[show portrait s glowing_eyes_closed]
+Seri fecha os olhos e se concentra em lançar o feitiço incurável.
+
+E você pode sentir o poder da maldição do Lorde Demônio cercando vocês dois...
+
+Parece poderoso e sufocante.
+
+E vocês dois canalizam seu poder para o feitiço.
+
+[show portrait s glowing]
+E {if party.plural then all of you else both of you} grite: "Não amaldiçoe!"
+
+E uma luz branca envolve Seri...
+
+Parece agarrar Seri como uma mão gigante...
+
+[show portrait s sad]
+E Seri cai de joelhos...
+
+Você a abraça por trás e Seri agarra seus pulsos...
+
+Suas unhas cravam em sua pele...
+
+E Seri grita quando a luz branca entra em seu corpo...
+
+E sai do corpo pela boca gritante.
+
+Então, a luz se dissipa e Seri entra em colapso.
+
+[hide all]
+[show cg cg_seri_end]
+s: Está feito...
+
+s: Agora voltei a ser normal...
+
+s: Agora não posso fazer guerra à humanidade mesmo que quisesse, haha...
+
+[if with(v)]
+    v: Deu tudo certo... ou talvez tenhamos feito dar certo?
+
+[if with(m)]
+    m: Você é incrível, Seri.
+
+[if with(n)]
+    n: Acabou...
+
+E Seri não solta seus pulsos até desmaiar.
+
+[hide all]
+Você coloca Seri de costas e sai da masmorra.
+
+[travel-to-town-skipping-quest-arrival()]
+[goto-inn-counter()]
+Por enquanto, Chii e Hilde deixaram Seri ficar com um quarto de graça.
+
+[end-quests()]
+[rmv-companions()]
+[regenerate-town()]
+[end]

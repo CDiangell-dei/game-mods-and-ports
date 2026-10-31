@@ -1,0 +1,3 @@
+[cast l=Pila]
+[record-cook(l)]
+[goto-night()]

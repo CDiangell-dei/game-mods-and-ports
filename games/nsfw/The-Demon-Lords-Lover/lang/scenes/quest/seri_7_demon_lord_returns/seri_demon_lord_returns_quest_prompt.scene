@@ -1,0 +1,35 @@
+[cast a=Hero, n=Nanako, k=Kino]
+[if not seen(seri_demon_lord_returns_quest_prompt)]
+    [show portrait n serious]
+    n: Você sente isso, {heroname}?
+
+    [show portrait k serious]
+    k: O lorde demônio... retornou.
+
+    a: Sério???
+
+    a: Isso não pode ser...
+
+    a: Talvez ela precisasse do poder para... destruir o ciclo herói/lorde demônio para sempre?
+
+    [show portrait k serious]
+    k: Esperançoso como sempre. Mas devemos nos preparar para o pior cenário possível.
+
+    k: Ou melhor, você não tem escolha.
+
+    k: A cidade inteira sente isso.
+
+    k: O grupo do herói desceu à masmorra com um propósito singular.
+
+    [show portrait n normal]
+    n: ...
+
+    n: Acredito que haja alguma humanidade em Seri, apesar do que ela fez.
+
+    n: Se alguém pode alcançá-la, é você.
+
+    n: Ou melhor, quer consigamos alcançá-la ou não, parece que temos que ir.
+
+    n: Não ficarei satisfeito se for o grupo do herói que não tem ligação com ela que a derrotará no final.
+
+    n: Se alguém vai derrotá-la, temos que ser nós.

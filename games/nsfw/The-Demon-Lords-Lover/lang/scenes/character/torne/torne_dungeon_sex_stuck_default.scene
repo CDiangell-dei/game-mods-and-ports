@@ -1,0 +1,11 @@
+[name] Sexo (buraco na parede)
+[cast t=Torne]
+[show cg torne_stuck_sex]
+Torne entra em um buraco na parede.
+
+t: {heroname}, dê para mim!
+
+[show cg torne_stuck_sex_orgasm]
+t: Ahhhh~!!
+
+[torne-private-area-menu()]

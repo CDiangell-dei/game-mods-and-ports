@@ -1,0 +1,22 @@
+[cast a=Hero, c=Chii]
+[show portrait c smiling]
+Uma mulher mais velha que parece ter entre 30 e 40 anos sorri para você atrás do balcão.
+
+c: Olá senhor! Você é um rosto novo.
+
+c: O nome é Chii.
+
+a: Meu nome é {heroname}.
+
+[show portrait c smiling]
+c: Lindo nome!
+
+Ela faz uma pausa e sussurra em seu ouvido.
+
+c: Você veio de muito, muito longe, não é?
+
+a: Como você sabia?
+
+c: Chii simplesmente sabe. Se você viu tanto quanto eu, terá um sexto sentido para essas coisas.
+
+c: Então, como posso ajudá-lo?

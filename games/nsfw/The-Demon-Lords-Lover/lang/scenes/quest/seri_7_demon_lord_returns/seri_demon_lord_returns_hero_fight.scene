@@ -1,0 +1,56 @@
+[cast a=Hero, n=Nanako, h=Hera]
+[floor-song tension]
+[show portrait h normal]
+[if with(n)]
+    h: Ah, os asseclas do lorde demônio.
+[else]
+    h: Ah, o servo do lorde demônio.
+
+h: Qual é o seu plano desta vez?
+
+a: Nós vamos acalmá-la...
+
+[show portrait h normal]
+h: Depois de tudo que ela fez com você... você ainda acredita nela.
+
+[if with(n)]
+    [show portrait n smiling]
+    n: Em última análise, as pessoas com quem ela se envolveu somos nós, não você.
+
+    n: Então, gostaríamos de ter uma chance de resolver isso antes que você siga seus caminhos bárbaros.
+
+[show portrait h normal]
+h: Você entende que ela já cometeu um crime, pela maneira como ela tratou você.
+
+[menu]
+    a: Eu me importo com ela, ainda.
+    a: Este é o nosso negócio.
+h: Você entende que não posso permitir que você vá na nossa frente, não é?
+
+h: Vocês são os servos do lorde demônio.
+
+h: Preferimos lutar com vocês separadamente do que juntos.
+
+[if with(n)]
+    [show portrait n smiling]
+    n: Isso não é um pouco anticlimático?
+
+    n: Você não quer um confronto final?
+
+    a: Não haverá um confronto final!
+
+a: Isso é um erro... Seri é apenas...
+
+a: Ela não é esse tipo de pessoa.
+
+[show portrait h normal]
+h: Um confronto final, hein?
+
+h: Por mais emocionante que pareça, isto não é um jogo.
+
+[show portrait h glowing]
+h: Renda-se ou enfrente as consequências.
+
+[hide portrait]
+[hero-party-become-hostile()]
+[end]

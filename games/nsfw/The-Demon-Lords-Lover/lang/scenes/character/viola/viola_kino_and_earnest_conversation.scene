@@ -1,0 +1,94 @@
+[cast a=Hero, earnest=Earnest, kino=Kino, m=Miran, v=Viola]
+[set VIOLA_AND_EARNEST_MET]
+Você vê 2 homens...
+
+[show portrait kino serious]
+Um jovem cheio de segurança...
+
+[show portrait earnest serious]
+Um homem mais velho e grisalho que parece ter visto de tudo...
+
+O homem mais velho fala.
+sério: Ah, é a Viola.
+
+[show portrait kino serious]
+kino: Este é o cavaleiro expulso?
+
+[show portrait earnest serious]
+sério: Sim, é esse.
+
+[show portrait v]
+Você se vira para Viola, que está congelada no lugar.
+
+Após uma pausa anormal, ela se curva e fala com uma voz trêmula.
+
+v: Príncipe Kino e Cavaleiro-comandante Earnest...
+
+v: É uma honra estar na sua presença.
+
+[if with(m)]
+    [show portrait earnest serious]
+    sério: E seus amigos?
+
+    a: Meu nome é {heroname}.
+
+    m: Meu nome é Miran.
+
+[else]
+    [show portrait earnest serious]
+    sério: E seu amigo?
+
+    a: Meu nome é {heroname}.
+
+Apanhado pela atmosfera, você se curva diante dos dois homens.
+
+Por um tempo, o Cavaleiro Comandante Earnest e Viola se entreolharam. Nenhum dos dois parece saber o que dizer...
+
+[show portrait kino]
+O Príncipe Kino observa a interação com um sorriso misterioso.
+
+[show portrait v]
+v: Se me permitem perguntar: O que o príncipe e o cavaleiro comandante estão fazendo tão longe de casa?
+
+[show portrait kino serious]
+kino: Peço desculpas, mas é informação confidencial.
+
+kino: Mas garanto-lhe: é para o reino.
+
+[show portrait earnest serious]
+O cavaleiro-comandante Earnest não adiciona comentários.
+
+[show portrait v]
+v: ... ok.
+
+[show portrait kino]
+kino: Cavaleiro-comandante Earnest – você tem mais negócios com Viola e {heroname}?
+
+...
+
+[show portrait earnest normal]
+sério: Estou aliviado por você ter uma companheira.
+
+O cavaleiro-comandante Earnest se volta para você.
+
+sério: Cuide bem dela.
+
+Você acena com a cabeça.
+
+[show portrait kino smiling]
+O príncipe produz algumas poções de cura e as dá para você.
+[receive-healing-potions()]
+
+kino: Para sua jornada.
+
+[hide portrait]
+O príncipe e o cavaleiro-comandante saem de cena.
+[kino-and-earnest-leave()]
+
+[show portrait v]
+...
+
+Por um tempo, Viola não fala.
+
+Você decide não fazer perguntas... por enquanto.
+[end]

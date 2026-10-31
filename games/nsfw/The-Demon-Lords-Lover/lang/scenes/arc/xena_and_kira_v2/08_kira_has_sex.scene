@@ -1,0 +1,8 @@
+[name] Retomar romance
+[cast a=Hero, k=Kira]
+[scene kira_first_time_at_the_inn]
+(Eu deveria verificar o duelo de Xena e Kira amanhã.)
+[hide portrait]
+[if not MEMORIES_MODE]
+    [goto-night()]
+[end]

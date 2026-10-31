@@ -1,0 +1,12 @@
+[name] Sexo
+[cast x=Xena]
+[hide all]
+[show cg xena_sex_slow]
+x: É uma sensação boa...
+
+[show cg xena_sex_fast]
+x: Ahhh... Minha mente está ficando em branco...
+
+[show cg xena_sex_cum_in]
+x: Ah!!!
+[xena-room-menu()]

@@ -1,0 +1,9 @@
+[name] Sair
+[cast v=Viola]
+[if is-evening()]
+    v: Tenha uma boa noite, {heroname}.
+[elif is-night()]
+    v: Tenha uma boa noite, {heroname}.
+[else]
+    v: Tome cuidado.
+[rmv-viola()]
